@@ -1,0 +1,12 @@
+taxonomy:
+- content:
+  - title: Browse
+    path: /taxonomy/browse
+  - title: Advanced search
+    path: /taxonomy/search
+- grouptitle: Major subfamilies
+  content:
+  - title: Example 1
+    path: /about
+  - title: Example 2
+    path: /about
