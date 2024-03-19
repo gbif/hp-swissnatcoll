@@ -1,33 +1,108 @@
-var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-  primary: themeStyle.colors.primary
-}});
+var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
+var isSquared = themeStyle && themeStyle.square;
 
-var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-  primary: themeStyle.colors.primary,
-  fontSize: '16px'
-}});
+const countryCode = 'CH';
+
+if (primaryColor) {
+  var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
+    primary: primaryColor,
+    borderRadius: isSquared? 0 : 3
+  }});
+}
 
 var siteConfig = {
+  version: 2,
+  availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'],
   routes: {
-    occurrenceSearch: {
-      // The route you are currently using for occurrence search. The language prefix will be added automatically
-      // If you need special routes per language, then you have to add locale specific overwrites. The page language is available as a global variable called `pageLang`
-      // route: '/data'
-    }
+    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey', 'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
-      lat: 60,
-      lng: -100,
-      zoom: 4.9115440763665068
+      lat: 0,
+      lng: 0,
+      zoom: 1.8
     },
-    // You probably need help to configure the scope - so just ask
-    // for his demo site we only show Fungi (taxonKey=5). It use the predicate structure known from GBIF download API. 
-    // See https://www.gbif.org/developer/occurrence (long page without enough anchors - search for "Occurrence Download Predicates")
-    // The format is however slightly different, in that is use camelCase for keys instead of CONSTANT_CASE. 
-    rootPredicate: { type: 'equals', key: 'taxonKey', value: 5 }, 
+    rootPredicate: {
+      "type": "or",
+      "predicates": [
+        {
+          "key": "publishingCountry",
+          "type": "equals",
+          "value": countryCode
+        },
+        {
+          "type": "and",
+          "predicates": [
+            {
+              "key": "country",
+              "type": "equals",
+              "value": countryCode
+            },
+            {
+              "key": "notIssues",
+              "type": "equals",
+              "value": "COUNTRY_COORDINATE_MISMATCH"
+            }
+          ]
+        }
+      ]
+    },
+    highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
     // occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
+  },
+  dataset: {
+    rootFilter: {publishingCountry: countryCode},
+    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
+    excludedFilters: ['publishingCountryCode'],
+  },
+  publisher: {
+    rootFilter: {country: countryCode},
+    excludedFilters: ['countrySingle', 'networkKey'],
+  },
+  collection: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
+  },
+  institution: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+      active: true
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7.877
+    },
+  },
+  literature: {
+    rootFilter: {
+      predicate: {
+        type: 'or', predicates: [
+          {
+            type: 'in',
+            key: 'countriesOfResearcher',
+            values: [countryCode]
+          },
+          {
+            type: 'in',
+            key: 'countriesOfCoverage',
+            values: [countryCode]
+          }
+        ]
+      }
+    },
+    highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
+  },
+  maps: {
+    locale: 'fr'
   }
 };
 
