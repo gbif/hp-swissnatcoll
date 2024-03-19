@@ -1,0 +1,8 @@
+en:
+  label: English
+  icon:  # optional
+fr:
+  label: French
+  icon:  # optional
+  storiesLocale: fr
+  widgetLocale: fr
