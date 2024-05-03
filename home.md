@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: Swiss Virtual Natural History Collection, welcome
+title: Swiss Virtual Natural History Collection
 description: Coming soon...
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
