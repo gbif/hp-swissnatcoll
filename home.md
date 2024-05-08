@@ -1,15 +1,20 @@
 ---
 lang-ref: home
 layout: home
+permalink: /
 # ====================================================================================
-# TITLE TOP PART OF THE HOMEPAGE
+# TITLE PART OF THE HOMEPAGE
 # ====================================================================================
 title: Swiss Virtual Natural History Collection
-description: Coming soon...                                          #subtitle below the title
-background:  "{{ site.data.images.acalypha_gillespieae.src }}"        #background image
+description: Virtual museum of the Natural History collections of Switzerland
+background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
-cta:                                                                  #shortcut buttons
+
+# ====================================================================================
+# SHORTCUT BUTTONS BELOW THE TITLE
+# ====================================================================================
+cta:
   - text: Institutions
     href: /institution/search
     isPrimary: true
@@ -17,15 +22,30 @@ cta:                                                                  #shortcut 
     href: /specimen/search
   - text: About
     href: /about
+
+# ====================================================================================
+# WHOLE STRUCTURE OF THE HOMEPAGE
+# ====================================================================================
 composition:
+# ------------------------------------------------------------------------------------
+# top banner (with title)
+# ------------------------------------------------------------------------------------
   - type: heroImage # the block type
-  - type: stats                                                        #part below the title section, here with stats
-    data: examples.stats                                                #file with the stats: _data/examples.yml
-  - type: split
-    data: examples.herbariumImageExample                            
+# ------------------------------------------------------------------------------------
+# stats part
+# ------------------------------------------------------------------------------------
+  - type: stats
+    data: examples.stats  #file with the stats: _data/examples.yml
+# ------------------------------------------------------------------------------------
+# thematic feature coded in a yml file
+# ------------------------------------------------------------------------------------
   - type: features
     data: examples.couldBeAnyName
-permalink: /
+# ------------------------------------------------------------------------------------
+# 2-columns splitted part
+# ------------------------------------------------------------------------------------
+  - type: split
+    data: examples.herbariumImageExample                            
 ---
 
 Edit `/home.md` to change the text.
