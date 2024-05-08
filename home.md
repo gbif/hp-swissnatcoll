@@ -20,9 +20,9 @@ cta:                                                                  #shortcut 
 composition:
   - type: heroImage # the block type
   - type: stats                                                        #part below the title section, here with stats
-    data: examples.stats                                                #file with the stats
+    data: examples.stats                                                #file with the stats: _data/examples.yml
   - type: split
-    data: examples.herbariumImageExample
+    data: examples.herbariumImageExample                            
   - type: features
     data: examples.couldBeAnyName
 permalink: /
