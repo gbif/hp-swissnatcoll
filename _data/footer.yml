@@ -12,6 +12,9 @@ columns:
     - text: Info Fauna
       href: https://www.infofauna.ch/fr#gsc.tab=0
 
+  - description: |
+      [<img src="/assets/images/placeholders/Logo GBIF - 300 dpi RGB.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
+
   - name: Helpline
     links:
     - text: Data Admninistrator
@@ -19,7 +22,7 @@ columns:
   
   - name: Contact
     description: | # Can be Markdown
-      * Info Fauna
+      * [Info Fauna](https://www.infofauna.ch/fr#gsc.tab=0)
       * Avenue de Bellevaux 51
       * 2000 Neuchâtel
       * Switzerland
