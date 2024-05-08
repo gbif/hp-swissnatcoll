@@ -65,7 +65,7 @@ algae:
       # links: "#fa5e97"          # What color should links have. Use a HEX code. Default is primary color. 
     coloredHeadlineLinks: false   # If a headline is a link, then use the link color. Default is true. 
   navbar:                         # RELATED TO NAVIGATION BAR
-    brandBackground: green     # Define a custom background for the logo/title in the top navigation bar
+    # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
     # hasWhiteText: true          # Should the text color be white?
     # floating: true
