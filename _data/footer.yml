@@ -22,7 +22,7 @@ columns:
       * Avenue de Bellevaux 51
       * 2000 Neuchâtel
       * Switzerland
-    connectIcons: true
+    #connectIcons: true
 
   # EXAMPLE
   #- name: Group name
