@@ -1,6 +1,6 @@
 # it is possible to refer to images in front matter and access these images. 
 # Or you can choose to just type them in the front matter. It is a matter of preference. 
-# If you reuse images a lot, it can be convinent to only have them one place.
+# If you reuse images a lot, it can be convenient to only have them one place.
 
 # So in your frontmatter you can either use this data file :
 # background:  "{{ site.data.images.catocala_ilia_cramer.src }}"
