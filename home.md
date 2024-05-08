@@ -10,7 +10,7 @@ description: Virtual museum of the Natural History collections of Switzerland
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
-#parallax: true
+parallax: true
 
 # ====================================================================================
 # SHORTCUT BUTTONS BELOW THE TITLE
@@ -38,7 +38,8 @@ composition:
   - type: features
     data: examples.couldBeAnyName
   - type: split
-    data: examples.herbariumImageExample                            
+    data: examples.herbariumImageExample
+                          
 ---
 
 Edit `/home.md` to change the text.
