@@ -4,7 +4,7 @@
   href: /about
 # - text: Occurrences
 #   href: /occurrence/search
-- text: Data
+- text: Data (search)
   menu: 
   - text: Occurrences
     href: /occurrence/search
@@ -12,19 +12,29 @@
     href: /institution/search
   - text: Collections
     href: /collection/search
-- text: Example pages
-  menu: # Dropdown menu (one level deep only)
-  - text: Simple
-    href: /example-pages/simple
-  - text: Complex
-    href: /example-pages/complex
+  - text: Collectors
+    href: /collector/search
+  - text: Projects
+    href: /project/search
 - text: Data Aggregator
   menu: # Dropdown menu (one level deep only)
   - text: Direct link
     href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
     href: /data-aggregator
-- text: Links
+- text: Methods
+  menu: # Dropdown menu (one level deep only)
+  - text: Digitisation
+    href: /example-pages/complex
+  - text: Management
+    href: /example-pages/complex
+  - text: Restoration
+    href: /example-pages/complex
+- text: News
+  href: /news/
+- text: Helpdesk
+  href: /helpdesk
+- text: hp-help
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
     href: https://hp-base-theme.gbif-staging.org/
@@ -38,5 +48,3 @@
     href: https://guides.github.com/features/mastering-markdown/
   - text: YAML tutorial
     href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: News
-  href: /news/
