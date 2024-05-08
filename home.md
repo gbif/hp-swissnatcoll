@@ -10,6 +10,7 @@ description: Virtual museum of the Natural History collections of Switzerland
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
+parallax: true
 
 # ====================================================================================
 # SHORTCUT BUTTONS BELOW THE TITLE
@@ -25,25 +26,17 @@ cta:
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
+# top banner (with title)
+# stats part
+# thematic feature coded in a yml file
+# 2-columns splitted part
 # ====================================================================================
 composition:
-# ------------------------------------------------------------------------------------
-# top banner (with title)
-# ------------------------------------------------------------------------------------
   - type: heroImage # the block type
-# ------------------------------------------------------------------------------------
-# stats part
-# ------------------------------------------------------------------------------------
   - type: stats
     data: examples.stats  #file with the stats: _data/examples.yml
-# ------------------------------------------------------------------------------------
-# thematic feature coded in a yml file
-# ------------------------------------------------------------------------------------
   - type: features
     data: examples.couldBeAnyName
-# ------------------------------------------------------------------------------------
-# 2-columns splitted part
-# ------------------------------------------------------------------------------------
   - type: split
     data: examples.herbariumImageExample                            
 ---
