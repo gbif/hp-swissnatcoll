@@ -1,12 +1,15 @@
 ---
 lang-ref: home
 layout: home
+# ====================================================================================
+# TITLE TOP PART OF THE HOMEPAGE
+# ====================================================================================
 title: Swiss Virtual Natural History Collection
-description: Coming soon...
-background:  "{{ site.data.images.acalypha_gillespieae.src }}"
+description: Coming soon...                                          #subtitle below the title
+background:  "{{ site.data.images.acalypha_gillespieae.src }}"        #background image
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
-cta:
+cta:                                                                  #shortcut buttons
   - text: Institutions
     href: /institution/search
     isPrimary: true
@@ -16,8 +19,8 @@ cta:
     href: /about
 composition:
   - type: heroImage # the block type
-  - type: stats
-    data: examples.stats
+  - type: stats                                                        #part below the title section, here with stats
+    data: examples.stats                                                #file with the stats
   - type: split
     data: examples.herbariumImageExample
   - type: features
