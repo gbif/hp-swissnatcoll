@@ -23,7 +23,7 @@
   - text: Direct link
     href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
-    href: /dataaggregator
+    href: /data-aggregator
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
