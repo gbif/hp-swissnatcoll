@@ -18,7 +18,7 @@ columns:
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
+      * Info Fauna
       * Avenue de Bellevaux 51
       * 2000 Neuchâtel
       * Switzerland
