@@ -18,6 +18,12 @@
     href: /example-pages/simple
   - text: Complex
     href: /example-pages/complex
+- text: Data Aggregator
+  menu: # Dropdown menu (one level deep only)
+  - text: Direct link
+    href: https://staging.aggregator.scnat.zebbra.ch/
+  - text: About
+    href: /dataaggregator
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
