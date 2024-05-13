@@ -1,3 +1,9 @@
 en:
   label: English
   icon:  # optional
+de:
+  label: Deutsch
+fr:
+  label: Français
+it:
+  label: Italiano
