@@ -35,7 +35,6 @@ composition:
   - type: heroImage # the block type
   - type: stats
     data: examples.stats  #file with the stats: _data/examples.yml
-    text: Data source : GRSciColl
   - type: features
     data: examples.couldBeAnyName
   - type: split
