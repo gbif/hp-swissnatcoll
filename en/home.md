@@ -39,8 +39,8 @@ composition:
     data: home.vision
   - type: features
     data: home.thematicCommunities
-  - type: split
-    data: examples.herbariumImageExample
+  #- type: split
+  #  data: examples.herbariumImageExample
                           
 ---
 
