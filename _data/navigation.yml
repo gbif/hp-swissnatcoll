@@ -25,11 +25,11 @@
 - text: Methods
   menu: # Dropdown menu (one level deep only)
   - text: Digitisation
-    href: /example-pages/complex
+    href: /en/digitisation
   - text: Management
-    href: /example-pages/complex
+    href: /en/management
   - text: Restoration
-    href: /example-pages/complex
+    href: /en/restoration
 - text: News
   href: /news/
 - text: Helpdesk
