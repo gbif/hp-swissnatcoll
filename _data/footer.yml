@@ -18,7 +18,7 @@ columns:
   - name: Helpline
     links:
     - text: Data Administrator
-      href: mailto:anne.morel@infofauna.ch
+      href: mailto:contact-svnhc@infofauna.ch
   
   - name: Contact
     description: | # Can be Markdown
