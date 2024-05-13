@@ -53,7 +53,7 @@ vision:
   reverse: true
   title: "Vision"
   description: |      # required
-     With more than 60 million specimens of animals, plants, fungi, rocks, soil samples and fossils, Switzerland’s museums, universities, and botanical gardens store a remarkable scientific and patrimonial national treasure.  Objectives : - Promote modern standards in management and curation of collections, Modernise and digitise natural history collections, Provide open access  to harmonised specimen data of Swiss institutions, Promote and support the scientific potential of collections for research, Integrate the Swiss natural history collections into international initiatives
+     Publish and retrieve information on natural history collections and objects. Provide open-access to standardized natural history collection data held in Swiss institutions and data of specimens collected in Switzerland and curated abroad. The portal presents institutions and their natural history collections in Switzerland. It also serves as a platform to publish information and news in relation to natural  history collections in Switzerland. (Source: 20240422_SVNHC_description.pdf)
 
   # img required
   background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
