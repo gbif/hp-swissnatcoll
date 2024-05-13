@@ -1,7 +1,7 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
 - text: About
-  href: /about
+  href: /en/about
 # - text: Occurrences
 #   href: /occurrence/search
 - text: Data (search)
@@ -21,7 +21,7 @@
   - text: Direct link
     href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
-    href: /data-aggregator
+    href: /en/data-aggregator
 - text: Methods
   menu: # Dropdown menu (one level deep only)
   - text: Digitisation
