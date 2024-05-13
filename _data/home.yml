@@ -42,3 +42,17 @@ thematicCommunities:
       href: /en/typus
       background: /assets/images/categories/Typus-homemade.png
       imageLicense: None for this image, homemade (Anne Morel)
+
+vision:
+  reverse: true
+  title: Vision
+  description: >      # required
+     With more than 60 million specimens of animals, plants, fungi, rocks, soil samples and fossils, 
+     Switzerland’s museums, universities, and botanical gardens store a remarkable scientific and 
+     patrimonial national treasure.  Objectives : - Promote modern standards in management and 
+     curation of collections, Modernise and digitise natural history collections, Provide open access 
+     to harmonised specimen data of Swiss institutions, Promote and support the scientific potential 
+     of collections for research, Integrate the Swiss natural history collections into international initiatives
+
+  # img required
+  background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
