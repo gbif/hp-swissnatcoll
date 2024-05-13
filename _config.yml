@@ -116,32 +116,28 @@ defaults:
     values:
       lang: it
   
-   -
-    scope:
+   - scope:
       path: "_posts/en" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
       lang: en
       permalink: "/posts/en/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  -
-    scope:
+  - scope:
       path: "_posts/de" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
       lang: de
       permalink: "/posts/de/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  -
-    scope:
+  - scope:
       path: "_posts/fr" # an empty string here means all files in the project
       type: "posts"
     values:
       layout: "post"
       lang: fr
       permalink: "/posts/fr/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  -
-    scope:
+  - scope:
       path: "_posts/it" # an empty string here means all files in the project
       type: "posts"
     values:
