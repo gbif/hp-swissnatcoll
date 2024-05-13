@@ -1,5 +1,4 @@
 ---
-
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Complex page
 description: This layout requires a bit more fiddling as it is stiching together various blocks that all can be customized.
@@ -37,7 +36,6 @@ composition:
           Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
         background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
         imageLicense: None for this image, but it would normally go here. Markdown is allowed.
-
 ---
 
 # Some prose
