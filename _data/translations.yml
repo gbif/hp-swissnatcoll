@@ -1,4 +1,17 @@
 relatedPosts:
   en: "Related Posts"
+  fr: "Contenu lié"
+  de: "Verwandte Beiträge"
+  it: "Articoli correlati"
+
 differentLanguage:
   en: "This page is available in the following languages"
+  fr: "Cette page est disponible dans les langues suivantes"
+  de: "Diese Seite ist in den folgenden Sprachen verfügbar"
+  it: "Questa pagina è disponibile nelle seguenti lingue"
+
+tocTitle:
+  en: "On this page"
+  fr: "Sur cette page"
+  de: "Auf dieser Seite"
+  it: "Su questa pagina"
