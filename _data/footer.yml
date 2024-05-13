@@ -13,11 +13,11 @@ columns:
       href: https://www.infofauna.ch/fr#gsc.tab=0
 
   - description: |
-      [<img src="/assets/images/placeholders/Logo GBIF - 300 dpi RGB.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
+      [<img src="/assets/images/placeholders/Logo GBIF.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
 
   - name: Helpline
     links:
-    - text: Data Admninistrator
+    - text: Data Administrator
       href: mailto:anne.morel@infofauna.ch
   
   - name: Contact
