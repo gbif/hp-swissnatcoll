@@ -44,7 +44,7 @@ thematicCommunities:
       imageLicense: Anne Morel
     - title: Georeferencing # required
       description: |      # required
-        Typus collections of Switzerland
+        Recommendations and methods for a standardised georeferencing of natural history specimens
       href: /en/georeferencing
       background: /assets/images/categories/Georeferencing-homemade.png
       imageLicense: Anne Morel
