@@ -15,7 +15,7 @@ stats:
       description: Digitized specimens (basisOfRecord)
       background: /assets/images/placeholders/specimen.png
   description: |      # required
-    Data source (up-to-date) : GBIF
+    Data source (up-to-date) : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
 
 couldBeAnyName:
   title: Virginis socerque
