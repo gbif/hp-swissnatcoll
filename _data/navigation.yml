@@ -33,7 +33,7 @@
 - text: News
   href: /news/
 - text: Helpdesk
-  href: /helpdesk
+  href: /en/helpdesk
 - text: (hp-help)
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
