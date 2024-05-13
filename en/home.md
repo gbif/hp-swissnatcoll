@@ -34,9 +34,9 @@ cta:
 composition:
   - type: heroImage # the block type
   - type: stats
-    data: examples.stats  #file with the stats: _data/examples.yml
+    data: home.stats  #file with the stats: _data/examples.yml
   - type: features
-    data: examples.couldBeAnyName
+    data: home.thematicCommunities
   - type: split
     data: examples.herbariumImageExample
                           
