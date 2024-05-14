@@ -18,7 +18,7 @@ stats:
     - title: "843"
       description: Literature
       background: assets/images/categories/literature_istockphoto-839904424-2048x2048.jpg
-      href: /occurrence/search
+      # href: /occurrence/search
 
   description: |      # required
     Data source (up-to-date) : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
