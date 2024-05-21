@@ -2,7 +2,7 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Georeferencing
 description: Information and important pages on georeferencing
-background: /assets/images/placeholders/moss.jpg
+background: /assets/images/categories/Georeferencing-homemade.png
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 70vh
