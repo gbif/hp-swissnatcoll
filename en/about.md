@@ -1,10 +1,10 @@
 ---
 lang-ref: about
 title: About
-description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/placeholders/moss.jpg
+description: Virtual museum
+background: assets/images/GraphsDiagrams/SwissDataFlows.jpg
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+  DatenGroup_20231205.pptx (Presentation of Nils Arrigo)
 height: 70vh
 ---
 
