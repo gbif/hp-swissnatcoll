@@ -8,5 +8,5 @@ composition:
   - type: postHeader
   - type: pageMarkdown
 ---
-
+{{ site.data.virtualvisitposts.post_1.description}}
 back to [virtual visit posts]("site.en.virtualvisit.permalink")
