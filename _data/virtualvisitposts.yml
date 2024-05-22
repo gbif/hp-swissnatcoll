@@ -1,5 +1,6 @@
 post_1:
   background: "/assets/images/virtualvisit/Post_1.jpg"
+  height: 50vh
   title: Colours or not colours
   caption: "BERN Herbarium"
   description: |
