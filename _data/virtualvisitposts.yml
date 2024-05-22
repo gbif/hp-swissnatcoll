@@ -1,8 +1,7 @@
 post_1:
   background: "/assets/images/virtualvisit/Post_1.jpg"
-  height: 70vh
   title: Colours or not colours
-  imageLicense: "BERN Herbarium"
+  caption: "BERN Herbarium"
   description: |
       Here are two herbarium sheets (Sheet-0059884 and Sheet-0059885) of the [BERN Herbarium](https://www.boga.unibe.ch/wissenschaft/herbarium/index_ger.html).
       Same species, _Orchis traunsteineri_ currently named [_Dactylorhiza traunsteineri (Rchb.) Soó_](https://www.infoflora.ch/en/flora/dactylorhiza-traunsteineri.html),
