@@ -1,9 +1,15 @@
+# ===========================================================================================
+# Variables and Initial Setup
+# ===========================================================================================
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
 const publisher = 'SVNHC';
 
+# ===========================================================================================
+# Conditional Theme Setup
+# ===========================================================================================
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
@@ -11,13 +17,16 @@ if (primaryColor) {
   }});
 }
 
+# ===========================================================================================
+# Configuration Object
+# ===========================================================================================
 var siteConfig = {
   version: 2,
   availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'],
   routes: {
     enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey', 'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
-  occurrence: {
+  occurrence: {			#OCCURRENCE_CONFIGURATION
     mapSettings: {
       lat: 0,
       lng: 0,
@@ -52,16 +61,16 @@ var siteConfig = {
     // occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
     // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
-  dataset: {
+  dataset: {			#DATASET_CONFIGURATION
     rootFilter: {publishingCountry: countryCode},
     highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
     excludedFilters: ['publishingCountryCode'],
   },
-  publisher: {
+  publisher: {			#PUBLISHER_CONFIGURATION
     rootFilter: {country: countryCode},
     excludedFilters: ['countrySingle', 'networkKey'],
   },
-  collection: {
+  collection: {			#COLLECTION_CONFIGURATION
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
@@ -69,7 +78,7 @@ var siteConfig = {
 	  active: true
     }
   },
-  institution: {
+  institution: {		#INSTITUTION_CONFIGURATION
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
@@ -83,7 +92,7 @@ var siteConfig = {
       zoom: 7.877
     },
   },
-  literature: {
+  literature: {			#LITERATURE_CONFIGURATION
     rootFilter: {
       predicate: {
         type: 'or', predicates: [
@@ -102,7 +111,7 @@ var siteConfig = {
     },
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
-  maps: {
+  maps: {			#MAPS_CONFIGURATION
     locale: 'fr'
   }
 };
