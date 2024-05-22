@@ -1,5 +1,5 @@
 post_1:
-  background: "assets/images/virtualvisit/Post_1.jpg"
+  background: "/assets/images/virtualvisit/Post_1.jpg"
   title: Colours or not colours
   caption: "BERN Herbarium"
   description: >
