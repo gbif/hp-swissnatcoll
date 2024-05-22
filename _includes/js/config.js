@@ -2,6 +2,7 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
+const publisher = 'SVNHC';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
