@@ -1,7 +1,4 @@
-title: Virtual visit
 klass: contentTypesStat
-description: |
-  More to come soon 
 features: 
 - title: "{{ site.data.virtualvisitposts.post_1.title }}"
   categories: ["Herbarium"]
