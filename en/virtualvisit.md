@@ -8,8 +8,6 @@ imageLicense: |
 composition:
   - type: heroImage
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
-  - type: split
-    data: virtualvisitposts.post_1
   - type: features
     data: virtualvisit
 ---
