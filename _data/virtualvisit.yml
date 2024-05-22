@@ -6,4 +6,4 @@ features:
 - title: "{{ site.data.virtualvisitposts.post_1.title }}"
   categories: ["Herbarium"]
   background: "{{ site.data.virtualvisitposts.post_1.background }}"
-  href: /virtualvisit/post_1
+  href: /en/virtualvisit/post_1
