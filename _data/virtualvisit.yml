@@ -1,4 +1,7 @@
+title: Virtual visit
 klass: contentTypesStat
+description: |
+  Here are some of the treasures of our collections. Enjoy your visit.
 features: 
 - title: "{{ site.data.virtualvisitposts.post_1.title }}"
   categories: ["Herbarium"]
