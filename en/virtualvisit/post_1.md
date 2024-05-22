@@ -9,3 +9,5 @@ composition:
   - type: postHeader
   - type: pageMarkdown
 ---
+
+back to [virtual visit posts]("site.en.virtualvisit.permalink")
