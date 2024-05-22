@@ -1,7 +1,7 @@
 ---
 title: Virtual visit of the Swiss scientific collections
 layout: post
-permalink: /virtualvisit
+permalink: /en/virtualvisit
 background: /assets/images/placeholders/acalypha_gillespieae1258001892.jpg
 imageLicense: |
   none
