@@ -1,4 +1,4 @@
 dashboard:
   klass: iframe-box
   markdownContent: |
-    <iframe title="modelviewer_testing" height="550" src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="modelviewer_testing" height="550" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js" frameborder="0" allowFullScreen="true"></iframe>
