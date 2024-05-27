@@ -2,3 +2,8 @@ dashboard:
   klass: iframe-box
   markdownContent: |
     <iframe title="modelviewer_testing" height="550" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js" frameborder="0" allowFullScreen="true"></iframe>
+# voir comment intégrer un HTML
+# il faut des chemins de fichier dans les données de l'aggrégateur
+# mettre en place le modèle 3D dans la page svnhc
+# on ne fait pas de copie, seulement de l'affichage, avec toujours le lien vers leur site source
+# voir comment mettre du html / java script dans le hp
