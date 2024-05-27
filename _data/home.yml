@@ -68,16 +68,9 @@ vision:
 
 
 video-swisscollnet:
-  id: video-intro
-  klass: video-block
-  reverse: false
-  title: "SwissCollNet promotional video"
-  description: |      # required
-    Discover the project SwissCollNet
-  background:  [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
-  imageLicense: "SwissCollNet website"
-  href: https://www.youtube.com/watch?v=LWVDeDrFTCc
-  cta:
-  - text: Read more
-    href: https://swisscollnet.scnat.ch/
-    isPrimary: true
+  columns:
+    - description: |
+      [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
+    - name: SwissCollNet promotional video
+      description: |
+        Discover the project [SwissCollNet](https://swisscollnet.scnat.ch/)
