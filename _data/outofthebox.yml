@@ -2,6 +2,7 @@ title: Out of the Box
 klass: contentTypesStat
 description: |
   Treasures brought to light by digitisation of Swiss natural history collections
+  Source: [SCNAT - Out of the Box](https://swisscollnet.scnat.ch/en/out_of_the_box)
 features: 
 - title: "{{ site.data.outoftheboxposts.post_1.title }}"
   categories: ["Herbarium"]
