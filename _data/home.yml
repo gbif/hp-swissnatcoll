@@ -68,10 +68,6 @@ vision:
 
 
 video-swisscollnet:
-  klass: contentTypesStat
-  columns:
-    - description: |
-      [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
-    - name: SwissCollNet promotional video
-      description: |
-        Discover the project [SwissCollNet](https://swisscollnet.scnat.ch/)
+  titel: "SwissCollNet promotional video"
+  description: |
+    [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
