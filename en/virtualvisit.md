@@ -12,7 +12,7 @@ composition:
     data: outofthebox
 ---
 
-### Discover the treasures of our collections
+## Discover the treasures of our collections
 Here starts an extraordinary journey to uncover the hidden and forgotten treasures within Switzerland's natural history collections.
 Marvel at rare and ancient fossils that transport you back in time, and intricate minerals that sparkle with natural beauty.
 Explore fascinating artifacts that reveal the secrets of Earth's diverse ecosystems and geological wonders.
