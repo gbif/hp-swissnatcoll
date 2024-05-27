@@ -9,7 +9,7 @@ composition:
   - type: heroImage
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
   - type: features
-    data: virtualvisit
+    data: outofthebox
 ---
 
 # Discover the treasures of our collections
