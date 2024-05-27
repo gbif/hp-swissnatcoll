@@ -10,7 +10,7 @@ permalink: /data-aggregator
 composition:
   - type: pageMarkdown
 ---
-## Swiss Data Aggregator
+# Swiss Data Aggregator
 
 More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, SwissCollNet will collaborate with InfoSpecies and build on the already existing data infrastructure of the Swiss node of GBIF.
 
