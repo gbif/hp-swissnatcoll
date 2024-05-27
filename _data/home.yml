@@ -68,6 +68,6 @@ vision:
 
 
 video-swisscollnet:
-  titel: "SwissCollNet promotional video"
-  description: |
-    [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
+  title: "SwissCollNet promotional video"
+  description: | #/assets/images/placeholders/swissCollNet-vid.png
+    [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 900px; height: 500px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc)
