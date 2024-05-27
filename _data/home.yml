@@ -74,9 +74,8 @@ video-swisscollnet:
   title: "SwissCollNet promotional video"
   description: |      # required
     Discover the project SwissCollNet
-  background:  /assets/images/placeholders/swissCollNet-vid.png
+  background:  [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 700px; height: 100px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc) #/assets/images/placeholders/swissCollNet-vid.png
   imageLicense: "SwissCollNet website"
-  height: 50vh
   href: https://www.youtube.com/watch?v=LWVDeDrFTCc
   cta:
   - text: Read more
