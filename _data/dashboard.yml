@@ -1,4 +1,4 @@
 dashboard:
   klass: iframe-box
   markdownContent: |
-    <iframe title="modelviewer_testing" height="550" src="https://app.powerbi.com/view?r=eyJrIjoiNTgyYmEyNWQtOGE2My00NWVkLTkyN2YtYzBjZDI4M2I2MDI1IiwidCI6ImQ4NjA5MTVlLWI4YmUtNGY3Yi04NmJlLWUxNzNjMTgyZWFhZiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
+    <iframe title="modelviewer_testing" height="550" src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521" frameborder="0" allowFullScreen="true"></iframe>
