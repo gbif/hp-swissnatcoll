@@ -65,3 +65,22 @@ vision:
   background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
   imageLicense: |
     *_Catocala ilia_ Cramer, 1779
+
+
+video-swisscollnet:
+  id: video-intro
+  klass: video-block
+  reverse: false
+  title: "Watch our video introduction to GRSciColl"
+  description: |      # required
+    Learn about the Global Registry of Scientific Collections and how to navigate the website.
+  # img required
+  background:  "{{ site.data.images.play-squid.src }}"
+  imageLicense: "{{ site.data.images.play-squid.caption }}"
+  href: https://vimeo.com/showcase/10709937/video/872824009
+  cta:
+  - text: Read more
+    href: /about
+    isPrimary: true
+  - text: Explore
+    href: /institution
