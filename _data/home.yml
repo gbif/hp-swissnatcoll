@@ -71,16 +71,14 @@ video-swisscollnet:
   id: video-intro
   klass: video-block
   reverse: false
-  title: "Watch our video introduction to GRSciColl"
+  title: "SwissCollNet promotional video"
   description: |      # required
-    Learn about the Global Registry of Scientific Collections and how to navigate the website.
+    Discover the project SwissCollNet
   # img required
-  background:  "{{ site.data.images.play-squid.src }}"
-  imageLicense: "{{ site.data.images.play-squid.caption }}"
-  href: https://vimeo.com/showcase/10709937/video/872824009
+  background:  /assets/images/placeholders/swissCollNet-vid.png
+  imageLicense: "SwissCollNet website"
+  href: https://www.youtube.com/watch?v=wz4oSUvbTFY&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3&index=8
   cta:
   - text: Read more
-    href: /about
+    href: https://swisscollnet.scnat.ch/
     isPrimary: true
-  - text: Explore
-    href: /institution
