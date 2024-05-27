@@ -14,5 +14,3 @@ composition:
 </figure>
 
 {{ site.data.outoftheboxposts.post_1.description}}
-
-back to [Out of the Box posts]("site.en.virtualvisit.permalink")
