@@ -3,12 +3,12 @@ klass: contentTypesStat
 description: |
   Treasures brought to light by digitisation of Swiss natural history collections
 features: 
-- title: "{{ site.data.virtualvisitposts.post_1.title }}"
+- title: "{{ site.data.outoftheboxposts.post_1.title }}"
   categories: ["Herbarium"]
-  background: "{{ site.data.virtualvisitposts.post_1.background }}"
+  background: "{{ site.data.outoftheboxposts.post_1.background }}"
   href: /en/virtualvisit/post_1
   
-- title: "Coming soon" #"{{ site.data.virtualvisitposts.post_2.title }}"
+- title: "Coming soon" #"{{ site.data.outoftheboxposts.post_2.title }}"
   categories: ["Coming soon"]
-  #background: "{{ site.data.virtualvisitposts.post_2.background }}"
+  #background: "{{ site.data.outoftheboxposts.post_2.background }}"
   href: /en/virtualvisit/post_2
