@@ -2,9 +2,9 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Model Viewer
 description: Interactive 3D models
-background: /assets/images/placeholders/moss.jpg
+background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+  © 2023 The Biocommunication Group - ETH Zurich
 height: 70vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
