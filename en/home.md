@@ -37,6 +37,8 @@ composition:
     data: home.stats  #file with the stats: _data/examples.yml
   - type: split
     data: home.vision
+  - type: split
+    data: home.video-swisscollnet
   - type: features
     data: home.thematicCommunities
   #- type: split
