@@ -14,7 +14,7 @@ composition:
 - type: heroImage
 - type: pageMarkdown # This block will render the markdown in this file so no data property needed
 - type: blank
-  data: daschboard.daschboard
+  data: dashboard.dashboard
 ---
 
 # Infos on model viewer
