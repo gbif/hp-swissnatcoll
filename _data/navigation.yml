@@ -31,7 +31,11 @@
   - text: Restoration
     href: /en/restoration
 - text: Virtual visit
-  href: /en/virtualvisit
+  menu:
+  - text: Model Viewer
+    href: /en/modelviewer
+  - text: Virtual visit
+    href: /en/virtualvisit
 - text: Links
   href: /en/links
 - text: News
