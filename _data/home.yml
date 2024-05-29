@@ -54,6 +54,12 @@ thematicCommunities:
       href: /en/georeferencing
       background: /assets/images/categories/Georeferencing-homemade.png
       imageLicense: Anne Morel
+    - title: Digitalisation
+      description: |
+        Digitalisation workflows of various swiss institutions, best practices and helpful material
+      href: /en/digitalisation
+      background: /assets/images/categories/Digitalisation-homemade.jpg
+      imageLicense: Anne Morel
 
 vision:
   reverse: true
