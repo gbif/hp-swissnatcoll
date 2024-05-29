@@ -43,4 +43,7 @@ composition:
     data: home.thematicCommunities
   #- type: split
   #  data: examples.herbariumImageExample
-  ---
+
+---
+
+Edit `/home.md` to change the text.
