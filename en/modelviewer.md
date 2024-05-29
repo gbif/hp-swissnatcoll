@@ -30,18 +30,6 @@ written by: Christian Felsner
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
 # Preview
-<!-- Import the component -->
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
-
-<!-- Use it like any other HTML element -->
-<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum"
-              src="shared-assets/models/NeilArmstrong.glb"
-              ar environment-image="shared-assets/environments/moon_1k.hdr"
-              poster="shared-assets/models/NeilArmstrong.webp"
-              shadow-intensity="1"
-              camera-controls touch-action="pan-y"
-              style="width: 100%; max-width: 800px; height: 400px; border: 5px solid #ccc; background-color: #fff;"></model-viewer>
-
 <!-- Inclusion of the model-viewer library -->
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
@@ -54,4 +42,4 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 800px; height: 400px; border: 5px solid #ccc; background-color: #fff;"></model-viewer>
+              style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
