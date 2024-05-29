@@ -30,9 +30,36 @@ published on: 7/13/2023
 written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Model Viewer</title>
+    <!-- Inclusion de la bibliothèque model-viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        model-viewer {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
 <model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521" shadow-intensity="1" camera-controls="" touch-action="none" interaction-prompt-threshold="500" auto-rotate="" class="js-scan-viewer" ar-status="not-presenting"></model-viewer>
 
-<script type="module">
-  import { defineCustomElements } from 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js';
-  defineCustomElements(window);
-</script>
+</body>
+</html>
