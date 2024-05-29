@@ -4,7 +4,6 @@
   toc: false
   fontsize: 30
   cta:
-    class: btn btn--secondary
   - text: "Anopheles gambiae"
     href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/
   - text: "Carabus montivagus"
