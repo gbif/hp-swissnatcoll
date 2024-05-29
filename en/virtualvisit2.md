@@ -5,6 +5,7 @@ permalink: /en/virtualvisit
 background: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
 imageLicense: |
   none
+height: 70vh
 composition:
   - type: heroImage
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
