@@ -11,6 +11,8 @@ composition:
 - type: floatingText
   data: floatingText.3Dinsects
 - type: pageMarkdown
+
+# "https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
 ---
 
 # Infos on model viewer
@@ -29,7 +31,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 
 # Preview
 <!-- Inclusion of the model-viewer library -->
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
 <!-- Model Viewer Component -->
 <model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521" 
