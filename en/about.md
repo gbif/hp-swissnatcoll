@@ -1,6 +1,6 @@
 ---
 lang-ref: about
-layout: base
+layout: post
 title: About
 description: SVNHC
 background: {{ site.data.images.about.src }}
