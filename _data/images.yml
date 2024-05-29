@@ -19,6 +19,11 @@ swisscollnet:
   caption: |
     [SwissCollNet Call 1 & 2 network](https://swisscollnet.scnat.ch/)
 
+digitalisation:
+  src: /assets/images/placeholders/moss.jpg
+  caption: |
+    none, placeholders image of GBIF.org
+
 # ============================================================================================================================
 # ============================================================================================================================
 irpex:
