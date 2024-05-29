@@ -29,12 +29,16 @@ composition:
           Light green they’re living green years firmament thing fly moving land.
         background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
         imageLicense: None for this image, but it would normally go here. Markdown is allowed.
+
+#helpful website : https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams
+
 ---
 
 # Digitalisation workflow
 
 '''mermaid
 graph TD;
-  Collecting-->Mounting/Conditioning-->Image capture
-
-
+  Collecting-->Mounting/Conditioning;
+  Mounting/Conditioning-->Image capture;
+  Image capture-->Data capture;
+  Data capture-->Publication;
