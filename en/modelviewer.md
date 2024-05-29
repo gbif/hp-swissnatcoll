@@ -43,4 +43,4 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 800px; height: 800px; border: 1px solid #ccc; background-color: #fff;"></model-viewer></scan-viewer>
+              style="width: 100%; max-width: 800px; height: 500px; border: 1px solid #ccc; background-color: #fff;"></model-viewer></scan-viewer>
