@@ -3,3 +3,10 @@
     Observing insects through a magnifying glass is fascinating, no doubt. However, [Insects360](https://biocommunication.org/en/) offers an even cooler option: exploring a collection of 3D insect models.
   toc: false
   fontsize: 30
+  cta:
+  - text: _Anopheles gambiae_
+    href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/
+  - text: _Carabus montivagus_
+    href: https://biocommunication.org/en/insects360/3d-scans/carabus-montivagus/
+  - text: Cicindela andriana
+    href: https://biocommunication.org/en/insects360/3d-scans/cicindela-andriana/
