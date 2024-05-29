@@ -9,7 +9,7 @@ height: 70vh
 composition:
 - type: heroImage
 - type: floatingText
-  data: 3Dinsects
+  data: examples.3Dinsects
 - type: pageMarkdown
 ---
 
