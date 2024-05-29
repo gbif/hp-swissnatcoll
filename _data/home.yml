@@ -68,9 +68,8 @@ vision:
 
 
 video-swisscollnet:
-  reverse: false
   title: "SwissCollNet Youtube Playlist"
   description: | #/assets/images/placeholders/swissCollNet-vid.png
     [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 900px; height: 500px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)
-  background: assets/images/background/netzwerk_SwissCollNet_Call1-2.jpg
-  imageLicense: SwissCollNet
+  overlayColor: "#ffffff55"
+  hasWhiteText: false
