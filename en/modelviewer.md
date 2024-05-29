@@ -32,6 +32,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 # Preview
 <!-- Inclusion of the model-viewer library -->
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+<script src="/dist/js/main.js?v=1714630124"></script>
 
 <!-- Model Viewer Component -->
 <model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
@@ -42,4 +43,4 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 800px; height: 400px; border: 5px solid #ccc; background-color: #fff;"></model-viewer>
+              style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
