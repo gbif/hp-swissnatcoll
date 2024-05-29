@@ -43,4 +43,4 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               class="js-scan-viewer" 
               ar-status="not-presenting" 
               style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
-_If the model is not showing in the window, you may need to add a core origins extension on your navigator (Chrome, Edge, Firefox, etc..)._
+_If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
