@@ -2,91 +2,32 @@
 lang-ref: about
 title: About
 description: Virtual museum
-background: assets/images/GraphsDiagrams/SwissDataFlows.jpg
-imageLicense: |
-  DatenGroup_20231205.pptx (Presentation of Nils Arrigo)
-height: 70vh
+background: {{ site.data.images.home.src }}
+imageLicense: {{ site.data.images.home.caption }}
+height: 50vh
 ---
 
-## Procris quippe mentior urbes ubi
+## Swiss Natural History Collection, a SwissCollNet project
 
-Lorem markdownum spatium limes indefessus neque *at* orat aestuat, quicquam ne
-flavusque omnibus, virginis socerque sparsos vidimus eundem. Sustinet **ramo
-pontum ut** avus quamquam de trabes vestemque cruorem tremor.
+The ‘**Swiss Natural History Collection Network**’ ([SwissCollNet](https://swisscollnet.scnat.ch/de)) is an initiative committed to improving the accessibility of natural history collections for research, education and  society. During the funding period 2021–24, SwissCollNet has identified, prioritized and digitized as many collections as possible and built an online portal, the Swiss Virtual Natural History Collection (hereafter SVNHC), which provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
+_Source: [Petrus, A., Wildi, T., & Müller, S. (2023). Preproject ‘Swiss Virtual Natural History Collection’. Database, 2023, baad072.](https://academic.oup.com/database/article/doi/10.1093/database/baad072/7335478?login=true)
 
-Viscera mercibus isdem hebetarat undas! Iubet ora ire unum telis adicit, si
-Telephus *valent*, instructo refers. Ille **est resque**, sic ruris erit ante
-profana detegeret. Et cogor tractus arboribus prensurum praesens memorantur
-neque inplet iussus temeraria merui **fas ecce** aethera dixit fieretque [plura
-tollebat altius](http://virgineusque.net/est.html).
+<figure class="has-text-centered">
+	<a href="/data?entity=864884844&filter=eyJtdXN0Ijp7InRheG9uS2V5IjpbNDA5MTE1MF19fQ&view=TABLE">
+		<img src="{{ site.data.images.swisscollnet.src }}" />
+		<figcaption caption="{{ site.data.images.swisscollnet.caption }}" />
+	</a>
+</figure>
 
-## Quam ex te videt
 
-Quam Erycina et celsoque trabes; torva, nec et alto egens. Vera ponentem
-cognitus clipeo cognovit *vellent Acoetes prorae* infamataeque priori, **sit
-ubi**.
+## Natural History collections in Switzerland
 
-    var dock_horizontal_spyware = rfid_exabyte_dual * directx_wep;
-    if (basebandDdr < pda) {
-        password += copyrightAddressUdp(white);
-        cold_honeypot_quad(asp_video_whitelist(yobibyte_raid, runtime),
-                kibibyte_storage, file_udp / commandCpmAtm);
-    } else {
-        encoding.dragWhoisWww = lun_token * ram;
-        boxCpm(media_drag_southbridge);
-        url_key.gnutellaTrinitron += uddi_login_overwrite;
-    }
-    if (phreaking(digitalMulticasting, compression)) {
-        mashup -= serverWidgetTask(9) + mashupDirectory;
-        safeCifsIde = odbc_modem;
-    }
+The history of natural history collections in Switzerland dates back to the Enlightenment era, reflecting the country’s deep-rooted fascination with nature and scientific inquiry. The foundation of these collections began in the 18th century, paralleling the rise of natural sciences across Europe. Early collections were often housed in universities and belonged to wealthy individuals or scholarly societies who sought to catalog the natural world.
 
-### Turbatque promittat memorque
+One of the earliest and most prominent institutions is the [Naturhistorisches Museum Basel](https://www.nmbs.ch/en.html), established in 1821. It grew from the collections of the Amerbach Cabinet, a significant private collection acquired by the University of Basel in the 17th century. This museum set a precedent for other Swiss cities to follow.
 
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
+The 19th century saw a surge in the establishment of natural history museums and collections, spurred by the increasing interest in natural sciences and exploration. The [Naturhistorisches Museum Bern](https://www.nmbe.ch/en), founded in 1832, became notable for its extensive collection of Alpine geology and paleontology. Similarly, the [Muséum d'histoire Naturelle de Genève](http://institutions.ville-geneve.ch/fr/mhn/), established in 1820, is renowned for its diverse collections in zoology, mineralogy, and entomology.
 
---------
+Switzerland’s geographical diversity played a crucial role in enriching these collections, offering a wide array of specimens from the Alps, lakes, and diverse ecosystems. The 20th century brought modernization and expansion, with museums incorporating more interactive exhibits and research facilities. Institutions like the Swiss [Federal Institute of Technology Zurich](https://ethz.ch/en.html) also contributed significantly, fostering research and housing important collections.
 
-### In frustra albus
-
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
-
-### Turbatque promittat memorque
-
-Ne arvis relinquit ossibus deus. Superis et oppugnare suo armis? Adfata nec
-lavit sed disces cum surgimus peteret gladios; pabula. Quod vos fugit, manebat
-dum: fateor profugus renovatus exhalantem.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| tables        | are useful    |    $1 |
-
---------
-
-### In frustra albus
-
-Levia in bella idque Dianam instabilis illo contentus Oriens auctor non litat
-genitas trementi hoc bina tulisti! Tuae at aequor!
-
-* Level 1 a
-* Level 1 b
-  * Level 2 a
-  * Level 2 b
-
-## Est mea videndo
-
-Nec bene filia fraxineam flumina, praesens amici nitidaeque inguine infractaque!
-Non quae illuc! E alto cum quod: fessi fatum patulis ore actaque quaque, ore.
-Honor praemia veniunt violavit tu
-[aequore](http://pete-munere.com/caeneus-dare.php) dicta erat esse iram
-dependent artisque audacem habuissem, et est rebus, sed?
-
-[Call to action](/data){: .button .is-primary} [Other action](/data){: .button}
-
-Qua refert, orbataque a denique silentia. Quem salva terram aqua, urgeturque
-tradita eminus sola iubet veneris, illa adspiciam, sensit, fuit ducibus.
+Today, Swiss natural history collections continue to thrive, blending traditional specimen displays with cutting-edge research and conservation efforts. These institutions not only preserve the natural heritage of Switzerland but also serve as critical centers for scientific education and public engagement.
