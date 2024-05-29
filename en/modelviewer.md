@@ -30,17 +30,8 @@ written by: Christian Felsner
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
 # Preview
-<!-- Inclusion of the model-viewer library -->
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+<!-- Import the component -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 
-<!-- Model Viewer Component -->
-<scan-viewer class="c-scan__viewer">
-<model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
-              shadow-intensity="1" 
-              camera-controls="" 
-              touch-action="none" 
-              interaction-prompt-threshold="500" 
-              auto-rotate="" 
-              class="js-scan-viewer" 
-              ar-status="not-presenting" 
-              style="width: 100%; max-width: 800px; height: 500px; border: 1px solid #ccc; background-color: #fff;"></model-viewer></scan-viewer>
+<!-- Use it like any other HTML element -->
+<model-viewer alt="Neil Armstrong's Spacesuit from the Smithsonian Digitization Programs Office and National Air and Space Museum" src="shared-assets/models/NeilArmstrong.glb" ar environment-image="shared-assets/environments/moon_1k.hdr" poster="shared-assets/models/NeilArmstrong.webp" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
