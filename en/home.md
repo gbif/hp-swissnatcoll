@@ -37,7 +37,7 @@ composition:
     data: home.stats  #file with the stats: _data/examples.yml
   - type: split
     data: home.vision
-  - type: split
+  - type: floatingText
     data: home.video-swisscollnet
   - type: features
     data: home.thematicCommunities
