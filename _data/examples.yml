@@ -17,6 +17,12 @@ stats:
   description: |      # required
     Data source (up-to-date) : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
 
+3Dinsects:
+  description: |      # required
+    Observing insects through a magnifying glass is fascinating, no doubt. However, Insects360 offers an even cooler option: exploring a collection of 3D insect models.
+  overlayColor: "#ffffff55"
+  hasWhiteText: false
+
 couldBeAnyName:
   title: Virginis socerque
   description: |
