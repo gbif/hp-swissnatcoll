@@ -2,7 +2,7 @@
   description: |      # required
     Observing insects through a magnifying glass is fascinating, no doubt. However, [Insects360](https://biocommunication.org/en/) offers an even cooler option: exploring a collection of 3D insect models.
   toc: false
-  fontsize: 30
+  fontsize: 100
   cta:
   - text: 🦟 <i> Anopheles gambiae</i>
     href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/
