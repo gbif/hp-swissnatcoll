@@ -24,8 +24,8 @@
     href: /data-aggregator
 - text: Methods
   menu: # Dropdown menu (one level deep only)
-  - text: Digitisation
-    href: /en/digitisation
+  - text: Digitalisation
+    href: /en/digitalisation
   - text: Management
     href: /en/management
   - text: Restoration
