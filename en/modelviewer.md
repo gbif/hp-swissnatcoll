@@ -11,8 +11,6 @@ composition:
 - type: floatingText
   data: floatingText.3Dinsects
 - type: pageMarkdown
-- type: blank
-  data: data.webviewer
 ---
 
 # Infos on model viewer
