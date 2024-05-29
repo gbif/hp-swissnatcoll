@@ -2,8 +2,8 @@
 lang-ref: about
 title: About
 description: Virtual museum
-background: {{ site.data.images.home.src }}
-imageLicense: {{ site.data.images.home.caption }}
+background: {{ site.data.images.about.src }}
+imageLicense: {{ site.data.images.about.caption }}
 height: 50vh
 ---
 
