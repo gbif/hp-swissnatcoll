@@ -1,0 +1,5 @@
+3Dinsects:
+  description: |      # required
+    Observing insects through a magnifying glass is fascinating, no doubt. However, Insects360 offers an even cooler option: exploring a collection of 3D insect models.
+  overlayColor: "#ffffff55"
+  hasWhiteText: false
