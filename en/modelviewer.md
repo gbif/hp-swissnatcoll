@@ -5,7 +5,7 @@ description: Interactive 3D models
 background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
 imageLicense: |
   © 2023 The Biocommunication Group - ETH Zurich
-height: 70vh
+height: 50vh
 composition:
 - type: heroImage
 - type: floatingText
