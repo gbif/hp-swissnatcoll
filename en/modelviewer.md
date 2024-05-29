@@ -1,5 +1,5 @@
 ---
-layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
+layout: compose
 title: Model Viewer
 description: Interactive 3D models
 background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
@@ -8,16 +8,29 @@ imageLicense: |
 height: 70vh
 composition:
 - type: heroImage
-- type: pageMarkdown # This block will render the markdown in this file so no data property needed
+- type: floatingText
+  data: 3Dinsects
+- type: pageMarkdown
 ---
 
 # Infos on model viewer
-Observing insects through a magnifying glass is neat, no doubt! But guess what? We've got an even cooler option for you. Come and explore our collection of 3D insect models!
-published on: 7/13/2023
-written by: Christian Felsner
-Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
+
+Insects360 is a collaborative project developed by the Biocommunication Group, the Entomological Collection of ETH Zurich, and the SimplyScience Foundation. Its mission is to raise awareness and promote understanding of insects and their role in the world through the use of 3D models and captivating scientific narratives created by experts in the entomological field.
+
+In addition to its informative content, Insects360 offers educational resources in German specifically tailored for Swiss schools. The website believes that knowledge is a key driver in fostering appreciation for these incredible creatures and their vital role in the world.
+
+Insects360 invites visitors on an educational journey to explore the realm of insects, unlocking their secrets and showcasing their beauty in ways that inspire curiosity and admiration.
+
+The website is expanding, and over the next two years, it will introduce new topics, each offering a unique perspective on insects. Visitors can register via the contact form to be informed as soon as new content is available.
+
+published on: 7/13/2023  
+written by: Christian Felsner  
+Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
 <model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521" shadow-intensity="1" camera-controls="" touch-action="none" interaction-prompt-threshold="500" auto-rotate="" class="js-scan-viewer" ar-status="not-presenting"></model-viewer>
 
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script type="module">
+  import { defineCustomElements } from 'https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js';
+  defineCustomElements(window);
+</script>
