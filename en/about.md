@@ -32,3 +32,6 @@ The 19th century saw a surge in the establishment of natural history museums and
 Switzerland’s geographical diversity played a crucial role in enriching these collections, offering a wide array of specimens from the Alps, lakes, and diverse ecosystems. The 20th century brought modernization and expansion, with museums incorporating more interactive exhibits and research facilities. Institutions like the Swiss [Federal Institute of Technology Zurich](https://ethz.ch/en.html) also contributed significantly, fostering research and housing important collections.
 
 Today, Swiss natural history collections continue to thrive, blending traditional specimen displays with cutting-edge research and conservation efforts. These institutions not only preserve the natural heritage of Switzerland but also serve as critical centers for scientific education and public engagement.
+
+
+[All swiss institutions](/institution/search){: .button .is-primary}
