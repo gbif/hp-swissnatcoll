@@ -4,9 +4,9 @@
   toc: false
   fontsize: 30
   cta:
-  - text: *Anopheles gambiae*
+  - text: <i>🦟 Anopheles gambiae</i>
     href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/
-  - text: *Carabus montivagus*
+  - text: <i>🐞 Carabus montivagus</i>
     href: https://biocommunication.org/en/insects360/3d-scans/carabus-montivagus/
-  - text: *Cicindela andriana*
+  - text: <i>🪲 Cicindela andriana</i>
     href: https://biocommunication.org/en/insects360/3d-scans/cicindela-andriana/
