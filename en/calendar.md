@@ -28,7 +28,12 @@ composition:
             grid-template-columns: repeat(7, 1fr);
             gap: 10px;
         }
-        .day, .weekday {
+        .day-header {
+            text-align: center;
+            font-weight: bold;
+            padding: 10px 0;
+        }
+        .day {
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
@@ -44,37 +49,63 @@ composition:
         }
         .event a {
             text-decoration: none;
-            color: #fa5e97;
-        }
-        .weekday {
-            background-color: #f8f8f8;
-            font-weight: bold;
-            text-align: center;
+            color: #fa5e97; /* Set the color of event links */
         }
     </style>
 </head>
 <body>
     <h1>Event Calendar</h1>
     <div class="calendar" id="calendar">
-        <div class="weekday">Monday</div>
-        <div class="weekday">Tuesday</div>
-        <div class="weekday">Wednesday</div>
-        <div class="weekday">Thursday</div>
-        <div class="weekday">Friday</div>
-        <div class="weekday">Saturday</div>
-        <div class="weekday">Sunday</div>
+        <!-- Day headers -->
+        <div class="day-header">Monday</div>
+        <div class="day-header">Tuesday</div>
+        <div class="day-header">Wednesday</div>
+        <div class="day-header">Thursday</div>
+        <div class="day-header">Friday</div>
+        <div class="day-header">Saturday</div>
+        <div class="day-header">Sunday</div>
     </div>
+    <!-- Include js-yaml library -->
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
     <script>
-        const events = [
-            { date: '2024-06-01', title: 'Event 1', url: 'https://example.com/event1' },
-            { date: '2024-06-05', title: 'Event 2', url: 'https://example.com/event2' },
-            { date: '2024-06-10', title: 'Event 3', url: 'https://example.com/event3' },
-            // Add more events as needed
-        ];
+        async function fetchEvents() {
+            try {
+                const response = await fetch('https://github.com/gbif/hp-svnhc/blob/master/data/eventlist.yml');
+                if (!response.ok) {
+                    throw new Error(`Network response was not ok: ${response.statusText}`);
+                }
+                const yamlText = await response.text();
+                console.log('YAML text:', yamlText); // Debugging log
+                return jsyaml.load(yamlText);
+            } catch (error) {
+                console.error('Failed to fetch events:', error);
+            }
+        }
 
-        function generateCalendar(year, month) {
+        function generateCalendar(year, month, events) {
             const calendarElement = document.getElementById('calendar');
+            calendarElement.innerHTML = `
+                <div class="day-header">Monday</div>
+                <div class="day-header">Tuesday</div>
+                <div class="day-header">Wednesday</div>
+                <div class="day-header">Thursday</div>
+                <div class="day-header">Friday</div>
+                <div class="day-header">Saturday</div>
+                <div class="day-header">Sunday</div>
+            `; // Clear previous calendar and re-add headers
+
             const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            // Calculate the first day of the month (0 is Sunday, 1 is Monday, etc.)
+            const firstDayIndex = new Date(year, month, 1).getDay();
+            const offset = (firstDayIndex + 6) % 7; // Adjusting to start with Monday
+
+            // Create blank days for the previous month
+            for (let i = 0; i < offset; i++) {
+                const blankDayElement = document.createElement('div');
+                blankDayElement.className = 'day';
+                calendarElement.appendChild(blankDayElement);
+            }
 
             for (let day = 1; day <= daysInMonth; day++) {
                 const dayElement = document.createElement('div');
@@ -84,7 +115,11 @@ composition:
                 dayNumber.textContent = day;
                 dayElement.appendChild(dayNumber);
 
-                const dayEvents = events.filter(event => new Date(event.date).getDate() === day);
+                const dayEvents = events.filter(event => {
+                    const eventDate = new Date(event.date);
+                    return eventDate.getFullYear() === year && eventDate.getMonth() === month && eventDate.getDate() === day;
+                });
+
                 dayEvents.forEach(event => {
                     const eventElement = document.createElement('div');
                     eventElement.className = 'event';
@@ -102,7 +137,17 @@ composition:
             }
         }
 
-        generateCalendar(2024, 5); // June 2024
+        async function initializeCalendar() {
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear();
+            const currentMonth = currentDate.getMonth();
+
+            const events = await fetchEvents();
+            console.log('Parsed events:', events); // Debugging log
+            generateCalendar(currentYear, currentMonth, events);
+        }
+
+        initializeCalendar();
     </script>
 </body>
 </html>
