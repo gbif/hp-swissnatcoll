@@ -11,7 +11,7 @@ composition:
 - type: pageMarkdown
 ---
 
-# Who is the target audience of this online portal ?
+# Who is the target audience of this online portal?
 The target audience of the Swiss Virtual Natural History Collection (SVNHC) includes researchers, data providers, curators, and collection-holding institutions. Additionally, it serves customers from the cantons and the federal administration in Switzerland, as well as citizen scientists interested in natural history collections.
 
 # What types of data are available on the SVNHC portal?
