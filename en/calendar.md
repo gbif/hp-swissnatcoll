@@ -63,6 +63,7 @@ composition:
             align-items: center; /* Vertically center align */
             justify-content: center; /* Horizontally center align */
             text-align: center; /* Ensure the text inside the flex item is centered */
+            font-weight: bold;
         }
         .month-title {
             font-size: 30px;
