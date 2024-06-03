@@ -136,7 +136,10 @@ composition:
             }
 
             // Update calendar title
-            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'Dezember'];
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const currentMonthName = monthNames[month];
+            const calendarTitleElement = document.getElementById('calendar-title');
+            calendarTitleElement.textContent = `Event Calendar - ${currentMonthName} ${year}`;
         }
 
         async function initializeCalendar() {
@@ -145,7 +148,6 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            console.log('Parsed events:', events); // Debugging log
             generateCalendar(currentYear, currentMonth, events);
         }
 
@@ -153,4 +155,3 @@ composition:
     </script>
 </body>
 </html>
-
