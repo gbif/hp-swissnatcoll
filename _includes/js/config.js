@@ -11,50 +11,57 @@ if (primaryColor) {
 }
 
 var siteConfig = {
-  apiKeys: {
-   "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
- },  
+  #apiKeys: {
+   #"mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
+ #},   
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'], #PROJECTSCOLLECTORS
   routes: {
-    enabledRoutes: ['en/occurrenceSearch', 'en/publisherKey', 'en/datasetKey', 'en/datasetSearch', 'en/literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey', 'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
       lat: 0,
       lng: 0,
-      zoom: 50
+      zoom: 1.8
     },
     rootPredicate: {
       "type": "and",
       "predicates": [
         {
           "type": "equals",
-          "key": "country",
+	  "key": "country",
           "value": countryCode
         },
-        {
+	{
           "type": "equals",
-          "key": "networkKey",
+	  "key": "networkKey",
           "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
-        },
+	},
         {
-        "type": "not",
-        "predicate": {
-            "type": "equals",
-            "key": "basisOfRecord",
-            "value": "PRESERVED_SPECIMEN"
-          }
+          "type": "not",
+          "predicates": {
+	      "type": "equals",
+              "key": "basisOfRecord",
+              "value": "PRESERVED_SPECIMEN"
+            },
+            {
+              "key": "notIssues",
+              "type": "equals",
+              "value": "COUNTRY_COORDINATE_MISMATCH"
+            }
+          ]
         }
       ]
     },
     highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
+    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'] // what tabs should be shown
     availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
                             'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
 
+    // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   dataset: {
     rootFilter: {publishingCountry: countryCode},
@@ -65,6 +72,28 @@ var siteConfig = {
     rootFilter: {country: countryCode},
     excludedFilters: ['countrySingle', 'networkKey'],
   },
+  collection: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
+  },
+  institution: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+      active: true
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7.877
+    },
+  },
   literature: {
     rootFilter: {
       predicate: {
@@ -72,12 +101,12 @@ var siteConfig = {
           {
             type: 'in',
             key: 'countriesOfResearcher',
-            values: countryCode
+            values: [countryCode]
           },
           {
             type: 'in',
             key: 'countriesOfCoverage',
-            values: countryCode
+            values: [countryCode]
           }
         ]
       }
