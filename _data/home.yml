@@ -21,7 +21,7 @@ stats:
       # href: /occurrence/search
 
   description: |      # required
-    Data source (up-to-date) : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
+    Data source : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
 
 thematicCommunities:
   title: Thematic communities
