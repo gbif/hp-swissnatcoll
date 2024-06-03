@@ -5,7 +5,7 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
-const publisher = 'SVNHC';
+#const publisher = 'SVNHC';
 
 # ===========================================================================================
 # Conditional Theme Setup
