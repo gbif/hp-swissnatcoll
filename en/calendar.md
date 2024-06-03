@@ -10,7 +10,7 @@ composition:
 - type: heroImage
 - type: pageMarkdown
 
-# <!DOCTYPE html>
+# https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
 
 <html lang="en">
@@ -54,7 +54,7 @@ composition:
     </style>
 </head>
 <body>
-    <h1>Event Calendar</h1>
+    <h1 id="calendar-title">Event Calendar</h1>
     <div class="calendar" id="calendar">
         <!-- Day headers -->
         <div class="day-header">Monday</div>
@@ -75,7 +75,6 @@ composition:
                     throw new Error(`Network response was not ok: ${response.statusText}`);
                 }
                 const yamlText = await response.text();
-                console.log('YAML text:', yamlText); // Debugging log
                 return jsyaml.load(yamlText);
             } catch (error) {
                 console.error('Failed to fetch events:', error);
@@ -135,19 +134,7 @@ composition:
 
                 calendarElement.appendChild(dayElement);
             }
-        }
 
-        async function initializeCalendar() {
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const currentMonth = currentDate.getMonth();
+            // Update calendar title
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August
 
-            const events = await fetchEvents();
-            console.log('Parsed events:', events); // Debugging log
-            generateCalendar(currentYear, currentMonth, events);
-        }
-
-        initializeCalendar();
-    </script>
-</body>
-</html>
