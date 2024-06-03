@@ -12,6 +12,7 @@ height: 50vh
 
 * [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en)
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en)
+* [Verband der naturwissenschaftlichen Museen und Sammlungen der Schweiz und Liechtenstein](https://musnatcoll.ch/)
 * and more to come
 
 #### Standards & Tools
