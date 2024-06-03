@@ -45,7 +45,7 @@ composition:
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
-            min-width: 120px;
+            min-width: 300px;
         }
         .day h3 {
             margin: 0 0 10px;
