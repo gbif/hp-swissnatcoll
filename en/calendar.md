@@ -6,7 +6,6 @@ background: /assets/images/placeholders/closeup.png
 imageLicense: |
   GBIF standardised image
 height: 50vh
-permalink: /calendar
 composition:
 - type: heroImage
 - type: pageMarkdown
