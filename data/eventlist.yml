@@ -1,9 +1,24 @@
-- date: '2024-06-10'
-  title: 'Event 3'
-  url: 'https://example.com/event3'
-- date: '2024-06-05'
-  title: 'Event 2'
-  url: 'https://example.com/event2'
-- date: '2024-06-01'
-  title: 'Event 1'
-  url: 'https://example.com/event1'
+# ===================================================================================================
+# AOÛT 2024
+# ===================================================================================================
+- date: '2024-08-23'
+  title: 'Congrès annuel des musées suisses'
+  url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
+- date: '2024-08-22'
+  title: 'Congrès annuel des musées suisses'
+  url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
+
+# ===================================================================================================
+# JUILLET 2024
+# ===================================================================================================
+
+
+# ===================================================================================================
+# JUIN 2024
+# ===================================================================================================
+- date: '2024-06-07'
+  title: 'AG musnatcoll'
+  url: 'https://musnatcoll.ch/fr/annual_meeting'
+- date: '2024-06-06'
+  title: 'AG musnatcoll'
+  url: 'https://musnatcoll.ch/fr/annual_meeting'
