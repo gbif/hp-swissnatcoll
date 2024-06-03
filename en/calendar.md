@@ -22,6 +22,7 @@ composition:
         body {
             font-family: Arial, sans-serif;
             margin: 0px;
+            text-align: center;
         }
         .calendar-container {
             display: flex;
