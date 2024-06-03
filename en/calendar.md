@@ -13,6 +13,7 @@ composition:
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +22,7 @@ composition:
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0px;
         }
         .calendar-container {
             display: flex;
@@ -32,8 +33,8 @@ composition:
             display: grid;
             grid-template-columns: repeat(7, 1fr);
             gap: 10px;
-            margin-top: 20px;
-            padding: 10px;
+            margin-top: 0px;
+            padding: 5px;
             border-radius: 5px;
         }
         .day-header {
@@ -45,12 +46,13 @@ composition:
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
+            min-width: 120px;
         }
         .day h3 {
             margin: 0 0 10px;
         }
         .event {
-            background-color: #f0f0f0;
+            background-color: #ffffff;
             margin: 5px 0;
             padding: 5px;
             cursor: pointer;
@@ -60,8 +62,8 @@ composition:
             color: #fa5e97; /* Set the color of event links */
         }
         .month-title {
-            font-size: 20px;
-            margin-bottom: 10px;
+            font-size: 30px;
+            margin-bottom: 0px;
         }
     </style>
 </head>
