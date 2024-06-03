@@ -23,12 +23,14 @@ stats:
   description: |      # required
     Data source : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
 
+
+
 thematicCommunities:
   title: Thematic communities
   description: |
     Access to the different sectors of a museum
   features:
-    - title: Fauna # required
+    - title: Zoology # required
       description: |      # required
         Animal groups
       href: /en/fauna
@@ -36,36 +38,43 @@ thematicCommunities:
       background: /assets/images/categories/fauna-istockphoto-1017243656-1024x1024.jpg
       imageLicense: istockphoto, smartboy10
       # categories: [drawings] # optional
-    - title: Flora # required
+      
+    - title: Botany # required
       description: |      # required
         Flora groups
       href: /en/flora
       background: /assets/images/categories/flora-istockphoto-689068468-1024x1024.jpg
       imageLicense: istockphoto, ilbusca
+      
     - title: TYPUS # required
       description: |      # required
         Typus collections of Switzerland
       href: /en/typus
       background: /assets/images/categories/Typus-homemade.png
       imageLicense: Anne Morel
+      
     - title: Georeferencing # required
       description: |      # required
         Recommendations and methods for a standardised georeferencing of natural history specimens
       href: /en/georeferencing
       background: /assets/images/categories/Georeferencing-homemade.png
       imageLicense: Anne Morel
+      
     - title: Digitalisation
       description: |
         Digitalisation workflows of various swiss institutions, best practices and helpful material
       href: /en/digitalisation
       background: /assets/images/categories/Digitalisation-homemade.jpg
       imageLicense: Anne Morel
+      
     - title: 3D specimens
       description: |
         High resolution 3D models of type insects of the ETHZ entomology collections
       href: /en/modelviewer
       background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
       imageLicense: © 2023 The Biocommunication Group - ETH Zurich
+
+
 
 vision:
   reverse: true
@@ -78,6 +87,7 @@ vision:
   background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
   imageLicense: |
     *_Catocala ilia_ Cramer, 1779
+
 
 
 video-swisscollnet:
