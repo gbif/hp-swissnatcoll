@@ -66,7 +66,7 @@ algae:
     # brandBackground: yellow     # Define a custom background for the logo/title in the top navigation bar
     # color: "tomato"             # What color should the navbar be?
     # hasWhiteText: true          # Should the text color be white?
-    # floating: true
+    floating: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
