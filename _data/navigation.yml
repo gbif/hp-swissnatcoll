@@ -21,6 +21,7 @@
   - text: About
     href: /data-aggregator
 - text: Methods
+  href: /en/methods
   menu: # Dropdown menu (one level deep only)
   - text: Digitalisation
     href: /en/digitalisation
