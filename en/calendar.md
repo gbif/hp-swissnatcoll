@@ -68,6 +68,9 @@ composition:
             font-size: 30px;
             margin-bottom: 0px;
         }
+        .current-day {
+          background-color: #fa5e97 !important; /* Color for the current day */
+        }
     </style>
 </head>
 <body>
@@ -118,6 +121,10 @@ composition:
             // Calculate the first day of the month (0 is Sunday, 1 is Monday, etc.)
             const firstDayIndex = new Date(year, month, 1).getDay();
             const offset = (firstDayIndex + 6) % 7; // Adjusting to start with Monday
+            // Get the current date
+            const currentDate = new Date();
+            const currentDay = currentDate.getDate();
+            const isCurrentMonth = currentDate.getFullYear() === year && currentDate.getMonth() === month;
 
             // Create blank days for the previous month
             for (let i = 0; i < offset; i++) {
@@ -131,6 +138,10 @@ composition:
                 dayElement.className = 'day';
                 dayElement.style.backgroundColor = backgroundColor; // Apply background color
                 
+                if (isCurrentMonth && day === currentDay) {
+                    dayElement.classList.add('current-day'); // Highlight the current day
+                }
+
                 const dayNumber = document.createElement('h3');
                 dayNumber.textContent = day;
                 dayElement.appendChild(dayNumber);
@@ -156,7 +167,7 @@ composition:
                 calendarElement.appendChild(dayElement);
             }
         }
-
+        
         async function initializeCalendar() {
             const currentDate = new Date();
             const currentYear = currentDate.getFullYear();
