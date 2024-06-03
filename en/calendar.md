@@ -33,6 +33,8 @@ composition:
             grid-template-columns: repeat(7, 1fr);
             gap: 10px;
             margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
         }
         .day-header {
             text-align: center;
@@ -59,19 +61,21 @@ composition:
         }
         .month-title {
             font-size: 20px;
-            margin-top: 20px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
     <h1>Event Calendar</h1>
     <div class="calendar-container">
-        <div class="calendar" id="calendar1"></div>
         <div class="month-title" id="monthTitle1"></div>
-        <div class="calendar" id="calendar2"></div>
+        <div class="calendar" id="calendar1"></div>
+        
         <div class="month-title" id="monthTitle2"></div>
-        <div class="calendar" id="calendar3"></div>
+        <div class="calendar" id="calendar2"></div>
+        
         <div class="month-title" id="monthTitle3"></div>
+        <div class="calendar" id="calendar3"></div>
     </div>
     <!-- Include js-yaml library -->
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
@@ -89,9 +93,17 @@ composition:
             }
         }
 
-        function generateCalendar(containerId, monthTitleId, year, month, events) {
+        function generateCalendar(containerId, monthTitleId, backgroundColor, year, month, events) {
             const containerElement = document.getElementById(containerId);
             containerElement.innerHTML = ''; // Clear previous calendar
+
+            const monthTitleElement = document.getElementById(monthTitleId);
+            monthTitleElement.textContent = ''; // Clear previous month title
+            monthTitleElement.style.backgroundColor = backgroundColor; // Set background color for month title
+
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const currentMonthName = monthNames[month];
+            monthTitleElement.textContent = `${currentMonthName} ${year}`;
 
             const calendarElement = document.createElement('div');
             calendarElement.className = 'calendar';
@@ -138,12 +150,6 @@ composition:
 
                 calendarElement.appendChild(dayElement);
             }
-
-            // Update month title
-            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-            const currentMonthName = monthNames[month];
-            const monthTitleElement = document.getElementById(monthTitleId);
-            monthTitleElement.textContent = `${currentMonthName} ${year}`;
         }
 
         async function initializeCalendar() {
@@ -152,12 +158,13 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar('calendar1', 'monthTitle1', currentYear, currentMonth, events);
-            generateCalendar('calendar2', 'monthTitle2', currentYear, currentMonth + 1, events);
-            generateCalendar('calendar3', 'monthTitle3', currentYear, currentMonth + 2, events);
+            generateCalendar('calendar1', 'monthTitle1', '#ffd1fc', currentYear, currentMonth, events); // Set background color for each month
+            generateCalendar('calendar2', 'monthTitle2', '#D1FFD4', currentYear, currentMonth + 1, events);
+            generateCalendar('calendar3', 'monthTitle3', '#9AC69D', currentYear, currentMonth + 2, events);
         }
 
         initializeCalendar();
     </script>
 </body>
 </html>
+
