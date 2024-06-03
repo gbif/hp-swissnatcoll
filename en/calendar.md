@@ -13,7 +13,6 @@ composition:
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -71,7 +70,7 @@ composition:
     </style>
 </head>
 <body>
-    <h1>Event Calendar</h1>
+    <h1>Event Calendar - Trimestrial</h1>
     <div class="calendar-container">
         <div class="month-title" id="monthTitle1"></div>
         <div class="calendar" id="calendar1"></div>
