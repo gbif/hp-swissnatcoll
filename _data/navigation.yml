@@ -2,20 +2,18 @@
 
 - text: About
   href: /en/about
-# - text: Occurrences
-#   href: /occurrence/search
 - text: Data
   menu: 
   - text: Occurrences
-    href: /en/occurrence/search
+    href: /en/data/occurrence/search
   - text: Collections
-    href: /en/collection/search
+    href: /en/data/collection/search
   - text: Institutions
-    href: /en/institution/search
+    href: /en/data/institution/search
   #- text: Collectors
-    #href: /en/collector/search
+    #href: /en/data/collector/search
   #- text: Projects
-    #href: /en/project/search
+    #href: /en/data/project/search
 - text: Data Aggregator
   menu: # Dropdown menu (one level deep only)
   - text: Direct link
