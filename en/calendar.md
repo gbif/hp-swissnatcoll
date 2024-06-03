@@ -60,6 +60,9 @@ composition:
         .event a {
             text-decoration: none;
             color: #fa5e97; /* Set the color of event links */
+            align-items: center; /* Vertically center align */
+            justify-content: center; /* Horizontally center align */
+            text-align: center; /* Ensure the text inside the flex item is centered */
         }
         .month-title {
             font-size: 30px;
