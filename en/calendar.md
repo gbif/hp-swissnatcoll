@@ -23,10 +23,15 @@ composition:
             font-family: Arial, sans-serif;
             margin: 20px;
         }
+        .calendar-container {
+            display: flex;
+            justify-content: space-between;
+        }
         .calendar {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
             gap: 10px;
+            margin-top: 20px;
         }
         .day-header {
             text-align: center;
@@ -54,16 +59,11 @@ composition:
     </style>
 </head>
 <body>
-    <h1 id="calendar-title">Event Calendar</h1>
-    <div class="calendar" id="calendar">
-        <!-- Day headers -->
-        <div class="day-header">Monday</div>
-        <div class="day-header">Tuesday</div>
-        <div class="day-header">Wednesday</div>
-        <div class="day-header">Thursday</div>
-        <div class="day-header">Friday</div>
-        <div class="day-header">Saturday</div>
-        <div class="day-header">Sunday</div>
+    <h1>Event Calendar</h1>
+    <div class="calendar-container">
+        <div class="calendar" id="calendar1"></div>
+        <div class="calendar" id="calendar2"></div>
+        <div class="calendar" id="calendar3"></div>
     </div>
     <!-- Include js-yaml library -->
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
@@ -81,17 +81,13 @@ composition:
             }
         }
 
-        function generateCalendar(year, month, events) {
-            const calendarElement = document.getElementById('calendar');
-            calendarElement.innerHTML = `
-                <div class="day-header">Monday</div>
-                <div class="day-header">Tuesday</div>
-                <div class="day-header">Wednesday</div>
-                <div class="day-header">Thursday</div>
-                <div class="day-header">Friday</div>
-                <div class="day-header">Saturday</div>
-                <div class="day-header">Sunday</div>
-            `; // Clear previous calendar and re-add headers
+        function generateCalendar(containerId, year, month, events) {
+            const containerElement = document.getElementById(containerId);
+            containerElement.innerHTML = ''; // Clear previous calendar
+
+            const calendarElement = document.createElement('div');
+            calendarElement.className = 'calendar';
+            containerElement.appendChild(calendarElement);
 
             const daysInMonth = new Date(year, month + 1, 0).getDate();
 
@@ -134,12 +130,6 @@ composition:
 
                 calendarElement.appendChild(dayElement);
             }
-
-            // Update calendar title
-            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-            const currentMonthName = monthNames[month];
-            const calendarTitleElement = document.getElementById('calendar-title');
-            calendarTitleElement.textContent = `Event Calendar - ${currentMonthName} ${year}`;
         }
 
         async function initializeCalendar() {
