@@ -7,15 +7,15 @@
 - text: Data
   menu: 
   - text: Occurrences
-    href: /occurrence/search
+    href: /en/occurrence/search
   - text: Collections
-    href: /collection/search
+    href: /en/collection/search
   - text: Institutions
-    href: /institution/search
+    href: /en/institution/search
   #- text: Collectors
-    #href: /collector/search
+    #href: /en/collector/search
   #- text: Projects
-    #href: /project/search
+    #href: /en/project/search
 - text: Data Aggregator
   menu: # Dropdown menu (one level deep only)
   - text: Direct link
@@ -36,13 +36,13 @@
     href: /en/modelviewer
   - text: Virtual visit
     href: /en/virtualvisit
-- text: Links
+- text: 🔗 Links
   href: /en/links
-- text: News
+- text: 📰 News
   href: /news/
-- text: Calendar
+- text: 🗓️ Calendar
   href: /en/calendar
-- text: Helpdesk
+- text: ❓ Helpdesk
   href: /en/helpdesk
 #- text: (hp-help)
 #  menu: # Dropdown menu (one level deep only)
