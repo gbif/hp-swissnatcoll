@@ -148,7 +148,9 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar(currentYear, currentMonth, events);
+            generateCalendar('calendar1', currentYear, currentMonth, events);
+            generateCalendar('calendar2', currentYear, currentMonth + 1, events);
+            generateCalendar('calendar3', currentYear, currentMonth + 2, events);
         }
 
         initializeCalendar();
