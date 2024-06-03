@@ -136,5 +136,21 @@ composition:
             }
 
             // Update calendar title
-            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'Dezember'];
+        }
+
+        async function initializeCalendar() {
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear();
+            const currentMonth = currentDate.getMonth();
+
+            const events = await fetchEvents();
+            console.log('Parsed events:', events); // Debugging log
+            generateCalendar(currentYear, currentMonth, events);
+        }
+
+        initializeCalendar();
+    </script>
+</body>
+</html>
 
