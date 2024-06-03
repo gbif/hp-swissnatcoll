@@ -1,11 +1,16 @@
 ---
-layout: post
+layout: compose
 title: Methods
 description: Learn more about the journey of a museum specimen, the various techniques of curating and more
 background: /assets/images/placeholders/moss.jpg
 imageLicense: |
   GBIF standardised image
 height: 50vh
+composition:
+- type: heroImage
+- type: pageMarkdown
+- type: features
+  data: home.thematicCommunities
 ---
 
 # The Journey of a museum specimen
