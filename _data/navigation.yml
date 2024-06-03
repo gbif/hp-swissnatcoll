@@ -5,15 +5,15 @@
 - text: Data
   menu: 
   - text: Occurrences
-    href: /en/data/occurrence/occurrence
+    href: /occurrence/search
   - text: Collections
-    href: /en/data/collection/collection
+    href: /collection/search
   - text: Institutions
-    href: /en/data/institution/institution
+    href: /institution/search
   #- text: Collectors
-    #href: /en/data/collector/collector
+    #href: 
   #- text: Projects
-    #href: /en/data/project/project
+    #href: 
 - text: Data Aggregator
   menu: # Dropdown menu (one level deep only)
   - text: Direct link
