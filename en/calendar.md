@@ -70,84 +70,8 @@ composition:
     <script>
         async function fetchEvents() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/gbif/hp-svnhc/blob/master/data/eventlist.yml');
+                const response = await fetch('https://raw.githubusercontent.com/yourusername/yourrepo/main/eventlist.yml');
                 if (!response.ok) {
                     throw new Error(`Network response was not ok: ${response.statusText}`);
                 }
-                const yamlText = await response.text();
-                console.log('YAML text:', yamlText); // Debugging log
-                return jsyaml.load(yamlText);
-            } catch (error) {
-                console.error('Failed to fetch events:', error);
-            }
-        }
-
-        function generateCalendar(year, month, events) {
-            const calendarElement = document.getElementById('calendar');
-            calendarElement.innerHTML = `
-                <div class="day-header">Monday</div>
-                <div class="day-header">Tuesday</div>
-                <div class="day-header">Wednesday</div>
-                <div class="day-header">Thursday</div>
-                <div class="day-header">Friday</div>
-                <div class="day-header">Saturday</div>
-                <div class="day-header">Sunday</div>
-            `; // Clear previous calendar and re-add headers
-
-            const daysInMonth = new Date(year, month + 1, 0).getDate();
-
-            // Calculate the first day of the month (0 is Sunday, 1 is Monday, etc.)
-            const firstDayIndex = new Date(year, month, 1).getDay();
-            const offset = (firstDayIndex + 6) % 7; // Adjusting to start with Monday
-
-            // Create blank days for the previous month
-            for (let i = 0; i < offset; i++) {
-                const blankDayElement = document.createElement('div');
-                blankDayElement.className = 'day';
-                calendarElement.appendChild(blankDayElement);
-            }
-
-            for (let day = 1; day <= daysInMonth; day++) {
-                const dayElement = document.createElement('div');
-                dayElement.className = 'day';
-                
-                const dayNumber = document.createElement('h3');
-                dayNumber.textContent = day;
-                dayElement.appendChild(dayNumber);
-
-                const dayEvents = events.filter(event => {
-                    const eventDate = new Date(event.date);
-                    return eventDate.getFullYear() === year && eventDate.getMonth() === month && eventDate.getDate() === day;
-                });
-
-                dayEvents.forEach(event => {
-                    const eventElement = document.createElement('div');
-                    eventElement.className = 'event';
-                    
-                    const eventLink = document.createElement('a');
-                    eventLink.href = event.url;
-                    eventLink.target = '_blank';
-                    eventLink.textContent = event.title;
-                    
-                    eventElement.appendChild(eventLink);
-                    dayElement.appendChild(eventElement);
-                });
-
-                calendarElement.appendChild(dayElement);
-            }
-        }
-
-        async function initializeCalendar() {
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const currentMonth = currentDate.getMonth();
-
-            const events = await fetchEvents();
-            console.log('Parsed events:', events); // Debugging log
-            generateCalendar(currentYear, currentMonth, events);
-        }
-
-        initializeCalendar();
-    </script>
-</body>
-</html>
+                const yamlText = aw
