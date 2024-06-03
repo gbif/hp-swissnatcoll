@@ -21,7 +21,7 @@ composition:
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0px;
+            margin: 20px;
         }
         .calendar-container {
             display: flex;
@@ -31,8 +31,8 @@ composition:
         .calendar {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 5px;
-            margin-top: px;
+            gap: 10px;
+            margin-top: 20px;
             padding: 10px;
             border-radius: 5px;
         }
@@ -45,7 +45,6 @@ composition:
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
-            min-width: 100px;
         }
         .day h3 {
             margin: 0 0 10px;
@@ -69,14 +68,14 @@ composition:
 <body>
     <h1>Event Calendar</h1>
     <div class="calendar-container">
-        <div class="calendar" id="calendar1"></div>
         <div class="month-title" id="monthTitle1"></div>
+        <div class="calendar" id="calendar1"></div>
         
-        <div class="calendar" id="calendar2"></div>
         <div class="month-title" id="monthTitle2"></div>
+        <div class="calendar" id="calendar2"></div>
         
-        <div class="calendar" id="calendar3"></div>
         <div class="month-title" id="monthTitle3"></div>
+        <div class="calendar" id="calendar3"></div>
     </div>
     <!-- Include js-yaml library -->
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
@@ -105,8 +104,6 @@ composition:
             const currentMonthName = monthNames[month];
             monthTitleElement.textContent = `${currentMonthName} ${year}`;
 
-            containerElement.style.backgroundColor = backgroundColor; // Set background color for calendar container
-
             const calendarElement = document.createElement('div');
             calendarElement.className = 'calendar';
             containerElement.appendChild(calendarElement);
@@ -127,6 +124,7 @@ composition:
             for (let day = 1; day <= daysInMonth; day++) {
                 const dayElement = document.createElement('div');
                 dayElement.className = 'day';
+                dayElement.style.backgroundColor = backgroundColor; // Apply background color
                 
                 const dayNumber = document.createElement('h3');
                 dayNumber.textContent = day;
@@ -160,7 +158,7 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar('calendar1', 'monthTitle1', '#ffd1fc', currentYear, currentMonth, events); // Set background color for each month
+            generateCalendar('calendar1', 'monthTitle1', '#ffd1fc', currentYear, currentMonth, events); // Set background color for each day in the month
             generateCalendar('calendar2', 'monthTitle2', '#D1FFD4', currentYear, currentMonth + 1, events);
             generateCalendar('calendar3', 'monthTitle3', '#9AC69D', currentYear, currentMonth + 2, events);
         }
@@ -169,4 +167,3 @@ composition:
     </script>
 </body>
 </html>
-
