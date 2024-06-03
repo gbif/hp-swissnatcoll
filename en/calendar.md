@@ -10,6 +10,7 @@ composition:
 - type: heroImage
 - type: pageMarkdown
 
+# primary color : #fa5e97
 ---
 
 <!DOCTYPE html>
@@ -28,7 +29,7 @@ composition:
             grid-template-columns: repeat(7, 1fr);
             gap: 10px;
         }
-        .day {
+        .day, .weekday {
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
@@ -44,13 +45,26 @@ composition:
         }
         .event a {
             text-decoration: none;
-            color: #000;
+            color: #fa5e97;
+        }
+        .weekday {
+            background-color: #f8f8f8;
+            font-weight: bold;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>Event Calendar</h1>
-    <div class="calendar" id="calendar"></div>
+    <div class="calendar" id="calendar">
+        <div class="weekday">Monday</div>
+        <div class="weekday">Tuesday</div>
+        <div class="weekday">Wednesday</div>
+        <div class="weekday">Thursday</div>
+        <div class="weekday">Friday</div>
+        <div class="weekday">Saturday</div>
+        <div class="weekday">Sunday</div>
+    </div>
     <script>
         const events = [
             { date: '2024-06-01', title: 'Event 1', url: 'https://example.com/event1' },
