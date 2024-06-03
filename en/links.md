@@ -8,14 +8,14 @@ imageLicense: |
 height: 50vh
 ---
 
-#### SVNHC Partners
+# SVNHC Partners
 
 * [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en)
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en)
 * [Verband der naturwissenschaftlichen Museen und Sammlungen der Schweiz und Liechtenstein](https://musnatcoll.ch/)
 * and more to come
 
-#### Standards & Tools
+# Standards & Tools
 
 * [DarwinCore Standard](https://dwc.tdwg.org/)
 * [Access to Biological Collections Data - ABCD-Standard](https://abcd.tdwg.org/)
@@ -23,8 +23,11 @@ height: 50vh
 * and more to come
 
 
-#### Digitalising efforts around the world
+# Digitalising efforts in Switzerland and around the world
 
+* [NAHIMA - Natural Science Collections Online - ETH Zürich](https://www.nahima.ethz.ch/search)
 * [GBIF Hosted portals in production](https://www.gbif.org/en/composition/4s2G3hhH1n3reU0yN0F8RF/hosted-portals-in-production)
+
+
 
 ...and more to come
