@@ -70,7 +70,7 @@ composition:
     <script>
         async function fetchEvents() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/gbif/hp-svnhc/blob/master/data/eventlist.yml');
+                const response = await fetch('https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml');
                 if (!response.ok) {
                     throw new Error(`Network response was not ok: ${response.statusText}`);
                 }
