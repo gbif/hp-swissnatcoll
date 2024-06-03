@@ -12,7 +12,7 @@ composition:
 
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -68,14 +68,14 @@ composition:
 <body>
     <h1>Event Calendar</h1>
     <div class="calendar-container">
-        <div class="month-title" id="monthTitle1"></div>
         <div class="calendar" id="calendar1"></div>
+        <div class="month-title" id="monthTitle1"></div>
         
-        <div class="month-title" id="monthTitle2"></div>
         <div class="calendar" id="calendar2"></div>
+        <div class="month-title" id="monthTitle2"></div>
         
-        <div class="month-title" id="monthTitle3"></div>
         <div class="calendar" id="calendar3"></div>
+        <div class="month-title" id="monthTitle3"></div>
     </div>
     <!-- Include js-yaml library -->
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
@@ -99,11 +99,12 @@ composition:
 
             const monthTitleElement = document.getElementById(monthTitleId);
             monthTitleElement.textContent = ''; // Clear previous month title
-            monthTitleElement.style.backgroundColor = backgroundColor; // Set background color for month title
 
             const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
             const currentMonthName = monthNames[month];
             monthTitleElement.textContent = `${currentMonthName} ${year}`;
+
+            containerElement.style.backgroundColor = backgroundColor; // Set background color for calendar container
 
             const calendarElement = document.createElement('div');
             calendarElement.className = 'calendar';
