@@ -52,14 +52,14 @@ composition:
             margin: 0 0 10px;
         }
         .event {
-            background-color: #ffffff;
+            background-color: #fa5e97;
             margin: 5px 0;
             padding: 5px;
             cursor: pointer;
         }
         .event a {
             text-decoration: none;
-            color: #fa5e97; /* Set the color of event links */
+            color: #000000; /* Set the color of event links */
             align-items: center; /* Vertically center align */
             justify-content: center; /* Horizontally center align */
             text-align: center; /* Ensure the text inside the flex item is centered */
