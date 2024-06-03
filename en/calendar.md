@@ -163,9 +163,9 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar('calendar1', 'monthTitle1', '#ffd1fc', currentYear, currentMonth, events); // Set background color for each day in the month
-            generateCalendar('calendar2', 'monthTitle2', '#D1FFD4', currentYear, currentMonth + 1, events);
-            generateCalendar('calendar3', 'monthTitle3', '#9AC69D', currentYear, currentMonth + 2, events);
+            generateCalendar('calendar1', 'monthTitle1', '#EDF3F3', currentYear, currentMonth, events); // Set background color for each day in the month
+            generateCalendar('calendar2', 'monthTitle2', '#EDF3F3', currentYear, currentMonth + 1, events);
+            generateCalendar('calendar3', 'monthTitle3', '#EDF3F3', currentYear, currentMonth + 2, events);
         }
 
         initializeCalendar();
