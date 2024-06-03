@@ -1,42 +1,24 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
-title: Complex page
-description: This layout requires a bit more fiddling as it is stiching together various blocks that all can be customized.
-background: /assets/images/placeholders/moss.jpg
+title: Helpdesk
+description: All the help you need is here to be found
+background: /assets/images/placeholders/garcinia_2563424903.jpg
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
-height: 70vh
-# The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
-# See more examples at https://hp-theme.gbif-staging.org/layout/compose
+  GBIF standardised image
+height: 50vh
 composition:
-- type: heroImage # The type is a template. In this case  a big splashy image with some text on it. The data defines what the image is and what the text is. 
-  # data: compose.someFile.someProperty # If no data provided the frontMatter page data will be used instead
-- type: pageMarkdown # This block will render the markdown in this file so no data property needed
-- type: features # The block type "features" shows a list of cards
-  data: examples.couldBeAnyName # We also need some data for those cards. In this case we refer to a yaml file in the _data folder.
-- type: split
-  data: examples.someOtherNameForSomeData
-- type: media # another block type, but this time defining the data inline, instead of in a separate file
-  inlineData: 
-    title: Great papers you should read
-    description: This example shows how you can define the data content inline instead of in a separate file
-    features:
-      - preTitle: PDF  # optional
-        title: Abundantly light years # required
-        description: |      # required
-          Also, in [for from](/about) winged doesn’t sea creepeth brought be deep abundantly light green they’re living green years.
-        # img required
-        background: /assets/img/Haeckel_Caulerpa_racemosa.jpeg
-        imageLicense: None for this image, but it would normally go here. Markdown is allowed.
-        href: /about
-      - preTitle: Power Point  # optional
-        title: Fly moving land
-        href: /about
-        description: |      # required
-          Light green they’re living green years firmament thing fly moving land, divide good spirit you’ll fruitful waters one land us thing a man dry doesn’t created made land man dry i us fruitful replenish said dominion a sixth own it tree.
-        background: /assets/img/Haeckel_Caulerpa_racemosa_(uvifera).jpeg
-        imageLicense: None for this image, but it would normally go here. Markdown is allowed.
+- type: heroImage
+- type: pageMarkdown
 ---
 
-# Some prose
-This content will show because you added the pageMarkdown block to the composition
+# Who is the target audience of this online portal ?
+The target audience of the Swiss Virtual Natural History Collection (SVNHC) includes researchers, data providers, curators, and collection-holding institutions. Additionally, it serves customers from the cantons and the federal administration in Switzerland, as well as citizen scientists interested in natural history collections.
+
+# What types of data are available on the SVNHC portal?
+The portal displays the data sent by the swiss institutions to the international biodiversity facility [GBIF](https://www.gbif.org/). Additionally, the data reflects the expertise found within Swiss institutions in areas such as taxonomy, restoration, curation, and collection management, ensuring high-quality, meticulously curated information for researchers, educators, and citizen scientists.
+
+# How can I search for specific specimens or collections?
+In the navigation bar, on top of each page of the portal, click on the **Data** tab. There you can choose to see all swiss occurrences, swiss collections and swiss institutions
+
+# Are there any usage restrictions or licenses for the data on SVNHC?
+At this point of the state of the data, no. The usage restrictions and licenses have been defined through the previous steps of data selection, data aggregation and data validation. Every information provided here is completely in open-access and public. For restricted information requests, please contact the corresponding institution directly.
