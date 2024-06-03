@@ -25,7 +25,8 @@ composition:
         }
         .calendar-container {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
         }
         .calendar {
             display: grid;
@@ -56,14 +57,21 @@ composition:
             text-decoration: none;
             color: #fa5e97; /* Set the color of event links */
         }
+        .month-title {
+            font-size: 20px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>Event Calendar</h1>
     <div class="calendar-container">
         <div class="calendar" id="calendar1"></div>
+        <div class="month-title" id="monthTitle1"></div>
         <div class="calendar" id="calendar2"></div>
+        <div class="month-title" id="monthTitle2"></div>
         <div class="calendar" id="calendar3"></div>
+        <div class="month-title" id="monthTitle3"></div>
     </div>
     <!-- Include js-yaml library -->
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js"></script>
@@ -81,7 +89,7 @@ composition:
             }
         }
 
-        function generateCalendar(containerId, year, month, events) {
+        function generateCalendar(containerId, monthTitleId, year, month, events) {
             const containerElement = document.getElementById(containerId);
             containerElement.innerHTML = ''; // Clear previous calendar
 
@@ -130,6 +138,12 @@ composition:
 
                 calendarElement.appendChild(dayElement);
             }
+
+            // Update month title
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            const currentMonthName = monthNames[month];
+            const monthTitleElement = document.getElementById(monthTitleId);
+            monthTitleElement.textContent = `${currentMonthName} ${year}`;
         }
 
         async function initializeCalendar() {
@@ -138,7 +152,9 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar('calendar3', currentYear, currentMonth + 2, events);
+            generateCalendar('calendar1', 'monthTitle1', currentYear, currentMonth, events);
+            generateCalendar('calendar2', 'monthTitle2', currentYear, currentMonth + 1, events);
+            generateCalendar('calendar3', 'monthTitle3', currentYear, currentMonth + 2, events);
         }
 
         initializeCalendar();
