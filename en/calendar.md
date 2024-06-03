@@ -12,7 +12,7 @@ composition:
 
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@ composition:
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0px;
         }
         .calendar-container {
             display: flex;
@@ -31,8 +31,8 @@ composition:
         .calendar {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 10px;
-            margin-top: 20px;
+            gap: 5px;
+            margin-top: px;
             padding: 10px;
             border-radius: 5px;
         }
@@ -45,6 +45,7 @@ composition:
             border: 1px solid #ccc;
             padding: 10px;
             min-height: 100px;
+            min-width: 100px;
         }
         .day h3 {
             margin: 0 0 10px;
