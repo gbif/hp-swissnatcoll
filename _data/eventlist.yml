@@ -1,12 +1,21 @@
 # ===================================================================================================
+# OCTOBRE 2024
+# ===================================================================================================
+- date: '2024-10-27'
+  title: 'CH - Journée des collections ?'
+  #url: <à trouver> 'https://www.jurassica.ch/fr/Infos-pratiques/Agenda/Journee-des-collections.html'
+# ===================================================================================================
 # AOÛT 2024
 # ===================================================================================================
 - date: '2024-08-23'
-  title: 'Congrès annuel des musées suisses'
+  title: 'Bern - Congrès annuel des musées suisses'
   url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
 - date: '2024-08-22'
-  title: 'Congrès annuel des musées suisses'
+  title: 'Bern - Congrès annuel des musées suisses'
   url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
+- date: '2024-08-17'
+  title: 'Basel - Museumsflohmarkt'
+  url: 'https://www.museum.bl.ch/veranstaltungen/7/sonderveranstaltungen/310/museumsflohmarkt/'
 
 # ===================================================================================================
 # JUILLET 2024
@@ -17,8 +26,131 @@
 # JUIN 2024
 # ===================================================================================================
 - date: '2024-06-07'
-  title: 'AG musnatcoll'
+  title: 'Bern - AG musnatcoll'
   url: 'https://musnatcoll.ch/fr/annual_meeting'
 - date: '2024-06-06'
-  title: 'AG musnatcoll'
+  title: 'Bern - AG musnatcoll'
   url: 'https://musnatcoll.ch/fr/annual_meeting'
+
+# ===================================================================================================
+# BOTANICA 2024
+# ===================================================================================================
+- date: '2024-07-07'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-06'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-05'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-04'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-03'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-02'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-07-01'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-30'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-29'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-28'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-27'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-26'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-25'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-24'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-23'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-22'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-21'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-20'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-19'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-18'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-17'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-16'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-15'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-14'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-13'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-12'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-11'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-10'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-09'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
+
+- date: '2024-06-08'
+  title: 'CH - BOTANICA'
+  url: 'https://www.botanica-suisse.org/wp-content/uploads/BOTANICA-2024-Zukunft-GartenundPflanzenfuehrer.pdf'
