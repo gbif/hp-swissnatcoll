@@ -10,10 +10,9 @@ composition:
 - type: heroImage
 - type: pageMarkdown
 
-# primary color : #fa5e97
+# <!DOCTYPE html>
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
