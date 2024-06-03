@@ -64,10 +64,11 @@ thematicCommunities:
 vision:
   reverse: true
   title: "Vision"
-  description: |      # required
-     Publish and retrieve information on natural history collections and objects. Provide open-access to standardized natural history collection data held in Swiss institutions and data of specimens collected in Switzerland and curated abroad. The portal presents institutions and their natural history collections in Switzerland. It also serves as a platform to publish information and news in relation to natural  history collections in Switzerland. (Source: 20240422_SVNHC_description.pdf)
-
-  # img required
+  description: >
+     Our platform offers open access to standardized data from natural history collections housed in Swiss institutions,
+     as well as information on specimens collected in Switzerland and curated abroad. Allowing easy access to discover detailed presentations
+     of institutions and their natural history collections across Switzerland, the portal serves as a hub for publishing news and
+     information related to natural history collections in the country.
   background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
   imageLicense: |
     *_Catocala ilia_ Cramer, 1779
