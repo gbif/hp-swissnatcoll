@@ -57,6 +57,28 @@ var siteConfig = {
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
 
   },
+  collection: {	
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
+  },
+  institution: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+      active: true
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7.877
+    },
+  },
   literature: {
     rootFilter: {
       predicate: {
