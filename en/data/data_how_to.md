@@ -18,8 +18,7 @@ The data accessible on this hosted portal has been **provided by the [swiss natu
 The data present on the SVNHC portal is found on this page Occurrence search - SVNHC (home > Data > Occurrence or Collections or Institutions). The display can be chosen:
 - a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the view chosen) and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
 
-- a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it on the map, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right of the screen.
-
+- a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it on the map, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right of the screen. The metadata is grouped in categories, which have their own fields (Summary, Record, Taxon, Location, Occurrence, Event, Identification, Other and Citation)
 
 # Can I filter the data?
 To filter the data in the Occurrence table presentation, you have a highlighted selected set (listed here below) and by clicking on the "More" button, you have access to more available filters
