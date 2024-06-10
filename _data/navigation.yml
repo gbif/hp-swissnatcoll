@@ -6,11 +6,11 @@
   menu: 
   - text: How-to
     href: /en/data_how_to
-  - text: Occurrences
+  - text: 📍 Occurrences
     href: /occurrence/search
-  - text: Collections
+  - text: 🗃️ Collections
     href: /collection/search
-  - text: Institutions
+  - text: 🏛️ Institutions
     href: /institution/search
   #- text: Collectors
     #href: 
