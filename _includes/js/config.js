@@ -15,10 +15,9 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'], #PROJECTSCOLLECTORS
+  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey',
-		    'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
@@ -32,7 +31,7 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "country",
+          "key": "publishing_country",
           "value": countryCode
         },
         {
