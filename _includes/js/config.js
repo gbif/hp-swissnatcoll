@@ -21,9 +21,10 @@ var siteConfig = {
   },
   occurrence: {
     mapSettings: {
-      lat: 0,
-      lng: 0,
-      zoom: 50
+      enabled: true,
+      lat: 46.801111,
+      lng: 8.626667,
+      zoom: 1000
     },
     rootPredicate: {
       "type": "and",
