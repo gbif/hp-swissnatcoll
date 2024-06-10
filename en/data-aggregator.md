@@ -21,7 +21,7 @@ The long-term objective is to achieve automatised data transfer of collection da
 # Do I have to upload my entire database fields into the Data Aggregator?
 There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields. They are the ones that will be available on the SVNHC portal in the Data pages.
 
-To help you select your field, here is an empty csv file with Darwin Core terms. You can put your data in this file and use it for the upload.
+To help you select your field, here is an empty csv file with the most important Darwin Core terms required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload.
 <html lang="en">
 <body>
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download>
