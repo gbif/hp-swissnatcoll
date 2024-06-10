@@ -15,9 +15,10 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'DATASET', 'PUBLISHER', 'COLLECTION', 'INSTITUTION', 'LITERATURE'], #PROJECTSCOLLECTORS
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'publisherSearch', 'publisherKey', 'collectionKey',
+		    'collectionSearch', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
