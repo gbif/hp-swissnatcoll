@@ -15,9 +15,9 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'COLLECTIONS', 'INSTITUTION', 'LITERATURE', 'DATASET'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'collectionKey', 'institutionKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
@@ -57,14 +57,27 @@ var siteConfig = {
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
 
   },
-  dataset: {
-    rootFilter: {publishingCountry: countryCode},
-    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
-    excludedFilters: ['publishingCountryCode'],
+  collection: {			#COLLECTION_CONFIGURATION
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
   },
-  publisher: {
-    rootFilter: {country: countryCode},
-    excludedFilters: ['countrySingle', 'networkKey'],
+  institution: {		#INSTITUTION_CONFIGURATION
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+      active: true
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7.877
+    },
   },
   literature: {
     rootFilter: {
