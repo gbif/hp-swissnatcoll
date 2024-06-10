@@ -18,7 +18,17 @@ InfoSpecies is the umbrella organisation of the national data centers and coordi
 
 The long-term objective is to achieve automatised data transfer of collection data to the national aggregator and publication of data on national and international online portals as well as an automatised update of data records.
 
-# titel 1
+# Do I have to upload my entire database fields into the Data Aggregator?
+There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields. They are the ones that will be available on the SVNHC portal in the Data pages.
+
+To help you select your field, here is an empty csv file with Darwin Core terms. You can put your data in this file and use it for the upload.
+<html lang="en">
+<body>
+    <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download>
+        <button>Download CSV</button>
+    </a>
+</body>
+</html>
 
 # titel 2
 
