@@ -22,7 +22,7 @@ cta:
     href: /specimen/search
     isPrimary: true
   - text: About
-    href: /about
+    href: /about  
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
@@ -33,6 +33,8 @@ cta:
 # ====================================================================================
 composition:
   - type: heroImage # the block type
+  - type: blank
+    data: home.searchBar
   - type: stats
     data: home.stats  #file with the stats: _data/examples.yml
   - type: split
