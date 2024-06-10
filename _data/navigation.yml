@@ -5,7 +5,7 @@
 - text: Data
   menu: 
   - text: How-to
-    href: /en/data/data_how_to
+    href: /en/data_how_to
   - text: Occurrences
     href: /occurrence/search
   - text: Collections
