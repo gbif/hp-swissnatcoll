@@ -1,15 +1,12 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
-
 const countryCode = 'CH';
-
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
     borderRadius: isSquared? 0 : 3
   }});
 }
-
 var siteConfig = {
   apiKeys: {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
@@ -31,7 +28,7 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "publishing_country",
+          "key": "country",
           "value": countryCode
         },
         {
@@ -52,7 +49,6 @@ var siteConfig = {
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
                             'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
-
   },
   dataset: {
     rootFilter: {publishingCountry: countryCode},
@@ -131,7 +127,6 @@ var siteConfig = {
     }        
   }
 };
-
 // example of a language specific route overwrite, in this example for showing the maps labels in the language of the site
 if (pageLang === 'fr')  {
   siteConfig.maps.locale = 'fr';
