@@ -2,6 +2,7 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
+// const publisher = 'SVNHC';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -31,7 +32,7 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "country",
+          "key": "publishing_country",
           "value": countryCode
         },
         {
@@ -40,7 +41,6 @@ var siteConfig = {
           "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
         },
         {
-        "type": "not",
         "predicate": {
             "type": "equals",
             "key": "basisOfRecord",
@@ -73,11 +73,6 @@ var siteConfig = {
           {
             type: 'in',
             key: 'countriesOfResearcher',
-            values: countryCode
-          },
-          {
-            type: 'in',
-            key: 'countriesOfCoverage',
             values: countryCode
           }
         ]
