@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: compose
 title: Swiss Natural History collection data
 description: How to search / find / download / cite the data
 background: /assets/images/placeholders/moss.jpg
@@ -7,7 +7,7 @@ imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 50vh
 composition:
-  - type: HeroImage
+  - type: heroImage
   - type: pageMarkdown
 ---
 # What data can be found here
