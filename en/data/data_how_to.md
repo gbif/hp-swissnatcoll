@@ -6,6 +6,7 @@ background: /assets/images/placeholders/moss.jpg
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 50vh
+permalink: /en/data_how_to
 composition:
   - type: heroImage
   - type: pageMarkdown
