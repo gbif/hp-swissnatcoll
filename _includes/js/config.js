@@ -1,12 +1,15 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
+
 const countryCode = 'CH';
+
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
     borderRadius: isSquared? 0 : 3
   }});
 }
+
 var siteConfig = {
   apiKeys: {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
@@ -32,7 +35,17 @@ var siteConfig = {
           "value": countryCode
         },
         {
-	@@ -49,35 +49,22 @@ var siteConfig = {
+          "type": "equals",
+          "key": "networkKey",
+          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
+        },
+        {
+        "type": "not",
+        "predicate": {
+            "type": "equals",
+            "key": "basisOfRecord",
+            "value": "PRESERVED_SPECIMEN"
+          }
         }
       ]
     },
@@ -55,7 +68,18 @@ var siteConfig = {
   },
   literature: {
     rootFilter: {
-	@@ -96,7 +83,7 @@ var siteConfig = {
+      predicate: {
+        type: 'or', predicates: [
+          {
+            type: 'in',
+            key: 'countriesOfResearcher',
+            values: countryCode
+          },
+          {
+            type: 'in',
+            key: 'countriesOfCoverage',
+            values: countryCode
+          }
         ]
       }
     },
@@ -88,6 +112,7 @@ var siteConfig = {
     }        
   }
 };
+
 // example of a language specific route overwrite, in this example for showing the maps labels in the language of the site
 if (pageLang === 'fr')  {
   siteConfig.maps.locale = 'fr';
