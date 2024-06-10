@@ -7,6 +7,7 @@ imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 50vh
 composition:
+  - type: HeroImage
   - type: pageMarkdown
 ---
 # What data can be found here
