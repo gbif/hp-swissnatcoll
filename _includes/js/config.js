@@ -72,12 +72,12 @@ var siteConfig = {
           {
             type: 'in',
             key: 'countriesOfResearcher',
-            values: CH
+            values: countryCode
           },
           {
             type: 'in',
             key: 'countriesOfCoverage',
-            values: CH
+            values: countryCode
           }
         ]
       }
@@ -85,9 +85,9 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   maps: {
-    locale: 'de',
+    locale: 'en',
     defaultProjection: 'MERCATOR', // what is the default projection
-    defaultMapStyle: 'BRIGHT', // what is the default style
+    defaultMapStyle: 'NATURAL', // what is the default style
     mapStyles: {
       MERCATOR: ['BRIGHT', 'NATURAL', 'SATELLITE', 'DARK'],
     },
