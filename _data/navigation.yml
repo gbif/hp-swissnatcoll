@@ -3,12 +3,13 @@
 - text: About
   href: /en/about
 - text: Data
-  menu: 
-  - text: Occurrences
+  menu:
+  - text: How-to
+  - text: 📍 Occurrences
     href: /occurrence/search
-  - text: Collections
+  - text: 🏷️ Collections
     href: /collection/search
-  - text: Institutions
+  - text: 🏛️ Institutions
     href: /institution/search
   #- text: Collectors
     #href: 
@@ -20,26 +21,28 @@
     href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
     href: /data-aggregator
-- text: Methods
-  menu: # Dropdown menu (one level deep only)
-  - text: About
-    href: /en/methods
-  - text: Digitalisation
-    href: /en/digitalisation
-  - text: Management
-    href: /en/management
-  - text: Restoration
-    href: /en/restoration
-- text: Virtual visit
-  menu:
-  - text: Model Viewer
-    href: /en/modelviewer
-  - text: Virtual visit
-    href: /en/virtualvisit
+#- text: Methods
+#  menu: # Dropdown menu (one level deep only)
+#  - text: About
+#    href: /en/methods
+#  - text: Digitalisation
+#    href: /en/digitalisation
+#  - text: Management
+#    href: /en/management
+#  - text: Restoration
+#    href: /en/restoration
+#- text: Virtual visit
+#  menu:
+#  - text: Model Viewer
+#    href: /en/modelviewer
+#  - text: Virtual visit
+#    href: /en/virtualvisit
+- text: Model Viewer
+  href: /en/modelviewer
 - text: 🔗 Links
   href: /en/links
-- text: 📰 News
-  href: /news/
+#- text: 📰 News
+#  href: /news/
 - text: 🗓️ Calendar
   href: /en/calendar
 - text: ❓ Helpdesk
