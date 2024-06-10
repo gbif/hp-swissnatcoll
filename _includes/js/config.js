@@ -24,7 +24,7 @@ var siteConfig = {
       enabled: true,
       lat: 46.801111,
       lng: 8.626667,
-      zoom: 1000
+      zoom: 5000
     },
     rootPredicate: {
       "type": "and",
@@ -40,17 +40,14 @@ var siteConfig = {
           "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
         },
         {
-        "type": "not",
-        "predicate": {
-            "type": "equals",
+          "type": "equals",
             "key": "basisOfRecord",
             "value": "PRESERVED_SPECIMEN"
-          }
         }
       ]
     },
     highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
+    occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
     availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
                             'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
@@ -65,6 +62,28 @@ var siteConfig = {
   publisher: {
     rootFilter: {country: countryCode},
     excludedFilters: ['countrySingle', 'networkKey'],
+  },
+  collection: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
+  },
+  institution: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+      active: true
+    },
+    mapSettings: {
+      enabled: true,
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7.877
+    },
   },
   literature: {
     rootFilter: {
