@@ -17,7 +17,7 @@ var siteConfig = {
   version: 2,
   availableCatalogues: ['OCCURRENCE', 'COLLECTION', 'INSTITUTIONS', 'LITERATURE'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'collectionKey', 'institutionKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
