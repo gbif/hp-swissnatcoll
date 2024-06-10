@@ -2,7 +2,6 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
-// const publisherKey = 'SVNHC';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -16,7 +15,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'COLLECTION', 'INSTITUTIONS', 'LITERATURE'],
   routes: {
     enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
@@ -58,15 +57,6 @@ var siteConfig = {
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
 
   },
-  dataset: {
-    rootFilter: {publishingCountry: countryCode},
-    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
-    excludedFilters: ['publishingCountryCode'],
-  },
-  publisher: {
-    rootFilter: {country: countryCode},
-    excludedFilters: ['countrySingle', 'networkKey'],
-  },
   literature: {
     rootFilter: {
       predicate: {
@@ -84,7 +74,7 @@ var siteConfig = {
         ]
       }
     },
-    highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
+    highlightedFilters: ['q', 'countriesOfCoverage', 'year']
   },
   maps: {
     locale: 'en',
