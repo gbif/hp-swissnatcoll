@@ -2,7 +2,6 @@ var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
 
 const countryCode = 'CH';
-// const publisher = 'SVNHC';
 
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
@@ -16,9 +15,9 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'COLLECTIONS', 'INSTITUTIONS', 'LITERATURE'],
+  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'collectionKey', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
@@ -32,7 +31,7 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "publishing_country",
+          "key": "country",
           "value": countryCode
         },
         {
@@ -41,14 +40,17 @@ var siteConfig = {
           "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba"
         },
         {
-          "type": "equals",
-          "key": "basisOfRecord",
-          "value": "PRESERVED_SPECIMEN"
+        "type": "not",
+        "predicate": {
+            "type": "equals",
+            "key": "basisOfRecord",
+            "value": "PRESERVED_SPECIMEN"
+          }
         }
       ]
     },
     highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
-    occurrenceSearchTabs: ['TABLE', 'MAP', 'DATASETS', 'GALLERY', 'DASHBOARD'], // what tabs should be shown
+    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
     availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
                             'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
@@ -71,6 +73,11 @@ var siteConfig = {
           {
             type: 'in',
             key: 'countriesOfResearcher',
+            values: countryCode
+          },
+          {
+            type: 'in',
+            key: 'countriesOfCoverage',
             values: countryCode
           }
         ]
