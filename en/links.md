@@ -13,7 +13,7 @@ height: 50vh
 * [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en)
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en)
 * [Verband der naturwissenschaftlichen Museen und Sammlungen der Schweiz und Liechtenstein (musnatcoll)](https://musnatcoll.ch/)
-* [GBIF Swiss Node hosted portal](https://swiss-bif.hp.gbif.org/)
+* [GBIF Swiss Node hosted portal (SwissBIF)](https://swiss-bif.hp.gbif.org/)
 
 # Standards & Tools
 
