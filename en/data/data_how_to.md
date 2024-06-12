@@ -15,10 +15,10 @@ composition:
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](https://svnhc.hp.gbif-staging.org/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
 # How is the data displayed on the SVNHC portal?
-The data present on the SVNHC portal is found on this page Occurrence search - SVNHC (home > Data > Occurrence or Collections or Institutions). The display can be chosen:
-- a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the view chosen) and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
+The data present on the SVNHC portal is found on [this page](https://svnhc.hp.gbif-staging.org/occurrence/search). The display can be chosen:
+- a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the tab selected and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
 
-- a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it on the map, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right of the screen. The metadata is grouped in categories, which have their own fields (Summary, Record, Taxon, Location, Occurrence, Event, Identification, Other and Citation)
+- a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right side of the screen. The metadata is grouped in categories, which have their own fields (Summary, Record, Taxon, Location, Occurrence, Event, Identification, Other and Citation). These categories and fields are based on the standard [Darwin Core](https://dwc.tdwg.org/).
 
 # Can I filter the data?
 To filter the data in the Occurrence table presentation, you have a highlighted selected set (listed here below) and by clicking on the "More" button, you have access to more available filters
