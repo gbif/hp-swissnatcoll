@@ -72,7 +72,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
       ❌ Needs a deep cleaning of the whole database/dataset
 
 
-##Where can I find the Darwin Core terms description?
+## Where can I find the Darwin Core terms description?
 On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
 
 Here are a few of the top-10 most used fields (with link to the quick reference guide page):
