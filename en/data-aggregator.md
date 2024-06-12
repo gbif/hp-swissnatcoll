@@ -24,7 +24,7 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 ## Do I have to upload my entire database fields into the Data Aggregator?
 There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields. They are the ones that will be available on the SVNHC portal in the Data pages.
 
-To help you select your field, here is an empty csv file with the most important Darwin Core terms required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload.
+To help you select your field, **here is an empty csv file with the most important Darwin Core terms** required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload.
 <html lang="en">
 <body>
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download>
@@ -38,7 +38,7 @@ To help you select your field, here is an empty csv file with the most important
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 Rest assured, you do not need to change your database/dataset dramatically. The most important thing is to find the easiest and fastest way to adapt your database/dataset to import it in the data aggregator. Here are our 3 most popular suggestions:
 
-1) Add 1 entry in your database/dataset (a new line in your excel file for instance) and fill out each field of this entry with the corresponding [Darwin Core term](https://dwc.tdwg.org/terms/) (if and only if the content of the field corresponds to the DwC definition). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
+1) **Add 1 entry in your database/dataset (a new line in your excel file for instance) and fill out each field of this entry with the corresponding [Darwin Core term](https://dwc.tdwg.org/terms/)** (if and only if the content of the field corresponds to the DwC definition). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
 
       ✅ No extra work of rearranging your database
    
@@ -50,7 +50,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 
 
 
- 2) Add the [Darwin Core terms](https://dwc.tdwg.org/terms/) in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
+ 2) **Add the [Darwin Core terms](https://dwc.tdwg.org/terms/) in your dataset/database as new columns**. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
 
       ✅ You now have Darwin Core named columns/fields
    
@@ -61,7 +61,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
       ❌ If not dynamic, then mistakes can lower the dataset/database quality
 
 
- 3) Check your database/dataset entries and replace the name of your fields with the corresponding [Darwin Core term](https://dwc.tdwg.org/terms/).
+ 3) **Replace the name of your fields with the corresponding [Darwin Core term](https://dwc.tdwg.org/terms/)** after checking your field compatibilities with the DwC terms definitions.
 
       ✅ You now have a fully Darwin Core compatible dataset/database
    
@@ -79,7 +79,7 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 
 | DwC term (dwc:) | Category | Definition | Terms used in most databases |
 | --------------- | -------- | ---------- | ---------------------------- |
-| scientificName | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftlische Name, Full name, Nom complet |
+| scientificName | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet |
 | eventDate | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum |
 | recordNumber | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer |
 | catalogNumber | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer |
