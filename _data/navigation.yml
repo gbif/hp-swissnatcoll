@@ -21,7 +21,7 @@
   - text: Direct link
     href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
-    href: /data-aggregator
+    href: /en/data-aggregator
 - text: Methods
   menu: # Dropdown menu (one level deep only)
   - text: About
