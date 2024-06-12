@@ -22,3 +22,6 @@ In the navigation bar, on top of each page of the portal, click on the **Data** 
 
 # Are there any usage restrictions or licenses for the data on SVNHC?
 At this point of the state of the data, no. The usage restrictions and licenses have been defined through the previous steps of data selection, data aggregation and data validation. Every information provided here is completely in open-access and public. For restricted information requests, please contact the corresponding institution directly.
+
+# I found some mistakes or inconsistencies on this online portal
+Thank you very much for your interest in our work and our collections. We would be happy to hear from you, especially if you help us provide a better website for the years to come. Please do not hesitate to send us an email at **contact-svnhc@infofauna.ch** (or [click here](mailto:contact-svnhc@infofauna.ch))
