@@ -19,7 +19,7 @@ cta:
   - text: 🏛️ Institutions
     href: /institution/search
   - text: 🏷️ Specimens
-    href: /specimen/search
+    href: /occurrence/search
     isPrimary: true
   - text: About
     href: /about
