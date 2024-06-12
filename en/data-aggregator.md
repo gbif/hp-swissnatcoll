@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: compose
 title: Data Aggregator
 description: Swiss Data Aggregator and tutorials
 background: /assets/images/placeholders/moss.jpg
