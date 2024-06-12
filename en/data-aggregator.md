@@ -79,11 +79,11 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 
 | DwC term (dwc:) | Category | Definition | Terms used in most databases |
 | --------------- | -------- | ---------- | ---------------------------- |
-| scientificName | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet |
-| eventDate | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum |
-| recordNumber | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer |
-| catalogNumber | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer |
-| recordedBy | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. |
+| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet |
+| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate) | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum |
+| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer |
+| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer |
+| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. |
 
 And here are a few labels with the corresponding Darwin Core term:
 
