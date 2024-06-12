@@ -1,5 +1,5 @@
 ---
-layout: compose
+layout: heroImage
 title: Data Aggregator
 description: Swiss Data Aggregator and tutorials
 background: /assets/images/placeholders/moss.jpg
@@ -7,9 +7,8 @@ imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
 height: 50vh
 toc: true
-composition:
-  - type: pageMarkdown
 ---
+
 # Swiss Data Aggregator
 
 More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, SwissCollNet will collaborate with InfoSpecies and build on the already existing data infrastructure of the Swiss node of GBIF.
