@@ -12,15 +12,14 @@ height: 50vh
 
 * [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en)
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en)
-* [Verband der naturwissenschaftlichen Museen und Sammlungen der Schweiz und Liechtenstein](https://musnatcoll.ch/)
-* and more to come
+* [Verband der naturwissenschaftlichen Museen und Sammlungen der Schweiz und Liechtenstein (musnatcoll)](https://musnatcoll.ch/)
+* [GBIF Swiss Node hosted portal](https://swiss-bif.hp.gbif.org/)
 
 # Standards & Tools
 
 * [DarwinCore Standard](https://dwc.tdwg.org/)
 * [Access to Biological Collections Data - ABCD-Standard](https://abcd.tdwg.org/)
 * [GBIF Integrated Publishing Toolkit - IPT](https://www.gbif.org/ipt)
-* and more to come
 
 
 # Digitalising efforts in Switzerland and around the world
