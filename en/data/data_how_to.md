@@ -14,9 +14,9 @@ permalink: /en/data_how_to
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](https://svnhc.hp.gbif-staging.org/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
 There are currently 3 entry points to the data:
-1. [Occurrences](https://svnhc.hp.gbif-staging.org/occurrence/search), each element of the table is a specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=) but shows only specimens held in the swiss natural history institutions.
-2. [Collections](https://svnhc.hp.gbif-staging.org/collection/search), each element of the table is a collection of a natural history institution. This view is based on the [GBIF Registry - GRSciColl collections](https://registry.gbif.org/collection/search).
-3. [Institutions](https://svnhc.hp.gbif-staging.org/institution/search), each element of the table is a swiss natural history institution. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed
+1. 📍[Occurrences](https://svnhc.hp.gbif-staging.org/occurrence/search), each element of the table is a specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=) but shows only specimens held in the swiss natural history institutions.
+2. 🗃️[Collections](https://svnhc.hp.gbif-staging.org/collection/search), each element of the table is a collection of a natural history institution. This view is based on the [GBIF Registry - GRSciColl collections](https://registry.gbif.org/collection/search).
+3. 🏛️[Institutions](https://svnhc.hp.gbif-staging.org/institution/search), each element of the table is a swiss natural history institution. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed
 
 # How is the data displayed on the SVNHC portal?
 The data present on the SVNHC portal can be displayed as such:
