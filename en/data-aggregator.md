@@ -54,9 +54,9 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
   </div>
   <div style="flex: 1;">
-    ✅ You now have Darwin Core named columns/fields
-    ✅ You don't need to change the columns/fields you use in your daily work
-    ❌ The data is duplicated in multiple columns
+    ✅ You now have Darwin Core named columns/fields<br>
+    ✅ You don't need to change the columns/fields you use in your daily work<br>
+    ❌ The data is duplicated in multiple columns<br>
     ❌ If not dynamic, then mistakes can lower the dataset/database quality
   </div>
 </div>
@@ -67,9 +67,9 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <strong>3) Replace the name of your fields with the corresponding<a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   </div>
   <div style="flex: 1;">
-    ✅ You now have a fully Darwin Core compatible dataset/database
-    ✅ You won't have to do any more changes in the future
-    ❌ Difficult to change habits regarding field names
+    ✅ You now have a fully Darwin Core compatible dataset/database<br>
+    ✅ You won't have to do any more changes in the future<br>
+    ❌ Difficult to change habits regarding field names<br>
     ❌ Needs a deep cleaning of the whole database/dataset
   </div>
 </div>
