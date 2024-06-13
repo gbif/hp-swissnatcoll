@@ -9,7 +9,7 @@ title: Swiss Virtual Natural History Collection
 description: Virtual museum of the Natural History collections of Switzerland
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
-height: 70vh
+height: 90vh
 parallax: true
 
 # ====================================================================================
