@@ -43,7 +43,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <strong>1) Add 1 entry in your database/dataset (a new line in your excel file for instance) and fill out each field of this entry with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> (if and only if the content of the field corresponds to the DwC definition). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
   </div>
   <div style="flex: 1;">
-    ✅ No extra work of rearranging your database<br>
+    ✅ No extra work of restructuring your database<br>
     ✅ Easily reversed<br>
     ❌ Data as clean as possible<br>
     ❌ Wrong mapping
@@ -56,9 +56,9 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
   </div>
   <div style="flex: 1;">
-    ✅ You now have Darwin Core named columns/fields<br>
-    ✅ You don't need to change the columns/fields you use in your daily work<br>
-    ❌ The data is duplicated in multiple columns<br>
+    ✅ Darwin Core named columns/fields<br>
+    ✅ No changes of original columns/fields<br>
+    ❌ Duplicated in multiple columns<br>
     ❌ If not dynamic, then mistakes can lower the dataset/database quality
   </div>
 </div>
@@ -69,8 +69,8 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <strong>3) Replace the name of your fields with the corresponding<a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   </div>
   <div style="flex: 1;">
-    ✅ You now have a fully Darwin Core compatible dataset/database<br>
-    ✅ You won't have to do any more changes in the future<br>
+    ✅ Fully Darwin Core compatible dataset/database<br>
+    ✅ No more changes in the future<br>
     ❌ Difficult to change habits regarding field names<br>
     ❌ Needs a deep cleaning of the whole database/dataset
   </div>
