@@ -28,7 +28,7 @@ To help you select your field, **here is an empty csv file with the most importa
 <html lang="en">
 <body>
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download>
-       <button>📝 Download CSV</button>
+       <button>Download CSV</button>
     </a>
 </body> 
 </html>
