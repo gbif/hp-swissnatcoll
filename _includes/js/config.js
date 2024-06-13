@@ -40,7 +40,7 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['taxonKey', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
+    highlightedFilters: ['taxonKey', 'typeStatus', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
     occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
     availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
