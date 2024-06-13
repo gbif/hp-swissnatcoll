@@ -23,7 +23,7 @@ var siteConfig = {
       enabled: true,
       lat: 46.801111,
       lng: 8.626667,
-      zoom: 10000
+      zoom: 10.0
     },
     rootPredicate: {
       "type": "and",
