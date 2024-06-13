@@ -87,12 +87,12 @@ And here are a few labels with the corresponding Darwin Core term:
 
 # Tutorials -How to use
 The Data Aggregator has a procedure separated in four important parts:
-1) Preparation of the dataset before the upload
-2) Upload of the dataset either as a new collection or to update an already imported dataset
-3) Mapping of the dataset field names with the Data Aggregator's Darwin Core-based fields
-4) Encoding of the dataset
-5) Validation of the dataset
-6) Publication of the dataset
+1. Preparation of the dataset before the upload
+2. Upload of the dataset either as a new collection or to update an already imported dataset
+3. Mapping of the dataset field names with the Data Aggregator's Darwin Core-based fields
+4. Encoding of the dataset
+5. Validation of the dataset
+6. Publication of the dataset
 
 
 ## Darwin Core Mapping
