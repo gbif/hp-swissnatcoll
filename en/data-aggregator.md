@@ -42,35 +42,39 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </div>
   <div style="flex: 1;">
     ✅ No extra work of rearranging your database<br>
-    ✅ This line can easily be deleted<br>
-    ❌ Your data has to be as clean as possible<br>
+    ✅ Easily reversed<br>
+    ❌ Data as clean as possible<br>
     ❌ Wrong mapping
   </div>
 </div>
-
-
-
- 2) **Add the [Darwin Core terms](https://dwc.tdwg.org/terms/) in your dataset/database as new columns**. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
-
-      ✅ You now have Darwin Core named columns/fields
-   
-      ✅ You don't need to change the columns/fields you use in your daily work
-   
-      ❌ The data is duplicated in multiple columns
-   
-      ❌ If not dynamic, then mistakes can lower the dataset/database quality
-
-
- 3) **Replace the name of your fields with the corresponding [Darwin Core term](https://dwc.tdwg.org/terms/)** after checking your field compatibilities with the DwC terms definitions.
-
-      ✅ You now have a fully Darwin Core compatible dataset/database
-   
-      ✅ You won't have to do any more changes in the future
-   
-      ❌ Difficult to change habits regarding field names
-   
-      ❌ Needs a deep cleaning of the whole database/dataset
-
+<br><br>
+<br><br>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="flex: 3; padding-right: 70px;">
+    <strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
+  </div>
+  <div style="flex: 1;">
+    ✅ You now have Darwin Core named columns/fields
+    ✅ You don't need to change the columns/fields you use in your daily work
+    ❌ The data is duplicated in multiple columns
+    ❌ If not dynamic, then mistakes can lower the dataset/database quality
+  </div>
+</div>
+<br><br>
+<br><br>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="flex: 3; padding-right: 70px;">
+    <strong>3) Replace the name of your fields with the corresponding<a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
+  </div>
+  <div style="flex: 1;">
+    ✅ You now have a fully Darwin Core compatible dataset/database
+    ✅ You won't have to do any more changes in the future
+    ❌ Difficult to change habits regarding field names
+    ❌ Needs a deep cleaning of the whole database/dataset
+  </div>
+</div>
+<br><br>
+<br><br>
 
 ## Where can I find the Darwin Core terms description?
 On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
