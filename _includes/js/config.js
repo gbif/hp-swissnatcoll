@@ -14,9 +14,9 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'COLLECTION', 'INSTITUTION', 'TYPUS', 'DATASET', 'LITERATURE'],
+  availableCatalogues: ['OCCURRENCE', 'COLLECTION', 'INSTITUTION', 'TYPUS', 'DATASETS', 'LITERATURE'],
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'publisherSearch', 'publisherKey', 'datasetsSearch', 'datasetsKey', 'literatureSearch', 'litteratureKey', 
+    enabledRoutes: ['occurrenceSearch', 'publisherSearch', 'publisherKey', 'datasetsSearch', 'literatureSearch', 'literatureKey', 
 		    'collectionSearch', 'collectionKey', 'institutionSearch', 'institutionKey', 'typusSearch', 'typusKey'],
   },
   occurrence: {
@@ -29,6 +29,11 @@ var siteConfig = {
     rootPredicate: {
       "type": "and",
       "predicates": [
+        {
+          "type": "equals",
+          "key": "publishingCountry",
+          "value": countryCode
+        },
         {
           "type": "equals",
           "key": "networkKey",
@@ -64,6 +69,9 @@ var siteConfig = {
       country: countryCode,
 	  active: true
     }
+  },
+  typus: {
+    rootPredicate: { type: 'not equals', key: 'typeStatus', value: 'Not a type' },
   },
   institution: {
     excludedFilters: ['countryGrSciColl'],
