@@ -10,7 +10,7 @@ toc: true
 permalink: /en/data_how_to
 ---
 
-# What data can be found here
+# What data can be found on the SVNHC portal?
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](https://svnhc.hp.gbif-staging.org/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
 There are currently 3 entry points to the data:
@@ -20,7 +20,7 @@ There are currently 3 entry points to the data:
 
 3. 🏛️[Institutions](https://svnhc.hp.gbif-staging.org/institution/search), each element of the table is a swiss natural history institution. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed
 
-# How is the data displayed on the SVNHC portal?
+# How is the data displayed?
 The data present on the SVNHC portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the tab selected and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
 
