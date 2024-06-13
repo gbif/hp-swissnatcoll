@@ -26,28 +26,6 @@ There is no need to upload all fields of your database into the Data Aggregator.
 
 To help you select your field, **here is an empty tsv file with the most important Darwin Core terms** required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload.
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        a {
-            text-decoration: none;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
-    <title>Download TSV</title>
-</head>
 <body>
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.tsv" download>
         <button>Download TSV</button>
