@@ -66,7 +66,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <br><br>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;">
-    <strong>3) Replace the name of your fields with the corresponding<a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
+    <strong>3) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   </div>
   <div style="flex: 1;">
     ✅ Fully Darwin Core compatible dataset/database<br>
