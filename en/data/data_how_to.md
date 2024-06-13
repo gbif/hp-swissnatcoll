@@ -1,6 +1,6 @@
 ---
 layout: heroImage
-title: Swiss Natural History collection data
+title: Data
 description: How to search, find, download, cite the data
 background: /assets/images/background/image.imageformat.carousel.1949378046.jpg
 imageLicense: |
