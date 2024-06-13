@@ -1,6 +1,8 @@
 var primaryColor = themeStyle && themeStyle.colors && themeStyle.colors.primary;
 var isSquared = themeStyle && themeStyle.square;
+
 const countryCode = 'CH';
+
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
@@ -12,7 +14,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  availableCatalogues: ['OCCURRENCE', 'LITERATURE', 'DATASET'],
+  availableCatalogues: ['OCCURRENCE', 'COLLECTION', 'INSTITUTION', 'TYPUS', 'DATASET', 'LITERATURE'],
   routes: {
     enabledRoutes: ['occurrenceSearch', 'publisherKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
