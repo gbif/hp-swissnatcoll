@@ -4,7 +4,7 @@ title: Data
 description: How to search, find, download, cite the data
 background: /assets/images/background/image.imageformat.carousel.1949378046.jpg
 imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+  None for this image
 height: 50vh
 toc: true
 permalink: /en/data_how_to
