@@ -19,10 +19,19 @@ There are currently 3 entry points to the data:
 3. [Institutions](https://svnhc.hp.gbif-staging.org/institution/search), each element of the table is a swiss natural history institution. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed
 
 # How is the data displayed on the SVNHC portal?
-The data present on the SVNHC portal is found on [this page](https://svnhc.hp.gbif-staging.org/occurrence/search). The display can be chosen:
+The data present on the SVNHC portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the tab selected and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
 
 - a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right side of the screen. The metadata is grouped in categories, which have their own fields (Summary, Record, Taxon, Location, Occurrence, Event, Identification, Other and Citation). These categories and fields are based on the standard [Darwin Core](https://dwc.tdwg.org/).
+
+- a **gallery** with pictures of the specimens.
+
+- a **dashboard** (only in the occurrence page) where you can choose to synthetize the data in plot or lists. Each dashboard element's title is named after the data field name considered.
+
+# Can I download the data?
+On the [occurrences page](https://svnhc.hp.gbif-staging.org/occurrence/search), the last tab on top is [**Download**](https://svnhc.hp.gbif-staging.org/occurrence/search?view=DOWNLOAD). By clicking on it, you are redirected to GBIF.org download page. Note that all applicated filters on the SVNHC data page are transmitted to GBIF.org, allowing you to dowload your data of interest easily.
+
+⚠️The link is quite slow to open and still sending towards "https://www.gbif-staging.org/....". At the moment, by simply removing "-staging" in the url on your browser, you can access the requested GBIF dowload page.
 
 # Can I filter the data?
 To filter the data in the Occurrence table presentation, you have a highlighted selected set (listed here below) and by clicking on the "More" button, you have access to more available filters
