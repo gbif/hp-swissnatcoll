@@ -25,13 +25,11 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields. They are the ones that will be available on the SVNHC portal in the Data pages.
 
 To help you select your field, **here is an empty tsv file with the most important Darwin Core terms** required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload.
-<html lang="en">
-<body>
+<div style="text-align: right;">
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.tsv" download>
-        <button>Download TSV</button>
+        <button style="padding: 10px 20px; font-size: 16px; cursor: pointer;">Download TSV</button>
     </a>
-</body>
-</html>
+</div>
 
 
 
