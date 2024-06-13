@@ -36,8 +36,7 @@ To help you select your field, **here is an empty tsv file with the most importa
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 Rest assured, you do not need to change your database/dataset dramatically. The most important thing is to find the easiest and fastest way to adapt your database/dataset to import it in the data aggregator. Here are our 3 most popular suggestions:
 
-<br><br>
-<br><br>
+
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;">
     <strong>1) Add 1 entry in your database/dataset (a new line in your excel file for instance) and fill out each field of this entry with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> (if and only if the content of the field corresponds to the DwC definition). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
