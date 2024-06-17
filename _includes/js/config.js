@@ -72,6 +72,11 @@ var siteConfig = {
             "value": "Not a type"
         }
       ]
+    }
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
     },
     highlightedFilters: ['taxonKey', 'typeStatus', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
     occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
