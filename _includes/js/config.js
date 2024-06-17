@@ -15,7 +15,7 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch', /typus],
   },
   occurrence: {
     mapSettings: {
@@ -29,8 +29,8 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "networkKey",
-          "value": "0b00b924-016b-4954-96a7-2d9264b5d0ba" //Data network = SwissBIF (swissbif.ch)
+          "key": "publishingCountryCode",
+          "value": "CH"
         },
         {
           "type": "equals",
