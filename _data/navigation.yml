@@ -12,6 +12,8 @@
     href: /collection/search
   - text: 🏛️ Institutions
     href: /institution/search
+  - text: 🔖 Typus
+    href: /typus/search
   #- text: Collectors
     #href: 
   #- text: Projects
