@@ -14,7 +14,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  routes: {https://github.com/gbif/hp-svnhc/blob/master/_includes/js/config.js
+  routes: {
     enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
