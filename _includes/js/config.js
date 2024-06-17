@@ -29,7 +29,7 @@ var siteConfig = {
       "predicates": [
         {
           "type": "equals",
-          "key": "country",
+          "key": "publishingCountry",
           "value": countryCode
         },
 	{
