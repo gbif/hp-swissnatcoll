@@ -14,7 +14,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  routes: {
+  routes: {https://github.com/gbif/hp-svnhc/blob/master/_includes/js/config.js
     enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
@@ -29,8 +29,8 @@ var siteConfig = {
       "predicates": [
 	{
           "type": "equals",
-          "key": "hostingOrganizationKey",
-          "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"
+          "key": "organization",				// "publisher" OR "publishingOrg"?
+          "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
         },
         {
           "type": "equals",
