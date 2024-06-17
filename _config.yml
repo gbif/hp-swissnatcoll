@@ -20,7 +20,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: SVNHC # the title of your site should go here
-email: anne.morel@infofauna.ch #your-email@example.com
+email: contact-svnhc@infofauna.ch #your-email@example.com
 description: >
   Virtual museum of Switzerland, open window on centuries of knowledge
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -38,10 +38,10 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: Your organisation name
-  domain: your-domain.org
-  contactEmail: info@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  name: Info Fauna
+  domain: https://www.infofauna.ch/fr#gsc.tab=0
+  contactEmail: contact-svnhc@infofauna.ch
+  helpdeskEmail: contact-svnhc@infofauna.ch
 
 # The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
 siteMeasurements:
