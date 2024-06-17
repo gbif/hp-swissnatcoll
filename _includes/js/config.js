@@ -29,7 +29,7 @@ var siteConfig = {
       "predicates": [
 	{
           "type": "equals",
-          "key": "publisherKey",				// "publisher" OR "publishingOrg"?
+          "key": "publishingOrg",				// "publisher" OR "publishingOrg"?
           "value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
         },
         {
