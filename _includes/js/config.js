@@ -15,7 +15,7 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', '/typus/search', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
@@ -36,6 +36,30 @@ var siteConfig = {
           "type": "equals",
             "key": "basisOfRecord",
             "value": "PRESERVED_SPECIMEN"
+        }
+      ]
+    },
+    highlightedFilters: ['taxonKey', 'typeStatus', 'gadmGid', 'stateProvince', 'publisherKey', 'elevation', 'year', 'basisOfRecord', 'datasetName', 'occurrenceIssue'],
+    occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
+    availableTableColumns: ['scientificName', 'features', 'country', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
+                            'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
+                            'collectionKey', 'locality', 'higherGeography', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
+    defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
+      // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
+  },
+  typus: {
+    rootPredicate: {
+      "type": "and",
+      "predicates": [
+        {
+          "type": "equals",
+          "key": "publishingCountryCode",
+          "value": "CH"
+        },
+        {
+          "type": "equals",
+            "key": "typeStatus",
+            "value": "Not a type"
         }
       ]
     },
