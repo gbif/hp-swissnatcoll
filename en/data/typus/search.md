@@ -1,5 +1,5 @@
 ---
-lang-ref: typus/search
+lang-ref: occurrence/search
 title: Typus search
 description: We publish open data
 permalink: /typus/search
