@@ -57,7 +57,7 @@ var siteConfig = {
           "value": "CH"
         },
         {
-          "type": "equals",
+          "type": "notEquals",
             "key": "typeStatus",
             "value": "Not a type"
         }
