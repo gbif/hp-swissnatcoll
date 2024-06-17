@@ -34,8 +34,8 @@ var siteConfig = {
         //},
 	{
           "type": "equals",
-          "key": "publishingCountryID",
-          "value": countryCode
+          "key": "publishingCountryCode",
+          "value": "CH"
         },
         {
           "type": "equals",
