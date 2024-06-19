@@ -49,7 +49,7 @@ var siteConfig = {
         {
           "type": "in",
           "key": "basisOfRecord",
-          "values": ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN", "MATERIAL_SAMPLE"]
+          "values": ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN"]
         }
       ]
     },
