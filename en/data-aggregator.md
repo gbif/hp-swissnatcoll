@@ -19,12 +19,10 @@ The long-term objective is to achieve automatised data transfer of collection da
 
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
-<br><br>
 <div style="text-align: left; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p><strong>For the Swiss Institutions who wish to publish data on this portal:</strong></p>
   <p><a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a></p>
 </div>
-<br><br>
 
 # FAQs
 ## Do I have to upload my entire database fields into the Data Aggregator?
@@ -59,7 +57,6 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </div>
 </div>
 <br><br>
-<br><br>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;">
     <strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
@@ -72,7 +69,6 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </div>
 </div>
 <br><br>
-<br><br>
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;">
     <strong>3) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
@@ -84,7 +80,6 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     ❌ Needs a deep cleaning of the whole database/dataset
   </div>
 </div>
-<br><br>
 <br><br>
 
 ## Where can I find the Darwin Core terms description?
@@ -99,3 +94,8 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer | G00009201, Sheet-2765149 |
 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
+
+
+## Which fields are required/mandatory, optional and not needed?
+_coming soon_
+
