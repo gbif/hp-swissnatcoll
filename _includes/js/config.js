@@ -34,7 +34,7 @@ var siteConfig = {
           "value": countryCode
         },
         {
-          "type": "equals",
+          "type": "in",
             "key": "basisOfRecord",
             "values": [
             "PRESERVED_SPECIMEN",
