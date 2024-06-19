@@ -40,11 +40,11 @@ var siteConfig = {
         },
         {
           "type": "isNotNull",
-          "key": "institutionKey"
+          "key": "institution"
         },
         {
           "type": "isNotNull",
-          "key": "collectionKey"
+          "key": "collection"
         },
         {
           "type": "in",
