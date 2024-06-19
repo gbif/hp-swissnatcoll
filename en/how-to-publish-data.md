@@ -3,15 +3,11 @@ layout: post
 title: How to publish data - Data Aggregator
 description: For Swiss Natural History institutions
 toc: true
-
-cta:
-  - text: Data Aggregator website
-    href: https://staging.aggregator.scnat.zebbra.ch/
 ---
 
 <div style="text-align: center;">
     <a href="https://staging.aggregator.scnat.zebbra.ch/" >
-        <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Data Aggregator website</button>
+        <button style="padding: 5px 20px; font-size: 14px; background-color: #fa5e97; color: white; border: 1px solid black; cursor: pointer;">Data Aggregator website</button>
     </a>
 </div>
 
