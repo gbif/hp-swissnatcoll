@@ -20,8 +20,11 @@ The long-term objective is to achieve automatised data transfer of collection da
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
 <br><br>
-**For the Swiss Institutions who wish to publish data on this portal**: [How to publish data - Data Aggregator](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/)
-
+<div style="text-align: left; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
+  <p><strong>For the Swiss Institutions who wish to publish data on this portal:</strong></p>
+  <p><a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a></p>
+</div>
+<br><br>
 
 # FAQs
 ## Do I have to upload my entire database fields into the Data Aggregator?
