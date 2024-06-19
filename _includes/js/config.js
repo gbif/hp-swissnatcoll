@@ -15,8 +15,7 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch',
-		   typusKey: {route: '/typus/:key', isHref: true, url: ({key}) => { return '/typus/${key}';}],
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
   occurrence: {
     mapSettings: {
