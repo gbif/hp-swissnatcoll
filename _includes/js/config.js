@@ -47,15 +47,6 @@ var siteConfig = {
     defaultTableColumns: ['scientificName', 'higherGeography', 'country', 'year', 'establishmentMeans', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'dataset', 'datasetName'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
       // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
-  dataset: {
-    rootFilter: {publishingCountry: countryCode},
-    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
-    excludedFilters: ['publishingCountryCode'],
-  },
-  publisher: {
-    rootFilter: {country: countryCode},
-    excludedFilters: ['countrySingle', 'networkKey'],
-  },
   collection: {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
@@ -102,7 +93,7 @@ var siteConfig = {
     defaultProjection: 'MERCATOR', // what is the default projection
     defaultMapStyle: 'NATURAL', // what is the default style
     mapStyles: {
-      MERCATOR: ['BRIGHT', 'NATURAL', 'SATELLITE', 'DARK'],
+      MERCATOR: ['BRIGHT', 'NATURAL', 'DARK'],
     },
     addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
       return {
