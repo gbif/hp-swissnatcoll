@@ -33,6 +33,11 @@ var siteConfig = {
           "key": "publishingCountry",
           "value": countryCode
         },
+	//{
+          //"type": "equals",
+          //"key": "organization",				// "publisher" OR "publishingOrg"?
+          //"value": "Swiss National Biodiversity Data and Information Centres – infospecies.ch"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
+        //},
         {
           "type": "equals",
           "key": "notIssues",
