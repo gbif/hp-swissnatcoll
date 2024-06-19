@@ -27,24 +27,10 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 # Prepare my data
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What you are expected to have at the end of this step:</title>
-  <style>
-    .centered-text {
-      text-align: center;
-      margin-top: 50px; /* Adjust as needed */
-    }
-  </style>
-</head>
-<body>
-  <div class="centered-text">
-    <p> ✅ .tsv file with your data arranged as one line is one occurrence/specimen and one column is one attribute</p>
-  </div>
-</body>
-</html>
+<div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
+  <p>What you are expected to have at the end of this step:</p>
+  <p>✅ 1 .tsv file with your data arranged as one line is one occurrence/specimen and one column is one attribute</p>
+</div>
 
 # Upload my data
 Upload of the dataset either as a new collection or to update an already imported dataset
