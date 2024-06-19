@@ -19,6 +19,9 @@ The long-term objective is to achieve automatised data transfer of collection da
 
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
+<br><br>
+**For the Swiss Institutions who wish to publish data on this portal**: [How to publish data - Data Aggregator](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/)
+
 
 # FAQs
 ## Do I have to upload my entire database fields into the Data Aggregator?
@@ -93,20 +96,3 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer | G00009201, Sheet-2765149 |
 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
-
-And here are a few labels with the corresponding Darwin Core term:
-
-# Tutorials -How to use
-The Data Aggregator has a procedure separated in four important parts:
-1. Preparation of the dataset before the upload
-2. Upload of the dataset either as a new collection or to update an already imported dataset
-3. Mapping of the dataset field names with the Data Aggregator's Darwin Core-based fields
-4. Encoding of the dataset
-5. Validation of the dataset
-6. Publication of the dataset
-
-
-## Darwin Core Mapping
-[Darwin Core](https://dwc.tdwg.org/) is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ) data.
-
-The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
