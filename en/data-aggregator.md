@@ -85,7 +85,7 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 
 | DwC term (dwc:) | Category | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | -------- | ---------- | ------------------------------------- | -------- |
-| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | ... |
+| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes (Linnaeus, 1758)_ |
 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate) | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
 | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer | G00009201, Sheet-2765149 |
