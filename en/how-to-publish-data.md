@@ -22,10 +22,12 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ I have an **UTF-8 encoded TSV file** of my dataset with Darwin Core standardised columns and cell content. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator.md##do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator)
+✅ I have an **UTF-8 encoded TSV file** of my dataset with Darwin Core standardised columns and cell content. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator.md#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator)
 
 # Prepare my data
-Please check our FAQs on how to prepare your dataset/collection for the upload in the Data Aggregator
+Please check our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator.md#faqs) on how to prepare your dataset/collection for the upload in the Data Aggregator.
+
+What you are expected to have at the end of this step: .tsv file with your data arranged as one line is one occurrence/specimen and one column is one attribute
 # Upload my data
 Upload of the dataset either as a new collection or to update an already imported dataset
 
