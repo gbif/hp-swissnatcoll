@@ -10,11 +10,24 @@ toc: true
         <button style="padding: 5px 20px; font-size: 14px; background-color: #fa5e97; color: white; border: 1px solid black; cursor: pointer;">Data Aggregator website</button>
     </a>
 </div>
-
-In order to publish your dataset/collection on the SVNHC portal, you need to first prepare a .tsv file (Tab-separated values file) with your data (see [Prepare my date](#prepare-my-data) and upload it in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/). After the [mapping](#darwin-core-mapping) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SVNHC portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search).
+<br><br>
+<br><br>
+In order to publish your dataset/collection on the SVNHC portal, you need to first prepare a .tsv file (Tab-separated values file) with your data (see [Prepare my data](#prepare-my-data) and upload it in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/). After the [mapping](#darwin-core-mapping) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SVNHC portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search).
 
 # Checklist -to do before starting the Data Aggregator
-- [x] TSV file of my dataset with Darwin Core standardised columns and cell content. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator,md##do-i-have to-upload-my-entire-database-fields-into-the-data-aggregator)
+✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search)**.
+
+> Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d)
+
+✅ My institution has **at least one collection registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search)**.
+
+> Example: [Herbarium - General collection](https://scientific-collections.gbif.org/collection/836af357-06e8-4a4f-9511-c3d33155f2b5)
+
+✅ **Mandatory fields** are present in my dataset to ensure minimal encoding on the Data Aggregator
+- scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName))
+- catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber))
+
+✅ I have an **UTF-8 encoded TSV file** of my dataset with Darwin Core standardised columns and cell content. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator,md##do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator)
 1. Preparation of the dataset before the upload
 2. Upload of the dataset either as a new collection or to update an already imported dataset
 3. Mapping of the dataset field names with the Data Aggregator's Darwin Core-based fields
