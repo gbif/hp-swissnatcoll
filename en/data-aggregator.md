@@ -31,8 +31,11 @@ To help you select your field, **here is an empty tsv file with the most importa
     </a>
 </div>
 
+
 ## What is Darwin Core ?
 [Darwin Core](https://dwc.tdwg.org/) is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ) data.
+The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
+
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 Rest assured, you do not need to change your database/dataset dramatically. The most important thing is to find the easiest and fastest way to adapt your database/dataset to import it in the data aggregator. Here are our 3 most popular suggestions:
