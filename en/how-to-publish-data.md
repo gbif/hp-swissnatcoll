@@ -26,8 +26,8 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 > Example: [Herbarium - General collection](https://scientific-collections.gbif.org/collection/836af357-06e8-4a4f-9511-c3d33155f2b5)
 
 ✅ **Mandatory fields** are present in my dataset to ensure minimal encoding on the Data Aggregator
-- scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName))
-- catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber))
+- scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
+- catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
 ✅ I have an **UTF-8 encoded TSV file** of my dataset with Darwin Core standardised columns and cell content. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator,md##do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator)
 1. Preparation of the dataset before the upload
