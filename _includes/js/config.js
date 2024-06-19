@@ -22,20 +22,24 @@ var siteConfig = {
       enabled: true,
       lat: 46.801111,
       lng: 8.626667,
-      zoom: 7
+      zoom: 0
     },
     rootPredicate: {
       "type": "and",
       "predicates": [
 	{
           "type": "equals",
-          "key": "country",
+          "key": "publishingCountry",
           "value": countryCode
         },
         {
           "type": "equals",
             "key": "basisOfRecord",
-            "value": "PRESERVED_SPECIMEN"
+            "values": [
+            "PRESERVED_SPECIMEN",
+            "FOSSIL_SPECIMEN",
+            "MATERIAL_SAMPLE"
+          ]
         }
       ]
     },
