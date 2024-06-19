@@ -20,10 +20,12 @@
     #href: 
 - text: Data Aggregator
   menu: # Dropdown menu (one level deep only)
-  - text: Direct link
-    href: https://staging.aggregator.scnat.zebbra.ch/
   - text: About
     href: /en/data-aggregator
+  - text: Publish my data
+    href: /en/how-to-publish-data
+  - text: Direct link
+    href: https://staging.aggregator.scnat.zebbra.ch/
 - text: Methods
   menu: # Dropdown menu (one level deep only)
   - text: About
