@@ -15,7 +15,8 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch',
+		   typusKey: {route: '/typus/:key', isHref: true, url: ({key}) => { return '/typus/${key}';}],
   },
   occurrence: {
     mapSettings: {
@@ -62,6 +63,14 @@ var siteConfig = {
       // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   collection: {
+    excludedFilters: ['countryGrSciColl'],
+    rootFilter: {
+      displayOnNHCPortal: true,
+      country: countryCode,
+	  active: true
+    }
+  },
+  typus: {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
