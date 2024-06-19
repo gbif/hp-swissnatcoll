@@ -39,9 +39,17 @@ var siteConfig = {
           "value": "COUNTRY_COORDINATE_MISMATCH"
         },
         {
+          "type": "isNotNull",
+          "key": "institutionKey"
+        },
+        {
+          "type": "isNotNull",
+          "key": "collectionKey"
+        },
+        {
           "type": "in",
-            "key": "basisOfRecord",
-            "values": ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN", "MATERIAL_SAMPLE"]
+          "key": "basisOfRecord",
+          "values": ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN", "MATERIAL_SAMPLE"]
         }
       ]
     },
