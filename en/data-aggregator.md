@@ -31,7 +31,8 @@ To help you select your field, **here is an empty tsv file with the most importa
     </a>
 </div>
 
-
+## What is Darwin Core ?
+[Darwin Core](https://dwc.tdwg.org/) is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ) data.
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 Rest assured, you do not need to change your database/dataset dramatically. The most important thing is to find the easiest and fastest way to adapt your database/dataset to import it in the data aggregator. Here are our 3 most popular suggestions:
@@ -82,13 +83,13 @@ On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdw
 
 Here are a few of the top-10 most used fields (with link to the quick reference guide page):
 
-| DwC term (dwc:) | Category | Definition | Terms used in most databases |
-| --------------- | -------- | ---------- | ---------------------------- |
-| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet |
-| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate) | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum |
-| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer |
-| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer |
-| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. |
+| DwC term (dwc:) | Category | Definition | Corresponding terms found in datasets | Examples |
+| --------------- | -------- | ---------- | ------------------------------------- | -------- |
+| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | Taxon | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | ... |
+| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate) | Event | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
+| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | Occurrence | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
+| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | Occurrence | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer | G00009201, Sheet-2765149 |
+| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | Occurrence | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
 
 And here are a few labels with the corresponding Darwin Core term:
 
