@@ -19,9 +19,11 @@ The long-term objective is to achieve automatised data transfer of collection da
 
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
-<div style="text-align: left; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
-  <p><strong>For the Swiss Institutions who wish to publish data on this portal:</strong></p>
-  <p><a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a></p>
+<div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
+  <p><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
+  <p style="text-align: center; font-size: 20px;">
+    <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a>
+  </p>
 </div>
 
 # FAQs
@@ -37,7 +39,7 @@ To help you select your field, **here is an empty tsv file with the most importa
 
 
 ## What is Darwin Core ?
-[Darwin Core](https://dwc.tdwg.org/) is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ) data.
+[Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
 The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
 
 
@@ -89,11 +91,11 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
-| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName) | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes (Linnaeus, 1758)_ |
-| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate) | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
-| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber) | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
-| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber) | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d'inventaire | G00009201, Sheet-2765149 |
-| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
+| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes (Linnaeus, 1758)_ |
+| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
+| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
+| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d'inventaire | G00009201, Sheet-2765149 |
+| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
 
 
 ## Which fields are required/mandatory, optional and not needed?
