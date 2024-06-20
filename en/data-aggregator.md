@@ -103,9 +103,6 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 ### Minimal mandatory fields of the Data Aggregator
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
-| a | b | c | d |
-
-
 | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"}   | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes_ (Linnaeus, 1758) |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d’inventaire | G00009201, Sheet-2765149 |
 
