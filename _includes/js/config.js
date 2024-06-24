@@ -39,19 +39,6 @@ var siteConfig = {
           //"value": "Swiss National Biodiversity Data and Information Centres – infospecies.ch"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
         //},
         {
-          "type": "equals",
-          "key": "notIssues",
-          "value": "COUNTRY_COORDINATE_MISMATCH"
-        },
-        {
-          "type": "isNotNull",
-          "key": "institution"
-        },
-        {
-          "type": "isNotNull",
-          "key": "collection"
-        },
-        {
           "type": "in",
           "key": "basisOfRecord",
           "values": ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN"]
