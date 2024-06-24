@@ -29,7 +29,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
-  <p>What you are expected to have at the end of this step:</p>
+  <p><u>What you are expected to have at the end of this step:</u></p>
   <p>✅ 1 TSV file (.tsv) with your data arranged as one line = one occurrence/specimen, one column = one attribute, and no empty lines</p>
   <table border="1" style="text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;">
     <tr>
@@ -75,13 +75,14 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
    1. If you want to update an existing collection, go directly to step 4.
    2. If you want to create a new collection that is not yet on this page, go to the next step.
 3. Click on **New collection** on the right side of the window.
-   1. Select the type of your data (Available types: Zoology, Botany, Geology, Paleontology). ⚠️**Mandatory**⚠️
-   2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-         - if the GrSciColl collection has already been used in an other upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page (see point 2.).
+   1. Select the type of your data. ⚠️**Mandatory**⚠️
+      - Available types: Zoology, Botany, Geology, Paleontology
+   3. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+         - if the GrSciColl collection has already been used in an other upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page (see step 2.).
          - you can filter the suggested collections by writing your institution code (e.g. G, BERN, NMLU, etc.). This reduces the suggested list to only your registered collections.
    1. Add a description of the collection. 💡optional💡
    2. Click on **Create collection**
-         - If not ordered (see point 2.), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
+         - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
 4. Click on the collection name.
    - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications and Approvals)
    1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner.
