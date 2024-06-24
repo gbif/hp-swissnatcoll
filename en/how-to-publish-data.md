@@ -57,7 +57,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
       <td>...</td>
     </tr>
     <tr>
-      <td>BERN-5000000</td>
+      <td>BERN-0500000</td>
       <td><em>Azolla filiculoides</em> Lam.</td>
       <td>...</td>
       <td>Ticino</td>
