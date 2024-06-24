@@ -87,12 +87,17 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
    - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications and Approvals)
    1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
    2. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
-5. Click on **Choose a file** to select your prepared TSV file (see [Prepare my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/#prepare-my-data)) or drag and drop it if you have a folder window opened on your screen.
-   - Wait until the purple line is full.
-   1. Click on **Upload file**
+
+--- A three-step window has opened. ---
+
+5. (Step 1 of 3) Click on **Choose a file** to select your prepared TSV file (see [Prepare my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/#prepare-my-data)) or drag and drop it if you have a folder window opened on your screen.
+   1. Wait until the purple line is full.
+   2. Click on **Upload file**
 
 ## Map my data
-6. Select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attributes.
+{:start="6"}
+
+6. (Step 2 of 3) Select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attributes.
    - By typing the beginning of your field names, you can find them more easily.
    - If unsure of the correspondance between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#where-can-i-find-the-darwin-core-terms-description).
    1. Either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
