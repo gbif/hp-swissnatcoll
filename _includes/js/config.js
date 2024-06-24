@@ -15,7 +15,7 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['typusSearch', 'typusKey', 'occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
     typusKey: { url: ({key}) => `/typus?key=${key}`, isHref: true }, // see https://github.com/gbif/hosted-portals/issues/217 for code
   },
   occurrence: {
