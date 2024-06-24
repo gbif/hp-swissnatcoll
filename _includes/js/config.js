@@ -32,7 +32,7 @@ var siteConfig = {
 	{
           "type": "equals",
           "key": "publishingCountry",
-          "value": [countryCode]
+          "value": countryCode
         },
 	//{
           //"type": "equals",
@@ -71,7 +71,7 @@ var siteConfig = {
           {
             type: 'in',
             key: 'country',
-            values: [countryCode]
+            values: countryCode
           },
           {
             type: 'not',
