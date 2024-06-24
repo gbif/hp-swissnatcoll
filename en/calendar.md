@@ -40,13 +40,13 @@ composition:
         .day-header {
             text-align: center;
             font-weight: bold;
-            padding: 10px 0;
+            padding: 7px 0;
         }
         .day {
             border: 1px solid #ccc;
             padding: 10px;
-            min-height: 200px;
-            min-width: 200px;
+            min-height: 100px;
+            min-width: 100px;
         }
         .day h3 {
             margin: 0 0 10px;
