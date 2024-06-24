@@ -14,6 +14,7 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
+  routeConfig: { typusKey: { url: ({key}) => `/typus?key=${key}`, isHref: true }, },
   routes: {
     enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
   },
@@ -73,7 +74,7 @@ var siteConfig = {
             values: countryCode
           },
           {
-            type: 'in',
+            type: 'not',
             key: 'typeStatus',
             values: "NOTATYPE"
           }
