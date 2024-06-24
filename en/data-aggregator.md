@@ -38,7 +38,7 @@ To help you select your field, **here is an empty tsv file with the most importa
 </div>
 
 
-## What is Darwin Core ?
+## What is Darwin Core?
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have distinct and **precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
 The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
 
