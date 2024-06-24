@@ -35,8 +35,8 @@ var siteConfig = {
         },
 	//{
           //"type": "equals",
-          //"key": "organization",				// "publisher" OR "publishingOrg"?
-          //"value": "Swiss National Biodiversity Data and Information Centres – infospecies.ch"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
+          //"key": "hostingOrganizationKey",				// "publisher" OR "publishingOrg"?
+          //"value": "64ee55c9-570a-42af-b7da-3f13c6b4e5a9"		// "SVNHC" OR "9661d20d-86b6-4485-8948-f3c86b022fa7"
         //},
         {
           "type": "in",
@@ -64,10 +64,22 @@ var siteConfig = {
   typus: {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
-      displayOnNHCPortal: true,
-      country: countryCode,
-	  active: true
-    }
+      predicate: {
+	displayOnNHCPortal: true,
+        type: 'and', predicates: [
+          {
+            type: 'in',
+            key: 'country',
+            values: countryCode
+          },
+          {
+            type: 'in',
+            key: 'typeStatus',
+            values: "NOTATYPE"
+          }
+        ]
+      }
+    },
   },
   institution: {
     excludedFilters: ['countryGrSciColl'],
