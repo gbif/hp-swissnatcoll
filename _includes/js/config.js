@@ -87,16 +87,7 @@ var siteConfig = {
     rootFilter: {
       displayOnNHCPortal: true,
       country: countryCode,
-      active: true,
-      predicate: {
-	      type: 'and', predicates: [
-		      {
-			type: 'in',
-			key: 'institutionID',
-			values: 'CJBG', 'MHNG', 'NMBE'
-		      }
-		]
-      }
+      active: true
     },
     mapSettings: {
       enabled: true,
