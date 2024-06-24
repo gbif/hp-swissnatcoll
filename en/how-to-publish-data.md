@@ -64,6 +64,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
     </tr>
   </table>
  <p> ⚠️ empty cells are tolerated, but if possible, please fill them out with "n.a." ⚠️</p>
+</div>
 
 # Upload my data
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
@@ -71,7 +72,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
 2. Click on **Collections** on the left side of the window.
     - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
     - You can order the collection list by clicking on the columns titel (e.g. Name, Code, Progress, Records count / est. and Updated At). By clicking twice or more, you can order it in an ascending or descending order
-   1. If you want to update an existing collection, go directly to point 4.
+   1. If you want to update an existing collection, go directly to step 4.
    2. If you want to create a new collection that is not yet on this page, go to the next step.
 3. Click on **New collection** on the right side of the window.
    1. Select the type of your data (Available types: Zoology, Botany, Geology, Paleontology). ⚠️**Mandatory**⚠️
