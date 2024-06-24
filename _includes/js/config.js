@@ -53,6 +53,20 @@ var siteConfig = {
     defaultTableColumns: ['scientificName', 'country', 'year', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'recordedBy', 'dataset', 'typeStatus'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
       // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
+  dataset: {
+    rootFilter: {
+      predicate: {
+        type: 'and', predicates: [
+          {
+            type: 'notEquals',
+            key: 'typeStatus',
+            values: 'NOTATYPE'
+          }
+        ]
+      }
+    },
+    highlightedFilters: ['q', 'recordedBy', 'family', 'year']
+  },
   collection: {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
