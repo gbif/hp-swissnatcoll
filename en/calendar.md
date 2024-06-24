@@ -64,6 +64,7 @@ composition:
             justify-content: center; /* Horizontally center align */
             text-align: center; /* Ensure the text inside the flex item is centered */
             font-weight: bold;
+            font-size: 12px;
         }
         .month-title {
             font-size: 30px;
