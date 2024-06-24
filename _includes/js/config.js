@@ -32,7 +32,7 @@ var siteConfig = {
 	{
           "type": "equals",
           "key": "publishingCountry",
-          "value": countryCode
+          "value": [countryCode]
         },
 	//{
           //"type": "equals",
