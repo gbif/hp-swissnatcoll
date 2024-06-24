@@ -71,7 +71,7 @@ var siteConfig = {
           {
             type: 'in',
             key: 'country',
-            values: countryCode
+            values: [countryCode]
           },
           {
             type: 'not',
