@@ -77,39 +77,37 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
 3. Click on **New collection** on the right side of the window.
    1. Select the type of your data. ⚠️**Mandatory**⚠️
       - Available types: Zoology, Botany, Geology, Paleontology
-   3. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-         - if the GrSciColl collection has already been used in an other upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page (see step 2.).
-         - you can filter the suggested collections by writing your institution code (e.g. G, BERN, NMLU, etc.). This reduces the suggested list to only your registered collections.
-   1. Add a description of the collection. 💡optional💡
-   2. Click on **Create collection**
-         - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
+   2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+      - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page (see step 2.).
+      - You can filter the suggested collections by writing your institution code (e.g. G, BERN, NMLU, etc.). This reduces the suggested list to only your registered collections.
+   3. Add a description of the collection. 💡optional💡
+   4. Click on **Create collection**
+      - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
 4. Click on the collection name.
-   - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications and Approvals)
-   1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
-   2. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
+    - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
+    1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
+    2. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
 --- A three-step window has opened. ---
 
 5. (Step 1 of 3) Click on **Choose a file** to select your prepared TSV file (see [Prepare my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/#prepare-my-data)) or drag and drop it if you have a folder window opened on your screen.
-   1. Wait until the purple line is full.
-   2. Click on **Upload file**
+    1. Wait until the purple line is full.
+    2. Click on **Upload file**
 
 ## Map my data
-{:start="6"}
-
-6. (Step 2 of 3) Select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attributes.
-   - By typing the beginning of your field names, you can find them more easily.
-   - If unsure of the correspondance between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#where-can-i-find-the-darwin-core-terms-description).
-   1. Either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
-      - The added attributes appear at the bottom of the Mappings window.
-   2. Repeat these steps until all of the fields you want to map are mapped.
-      - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#which-fields-are-requiredmandatory-optional-and-not-needed) a list with the required and optional fields garanting the highest data quality.
-   3. When satisfied with your mapping, click on **Update mapping**
-       - The last step is a summary window on which you can check your file name and size, creation date, the number of rows and the mapped and unmapped fields.
-       1. When satisfied, click on **Run import**.
-          - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
-          - A progression bar appears during the import process and disappears when finished.
-          - If the import worked, the State is **✅ Imported**
+6. (Step 2 of 3) Select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
+    - By typing the beginning of your field names, you can find them more easily.
+    - If unsure of the correspondence between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#where-can-i-find-the-darwin-core-terms-description).
+    1. Either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
+        - The added attributes appear at the bottom of the Mappings window.
+    2. Repeat these steps until all of the fields you want to map are mapped.
+        - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#which-fields-are-requiredmandatory-optional-and-not-needed) a list with the required and optional fields guaranteeing the highest data quality.
+    3. When satisfied with your mapping, click on **Update mapping**
+        - The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
+    4. When satisfied, click on **Run import**.
+        - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
+        - A progression bar appears during the import process and disappears when finished.
+        - If the import worked, the State is **✅ Imported**
 7. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
