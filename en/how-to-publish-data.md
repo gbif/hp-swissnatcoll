@@ -31,7 +31,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p>What you are expected to have at the end of this step:</p>
   <p>✅ 1 TSV file (.tsv) with your data arranged as one line = one occurrence/specimen and one column = one attribute</p>
-  <table border="1" style="margin-top: 20px; margin-left: auto; margin-right: auto;">
+  <table border="1" style="text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;">
     <tr>
       <th>catalogNumber</th>
       <th>scientificName</th>
