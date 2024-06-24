@@ -7,6 +7,7 @@ imageLicense: {{ site.data.images.frullania.caption }}
 height: 50vh
 toc: true
 ---
+# In short
 In order to publish your dataset/collection on the SVNHC portal, you need to first prepare a .tsv file (Tab-separated values file) with your data (see [Prepare my data](#prepare-my-data) and [upload](#upload-my-data) it in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}. After the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SVNHC portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search){:target="_blank"}.
 
 # Checklist -to do before starting the Data Aggregator
@@ -22,14 +23,46 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My dataset file is encoded an **UTF-8 encoded TSV file** with **Darwin Core standardised columns and cell content**. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator){:target="_blank"}
+✅ My ready-for-upload dataset file is an **UTF-8 encoded TSV file** with **Darwin Core standardised columns and cell content**. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator){:target="_blank"}
 
 # Prepare my data
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p>What you are expected to have at the end of this step:</p>
-  <p>✅ 1 .tsv file with your data arranged as one line is one occurrence/specimen and one column is one attribute</p>
+  <p>✅ 1 TSV file (.tsv) with your data arranged as one line = one occurrence/specimen and one column = one attribute</p>
+  <table border="1" style="margin-top: 20px; margin-left: auto; margin-right: auto;">
+    <tr>
+      <th>catalogNumber</th>
+      <th>scientificName</th>
+      <th>...</th>
+      <th>stateProvince</th>
+    </tr>
+    <tr>
+      <td>BERN-0000001</td>
+      <td><em>Abies alba</em> Mill.</td>
+      <td>...</td>
+      <td>Bern</td>
+    </tr>
+    <tr>
+      <td>BERN-0000002</td>
+      <td><em>Acer campestre</em> L.</td>
+      <td>...</td>
+      <td>Geneve</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>BERN-5000000</td>
+      <td><em>Azolla filiculoides</em> Lam.</td>
+      <td>...</td>
+      <td>Ticino</td>
+    </tr>
+  </table>
 </div>
 
 # Upload my data
