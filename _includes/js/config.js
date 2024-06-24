@@ -14,9 +14,9 @@ var siteConfig = {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
  },  
   version: 2,
-  routeConfig: { typusSearch: { url: ({key}) => `/typus?key=${key}`, isHref: true }, }, // see https://github.com/gbif/hosted-portals/issues/217 for code
   routes: {
-    enabledRoutes: ['typusSearch', 'occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    enabledRoutes: ['typusSearch', 'typusKey', 'occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    typusKey: { url: ({key}) => `/typus?key=${key}`, isHref: true }, // see https://github.com/gbif/hosted-portals/issues/217 for code
   },
   occurrence: {
     mapSettings: {
