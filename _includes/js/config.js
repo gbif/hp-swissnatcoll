@@ -15,8 +15,7 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
-    typusKey: { url: ({key}) => `/typus?key=${key}`, isHref: true }, // see https://github.com/gbif/hosted-portals/issues/217 for code
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch']
   },
   occurrence: {
     mapSettings: {
@@ -61,26 +60,6 @@ var siteConfig = {
       country: countryCode,
 	  active: true
     }
-  },
-  typus: {
-    excludedFilters: ['countryGrSciColl'],
-    rootFilter: {
-      predicate: {
-	displayOnNHCPortal: true,
-        type: 'and', predicates: [
-          {
-            type: 'in',
-            key: 'country',
-            values: countryCode
-          },
-          {
-            type: 'not',
-            key: 'typeStatus',
-            values: "NOTATYPE"
-          }
-        ]
-      }
-    },
   },
   institution: {
     excludedFilters: ['countryGrSciColl'],
