@@ -17,7 +17,7 @@ columns:
 
   - name: Helpline
     links:
-    - text: Data Administrator
+    - text: E-mail
       href: mailto:contact-svnhc@infofauna.ch
   
   - name: Contact
