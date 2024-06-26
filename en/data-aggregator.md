@@ -101,12 +101,14 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 ## Which fields are required/mandatory?
 
 ### Minimal mandatory fields of the Data Aggregator
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
-| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"}   | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes_ (Linnaeus, 1758) |
+| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes_ (Linnaeus, 1758) |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d’inventaire | G00009201, Sheet-2765149 |
 
 ### Minimal highly recommanded fields of GBIF.org
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
 | [occurrenceID](https://dwc.tdwg.org/terms/#dwc:occurrenceID){:target="_blank"} | An identifier for the dwc:Occurrence (as opposed to a particular digital record of the dwc:Occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the dwc:occurrenceID globally unique. | <absent>, automatically created when transferring the data from the Data Aggregator to GBIF.org | 3168574668 |
@@ -115,12 +117,14 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect, collection date, date de récolte, Funddatum, date, Datum | August 1903, 01.04.85, 15 VII 1867 |
 
 ### MIDS0 fields in the Data Aggregator
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target='_blank'} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d’inventaire | G00009201, Sheet-2765149 |
 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | <if you have an example, please do not hesitate to send it to us> | BERN, G, MHNN |
 
 ### MIDS1 fields in the Data Aggregator
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
 | _not DwC_ | Part or parts of the organism that have been preserved. | <if you have an example, please do not hesitate to send it to us> | shell, skeleton, skull, soft tissue |
@@ -129,6 +133,7 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 | [taxonID](https://dwc.tdwg.org/terms/#dwc:taxonID){:target='_blank'} | An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set. | <if you have an example, please do not hesitate to send it to us> | 8fa58e08-08de-4ac1-b69c-1235340b7001, 32567, https://www.gbif.org/species/212 |
 
 ### MIDS2 fields in the Data Aggregator
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect, collection date, date de récolte, Funddatum, date, Datum | August 1903, 01.04.85, 15 VII 1867 |
@@ -152,6 +157,7 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 | [originalNameUsage](https://dwc.tdwg.org/terms/#dwc:originalNameUsage){:target='_blank'}              | The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names.                                                                                                                                         | <if you have an example, please do not hesitate to send it to us>    | <if you have an example, please do not hesitate to send it to us>                          | originalNameUsage        |
 
 ### MIDS3 in Data Aggregator
+
 | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | --------------- | ---------- | ------------------------------------- | -------- |
 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'}                                              | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.                                                                                                                                                                                                                                            | date of collect, collection date, date de récolte, Funddatum, date, Datum | August 1903, 01.04.85, 15 VII 1867                                                        | eventDate                |
