@@ -104,10 +104,10 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
 
 <table style="background-color: rgba(173, 216, 230, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
-    <th style="text-align: left; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">DwC term (dwc:)</th>
-    <th style="text-align: left; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Definition</th>
-    <th style="text-align: left; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Corresponding terms found in datasets</th>
-    <th style="text-align: left; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Examples</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">DwC term (dwc:)</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Definition</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Corresponding terms found in datasets</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(173, 216, 230, 0.4);">Examples</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></td>
@@ -122,13 +122,6 @@ Here are a few of the top-10 most used fields (with link to the quick reference 
     <td style="border: 1px solid black; padding: 10px;">G00009201, Sheet-2765149</td>
   </tr>
 </table>
-
-
-
-//| DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
-//| --------------- | ---------- | ------------------------------------- | -------- |
-//| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes_ (Linnaeus, 1758) |
-//| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d’inventaire | G00009201, Sheet-2765149 |
 
 ### Minimal highly recommanded fields of GBIF.org
 
