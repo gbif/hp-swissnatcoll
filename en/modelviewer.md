@@ -6,14 +6,13 @@ background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
 imageLicense: |
   © 2023 The Biocommunication Group - ETH Zurich
 height: 50vh
-permalink: /modelviewer
+permalink: /modelviewer/{{ model_name }}
 composition:
 - type: heroImage
 - type: floatingText
   data: floatingText.3Dinsects
 - type: pageMarkdown
-
-# "https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521"
+model_name: Hylaeus-cgj-20230823
 ---
 
 # Infos on model viewer
@@ -35,7 +34,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 <!-- Model Viewer Component -->
-<model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
+<model-viewer src="https://biocommunication.org/filesystems/scans/{{ model_name }}.gltf"
               shadow-intensity="1" 
               camera-controls="" 
               touch-action="none" 
