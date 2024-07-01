@@ -8,7 +8,7 @@ layout: blank
     .js-scan-viewer {
       width: 100%;
       max-width: 100vw; /* Maximum width as 100% of the viewport width */
-      height: 99vh;    /* Height as 100% of the viewport height */
+      height: 98vh;    /* Height as 100% of the viewport height */
       border: 1px solid #ccc;
       background-color: #fff;
     }
