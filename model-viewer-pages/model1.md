@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Insects 3D models
 ---
 
 <!-- Inclusion of the model-viewer library -->
@@ -16,7 +15,7 @@ title: Insects 3D models
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 200%; max-width: 200vw; height: 1000px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
+              style="width: 100%; max-width: 100vw; height: 100vh; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
 
 <script>
 function getModelNameFromURL() {
