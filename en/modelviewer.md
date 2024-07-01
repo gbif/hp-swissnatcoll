@@ -32,7 +32,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <!-- Drop-down menu to select the model -->
 <label for="model-selector">Choose a model:</label>
 <select id="model-selector" onchange="updateModel()">
-    <option value=""><i>🦋 Select a model 🦋</i></option>
+    <option value="">---Select a model---</option>
     <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
     <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
     <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
@@ -88,6 +88,8 @@ function updateModel() {
 function fetchModelData() {
     const apiUrl = 'https://api.gbif.org/v1/occurrence/3777522425/fragment';
     const gbifBaseUrl = 'https://www.gbif.org/en/occurrence/';
+
+    const occurrenceId = apiUrl.split('/')[5];
     
     fetch(apiUrl)
         .then(response => response.json())
@@ -98,7 +100,7 @@ function fetchModelData() {
             document.getElementById('recordedBy').textContent = data.recordedBy;
             document.getElementById('year').textContent = data.year;
             document.getElementById('countryCode').textContent = data.countryCode;
-            document.getElementById('gbifLink').href = `${gbifBaseUrl}${data.id}`;
+            document.getElementById('gbifLink').href = `${gbifBaseUrl}${occurrenceId}`;
         })
         .catch(error => console.error('Error fetching model data:', error));
 }
