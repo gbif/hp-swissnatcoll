@@ -30,10 +30,10 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <!-- Drop-down menu to select the model -->
 <label for="model-selector">Choose a model:</label>
 <select id="model-selector" onchange="updateModel()">
-    <option value="">Select a model</option>
-    <option value="model1">Model 1</option>
-    <option value="model2">Model 2</option>
-    <option value="model3">Model 3</option>
+    <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
+    <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
+    <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
+    <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
     <!-- Add more options as needed -->
 </select>
 
