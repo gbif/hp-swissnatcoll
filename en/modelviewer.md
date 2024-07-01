@@ -34,7 +34,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 <!-- Model Viewer Component -->
-<model-viewer src="https://biocommunication.org/filesystems/scans/{{ model_name }}.gltf"
+<model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
               shadow-intensity="1" 
               camera-controls="" 
               touch-action="none" 
