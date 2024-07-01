@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Insects 3D models
 ---
 
 <!-- Inclusion of the model-viewer library -->
