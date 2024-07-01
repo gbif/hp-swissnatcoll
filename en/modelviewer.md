@@ -27,6 +27,8 @@ published on: 7/13/2023
 written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
+<br></br>
+
 <!-- Drop-down menu to select the model -->
 <label for="model-selector">Choose a model:</label>
 <select id="model-selector" onchange="updateModel()">
@@ -36,16 +38,6 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
     <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
     <!-- Add more options as needed -->
 </select>
-
-<!-- Display extracted data -->
-<div id="model-data">
-    <p><strong>Scientific Name:</strong> <span id="scientificName"></span></p>
-    <p><strong>Catalog Number:</strong> <span id="catalogNumber"></span></p>
-    <p><strong>Dataset Name:</strong> <span id="datasetName"></span></p>
-    <p><strong>Recorded By:</strong> <span id="recordedBy"></span></p>
-    <p><strong>Year:</strong> <span id="year"></span></p>
-    <p><strong>Country Code:</strong> <span id="countryCode"></span></p>
-</div>
 
 <!-- Inclusion of the model-viewer library -->
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -62,6 +54,17 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               ar-status="not-presenting" 
               style="width: 100%; max-width: 100vw; height: 50vh; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
 _If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
+
+<!-- Display extracted data -->
+<div id="model-data">
+    <p><strong>Scientific Name:</strong> <span id="scientificName"></span></p>
+    <p><strong>Catalog Number:</strong> <span id="catalogNumber"></span></p>
+    <p><strong>Dataset Name:</strong> <span id="datasetName"></span></p>
+    <p><strong>Recorded By:</strong> <span id="recordedBy"></span></p>
+    <p><strong>Year:</strong> <span id="year"></span></p>
+    <p><strong>Country Code:</strong> <span id="countryCode"></span></p>
+</div>
+
 
 <script>
 function getModelNameFromURL() {
