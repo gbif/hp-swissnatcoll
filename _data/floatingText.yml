@@ -5,10 +5,10 @@
   fontsize: 500
   cta:
   - text: 🦟 <i> Anopheles gambiae</i>
-    href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/
+    href: https://biocommunication.org/en/insects360/3d-scans/anopheles-gambiae/{:target="_blank"}
   - text: 🪲 <i> Carabus montivagus</i>
-    href: https://biocommunication.org/en/insects360/3d-scans/carabus-montivagus/
+    href: https://biocommunication.org/en/insects360/3d-scans/carabus-montivagus/{:target="_blank"}
   - text: 🪲 <i> Cicindela andriana</i>
-    href: https://biocommunication.org/en/insects360/3d-scans/cicindela-andriana/
+    href: https://biocommunication.org/en/insects360/3d-scans/cicindela-andriana/{:target="_blank"}
   - text: 🐝 <i> Hylaeus nigritus</i>
-    href: /model-viewer-pages/model1 #https://biocommunication.org/en/insects360/3d-scans/hylaeus-nigritus/
+    href: /model-viewer-pages/model1{:target="_blank"} #https://biocommunication.org/en/insects360/3d-scans/hylaeus-nigritus/
