@@ -29,20 +29,35 @@ written by: Christian Felsner
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
 # Hylaeus nigritus
-<!-- Inclusion of the model-viewer library -->
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<html>
+<head>
+  <title>Responsive Model Viewer</title>
+  <style>
+    .js-scan-viewer {
+      width: 100%;
+      max-width: 100vw; /* Maximum width as 100% of the viewport width */
+      height: 500px;    /* Height as 100% of the viewport height */
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Inclusion of the model-viewer library -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-<!-- Model Viewer Component -->
-<model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
-              shadow-intensity="1" 
-              camera-controls="" 
-              touch-action="none" 
-              interaction-prompt-threshold="500" 
-              auto-rotate="" 
-              class="js-scan-viewer" 
-              ar-status="not-presenting" 
-              style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
-_If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
+  <!-- Model Viewer Component -->
+  <model-viewer src="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf"
+                shadow-intensity="1" 
+                camera-controls="" 
+                touch-action="none" 
+                interaction-prompt-threshold="500" 
+                auto-rotate="" 
+                class="js-scan-viewer" 
+                ar-status="not-presenting"></model-viewer>
+  <p><i>If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..).</i></p>
+</body>
+</html>
 
 
 # Anopheles gambiae
