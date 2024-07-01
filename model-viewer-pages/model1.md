@@ -13,4 +13,4 @@ layout: blank
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 1000px; height: 1000px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
+              style="width: 100%; max-width: 5000px; height: 2000px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
