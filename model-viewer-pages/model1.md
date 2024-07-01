@@ -15,7 +15,7 @@ layout: default
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 100vw; height: 100vh; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
+              style="width: 100%; max-width: 100vw; height: 95vh; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
 
 <script>
 function getModelNameFromURL() {
