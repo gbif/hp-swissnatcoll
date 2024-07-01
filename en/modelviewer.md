@@ -28,7 +28,7 @@ published on: 7/13/2023
 written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
-# Hylaeus-cgj-20230823
+# Hylaeus nigritus
 <!-- Inclusion of the model-viewer library -->
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
@@ -43,3 +43,21 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               ar-status="not-presenting" 
               style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
 _If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
+
+
+# Anopheles gambiae
+<!-- Inclusion of the model-viewer library -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<!-- Model Viewer Component -->
+<model-viewer src="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211.gltf"
+              shadow-intensity="1" 
+              camera-controls="" 
+              touch-action="none" 
+              interaction-prompt-threshold="500" 
+              auto-rotate="" 
+              class="js-scan-viewer" 
+              ar-status="not-presenting" 
+              style="width: 100%; max-width: 800px; height: 400px; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
+_If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
+
