@@ -1,5 +1,5 @@
 ---
-layout: blank
+layout: default
 ---
 
 <!-- Inclusion of the model-viewer library -->
