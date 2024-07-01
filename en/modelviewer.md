@@ -27,7 +27,7 @@ published on: 7/13/2023
 written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
-<br></br>
+<br><br>
 
 <!-- Drop-down menu to select the model -->
 <label for="model-selector">Choose a model:</label>
