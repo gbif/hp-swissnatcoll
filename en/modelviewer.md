@@ -6,7 +6,6 @@ background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
 imageLicense: |
   © 2023 The Biocommunication Group - ETH Zurich
 height: 50vh
-toc: true
 composition:
 - type: heroImage
 - type: floatingText
