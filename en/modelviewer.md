@@ -27,7 +27,15 @@ published on: 7/13/2023
 written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
-
+<!-- Drop-down menu to select the model -->
+<label for="model-selector">Choose a model:</label>
+<select id="model-selector" onchange="updateModel()">
+    <option value="">Select a model</option>
+    <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
+    <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
+    <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
+    <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
+</select>
 
 <!-- Inclusion of the model-viewer library -->
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -51,12 +59,25 @@ function getModelNameFromURL() {
     return urlParams.get('model');
 }
 
+function updateModel() {
+    const modelSelector = document.getElementById('model-selector');
+    const selectedModel = modelSelector.value;
+    if (selectedModel) {
+        const newUrl = `${window.location.pathname}?model=${selectedModel}`;
+        window.history.pushState({ path: newUrl }, '', newUrl);
+        const modelViewer = document.getElementById('dynamic-model-viewer');
+        const modelSrc = `${selectedModel}.gltf`;
+        modelViewer.setAttribute('src', modelSrc);
+    }
+}
+
 document.addEventListener('DOMContentLoaded', (event) => {
     const modelName = getModelNameFromURL();
     if (modelName) {
         const modelViewer = document.getElementById('dynamic-model-viewer');
         const modelSrc = `${modelName}.gltf`;
         modelViewer.setAttribute('src', modelSrc);
+        document.getElementById('model-selector').value = modelName;
     }
 });
 </script>
