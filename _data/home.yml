@@ -5,65 +5,64 @@ stats:
   klass: contentTypesStat
   features:
     - title: "52" #<span data-ajax-url="https://api.gbif.org/v1/organization?country=CH&limit=0&isEndorsed=true">642</span>
-      description: Swiss institutions
+      description: "Swiss institutions"
       background: "{{ site.data.images.institutions.src }}"
-      href: /institution/search
+      href: "/institution/search"
     
     - title: "320" #<span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CH&limit=0">45</span>
-      description: Collections
+      description: "Collections"
       background: "{{ site.data.images.collections.src }}"
-      href: /collection/search
+      href: "/collection/search"
       
-    - title: "3,244,867" #<span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="https://graphql.gbif-staging.org/graphql?query=%0Aquery%7B%0A%20%20occurrenceSearch%28predicate%3A%20%7B%0A%20%20%20%20type%3A%20and%2C%20%0A%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20or%2C%20%0A%20%20%20%20%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22institutionKey%22%7D%2C%20%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22collectionKey%22%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%7D%2C%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20in%2C%20%0A%20%20%20%20%20%20%20%20key%3A%20%22basisOfRecord%22%2C%20%0A%20%20%20%20%20%20%20%20values%3A%20%5B%22PRESERVED_SPECIMEN%22%2C%20%22FOSSIL_SPECIMEN%22%2C%20%22MATERIAL_SAMPLE%22%2C%20%22LIVING_SPECIMEN%22%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%20%20%7D%29%20%7B%0A%20%20%20%20documents%28size%3A%200%29%20%7B%0A%20%20%20%20%20%20total%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A&variables=%7B%22predicate%22%3A%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22or%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22institutionKey%22%7D%2C%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22collectionKey%22%7D%5D%7D%2C%7B%22type%22%3A%22in%22%2C%22key%22%3A%22basisOfRecord%22%2C%22values%22%3A%5B%22PRESERVED_SPECIMEN%22%2C%22FOSSIL_SPECIMEN%22%2C%22MATERIAL_SAMPLE%22%2C%22LIVING_SPECIMEN%22%5D%7D%2C%7B%22type%22%3A%22equals%22%2C%22key%22%3A%22publishingCountry%22%2C%22value%22%3A%22US%22%7D%5D%7D%2C%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%5D%7D%5D%7D%2C%22size%22%3A50%2C%22from%22%3A0%7D">45</span> #ligne récupérée sur le github hp-grscicoll
-      description: Occurrences
+    - title: "3,244,867" #<span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="https://graphql.gbif-staging.org/graphql?query=%0Aquery%7B%0A%20%20occurrenceSearch%28predicate%3A%20%7B%0A%20%20%20%20type%3A%20and%2C%20%0A%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20or%2C%20%0A%20%20%20%20%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22institutionKey%22%7D%2C%20%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22collectionKey%22%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%7D%2C%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20in%2C%20%0A%20%20%20%20%20%20%20%20key%3A%20%22basisOfRecord%22%2C%20%0A%20%20%20%20%20%20%20%20values%3A%20%5B%22PRESERVED_SPECIMEN%22%2C%20%22FOSSIL_SPECIMEN%22%2C%20%22MATERIAL_SAMPLE%22%2C%20%22LIVING_SPECIMEN%22%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%20%20%7D%29%20%7B%0A%20%20%20%20documents%28size%3A%200%29%20%7B%0A%20%20%20%20%20%20total%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A&variables=%7B%22predicate%22%3A%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22or%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22institutionKey%22%7D%2C%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22collectionKey%22%7D%5D%7D%2C%7B%22type%22%3A%22in%22%2C%22key%22%3A%22basisOfRecord%22%2C%22values%22%3A%5B%22PRESERVED_SPECIMEN%22%2C%22FOSSIL_SPECIMEN%22%2C%22MATERIAL_SAMPLE%22%2C%22LIVING_SPECIMEN%22%5D%7D%2C%7B%22type%22%3A%22equals%22%2C%22key%22%3A%22publishingCountry%22%2C%22value%22%3A%22US%22%7D%5D%7D%2C%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5D%7D%5D%7D%2C%22size%22%3A50%2C%22from%22%3A0%7D">45</span> #ligne récupérée sur le github hp-grscicoll
+      description: "Occurrences"
       background: "{{ site.data.images.specimens.src }}"
-      href: /occurrence/search
+      href: "/occurrence/search"
       
     - title: "856"
-      description: Literature
+      description: "Literature"
       background: "{{ site.data.images.literature.src }}"
-      href: /literature/search
+      href: "/literature/search"
 
 # ============================================================================================================================
 # THEMATIC COMMUNITIES
 # ============================================================================================================================
 thematicCommunities:
-  title: Thematic communities
-  description: |
-    Access to the different sectors of a museum
+  title: "Thematic communities"
+  description: "Access to the different sectors of a museum"
   features:
-    - title: Zoology # required
+    - title: "Zoology" # required
       description: |      # required
         Fauna groups
-      href: /en/fauna
+      href: "/en/fauna"
       background: "{{ site.data.images.zoology.src }}"
       imageLicense: "{{ site.data.images.zoology.caption }}"
       
-    - title: Botany # required
+    - title: "Botany" # required
       description: |      # required
         Flora groups
-      href: /en/flora
+      href: "/en/flora"
       background: "{{ site.data.images.botany.src }}"
       imageLicense: "{{ site.data.images.botany.caption }}"
       
-    - title: TYPUS # required
+    - title: "TYPUS" # required
       description: |      # required
         Typus collections of Switzerland
-      href: /en/typus
+      href: "/en/typus"
       background: "{{ site.data.images.typus.src }}"
       imageLicense: "{{ site.data.images.typus.caption }}"
       
-    - title: Georeferencing # required
+    - title: "Georeferencing" # required
       description: |      # required
         Recommendations and methods for a standardised georeferencing of natural history specimens
-      href: /en/georeferencing
+      href: "/en/georeferencing"
       background: "{{ site.data.images.georeferencing.src }}"
       imageLicense: "{{ site.data.images.georeferencing.caption }}"
       
-    - title: Digitalisation
+    - title: "Digitalisation"
       description: |
         Digitalisation workflows of various swiss institutions, best practices and helpful material
-      href: /en/digitalisation
+      href: "/en/digitalisation"
       background: "{{ site.data.images.digitalisation.src }}"
       imageLicense: "{{ site.data.images.digitalisation.caption }}"
 
@@ -86,7 +85,7 @@ vision:
 # ============================================================================================================================
 video-swisscollnet:
   title: "SwissCollNet Youtube Playlist"
-  description: [<img src="{{ site.data.images.swisscollnet_video.src }}" alt="YouTube image" style="width: 900px; height: 500px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)
+  description: "[<img src=\"{{ site.data.images.swisscollnet_video.src }}\" alt=\"YouTube image\" style=\"width: 900px; height: 500px\"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)"
   overlayColor: "#ffffff55"
   hasWhiteText: false
 
@@ -104,6 +103,6 @@ fileDownload:
   imageLicense: "{{ site.data.images.handbook.caption }}"
   # href: /about
   cta:
-  - text: Download handbook
-    href: https://portal-cdn.scnat.ch/asset/053d7a81-941f-5e0d-bf89-28384e685cc8/Handbook_collections.pdf?b=c76e64eb-14ef-5df9-a399-0d11b5582150&v=233f858a-b3c9-5670-9f1f-502ede7bcba3_0&s=HhQ8WBbA_Wde3PAn-llE4Ex8ClpmV7yK8uDlZK60vHaDcylutNm5GU1ZTvt5nI9Di1A8sLOJysEH04_7RULzlrBr-ucWK6yRuuHYuDpgx2Fhv74GdUqdFxpbhOYQ04PL20sMwG45SNMzMs89DpZHtvwh2kN3_qAeZnI0tj8N6u8{:target="_blank"}
+  - text: "Download handbook"
+    href: "https://portal-cdn.scnat.ch/asset/053d7a81-941f-5e0d-bf89-28384e685cc8/Handbook_collections.pdf?b=c76e64eb-14ef-5df9-a399-0d11b5582150&v=233f858a-b3c9-5670-9f1f-502ede7bcba3_0&s=HhQ8WBbA_Wde3PAn-llE4Ex8ClpmV7yK8uDlZK60vHaDcylutNm5GU1ZTvt5nI9Di1A8sLOJysEH04_7RULzlrBr-ucWK6yRuuHYuDpgx2Fhv74GdUqdFxpbhOYQ04PL20sMwG45SNMzMs89DpZHtvwh2kN3_qAeZnI0tj8N6u8{:target=\"_blank\"}"
     isPrimary: true
