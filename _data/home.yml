@@ -93,7 +93,7 @@ video-swisscollnet:
     of the work done until now, the strategy was debated and adjusted through group discussions.
   background: "{{ site.data.images.swisscollnet_video.src }}"
   imageLicense: "{{ site.data.images.swisscollnet_video.caption }}"
-    cta:
+  cta:
   - text: "Watch on YouTube"
     href: "https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3"
     isPrimary: true
