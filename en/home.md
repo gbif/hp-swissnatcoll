@@ -1,6 +1,6 @@
 ---
 lang-ref: home
-layout: home
+layout: heroVideo
 permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
