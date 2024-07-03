@@ -20,27 +20,27 @@ models_three_d:
 # SMALL ILLUSTRATIONS
 # ============================================================================================================================
 institutions:
-  src: /assets/images/placeholders/institutions_small.jpg
-  caption: "none, placeholders image of GBIF.org"
+  src: /assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg
+  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/)"
 
 collections:
-  src: /assets/images/placeholders/collections_small.jpg
-  caption: "none, placeholders image of GBIF.org"
+  src: /assets/images/swissMuseumsImages/DSCN3320.JPG
+  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/)"
 
 specimens:
-  src: /assets/images/placeholders/specimen.png
-  caption: "none, placeholders image of GBIF.org"
+  src: /assets/images/swissMuseumsImages/DSC_5509.jpg
+  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
 
 literature:
-  src: /assets/images/categories/literature_istockphoto-839904424-2048x2048.jpg
-  caption: "iStockphoto"
+  src: /assets/images/swissMuseumsImages/dalle_literature.jpg
+  caption: "Anne Morel / AI generated picture"
 
 # ============================================================================================================================
 # THEMATIC ILLUSTRATIONS
 # ============================================================================================================================
 digitalisation:
-  src: /assets/images/categories/Digitalisation-homemade.jpg
-  caption: "Anne Morel"
+  src: /assets/images/swissMuseumsImages/ETH_E_8869.jpg
+  caption: "ETHZ-BIB/Pierre Kellenberger"
 
 georeferencing:
   src: /assets/images/categories/Georeferencing-homemade.png
@@ -110,6 +110,14 @@ frullania:
 catocala_ilia_cramer:
   src: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
   caption: "[_Catocala ilia_ Cramer, 1779](https://www.gbif.org/occurrence/2365571744) from [Peabody Museum of Natural History](institution/75f50140-830d-4630-a290-3d6e951a7c29)"
+
+# ============================================================================================================================
+# IF NEEDED
+# ============================================================================================================================
+mhng_facadeDiv:
+  src: /assets/images/swissMuseumsImages/Facade200E.jpg
+  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
+
 
 # it is possible to refer to images in front matter and access these images. 
 # Or you can choose to just type them in the front matter. It is a matter of preference. 
