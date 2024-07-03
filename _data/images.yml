@@ -5,7 +5,7 @@
 # PAGES HEROIMAGE BACKGROUND
 # ============================================================================================================================
 home:
-  src: "/assets/images/swissMuseumsImages/DSC_6289 - Copie.jpg"
+  src: /assets/images/swissMuseumsImages/DSC_6289Copie.jpg
   caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
 
 about:
