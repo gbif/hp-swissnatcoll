@@ -2,24 +2,25 @@
 lang-ref: home
 layout: home
 permalink: /
+
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
 title: Swiss Virtual Natural History Collection
-description: "Virtual museum of the Natural History collections of Switzerland"
-background: "{{ site.data.images.home.src }}"
+description: Virtual museum of the Natural History collections of Switzerland
+background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
 parallax: true
 cta:
-  - text: "🏛️ Institutions"
+  - text: 🏛️ Institutions
     href: /institution/search
-  - text: "🏷️ Specimens"
+  - text: 🏷️ Specimens
     href: /occurrence/search
     isPrimary: true
-  - text: "About"
-    href: /en/about
-  - text: "Publish my data"
+  - text: About
+    href: /about 
+  - text: Publish my data
     href: /en/how-to-publish-data
 
 # ====================================================================================
