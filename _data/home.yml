@@ -1,30 +1,32 @@
+# ============================================================================================================================
+# STATISTICS (GBIF)
+# ============================================================================================================================
 stats:
   klass: contentTypesStat
-  # title: "type: stats"    
-  #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
   features:
     - title: "52" #<span data-ajax-url="https://api.gbif.org/v1/organization?country=CH&limit=0&isEndorsed=true">642</span>
       description: Swiss institutions
-      background: /assets/images/placeholders/institutions_small.jpg
+      background: "{{ site.data.images.institutions.src }}"
       href: /institution/search
-    - title: "33" #<span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CH&limit=0">45</span>
+    
+    - title: "320" #<span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CH&limit=0">45</span>
       description: Collections
-      background: /assets/images/placeholders/collections_small.jpg
+      background: "{{ site.data.images.collections.src }}"
       href: /collection/search
-    - title: "2,214,387" #<span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="https://graphql.gbif-staging.org/graphql?query=%0Aquery%7B%0A%20%20occurrenceSearch%28predicate%3A%20%7B%0A%20%20%20%20type%3A%20and%2C%20%0A%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20or%2C%20%0A%20%20%20%20%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22institutionKey%22%7D%2C%20%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22collectionKey%22%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%7D%2C%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20in%2C%20%0A%20%20%20%20%20%20%20%20key%3A%20%22basisOfRecord%22%2C%20%0A%20%20%20%20%20%20%20%20values%3A%20%5B%22PRESERVED_SPECIMEN%22%2C%20%22FOSSIL_SPECIMEN%22%2C%20%22MATERIAL_SAMPLE%22%2C%20%22LIVING_SPECIMEN%22%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%20%20%7D%29%20%7B%0A%20%20%20%20documents%28size%3A%200%29%20%7B%0A%20%20%20%20%20%20total%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A&variables=%7B%22predicate%22%3A%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22or%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22institutionKey%22%7D%2C%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22collectionKey%22%7D%5D%7D%2C%7B%22type%22%3A%22in%22%2C%22key%22%3A%22basisOfRecord%22%2C%22values%22%3A%5B%22PRESERVED_SPECIMEN%22%2C%22FOSSIL_SPECIMEN%22%2C%22MATERIAL_SAMPLE%22%2C%22LIVING_SPECIMEN%22%5D%7D%2C%7B%22type%22%3A%22equals%22%2C%22key%22%3A%22publishingCountry%22%2C%22value%22%3A%22US%22%7D%5D%7D%2C%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%5D%7D%5D%7D%2C%22size%22%3A50%2C%22from%22%3A0%7D">45</span> #ligne récupérée sur le github hp-grscicoll
+      
+    - title: "3,244,867" #<span data-ajax-path="data.occurrenceSearch.documents.total" data-ajax-url="https://graphql.gbif-staging.org/graphql?query=%0Aquery%7B%0A%20%20occurrenceSearch%28predicate%3A%20%7B%0A%20%20%20%20type%3A%20and%2C%20%0A%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20or%2C%20%0A%20%20%20%20%20%20%20%20predicates%3A%20%5B%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22institutionKey%22%7D%2C%20%0A%20%20%20%20%20%20%20%20%20%20%7Btype%3A%20isNotNull%2C%20key%3A%20%22collectionKey%22%7D%0A%20%20%20%20%20%20%20%20%5D%0A%20%20%20%20%20%20%7D%2C%20%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20type%3A%20in%2C%20%0A%20%20%20%20%20%20%20%20key%3A%20%22basisOfRecord%22%2C%20%0A%20%20%20%20%20%20%20%20values%3A%20%5B%22PRESERVED_SPECIMEN%22%2C%20%22FOSSIL_SPECIMEN%22%2C%20%22MATERIAL_SAMPLE%22%2C%20%22LIVING_SPECIMEN%22%5D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%5D%0A%20%20%7D%29%20%7B%0A%20%20%20%20documents%28size%3A%200%29%20%7B%0A%20%20%20%20%20%20total%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A&variables=%7B%22predicate%22%3A%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22or%22%2C%22predicates%22%3A%5B%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22institutionKey%22%7D%2C%7B%22type%22%3A%22isNotNull%22%2C%22key%22%3A%22collectionKey%22%7D%5D%7D%2C%7B%22type%22%3A%22in%22%2C%22key%22%3A%22basisOfRecord%22%2C%22values%22%3A%5B%22PRESERVED_SPECIMEN%22%2C%22FOSSIL_SPECIMEN%22%2C%22MATERIAL_SAMPLE%22%2C%22LIVING_SPECIMEN%22%5D%7D%2C%7B%22type%22%3A%22equals%22%2C%22key%22%3A%22publishingCountry%22%2C%22value%22%3A%22US%22%7D%5D%7D%2C%7B%22type%22%3A%22and%22%2C%22predicates%22%3A%5B%5D%7D%5D%7D%2C%22size%22%3A50%2C%22from%22%3A0%7D">45</span> #ligne récupérée sur le github hp-grscicoll
       description: Occurrences
-      background: /assets/images/placeholders/specimen.png
+      background: "{{ site.data.images.specimens.src }}"
       href: /occurrence/search
-    - title: "843"
+      
+    - title: "856"
       description: Literature
-      background: assets/images/categories/literature_istockphoto-839904424-2048x2048.jpg
+      background: "{{ site.data.images.literature.src }}"
       href: /literature/search
 
-  description: |      # required
-    Data source : [GBIF](https://www.gbif.org/occurrence/search?q=switzerland&country=CH)
-
-
-
+# ============================================================================================================================
+# THEMATIC COMMUNITIES
+# ============================================================================================================================
 thematicCommunities:
   title: Thematic communities
   description: |
@@ -32,50 +34,42 @@ thematicCommunities:
   features:
     - title: Zoology # required
       description: |      # required
-        Animal groups
+        Fauna groups
       href: /en/fauna
-      # img required
-      background: /assets/images/categories/fauna-istockphoto-1017243656-1024x1024.jpg
-      imageLicense: istockphoto, smartboy10
-      # categories: [drawings] # optional
+      background: "{{ site.data.images.zoology.src }}"
+      imageLicense: "{{ site.data.images.zoology.caption }}"
       
     - title: Botany # required
       description: |      # required
         Flora groups
       href: /en/flora
-      background: /assets/images/categories/flora-istockphoto-689068468-1024x1024.jpg
-      imageLicense: istockphoto, ilbusca
+      background: "{{ site.data.images.botany.src }}"
+      imageLicense: "{{ site.data.images.botany.caption }}"
       
     - title: TYPUS # required
       description: |      # required
         Typus collections of Switzerland
       href: /en/typus
-      background: /assets/images/categories/Typus-homemade.png
-      imageLicense: Anne Morel
+      background: "{{ site.data.images.typus.src }}"
+      imageLicense: "{{ site.data.images.typus.caption }}"
       
     - title: Georeferencing # required
       description: |      # required
         Recommendations and methods for a standardised georeferencing of natural history specimens
       href: /en/georeferencing
-      background: /assets/images/categories/Georeferencing-homemade.png
-      imageLicense: Anne Morel
+      background: "{{ site.data.images.georeferencing.src }}"
+      imageLicense: "{{ site.data.images.georeferencing.caption }}"
       
     - title: Digitalisation
       description: |
         Digitalisation workflows of various swiss institutions, best practices and helpful material
       href: /en/digitalisation
-      background: /assets/images/categories/Digitalisation-homemade.jpg
-      imageLicense: Anne Morel
-      
-    - title: 3D specimens
-      description: |
-        High resolution 3D models of type insects of the ETHZ entomology collections
-      href: /en/modelviewer
-      background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
-      imageLicense: © 2023 The Biocommunication Group - ETH Zurich
+      background: "{{ site.data.images.digitalisation.src }}"
+      imageLicense: "{{ site.data.images.digitalisation.caption }}"
 
-
-
+# ============================================================================================================================
+# VISION
+# ============================================================================================================================
 vision:
   reverse: true
   title: "Vision"
@@ -84,29 +78,28 @@ vision:
      as well as information on specimens collected in Switzerland and curated abroad. Allowing easy access to discover detailed presentations
      of institutions and their natural history collections across Switzerland, the portal serves as a hub for publishing news and
      information related to natural history collections in the country.
-  background: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
-  imageLicense: |
-    *_Catocala ilia_ Cramer, 1779
-
-
-
+  background: "{{ site.data.images.vision.src }}"
+  imageLicense: "{{ site.data.images.vision.caption }}"
+  
+# ============================================================================================================================
+# VIDEO
+# ============================================================================================================================
 video-swisscollnet:
   title: "SwissCollNet Youtube Playlist"
-  description: | #/assets/images/placeholders/swissCollNet-vid.png
-    [<img src="/assets/images/placeholders/swissCollNet-vid.png" alt="YouTube image" style="width: 900px; height: 500px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)
+  description: [<img src="{{ site.data.images.swisscollnet_video.src }}" alt="YouTube image" style="width: 900px; height: 500px"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)
   overlayColor: "#ffffff55"
   hasWhiteText: false
 
-
-
+# ============================================================================================================================
+# DOWNLOAD
+# ============================================================================================================================
 fileDownload:
   reverse: false
   title: "Handbook on natural history collections management"
-  description: |      # required
+  description: |
     Swiss natural history institutions hold over 60 million specimens. The SwissCollNet initiative, led by the Swiss Academy of Sciences, aims to enhance and coordinate digitisation efforts. This handbook, a key SwissCollNet achievement, offers modernisation instructions for managing biological and geological collections, created by experts from various institutions.
     
     Frick, H. & Greeff, M. (2021).
-  # img required
   background: "{{ site.data.images.handbook.src }}"
   imageLicense: "{{ site.data.images.handbook.caption }}"
   # href: /about
