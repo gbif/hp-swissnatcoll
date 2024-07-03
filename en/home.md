@@ -7,14 +7,13 @@ permalink: /
 # ====================================================================================
 title: Swiss Virtual Natural History Collection
 description: "Virtual museum of the Natural History collections of Switzerland"
-background: "{{ site.data.images.home.src }}"
-imageLicense: "{{ site.data.images.home.caption }}"
-height: 70vh
+videos: ["/assets/videos/Mosses_MoulinDeVert_AM2018_noir.mp4"] # background: "{{ site.data.images.home.src }}"
+imageLicense: Video by Anne Morel, Moulin-de-vert GE, 2018
+hasBlackText: false
+hasTextShadow: false
+overlayColor: "transparent"
+height: 100vh
 parallax: true
-
-# ====================================================================================
-# SHORTCUT BUTTONS BELOW THE TITLE
-# ====================================================================================
 cta:
   - text: "🏛️ Institutions"
     href: /institution/search
@@ -34,7 +33,7 @@ cta:
 # 2-columns splitted part
 # ====================================================================================
 composition:
-  - type: heroImage # the block type
+  - type: heroVideo
   - type: stats
     data: home.stats  #file with the stats: _data/examples.yml
   - type: split
