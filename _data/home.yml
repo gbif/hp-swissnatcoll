@@ -84,7 +84,7 @@ vision:
 # VIDEO
 # ============================================================================================================================
 video-swisscollnet:
-  reverse: false
+  reverse: true
   title: "SwissCollNet Youtube Playlist"
   description: |
     Annual meeting and workshop of SwissCollNet. The morning session focused on data management for natural history collections.
