@@ -63,7 +63,7 @@ swisscollnet:
   caption: "[SwissCollNet Call 1 & 2 network](https://swisscollnet.scnat.ch/)"
 
 handbook:
-  src: /assets/images/placeholders/handbookNHCmanagement.png
+  src: assets/images/swissMuseumsImages/handbookNHCmanagement.png
   caption: "[Frick, H., & Greeff, M. (2021)](https://www.research-collection.ethz.ch/handle/20.500.11850/479625)"
 
 vision:
