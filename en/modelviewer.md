@@ -2,9 +2,8 @@
 layout: compose
 title: Model Viewer
 description: Interactive 3D models
-background: /assets/images/placeholders/hylaeus_nigritus_20230714.png
-imageLicense: |
-  © 2023 The Biocommunication Group - ETH Zurich
+background: "{{ site.data.images.3Dmodels.src }}"
+imageLicense: "{{ site.data.images.3Dmodels.caption }}"
 height: 50vh
 composition:
 - type: heroImage
