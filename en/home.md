@@ -11,7 +11,6 @@ videos: ["/assets/videos/Mosses_MoulinDeVert_AM2018_noir.mp4"] # background: "{{
 imageLicense: Video by Anne Morel, Moulin-de-vert GE, 2018
 hasBlackText: false
 hasTextShadow: false
-overlayColor: "transparent"
 height: 100vh
 parallax: true
 cta:
