@@ -95,7 +95,7 @@ video-swisscollnet:
   imageLicense: "{{ site.data.images.swisscollnet_video.caption }}"
     cta:
   - text: "Watch on YouTube"
-    href: "https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3{:target=\"_blank\"}"
+    href: "https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3"
     isPrimary: true
 
 # ============================================================================================================================
@@ -115,5 +115,5 @@ fileDownload:
   # href: /about
   cta:
   - text: "Download handbook"
-    href: "https://portal-cdn.scnat.ch/asset/053d7a81-941f-5e0d-bf89-28384e685cc8/Handbook_collections.pdf?b=c76e64eb-14ef-5df9-a399-0d11b5582150&v=233f858a-b3c9-5670-9f1f-502ede7bcba3_0&s=HhQ8WBbA_Wde3PAn-llE4Ex8ClpmV7yK8uDlZK60vHaDcylutNm5GU1ZTvt5nI9Di1A8sLOJysEH04_7RULzlrBr-ucWK6yRuuHYuDpgx2Fhv74GdUqdFxpbhOYQ04PL20sMwG45SNMzMs89DpZHtvwh2kN3_qAeZnI0tj8N6u8{:target=\"_blank\"}"
+    href: "https://portal-cdn.scnat.ch/asset/053d7a81-941f-5e0d-bf89-28384e685cc8/Handbook_collections.pdf?b=c76e64eb-14ef-5df9-a399-0d11b5582150&v=233f858a-b3c9-5670-9f1f-502ede7bcba3_0&s=HhQ8WBbA_Wde3PAn-llE4Ex8ClpmV7yK8uDlZK60vHaDcylutNm5GU1ZTvt5nI9Di1A8sLOJysEH04_7RULzlrBr-ucWK6yRuuHYuDpgx2Fhv74GdUqdFxpbhOYQ04PL20sMwG45SNMzMs89DpZHtvwh2kN3_qAeZnI0tj8N6u8"{:target=\"_blank\"}
     isPrimary: true
