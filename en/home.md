@@ -10,6 +10,7 @@ description: "Virtual museum of the Natural History collections of Switzerland"
 background: "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
+parallax: true
 cta:
   - text: "🏛️ Institutions"
     href: /institution/search
