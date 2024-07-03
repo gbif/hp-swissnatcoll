@@ -7,11 +7,10 @@ permalink: /
 # ====================================================================================
 title: Swiss Virtual Natural History Collection
 description: "Virtual museum of the Natural History collections of Switzerland"
-videos: ["/assets/videos/Mosses_MoulinDeVert_AM2018_noir.mp4"] # background: "{{ site.data.images.home.src }}"
+videos: ["/assets/videos/Mosses_MoulinDeVert_AM2018_none.mp4"] # background: "{{ site.data.images.home.src }}"
 imageLicense: Video by Anne Morel, Moulin-de-vert GE, 2018
 hasBlackText: false
 hasTextShadow: false
-overlayColor: "transparent"
 height: 70vh
 cta:
   - text: "🏛️ Institutions"
