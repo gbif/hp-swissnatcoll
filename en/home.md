@@ -43,6 +43,6 @@ composition:
     data: home.thematicCommunities
   - type: split
     data: home.fileDownload
-  - type: floatingText
+  - type: split
     data: home.video-swisscollnet
 ---
