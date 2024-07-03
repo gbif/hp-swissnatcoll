@@ -2,8 +2,8 @@
 layout: compose
 title: Model Viewer
 description: Interactive 3D models
-background: "{{ site.data.images.3Dmodels.src }}"
-imageLicense: "{{ site.data.images.3Dmodels.caption }}"
+background: "{{ site.data.images.models3D.src }}"
+imageLicense: "{{ site.data.images.models3D.caption }}"
 height: 50vh
 composition:
 - type: heroImage
