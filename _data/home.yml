@@ -91,12 +91,12 @@ video-swisscollnet:
     Practical cases on data management were presented and followed by open discussions. The afternoon session aimed to pursue
     the building of a national strategy for Natural History Collections with the support of the whole network. After a presentation
     of the work done until now, the strategy was debated and adjusted through group discussions.
-  cta:
+  background: "{{ site.data.images.swisscollnet_video.src }}"
+  imageLicense: "{{ site.data.images.swisscollnet_video.caption }}"
+    cta:
   - text: "Watch on YouTube"
     href: "https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3{:target=\"_blank\"}"
     isPrimary: true
-  background: "{{ site.data.images.swisscollnet_video.src }}"
-  imageLicense: "{{ site.data.images.swisscollnet_video.caption }}"
 
 # ============================================================================================================================
 # DOWNLOAD
