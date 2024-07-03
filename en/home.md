@@ -30,7 +30,7 @@ cta:
 # 2-columns splitted part
 # ====================================================================================
 composition:
-  - type: heroVideo
+  - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/examples.yml
   - type: split
