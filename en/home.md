@@ -42,8 +42,8 @@ composition:
     data: home.vision
   - type: floatingText
     data: home.video-swisscollnet
-  #- type: features
-  #  data: home.thematicCommunities
-  #- type: split
-  #  data: examples.herbariumImageExample
+  - type: features
+    data: home.thematicCommunities
+  - type: split
+    data: examples.herbariumImageExample
 ---
