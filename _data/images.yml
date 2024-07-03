@@ -9,6 +9,10 @@ about:
   src: /assets/images/GraphsDiagrams/SwissDataFlows.jpg
   caption: DatenGroup_20231205.pptx (Presentation of Nils Arrigo)
 
+3Dmodels:
+  src: /assets/images/background/ETHZ_Disc3D_03.jpeg
+  caption: © 2023 [The Biocommunication Group - ETH Zurich](https://biocommunication.org/en/insects360/3d-scans/){:target="_blank"}
+
 # ============================================================================================================================
 # SMALL ILLUSTRATIONS
 # ============================================================================================================================
@@ -31,10 +35,6 @@ literature:
 # ============================================================================================================================
 # THEMATIC ILLUSTRATIONS
 # ============================================================================================================================
-3Dmodels:
-  src: /assets/images/placeholders/hylaeus_nigritus_20230714.png
-  caption: © 2023 [The Biocommunication Group - ETH Zurich](https://biocommunication.org/en/insects360/3d-scans/hylaeus-nigritus/){:target="_blank"}
-
 digitalisation:
   src: /assets/images/categories/Digitalisation-homemade.jpg
   caption: Anne Morel
