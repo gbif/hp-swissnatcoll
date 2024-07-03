@@ -105,7 +105,7 @@ fileDownload:
   description: |      # required
     Swiss natural history institutions hold over 60 million specimens. The SwissCollNet initiative, led by the Swiss Academy of Sciences, aims to enhance and coordinate digitisation efforts. This handbook, a key SwissCollNet achievement, offers modernisation instructions for managing biological and geological collections, created by experts from various institutions.
     
-    Frick, H., & Greeff, M. (2021).
+    Frick, H. & Greeff, M. (2021).
   # img required
   background: "{{ site.data.images.handbook.src }}"
   imageLicense: "{{ site.data.images.handbook.caption }}"
