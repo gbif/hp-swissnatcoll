@@ -22,7 +22,7 @@ cta:
     href: /occurrence/search
     isPrimary: true
   - text: "About"
-    href: /about
+    href: /en/about
   - text: "Publish my data"
     href: /en/how-to-publish-data
 
