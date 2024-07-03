@@ -9,11 +9,11 @@ columns:
       href: https://staging.aggregator.scnat.zebbra.ch/images/logo.png
     - text: SwissCollNet
       href: https://swisscollnet.scnat.ch/
-    - text: Info Fauna
-      href: https://www.infofauna.ch/fr#gsc.tab=0
 
   - description: |
-      [<img src="/assets/images/placeholders/Logo GBIF.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
+      [<img src="/assets/images/logos/logoGBIF.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
+      [<img src="/assets/images/logos/logoSCNAT.png" alt="Logo" style="width: 700px; height: 100px"/>](https://scnat.ch/en)
+      [<img src="/assets/images/logos/logoINFOFAUNA.png" alt="Logo" style="width: 700px; height: 100px"/>](https://www.infofauna.ch/fr#gsc.tab=0)
 
   - name: Helpline
     links:
