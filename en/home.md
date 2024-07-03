@@ -11,7 +11,7 @@ videos: ["/assets/videos/Mosses_MoulinDeVert_AM2018_noir.mp4"] # background: "{{
 imageLicense: Video by Anne Morel, Moulin-de-vert GE, 2018
 hasBlackText: false
 hasTextShadow: false
-height: 100vh
+height: 70vh
 parallax: true
 cta:
   - text: "🏛️ Institutions"
