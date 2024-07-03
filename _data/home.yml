@@ -84,10 +84,19 @@ vision:
 # VIDEO
 # ============================================================================================================================
 video-swisscollnet:
+  reverse: false
   title: "SwissCollNet Youtube Playlist"
-  description: "[<img src=\"{{ site.data.images.swisscollnet_video.src }}\" alt=\"YouTube image\" style=\"width: 900px; height: 500px\"/>](https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3)"
-  overlayColor: "#ffffff55"
-  hasWhiteText: false
+  description: |
+    Annual meeting and workshop of SwissCollNet. The morning session focused on data management for natural history collections.
+    Practical cases on data management were presented and followed by open discussions. The afternoon session aimed to pursue
+    the building of a national strategy for Natural History Collections with the support of the whole network. After a presentation
+    of the work done until now, the strategy was debated and adjusted through group discussions.
+  cta:
+  - text: "Watch on YouTube"
+    href: "https://www.youtube.com/watch?v=LWVDeDrFTCc&list=PLgDHliTu1pwHu-EWWR3HoP5TiwbkHNoT3{:target=\"_blank\"}"
+    isPrimary: true
+  background: "{{ site.data.images.swisscollnet_video.src }}"
+  imageLicense: "{{ site.data.images.swisscollnet_video.caption }}"
 
 # ============================================================================================================================
 # DOWNLOAD
@@ -96,7 +105,9 @@ fileDownload:
   reverse: false
   title: "Handbook on natural history collections management"
   description: |
-    Swiss natural history institutions hold over 60 million specimens. The SwissCollNet initiative, led by the Swiss Academy of Sciences, aims to enhance and coordinate digitisation efforts. This handbook, a key SwissCollNet achievement, offers modernisation instructions for managing biological and geological collections, created by experts from various institutions.
+    Swiss natural history institutions hold over 60 million specimens. The SwissCollNet initiative, led by the Swiss Academy
+    of Sciences, aims to enhance and coordinate digitisation efforts. This handbook, a key SwissCollNet achievement, offers
+    modernisation instructions for managing biological and geological collections, created by experts from various institutions.
     
     Frick, H. & Greeff, M. (2021).
   background: "{{ site.data.images.handbook.src }}"
