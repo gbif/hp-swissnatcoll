@@ -50,17 +50,17 @@ SwissCollNet is committed to improving the accessibility of natural history coll
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-  </tr>
-  <tr>
     <td style="border: 1px solid black; padding: 5px;"><a href="https://www.cjbg.ch/" target="_blank">GE CJBG</a></td>
-    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
-    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
+    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.cjbg.ch/news/decouverte-notre-collection-dalgues" target="_blank">Algae Reveal: curation, best practices and data mobilisation</a></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.cjbg.ch/news/decouverte-notre-collection-dalgues" target="_blank">Algae Reveal: curation, best practices and data mobilisation</a></td>
-    <td style="border: 1px solid black; padding: 10px;">Inventory and partial digitisation of the Meister diatom collection</td>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
+    <td style="border: 1px solid black; padding: 5px;">Inventory and partial digitisation of the Meister diatom collection</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
     <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en/forschung" target="_blank">Digital mobilisation and curation of Type specimens in the bryophyte collection of the United Herbaria Zurich Z+ZT</td>
   </tr>
 </table>
