@@ -29,13 +29,13 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <br><br>
 
 <!-- Drop-down menu to select the model -->
-<label for="model-selector">Choose a model:</label>
+<label for="model-selector">Specimens available:</label>
 <select id="model-selector" onchange="updateModel()">
-    <option value="">---Select a model---</option>
+    <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
     <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
     <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
     <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
-    <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
+    
 </select>
 
 <!-- Inclusion of the model-viewer library -->
@@ -62,6 +62,7 @@ _If the model is not showing in the window, you may need to add a CORS origin ex
     <p><strong>Recorded By:</strong> <span id="recordedBy"></span></p>
     <p><strong>Year:</strong> <span id="year"></span></p>
     <p><strong>Country Code:</strong> <span id="countryCode"></span></p>
+    <p><strong>SVNHC Occurrence Page:</strong> <a https://svnhc.hp.gbif-staging.org/occurrence/search?entity=3777522425>View on GBIF</a></p>
     <p><strong>GBIF Occurrence Page:</strong> <a id="gbifLink" href="#" target="_blank">View on GBIF</a></p>
 </div>
 
