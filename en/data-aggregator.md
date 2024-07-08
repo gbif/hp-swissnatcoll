@@ -45,27 +45,8 @@ The direct benefit of the Darwin Core standard is the **high level of compatibil
 
 ### How is Darwin Core organised?
 Each **term** of Darwin Core has a **precise and unique definition**, and for some fields a **controlled vocabulary** is highly recommended. The terms are organised in **categories**, based on the data they must contain. Concerning data of natural history institutions, the categories could be organised as such:
-
-| Field Work | Specimen Preparation | Specimen Storage | Database Management | Biological Attributes | Taxonomy | Geography | Conservation Status |
-|------------|----------------------|------------------|---------------------|-----------------------|----------|-----------|---------------------|
-|            |                      |                  | [Record-level](https://dwc.tdwg.org/terms/#record-level) |                       |           |           |                     |
-| [Occurrence](https://dwc.tdwg.org/terms/#occurrence) |                      |                  | [Occurrence](https://dwc.tdwg.org/terms/#occurrence) |                       |           | [Occurrence](https://dwc.tdwg.org/terms/#occurrence) |                     |
-| [Organism](https://dwc.tdwg.org/terms/#organism) | [Organism](https://dwc.tdwg.org/terms/#organism) | [Organism](https://dwc.tdwg.org/terms/#organism) |           | [Organism](https://dwc.tdwg.org/terms/#organism) |                       |           |           |                     |
-|            | [MaterialEntity](https://dwc.tdwg.org/terms/#materialentity) | [MaterialEntity](https://dwc.tdwg.org/terms/#materialentity) |                     |                       |           |           |                     |
-| [MaterialSample](https://dwc.tdwg.org/terms/#materialsample) | [MaterialSample](https://dwc.tdwg.org/terms/#materialsample) | [MaterialSample](https://dwc.tdwg.org/terms/#materialsample) |                     |                       |           |           |                     |
-| [Event](https://dwc.tdwg.org/terms/#event) |                      |                  | [Event](https://dwc.tdwg.org/terms/#event) |                       |           | [Event](https://dwc.tdwg.org/terms/#event) |                     |
-|            |                      |                  |                     |                       |           | [Location](https://dwc.tdwg.org/terms/#location) |                     |
-|            |                      |                  |                     |                       |           | [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext) |                     |
-|            |                      |                  | [Identification](https://dwc.tdwg.org/terms/#identification) |                       | [Identification](https://dwc.tdwg.org/terms/#identification) |           |                     |
-|            |                      |                  | [Taxon](https://dwc.tdwg.org/terms/#taxon) |                       | [Taxon](https://dwc.tdwg.org/terms/#taxon) | [Taxon](https://dwc.tdwg.org/terms/#taxon) |                     |
-| [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact) |                      |                  | [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact) |                       |           | [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact) |                     |
-|            |                      |                  | [ResourceRelationship](https://dwc.tdwg.org/terms/#resourcerelationship) |                       |           |           |                     |
-| [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen) | [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen) |                  | [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen) |                       |           |           | [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen) |
-|            | [PreservedSpecimen](https://dwc.tdwg.org/terms/#preservedspecimen) | [PreservedSpecimen](https://dwc.tdwg.org/terms/#preservedspecimen) |                     |                       |           |           | [PreservedSpecimen](https://dwc.tdwg.org/terms/#preservedspecimen) |
-|            | [FossilSpecimen](https://dwc.tdwg.org/terms/#fossilspecimen) | [FossilSpecimen](https://dwc.tdwg.org/terms/#fossilspecimen) |                     |                       |           |           | [FossilSpecimen](https://dwc.tdwg.org/terms/#fossilspecimen) |
-|            |                      |                  | [MaterialCitation](https://dwc.tdwg.org/terms/#materialcitation) |                       |           |           |                     |
-| [HumanObservation](https://dwc.tdwg.org/terms/#humanobservation) |                      |                  | [HumanObservation](https://dwc.tdwg.org/terms/#humanobservation) |                       |           |           | [HumanObservation](https://dwc.tdwg.org/terms/#humanobservation) |
-| [MachineObservation](https://dwc.tdwg.org/terms/#machineobservation) |                      |                  |                     |                       |           |           |                     |
+1. Field work
+  2. 
 
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
