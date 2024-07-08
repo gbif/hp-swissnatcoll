@@ -1,7 +1,7 @@
 ---
 layout: compose
-title: Model Viewer
-description: Interactive 3D models
+title: 3D models
+description: Interactive 3D models of insects
 background: "{{ site.data.images.models_three_d.src }}"
 imageLicense: "{{ site.data.images.models_three_d.caption }}"
 height: 50vh
