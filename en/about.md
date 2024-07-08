@@ -65,12 +65,12 @@ SwissCollNet is committed to improving the accessibility of natural history coll
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 10px;">Phanerogams</td>
-    <td style="border: 1px solid black; padding: 10px;">GR BNM<br> ZH ISEB</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://naturmuseum.gr.ch/de/Seiten/welcome.aspx" target="_blank">GR BNM</a><br> <a href="https://www.systbot.uzh.ch/en" target="_blank">ZH ISEB</a></td>
     <td style="border: 1px solid black; padding: 10px;">Digitizing herbaria of the Grisons</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 10px;">Phanerogams</td>
-    <td style="border: 1px solid black; padding: 10px;">JU JURASSICA</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.jurassica.ch/" target="_blank">JU JURASSICA</a></td>
     <td style="border: 1px solid black; padding: 10px;">From darkness to full light: digitization of an important collection of 19th century herbaria</td>
   </tr>
   <tr>
