@@ -49,14 +49,14 @@ SwissCollNet is committed to improving the accessibility of natural history coll
     <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;">Title</th>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.cjbg.ch/" target="_blank">GE CJBG</a></td>
-    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.cjbg.ch/news/decouverte-notre-collection-dalgues" target="_blank">Algae Reveal: curation, best practices and data mobilisation</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.cjbg.ch/" target="_blank">GE CJBG</a></td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.cjbg.ch/news/decouverte-notre-collection-dalgues" target="_blank">Algae Reveal: curation, best practices and data mobilisation</a></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
-    <td style="border: 1px solid black; padding: 5px;">Inventory and partial digitisation of the Meister diatom collection</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Inventory and partial digitisation of the Meister diatom collection</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
@@ -64,28 +64,28 @@ SwissCollNet is committed to improving the accessibility of natural history coll
     <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en/forschung" target="_blank">Digital mobilisation and curation of Type specimens in the bryophyte collection of the United Herbaria Zurich Z+ZT</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">GE MHNG</td>
-    <td style="border: 1px solid black; padding: 5px;">Rediscovery the collections of a pioneer of Swiss Paleontology: François-Jules Pictet</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;">GE MHNG</td>
+    <td style="border: 1px solid black; padding: 10px;">Rediscovery the collections of a pioneer of Swiss Paleontology: François-Jules Pictet</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">GE MHNG</td>
-    <td style="border: 1px solid black; padding: 5px;">Digitisation of the unidentified spiders from Switzerland present in the collection of the Geneva natural history Museum</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;">GE MHNG</td>
+    <td style="border: 1px solid black; padding: 10px;">Digitisation of the unidentified spiders from Switzerland present in the collection of the Geneva natural history Museum</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">BS NMB</td>
-    <td style="border: 1px solid black; padding: 5px;">Cholevinae (Coleoptera, Leiodidae) of the world – conditioning, databasing and digitisation</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;">BS NMB</td>
+    <td style="border: 1px solid black; padding: 10px;">Cholevinae (Coleoptera, Leiodidae) of the world – conditioning, databasing and digitisation</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">BS NMB</td>
-    <td style="border: 1px solid black; padding: 5px;">The Swiss Auchenorrhyncha collection of Heidi Günthart Zürcher-Pfander</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;">BS NMB</td>
+    <td style="border: 1px solid black; padding: 10px;">The Swiss Auchenorrhyncha collection of Heidi Günthart Zürcher-Pfander</td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
-    <td style="border: 1px solid black; padding: 5px;">ZH PIMUZ</td>
-    <td style="border: 1px solid black; padding: 5px;">The Roth collections; from splendid isolation to fossils for all</td>
+    <td style="border: 1px solid black; padding: 10px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 10px;">ZH PIMUZ</td>
+    <td style="border: 1px solid black; padding: 10px;">The Roth collections; from splendid isolation to fossils for all</td>
   </tr>
 </table>
