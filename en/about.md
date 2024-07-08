@@ -78,5 +78,4 @@ SwissCollNet is committed to improving the accessibility of natural history coll
     <td style="border: 1px solid black; padding: 10px;">...</td>
     <td style="border: 1px solid black; padding: 10px;">...</td>
   </tr>
-
 </table>
