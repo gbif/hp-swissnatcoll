@@ -16,10 +16,8 @@ The ‘**Swiss Virtual Natural History Collection Network**’ ([SwissCollNet](h
 _Source: [Petrus, A., Wildi, T. and Müller, S. Preproject ‘Swiss Virtual Natural History Collection’. Database (2023) Vol. 2023: article ID baad072.](https://academic.oup.com/database/article/doi/10.1093/database/baad072/7335478?login=true){:target="_blank}_
 
 <figure class="has-text-centered">
-	<a href="/data?entity=864884844&filter=eyJtdXN0Ijp7InRheG9uS2V5IjpbNDA5MTE1MF19fQ&view=TABLE">
-		<img src="{{ site.data.images.swisscollnet.src }}" />
-		<figcaption caption="{{ site.data.images.swisscollnet.caption }}" />
-	</a>
+	<img src="{{ site.data.images.swisscollnet.src }}" />
+	<figcaption caption="{{ site.data.images.swisscollnet.caption }}" />
 </figure>
 
 
