@@ -63,4 +63,29 @@ SwissCollNet is committed to improving the accessibility of natural history coll
     <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
     <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en/forschung" target="_blank">Digital mobilisation and curation of Type specimens in the bryophyte collection of the United Herbaria Zurich Z+ZT</td>
   </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;">GE MHNG</td>
+    <td style="border: 1px solid black; padding: 5px;">Rediscovery the collections of a pioneer of Swiss Paleontology: François-Jules Pictet</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;">GE MHNG</td>
+    <td style="border: 1px solid black; padding: 5px;">Digitisation of the unidentified spiders from Switzerland present in the collection of the Geneva natural history Museum</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;">BS NMB</td>
+    <td style="border: 1px solid black; padding: 5px;">Cholevinae (Coleoptera, Leiodidae) of the world – conditioning, databasing and digitisation</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;">BS NMB</td>
+    <td style="border: 1px solid black; padding: 5px;">The Swiss Auchenorrhyncha collection of Heidi Günthart Zürcher-Pfander</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">Botany & Mycology</td>
+    <td style="border: 1px solid black; padding: 5px;">ZH PIMUZ</td>
+    <td style="border: 1px solid black; padding: 5px;">The Roth collections; from splendid isolation to fossils for all</td>
+  </tr>
 </table>
