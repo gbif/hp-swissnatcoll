@@ -20,6 +20,10 @@ dataaggregator:
   src: /assets/images/background/dalle_data_aggregator.jpg
   caption: "Anne Morel / AI generated picture"
 
+helpdesk:
+  src: /assets/images/placeholders/garcinia_2563424903.jpg
+  caption: "[Isotype of _Garcinia urceolata_ Munzinger, Bruy & M. Pignal](https://www.gbif.org/occurrence/2563424903){:target=\"_blank\"}"
+  
 home:
   src: /assets/images/swissMuseumsImages/DSC_6289_05348.jpg
   caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
