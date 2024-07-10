@@ -2,9 +2,8 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Helpdesk
 description: All the help you need is here to be found
-background: /assets/images/placeholders/garcinia_2563424903.jpg
-imageLicense: |
-  GBIF standardised image
+background: "{{ site.data.images.helpdesk.src }}"
+imageLicense: "{{ site.data.images.helpdesk.caption }}"
 height: 50vh
 toc: true
 composition:
