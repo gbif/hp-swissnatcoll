@@ -2,12 +2,8 @@ post_1:
   background: "/assets/images/virtualvisit/Post_1.jpg"
   title: Colours or not colours
   caption: "BERN Herbarium"
+  category: "["Herbarium"]"
   description: |
-      Here are two herbarium sheets (Sheet-0059884 and Sheet-0059885) of the [BERN Herbarium](https://www.boga.unibe.ch/wissenschaft/herbarium/index_ger.html).
-      Same species, _Orchis traunsteineri_ currently named [_Dactylorhiza traunsteineri (Rchb.) Soó_](https://www.infoflora.ch/en/flora/dactylorhiza-traunsteineri.html),
-      same collector, only 1 year gap (1972 for the one on the left, 1971 for the one on the right).
-      However, the original colour of the flowers is a bright purple red. This colour can still be seen on the oldest sheet in contrast with the more recent one.
-      This difference could be due to a difference of treatment of the plant between collecting and mounting. Thus showing the importance of writing down as much information
-      as possible when collecting or else crucial information can be lost.
+      Here are two herbarium sheets (Sheet-0059884 and Sheet-0059885) of the [BERN Herbarium](https://www.boga.unibe.ch/wissenschaft/herbarium/index_ger.html){:target="_blank"}. Same species, _Orchis traunsteineri_ currently named [_Dactylorhiza traunsteineri (Rchb.) Soó_](https://www.infoflora.ch/en/flora/dactylorhiza-traunsteineri.html){:target="_blank"}, same collector, only 1 year gap (1972 for the one on the left, 1971 for the one on the right).  The original colour of the flowers is a bright purple red. This colour can still be seen on the recent sheet in contrast with the brown color older one, which is only 1 year older. This difference could be due to the treatment the plant received after being collected and before being mounted. However, the BERN Herbarium does not have any records about these two specimens that could explain such a difference in conservation state. Writing down as much information as possible when collecting and preparing the specimens is crucial, or else important information can be lost.
 
       Anne Morel (2024)
