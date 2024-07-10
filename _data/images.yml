@@ -10,7 +10,7 @@ about:
 
 data:
   src: /assets/images/background/carousel.1949378046.jpg
-  caption: "(ETH Zürich / Sammlungen und Archive)[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2023/12/globe-ein-blick-in-die-schatzkiste]{:target="_blank"}"
+  caption: "(ETH Zürich / Sammlungen und Archive)[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2023/12/globe-ein-blick-in-die-schatzkiste]{:target=\"_blank\"}"
 
 dataaggregator:
   src: /assets/images/background/dalle_data_aggregator.jpg
@@ -18,7 +18,7 @@ dataaggregator:
 
 home:
   src: /assets/images/swissMuseumsImages/DSC_6289_05348.jpg
-  caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
+  caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
 models_three_d:
   src: /assets/images/background/ETHZ_Disc3D_03.jpeg
@@ -29,15 +29,15 @@ models_three_d:
 # ==================================================================================================================
 institutions:
   src: /assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg
-  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/)"
+  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/){:target=\"_blank\"}"
 
 collections:
   src: /assets/images/swissMuseumsImages/DSCN3320.JPG
-  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/)"
+  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
 
 specimens:
   src: /assets/images/swissMuseumsImages/DSC_5509.jpg
-  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
+  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
 literature:
   src: /assets/images/swissMuseumsImages/dalle_literature.jpg
@@ -68,15 +68,15 @@ zoology:
 
 swisscollnet:
   src: /assets/images/GraphsDiagrams/netzwerk_SwissCollNet_Call1-2.jpg
-  caption: "[SwissCollNet Call 1 & 2 network](https://swisscollnet.scnat.ch/en/running_projects)"
+  caption: "[SwissCollNet Call 1 & 2 network](https://swisscollnet.scnat.ch/en/running_projects){:target=\"_blank\"}"
 
 handbook:
   src: /assets/images/swissMuseumsImages/handbookNHCmanagement.png
-  caption: "[Frick, H., & Greeff, M. (2021)](https://www.research-collection.ethz.ch/handle/20.500.11850/479625)"
+  caption: "[Frick, H., & Greeff, M. (2021)](https://www.research-collection.ethz.ch/handle/20.500.11850/479625){:target=\"_blank\"}"
 
 vision:
   src: /assets/images/swissMuseumsImages/scnatreport_nationalsignificance.png
-  caption: "Swiss Academies of Arts and Sciences (2019) [National significance of natural history collections in Switzerland](https://portal-cdn.scnat.ch/asset/5fb2dd76-e2d4-50af-8593-83d75732f4a6/National%20significance%20of%20Natural%20History%20Collections%20in%20Switzerland.pdf?b=977a7cd5-7f6a-5e0c-b7d7-59f774377990&v=c3e98564-9824-5549-8e74-fb14bf94064f_0&s=PZNGV5vWEn_aSjY2I5zOcNxUMeH3s6waiaoM5qJYDk8E8ha6x35vu8nb5W1s-uoHPsGrox2U4mcnIK1bcwxEMwlRk1kGJ9oxWC0T3rCywAJLDKw1CDWk4ZV7XRW1wg1edkXmKflwuHlBLLRwBdgSKv4xsr1xUFbBPOzWDpZD9dM). Swiss Academies Reports 14 (2)."
+  caption: "Swiss Academies of Arts and Sciences (2019) [National significance of natural history collections in Switzerland](https://portal-cdn.scnat.ch/asset/5fb2dd76-e2d4-50af-8593-83d75732f4a6/National%20significance%20of%20Natural%20History%20Collections%20in%20Switzerland.pdf?b=977a7cd5-7f6a-5e0c-b7d7-59f774377990&v=c3e98564-9824-5549-8e74-fb14bf94064f_0&s=PZNGV5vWEn_aSjY2I5zOcNxUMeH3s6waiaoM5qJYDk8E8ha6x35vu8nb5W1s-uoHPsGrox2U4mcnIK1bcwxEMwlRk1kGJ9oxWC0T3rCywAJLDKw1CDWk4ZV7XRW1wg1edkXmKflwuHlBLLRwBdgSKv4xsr1xUFbBPOzWDpZD9dM){:target=\"_blank\"}"
 
 # ==================================================================================================================
 # VIDEOS
@@ -97,34 +97,34 @@ catocala:
 # ==================================================================================================================
 irpex:
   src: /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
-  caption: "[Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)"
+  caption: "[Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338){:target=\"_blank\"} from Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb){:target=\"_blank\"}"
 
 puccinia:
   src: /assets/images/placeholders/puccinia-grahamii-1135811910.jpg
-  caption: "[Holotype of _Puccinia grahamii_ G.Cunn.](https://www.gbif.org/occurrence/1135811910) from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb)"
+  caption: "[Holotype of _Puccinia grahamii_ G.Cunn.](https://www.gbif.org/occurrence/1135811910){:target=\"_blank\"} from [Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb){:target=\"_blank\"}"
 
 garcinia:
   src: /assets/images/placeholders/garcinia_2563424903.jpg
-  caption: "[Isotype of _Garcinia urceolata_ Munzinger, Bruy & M. Pignal](https://www.gbif.org/occurrence/2563424903)"
+  caption: "[Isotype of _Garcinia urceolata_ Munzinger, Bruy & M. Pignal](https://www.gbif.org/occurrence/2563424903){:target=\"_blank\"}"
 
 acalypha_gillespieae:
   src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
-  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)"
+  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892){:target=\"_blank\"} from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09){:target=\"_blank\"}"
 
 frullania:
   src: /assets/images/background/frullania_20240116.jpeg
-  caption: "[Frullania dilatata (L.) Dumort.](https://www.gbif.org/occurrence/4514081306) observed in Denmark"
+  caption: "[Frullania dilatata (L.) Dumort.](https://www.gbif.org/occurrence/4514081306){:target=\"_blank\"} observed in Denmark"
 
 catocala_ilia_cramer:
   src: /assets/images/placeholders/catocala_ilia_cramer_2365571744.jpg
-  caption: "[_Catocala ilia_ Cramer, 1779](https://www.gbif.org/occurrence/2365571744) from [Peabody Museum of Natural History](institution/75f50140-830d-4630-a290-3d6e951a7c29)"
+  caption: "[_Catocala ilia_ Cramer, 1779](https://www.gbif.org/occurrence/2365571744){:target=\"_blank\"} from [Peabody Museum of Natural History](institution/75f50140-830d-4630-a290-3d6e951a7c29){:target=\"_blank\"}"
 
 # ==================================================================================================================
 # IF NEEDED
 # ==================================================================================================================
 mhng_facadeDiv:
   src: /assets/images/swissMuseumsImages/Facade200E.jpg
-  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/)"
+  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
 
 # it is possible to refer to images in front matter and access these images. 
