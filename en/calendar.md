@@ -2,9 +2,8 @@
 layout: compose
 title: Calendar
 description: Interesting and important events held in the swiss institutions
-background: /assets/images/placeholders/closeup.png
-imageLicense: |
-  GBIF standardised image
+background: "{{ site.data.images.calendar.src }}"
+imageLicense: "{{ site.data.images.calendar.caption }}"
 height: 50vh
 composition:
 - type: heroImage
