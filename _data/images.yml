@@ -8,6 +8,10 @@ about:
   src: /assets/images/GraphsDiagrams/SwissDataFlows.jpg
   caption: "DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 
+calendar:
+  src: /assets/images/background/MuseumGE_Mammiferes_PWagneur.jpg
+  caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
+
 data:
   src: /assets/images/background/carousel.1949378046.jpg
   caption: "(ETH Zürich / Sammlungen und Archive)[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2023/12/globe-ein-blick-in-die-schatzkiste]{:target=\"_blank\"}"
