@@ -3,8 +3,8 @@ lang-ref: about
 layout: post
 title: About
 description: SVNHC
-background: {{ site.data.images.about.src }}
-imageLicense: {{ site.data.images.about.caption }}
+background: "{{ site.data.images.about.src }}"
+imageLicense: "{{ site.data.images.about.caption }}"
 height: 50vh
 toc: true
 ---
