@@ -5,7 +5,7 @@ description: >
   Source: [SCNAT - Out of the Box](https://swisscollnet.scnat.ch/en/out_of_the_box)
 features: 
 - title: "{{ site.data.outoftheboxposts.post_1.title }}"
-  categories: ["Herbarium"]
+  categories: ["{{ site.data.outoftheboxposts.post_1.category }}"]
   background: "{{ site.data.outoftheboxposts.post_1.background }}"
   href: /en/virtualvisit/post_1
   
