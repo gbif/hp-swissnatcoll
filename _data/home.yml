@@ -34,7 +34,7 @@ thematicCommunities:
     - title: "Zoology" # required
       description: |      # required
         Fauna groups
-      href: "/en/fauna"
+      href: "/en/zoology"
       background: "{{ site.data.images.zoology.src }}"
       imageLicense: "{{ site.data.images.zoology.caption }}"
       
