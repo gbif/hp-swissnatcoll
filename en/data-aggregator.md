@@ -2,8 +2,8 @@
 layout: heroImage
 title: Data Aggregator
 description: Swiss Data Aggregator and tutorials
-background: {{ site.data.images.dataaggregator.src }}
-imageLicense: {{ site.data.images.dataaggregator.caption }}
+background: "{{ site.data.images.dataaggregator.src }}"
+imageLicense: "{{ site.data.images.dataaggregator.caption }}"
 height: 50vh
 toc: true
 ---
