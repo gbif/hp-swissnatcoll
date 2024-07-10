@@ -2,9 +2,8 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Georeferencing
 description: Information and important pages on georeferencing
-background: /assets/images/categories/Georeferencing-homemade.png
-imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+background: "{{ site.data.images.georeferencing‎.src }}"
+imageLicense: "{{ site.data.images.georeferencing‎.caption }}"
 height: 70vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
