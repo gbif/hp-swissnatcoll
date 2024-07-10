@@ -41,7 +41,7 @@ thematicCommunities:
     - title: "Botany" # required
       description: |      # required
         Flora groups
-      href: "/en/flora"
+      href: "/en/botany"
       background: "{{ site.data.images.botany.src }}"
       imageLicense: "{{ site.data.images.botany.caption }}"
       
