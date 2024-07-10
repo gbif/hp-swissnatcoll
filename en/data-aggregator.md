@@ -2,9 +2,8 @@
 layout: heroImage
 title: Data Aggregator
 description: Swiss Data Aggregator and tutorials
-background: /assets/images/placeholders/moss.jpg
-imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+background: {{ site.data.images.dataaggregator.src }}
+imageLicense: {{ site.data.images.dataaggregator.caption }}
 height: 50vh
 toc: true
 ---
