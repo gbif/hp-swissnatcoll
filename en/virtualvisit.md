@@ -2,9 +2,8 @@
 title: Virtual visit of the Swiss scientific collections
 layout: compose
 permalink: /en/virtualvisit
-background: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
-imageLicense: |
-  none
+background: "{{ site.data.images.virtual-visit.src }}"
+imageLicense: "{{ site.data.images.virtual-visit.caption }}"
 height: 50vh
 composition:
   - type: heroImage
