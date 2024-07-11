@@ -30,32 +30,12 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 ## Do I have to upload my entire database fields into the Data Aggregator?
 There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields.
 
-To help you select your fields, **here is an empty csv file with the most important Darwin Core terms** required for GBIF (see: [Data quality requirements: Occurrence datasets](https://www.gbif.org/fr/data-quality-requirements-occurrences)). You can put your data in this file and use it for the upload in the Data Aggregator.
+To help you select your fields, **here is an empty file with the most important Darwin Core terms**, and an example line. You can use it to organise your dataset for the upload into the Data Aggregator. Clicking on this button opens the file on the web, and by right-clicking on it, you can save it in a text file.
 <div style="text-align: right;">
     <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download="DarwinCoreSelected.csv">
         <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download CSV</button>
     </a>
 </div>
-
-<script>
-    function forceDownload() {
-        const link = document.getElementById('downloadLink');
-        const url = link.href;
-        const fileName = link.getAttribute('download');
-        
-        fetch(url)
-            .then(response => response.blob())
-            .then(blob => {
-                const a = document.createElement('a');
-                a.href = URL.createObjectURL(blob);
-                a.download = fileName;
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-            })
-            .catch(err => console.error('Download failed:', err));
-    }
-</script>
 
 ## What is Darwin Core?
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have **distinct and precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
