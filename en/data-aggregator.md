@@ -37,6 +37,25 @@ To help you select your fields, **here is an empty csv file with the most import
     </a>
 </div>
 
+<script>
+    function forceDownload() {
+        const link = document.getElementById('downloadLink');
+        const url = link.href;
+        const fileName = link.getAttribute('download');
+        
+        fetch(url)
+            .then(response => response.blob())
+            .then(blob => {
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(blob);
+                a.download = fileName;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+            })
+            .catch(err => console.error('Download failed:', err));
+    }
+</script>
 
 ## What is Darwin Core?
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have **distinct and precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
