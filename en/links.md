@@ -2,9 +2,8 @@
 lang-ref: links
 title: Links
 description: To know more about the swiss NHC landscape
-background: /assets/images/placeholders/puccinia-grahamii-1135811910.jpg
-imageLicense: |
- none but it should be here
+background: "{{ site.data.images.links.src }}"
+imageLicense: "{{ site.data.images.links.caption }}"
 height: 50vh
 ---
 
