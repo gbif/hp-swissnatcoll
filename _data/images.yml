@@ -28,6 +28,10 @@ home:
   src: /assets/images/swissMuseumsImages/DSC_6289_05348.jpg
   caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
+links:
+  src: /assets/images/placeholders/puccinia-grahamii-1135811910.jpg
+  caption: "GBIF standardised image"
+
 models_three_d:
   src: /assets/images/background/ETHZ_Disc3D_03.jpeg
   caption: "© 2023 [The Biocommunication Group - ETH Zurich](https://biocommunication.org/en/insects360/3d-scans/){:target=\"_blank\"}"
