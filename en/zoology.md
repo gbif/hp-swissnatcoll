@@ -2,9 +2,8 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Fauna
 description: Information and important pages on swiss fauna
-background: /assets/images/categories/fauna-istockphoto-1017243656-1024x1024.jpg
-imageLicense: |
-  None for this image, but it would normally go here. Markdown is allowed.
+background: "{{ site.data.images.zoology.src }}"
+imageLicense: "{{ site.data.images.zoology.caption }}"
 height: 70vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
