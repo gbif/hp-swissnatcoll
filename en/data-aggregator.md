@@ -44,12 +44,18 @@ To help you select your field, **here is an empty tsv file with the most importa
 The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
 
 ### How is Darwin Core organised?
+
 Each **term** of Darwin Core has a **precise and unique definition**, and for some fields a **controlled vocabulary** is highly recommended. The terms are organised in **categories**, based on the data they must contain. Concerning data of natural history institutions, the categories could be organised as such:
-1. Field work
-  2. 
+
+- **Field work**: Occurrence, Organism, MaterialSample, Event, MeasurementOrFact, LivingSpecimen, HumanObservation, MachineObservation
+- **Specimen storage**: Organism, MaterialEntity, MaterialSample, PreservedSpecimen, FossilSpecimen
+- **Database management**: Record-level, Occurrence, Organism, Event, Identification, Taxon, MeasurementOrFact, ResourceRelationship, LivingSpecimen, MaterialCitation, HumanObservation
+- **Taxonomy**: Identification, Taxon
+- **Geography**: Occurrence, Event, Location, GeologicalContext, Taxon, MeasurementOrFact
 
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
+
 Rest assured, you do not need to change your database/dataset dramatically. The most important thing is to find the easiest and fastest way to adapt your database/dataset to import it in the data aggregator. Here are our 3 most popular suggestions:
 
 
