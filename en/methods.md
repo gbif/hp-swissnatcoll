@@ -2,9 +2,8 @@
 layout: compose
 title: Methods
 description: Learn more about the journey of a museum specimen, the various techniques of curating and more
-background: /assets/images/placeholders/moss.jpg
-imageLicense: |
-  GBIF standardised image
+background: "{{ site.data.images.methods.src }}"
+imageLicense: "{{ site.data.images.methods.caption }}"
 height: 50vh
 composition:
 - type: heroImage
