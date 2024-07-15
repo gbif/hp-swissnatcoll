@@ -83,7 +83,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
     <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="border: 1px solid black; padding: 5px;">...</td>
-    <td style="border: 1px solid black; padding: 5px;">12 VIII 1905</td>
+    <td style="border: 1px solid black; padding: 5px;"><s>12 VIII 1905</s><br>1905-08-12</td>
   </tr>
   </table>
   </div>
@@ -91,12 +91,14 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   <div style="flex: 1;">
     ✅ No extra work of restructuring your database<br>
     ✅ Easily reversed<br>
-    ❌ Data as clean as possible<br>
+    ❌ Deep cleaning of the data<br>
     ❌ Wrong mapping
   </div>
-  </div>
-  <br><br>
-  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  
+</div>
+<br><br>
+  
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;"><strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
   <br><br>
   <table style="background-color: rgba(255, 199, 212, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
@@ -113,6 +115,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i></td>
     <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="border: 1px solid black; padding: 5px;">...</td>
+  </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
     <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
@@ -122,15 +125,17 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </tr>
   </table>
   </div>
+  
   <div style="flex: 1;">
     ✅ Darwin Core named columns/fields<br>
     ✅ No changes of original columns/fields<br>
     ❌ Duplicated in multiple columns<br>
     ❌ If not dynamic, then mistakes can lower the dataset/database quality
   </div>
-  </div>
-  <br><br>
-  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+</div>
+<br><br>
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;"><strong>3) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   <table style="background-color: rgba(212, 255, 199, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
@@ -153,6 +158,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </tr>
   </table>
   </div>
+  
   <div style="flex: 1;">
     ✅ Fully Darwin Core compatible dataset/database<br>
     ✅ No more changes in the future<br>
