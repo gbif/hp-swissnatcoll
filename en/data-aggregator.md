@@ -131,7 +131,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <br><br>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="flex: 3; padding-right: 70px;"><strong>3) Export a selected set of your database fields and make the correspondance with the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> (you can use the file provided [here above](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
+  <div style="flex: 3; padding-right: 70px;"><strong>3) Export a selected set of your database fields and make the correspondance with the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> (you can use the file provided <a href="https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator">here above</a>). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
   <br><br>
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
