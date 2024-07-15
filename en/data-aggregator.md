@@ -165,6 +165,7 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | Date of collect<br> Funddatum<br> Date de récolte | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en) |
 | Name, Art, Espèce | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/) |
 | leg. | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> Q96409968 (recordedByID)  | [ORCID](https://orcid.org/) (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page) (older scientists) |
+| Country<br> Pays<br> Land | Schweiz<br> Suisse<br> Switzerland<br> Svizzera<br> Svizra<br> CH | Switzerland | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/) |
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 
