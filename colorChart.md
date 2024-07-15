@@ -38,12 +38,12 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
           <th>Color</th>
         </tr>
         <tr>
-          <td>#DC6DCF</td>
-          <td><div style="width: 20px; height: 20px; background-color: #DC6DCF;"></div></td>
-        </tr>
-        <tr>
           <td>#FA5E97</td>
           <td><div style="width: 20px; height: 20px; background-color: #FA5E97;"></div></td>
+        </tr>
+        <tr>
+          <td>#DC6DCF</td>
+          <td><div style="width: 20px; height: 20px; background-color: #DC6DCF;"></div></td>
         </tr>
       </table>
     </td>
