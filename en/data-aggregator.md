@@ -10,17 +10,17 @@ toc: true
 
 # Swiss Data Aggregator
 
-More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, SwissCollNet will collaborate with InfoSpecies and build on the already existing data infrastructure of the Swiss node of GBIF.
+More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, [SwissCollNet](https://swisscollnet.scnat.ch/) collaborates with [InfoSpecies](https://www.infospecies.ch/de/) to build on the already existing data infrastructure of the Swiss node of GBIF.
 
 InfoSpecies is the umbrella organisation of the national data centers and coordination offices for species promotion. One of the main goals of InfoSpecies is the provision, management and diffusion of species records, which includes natural history collection data.
 
-{: .box }
 The long-term objective is to achieve **automatised data transfer** of collection data to the national aggregator and **publication of data** on national and international online portals as well as an **automatised update of data records**.
 
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
+{: .box }
 <div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
-  <p><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
+  <p class="box"><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
   <p style="text-align: center; font-size: 20px;">
     <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a>
   </p>
