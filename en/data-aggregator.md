@@ -19,10 +19,9 @@ The long-term objective is to achieve **automatised data transfer** of collectio
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
 <div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
-  <p class="box"><p><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
-  <p style="text-align: center; font-size: 20px;">
+  <p class="box"><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
+  <p class = "box"; style="text-align: center; font-size: 20px;">
     <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a>
-  </p>
   </p>
 </div>
 
@@ -36,6 +35,8 @@ To help you select your fields, **here is an empty file with the most important 
         <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download CSV</button>
     </a>
 </div>
+
+The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : 
 
 ## What is Darwin Core?
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have **distinct and precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
