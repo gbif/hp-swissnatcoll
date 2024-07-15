@@ -85,3 +85,6 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
     </td>
   </tr>
 </table>
+
+
+--> checker le contraste des couleurs 
