@@ -97,9 +97,8 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </div>
   <br><br>
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="flex: 3; padding-right: 70px;">
-    <strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
-    <br><br>
+  <div style="flex: 3; padding-right: 70px;"><strong>2) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of scripts and formulas, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
+  <br><br>
   <table style="background-color: rgba(255, 199, 212, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);">Barcode</th>
@@ -113,7 +112,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
     <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i></td>
     <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
-   <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
     <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
@@ -132,8 +131,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </div>
   <br><br>
   <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="flex: 3; padding-right: 70px;">
-    <strong>3) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
+  <div style="flex: 3; padding-right: 70px;"><strong>3) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   <table style="background-color: rgba(212, 255, 199, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><s>Barcode</s><br><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
@@ -152,6 +150,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <td style="border: 1px solid black; padding: 5px;"><s><i>C. hederifolium</i></s><br><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="border: 1px solid black; padding: 5px;">...</td>
     <td style="border: 1px solid black; padding: 5px;">1968-06-12</td>
+  </tr>
   </table>
   </div>
   <div style="flex: 1;">
