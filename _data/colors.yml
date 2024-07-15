@@ -4,11 +4,11 @@ lightpink:
   #pages concerned: #en/data-aggregator/#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything
 
 lightblue:
-  background: "rgba(199, 212, 255)"
-  transparency: "rgba(199, 212, 255, 0.2)"
+  background: "rgba(158, 225, 235)"
+  transparency: "rgba(158, 225, 235, 0.2)"
   #pages concerned: #en/data-aggregator/#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything
 
 lightgreen:
-  background: "rgba(212, 255, 199)"
-  transparency: "rgba(212, 255, 199, 0.2)"
+  background: "rgba(181, 224, 194)"
+  transparency: "rgba(181, 224, 194, 0.2)"
   #pages concerned: #en/data-aggregator/#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything
