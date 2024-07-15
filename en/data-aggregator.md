@@ -243,7 +243,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Species</th>
      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Date of collect</th>
      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Storage room</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: v;">...</th>
+     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">...</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
