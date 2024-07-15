@@ -20,9 +20,10 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 
 //{: .box }
 <div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
-  <p class="box"><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
+  <p class="box"><p></p><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
   <p style="text-align: center; font-size: 20px;">
     <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a>
+  </p>
   </p>
 </div>
 
