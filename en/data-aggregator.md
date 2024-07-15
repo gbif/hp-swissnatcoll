@@ -36,7 +36,7 @@ To help you select your fields, **here is an empty file with the most important 
     </a>
 </div>
 
-The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : 
+The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist)
 
 ## What is Darwin Core?
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have **distinct and precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
