@@ -162,10 +162,11 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 
 | Field | Without controlled vocabulary | With controlled vocabulary | Reference system |
 | ----- | ----------------------------- | -------------------------- | ---------------- |
-| Date of collect<br> Funddatum<br> Date de récolte | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en) |
-| Name, Art, Espèce | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/) |
-| leg. | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> Q96409968 (recordedByID)  | [ORCID](https://orcid.org/) (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page) (older scientists) |
-| Country<br> Pays<br> Land | Schweiz<br> Suisse<br> Switzerland<br> Svizzera<br> Svizra<br> CH | Switzerland | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/) |
+| Date of collect<br> Funddatum<br> Date de récolte | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en){:target="_blank"} |
+| Name, Art, Espèce | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/){:target="_blank"} |
+| leg. | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> + Q96409968 (recordedByID)  | [ORCID](https://orcid.org/){:target="_blank"} (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page){:target="_blank"} (older scientists) |
+| Country<br> Pays<br> Land | Schweiz<br> Suisse<br> Switzerland<br> Svizzera<br> Svizra<br> CH | Switzerland | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/){:target="_blank"} |
+| Institution | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 
@@ -307,18 +308,20 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 ## Where can I find the Darwin Core terms description?
 On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
 
-Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a controlled vocabulary.
+Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a [controlled vocabulary](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#what-is-a-controlled-vocabulary).
 
 | DwC term (dwc:) | DwC Definition | Corresponding terms found in NHC datasets | Examples |
 | --------------- | -------------- | ----------------------------------------- | -------- |
-| [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes (Linnaeus, 1758)_ |
-| [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
-| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
-| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
-| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d'inventaire | G00009201, Sheet-2765149 |
-| [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) | The original textual description of the place. | Location, Fundort, Endroit, | "Les Follatères", "Zürich, am See", "Pizzo Leone, 1659 m" |
-| country | The name of the country or major administrative unit in which the [dcterms:Location](https://dwc.tdwg.org/terms/#location) occurs | Pays, Land, Country | Switzerland, Suisse, Swizzera, Schweiz |
-| locality | def | corr | ex |
+| ! [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton<br> _Vulpes vulpes (Linnaeus, 1758)_ |
+| ! [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect<br>  collection date<br>  date de récolte<br>  Funddatum | 1903-08<br> 2024-08-01<br> 1815 |
+| ! [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector<br> collecteur<br> leg. | RSutter<br> Gilomen<br> Ed. Berger |
+| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number<br> collect number<br> numéro de récolte<br> Fundnummer | 2089<br> ASM-515 |
+| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre<br> Numéro<br> Barcode<br> Nummer<br> Numéro d'inventaire | G00009201<br> Sheet-2765149 |
+| ! [country](https://dwc.tdwg.org/terms/#dwc:country) | The name of the country or major administrative unit in which the [dcterms:Location](https://dwc.tdwg.org/terms/#location) occurs. | Pays<br> Land<br> Country | Switzerland<br> France<br> Germany<br> Italy<br> Austria |
+| [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) | The original textual description of the place. | Location<br> Fundort<br> Lieu | "Les Follatères", "Zürich, am See", "Pizzo Leone, 1659 m" |
+| ! [locality](https://dwc.tdwg.org/terms/#dwc:locality) | The specific description of the place. | _often not standardised in databases_ | "Les Follatère"<br> "Lake of Zürich"<br> "Pizzo Leone, summit" |
+| ! [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode) | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. | Institution | G<br> UZH:Z<br> BERN |
+| ! [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode) | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | Collection | General collection<br> Collection générale<br> Hauptsammlung |
 
 
 
