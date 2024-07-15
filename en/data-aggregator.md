@@ -157,6 +157,14 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
   </tr>
 </table>
 
+### What is a controlled vocabulary?
+A controlled vocabulary is a **standardized set of terms and phrases used to ensure consistency and accuracy in the documentation and cataloging of specimens**. This vocabulary facilitates **clear communication**, **data sharing**, and **interoperability** among researchers, institutions, and databases by providing a **common language** for describing attributes such as species, locations, and collection methods. Darwin Core is widely used for biodiversity data, to ensure that everyone uses the same terms in the same way when recording and sharing information about natural history collections.
+
+| Field | Without controlled vocabulary | With controlled vocabulary | Reference system |
+| ----- | ----------------------------- | -------------------------- | ---------------- |
+| Date of collect<br> Funddatum<br> Date de récolte | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en) |
+| Name, Art, Espèce | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/) |
+| leg. | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> Q96409968 (recordedByID)  | [ORCID](https://orcid.org/) (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page) (older scientists) |
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 
@@ -298,15 +306,19 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 ## Where can I find the Darwin Core terms description?
 On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
 
-Here are a few of the top-10 most used fields (with link to the quick reference guide page):
+Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a controlled vocabulary.
 
-| DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
-| --------------- | ---------- | ------------------------------------- | -------- |
+| DwC term (dwc:) | DwC Definition | Corresponding terms found in NHC datasets | Examples |
+| --------------- | -------------- | ----------------------------------------- | -------- |
 | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton, _Vulpes vulpes (Linnaeus, 1758)_ |
 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect, collection date, date de récolte, Funddatum | August 1903, 01.04.85, 15 VII 1867 |
+| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
 | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number, collect number, numéro de récolte, Fundnummer | 2089, ASM-515 |
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre, Numéro, Barcode, Nummer, Numéro d'inventaire | G00009201, Sheet-2765149 |
-| [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector, collecteur, leg. | RSutter, Gilomen, Ed. Berger |
+| [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) | The original textual description of the place. | Location, Fundort, Endroit, | "Les Follatères", "Zürich, am See", "Pizzo Leone, 1659 m" |
+| country | The name of the country or major administrative unit in which the [dcterms:Location](https://dwc.tdwg.org/terms/#location) occurs | Pays, Land, Country | Switzerland, Suisse, Swizzera, Schweiz |
+| locality | def | corr | ex |
+
 
 
 ## Which fields are required/mandatory?
