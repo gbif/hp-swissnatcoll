@@ -158,15 +158,19 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
 </table>
 
 ### What is a controlled vocabulary?
+
 A controlled vocabulary is a **standardized set of terms and phrases used to ensure consistency and accuracy in the documentation and cataloging of specimens**. This vocabulary facilitates **clear communication**, **data sharing**, and **interoperability** among researchers, institutions, and databases by providing a **common language** for describing attributes such as species, locations, and collection methods. Darwin Core is widely used for biodiversity data, to ensure that everyone uses the same terms in the same way when recording and sharing information about natural history collections.
 
 | Field | Without controlled vocabulary | With controlled vocabulary | Reference system |
 | ----- | ----------------------------- | -------------------------- | ---------------- |
-| Date of collect<br> Funddatum<br> Date de récolte | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en){:target="_blank"} |
-| Name, Art, Espèce | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/){:target="_blank"} |
-| leg. | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> + Q96409968 (recordedByID)  | [ORCID](https://orcid.org/){:target="_blank"} (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page){:target="_blank"} (older scientists) |
-| Country<br> Pays<br> Land | Schweiz<br> Suisse<br> Switzerland<br> Svizzera<br> Svizra<br> CH | Switzerland | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/){:target="_blank"} |
-| Institution | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
+| Name<br> Art<br> Espèce<br><br> [dwc:scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | Cyclamen hederifolium<br> C. hederifolium<br> C. hed.<br> Cyclamen hederifolium Aiton<br> hederifolium | *Cyclamen hederifolium* Aiton | [World Flora Online](https://www.worldfloraonline.org/)<br> [GBIF.org](https://www.gbif.org/){:target="_blank"} |
+| Date of collect<br> Funddatum<br> Date de récolte<br><br> [dwc:eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | 1. August 2024<br> 1er août 2024<br> 1° agosto 2024<br> 1 Aug. 2024<br> 1.8.2024<br> 01 VIII 2024<br> 1/8/24<br> 8/1/2024  | 2024-08-01 | [ISO 8601-1:2019](https://www.iso.org/obp/ui/en/#iso:std:iso:8601:-1:ed-1:v1:en){:target="_blank"} |
+| leg.<br><br> [dwc:recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | Ruben Sutter<br> R. Sutter<br> Sutter<br> RSutter<br> R.S. | Sutter Ruben<br> + Q96409968 ([recordedByID](https://dwc.tdwg.org/terms/#dwc:recordedByID){:target="_blank"})  | [ORCID](https://orcid.org/){:target="_blank"} (alive scientists)<br> [WIKIDATA](https://www.wikidata.org/wiki/Wikidata:Main_Page){:target="_blank"} (older scientists) |
+| Country<br> Pays<br> Land<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Schweiz<br> Suisse<br> Switzerland<br> Svizzera<br> Svizra<br> CH | Switzerland | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/){:target="_blank"} |
+| Locality<br><br> [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality){:target="_blank"} | Les Follatères<br> N of Sion, on the right side of the Rhône river, lieu-dit Les Follatères<br> Follatères | Les Follatères | [Getty Thesaurus of Geographic Names](https://www.getty.edu/research/tools/vocabularies/tgn/){:target="_blank"}<br> [swissNAMES3D](https://www.swisstopo.admin.ch/en/landscape-model-swissnames3d){:target="_blank"} |
+| Institution<br><br> [dwc:institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
+| collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/) |
+
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 
