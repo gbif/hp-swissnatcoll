@@ -12,7 +12,7 @@ composition:
 ---
 # Bases elements of the hosted portals (_config.yml)
 [_config.yml](https://github.com/gbif/hp-svnhc/blob/master/_config.yml)
-<div style="width: 20px; height: 20px; background-color: #FA5E97;"></div> primary = "#fa5e97" (buttons, links)
+<div style="width: 20px; height: 20px; background-color: #FA5E97;"></div>
 - primary = "#fa5e97"
     - buttons
     - links
