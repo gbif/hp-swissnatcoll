@@ -18,7 +18,6 @@ The long-term objective is to achieve **automatised data transfer** of collectio
 
 Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation).
 
-//{: .box }
 <div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
   <p class="box"><p></p><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
   <p style="text-align: center; font-size: 20px;">
