@@ -99,12 +99,12 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;"><strong>2) Replace the name of your fields with the corresponding <a href="https://dwc.tdwg.org/terms/">Darwin Core term</a></strong> after checking your field compatibilities with the DwC terms definitions.
   <br><br>
-  <table style="background-color: rgba(212, 255, 199, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="background-color: {{ site.data.colors.lightblue.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><s>Barcode</s><br><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><s>Species</s><br><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">...</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><s>Date of collect</s><br><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightblue.background }};"><s>Barcode</s><br><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightblue.background }};"><s>Species</s><br><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightblue.background }};">...</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightblue.background }};"><s>Date of collect</s><br><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
@@ -133,13 +133,13 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;"><strong>3) Export a selected set of your database fields and make the correspondance with the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> (you can use the file provided [here above](do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
   <br><br>
-  <table style="background-color: rgba(212, 255, 199, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">Barcode</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">Species</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">Date of collect</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">Storage room</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);">...</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Barcode</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Species</th>
+     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Date of collect</th>
+     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Storage room</th>
+     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: v;">...</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
@@ -159,11 +159,11 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   
   <p style="text-align: center; font-size: 50px;"> + </p>
   
-  <table style="background-color: rgba(212, 255, 199, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(212, 255, 199);"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
