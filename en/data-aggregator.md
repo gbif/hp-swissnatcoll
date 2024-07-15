@@ -125,8 +125,16 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
   </tr>
   <tr>
     <td><strong>🐟 Taxonomy</strong></td>
-    <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
-    <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+        </tr>
+      </table>
+    </td>    
   </tr>
   <tr>
     <td><strong>🌍 Geography</strong></td>
