@@ -53,13 +53,113 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
 - 🐟 **Taxonomy**: [Identification](https://dwc.tdwg.org/terms/#identification){:target="_blank"}, [Taxon](https://dwc.tdwg.org/terms/#taxon){:target="_blank"}
 - 🌍 **Geography**: [Occurrence](https://dwc.tdwg.org/terms/#occurrence){:target="_blank"}, [Event](https://dwc.tdwg.org/terms/#event){:target="_blank"}, [Location](https://dwc.tdwg.org/terms/#location){:target="_blank"}, [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext){:target="_blank"}, [Taxon](https://dwc.tdwg.org/terms/#taxon){:target="_blank"}, [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact){:target="_blank"}
 
-| Theme | Categories in Darwin Core |
-| ----- | ------------------------- |
-| **Field work** | [Occurrence](https://dwc.tdwg.org/terms/#occurrence){:target="_blank"}, [Organism](https://dwc.tdwg.org/terms/#organism){:target="_blank"}, [MaterialSample](https://dwc.tdwg.org/terms/#materialsample){:target="_blank"}, [Event](https://dwc.tdwg.org/terms/#event){:target="_blank"}, [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact){:target="_blank"}, [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen){:target="_blank"}, [HumanObservation](https://dwc.tdwg.org/terms/#humanobservation){:target="_blank"}, [MachineObservation](https://dwc.tdwg.org/terms/#machineobservation){:target="_blank"} |
-| **Specimen storage** | [Organism](https://dwc.tdwg.org/terms/#organism){:target="_blank"}, [MaterialEntity](https://dwc.tdwg.org/terms/#materialentity){:target="_blank"}, [MaterialSample](https://dwc.tdwg.org/terms/#materialsample){:target="_blank"}, [PreservedSpecimen](https://dwc.tdwg.org/terms/#preservedspecimen){:target="_blank"}, [FossilSpecimen](https://dwc.tdwg.org/terms/#fossilspecimen){:target="_blank"} |
-| **Database management** | [Record-level](https://dwc.tdwg.org/terms/#record-level){:target="_blank"}, [Occurrence](https://dwc.tdwg.org/terms/#occurrence){:target="_blank"}, [Organism](https://dwc.tdwg.org/terms/#organism){:target="_blank"}, [Event](https://dwc.tdwg.org/terms/#event){:target="_blank"}, [Identification](https://dwc.tdwg.org/terms/#identification){:target="_blank"}, [Taxon](https://dwc.tdwg.org/terms/#taxon){:target="_blank"}, [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact){:target="_blank"}, [ResourceRelationship](https://dwc.tdwg.org/terms/#resourcerelationship){:target="_blank"}, [LivingSpecimen](https://dwc.tdwg.org/terms/#livingspecimen){:target="_blank"}, [MaterialCitation](https://dwc.tdwg.org/terms/#materialcitation){:target="_blank"}, [HumanObservation](https://dwc.tdwg.org/terms/#humanobservation){:target="_blank"} |
-| **Taxonomy** | [Identification](https://dwc.tdwg.org/terms/#identification){:target="_blank"}, [Taxon](https://dwc.tdwg.org/terms/#taxon){:target="_blank"} |
-| **Geography** | [Occurrence](https://dwc.tdwg.org/terms/#occurrence){:target="_blank"}, [Event](https://dwc.tdwg.org/terms/#event){:target="_blank"}, [Location](https://dwc.tdwg.org/terms/#location){:target="_blank"}, [GeologicalContext](https://dwc.tdwg.org/terms/#geologicalcontext){:target="_blank"}, [Taxon](https://dwc.tdwg.org/terms/#taxon){:target="_blank"}, [MeasurementOrFact](https://dwc.tdwg.org/terms/#measurementorfact){:target="_blank"} |
+<table border="1">
+  <tr>
+    <th>Theme</th>
+    <th>Categories in Darwin Core</th>
+  </tr>
+  <tr>
+    <td><strong>⛰️ Field work</strong></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#livingspecimen" target="_blank">LivingSpecimen</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#humanobservation" target="_blank">HumanObservation</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#machineobservation" target="_blank">MachineObservation</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🗄️ Specimen storage</strong></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#materialentity" target="_blank">MaterialEntity</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#preservedspecimen" target="_blank">PreservedSpecimen</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#fossilspecimen" target="_blank">FossilSpecimen</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🖥️ Database management</strong></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#record-level" target="_blank">Record-level</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#resourcerelationship" target="_blank">ResourceRelationship</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#livingspecimen" target="_blank">LivingSpecimen</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#materialcitation" target="_blank">MaterialCitation</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#humanobservation" target="_blank">HumanObservation</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🐟Taxonomy</strong></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>🌍 Geography</strong></td>
+    <td>
+      <table>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#location" target="_blank">Location</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#geologicalcontext" target="_blank">GeologicalContext</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+          <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
 
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
