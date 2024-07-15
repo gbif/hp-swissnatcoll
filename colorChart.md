@@ -2,9 +2,12 @@
 layout: compose
 title: Color chart SVNHC
 description: definition of the colours and other graphic elements of the hosted portal
+background: {{ site.data.images.frullania.src }}
+imageLicense: {{ site.data.images.frullania.caption }}
 toc: true
-compose:
-  - markdwon
+composition:
+  - type: heroImage
+  - type: pageMarkdown
 ---
 # Bases elements of the hosted portals (_config.yml)
 [_config.yml](https://github.com/gbif/hp-svnhc/blob/master/_config.yml)
