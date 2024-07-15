@@ -62,13 +62,13 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
   <div style="flex: 3; padding-right: 70px;"><strong>1) Add the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> in your dataset/database as new columns. With the help of <strong>scripts</strong> and <strong>formulas</strong>, pick the fields of your database and copy or adapt their values in the DwC fields in a dynamic way.
   <br><br>
-  <table style="background-color: rgba(255, 199, 212, 0.2); width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="background-color: {{ site.data.colors.lightpink.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);">Barcode</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);">Species</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: rgba(255, 199, 212);">...</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightpink.background }};">Barcode</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightpink.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightpink.background }};">Species</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightpink.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightpink.background }};">...</th>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
