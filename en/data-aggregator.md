@@ -35,7 +35,7 @@ To help you select your fields, **here is an empty file with the most important 
         <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download CSV</button>
     </a>
 </div>
-
+<br><br>
 The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist)
 
 ## What is Darwin Core?
