@@ -58,18 +58,18 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
       <table>
         <tr>
           <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
-        </tr>
-        <tr>
           <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#livingspecimen" target="_blank">LivingSpecimen</a></td>
         </tr>
         <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#humanobservation" target="_blank">HumanObservation</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#machineobservation" target="_blank">MachineObservation</a></td>
         </tr>
       </table>
@@ -81,14 +81,14 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
       <table>
         <tr>
           <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#materialentity" target="_blank">MaterialEntity</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#preservedspecimen" target="_blank">PreservedSpecimen</a></td>
         </tr>
         <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#materialentity" target="_blank">MaterialEntity</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#fossilspecimen" target="_blank">FossilSpecimen</a></td>
+        </tr>
+        <tr>
+         <td><a href="https://dwc.tdwg.org/terms/#materialsample" target="_blank">MaterialSample</a></td>
         </tr>
       </table>
     </td>
@@ -99,40 +99,34 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
       <table>
         <tr>
           <td><a href="https://dwc.tdwg.org/terms/#record-level" target="_blank">Record-level</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
-        </tr>
-        <tr>
           <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#resourcerelationship" target="_blank">ResourceRelationship</a></td>
         </tr>
         <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#organism" target="_blank">Organism</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#livingspecimen" target="_blank">LivingSpecimen</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#materialcitation" target="_blank">MaterialCitation</a></td>
         </tr>
         <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#humanobservation" target="_blank">HumanObservation</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
         </tr>
       </table>
     </td>
   </tr>
   <tr>
-    <td><strong>🐟Taxonomy</strong></td>
-    <td>
-      <table>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
-        </tr>
-      </table>
-    </td>
+    <td><strong>🐟 Taxonomy</strong></td>
+    <td><a href="https://dwc.tdwg.org/terms/#identification" target="_blank">Identification</a></td>
+    <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
   </tr>
   <tr>
     <td><strong>🌍 Geography</strong></td>
@@ -140,14 +134,14 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
       <table>
         <tr>
           <td><a href="https://dwc.tdwg.org/terms/#occurrence" target="_blank">Occurrence</a></td>
-          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
-        </tr>
-        <tr>
-          <td><a href="https://dwc.tdwg.org/terms/#location" target="_blank">Location</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#geologicalcontext" target="_blank">GeologicalContext</a></td>
         </tr>
         <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#event" target="_blank">Event</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#taxon" target="_blank">Taxon</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://dwc.tdwg.org/terms/#location" target="_blank">Location</a></td>
           <td><a href="https://dwc.tdwg.org/terms/#measurementorfact" target="_blank">MeasurementOrFact</a></td>
         </tr>
       </table>
