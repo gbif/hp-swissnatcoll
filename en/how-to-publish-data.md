@@ -18,18 +18,18 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 
 > Example: [Herbarium - General collection](https://scientific-collections.gbif.org/collection/836af357-06e8-4a4f-9511-c3d33155f2b5){:target="_blank"}
 
-✅ My dataset has all **mandatory fields** (attributes) to ensure minimal encoding on the Data Aggregator
+✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator
 - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded TSV file** with **Darwin Core standardised columns and cell content**. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator){:target="_blank"}
+✅ My ready-for-upload dataset file is an **UTF-8 encoded TSV file** with **Darwin Core standardised columns and cell content**. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything){:target="_blank"}
 
 # Prepare my data
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p><u>What you are expected to have at the end of this step:</u></p>
-  <p>✅ 1 TSV file (.tsv) with your data arranged as one line = one occurrence/specimen, one column = one attribute, and no empty lines</p>
+  <p>✅ 1 TSV file (.tsv) with your data arranged as <strong>one line = one occurrence/specimen</strong>, <strong>one column = one attribute</strong>, and <strong>no empty lines</strong></p>
   <table border="1" style="text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;">
     <tr>
       <th>catalogNumber</th>
