@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: text
 permalink: /pageTesting
 title: How to publish data - Data Aggregator
 description: For Swiss Natural History institutions
