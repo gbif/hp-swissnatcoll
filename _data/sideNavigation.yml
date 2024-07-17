@@ -1,3 +1,13 @@
+tutorials:
+- grouptitle: Data Aggregator
+  content:
+  - title: About
+    path: /en/data-aggregator/#swiss-data-aggregator
+  - title: FAQs
+    path: /en/data-aggregator/#faqs
+  - title: How to publish data
+    path: /en/how-to-publish-data
+
 terms:
 - grouptitle: Group name
   content:
