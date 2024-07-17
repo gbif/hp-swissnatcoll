@@ -2,7 +2,6 @@
 layout: documentation
 permalink: /en/data-aggregator
 title: Data Aggregator
-description: Swiss Data Aggregator and tutorials
 toc: true
 sideNavigation: sideNavigation.tutorials
 ---
