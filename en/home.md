@@ -6,8 +6,8 @@ permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
-title: Swiss Virtual Natural History Collection
-description: Discover the treasures of the swiss natural history institutions
+title: "{{ site.data.home.hp_title.title }}"
+description: "{{ site.data.home.hp_title.sub-title }}"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
