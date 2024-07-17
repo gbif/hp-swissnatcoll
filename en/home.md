@@ -7,7 +7,7 @@ permalink: /
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
 title: "Natural History Collection Information Facility"
-description: "Discover the treasures of the Swiss natural history" institutions"
+description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
