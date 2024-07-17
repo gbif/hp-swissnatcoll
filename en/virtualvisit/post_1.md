@@ -14,3 +14,5 @@ composition:
 </figure>
 
 {{ site.data.outoftheboxposts.post_1.description}}
+
+![By adding <code>{:standalone .has-text-centered}</code> you can center it](https://github.com/gbif/hp-svnhc/blob/master/assets/images/virtualvisit/Post_1.jpg){:standalone .has-text-centered}
