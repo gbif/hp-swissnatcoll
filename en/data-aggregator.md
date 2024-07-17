@@ -1,5 +1,6 @@
 ---
-layout: heroImage
+layout: documentation
+permalink: /en/data-aggregator
 title: Data Aggregator
 description: Swiss Data Aggregator and tutorials
 background: "{{ site.data.images.dataaggregator.src }}"
