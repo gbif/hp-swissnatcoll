@@ -22,7 +22,7 @@ composition:
   <a href="{{ site.data.outoftheboxposts.post_1.background }}" data-lightbox="image-1" data-title="{{ site.data.outoftheboxposts.post_1.overlay-title }}">
     <img src="{{ site.data.outoftheboxposts.post_1.background }}" alt="{{ site.data.outoftheboxposts.post_1.overlay-title }}" />
   </a>
-  <figcaption>"{{ site.data.outoftheboxposts.post_1.overlay-title }}"</figcaption>
+  <figcaption>{{ site.data.outoftheboxposts.post_1.overlay-title }}</figcaption>
 </figure>
 
 
