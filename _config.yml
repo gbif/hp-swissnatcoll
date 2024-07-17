@@ -54,7 +54,7 @@ algae:
   rootLang: en
   # latestPostLimit: 2
   logo: https://staging.aggregator.scnat.zebbra.ch/images/logo.png #/assets/images/fungi.svg  # Logo in navbar, will be displayed with 28px height
-  logoAndTitle: OSColl #false           # include the title next to the logo
+  logoAndTitle: true #false           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
