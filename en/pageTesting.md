@@ -1,8 +1,11 @@
 ---
 layout: compose
 permalink: /pageTesting
+background: "{{ site.data.images.puccinia‎.src }}"
+imageLicense: "{{ site.data.images.puccinia‎.caption }}"
 title: How to publish data - Data Aggregator
 description: For Swiss Natural History institutions
+height: 50vh
 composition:
 - type: pageMarkdown
 ---
