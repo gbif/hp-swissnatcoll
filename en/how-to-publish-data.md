@@ -6,8 +6,8 @@ description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
-# In short
-In order to publish your dataset/collection on the SVNHC portal, you need to first prepare a .tsv file (Tab-separated values file) with your data (see [Prepare my data](#prepare-my-data) and [upload](#upload-my-data) it in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}. After the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SVNHC portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search){:target="_blank"}.
+# How to publish data - Data Aggregator
+In order to publish your dataset/collection on the SVNHC portal, you need to first prepare a tsv file (Comma-separated values file) with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SVNHC portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search){:target="_blank"}.
 
 # Checklist -to do before starting the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
