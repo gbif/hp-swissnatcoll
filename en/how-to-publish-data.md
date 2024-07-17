@@ -3,7 +3,7 @@ layout: documentation
 permalink: /en/how-to-publish-data
 title: How to publish data - Data Aggregator
 description: For Swiss Natural History institutions
-sideNavigation: sideNavigation.guides
+sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # In short
