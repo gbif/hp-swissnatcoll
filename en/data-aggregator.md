@@ -380,7 +380,7 @@ Here are a few of the top-10 most used fields in natural history institutions' d
       text-align: center;
       padding: 10px;
       border-radius: 5px;
-      font-size: 24px;
+      font-size: 18px;
       cursor: pointer;
       z-index: 1000;
       width: 120px; /* Width for the rectangle */
