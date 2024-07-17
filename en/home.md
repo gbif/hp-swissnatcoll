@@ -10,7 +10,7 @@ title: SVNHC
 description: Swiss Virtual Natural History Collection
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
-height: 70vh
+height: 90vh
 parallax: true
 cta:
   - text: 🏛️ Institutions
