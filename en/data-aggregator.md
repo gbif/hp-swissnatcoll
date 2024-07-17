@@ -386,16 +386,15 @@ Here are a few of the top-10 most used fields in natural history institutions' d
     }
 
     #back-to-top:hover {
-      background-color: #0056b3;
+      background-color: #fa5e97;
     }
   </style>
 </head>
+
 <body>
 
-  <!-- Your website content here -->
-
   <!-- Back to Top Button -->
-  <a id="back-to-top" href="#" title="Back to top">⬆</a>
+  <a id="back-to-top" href="#" title="Back to top">Up</a>
 
   <script>
     // Show or hide the button when scrolling
