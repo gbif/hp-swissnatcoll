@@ -19,10 +19,10 @@ composition:
 ## {{ site.data.outoftheboxposts.post_1.title }}
 
 <figure class="has-text-centered">
-  <a href="{{ site.data.outoftheboxposts.post_1.background }}" data-lightbox="image-1" data-title="Sheet-0059884 and Sheet-0059885 of BERN Herbarium">
-    <img src="{{ site.data.outoftheboxposts.post_1.background }}" alt="Sheet-0059884 and Sheet-0059885 of BERN Herbarium" />
+  <a href="{{ site.data.outoftheboxposts.post_1.background }}" data-lightbox="image-1" data-title="{{ site.data.outoftheboxposts.post_1.overlay-title }}">
+    <img src="{{ site.data.outoftheboxposts.post_1.background }}" alt="{{ site.data.outoftheboxposts.post_1.overlay-title }}" />
   </a>
-  <figcaption>Sheet-0059884 and Sheet-0059885 of BERN Herbarium</figcaption>
+  <figcaption>"{{ site.data.outoftheboxposts.post_1.overlay-title }}"</figcaption>
 </figure>
 
 
