@@ -6,8 +6,8 @@ permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
-title: Swiss Virtual Natural History Collection
-description: Virtual museum of the Natural History collections of Switzerland
+title: SVNHC
+description: Swiss Virtual Natural History Collection
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
