@@ -30,39 +30,39 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p><u>What you are expected to have at the end of this step:</u></p>
   <p>✅ 1 TSV file (.tsv) with your data arranged as <strong>one line = one occurrence/specimen</strong>, <strong>one column = one attribute</strong>, and <strong>no empty lines</strong></p>
-  <table border="1" style="text-align: left; margin-top: 20px; margin-left: auto; margin-right: auto;">
-    <tr>
-      <th>catalogNumber</th>
-      <th>scientificName</th>
-      <th>...</th>
-      <th>stateProvince</th>
-    </tr>
-    <tr>
-      <td>BERN-0000001</td>
-      <td><em>Abies alba</em> Mill.</td>
-      <td>...</td>
-      <td>Bern</td>
-    </tr>
-    <tr>
-      <td>BERN-0000002</td>
-      <td><em>Acer campestre</em> L.</td>
-      <td>...</td>
-      <td>Geneve</td>
-    </tr>
-    <tr>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <td>BERN-0500000</td>
-      <td><em>Azolla filiculoides</em> Lam.</td>
-      <td>...</td>
-      <td>Ticino</td>
-    </tr>
-  </table>
- <p> ⚠️ empty cells are tolerated, but if possible, please fill them out with "n.a." ⚠️</p>
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <tr>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">...</a></th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">stateProvince</a></th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
+    <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">Geneve</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
+    <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+     <td style="border: 1px solid black; padding: 5px;">Vaud</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 5px;">XXX-9999999</td>
+    <td style="border: 1px solid black; padding: 5px;"><i>Serratula tinctoria</i> L. subsp. <i>tinctoria</i></td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">Ticino</td>
+  </tr>
+
+  </table> <p> ⚠️ empty cells are tolerated, but if possible, please fill them out with "n.a." ⚠️</p>
 </div>
 
 # Upload my data
