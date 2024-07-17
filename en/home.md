@@ -6,8 +6,8 @@ permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
-title: "{{ site.data.home.hptitle.title }}"
-description: "{{ site.data.home.hptitle.subtitle }}"
+title: "OSColl"
+description: "One Swiss Collection"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 90vh
