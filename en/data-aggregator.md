@@ -361,3 +361,64 @@ Here are a few of the top-10 most used fields in natural history institutions' d
 | 2 | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target='_blank'} | The original description of the elevation (altitude, usually above sea level) of the Location. | <if you have an example, please do not hesitate to send it to us> | <if you have an example, please do not hesitate to send it to us> |
 | 3 | [county](https://dwc.tdwg.org/terms/#dwc:county){:target='_blank'} | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.  | <if you have an example, please do not hesitate to send it to us> | <if you have an example, please do not hesitate to send it to us> |
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | <if you have an example, please do not hesitate to send it to us>    | <if you have an example, please do not hesitate to send it to us> |
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to Top Button</title>
+  <style>
+    /* Style for the Back to Top Button */
+    #back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    #back-to-top:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Your website content here -->
+
+  <!-- Back to Top Button -->
+  <a id="back-to-top" href="#" title="Back to top">⬆</a>
+
+  <script>
+    // Show or hide the button when scrolling
+    window.onscroll = function() {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      var backToTopButton = document.getElementById("back-to-top");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    }
+
+    // Scroll to the top when the button is clicked
+    document.getElementById("back-to-top").addEventListener("click", function(event) {
+      event.preventDefault();
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+  </script>
+
+</body>
+</html>
