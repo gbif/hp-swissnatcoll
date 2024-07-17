@@ -19,7 +19,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SwissNCIF # the title of your site should go here
+title: SVNHC # the title of your site should go here
 email: contact-svnhc@infofauna.ch #your-email@example.com
 description: >
   Virtual museum of Switzerland, open window on centuries of knowledge
