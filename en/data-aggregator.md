@@ -379,10 +379,13 @@ Here are a few of the top-10 most used fields in natural history institutions' d
       color: white;
       text-align: center;
       padding: 10px;
-      border-radius: 50%;
-      font-size: 18px;
+      border-radius: 5px;
+      font-size: 24px;
       cursor: pointer;
       z-index: 1000;
+      width: 120px; /* Width for the rectangle */
+      height: 40px; /* Height for the rectangle */
+      line-height: 40px;
     }
 
     #back-to-top:hover {
