@@ -6,6 +6,7 @@ background: "{{ site.data.images.dataaggregator.src }}"
 imageLicense: "{{ site.data.images.dataaggregator.caption }}"
 height: 50vh
 toc: true
+sideNavigation: sideNavigation.tutorials
 ---
 
 # Swiss Data Aggregator
