@@ -375,7 +375,7 @@ Here are a few of the top-10 most used fields in natural history institutions' d
       bottom: 20px;
       right: 20px;
       display: none;
-      background-color: #007bff;
+      background-color: #fa5e97;
       color: white;
       text-align: center;
       padding: 10px;
