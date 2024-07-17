@@ -380,7 +380,7 @@ Here are a few of the top-10 most used fields in natural history institutions' d
       background-color: #fa5e97;
       color: white;
       text-align: center;
-      padding: 10px;
+      padding: 5px;
       border-radius: 5px;
       font-size: 18px;
       cursor: pointer;
