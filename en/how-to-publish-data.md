@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: documentation
+permalink: /en/how-to-publish-my-data
 title: How to publish data - Data Aggregator
 description: For Swiss Natural History institutions
-background: "{{ site.data.images.frullania.src }}"
-imageLicense: "{{ site.data.images.frullania.caption }}"
-height: 50vh
+sideNavigation: sideNavigation.guides
 toc: true
 ---
 # In short
