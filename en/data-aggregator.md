@@ -29,8 +29,8 @@ There is no need to upload all fields of your database into the Data Aggregator.
 
 To help you select your fields, **here is an empty file with the most important Darwin Core terms**, and an example line. You can use it to organise your dataset for the upload into the Data Aggregator. Clicking on this button opens the file on the web, and by right-clicking on it, you can save it in a text file.
 <div style="text-align: center;">
-    <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.csv" download="DarwinCoreSelected.csv">
-        <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download CSV</button>
+    <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.tab" download="DarwinCoreSelected.tab">
+        <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download .tab</button>
     </a>
 </div>
 <br><br>
