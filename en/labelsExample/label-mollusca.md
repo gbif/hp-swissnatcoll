@@ -30,7 +30,7 @@ toc: true
 
 | Museum Label | Museum encoding | Darwin Core correspondance |
 | ------------ | --------------- | -------------------------- |
-| _(specimen)_ | N (nb de coquilles | [individualCount](https://dwc.tdwg.org/terms/#dwc:individualCount){:target="_blank"} |
+| _(specimen)_ | N (nb de coquilles) | [individualCount](https://dwc.tdwg.org/terms/#dwc:individualCount){:target="_blank"} |
 | _Chiton_ | Genre | [genus](https://dwc.tdwg.org/terms/#dwc:genus){:target="_blank"} |
 | _cajetanus_ | espèce (et sous-espèce si présent) | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
 | _Poli_ | Auteur | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
