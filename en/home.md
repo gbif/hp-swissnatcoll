@@ -10,7 +10,7 @@ title: "Swiss Virtual Natural History Collection"
 description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
-height: 90vh
+height: 70vh
 parallax: true
 cta:
   - text: 🏛️ Institutions
