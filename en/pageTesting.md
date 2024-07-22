@@ -14,8 +14,9 @@ composition:
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch).
   
-  ![DA-languages](https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png)
-
+ <p style="float: right; margin-left: 10px;">
+  <img src="https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png" alt="DA-languages" width="300">
+</p>
 
 2. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
