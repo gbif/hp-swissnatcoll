@@ -1,5 +1,6 @@
 ---
 layout: compose
+permalink: /en/digitalisation
 title: Digitalisation
 description: Digitalisation of natural history collections, best practices, examples, material and more.
 background: "{{ site.data.images.digitalisation.src }}"
