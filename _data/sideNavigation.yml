@@ -7,6 +7,20 @@ tutorials:
     path: /en/data-aggregator/#faqs
   - title: How to publish data
     path: /en/how-to-publish-data
+- grouptitle: Darwin Core
+  content:
+  - title: About
+    path: /en/data-aggregator#what-is-darwin-core
+  - sectiontitle: Label examples
+    section:
+    - title: Herbarium
+      path: /en/label-herbarium
+    - title: Molluscs
+      path: /en/label-molluscs
+    - title:  Entomology
+      path: /en/label-entomology
+    - title:  Geology
+      path: /en/label-geology
 
 terms:
 - grouptitle: Group name
