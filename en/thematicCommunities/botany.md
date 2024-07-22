@@ -1,5 +1,6 @@
 ---
-layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
+layout: compose
+permalink: /en/botany
 title: Flora
 description: Information and important pages on swiss flora
 background: /assets/images/categories/flora-istockphoto-689068468-1024x1024.jpg
