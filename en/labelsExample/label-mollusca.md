@@ -24,10 +24,10 @@ toc: true
 link: [Muséum d'Histoire Naturelle de Neuchâtel](https://www.museum-neuchatel.ch/collections/)
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title="Label Mollusca MHNN-Nprov-1">
+  <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title="Celia Bueno / Muséum Neuchâtel">
     <img src="/assets/images/categories/label_Mollusca.png" alt="<i>Chiton cajetanus</i> Poli, 1791 (MHNN)" />
   </a>
-  <figcaption><i>Chiton cajetanus</i>Poli, 1791 (MHNN)</figcaption>
+  <figcaption><i>Chiton cajetanus</i> Poli, 1791 (MHNN)</figcaption>
 </figure>
 
 | Museum Label | Museum encoding | Darwin Core correspondance |
