@@ -11,8 +11,8 @@ tutorials:
   content:
   - title: About
     path: /en/data-aggregator#what-is-darwin-core
-  - sectiontitle: Label examples
-    section:
+  - grouptitle: Label examples
+    content:
     - title: Herbarium
       path: /en/label-herbarium
     - title: Molluscs
