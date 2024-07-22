@@ -11,10 +11,10 @@ composition:
 ---
 
 # Upload my data
+1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
 <p style="float: right; margin-left: 10px;">
   <img src="https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png" alt="DA-languages" width="100">
 </p>
-1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch).
 
 2. Click on **Collections** on the left side of the window.
