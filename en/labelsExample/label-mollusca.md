@@ -17,7 +17,11 @@ toc: true
   <!-- Your existing JavaScript -->
 </head>
 
-## Mollusca collections
+# Mollusca labels
+
+## Muséum d'Histoire Naturelle de Neuchâtel
+
+link: [Muséum d'Histoire Naturelle de Neuchâtel](https://www.museum-neuchatel.ch/collections/)
 
 <figure class="has-text-centered">
   <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title="Label Mollusca MHNN-Nprov-1">
