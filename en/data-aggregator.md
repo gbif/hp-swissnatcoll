@@ -24,8 +24,8 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 </div>
 
 # FAQs
-## Do I have to upload my entire database fields into the Data Aggregator?
-There is no need to upload all fields of your database into the Data Aggregator. You can choose to upload only the most important fields.
+## Do I have to upload my entire database into the Data Aggregator?
+There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which is unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is an empty file with the most important Darwin Core terms**, and an example line. You can use it to organise your dataset for the upload into the Data Aggregator. Clicking on this button opens the file on the web, and by right-clicking on it, you can save it in a text file.
 <div style="text-align: center;">
