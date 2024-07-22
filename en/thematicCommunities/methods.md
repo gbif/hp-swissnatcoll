@@ -1,5 +1,6 @@
 ---
 layout: compose
+permalink: /en/methods
 title: Methods
 description: Learn more about the journey of a museum specimen, the various techniques of curating and more
 background: "{{ site.data.images.methods.src }}"
