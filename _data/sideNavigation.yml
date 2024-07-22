@@ -11,7 +11,7 @@ tutorials:
   content:
   - title: About
     path: /en/data-aggregator#what-is-darwin-core
-  - sectionTitle: Label examples
+  - sectiontitle: Label examples
     section:
     - title: Herbarium
       path: /en/label-herbarium
