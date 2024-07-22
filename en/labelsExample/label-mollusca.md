@@ -42,6 +42,6 @@ toc: true
 | _N. provisoire: 1_ | Entry ID | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 |  |  | [](){:target="_blank"} |
 
-/!\ [organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"} is to be completed with the field [organismQuantityType](https://dwc.tdwg.org/terms/#dwc:organismQuantityType){:target="_blank"} (in the case of this specimen, the value would be "shell" or "individuals"
+⚠️ **[organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"}** is to be completed with the field [organismQuantityType](https://dwc.tdwg.org/terms/#dwc:organismQuantityType){:target="_blank"} (in the case of this specimen, the value would be "shell" or "individuals"
 
-/!\ Concerning Image ID, if the image file is named after the catalogNumber or a barcode/QR code/Data Matrix sticker fixed to the specimen, then the corresponding DwC field is respectively [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} or [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"}
+⚠️ Concerning **Image ID**, if the image file is named after the catalogNumber or a barcode/QR code/Data Matrix sticker fixed to the specimen, then the corresponding DwC field is respectively [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} or [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"}
