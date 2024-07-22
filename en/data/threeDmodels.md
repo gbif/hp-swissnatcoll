@@ -1,5 +1,6 @@
 ---
 layout: compose
+permalink: /en/threeDmodels
 title: 3D models
 description: Interactive 3D models of insects
 background: "{{ site.data.images.models_three_d.src }}"
