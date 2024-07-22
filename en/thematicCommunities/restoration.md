@@ -1,5 +1,6 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
+permalink: /en/restoration
 title: Restoration
 description: Restoration of natural history collections, best practices, examples, material and more.
 background: "{{ site.data.images.restoration.src }}"
