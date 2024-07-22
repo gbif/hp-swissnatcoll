@@ -25,7 +25,7 @@
   menu:
   - text: About & FAQs
     href: /en/data-aggregator
-  - text: Publish my data
+  - text: 🔒 Publish my data
     href: /en/how-to-publish-data
   - text: 🔗 Direct link
     href: https://staging.aggregator.scnat.zebbra.ch/
