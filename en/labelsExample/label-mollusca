@@ -2,10 +2,13 @@
 layout: documentation
 permalink: /en/label-mollusca
 title: Mollusca labels
-description: Examples of labels found in the mollusc collections of Switzerland and their corresponding Darwin Core encoding
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
+
+# Mollusca labels
+
+Examples of labels found in the mollusc collections of Switzerland and their corresponding Darwin Core encoding
 
 <head>
   <!-- Lightbox2 CSS -->
@@ -17,14 +20,13 @@ toc: true
   <!-- Your existing JavaScript -->
 </head>
 
-## Mollusca collections
-
 <figure class="has-text-centered">
   <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title="Label Mollusca MHNN-Nprov-1">
     <img src="/assets/images/categories/label_Mollusca.png" alt="<i>Chiton cajetanus</i>Poli, 1791 (MHNN)" />
   </a>
   <figcaption><i>Chiton cajetanus</i>Poli, 1791 (MHNN)</figcaption>
 </figure>
+
 
 | Museum Label | Museum encoding | Darwin Core correspondance |
 | ------------ | --------------- | -------------------------- |
