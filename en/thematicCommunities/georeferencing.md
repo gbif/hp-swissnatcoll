@@ -1,5 +1,6 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
+permalink: en/georeferencing
 title: Georeferencing
 description: Information and important pages on georeferencing
 background: "{{ site.data.images.georeferencing‎.src }}"
