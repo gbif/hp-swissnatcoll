@@ -40,5 +40,4 @@ toc: true
 | _Naples_ | Localité ou pays...dépend de l'info | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
 | _(Médit.)_ | Région (ou province) | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
 | _N. provisoire: 1_ | Entry ID | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
-| _Chiton cajetanus Poli_ | _not encoded_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
 |  |  | [](){:target="_blank"} |
