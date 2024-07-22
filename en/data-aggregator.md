@@ -155,6 +155,24 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
   </tr>
 </table>
 
+### Where can I find the Darwin Core terms description?
+On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
+
+Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a [controlled vocabulary](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#what-is-a-controlled-vocabulary).
+
+| DwC term (dwc:) | DwC Definition | Corresponding terms found in NHC datasets | Examples |
+| --------------- | -------------- | ----------------------------------------- | -------- |
+| ! [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name<br> nom scientifique<br> Wissenschaftliche Name<br> Full name<br> Nom complet | _Cyclamen hederifolium_ Aiton<br> _Vulpes vulpes (Linnaeus, 1758)_ |
+| ! [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect<br>  collection date<br>  date de récolte<br>  Funddatum | 1903-08<br> 2024-08-01<br> 1815 |
+| ! [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector<br> collecteur<br> leg. | Sutter Ruben<br> Steffen Liseli<br> Dutoit Eugen |
+| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number<br> collect number<br> numéro de récolte<br> Fundnummer | 2089<br> ASM-515 |
+| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre<br> Numéro<br> Barcode<br> Nummer<br> Numéro d'inventaire | G00009201<br> Sheet-2765149 |
+| ! [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | The name of the country or major administrative unit in which the [dcterms:Location](https://dwc.tdwg.org/terms/#location) occurs. | Pays<br> Land<br> Country | Switzerland<br> France<br> Germany<br> Italy<br> Austria |
+| [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} | The original textual description of the place. | Location<br> Fundort<br> Lieu | "Les Follatères"<br> "Zürich, am See"<br> "Pizzo Leone, 1659 m" |
+| ! [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target="_blank"} | The specific description of the place. | _often not standardised in databases_ | "Les Follatères"<br> "Lake of Zürich"<br> "Pizzo Leone, summit" |
+| ! [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. | Institution | G<br> UZH:Z<br> BERN |
+| ! [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | Collection | General collection<br> Collection générale<br> Hauptsammlung |
+
 ### What is a controlled vocabulary?
 
 A controlled vocabulary is a **standardized set of terms and phrases used to ensure consistency and accuracy in the documentation and cataloging of specimens**. This vocabulary facilitates **clear communication**, **data sharing**, and **interoperability** among researchers, institutions, and databases by providing a **common language** for describing attributes such as species, locations, and collection methods. Darwin Core is widely used for biodiversity data, to ensure that everyone uses the same terms in the same way when recording and sharing information about natural history collections.
@@ -304,28 +322,6 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   
 </div>
 <br><br>
-  
-
-
-## Where can I find the Darwin Core terms description?
-On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
-
-Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a [controlled vocabulary](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#what-is-a-controlled-vocabulary).
-
-| DwC term (dwc:) | DwC Definition | Corresponding terms found in NHC datasets | Examples |
-| --------------- | -------------- | ----------------------------------------- | -------- |
-| ! [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} | The full scientific name, with authorship and date information if known. | Scientific name, nom scientifique, Wissenschaftliche Name, Full name, Nom complet | _Cyclamen hederifolium_ Aiton<br> _Vulpes vulpes (Linnaeus, 1758)_ |
-| ! [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target="_blank"} | The date-time or interval when the dwc:Event was recorded. Format: for a precise date: YYYY-MM-DD, for an interval: YYYY-MM-DD/YYYY-MM-DD | date of collect<br>  collection date<br>  date de récolte<br>  Funddatum | 1903-08<br> 2024-08-01<br> 1815 |
-| ! [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original dwc:Occurrence. | Collector<br> collecteur<br> leg. | Sutter Ruben<br> Steffen Liseli<br> Dutoit Eugen |
-| [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} | An identifier given to the dwc:Occurrence at the time it was recorded (link between field notes and specimen). | field number<br> collect number<br> numéro de récolte<br> Fundnummer | 2089<br> ASM-515 |
-| [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre<br> Numéro<br> Barcode<br> Nummer<br> Numéro d'inventaire | G00009201<br> Sheet-2765149 |
-| ! [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | The name of the country or major administrative unit in which the [dcterms:Location](https://dwc.tdwg.org/terms/#location) occurs. | Pays<br> Land<br> Country | Switzerland<br> France<br> Germany<br> Italy<br> Austria |
-| [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} | The original textual description of the place. | Location<br> Fundort<br> Lieu | "Les Follatères", "Zürich, am See", "Pizzo Leone, 1659 m" |
-| ! [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target="_blank"} | The specific description of the place. | _often not standardised in databases_ | "Les Follatères"<br> "Lake of Zürich"<br> "Pizzo Leone, summit" |
-| ! [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. | Institution | G<br> UZH:Z<br> BERN |
-| ! [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | Collection | General collection<br> Collection générale<br> Hauptsammlung |
-
-
 
 ## Which fields are required/mandatory?
 
@@ -340,22 +336,22 @@ Here are a few of the top-10 most used fields in natural history institutions' d
 
 | MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
-| 0 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | ... | BERN, G, MHNN |
-| 1 | _part_of_organism_ ! _not DwC_ ! | Part or parts of the organism that have been preserved. | ... | shell, skeleton, skull, soft tissue |
-| 1 | [preparations](https://dwc.tdwg.org/terms/#dwc:preparations){:target='_blank'} | A list (concatenated and separated) of preparations and preservation methods for a specimen. | ... | fossil, cast, photograph, DNA extract, skin, skull, skeleton, whole animal (ETOH), tissue (EDTA) |
+| 0 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | ... | BERN<br> G<br> MHNN |
+| 1 | _part_of_organism_ ! _not DwC_ ! | Part or parts of the organism that have been preserved. | ... | shell<br> skeleton<br> skull<br> soft tissue |
+| 1 | [preparations](https://dwc.tdwg.org/terms/#dwc:preparations){:target='_blank'} | A list (concatenated and separated) of preparations and preservation methods for a specimen. | ... | fossil<br> cast<br> photograph<br> DNA extract<br> skin<br> skull<br> skeleton<br> whole animal (ETOH)<br> tissue (EDTA) |
 | 2 | _yearCollectionEntrance_ ! _not DwC_ ! | The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event). | ... | ... |
 | 2 | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target='_blank'} | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | ... | ... |
 | 2 | [collectionID](https://dwc.tdwg.org/terms/#dwc:collectionID){:target='_blank'} | An identifier for the collection or dataset from which the record was derived. | ...    | ... |
-| 2 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect, collection date, date de récolte, Funddatum, date, Datum | August 1903, 01.04.85, 15 VII 1867 |
-| 2 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. | leg., collecteur, Sammler, collector  | ... |
+| 2 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect<br> collection date<br> date de récolte<br> Funddatum<br> date<br> Datum | August 1903<br> 01.04.85<br> 15 VII 1867 |
+| 2 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. | leg.<br> collecteur<br> Sammler<br> collector  | ... |
 | 2 | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target='_blank'} | A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject. | type | ... |
 | 2 | [continent](https://dwc.tdwg.org/terms/#dwc:continent){:target='_blank'} | The name of the continent in which the Location occurs. | ... | ... |
 | 2 | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target='_blank'} | A list (concatenated and separated) of geographic names less specific than the information captured in the locality term. | ... | ... |
-| 2 | [country](https://dwc.tdwg.org/terms/#dwc:country){:target='_blank'} | The name of the country or major administrative unit in which the Location occurs.| Pays, Land | ... |
+| 2 | [country](https://dwc.tdwg.org/terms/#dwc:country){:target='_blank'} | The name of the country or major administrative unit in which the Location occurs.| Pays<br> Land | ... |
 | 2 | [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target='_blank'} | The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs. | ... |
-| 2 | [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target='_blank'} | The specific description of the place. | Lieu, Fundort | ... |
-| 2 | [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target='_blank'} | The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. | coordonnées x, coordinates | ...  |
-| 2 | [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target='_blank'} | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive. | coordonnées y, coordinates | ...  |
+| 2 | [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target='_blank'} | The specific description of the place. | Lieu<br> Fundort | ... |
+| 2 | [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target='_blank'} | The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. | coordonnées x<br> coordinates | ...  |
+| 2 | [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target='_blank'} | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive. | coordonnées y<br> coordinates | ...  |
 | 2 | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target='_blank'} | The original description of the elevation (altitude, usually above sea level) of the Location. | ... | ... |
 | 3 | [county](https://dwc.tdwg.org/terms/#dwc:county){:target='_blank'} | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.  | ... | ... |
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | ...    | ... |
