@@ -12,7 +12,11 @@ composition:
 
 # Upload my data
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
-  - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). ![DA-languages](https://github.com/gbif/hp-svnhc/blob/master/assets/images/inline_Illustrations/DataAggr-languages.png){:standalone}
+  - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch).
+  
+  ![DA-languages](https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png)
+
+
 2. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
   - You can order the collection list by clicking on the columns titel (e.g. Name, Code, Progress, Records count / est. and Updated At). By clicking twice or more, you can order it in an ascending or descending order
