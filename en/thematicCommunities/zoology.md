@@ -1,5 +1,6 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
+permalink: /en/zoology
 title: Fauna
 description: Information and important pages on swiss fauna
 background: "{{ site.data.images.zoology.src }}"
