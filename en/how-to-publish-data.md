@@ -66,7 +66,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are tolerated, but if possible, please fill them out with "n.a." ⚠️</p>
+  <p> ⚠️ empty cells are accepted ⚠️</p>
 </div>
 
 # Upload my data
