@@ -292,7 +292,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
   </table>
   
   <p style="text-align: center; font-size: 50px;"> + </p>
-  <p style="text-align: center; font-size: 50px;"> Table imported in the Aggregator </p>
+  <p style="text-align: center; font-size: 18px;"> Table imported in the Aggregator </p>
   
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
