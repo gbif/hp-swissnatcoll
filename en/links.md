@@ -6,6 +6,7 @@ background: "{{ site.data.images.links.src }}"
 imageLicense: "{{ site.data.images.links.caption }}"
 height: 50vh
 # https://swisscollnet.scnat.ch/fr/collection_data/international_research_infrastructures
+# structure: https://swisscollnet.scnat.ch/fr/exchange/publications/uuid/i/3ce18531-2438-54d1-a034-7ec0b51f42d2-National_significance_of_natural_history_collections_in_Switzerland
 ---
 
 # SVNHC Partners
