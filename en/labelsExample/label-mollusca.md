@@ -21,12 +21,16 @@ toc: true
 
 ## Muséum d'Histoire Naturelle de Neuchâtel
 
+### Label example
+
 <figure class="has-text-centered">
   <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://www.museum-neuchatel.ch/collections/" target="_blank">Muséum Neuchâtel</a>'>
     <img src="/assets/images/categories/label_Mollusca.png" alt="<i>Chiton cajetanus</i> Poli, 1791 (MHNN)" />
   </a>
   <figcaption><i>Chiton cajetanus</i> Poli, 1791 (MHNN)</figcaption>
 </figure>
+
+### Specimen elements corrrespondance with museum encoding and Darwin Core terms
 
 | Museum Label | Museum encoding | Darwin Core correspondance |
 | ------------ | --------------- | -------------------------- |
@@ -45,3 +49,22 @@ toc: true
 ⚠️ **[organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"}** is to be completed with the field [organismQuantityType](https://dwc.tdwg.org/terms/#dwc:organismQuantityType){:target="_blank"} (in the case of this specimen, the value would be "shell" or "individuals"
 
 ⚠️ Concerning **Image ID**, if the image file is named after the catalogNumber or a barcode/QR code/Data Matrix sticker fixed to the specimen, then the corresponding DwC field is respectively [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} or [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"}
+
+### Database record example
+
+<table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+ <tr>
+   <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
+   <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
+ </tr>
+ <tr>
+   <td style="border: 1px solid black; padding: 5px;">1</td>
+   <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | Lepidopleurus</td>
+   <td style="border: 1px solid black; padding: 5px;">Monksosato, Marquis de</td>
+   <td style="border: 1px solid black; padding: 5px;">Naples</td>
+   <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
+ </tr>
+</table>
