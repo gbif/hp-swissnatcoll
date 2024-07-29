@@ -47,6 +47,7 @@ toc: true
 
 ### Database record example
 
+
 <div style="overflow-x: auto;">
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
@@ -67,7 +68,7 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black;width: 7%; padding: 5px;">1</td>
-      <td style="border: 1px solid black;width: 7%; padding: 5px;"><i>Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monksosato Naples! (Médit.)</td>
+      <td style="border: 1px solid black;width: 7%; padding: 5px;">Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monksosato Naples! (Médit.)</td>
       <td style="border: 1px solid black;width: 8%; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
       <td style="border: 1px solid black;width: 8%; padding: 5px;">Chiton cajetanus! Poli | (Lepidopleurus)</td>
       <td style="border: 1px solid black;width: 7%; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
@@ -83,4 +84,5 @@ toc: true
     </tr>
   </table>
 </div>
+    
 
