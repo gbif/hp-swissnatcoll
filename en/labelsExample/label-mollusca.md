@@ -52,19 +52,38 @@ toc: true
 
 ### Database record example
 
-<table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
- <tr>
-   <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
-   <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
- </tr>
- <tr>
-   <td style="border: 1px solid black; padding: 5px;">1</td>
-   <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | Lepidopleurus</td>
-   <td style="border: 1px solid black; padding: 5px;">Monksosato, Marquis de</td>
-   <td style="border: 1px solid black; padding: 5px;">Naples</td>
-   <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
- </tr>
-</table>
+<div style="overflow-x: auto;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">acceptedNameUsage</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">genus</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">specificEpithet</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificNameAuthorship</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLocality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">organismQuantity</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">organismQuantityType</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">1</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
+      <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | Lepidopleurus</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
+      <td style="border: 1px solid black; padding: 5px;">Chiton</td>
+      <td style="border: 1px solid black; padding: 5px;">cajetanus</td>
+      <td style="border: 1px solid black; padding: 5px;">Poli</td>
+      <td style="border: 1px solid black; padding: 5px;">Monksosato, Marquis de</td>
+      <td style="border: 1px solid black; padding: 5px;">Naples! (Médit.)</td>
+      <td style="border: 1px solid black; padding: 5px;">Naples</td>
+      <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
+      <td style="border: 1px solid black; padding: 5px;">1</td>
+      <td style="border: 1px solid black; padding: 5px;">shell</td>
+    </tr>
+  </table>
+</div>
+
