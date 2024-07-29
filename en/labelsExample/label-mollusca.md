@@ -27,7 +27,7 @@ toc: true
   <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://www.museum-neuchatel.ch/collections/" target="_blank">Muséum Neuchâtel</a>'>
     <img src="/assets/images/categories/label_Mollusca.png" alt="<i>Chiton cajetanus</i> Poli, 1791 (MHNN)" />
   </a>
-  <figcaption><i>Chiton cajetanus</i> Poli, 1791 (MHNN)</figcaption>
+  <figcaption><i>Lepidopleurus cajetanus</i> (Poli, 1791) (MHNN)</figcaption>
 </figure>
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
@@ -39,7 +39,7 @@ toc: true
 | _cajetanus_ | espèce (et sous-espèce si présent) | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
 | _Poli_ | Auteur | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
 | _(Lepidopleurus)_ | détermination entre parenthèse | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| _(image .tiff/.jpg/.raw/...)_ | Image ID | _no DwC equivalent yet. See class:_ [MachineObservation](https://dwc.tdwg.org/terms/#machineobservation){:target="_blank"} |
+| _(image .tiff/.jpg/.raw/...)_ | Image ID | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
 | _M<sup>r</sup> le Marquis de Monksosato_ | Legs | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
 | _Naples_ | Localité ou pays...dépend de l'info | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
 | _(Médit.)_ | Région (ou province) | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
@@ -72,7 +72,7 @@ toc: true
     <tr>
       <td style="border: 1px solid black; padding: 5px;">1</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
-      <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | Lepidopleurus</td>
+      <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | (Lepidopleurus)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton</td>
       <td style="border: 1px solid black; padding: 5px;">cajetanus</td>
