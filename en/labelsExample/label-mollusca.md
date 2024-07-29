@@ -56,6 +56,7 @@ toc: true
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">acceptedNameUsage</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
@@ -71,6 +72,7 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;">1</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monksosato Naples! (Médit.)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | (Lepidopleurus)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
