@@ -32,6 +32,7 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
 <!-- Drop-down menu to select the model -->
 <label for="model-selector">Specimens available:</label>
 <select id="model-selector" onchange="updateModel()">
+    <option value="">---Select a model---</option>
     <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
     <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
     <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
