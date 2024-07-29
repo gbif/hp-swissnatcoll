@@ -13,13 +13,13 @@ tutorials:
     path: /en/data-aggregator#what-is-darwin-core
   - sectiontitle: Label examples
     section:
-    - title: Herbarium
-      path: /en/label-herbarium
     - title: Mollusca
       path: /en/label-mollusca
-    - title:  Entomology
+    - title: Herbarium
+      path: /en/label-herbarium
+    - title: Entomology
       path: /en/label-entomology
-    - title:  Geology
+    - title: Geology
       path: /en/label-geology
 
 terms:
