@@ -265,52 +265,52 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 <br><br>
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <div style="flex: 3; padding-right: 70px;"><strong>3) Export a selected set of your database fields and make the correspondance with the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong> (you can use the file provided <a href="https://svnhc.hp.gbif-staging.org/en/data-aggregator/#do-i-have-to-upload-my-entire-database-fields-into-the-data-aggregator">here above</a>). Adapt your data with the other important DwC terms until all of the information you want to export is ready.
+  <div style="flex: 3; padding-right: 70px;"><strong>3) Export a selected set of your database fields and make the correspondance with the <a href="https://dwc.tdwg.org/terms/">Darwin Core terms</a></strong>. Adapt your data with the other important DwC terms until all of the information you want to export is ready.
   <br><br>
+  <p style="text-align: center; font-size: 18px;"><u>Your original data</u></p>
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
-  <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Barcode</th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Species</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Date of collect</th>
-     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Storage room</th>
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Barcode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Species</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Date of collect</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">Storage room</th>
      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">...</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
-    <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i></td>
-    <td style="border: 1px solid black; padding: 5px;">12 VIII 1905</td>
-    <td style="border: 1px solid black; padding: 5px;">General collection</td>
-    <td style="border: 1px solid black; padding: 5px;">...</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
-    <td style="border: 1px solid black; padding: 5px;"><i>C. hederifolium</i></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i></td>
+      <td style="border: 1px solid black; padding: 5px;">12 VIII 1905</td>
+      <td style="border: 1px solid black; padding: 5px;">General collection</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+    </tr>
+    <tr>
+     <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
+     <td style="border: 1px solid black; padding: 5px;"><i>C. hederifolium</i></td>
      <td style="border: 1px solid black; padding: 5px;">23.6.68</td>
      <td style="border: 1px solid black; padding: 5px;">Regional collection</td>
      <td style="border: 1px solid black; padding: 5px;">...</td>
-  </tr>
+    </tr>
   </table>
   
-  <p style="text-align: center; font-size: 50px;"> + </p>
-  <p style="text-align: center; font-size: 18px;"> Table imported in the Aggregator </p>
+  <p style="text-align: center; font-size: 50px;">+</p>
+  <p style="text-align: center; font-size: 18px;"><u>Table imported in the Aggregator</u></p>
   
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
-  <tr>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
-    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
-    <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
-    <td style="border: 1px solid black; padding: 5px;">1905-08-12</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
-    <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
-     <td style="border: 1px solid black; padding: 5px;">1968-06-23</td>
-  </tr>
-
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber" target="_blank">catalogNumber</a></th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:scientificName" target="_blank">scientificName</a></th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">XXX-0123456</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
+      <td style="border: 1px solid black; padding: 5px;">1905-08-12</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;">XXX-7891011</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Cyclamen hederifolium</i> Aiton</td>
+      <td style="border: 1px solid black; padding: 5px;">1968-06-23</td>
+    </tr>
   </table>
   </div>
   
@@ -320,7 +320,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
     ❌ Duplicated data<br>
     ❌ Extensive preparation work for every update of the data online
   </div>
-  
+
 </div>
 <br><br>
 
