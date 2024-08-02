@@ -1,6 +1,6 @@
 ---
 lang-ref: links
-layout: postHeader
+layout: post
 title: Links
 description: Associations, organisations, information networks, databases and current projects or initiatives
 background: "{{ site.data.images.links.src }}"
