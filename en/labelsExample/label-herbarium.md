@@ -13,14 +13,18 @@ toc: true
   
   <!-- Lightbox2 JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- Zoom.js CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
+
+  <!-- Zoom.js JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
+
+  img[data-action="zoom"] { cursor: zoom-in;}
+
+  .zoom-overlay {background-color: rgba(0, 0, 0, 0.5);}
+
 </head>
-
-<!-- Zoom.js CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
-
-<!-- Zoom.js JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
-
 
 # Herbarium labels
 
@@ -90,12 +94,3 @@ toc: true
     </tr>
   </table>
 </div>
-    
-
-img[data-action="zoom"] {
-  cursor: zoom-in;
-}
-
-.zoom-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
