@@ -82,7 +82,7 @@ toc: true
       <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">1</td>
       <td style="border: 1px solid black; padding: 5px;">shell</td>
-      <td style="border: 1px solid black; padding: 5px;">MHNN-1.jpg | https://depository-location.ch/path/to/image/catalogNumber.jpg</td>
+      <td style="border: 1px solid black; padding: 5px;">MHNN-1.jpg | https://depository-location.ch/path/to/image/MHNN-1.jpg</td>
     </tr>
   </table>
 </div>
