@@ -21,13 +21,6 @@ toc: true
 <!-- Zoom.js JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
 
-img[data-action="zoom"] {
-  cursor: zoom-in;
-}
-
-.zoom-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 # Herbarium labels
 
@@ -37,22 +30,25 @@ img[data-action="zoom"] {
 
 <figure class="has-text-centered">
   <a href="/assets/images/categories/Label_Herbarium_BERN.JPG" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.' data-action="zoom">
-    <img src="/assets/images/categories/Label_Herbarium_BERN.JPG" alt="<i>Scientific name</i> (BERN)" />
+    <img src="/assets/images/categories/Label_Herbarium_BERN.JPG" alt="<i>Saxifraga biflora</i> All. (BERN)" />
   </a>
-  <figcaption><i>Scientific name</i> (BERN)</figcaption>
+  <figcaption><i>Saxifraga biflora</i> All. (BERN)</figcaption>
 </figure>
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
 
-| Museum Specimen | Museum encoding | Darwin Core correspondance |
-| ------------ | --------------- | -------------------------- |
-| ... | ... | [organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"} |
-| ... | ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| ... | ... | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
-| ... | ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| ... | ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| ... | ... | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
-| ... | ... | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| Museum Specimen | Museum encoding (in this case already corresponding Darwin Core) |
+| --------------- | ------------------------------------------- |
+| Herbarium Bernense | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
+| Saxifragaceae | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
+| Saxifraga - biflora | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
+| Zweiblütiger - Steinbrech | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
+| Elsigalp, Glögglital. | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| Geröllhalde | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
+| 2100 m | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
+| 28.7.1919 | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| Gilomen | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| _Data matrix_ BERN-0065171 | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} |
 
 ### Database record example
 
@@ -95,3 +91,11 @@ img[data-action="zoom"] {
   </table>
 </div>
     
+
+img[data-action="zoom"] {
+  cursor: zoom-in;
+}
+
+.zoom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
