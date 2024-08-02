@@ -22,11 +22,6 @@ toc: true
 
 </head>
 
-img[data-action="zoom"] { cursor: zoom-in;}
-
-.zoom-overlay {background-color: rgba(0, 0, 0, 0.5);}
-
-
 # Herbarium labels
 
 ## Herbarium des Botanischen Gartens der Universität Bern
@@ -44,20 +39,20 @@ img[data-action="zoom"] { cursor: zoom-in;}
 
 | Museum Specimen | Museum encoding<br> (in this case already corresponding Darwin Core) |
 | --------------- | ------------------------------------------- |
-| _Elsigalp Glögglital Geröllhalden 2100 m_ | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| _28.VII.1919_ | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| _Saxifraga macropethala_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| _3 verschiedene Pfl._ | [occurrenceRemarks](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks){:target="_blank"} |
-| _Herbarium Bernense_ | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
-| _Saxifragaceae_ | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
-| _Saxifraga - biflora_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| _Zweiblütiger - Steinbrech_ | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
-| _Elsigalp, Glögglital_ | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| _Geröllhalde_ | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
-| _2100 m_ | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
-| _28.7.1919_ | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| _Gilomen_ | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| _Data matrix BERN-0065171_ | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} or <br> [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
+| ... | [occurrenceRemarks](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks){:target="_blank"} |
+| ... | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
+| ... | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
+| ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
+| ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
+| ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| ... | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
+| ...| [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
+| ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| ... | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} or <br> [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
 ### Database record example
 
@@ -81,18 +76,18 @@ img[data-action="zoom"] { cursor: zoom-in;}
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">associatedMedia</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: right;">BERN-0065171</td>
-      <td style="border: 1px solid black; padding: 5px;">Herbarium Bernense<br> Saxifraga - biflora <br> Zweiblütiger - Steinbrech <br> Fundort: Elsigalp, Glögglital. <br> Geröllhalde,(2100 m.) <br> 28.7.1919 leg. Gilomen</td>
-    <td style="border: 1px solid black; padding: 5px;">Saxifraga - biflora</td>
-      <td style="border: 1px solid black; padding: 5px;"><i>Saxifraga biflora</i> All.</td>
-      <td style="border: 1px solid black; padding: 5px;"><i>Saxifraga biflora</i> All.</td>
-      <td style="border: 1px solid black; padding: 5px;">Saxifraga</td>
-      <td style="border: 1px solid black; padding: 5px;">biflora</td>
-      <td style="border: 1px solid black; padding: 5px;">All.</td>
-      <td style="border: 1px solid black; padding: 5px;">Gilomen</td>
-      <td style="border: 1px solid black; padding: 5px;">Fundort: Elsigalp, Glögglital. <br> Geröllhalde,(2100 m.)</td>
-      <td style="border: 1px solid black; padding: 5px;"></td>
-      <td style="border: 1px solid black; padding: 5px;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+    <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">...</td>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
       <td style="border: 1px solid black; padding: 5px;">...</td>
       <td style="border: 1px solid black; padding: 5px;">...</td>
