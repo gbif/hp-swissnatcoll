@@ -16,16 +16,38 @@ Source: [National significance of natural history collections in Switzerland](ht
 * GBIF Swiss Node hosted portal ([SwissBIF](https://swiss-bif.hp.gbif.org/){:target="_blank})
 * GBIF Swiss Node official page ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank})
 
+
 * Swiss Association of Natural History Museums ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank})
 * Association Swiss Barcode of Life ([SwissBOL](http://www.swissbol.ch/){:target="_blank})
 * Swiss Systematics Society ([SSS](https://swiss-systematics.ch/en){:target="_blank})
+
 
 * Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank})
 * Nationales Bodeninformationssystem ([NABODAT](https://www.nabodat.ch/index.php/de){:target="_blank})
 
 # European and international associations or organisations
 
+## Natural history collections and biodiversity research
 
+* Consortium of European Taxonomic Facilities ([CETAF](https://cetaf.org/){:target="_blank})
+* Society for the Preservation of Natural History Collections ([SPNHC](https://spnhc.org/){:target="_blank})
+
+## Data aggregation and data mobilisation
+
+* Global Biodiversity Information Facility ([GBIF](https://www.gbif.org/){:target="_blank})
+* [Europeana](https://www.europeana.eu/en){:target="_blank}
+
+## Molecular biology and genetics
+
+* Barcode of life Data System ([BOLDSYSTEMS](https://www.boldsystems.org/){:target="_blank})
+* Global Genome Biodiversity Network ([GGBN](https://www.ggbn.org/ggbn_portal/){:target="_blank})
+* National Center for Biotechnology Information ([NCBI](https://www.ncbi.nlm.nih.gov/genbank/){:target="_blank})
+
+## Tools, databases and data connectivity
+
+* Biological Collection Access Service ([BioCASe](https://www.biocase.org/){:target="_blank})
+* Geosciences Collection Access Service ([GeoCASe](https://www.geocase.eu/){:target="_blank})
+* Biodiversity Information Standards (previously Taxonomic Databases Working Group) ([TDWG](https://www.tdwg.org/){:target="_blank})
 
 # Standards & Tools
 
