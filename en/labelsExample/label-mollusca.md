@@ -40,7 +40,7 @@ toc: true
 | _Poli_ | Auteur | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
 | _(Lepidopleurus)_ | détermination entre parenthèse | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
 | _(image .tiff/.jpg/.raw/...)_ | Image ID | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
-| _M<sup>r</sup> le Marquis de Monksosato_ | Legs | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| _M<sup>r</sup> le Marquis de Monterosato_ | Legs | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
 | _Naples_ | Localité ou pays...dépend de l'info | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
 | _(Médit.)_ | Région (ou province) | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
 | _N. provisoire: 1_ | Entry ID | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
@@ -69,20 +69,20 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">1</td>
-      <td style="border: 1px solid black; width: 40%; padding: 5px;">Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monksosato Naples! (Médit.)</td>
+      <td style="border: 1px solid black; width: 40%; padding: 5px;">Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monterosato Naples! (Médit.)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | (Lepidopleurus)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton</td>
       <td style="border: 1px solid black; padding: 5px;">cajetanus</td>
       <td style="border: 1px solid black; padding: 5px;">Poli</td>
-      <td style="border: 1px solid black; padding: 5px;">Monksosato, Marquis de</td>
+      <td style="border: 1px solid black; padding: 5px;">Tommaso di Maria Allery Monterosato</td>
       <td style="border: 1px solid black; padding: 5px;">Naples! (Médit.)</td>
       <td style="border: 1px solid black; padding: 5px;">Naples</td>
       <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">1</td>
       <td style="border: 1px solid black; padding: 5px;">shell</td>
-      <td style="border: 1px solid black; padding: 5px;">MHNN-1.tiff</td>
+      <td style="border: 1px solid black; padding: 5px;">MHNN-1.jpg | https://depository-location.ch/path/to/image/catalogNumber.jpg</td>
     </tr>
   </table>
 </div>
