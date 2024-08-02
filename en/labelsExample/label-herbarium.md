@@ -10,12 +10,24 @@ toc: true
 <head>
   <!-- Lightbox2 CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-  <!-- Your existing CSS -->
   
   <!-- Lightbox2 JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-  <!-- Your existing JavaScript -->
 </head>
+
+<!-- Zoom.js CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
+
+<!-- Zoom.js JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
+
+img[data-action="zoom"] {
+  cursor: zoom-in;
+}
+
+.zoom-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 # Herbarium labels
 
@@ -24,7 +36,7 @@ toc: true
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/Label_Herbarium_BERN.JPG" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.'>
+  <a href="/assets/images/categories/Label_Herbarium_BERN.JPG" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.' data-action="zoom">
     <img src="/assets/images/categories/Label_Herbarium_BERN.JPG" alt="<i>Scientific name</i> (BERN)" />
   </a>
   <figcaption><i>Scientific name</i> (BERN)</figcaption>
@@ -32,12 +44,9 @@ toc: true
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
 
-| Museum Label | Museum encoding | Darwin Core correspondance |
+| Museum Specimen | Museum encoding | Darwin Core correspondance |
 | ------------ | --------------- | -------------------------- |
 | ... | ... | [organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"} |
-| ... | ... | [genus](https://dwc.tdwg.org/terms/#dwc:genus){:target="_blank"} |
-| ... | ... | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
-| ... | ... | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
 | ... | ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
 | ... | ... | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
 | ... | ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
