@@ -24,8 +24,8 @@ toc: true
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/label_Herbarium_BERN.png" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.'>
-    <img src="/assets/images/categories/label_Herbarium_BERN.png" alt="<i>Scientific name</i> (BERN)" />
+  <a href="/assets/images/categories/Label_Herbarium_BERN.png" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.'>
+    <img src="/assets/images/categories/Label_Herbarium_BERN.png" alt="<i>Scientific name</i> (BERN)" />
   </a>
   <figcaption><i>Scientific name</i> (BERN)</figcaption>
 </figure>
