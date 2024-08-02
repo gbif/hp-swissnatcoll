@@ -20,11 +20,12 @@ toc: true
   <!-- Zoom.js JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
 
-  img[data-action="zoom"] { cursor: zoom-in;}
-
-  .zoom-overlay {background-color: rgba(0, 0, 0, 0.5);}
-
 </head>
+
+img[data-action="zoom"] { cursor: zoom-in;}
+
+.zoom-overlay {background-color: rgba(0, 0, 0, 0.5);}
+
 
 # Herbarium labels
 
@@ -43,6 +44,10 @@ toc: true
 
 | Museum Specimen | Museum encoding<br> (in this case already corresponding Darwin Core) |
 | --------------- | ------------------------------------------- |
+| _Elsigalp Glögglital Geröllhalden 2100 m_ | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| _28.VII.1919_ | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| _Saxifraga macropethala_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
+| _3 verschiedene Pfl._ | [occurrenceRemarks](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks){:target="_blank"} |
 | _Herbarium Bernense_ | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
 | _Saxifragaceae_ | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
 | _Saxifraga - biflora_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
