@@ -52,7 +52,7 @@ toc: true
 | _2100 m_ | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
 | _28.7.1919_ | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
 | _Gilomen_ | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| _Data matrix BERN-0065171_ | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} |
+| _Data matrix BERN-0065171_ | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} or <br> [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
 ### Database record example
 
@@ -76,18 +76,18 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">associatedMedia</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
-      <td style="border: 1px solid black; width: 40%; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: right;">BERN-0065171</td>
+      <td style="border: 1px solid black; padding: 5px;">Herbarium Bernense<br> Saxifraga - biflora <br> Zweiblütiger - Steinbrech <br> Fundort: Elsigalp, Glögglital. <br> Geröllhalde,(2100 m.) <br> 28.7.1919 leg. Gilomen</td>
+    <td style="border: 1px solid black; padding: 5px;">Saxifraga - biflora</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Saxifraga biflora</i> All.</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Saxifraga biflora</i> All.</td>
+      <td style="border: 1px solid black; padding: 5px;">Saxifraga</td>
+      <td style="border: 1px solid black; padding: 5px;">biflora</td>
+      <td style="border: 1px solid black; padding: 5px;">All.</td>
+      <td style="border: 1px solid black; padding: 5px;">Gilomen</td>
+      <td style="border: 1px solid black; padding: 5px;">Fundort: Elsigalp, Glögglital. <br> Geröllhalde,(2100 m.)</td>
+      <td style="border: 1px solid black; padding: 5px;"></td>
+      <td style="border: 1px solid black; padding: 5px;"></td>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
       <td style="border: 1px solid black; padding: 5px;">...</td>
       <td style="border: 1px solid black; padding: 5px;">...</td>
