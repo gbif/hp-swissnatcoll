@@ -32,8 +32,8 @@ toc: true
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
 
-| Museum Label | Museum encoding | Darwin Core correspondance |
-| ------------ | --------------- | -------------------------- |
+| Museum Specimen | Museum encoding | Darwin Core correspondance |
+| --------------- | --------------- | -------------------------- |
 | _(specimen)_ | N (nb de coquilles) | [organismQuantity](https://dwc.tdwg.org/terms/#dwc:organismQuantity){:target="_blank"} |
 | _Chiton_ | Genre | [genus](https://dwc.tdwg.org/terms/#dwc:genus){:target="_blank"} |
 | _cajetanus_ | espèce (et sous-espèce si présent) | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
