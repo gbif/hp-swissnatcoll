@@ -24,8 +24,8 @@ toc: true
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/label_Mollusca.png" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://www.museum-neuchatel.ch/collections/" target="_blank">Muséum Neuchâtel</a>'>
-    <img src="/assets/images/categories/label_Mollusca.png" alt="<i>Chiton cajetanus</i> Poli, 1791 (MHNN)" />
+  <a href="/assets/images/categories/label_Mollusca_MHNN.png" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://www.museum-neuchatel.ch/collections/" target="_blank">Muséum Neuchâtel</a>'>
+    <img src="/assets/images/categories/label_Mollusca_MHNN.png" alt="<i>Chiton cajetanus</i> Poli, 1791 (MHNN)" />
   </a>
   <figcaption><i>Lepidopleurus cajetanus</i> (Poli, 1791) (MHNN)</figcaption>
 </figure>
