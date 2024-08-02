@@ -37,18 +37,18 @@ toc: true
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
 
-| Museum Specimen | Museum encoding (in this case already corresponding Darwin Core) |
+| Museum Specimen | Museum encoding<br> (in this case already corresponding Darwin Core) |
 | --------------- | ------------------------------------------- |
-| Herbarium Bernense | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
-| Saxifragaceae | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
-| Saxifraga - biflora | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| Zweiblütiger - Steinbrech | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
-| Elsigalp, Glögglital. | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| Geröllhalde | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
-| 2100 m | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
-| 28.7.1919 | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| Gilomen | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| _Data matrix_ BERN-0065171 | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} |
+| _Herbarium Bernense_ | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
+| _Saxifragaceae_ | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
+| _Saxifraga - biflora_ | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
+| _Zweiblütiger - Steinbrech_ | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
+| _Elsigalp, Glögglital_ | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| _Geröllhalde_ | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
+| _2100 m_ | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
+| _28.7.1919_ | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| _Gilomen_ | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| _Data matrix BERN-0065171_ | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} |
 
 ### Database record example
 
