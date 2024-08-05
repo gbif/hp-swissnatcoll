@@ -438,8 +438,8 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
     /* Style for the Back to Top Button */
     #back-to-top {
       position: fixed;
-      bottom: 40px;
-      right: 40px;
+      bottom: 120px;
+      right: 120px;
       display: none;
       background-color: #fa5e97;
       color: white;
