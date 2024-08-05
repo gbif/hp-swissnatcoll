@@ -19,20 +19,83 @@ Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/coll
 <div style="text-align: left; margin-top: 50px; border: 10px solid #fa5e97; padding: 20px;">
   <p class="box"><strong>For the Swiss Natural History institutions who wish to publish data on this portal:</strong></p>
   <p style="text-align: center; font-size: 20px;">
-    <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data - Data Aggregator</a>
+    <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data/">How to publish data on the Data Aggregator</a>
   </p>
 </div>
 
 # FAQs
 ## Do I have to upload my entire database into the Data Aggregator?
-There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which is unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
+There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
-To help you select your fields, **here is an empty file with the most important Darwin Core terms**, and an example line. You can use it to organise your dataset for the upload into the Data Aggregator. Clicking on this button opens the file on the web, and by right-clicking on it, you can save it in a text file.
-<div style="text-align: center;">
-    <a href="https://raw.githubusercontent.com/gbif/hp-svnhc/master/downloadFiles/DarwinCoreSelected.tab" download="DarwinCoreSelected.tab">
-        <button style="padding: 5px 15px; font-size: 14px; cursor: pointer;">Download .tab</button>
-    </a>
+To help you select your fields, **here is a table file the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into the Data Aggregator.
+
+<div style="overflow-x: auto;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">acceptedNameUsage</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">family</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">basisOfRecord</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">partOfOrganism</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedByID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">eventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">continent</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">country</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">countryCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">stateProvince</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLatitude</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLongitude</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimElevation</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedByID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">rightsHolder</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">institutionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">institutionID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">collectionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">collectionID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">preparations</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">typeStatus</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">yearCollectionEntrance</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Pinus picea</i> L.</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Abies alba</i> Mill.</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Pinaceae</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">PreservedSpecimen</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">plant tissue</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">inventory-1232</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Weber Morgan</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">0000-0002-1043-7587</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">MW-54</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">2015-06-28</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Alpen</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Bern</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Iseltwald</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">46.700938</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">7.983218</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">1050-1120 m</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Weber Morgan</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">0009-0000-0012-XXXX</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">(c) Herbarium X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">g9pdh657-3268-4d51-j015-314k3528y74y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">General collection</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">t62v83k3-3zs9-6934-kk21-o49ra9e7348p</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">dried plant</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Not a type</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">2015</td>
+    </tr>
+  </table>
 </div>
+
 <br><br>
 The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist){:target="_blank"}
 
