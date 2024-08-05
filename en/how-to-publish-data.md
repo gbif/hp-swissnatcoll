@@ -119,7 +119,7 @@ The mappings window (Step 2 of 3) has two parts:
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
   1. When satisfied, click on **Run import**.
     - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
-    - A progression bar appears during the import process and disappears when finished.
+    - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
     - If the import worked, the State is **✅ Imported**
 9. Click on **Records** to see your imported records.
         
@@ -129,10 +129,23 @@ The mappings window (Step 2 of 3) has two parts:
 </div>
 
 # Encode my data
-Click on **Encode**
+1. Click on **Encode**
+   - A window opens for confirmation check
+2. Click on **Yes, encode**
+    - A progression bar appears during the encoding process and disappears when finished. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
+3. Check the percentage of encoded data on your Collection page.
 
-# Validate my data
-Click on **Publish**
+# Approve my data
+1. Click on **Approve**
+   - A window opens for confirmation check
+2. Click on **Yes, approve**
+    - A progression bar appears during the approval process and disappears when finished.
+3. Check the Approval status of your records on your Collection page.
+
 
 # Publish my data
-Clic on **Publish**
+1. Click on **Publish**
+   - A window opens for confirmation check
+2. Click on **Yes, publish**
+    - A progression bar appears during the publishing process and disappears when finished.
+3. Check the Publication status of your records on your Collection page.
