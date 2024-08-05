@@ -37,7 +37,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 ---
 
 
-# European organisations
+# ![EU flag](https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg) European organisations
 ## Research and Knowledge sharing
 * Consortium of European Taxonomic Facilities ([CETAF](https://cetaf.org/){:target="_blank"})
 * e-Science European Infrastructure for Biodiversity and Ecosystem Research ([LifeWatch-ERIC](https://www.lifewatch.eu/){:target="_blank"})
