@@ -438,7 +438,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
     /* Style for the Back to Top Button */
     #back-to-top {
       position: fixed;
-      bottom: 60px;
+      bottom: 40px;
       right: 120px;
       display: none;
       background-color: #fa5e97;
@@ -449,8 +449,8 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
       font-size: 18px;
       cursor: pointer;
       z-index: 1000;
-      width: 90px; /* Width for the rectangle */
-      height: 60px; /* Height for the rectangle */
+      width: 70px; /* Width for the rectangle */
+      height: 50px; /* Height for the rectangle */
       line-height: 40px;
     }
 
