@@ -24,10 +24,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **Darwin Core standardised columns and cell content**.
-- How do I [format my dataset to Darwin Core](https://svnhc.hp.gbif-staging.org/en/data-aggregator#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything){:target="_blank"} ?
-- What are the [most important fields to import](https://svnhc.hp.gbif-staging.org/en/data-aggregator#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}  ?
-
+✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **[Darwin Core standardised columns and cell content](https://svnhc.hp.gbif-staging.org/en/data-aggregator#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**, 
 
 ---
 
