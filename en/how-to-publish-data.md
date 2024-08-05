@@ -31,12 +31,13 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p><u>What you are expected to have at the end of this step:</u></p>
-  <p>✅ 1 TAB file (.tab) with your data arranged as <strong>one line = one occurrence/specimen</strong>, <strong>one column = one attribute</strong>, and <strong>no empty lines</strong></p>
+  <p>✅ 1 TAB file (.tab) or 1 CSV file (.csv) with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">...</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">country</th>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">stateProvince</th>
 
   </tr>
@@ -44,15 +45,18 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
     <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-0123456</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Geneve</td>
   </tr>
   <tr>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-7891011</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
-     <td style="text-align: left; border: 1px solid black; padding: 10px;">Vaud</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Vaud</td>
   </tr>
   <tr>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
@@ -62,7 +66,8 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
     <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-9999999</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Serratula tinctoria</i> L. subsp. <i>tinctoria</i></td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
-    <td style="text-align: left; border: 1px solid black; padding: 10px;">Ticino</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;"></td>
   </tr>
 
   </table>
