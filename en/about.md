@@ -9,6 +9,8 @@ height: 50vh
 toc: true
 ---
 
+{{ site.data.back-to-top }}
+
 # Swiss Natural History Collection, a SwissCollNet project
 
 The ‘**Swiss Virtual Natural History Collection Network**’ ([SwissCollNet](https://swisscollnet.scnat.ch/de)) is an initiative committed to improving the accessibility of natural history collections for research, education and  society. During the funding period 2021–24, SwissCollNet has identified, prioritized and digitized as many collections as possible and built an online portal, the Swiss Virtual Natural History Collection (hereafter SVNHC), which provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
