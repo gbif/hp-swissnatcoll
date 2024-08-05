@@ -6,7 +6,7 @@
 - text: Data
   menu: 
   - text: Navigating in the data
-    href: /en/navigation_in_the_data
+    href: /en/navigating_in_the_data
   - text: 📍 Occurrences
     href: /occurrence/search
   - text: 🗃️ Collections
