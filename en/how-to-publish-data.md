@@ -14,7 +14,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 
 > Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
-⚠️ If your institution is not registered on GRSciColl, please contact GBIF Swiss Node (add link)
+⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch)
 
 ✅ My institution has **at least one collection registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
 
