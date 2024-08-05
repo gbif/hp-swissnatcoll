@@ -12,6 +12,7 @@ composition:
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -46,6 +47,8 @@ composition:
             padding: 10px;
             min-height: 100px;
             min-width: 100px;
+            max-height: 200px; /* Set a maximum height for scrollability */
+            overflow-y: auto; /* Enable vertical scrolling */
         }
         .day h3 {
             margin: 0 0 10px;
