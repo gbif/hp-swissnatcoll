@@ -24,7 +24,13 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded TAB file** with **Darwin Core standardised columns and cell content**. --> [I need help with that](https://svnhc.hp.gbif-staging.org/en/data-aggregator#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything){:target="_blank"}
+✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **Darwin Core standardised columns and cell content**.
+- How do I [format my dataset to Darwin Core](https://svnhc.hp.gbif-staging.org/en/data-aggregator#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything){:target="_blank"} ?
+- What are the [most important fields to import](https://svnhc.hp.gbif-staging.org/en/data-aggregator#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}  ?
+
+
+---
+
 
 # Prepare my data
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
@@ -63,11 +69,18 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
   <tr>
-    <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-9999999</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-9999998</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Serratula tinctoria</i> L. subsp. <i>tinctoria</i></td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"></td>
+  </tr>
+  <tr>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-9999999</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Serratula tinctoria</i> L. subsp. <i>tinctoria</i></td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Ticino</td>
   </tr>
 
   </table>
