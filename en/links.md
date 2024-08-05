@@ -11,7 +11,7 @@ toc: true
 
 Source: [National significance of natural history collections in Switzerland](https://swisscollnet.scnat.ch/fr/exchange/publications/uuid/i/3ce18531-2438-54d1-a034-7ec0b51f42d2-National_significance_of_natural_history_collections_in_Switzerland){:target="_blank"}, Report 2019
 
-# 🇨🇭 Swiss organisations
+# Swiss organisations
 
 ## Research and Knowledge sharing
 
@@ -19,7 +19,6 @@ Source: [National significance of natural history collections in Switzerland](ht
 * GBIF Swiss Node official page ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"})
 * Swiss Association of Natural History Museums ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
 * Swiss Systematics Society ([SSS](https://swiss-systematics.ch/en){:target="_blank"})
----
 * Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
 * Nationales Bodeninformationssystem ([NABODAT](https://www.nabodat.ch/index.php/de){:target="_blank"})
 
@@ -33,7 +32,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 ## Education and Collaboration
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en){:target="_blank"}
 
-# 🇺🇪🇺 European organisations
+# European organisations
 ## Research and Knowledge sharing
 * Consortium of European Taxonomic Facilities ([CETAF](https://cetaf.org/){:target="_blank"})
 * e-Science European Infrastructure for Biodiversity and Ecosystem Research ([LifeWatch-ERIC](https://www.lifewatch.eu/){:target="_blank"})
