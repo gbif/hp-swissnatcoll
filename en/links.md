@@ -21,13 +21,14 @@ Source: [National significance of natural history collections in Switzerland](ht
 * Swiss Systematics Society ([SSS](https://swiss-systematics.ch/en){:target="_blank"})
 * Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
 * Nationales Bodeninformationssystem ([NABODAT](https://www.nabodat.ch/index.php/de){:target="_blank"})
+* [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en){:target="_blank"}
 
 ## Molecular Biology and Genetics
 * Association Swiss Barcode of Life ([SwissBOL](http://www.swissbol.ch/){:target="_blank"})
 
-## Data Infrastructure and mobilisation
-* [Swiss natural history collections network (SwissCollNet)](https://swisscollnet.scnat.ch/en){:target="_blank"}
-* [NAHIMA - Natural Science Collections Online - ETH Zürich](https://www.nahima.ethz.ch/search){:target="_blank"}
+## Online collections
+* Natural Science Collections Online - ETH Zürich ([NAHIMA](https://www.nahima.ethz.ch/search){:target="_blank"})
+* Herbarium of the Botanical Garden of the University of Bern ([BERN](https://herbarium-bernense.ch/){:target="_blank"})
 
 ## Education and Collaboration
 * [Swiss Academy of Sciences (SCNAT)](https://scnat.ch/en){:target="_blank"}
