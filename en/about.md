@@ -9,7 +9,6 @@ height: 50vh
 toc: true
 ---
 
-{{ site.data.back-to-top }}
 
 # Swiss Natural History Collection, a SwissCollNet project
 
@@ -79,3 +78,5 @@ SwissCollNet is committed to improving the accessibility of natural history coll
     <td style="border: 1px solid black; padding: 10px;">...</td>
   </tr>
 </table>
+
+{{ site.data.back-to-top }}
