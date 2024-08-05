@@ -6,7 +6,7 @@ background: "{{ site.data.images.data.src }}"
 imageLicense: "{{ site.data.images.data.caption }}"
 height: 50vh
 toc: true
-permalink: /en/data_how_to
+permalink: /en/navigating_in_the_data
 ---
 
 # What data can be found on the SVNHC portal?
