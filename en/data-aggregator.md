@@ -490,7 +490,3 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 </body>
 </html>
-
-
-## How can I clean my database/dataset?
-- libraries
