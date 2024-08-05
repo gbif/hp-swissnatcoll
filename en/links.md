@@ -11,7 +11,7 @@ toc: true
 
 Source: [National significance of natural history collections in Switzerland](https://swisscollnet.scnat.ch/fr/exchange/publications/uuid/i/3ce18531-2438-54d1-a034-7ec0b51f42d2-National_significance_of_natural_history_collections_in_Switzerland){:target="_blank"}, Report 2019
 
-# :switzerland: Swiss organisations
+# Swiss organisations
 
 ## Research and Knowledge sharing
 
@@ -37,7 +37,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 ---
 
 
-# ![EU flag](https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Europe.svg) European organisations
+# European organisations
 ## Research and Knowledge sharing
 * Consortium of European Taxonomic Facilities ([CETAF](https://cetaf.org/){:target="_blank"})
 * e-Science European Infrastructure for Biodiversity and Ecosystem Research ([LifeWatch-ERIC](https://www.lifewatch.eu/){:target="_blank"})
