@@ -73,7 +73,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 * Biological Collection Access Service ([BioCASe](https://www.biocase.org/){:target="_blank"})
 * Geosciences Collection Access Service ([GeoCASe](https://www.geocase.eu/){:target="_blank"})
 * Biodiversity Information Standards (previously: Taxonomic Databases Working Group) ([TDWG](https://www.tdwg.org/){:target="_blank"})
-* GBIF Hosted portals in production (GBIF Hosted portals](https://www.gbif.org/en/composition/4s2G3hhH1n3reU0yN0F8RF/hosted-portals-in-production){:target="_blank"}
+* GBIF Hosted portals in production ([GBIF Hosted portals](https://www.gbif.org/en/composition/4s2G3hhH1n3reU0yN0F8RF/hosted-portals-in-production){:target="_blank"})
 
 ## Infrastructure and Initiatives
 * Integrated Digitized Biocollections ([iDigBio](https://www.idigbio.org/){:target="_blank"})
