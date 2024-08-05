@@ -32,7 +32,11 @@ Source: [National significance of natural history collections in Switzerland](ht
 
 ## Education and Collaboration
 * Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
+
+
 ---
+
+
 # European organisations
 ## Research and Knowledge sharing
 * Consortium of European Taxonomic Facilities ([CETAF](https://cetaf.org/){:target="_blank"})
@@ -50,7 +54,11 @@ Source: [National significance of natural history collections in Switzerland](ht
 
 ## Education and Training
 * Distributed European School of Taxonomy ([DEST](https://www.taxonomytraining.eu/){:target="_blank"})
+
+
 ---
+
+
 # International Organisations
 ## Research and Knowledge sharing
 * Society for the Preservation of Natural History Collections ([SPNHC](https://spnhc.org/){:target="_blank"})
