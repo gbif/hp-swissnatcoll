@@ -5,8 +5,8 @@
 # PAGES HEROIMAGE BACKGROUND
 # ==================================================================================================================
 about:
-  src: /assets/images/GraphsDiagrams/SwissDataFlows.jpg
-  caption: "DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
+  src: /assets/images/GraphsDiagrams/SwissDataFlows.png
+  caption: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 
 calendar:
   src: /assets/images/background/MuseumGE_Mammiferes_PWagneur.jpg
