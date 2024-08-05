@@ -21,6 +21,8 @@ There are currently 3 entry points to the data:
 
 4. 🔖 [Typus](https://svnhc.hp.gbif-staging.org/occurrence/search?typeStatus=TYPE&typeStatus=TYPE_SPECIES&typeStatus=TYPE_GENUS&typeStatus=ALLOLECTOTYPE&typeStatus=ALLONEOTYPE&typeStatus=ALLOTYPE&typeStatus=COTYPE&typeStatus=EPITYPE&typeStatus=EXEPITYPE&typeStatus=EXHOLOTYPE&typeStatus=EXISOTYPE&typeStatus=EXLECTOTYPE&typeStatus=EXNEOTYPE&typeStatus=EXPARATYPE&typeStatus=EXSYNTYPE&typeStatus=EXTYPE&typeStatus=HAPANTOTYPE&typeStatus=HOLOTYPE&typeStatus=ICONOTYPE&typeStatus=ISOLECTOTYPE&typeStatus=ISOPARATYPE&typeStatus=ISONEOTYPE&typeStatus=ISOSYNTYPE&typeStatus=ISOTYPE&typeStatus=LECTOTYPE&typeStatus=NEOTYPE&typeStatus=PARALECTOTYPE&typeStatus=PARANEOTYPE&typeStatus=PARATYPE&typeStatus=PLASTOHOLOTYPE&typeStatus=PLASTOISOTYPE&typeStatus=PLASTOLECTOTYPE&typeStatus=PLASTONEOTYPE&typeStatus=PLASTOPARATYPE&typeStatus=PLASTOSYNTYPE&typeStatus=PLASTOTYPE&typeStatus=SECONDARYTYPE&typeStatus=SUPPLEMENTARYTYPE&typeStatus=SYNTYPE&typeStatus=TOPOTYPE&typeStatus=ORIGINALMATERIAL), each element of the table is a filtered typus specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=) but shows only typus specimens held in the swiss natural history institutions.
 
+5. 🔬 [3D models](https://svnhc.hp.gbif-staging.org/en/threeDmodels) 
+
 # How is the data displayed?
 The data present on the SVNHC portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the tab selected and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
