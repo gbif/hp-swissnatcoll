@@ -12,7 +12,7 @@ composition:
 # https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
 ---
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
