@@ -449,8 +449,8 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
       font-size: 18px;
       cursor: pointer;
       z-index: 1000;
-      width: 60px; /* Width for the rectangle */
-      height: 40px; /* Height for the rectangle */
+      width: 90px; /* Width for the rectangle */
+      height: 60px; /* Height for the rectangle */
       line-height: 40px;
     }
 
