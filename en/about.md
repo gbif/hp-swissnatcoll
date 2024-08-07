@@ -9,6 +9,60 @@ height: 50vh
 toc: true
 ---
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to Top Button</title>
+  <style>
+    /* Style for the Back to Top Button */
+    #back-to-top {
+      position: fixed;
+      bottom: 40px;
+      right: 120px;
+      display: none;
+      background-color: #fa5e97;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 1000;
+      width: 70px; /* Width for the rectangle */
+      height: 50px; /* Height for the rectangle */
+      line-height: 40px;
+    }
+    #back-to-top:hover {
+      background-color: #fa5e97;
+    }
+  </style>
+</head>
+<body>
+  <!-- Back to Top Button -->
+  <a id="back-to-top" href="#" title="Back to top">Up</a>
+  <script>
+    // Show or hide the button when scrolling
+    window.onscroll = function() {
+      scrollFunction();
+    };
+    function scrollFunction() {
+      var backToTopButton = document.getElementById("back-to-top");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    }
+    // Scroll to the top when the button is clicked
+    document.getElementById("back-to-top").addEventListener("click", function(event) {
+      event.preventDefault();
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+  </script>
+</body>
+</html>
 
 # Swiss Natural History Collection, a SwissCollNet project
 
@@ -35,108 +89,3 @@ Switzerland’s geographical diversity played a crucial role in enriching these 
 Today, Swiss natural history collections continue to thrive, blending traditional specimen displays with cutting-edge research and conservation efforts. These institutions not only preserve the natural heritage of Switzerland but also serve as critical centers for scientific education and public engagement.
 
 [All swiss institutions](/institution/search){: .button .is-primary}
-
-
-# SwissCollNet projects
-
-SwissCollNet is committed to improving the accessibility of natural history collections. To this end, it has financially supported [68 projects](https://swisscollnet.scnat.ch/en/running_projects){:target="_blank"}, 41 of which were based on cooperation between collection institutions, primarily from different cantons.
-
-<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
-  <tr>
-    <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;">Theme</th>
-    <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;">Institution.s</th>
-    <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;">Title</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">Cryptogams</td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.cjbg.ch/" target="_blank">GE CJBG</a></td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.cjbg.ch/news/decouverte-notre-collection-dalgues" target="_blank">Algae Reveal: curation, best practices and data mobilisation</a></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">Cryptogams</td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
-    <td style="border: 1px solid black; padding: 10px;">Inventory and partial digitisation of the Meister diatom collection</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">Cryptogams</td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en" target="_blank">ZH ZT</a></td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.herbarien.uzh.ch/en/forschung" target="_blank">Digital mobilisation and curation of Type specimens in the bryophyte collection of the United Herbaria Zurich Z+ZT</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">Phanerogams</td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://naturmuseum.gr.ch/de/Seiten/welcome.aspx" target="_blank">GR BNM</a><br> <a href="https://www.systbot.uzh.ch/en" target="_blank">ZH ISEB</a></td>
-    <td style="border: 1px solid black; padding: 10px;">Digitizing herbaria of the Grisons</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">Phanerogams</td>
-    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.jurassica.ch/" target="_blank">JU JURASSICA</a></td>
-    <td style="border: 1px solid black; padding: 10px;">From darkness to full light: digitization of an important collection of 19th century herbaria</td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid black; padding: 10px;">...</td>
-    <td style="border: 1px solid black; padding: 10px;">...</td>
-    <td style="border: 1px solid black; padding: 10px;">...</td>
-  </tr>
-</table>
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Back to Top Button</title>
-  <style>
-    /* Style for the Back to Top Button */
-    #back-to-top {
-      position: fixed;
-      bottom: 40px;
-      right: 120px;
-      display: none;
-      background-color: #fa5e97;
-      color: white;
-      text-align: center;
-      padding: 5px;
-      border-radius: 5px;
-      font-size: 18px;
-      cursor: pointer;
-      z-index: 1000;
-      width: 70px; /* Width for the rectangle */
-      height: 50px; /* Height for the rectangle */
-      line-height: 40px;
-    }
-
-    #back-to-top:hover {
-      background-color: #fa5e97;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Back to Top Button -->
-  <a id="back-to-top" href="#" title="Back to top">Up</a>
-
-  <script>
-    // Show or hide the button when scrolling
-    window.onscroll = function() {
-      scrollFunction();
-    };
-
-    function scrollFunction() {
-      var backToTopButton = document.getElementById("back-to-top");
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backToTopButton.style.display = "block";
-      } else {
-        backToTopButton.style.display = "none";
-      }
-    }
-
-    // Scroll to the top when the button is clicked
-    document.getElementById("back-to-top").addEventListener("click", function(event) {
-      event.preventDefault();
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-    });
-  </script>
-
-</body>
-</html>
