@@ -10,8 +10,7 @@ title: Tutorial sessions on the Data Aggregator
 
 {: .box }
 Date: TBD
-
-Zoom link:
+<br>Zoom link:
 
 
 ## Available material
