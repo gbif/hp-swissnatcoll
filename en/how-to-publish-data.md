@@ -123,7 +123,7 @@ The mappings window (Step 2 of 3) has two parts:
 7. For the Additional columns, either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
   - The added attributes appear at the bottom of the Mappings window.
   1. Repeat these steps until all of the fields you want to import are mapped.
-    - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#which-fields-are-requiredmandatory-optional-and-not-needed) a list with the required and optional fields guaranteeing the highest data quality.
+    - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
   2. When satisfied with your mapping, click on **Update mapping**
 
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
