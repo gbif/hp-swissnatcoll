@@ -107,7 +107,7 @@ The direct benefit of the Darwin Core standard is the **high level of compatibil
 
 ### How is Darwin Core organised?
 
-Each **term** of Darwin Core has a **precise and unique definition**, and for some fields a **controlled vocabulary** is highly recommended. The **terms** are organised in **categories**, based on the data they must contain. Concerning data of natural history institutions, the categories could be organised as such:
+Each **term** of Darwin Core has a **precise and unique definition**, and for some a **controlled vocabulary** is highly recommended. The **terms** are organised in **categories**, based on the data they must contain. Concerning data of natural history institutions, the categories could correspond to these following themes:
 
 <table border="1">
   <tr>
