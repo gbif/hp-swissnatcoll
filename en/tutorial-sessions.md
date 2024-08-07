@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: default
 permalink: /en/tutorial-sessions
 title: Tutorial sessions on the Data Aggregator
 ---
