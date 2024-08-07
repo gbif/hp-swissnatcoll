@@ -14,12 +14,12 @@ tutorials:
     section:
     - title: Mollusca
       path: /en/label-mollusca
-    - title: Herbarium
-      path: /en/label-herbarium
-    - title: Entomology
-      path: /en/label-entomology
-    - title: Geology
-      path: /en/label-geology
+    #- title: Herbarium
+    #  path: /en/label-herbarium
+    #- title: Entomology
+    #  path: /en/label-entomology
+    #- title: Geology
+    #  path: /en/label-geology
 
 terms:
 - grouptitle: Group name
