@@ -47,6 +47,8 @@ To help you select your fields, **here is a table with the most important Darwin
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLatitude</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLongitude</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">geodeticDatum</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">coordinateUncertaintyInMeters</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimElevation</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedBy</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedByID</th>
@@ -75,9 +77,11 @@ To help you select your fields, **here is a table with the most important Darwin
       <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">Bern</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Iseltwald</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">46.700938</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">7.983218</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Luuswald, above Iseltwald</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">46.701815</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">7.971722</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">WGS84</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">500</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">1050-1120 m</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">Weber Morgan</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">0009-0000-0012-XXXX</td>
