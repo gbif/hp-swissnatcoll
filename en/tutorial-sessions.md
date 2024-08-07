@@ -15,16 +15,9 @@ Date: TBD
 
 ## Available material
 
-### Text descriptions
+### Text material
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-  <a href="https://svnhc.hp.gbif-staging.org/en/how-to-publish-data" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px;">🪜 Step-by-step description</button>
-  </a>
-  <a href="https://svnhc.hp.gbif-staging.org/en/data-aggregator#faqs" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px;">🗃️ Data preparation FAQs</button>
-  </a>
-</div>
+[🪜 Step-by-step description](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data){: .button .is-primary}    [🗃️ Data preparation FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator#faqs){: .button .is-primary}
 
 ### Video material
 
