@@ -10,6 +10,13 @@ composition:
 - type: pageMarkdown
 ---
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Popup Example</title>
+</head>
+
 # Upload my data
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
@@ -37,6 +44,7 @@ composition:
         </video>
     </div>
 </div>
+<script src="script.js"></script>
 
 2. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
