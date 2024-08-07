@@ -64,28 +64,27 @@ toc: true
 </body>
 </html>
 
-# Swiss Natural History Collection, a SwissCollNet project
+# The Swiss Virtual Natural History Collection (SVNHC)
 
-The ‘**Swiss Virtual Natural History Collection Network**’ ([SwissCollNet](https://swisscollnet.scnat.ch/de)) is an initiative committed to improving the accessibility of natural history collections for research, education and  society. During the funding period 2021–24, SwissCollNet has identified, prioritized and digitized as many collections as possible and built an online portal, the Swiss Virtual Natural History Collection (hereafter SVNHC), which provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
+{: .box }
+Publish and retrieve information on natural history collections and objects
 
-_Source: [Petrus, A., Wildi, T. and Müller, S. Preproject ‘Swiss Virtual Natural History Collection’. Database (2023) Vol. 2023: article ID baad072.](https://academic.oup.com/database/article/doi/10.1093/database/baad072/7335478?login=true){:target="_blank}_
+## 1. Aim
 
-<figure class="has-text-centered">
-	<img src="{{ site.data.images.swisscollnet.src }}" />
-	<figcaption caption="{{ site.data.images.swisscollnet.caption }}" />
-</figure>
+Provide open-access to standardized natural history collection data held in Swiss institutions and data of specimens collected in Switzerland and curated abroad. 
+The digitally available natural history collection data of Swiss public and non-profit organisations (natural history museums and collections, botanical gardens, institutions of higher education) will be aggregated and interconnected. By complying with the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles, adhering to defined international data standards and specified data vocabularies, the interoperability and transfer of data to other national and international research infrastructures will be facilitated.
 
 
-# Natural History collections in Switzerland
+## 2. Data infrastructure environments and pathways of specimen data
 
-The history of natural history collections in Switzerland dates back to the Enlightenment era, reflecting the country’s deep-rooted fascination with nature and scientific inquiry. The foundation of these collections began in the 18th century, paralleling the rise of natural sciences across Europe. Early collections were often housed in universities and belonged to wealthy individuals or scholarly societies who sought to catalog the natural world.
+![Institutional environments and data infrastructures](/assets/images/GraphsDiagrams/Figure1.jpg "Figure 1")
 
-One of the earliest and most prominent institutions is the [Naturhistorisches Museum Basel](https://www.nmbs.ch/en.html), established in 1821. It grew from the collections of the Amerbach Cabinet, a significant private collection acquired by the University of Basel in the 17th century. This museum set a precedent for other Swiss cities to follow.
+**Figure 1** summarises institutional environments and their data infrastructures involved in collecting and curating; aggregating, enriching and validating; storing and displaying of natural history collection data, as well as data pathways.
 
-The 19th century saw a surge in the establishment of natural history museums and collections, spurred by the increasing interest in natural sciences and exploration. The [Naturhistorisches Museum Bern](https://www.nmbe.ch/en), founded in 1832, became notable for its extensive collection of Alpine geology and paleontology. Similarly, the [Muséum d'histoire Naturelle de Genève](http://institutions.ville-geneve.ch/fr/mhn/), established in 1820, is renowned for its diverse collections in zoology, mineralogy, and entomology.
-
-Switzerland’s geographical diversity played a crucial role in enriching these collections, offering a wide array of specimens from the Alps, lakes, and diverse ecosystems. The 20th century brought modernization and expansion, with museums incorporating more interactive exhibits and research facilities. Institutions like the Swiss [Federal Institute of Technology Zurich](https://ethz.ch/en.html) also contributed significantly, fostering research and housing important collections.
-
-Today, Swiss natural history collections continue to thrive, blending traditional specimen displays with cutting-edge research and conservation efforts. These institutions not only preserve the natural heritage of Switzerland but also serve as critical centers for scientific education and public engagement.
+* **Collect and curate**, specimen data are collected and curated in a variety of collection management systems in collection institutions such as NH museums, Herbaria or institutions of higher education in Switzerland.
+* **Aggregate and enrich**, specimen data and media linked to the specimens are uploaded to the SwissCollNet data aggregator individually by data managers and curators of collection institutions. Within the data aggregator, data are mapped with Darwin Core fields and encoded towards external catalogs. Encoded datasets can be sent to the international database of GBIF.org. and can be downloaded from the data aggregator by collection institutions or data centers of InfoSpecies (blue arrows). The SwissCollNet data aggregator is situated and maintained at the Swiss node of GBIF.  
+* **Versioning of specimen data**, data of specimens collected in Switzerland can be revised by experts in the data centers of InfoSpecies and a new version (e.g. adaptation to Swiss taxonomic backbone, deontology requested by the Swiss Virtual Data center and GBIF.ch) of the data-set can be transferred through PICTIS to the Virtual Data Center of the Confederation (VDC at FOEN) and to GBIF.org. Furthermore, the dataset can be uploaded back to the data aggregator and be downloaded by the collection institutions. 
+* **Display and publish**, all specimen data, which have been transferred from the data aggregator to GBIF.org and deemed as “publishable” by the data owners, will be displayed on the SVNHC online-portal. Data of specimens collected in Switzerland will also be displayed on the online-portal of the Swiss node of GBIF (GBIF.ch). Furthermore, data of specimens collected in Switzerland and validated by InfoSpecies are distributed via PICTIS to the VDC database and the GBIF.org database and are displayed on the online-portals SVNHC, VDC and GBIF.ch. Importantly, the system is designed in a way that allows each actor to proceed at her/his own pace, without blocking the general data flow. As a result, Swiss specimens will be allowed to appear into the SVNHC portal in their current state, even if a confirmation of species identification is still pending on side of the InfoSpecies centers.
+* **Export**, at any time-point, the contents of the aggregator can be exported back to the organisation(s) that contributed the collection data. This feature allows data managers and curators to retrieve all the pieces of evidence that have been added by third parties to the aggregated specimens (namely: encoded values towards standard catalogs, MIDS scores, approval feedbacks provided by InfoSpecies, etc).
 
 [All swiss institutions](/institution/search){: .button .is-primary}
