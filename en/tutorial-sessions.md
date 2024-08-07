@@ -7,7 +7,7 @@ title: Tutorial sessions on the Data Aggregator
 # Next live tutorial sessions
 
 {: .box }
-Date:
+Date: TBD
 
 Zoom link:
 
