@@ -31,7 +31,9 @@ composition:
 
   
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
-  - You can <button id="openPopup">change the language</button> of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only Englisch and Deutsch are available.
+  - You can <button id="openPopup" style="border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='#FA5E97';"
+            onmouseout="this.style.color='#333';"> change the language</button> of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only Englisch and Deutsch are available.
 
 <div id="popup" class="popup">
     <span id="closePopup" class="close">&times;</span>
