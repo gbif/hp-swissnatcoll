@@ -24,10 +24,19 @@ composition:
 
   
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
-<p style="float: right; margin-left: 10px;">
-  <img src="https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png" alt="DA-languages" width="100">
-</p>
-  - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch).
+  - You can <button id="openPopup">change the language</button> of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only Englisch and Deutsch are available.
+
+<div id="popup" class="popup">
+    <span id="closePopup" class="close">&times;</span>
+    <div class="content">
+        <!-- Replace the source with your GIF or video URL -->
+        <img src="https://github.com/gbif/hp-svnhc/blob/master/assets/gif/20240807_LanguagesChange.gif" alt="GIF" id="gif" style="display: block;">
+        <video id="video" style="display: none;" width="320" height="240" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
 
 2. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
