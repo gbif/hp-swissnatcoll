@@ -11,6 +11,18 @@ composition:
 ---
 
 # Upload my data
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <div style="flex: 3; padding-right: 70px;">1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}. <br><br>- You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch).
+  </div>
+  <div style="flex: 1;">
+    <p style="float: right; margin-left: 10px;">
+      <img src="https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png" alt="DA-languages" width="100">
+    </p>
+  </div>
+</div>
+
+  
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
 <p style="float: right; margin-left: 10px;">
   <img src="https://raw.githubusercontent.com/gbif/hp-svnhc/master/assets/images/inline_Illustrations/DataAggr-languages.png" alt="DA-languages" width="100">
