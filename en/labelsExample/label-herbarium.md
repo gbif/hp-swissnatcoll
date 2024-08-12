@@ -40,18 +40,25 @@ toc: true
 | Museum Specimen | Institution encoding | Darwin Core correspondance |
 | --------------- | -------------------- | -------------------------- |
 | Hb.G. 107575 | _not encoded anymore_ | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
-| TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854 | determinavit | [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
-| TYPUS | type | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target="_blank"} |
-| Acquis et intercale dans l'herbier general 107575 Geneve 1977 | _not encoded_ | [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
-| G00304683 | Code-barres | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| TARAXACUM retortum S. | NOM.NOM_COMPLET | part of [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| J. Kirschner et J. Stepanek | COLLECTIFS.PERSONNES | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy){:target="_blank"} |
+| 2006 | DETERMINAVIT.A_DETERMINATION | element in [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| no. det.: 18854 | _not encoded_ | element in [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| Acquis et intercale dans l'herbier general 107575 Geneve 1977 | _not encoded_ | part of [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| G00304683 | PART.CODE | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 | SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest | _not encoded_ | [references](https://dwc.tdwg.org/terms/#dcterms:references){:target="_blank"} |
-| Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne | ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| 1600 m | ... | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
-| 13 juin 1975 | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| B. de Retz | ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| 71454 | ... | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} |
-| J. L. van Soest | ... | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy){:target="_blank"} |
-| Isotype ! | ... | [materialEntityRemarks](https://dwc.tdwg.org/terms/#dwc:materialEntityRemarks){:target="_blank"} |
+| Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne | RECOLTE.DESC_LOCALITE | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| France | RECOLTE.CO_PAYS | [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} |
+| Pyrenees-Atlantiques | RECOLTE.CO_DEPARTEMENT | [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target="_blank"} |
+| 1600 m | RECOLTE.ALTITUDE | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
+| 13 juin 1975 | RECOLTE.DA_RECOLTE_ED | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| 13 | RECOLTE.J_RECOLTE | [day](https://dwc.tdwg.org/terms/#dwc:day){:target="_blank"} |
+| 6 | RECOLTE.M_RECOLTE | [month](https://dwc.tdwg.org/terms/#dwc:month){:target="_blank"} |
+| 1975 | RECOLTE.A_RECOLTE | [year](https://dwc.tdwg.org/terms/#dwc:year){:target="_blank"} |
+| B. de Retz | COLLECTIFS.PERSONNES | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| 71454 | RECOLTE.NUMERO_COLLECTEUR | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} |
+| J. L. van Soest | _not encoded_ | [previousIdentifications](https://dwc.tdwg.org/terms/#dwc:previousIdentifications){:target="_blank"} |
+| Isotype ! | TYPUS.TYPUS | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target="_blank"} |
 
 
 ### Database record example (Darwin Core formatted)
@@ -84,6 +91,7 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">eventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">otherCatalogNumbers</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;">G00304683</td>
@@ -111,6 +119,7 @@ toc: true
       <td style="border: 1px solid black; padding: 5px;">06</td>
       <td style="border: 1px solid black; padding: 5px;">1975</td>
       <td style="border: 1px solid black; padding: 5px;">1975-06-13</td>
+      <td style="border: 1px solid black; padding: 5px;">107575 | 236892/1</td>
     </tr>
   </table>
 </div>
