@@ -73,8 +73,12 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedBy</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">dateIdentified</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLocality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">country</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">stateProvince</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">county</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimElevation</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">minimumElevationInMeters</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimEventDate</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">day</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
@@ -96,7 +100,12 @@ toc: true
       <td style="border: 1px solid black; padding: 5px;">Kirschner, J. | Stepanek J.</td>
       <td style="border: 1px solid black; padding: 5px;">2006</td>
       <td style="border: 1px solid black; padding: 5px;">Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne</td>
+      <td style="border: 1px solid black; padding: 5px;">France</td>
+      <td style="border: 1px solid black; padding: 5px;">Pyrenees-Atlantiques</td>
+      <td style="border: 1px solid black; padding: 5px;">Urdos</td>
       <td style="border: 1px solid black; padding: 5px;">Col du Somport, 200m before the border with Spain</td>
+      <td style="border: 1px solid black; padding: 5px;">alt. 1600 m</td>
+      <td style="border: 1px solid black; padding: 5px;">1600</td>
       <td style="border: 1px solid black; padding: 5px;">13 juin 1975</td>
       <td style="border: 1px solid black; padding: 5px;">13</td>
       <td style="border: 1px solid black; padding: 5px;">06</td>
