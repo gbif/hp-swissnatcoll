@@ -40,7 +40,7 @@ toc: true
 | Museum Specimen | Institution encoding | Darwin Core correspondance |
 | --------------- | -------------------- | -------------------------- |
 | Hb.G. 107575 | _not encoded anymore_ | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
-| TARAXACUM retortum S. | NOM.NOM_COMPLET | part of [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| TARAXACUM retortum vS. | NOM.NOM_COMPLET | part of [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
 | J. Kirschner et J. Stepanek | COLLECTIFS.PERSONNES | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy){:target="_blank"} |
 | 2006 | DETERMINAVIT.A_DETERMINATION | element in [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
 | no. det.: 18854 | _not encoded_ | element in [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
@@ -92,7 +92,7 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;">G00304683</td>
-      <td style="border: 1px solid black; padding: 5px;">Isotypus of <i>Taraxacum retortum</i> Soest.</td>
+      <td style="border: 1px solid black; padding: 5px;">Isotypus</td>
       <td style="border: 1px solid black; padding: 5px;">Hb.G. 107575<br> G00304683<br> SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest<br> Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975<br> B. de Retz no 71454<br> J .L. van Soest<br> Isotype !<br> TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854<br> TYPUS<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
       <td style="border: 1px solid black; padding: 5px;">Taraxacum retortum v. Soest</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Taraxacum retortum</i> Soest</td>
