@@ -52,9 +52,6 @@ toc: true
 | Pyrenees-Atlantiques | RECOLTE.CO_DEPARTEMENT | [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target="_blank"} |
 | 1600 m | RECOLTE.ALTITUDE | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
 | 13 juin 1975 | RECOLTE.DA_RECOLTE_ED | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| 13 | RECOLTE.J_RECOLTE | [day](https://dwc.tdwg.org/terms/#dwc:day){:target="_blank"} |
-| 6 | RECOLTE.M_RECOLTE | [month](https://dwc.tdwg.org/terms/#dwc:month){:target="_blank"} |
-| 1975 | RECOLTE.A_RECOLTE | [year](https://dwc.tdwg.org/terms/#dwc:year){:target="_blank"} |
 | B. de Retz | COLLECTIFS.PERSONNES | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
 | 71454 | RECOLTE.NUMERO_COLLECTEUR | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} |
 | J. L. van Soest | _not encoded_ | [previousIdentifications](https://dwc.tdwg.org/terms/#dwc:previousIdentifications){:target="_blank"} |
