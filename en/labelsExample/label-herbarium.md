@@ -24,42 +24,43 @@ toc: true
 
 # Herbarium labels
 
-## Herbarium des Botanischen Gartens der Universität Bern
+## Conservatoire et Jardin botaniques de Genève
 
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/Label_Herbarium_BERN.JPG" data-lightbox="image-1" data-title='by <a href="https://herbarium-bernense.ch/" target="_blank">by Herbarium Bernense</a> / CC BY 4.0.' data-action="zoom">
-    <img src="/assets/images/categories/Label_Herbarium_BERN.JPG" alt="<i>Saxifraga biflora</i> All. (BERN)" />
+  <a href="/assets/images/categories/Label_Herbarium_G_G00304683.jpg" data-lightbox="image-1" data-title='<a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/" target="_blank">Conservatoire et Jardin botaniques de Genève</a>' data-action="zoom">
+    <img src="/assets/images/categories/Label_Herbarium_G_G00304683.jpg" alt="<i>Taraxacum retortum</i> Soest (G)" />
   </a>
-  <figcaption><i>Saxifraga biflora</i> All. (BERN)</figcaption>
+  <figcaption><i>Taraxacum retortum</i> Soest (G)</figcaption>
 </figure>
 
-### Specimen elements corrrespondance with museum encoding and Darwin Core terms
+### Specimen elements corrrespondance with institution encoding and Darwin Core terms
 
-| Museum Specimen | Museum encoding<br> (in this case already corresponding Darwin Core) |
-| --------------- | ------------------------------------------- |
-| ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| ... | [occurrenceRemarks](https://dwc.tdwg.org/terms/#dwc:occurrenceRemarks){:target="_blank"} |
-| ... | [datasetName](https://dwc.tdwg.org/terms/#dwc:datasetName){:target="_blank"} |
-| ... | [family](https://dwc.tdwg.org/terms/#dwc:family){:target="_blank"} |
-| ... | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
-| ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
-| ... | [habitat](https://dwc.tdwg.org/terms/#dwc:habitat){:target="_blank"} |
-| ...| [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
-| ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
-| ... | [materialEntityID](https://dwc.tdwg.org/terms/#dwc:materialEntityID){:target="_blank"} or <br> [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| Museum Specimen | Institution encoding | Darwin Core correspondance |
+| --------------- | -------------------- | -------------------------- |
+| Hb.G. 107575 | _not encoded anymore_ | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
+| TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854 | determinavit | [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| TYPUS | type | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target="_blank"} |
+| Acquis et intercale dans l'herbier general 107575 Geneve 1977 | _not encoded_ | [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
+| G00304683 | Code-barres | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest | _not encoded_ | [references](https://dwc.tdwg.org/terms/#dcterms:references){:target="_blank"} |
+| Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne | ... | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
+| 1600 m | ... | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"} |
+| 13 juin 1975 | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| B. de Retz | ... | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
+| 71454 | ... | [recordNumber](https://dwc.tdwg.org/terms/#dwc:recordNumber){:target="_blank"} |
+| J. L. van Soest | ... | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy){:target="_blank"} |
+| Isotype ! | ... | [materialEntityRemarks](https://dwc.tdwg.org/terms/#dwc:materialEntityRemarks){:target="_blank"} |
 
-### Database record example
+
+### Database record example (Darwin Core formatted)
 
 <div style="overflow-x: auto;">
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">typeStatus</th>
       <th style="text-align: left; width: 40%; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">acceptedNameUsage</th>
@@ -68,29 +69,39 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">specificEpithet</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificNameAuthorship</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">dateIdentified</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLocality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">organismQuantity</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">organismQuantityType</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">associatedMedia</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimEventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">day</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">eventDate</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-    <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: right;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
-      <td style="border: 1px solid black; padding: 5px;">...</td>
+      <td style="border: 1px solid black; padding: 5px;">G00304683</td>
+      <td style="border: 1px solid black; padding: 5px;">Isotypus of <i>Taraxacum retortum</i> Soest.</td>
+      <td style="border: 1px solid black; padding: 5px;">Hb.G. 107575<br> G00304683<br> SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest<br> Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975<br> B. de Retz no 71454<br> J .L. van Soest<br> Isotype !<br> TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854<br> TYPUS<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
+      <td style="border: 1px solid black; padding: 5px;">Taraxacum retortum v. Soest</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Taraxacum retortum</i> Soest</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Taraxacum retortum</i> Soest</td>
+      <td style="border: 1px solid black; padding: 5px;">Taraxacum</td>
+      <td style="border: 1px solid black; padding: 5px;">retortum</td>
+      <td style="border: 1px solid black; padding: 5px;">Soest</td>
+      <td style="border: 1px solid black; padding: 5px;">de Retz Bernard Guy Gaston</td>
+      <td style="border: 1px solid black; padding: 5px;">71454</td>
+      <td style="border: 1px solid black; padding: 5px;">Kirschner, J. | Stepanek J.</td>
+      <td style="border: 1px solid black; padding: 5px;">2006</td>
+      <td style="border: 1px solid black; padding: 5px;">Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne</td>
+      <td style="border: 1px solid black; padding: 5px;">Col du Somport, 200m before the border with Spain</td>
+      <td style="border: 1px solid black; padding: 5px;">13 juin 1975</td>
+      <td style="border: 1px solid black; padding: 5px;">13</td>
+      <td style="border: 1px solid black; padding: 5px;">06</td>
+      <td style="border: 1px solid black; padding: 5px;">1975</td>
+      <td style="border: 1px solid black; padding: 5px;">1975-06-13</td>
     </tr>
   </table>
 </div>
