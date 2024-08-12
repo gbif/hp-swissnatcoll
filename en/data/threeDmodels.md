@@ -1,11 +1,6 @@
 ---
 layout: base
 permalink: /en/threeDmodels
-title: 3D models
-description: Interactive 3D models of insects
-background: "{{ site.data.images.models_three_d.src }}"
-imageLicense: "{{ site.data.images.models_three_d.caption }}"
-height: 50vh
 ---
 
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
