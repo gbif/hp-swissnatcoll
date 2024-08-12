@@ -433,6 +433,10 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | ...    | ... |
 
 
+## I made a mistake when importing my data into the Data Aggregator, what do I do?
+
+The Data Aggregator has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
