@@ -26,6 +26,11 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 
 ✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **[Darwin Core standardised columns and cell content](https://svnhc.hp.gbif-staging.org/en/data-aggregator#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**, 
 
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+As long as your data is not published on GBIF, you are allowed to do **as many imports as you want**. The Data Aggregator keeps track of all imported files, even with the same data, and as long as your catalogNumber values do not change, new imports update the corresponding existing data.
+</div>
+
 ---
 
 
