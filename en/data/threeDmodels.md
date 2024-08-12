@@ -8,29 +8,22 @@ imageLicense: "{{ site.data.images.models_three_d.caption }}"
 height: 50vh
 composition:
 - type: heroImage
-- type: floatingText
-  data: floatingText.3Dinsects
 - type: pageMarkdown
 ---
 
-# Infos on model viewer
-
-Insects360 is a collaborative project developed by the Biocommunication Group, the Entomological Collection of ETH Zurich, and the SimplyScience Foundation. Its mission is to raise awareness and promote understanding of insects and their role in the world through the use of 3D models and captivating scientific narratives created by experts in the entomological field.
-
-In addition to its informative content, Insects360 offers educational resources in German specifically tailored for Swiss schools. The website believes that knowledge is a key driver in fostering appreciation for these incredible creatures and their vital role in the world.
-
-Insects360 invites visitors on an educational journey to explore the realm of insects, unlocking their secrets and showcasing their beauty in ways that inspire curiosity and admiration.
-
-The website is expanding, and over the next two years, it will introduce new topics, each offering a unique perspective on insects. Visitors can register via the contact form to be informed as soon as new content is available.
-
-published on: 7/13/2023  
-written by: Christian Felsner  
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
 
 <br><br>
 
-<!-- Drop-down menu to select the model -->
-<label for="model-selector">Specimens available:</label>
+# 3D Specimen Viewer
+
+Explore high-quality 3D models of various insect specimens. Use the drop-down menu below to select and view different models.
+
+---
+
+## Choose a Specimen to View
+
+<label for="model-selector">**Specimens available:**</label>
 <select id="model-selector" onchange="updateModel()">
     <option value="">---Select a model---</option>
     <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
@@ -39,10 +32,12 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
     <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
 </select>
 
-<!-- Inclusion of the model-viewer library -->
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+---
 
-<!-- Model Viewer Component -->
+## 3D Model Viewer
+
+If the model is not showing in the window, you may need to add a CORS origin extension on your browser (Chrome, Edge, Firefox, etc.).
+
 <model-viewer id="dynamic-model-viewer"
               src=""
               shadow-intensity="1" 
@@ -52,21 +47,25 @@ Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-s
               auto-rotate="" 
               class="js-scan-viewer" 
               ar-status="not-presenting" 
-              style="width: 100%; max-width: 100vw; height: 50vh; border: 1px solid #ccc; background-color: #fff;"></model-viewer>
-_If the model is not showing in the window, you may need to add a CORS origin extension on your navigator (Chrome, Edge, Firefox, etc..)._
+              style="width: 100%; max-width: 100vw; height: 50vh; border: 1px solid #ccc; background-color: #fff;">
+</model-viewer>
 
-<!-- Display extracted data -->
-<div id="model-data">
-    <p><strong>Scientific Name:</strong> <span id="scientificName"></span></p>
-    <p><strong>Catalog Number:</strong> <span id="catalogNumber"></span></p>
-    <p><strong>Dataset Name:</strong> <span id="datasetName"></span></p>
-    <p><strong>Recorded By:</strong> <span id="recordedBy"></span></p>
-    <p><strong>Year:</strong> <span id="year"></span></p>
-    <p><strong>Country Code:</strong> <span id="countryCode"></span></p>
-    <p><strong>SVNHC Occurrence Page:</strong> <a https://svnhc.hp.gbif-staging.org/occurrence/search?entity=3777522425>View on GBIF</a></p>
-    <p><strong>GBIF Occurrence Page:</strong> <a id="gbifLink" href="#" target="_blank">View on GBIF</a></p>
-</div>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
+---
+
+## Specimen Details
+
+Below are the details of the currently selected specimen:
+
+- **Scientific Name:** <span id="scientificName"></span>
+- **Catalog Number:** <span id="catalogNumber"></span>
+- **Dataset Name:** <span id="datasetName"></span>
+- **Recorded By:** <span id="recordedBy"></span>
+- **Year:** <span id="year"></span>
+- **Country Code:** <span id="countryCode"></span>
+- **SVNHC Occurrence Page:** [View on GBIF](https://svnhc.hp.gbif-staging.org/occurrence/search?entity=3777522425)
+- **GBIF Occurrence Page:** [<span id="gbifLink">View on GBIF</span>](#)
 
 <script>
 function getModelNameFromURL() {
