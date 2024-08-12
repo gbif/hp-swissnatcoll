@@ -32,7 +32,7 @@ toc: true
   <a href="/assets/images/categories/Label_Herbarium_G_G00304683.jpg" data-lightbox="image-1" data-title='<a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/" target="_blank">Conservatoire et Jardin botaniques de Genève</a>' data-action="zoom">
     <img src="/assets/images/categories/Label_Herbarium_G_G00304683.jpg" alt="<i>Taraxacum retortum</i> Soest (G)" />
   </a>
-  <figcaption><i>Taraxacum retortum</i> Soest (G)</figcaption>
+  <figcaption>Taraxacum retortum Soest (G)</figcaption>
 </figure>
 
 ### Specimen elements corrrespondance with institution encoding and Darwin Core terms
