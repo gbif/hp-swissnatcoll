@@ -33,6 +33,9 @@ Source: [National significance of natural history collections in Switzerland](ht
 ## Education and Collaboration
 * Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
 
+## 3D models of specimens
+* Insects in 3D ([Insects360](https://biocommunication.org/en/insects360/3d-scans/){:target="_blank"})
+
 
 ---
 
