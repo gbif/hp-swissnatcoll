@@ -71,15 +71,16 @@ Publish and retrieve information on natural history collections and objects
 
 ## 1. Aim
 
-Provide open-access to standardized natural history collection data held in Swiss institutions and data of specimens collected in Switzerland and curated abroad.
-The digitally available natural history collection data of Swiss public and non-profit organisations (natural history museums and collections, botanical gardens, institutions of higher education) will be aggregated and interconnected. By complying with the FAIR (Findable, Accessible, Interoperable, and Reusable) data principles, adhering to defined international data standards and specified data vocabularies, the interoperability and transfer of data to other national and international research infrastructures will be facilitated.
+Provide **open-access to standardized natural history collection data** held in [Swiss institutions](/institution/search){:target = "_blank"} and data of specimens collected in Switzerland and curated abroad.
+
+The digitally available natural history collection data of Swiss public and non-profit organisations (natural history museums and collections, botanical gardens, institutions of higher education) will be aggregated and interconnected. By complying with the [FAIR data principles](https://www.go-fair.org/fair-principles/){:target = "_blank"} (Findable, Accessible, Interoperable, and Reusable), adhering to defined international data standards and specified data vocabularies, the interoperability and transfer of data to other national and international research infrastructures will be facilitated.
 
 
 ## 2. Data infrastructure environments and pathways of specimen data
 
 ![Institutional environments and data infrastructures](/assets/images/GraphsDiagrams/Figure1.jpg "Figure 1")
 
-**Figure 1** summarises institutional environments and their data infrastructures involved in collecting and curating; aggregating, enriching and validating; storing and displaying of natural history collection data, as well as data pathways.
+**Figure 1** Summary of the institutional environments and their data infrastructures involved in collecting and curating; aggregating, enriching and validating; storing and displaying of natural history collection data, as well as data pathways.
 
 * **Collect and curate**, specimen data are collected and curated in a variety of collection management systems in collection institutions such as NH museums, Herbaria or institutions of higher education in Switzerland.
 * **Aggregate and enrich**, specimen data and media linked to the specimens are uploaded to the SwissCollNet data aggregator individually by data managers and curators of collection institutions. Within the data aggregator, data are mapped with Darwin Core fields and encoded towards external catalogs. Encoded datasets can be sent to the international database of GBIF.org. and can be downloaded from the data aggregator by collection institutions or data centers of InfoSpecies (blue arrows). The SwissCollNet data aggregator is situated and maintained at the Swiss node of GBIF.  
