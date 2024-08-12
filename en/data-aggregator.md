@@ -398,7 +398,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} | A unique identifier for the record within the data set or collection. | Code-barre<br> Numéro<br> Barcode<br> Nummer<br> Numéro d’inventaire | G00009201<br> Sheet-2765149
 
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
-The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**Information about a **D**igital **S**pecimen. The four levels of MIDS expected in the Data Aggregator correspond to the expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
+The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) expected in the Data Aggregator correspond to the minimal expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
 
 | MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
