@@ -41,7 +41,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
-  <p><u>What you are expected to have at the end of this step:</u></p>
+  <p style="font-size: 20px;"><u>What you are expected to have at the end of this step:</u></p>
   <p>✅ 1 TAB file (.tab) or 1 CSV file (.csv) with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
@@ -142,7 +142,7 @@ The mappings window (Step 2 of 3) has two parts:
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
-  <p>What you are expected to have at the end of this step:</p>
+  <p style="font-size: 20px;">What you are expected to have at the end of this step:</p>
   <p>✅ A certain amount of imported records shown in the <strong>Records</strong> tab of your collection page. If it was your first import in this collection, then the <strong>Not encoded</strong> percentage is 100%.</p>
 </div>
 
