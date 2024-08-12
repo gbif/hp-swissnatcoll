@@ -29,7 +29,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-As long as your data is not published on GBIF, you are allowed to do <strong>as many imports as you want</strong>. The Data Aggregator keeps track of all imported files, even with the same data, and <strong>as long as your catalogNumber values do not change</strong>, new imports update the corresponding existing data.
+<strong>You can perform as many data imports as you like</strong> as long as your data isn't published on GBIF. The Data Aggregator tracks all imported files, even if they contain the same data. If <strong></strong>your catalogNumber values remain unchanged</div>, each new import will update the corresponding existing data.
 </div>
 
 <br>
