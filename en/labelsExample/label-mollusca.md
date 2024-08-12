@@ -70,8 +70,8 @@ toc: true
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">1</td>
       <td style="border: 1px solid black; width: 40%; padding: 5px;">Chiton cajetanus! Poli (Lepidopleurus)<br> M<sup>r</sup> le Marquis de Monterosato Naples! (Médit.)</td>
-      <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton cajetanus! Poli | (Lepidopleurus)</td>
+      <td style="border: 1px solid black; padding: 5px;"><i>Lepidopleurus cajetanus</i> (Poli, 1791)</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Chiton cajetanus</i> Poli</td>
       <td style="border: 1px solid black; padding: 5px;">Chiton</td>
       <td style="border: 1px solid black; padding: 5px;">cajetanus</td>
