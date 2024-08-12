@@ -41,7 +41,7 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
 
 ## Specimen Details
 
-Below are the details of the currently selected specimen:
+Below are the details of the currently selected specimen (⚠️currently displayed as an example, these are not the corresponding data⚠️):
 
 - **Scientific Name:** <span id="scientificName"></span>
 - **Catalog Number:** <span id="catalogNumber"></span>
