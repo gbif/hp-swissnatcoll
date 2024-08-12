@@ -2,7 +2,7 @@
 layout: compose
 permalink: /en/threeDmodels
 composition:
-    - pageMarkdown
+- type: pageMarkdown
 ---
 
 Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
