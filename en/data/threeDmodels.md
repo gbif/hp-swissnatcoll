@@ -4,16 +4,9 @@ permalink: /en/threeDmodels
 composition:
 - type: pageMarkdown
 ---
-
-Source: [BIOCOMM Research Group](https://biocommunication.org/en/insects360/3d-scans/)
-
-<br><br>
-
 # 3D Specimen Viewer
 
 Explore high-quality 3D models of various insect specimens. Use the drop-down menu below to select and view different models.
-
----
 
 ## Choose a Specimen to View
 
@@ -26,11 +19,7 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
     <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
 </select>
 
----
-
 ## 3D Model Viewer
-
-If the model is not showing in the window, you may need to add a CORS origin extension on your browser (Chrome, Edge, Firefox, etc.).
 
 <model-viewer id="dynamic-model-viewer"
               src=""
@@ -45,6 +34,8 @@ If the model is not showing in the window, you may need to add a CORS origin ext
 </model-viewer>
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+*If the model is not showing in the window, you may need to add a CORS origin extension on your browser (Chrome, Edge, Firefox, etc.).*
 
 ---
 
