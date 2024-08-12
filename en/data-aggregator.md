@@ -6,17 +6,6 @@ toc: true
 sideNavigation: sideNavigation.tutorials
 ---
 
-```{css toc-content, echo = FALSE}
-#TOC {
-  left: 270px;
-  margin: 20px 0px 25px 0px;
-}
-
-.main-container {
-    margin-right: 200px;
-}
-```
-
 # Swiss Data Aggregator
 
 More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, [SwissCollNet](https://swisscollnet.scnat.ch/) collaborates with [InfoSpecies](https://www.infospecies.ch/de/){:target="_blank"} to build on the already existing data infrastructure of the Swiss node of GBIF.
