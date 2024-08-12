@@ -88,3 +88,102 @@ The digitally available natural history collection data of Swiss public and non-
 * **Export**, at any time-point, the contents of the aggregator can be exported back to the organisation(s) that contributed the collection data. This feature allows data managers and curators to retrieve all the pieces of evidence that have been added by third parties to the aggregated specimens (namely: encoded values towards standard catalogs, MIDS scores, approval feedbacks provided by InfoSpecies, etc).
 
 [All swiss institutions](/institution/search){: .button .is-primary}
+
+
+## 3. The SwissCollNet data aggregator
+
+
+The SwissCollNet data aggregator is mainly divided into three compartments (Figure 2). 
+* Media will be stored in the Media store, a cloud service provided by SWITCH. 
+* The data store is composed of three data layers (see paragraph 5 for detailed information) and connected with external catalogues/libraries such as the Global Registry of Scientific Collections (GRSciColl), Darwin Core, international taxonomic thesauri etc.
+* In the file store, frozen versions of all data exports are stored, which allow to follow history 
+(modifications) of the data.
+
+
+![Structure of the SwissCollNet data aggregator](/assets/images/GraphsDiagrams/Figure2.jpg "Figure 2")
+**Figure 2** Structure of the SwissCollNet data aggregator
+
+## 4. SVNHC – the online-portal
+
+The SVNHC online-portal is hosted at GBIF.org. The portal presents institutions and their natural history 
+collections in Switzerland. It also serves as a platform to publish information and news in relation to natural 
+history collections in Switzerland. Search functions allow to search for institutions, collections and specimen 
+information. Search functions are provided by GBIF.org, data is retrieved from the GBIF.org and GRSciColl 
+databases (Figure 3).
+
+![SVNHC online-portal](/assets/images/GraphsDiagrams/Figure3.jpg "Figure 3")
+**Figure 3** The SVNHC online-portal displays information about natural history collections in Switzerland.
+
+## 5. The Journey of a museum specimen
+
+
+### 5.1. Digitisation of a specimen
+
+
+A specimen of a natural history collection has been collected, described and prepared and is stored in a collection of a natural history institution. In order to publish information about the specimen, it is labelled with 
+a unique identifier, photographed or scanned and its information is registered in the database of the institution. The information belonging to the specimen is documented by -ideally- applying the data standard 
+Darwin Core. To allow interoperability of the data, not only verbatim fields have to be filled in, but at least location, date and taxonomy have to be interpreted and edited to meet these extra fields and to be readable 
+for machines. At this stage, the specimen information can be uploaded to the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator), in order to be published on a variety of websites, where scientists and the interested public can retrieve the 
+information. The information of the specimen is thus becoming FAIR (Findable, Accessible, Interoperable and Reusable)
+
+![Digitisation of a specimen](/assets/images/GraphsDiagrams/Figure4.jpg "Figure 4")
+**Figure 4** Digitisation of a specimen in a natural history institution to get ready for its digital journey.
+
+### 5.2. Upload of digital information on a specimen to the data aggregator
+
+
+Digital information of a specimen (digital specimen) has to be organised by applying Darwin Core standards and 
+be stored in CSV-format, to be uploaded to the data aggregator. As a first step, the collection unit to 
+which the specimen occurs is determined by the data provider. The catalogue of collection units is retrieved 
+automatically from the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/)). The digital specimen enters the 
+aggregator in its raw stage (raw layer), where it will be encoded with data standards (encoding layer, 
+[Darwin Core](https://dwc.tdwg.org/), [MIDS standards](https://www.tdwg.org/community/cd/mids/), taxonomic thesauri, etc.). Once encoded, the digital specimen can enter the fast 
+track of publication and continue its journey into the database of [GBIF.org](https://www.gbif.org/). If the origin of the digital specimen 
+has been collected in Switzerland, it can also enter the approval track and will continue its journey into a 
+database of a datacenter of InfoSpecies.
+
+![SwissCollNet-data aggregator](/assets/images/GraphsDiagrams/Figure5.jpg "Figure 5")
+**Figure 5** In the SwissCollNet-data aggregator, specimen data is encoded for publication on national and 
+international data portals through a fast and/or an approval track.
+
+
+### 5.3. Validation of the digital specimen by experts from InfoSpecies
+
+
+Digital specimens collected in Switzerland (Swiss origin) may require specific information (red lists of 
+endangered species, Swiss taxonomic thesauri, etc.). They can be retrieved from the data aggregator by 
+experts of [InfoSpecies datacenters](https://www.infospecies.ch/fr/) and be enriched with information to meet the criteria for publication in the 
+Virtual Data Center of the FOEN and the [GBIF.ch data portal](https://swiss-bif.hp.gbif.org/). The enriched digital specimen will 
+enter PICTIS, from where it will be exported to the [GBIF.org database](https://www.gbif.org/), to the VDC database and to the approval 
+layer of the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator).
+
+![Import of digital specimens](/assets/images/GraphsDiagrams/Figure6.jpg "Figure 6")
+**Figure 6** Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SVNHC and GBIF.ch.
+
+
+### 5.4. Publication of the digital specimen
+
+
+Digital specimens are published on different data portals such as the SVNHC (SVNHC.ch), the [data 
+portal of the Swiss node of GBIF](https://swiss-bif.hp.gbif.org/) and the Virtual Data Center (VDC). On the SVNHC online-portal all 
+digital specimens of the data aggregator (fast track and approval track information) will be displayed. 
+Information of specimens collected in Switzerland will also be displayed on the GBIF.ch online-portal (fast track 
+and approval track information). The digital specimen, which have been enriched and approved by experts of 
+InfoSpecies datacenters will also be published on the VDC portal of the FOEN.
+
+### 5.5. Digital specimen updates
+
+
+Digital specimen information can be updated in the SwissCollNet data aggregator by the data providers/owners. Enriched data can be exported back to the database of the data provider. Older versions of the digital specimen are stored in the data aggregator to allow reconstruction of the history of the data.
+
+
+### 6. Data ownership and publication rules
+
+
+Data providers are the data owners. They are responsible for the quality of their data and are the decision body 
+for publication of the data through the fast and/or the approval track. For publication of data on SVNHC.ch or 
+GBIF.ch, data quality requirements of GBIF.org have to be fulfilled. For publication of data on the VDC, rules of 
+the FOEN have to be met.
+
+<br><br><br>
+Source: Pia Stieger (*unpublished*, 2024)
