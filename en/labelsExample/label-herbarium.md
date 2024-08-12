@@ -119,7 +119,7 @@ toc: true
       <td style="border: 1px solid black; padding: 5px;">06</td>
       <td style="border: 1px solid black; padding: 5px;">1975</td>
       <td style="border: 1px solid black; padding: 5px;">1975-06-13</td>
-      <td style="border: 1px solid black; padding: 5px;">107575 | 236892/1</td>
+      <td style="border: 1px solid black; padding: 5px;">Hb.G. 107575 | 236892/1</td>
     </tr>
   </table>
 </div>
