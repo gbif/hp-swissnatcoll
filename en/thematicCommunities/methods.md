@@ -20,7 +20,7 @@ Source: Pia Stieger (*unpublished*, 2024)
 A specimen of a natural history collection has been collected, described and prepared and is stored in a collection of a natural history institution. In order to publish information about the specimen, it is labelled with 
 a unique identifier, photographed or scanned and its information is registered in the database of the institution. The information belonging to the specimen is documented by -ideally- applying the data standard 
 Darwin Core. To allow interoperability of the data, not only verbatim fields have to be filled in, but at least location, date and taxonomy have to be interpreted and edited to meet these extra fields and to be readable 
-for machines. At this stage, the specimen information can be uploaded to the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator), in order to be published on a variety of websites, where scientists and the interested public can retrieve the 
+for machines. At this stage, the specimen information can be uploaded to the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator-faqs), in order to be published on a variety of websites, where scientists and the interested public can retrieve the 
 information. The information of the specimen is thus becoming FAIR (Findable, Accessible, Interoperable and Reusable)
 
 ![image](https://github.com/gbif/hp-svnhc/assets/168731309/b44370a0-fa2b-4129-ac81-d7b6af28016e)
@@ -47,7 +47,7 @@ endangered species, Swiss taxonomic thesauri, etc.). They can be retrieved from 
 experts of [InfoSpecies datacenters](https://www.infospecies.ch/fr/) and be enriched with information to meet the criteria for publication in the 
 Virtual Data Center of the FOEN and the [GBIF.ch data portal](https://swiss-bif.hp.gbif.org/). The enriched digital specimen will 
 enter PICTIS, from where it will be exported to the [GBIF.org database](https://www.gbif.org/), to the VDC database and to the approval 
-layer of the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator).
+layer of the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator-faqs).
 
 ![image](https://github.com/gbif/hp-svnhc/assets/168731309/dbbf2cc6-2634-4d23-9af4-40d44380b95e)
 *Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SVNHC and GBIF.ch.*
