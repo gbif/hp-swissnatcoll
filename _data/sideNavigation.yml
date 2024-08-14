@@ -2,7 +2,7 @@ tutorials:
 - grouptitle: Data Aggregator
   content:
   - title: About
-    path: /en/data-aggregator/#swiss-data-aggregator
+    path: /en/data-aggregator-about
   - title: FAQs
     path: /en/data-aggregator-faqs
 
@@ -14,6 +14,8 @@ tutorials:
     section:
     - title: Mollusca
       path: /en/label-mollusca
+    #- title: Ornithology
+    #  path: /en/label-ornithology
     #- title: Herbarium
     #  path: /en/label-herbarium
     #- title: Entomology
