@@ -3,8 +3,8 @@ lang-ref: about
 layout: post
 title: About
 description: Data Aggregator
-background: "{{ site.data.images.about.src }}"
-imageLicense: "{{ site.data.images.about.caption }}"
+background: "{{ site.data.images.data-aggregator-about.src }}"
+imageLicense: "{{ site.data.images.data-aggregator-about.caption }}"
 height: 50vh
 toc: true
 ---
