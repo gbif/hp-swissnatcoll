@@ -7,6 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 
+
 <head>
   <!-- Lightbox2 CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
@@ -25,7 +26,7 @@ toc: true
 
 <figure class="has-text-centered">
   <a href="/assets/images/categories/Label_Ornitho_NMLU.png" data-lightbox="image-1" data-title='Tamara Emmenegger / <a href="https://naturmuseum.lu.ch/Sammlung_und_Forschung" target="_blank">Natur-Museum Luzern</a>'>
-    <img src="/assets/images/categories/Label_Ornitho_NMLU.png" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)" />
+    <img src="/assets/images/categories/Label_Ornitho_NMLU.png" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)" style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
   <figcaption><i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)</figcaption>
 </figure>
