@@ -49,26 +49,8 @@ toc: true
 ### Database record example
 
 
-<div style="overflow-x: auto;">
-  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; border-collapse: collapse; border: 1px solid black; table-layout: fixed;">
-    <colgroup>
-      <col style="width: 40%;">
-      <col style="min-width: 300px; width: 20%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 40%;">
-      <col style="width: 15%;">
-      <col style="width: 15%;">
-      <col style="width: 15%;">
-    </colgroup>
+<div style="overflow-x: auto; overflow-y: auto;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
@@ -109,4 +91,3 @@ toc: true
     </tr>
   </table>
 </div>
-
