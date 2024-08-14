@@ -4,12 +4,12 @@ tutorials:
   - title: About
     path: /en/data-aggregator/#swiss-data-aggregator
   - title: FAQs
-    path: /en/data-aggregator/#faqs
+    path: /en/data-aggregator-faqs
 
 - grouptitle: Darwin Core
   content:
   - title: About
-    path: /en/data-aggregator#what-is-darwin-core
+    path: /en/data-aggregator-faqs#what-is-darwin-core
   - sectiontitle: Label examples
     section:
     - title: Mollusca
