@@ -35,25 +35,43 @@ toc: true
 
 | Museum Specimen | Museum encoding | Darwin Core correspondance |
 | --------------- | --------------- | -------------------------- |
-| Glaucidium passerinum | Artname | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} |
-| Sperlingskauz | ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
-| ♀ | Geschlecht | [sex](https://dwc.tdwg.org/terms/#dwc:sex){:target="_blank"} |
-| ad | Alter | [lifeStage](https://dwc.tdwg.org/terms/#dwc:lifeStage){:target="_blank"} |
-| CH : OW / NW / LU: Pilatus [Pilatus] | Fundort | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) |
-| 4. Dez. 1914<br> 4.XII 1914 | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| 374 | ... | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
-| NMLU | ... | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
-| ZOO AV | ... | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
-| AS-145-MON | NML Nr. | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| _Glaucidium passerinum_ | Artname | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} |
+| _Sperlingskauz_ | ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
+| _♀_ | Geschlecht | [sex](https://dwc.tdwg.org/terms/#dwc:sex){:target="_blank"} |
+| _ad_ | Alter | [lifeStage](https://dwc.tdwg.org/terms/#dwc:lifeStage){:target="_blank"} |
+| _CH : OW / NW / LU: Pilatus [Pilatus]_ | Fundort | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) |
+| _4. Dez. 1914_<br> _4.XII 1914_ | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| _374_ | ... | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
+| _NMLU_ | ... | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
+| _ZOO AV_ | ... | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
+| _AS-145-MON_ | NML Nr. | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
 ### Database record example
 
 
 <div style="overflow-x: auto;">
-  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed;">
+    <colgroup>
+      <col style="width: 10%;">
+      <col style="min-width: 300px; width: 20%;">
+      <col style="width: 15%;">
+      <col style="width: 10%;">
+      <col style="width: 15%;">
+      <col style="width: 10%;">
+      <col style="width: 10%;">
+      <col style="width: 10%;">
+      <col style="width: 10%;">
+      <col style="width: 10%;">
+      <col style="width: 10%;">
+      <col style="width: 15%;">
+      <col style="width: 15%;">
+      <col style="width: 5%;">
+      <col style="width: 5%;">
+      <col style="width: 5%;">
+    </colgroup>
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
-      <th style="text-align: left; width: 150%; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">family</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
@@ -72,7 +90,7 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;">AS-145-MON</td>
-      <td style="border: 1px solid black; width: 150%; padding: 5px;">374 Kollektion Dr. Jul. Troller, Luzern<br> Glaucidium passerinum (Linné)<br> Sperlingskauz ♀<br> Pilatus 4.XII 1914 | NATUR-MUSEUM LUZERN<br> Artname: Glaucidium passerinum<br> Sperlingskauz<br> Geschlecht: ♀ Alter: ad<br> Fundort: CH : OW/NW/LU: Pilatus [Pilatus]<br> Datum: 4. Dez. 1914<br> NML Nr. AS-145</td>
+      <td style="border: 1px solid black; padding: 5px;">374 Kollektion Dr. Jul. Troller, Luzern<br> Glaucidium passerinum (Linné)<br> Sperlingskauz ♀<br> Pilatus 4.XII 1914 | NATUR-MUSEUM LUZERN<br> Artname: Glaucidium passerinum<br> Sperlingskauz<br> Geschlecht: ♀ Alter: ad<br> Fundort: CH : OW/NW/LU: Pilatus [Pilatus]<br> Datum: 4. Dez. 1914<br> NML Nr. AS-145</td>
       <td style="border: 1px solid black; padding: 5px;">Glaucidium passerinum (Linné)</td>
       <td style="border: 1px solid black; padding: 5px;">Strigidae</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Glaucidium passerinum</i> (Linnaeus, 1758)</td>
@@ -91,3 +109,4 @@ toc: true
     </tr>
   </table>
 </div>
+
