@@ -1,5 +1,4 @@
 ---
-lang-ref: about
 layout: post
 title: About
 description: Data Aggregator
