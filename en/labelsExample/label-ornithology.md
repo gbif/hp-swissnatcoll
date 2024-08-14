@@ -24,8 +24,8 @@ toc: true
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/Label_Ornitho_NMLU.png" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://naturmuseum.lu.ch/Sammlung_und_Forschung" target="_blank">Natur-Museum Luzern</a>'>
-    <img src="/assets/images/categories/Label_Ornitho_NMLU.png" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)" />
+  <a href="/assets/images/categories/Label_Ornitho_NMLU.jpg" data-lightbox="image-1" data-title='Celia Bueno / <a href="https://naturmuseum.lu.ch/Sammlung_und_Forschung" target="_blank">Natur-Museum Luzern</a>'>
+    <img src="/assets/images/categories/Label_Ornitho_NMLU.jpg" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)" />
   </a>
   <figcaption><i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)</figcaption>
 </figure>
