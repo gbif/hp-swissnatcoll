@@ -1,7 +1,7 @@
 ---
 layout: documentation
 permalink: /en/label-ornithology
-title: Zoology labels
+title: Ornithology labels
 description: Examples of labels found in the ornithology collections of Switzerland and their corresponding Darwin Core encoding
 sideNavigation: sideNavigation.tutorials
 toc: true
@@ -40,7 +40,7 @@ toc: true
 | ♀ | Geschlecht | [sex](https://dwc.tdwg.org/terms/#dwc:sex){:target="_blank"} |
 | ad | Alter | [lifeStage](https://dwc.tdwg.org/terms/#dwc:lifeStage){:target="_blank"} |
 | CH : OW / NW / LU: Pilatus [Pilatus] | Fundort | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) |
-| 4. Dez. 1914<br> 4.XII 1914 |  | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| 4. Dez. 1914<br> 4.XII 1914 | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
 | 374 | ... | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
 | NMLU | ... | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
 | ZOO AV | ... | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
@@ -76,4 +76,3 @@ toc: true
     </tr>
   </table>
 </div>
-    
