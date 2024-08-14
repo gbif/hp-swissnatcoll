@@ -35,7 +35,6 @@ toc: true
 
 | Museum Specimen | Museum encoding | Darwin Core correspondance |
 | --------------- | --------------- | -------------------------- |
-| AS-145-MON | NML Nr. | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 | Glaucidium passerinum | Artname | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} |
 | Sperlingskauz | ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
 | ♀ | Geschlecht | [sex](https://dwc.tdwg.org/terms/#dwc:sex){:target="_blank"} |
@@ -45,6 +44,7 @@ toc: true
 | 374 | ... | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
 | NMLU | ... | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
 | ZOO AV | ... | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
+| AS-145-MON | NML Nr. | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
 ### Database record example
 
@@ -55,25 +55,39 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
       <th style="text-align: left; width: 40%; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimIdentification</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">family</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">genus</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">specificEpithet</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificNameAuthorship</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">vernacularName</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimLocality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimEventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">eventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">day</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: right;">AS-145-MON</td>
+      <td style="border: 1px solid black; padding: 5px;">AS-145-MON</td>
       <td style="border: 1px solid black; width: 150%; padding: 5px;">374 Kollektion Dr. Jul. Troller, Luzern<br> Glaucidium passerinum (Linné)<br> Sperlingskauz ♀<br> Pilatus 4.XII 1914 | NATUR-MUSEUM LUZERN<br> Artname: Glaucidium passerinum<br> Sperlingskauz<br> Geschlecht: ♀ Alter: ad<br> Fundort: CH : OW/NW/LU: Pilatus [Pilatus]<br> Datum: 4. Dez. 1914<br> NML Nr. AS-145</td>
       <td style="border: 1px solid black; padding: 5px;">Glaucidium passerinum (Linné)</td>
+      <td style="border: 1px solid black; padding: 5px;">Strigidae</td>
       <td style="border: 1px solid black; padding: 5px;"><i>Glaucidium passerinum</i> (Linnaeus, 1758)</td>
       <td style="border: 1px solid black; padding: 5px;">Glaucidium</td>
       <td style="border: 1px solid black; padding: 5px;">passerinum</td>
       <td style="border: 1px solid black; padding: 5px;">(Linnaeus, 1758)</td>
       <td style="border: 1px solid black; padding: 5px;">Sperlingskauz | Chevechette d'Europe | Civetta nana</td>
+      <td style="border: 1px solid black; padding: 5px;">n.a.</td>
       <td style="border: 1px solid black; padding: 5px;">Pilatus | CH : OW/NW/LU: Pilatus [Pilatus]</td>
       <td style="border: 1px solid black; padding: 5px;">Pilatus</td>
+      <td style="border: 1px solid black; padding: 5px;">4. Dez. 1914 | 4.XII 1914</td>
+      <td style="border: 1px solid black; padding: 5px;">1914-12-04</td>
+      <td style="border: 1px solid black; padding: 5px;">04</td>
+      <td style="border: 1px solid black; padding: 5px;">12</td>
+      <td style="border: 1px solid black; padding: 5px;">1914</td>
     </tr>
   </table>
 </div>
