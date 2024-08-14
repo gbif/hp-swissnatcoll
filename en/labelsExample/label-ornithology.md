@@ -71,23 +71,23 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px;">AS-145-MON</td>
-      <td style="border: 1px solid black; padding: 5px;">374 Kollektion Dr. Jul. Troller, Luzern<br> Glaucidium passerinum (Linné)<br> Sperlingskauz ♀<br> Pilatus 4.XII 1914 | NATUR-MUSEUM LUZERN<br> Artname: Glaucidium passerinum<br> Sperlingskauz<br> Geschlecht: ♀ Alter: ad<br> Fundort: CH : OW/NW/LU: Pilatus [Pilatus]<br> Datum: 4. Dez. 1914<br> NML Nr. AS-145</td>
-      <td style="border: 1px solid black; padding: 5px;">Glaucidium passerinum (Linné)</td>
-      <td style="border: 1px solid black; padding: 5px;">Strigidae</td>
-      <td style="border: 1px solid black; padding: 5px;"><i>Glaucidium passerinum</i> (Linnaeus, 1758)</td>
-      <td style="border: 1px solid black; padding: 5px;">Glaucidium</td>
-      <td style="border: 1px solid black; padding: 5px;">passerinum</td>
-      <td style="border: 1px solid black; padding: 5px;">(Linnaeus, 1758)</td>
-      <td style="border: 1px solid black; padding: 5px;">Sperlingskauz | Chevechette d'Europe | Civetta nana</td>
-      <td style="border: 1px solid black; padding: 5px;">n.a.</td>
-      <td style="border: 1px solid black; padding: 5px;">Pilatus | CH : OW/NW/LU: Pilatus [Pilatus]</td>
-      <td style="border: 1px solid black; padding: 5px;">Pilatus</td>
-      <td style="border: 1px solid black; padding: 5px;">4. Dez. 1914 | 4.XII 1914</td>
-      <td style="border: 1px solid black; padding: 5px;">1914-12-04</td>
-      <td style="border: 1px solid black; padding: 5px;">04</td>
-      <td style="border: 1px solid black; padding: 5px;">12</td>
-      <td style="border: 1px solid black; padding: 5px;">1914</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">AS-145-MON</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">374 Kollektion Dr. Jul. Troller, Luzern<br> Glaucidium passerinum (Linné)<br> Sperlingskauz ♀<br> Pilatus 4.XII 1914 | NATUR-MUSEUM LUZERN<br> Artname: Glaucidium passerinum<br> Sperlingskauz<br> Geschlecht: ♀ Alter: ad<br> Fundort: CH : OW/NW/LU: Pilatus [Pilatus]<br> Datum: 4. Dez. 1914<br> NML Nr. AS-145</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Glaucidium passerinum (Linné)</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Strigidae</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;"><i>Glaucidium passerinum</i> (Linnaeus, 1758)</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Glaucidium</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">passerinum</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">(Linnaeus, 1758)</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Sperlingskauz | Chevechette d'Europe | Civetta nana</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">n.a.</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Pilatus | CH : OW/NW/LU: Pilatus [Pilatus]</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Pilatus</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">4. Dez. 1914 | 4.XII 1914</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">1914-12-04</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">04</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">12</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">1914</td>
     </tr>
   </table>
 </div>
