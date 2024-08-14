@@ -10,11 +10,40 @@ toc: true
 <head>
   <!-- Lightbox2 CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-  <!-- Your existing CSS -->
   
   <!-- Lightbox2 JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-  <!-- Your existing JavaScript -->
+  
+  <style>
+    /* Custom zoom-in cursor */
+    .lb-image {
+      cursor: zoom-in;
+      transform-origin: center;
+      transition: transform 0.25s ease;
+    }
+
+    .lb-image.zoomed-in {
+      cursor: zoom-out;
+    }
+  </style>
+  
+  <script>
+    // Custom zoom in/out functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      document.body.addEventListener('click', function(event) {
+        if (event.target.classList.contains('lb-image')) {
+          const img = event.target;
+          if (img.classList.contains('zoomed-in')) {
+            img.style.transform = 'scale(1)';
+            img.classList.remove('zoomed-in');
+          } else {
+            img.style.transform = 'scale(2)'; // Adjust the scale factor as needed
+            img.classList.add('zoomed-in');
+          }
+        }
+      });
+    });
+  </script>
 </head>
 
 # Mollusca labels
