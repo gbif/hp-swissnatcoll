@@ -69,6 +69,14 @@ toc: true
 {: .box }
 Publish and retrieve information on natural history collections and objects
 
+
+More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, [SwissCollNet](https://swisscollnet.scnat.ch/) collaborates with [InfoSpecies](https://www.infospecies.ch/de/){:target="_blank"} to build on the already existing data infrastructure of the Swiss node of GBIF.
+
+InfoSpecies is the umbrella organisation of the national data centers and coordination offices for species promotion. One of the main goals of InfoSpecies is the provision, management and diffusion of species records, which includes natural history collection data.
+
+The long-term objective is to achieve **automatised data transfer** of collection data to the national aggregator and **publication of data** on national and international online portals as well as an **automatised update of data records**.
+
+
 ## 1. Aim
 
 Provide **open-access to standardized natural history collection data** held in [Swiss institutions](/institution/search){:target = "_blank"} and data of specimens collected in Switzerland and curated abroad.
@@ -159,4 +167,6 @@ Digital specimen information can be updated in the SwissCollNet data aggregator 
 Data providers are the data owners. They are responsible for the quality of their data and are the decision body for publication of the data through the fast and/or the approval track. For publication of data on SVNHC.ch or GBIF.ch, data quality requirements of GBIF.org have to be fulfilled. For publication of data on the VDC, rules of the FOEN have to be met.
 
 <br><br><br>
-Source: Pia Stieger (*unpublished*, 2024)
+Source:
+- [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation){:target="_blank"}
+- Pia Stieger (*unpublished*, 2024)
