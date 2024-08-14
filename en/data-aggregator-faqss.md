@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /en/data-aggregator
+permalink: /en/data-aggregator-faqs
 title: Data Aggregator
 toc: true
 sideNavigation: sideNavigation.tutorials
@@ -8,20 +8,11 @@ sideNavigation: sideNavigation.tutorials
 
 # Swiss Data Aggregator
 
-More than 90% of the specimens curated in Switzerland are biological or paleontological. For the aggregation and publication of digital information on these specimens, [SwissCollNet](https://swisscollnet.scnat.ch/) collaborates with [InfoSpecies](https://www.infospecies.ch/de/){:target="_blank"} to build on the already existing data infrastructure of the Swiss node of GBIF.
-
-InfoSpecies is the umbrella organisation of the national data centers and coordination offices for species promotion. One of the main goals of InfoSpecies is the provision, management and diffusion of species records, which includes natural history collection data.
-
-The long-term objective is to achieve **automatised data transfer** of collection data to the national aggregator and **publication of data** on national and international online portals as well as an **automatised update of data records**.
-
-Source : [Data aggregation in Switzerland](https://swisscollnet.scnat.ch/fr/collection_data/data_aggregation){:target="_blank"}.
-
-
----
-
 
 # FAQs
+
 ## Do I have to upload my entire database into the Data Aggregator?
+
 There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into the Data Aggregator.
@@ -101,6 +92,7 @@ To help you select your fields, **here is a table with the most important Darwin
 The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist){:target="_blank"}
 
 ## What is Darwin Core?
+
 [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a **data standard**, a template to be used when organising data in a database or a table in order to have **distinct and precise fields with a known and fixed information format** in each of them. It has been created as a helping basis to make [FAIR](https://dwc.tdwg.org/ ){:target="_blank"} data.
 
 The direct benefit of the Darwin Core standard is the **high level of compatibility between data from different sources**.
