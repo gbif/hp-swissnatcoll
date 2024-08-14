@@ -25,7 +25,7 @@ Date: TBD
       🥾 Step-by-step description
     </button>
   </a>
-  <a href="https://svnhc.hp.gbif-staging.org/en/data-aggregator#faqs" style="text-decoration: none;">
+  <a href="https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
