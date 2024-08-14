@@ -126,7 +126,7 @@ The SVNHC online-portal is hosted at GBIF.org. The portal presents institutions 
 
 A specimen of a natural history collection has been collected, described and prepared and is stored in a collection of a natural history institution. In order to publish information about the specimen, it is labelled with a unique identifier, photographed or scanned and its information is registered in the database of the institution. The information belonging to the specimen is documented by -ideally- applying the data standard Darwin Core. To allow interoperability of the data, not only verbatim fields have to be filled in, but at least location, date and taxonomy have to be interpreted and edited to meet these extra fields and to be readable for machines. At this stage, the specimen information can be uploaded to the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator), in order to be published on a variety of websites, where scientists and the interested public can retrieve the information. The information of the specimen is thus becoming FAIR (Findable, Accessible, Interoperable and Reusable)
 
-![Digitisation of a specimen](/assets/images/GraphsDiagrams/Figure4.jpg "Figure 4")
+![Digitisation of a specimen](/assets/images/GraphsDiagrams/Figure4.png "Figure 4")
 
 **Figure 4** Digitisation of a specimen in a natural history institution to get ready for its digital journey.
 
