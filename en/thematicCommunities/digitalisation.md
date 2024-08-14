@@ -37,9 +37,3 @@ composition:
 
 # Digitalisation workflow
 
-'''mermaid
-graph TD;
-  Collecting-->Mounting/Conditioning;
-  Mounting/Conditioning-->Image capture;
-  Image capture-->Data capture;
-  Data capture-->Publication;
