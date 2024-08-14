@@ -4,7 +4,7 @@
 # ==================================================================================================================
 # PAGES HEROIMAGE BACKGROUND
 # ==================================================================================================================
-about:
+data-aggregator-about:
   src: /assets/images/GraphsDiagrams/SwissDataFlows1.png
   caption: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 
