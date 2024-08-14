@@ -89,7 +89,7 @@ Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are accepted ⚠️</p>
+  <p> ⚠️ empty cells are better than cells with "n.a." values ⚠️</p>
 </div>
 
 # Upload my data
