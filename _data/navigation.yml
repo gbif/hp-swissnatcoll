@@ -23,8 +23,10 @@
     #href: 
 - text: Data Aggregator
   menu:
-  - text: About & FAQs
-    href: /en/data-aggregator
+  - text: About
+    href: /en/data-aggregator-about
+  - text: FAQs
+    href: /en/data-aggregator-faqs
   - text: 🔒 Publish my data
     href: /en/how-to-publish-data
   - text: 🔗 Direct link
