@@ -20,11 +20,11 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 
 > Example: [Herbarium - General collection](https://scientific-collections.gbif.org/collection/836af357-06e8-4a4f-9511-c3d33155f2b5){:target="_blank"}
 
-✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator
+✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator-faqs){:target="_blank"} on the Data Aggregator
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **[Darwin Core standardised columns and cell content](https://svnhc.hp.gbif-staging.org/en/data-aggregator#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**, 
+✅ My ready-for-upload dataset file is an **UTF-8 encoded file** (.tab or .csv) with **[Darwin Core standardised columns and cell content](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**, 
 
 <br>
 
@@ -38,7 +38,7 @@ In order to publish your dataset/collection on the SVNHC portal, you need to fir
 
 
 # Prepare my data
-Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
+Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 1px solid #ccc; padding: 20px;">
   <p style="font-size: 20px;"><u>What you are expected to have at the end of this step:</u></p>
@@ -127,11 +127,11 @@ The mappings window (Step 2 of 3) has two parts:
 
 6. For the Required attributes, select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
   - By typing the beginning of your field names, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#where-can-i-find-the-darwin-core-terms-description).
+  - If unsure of the correspondence between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
 7. For the Additional columns, either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
   - The added attributes appear at the bottom of the Mappings window.
   1. Repeat these steps until all of the fields you want to import are mapped.
-    - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
+    - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
   2. When satisfied with your mapping, click on **Update mapping**
 
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
