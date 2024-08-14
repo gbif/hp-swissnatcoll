@@ -96,7 +96,7 @@ permalink: pretty # will strip extensions like .html from urls
 defaults:
   - # English
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "en/" # an empty string here means all files in the project
     values:
       layout: "page" # So by default any page will use the layout "page"
       lang: en # And have the default language english
