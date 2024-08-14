@@ -88,8 +88,6 @@ The digitally available natural history collection data of Swiss public and non-
 * **Display and publish**, all specimen data, which have been transferred from the data aggregator to GBIF.org and deemed as “publishable” by the data owners, will be displayed on the SVNHC online-portal. Data of specimens collected in Switzerland will also be displayed on the online-portal of the Swiss node of GBIF (GBIF.ch). Furthermore, data of specimens collected in Switzerland and validated by InfoSpecies are distributed via PICTIS to the VDC database and the GBIF.org database and are displayed on the online-portals SVNHC, VDC and GBIF.ch. Importantly, the system is designed in a way that allows each actor to proceed at her/his own pace, without blocking the general data flow. As a result, Swiss specimens will be allowed to appear into the SVNHC portal in their current state, even if a confirmation of species identification is still pending on side of the InfoSpecies centers.
 * **Export**, at any time-point, the contents of the aggregator can be exported back to the organisation(s) that contributed the collection data. This feature allows data managers and curators to retrieve all the pieces of evidence that have been added by third parties to the aggregated specimens (namely: encoded values towards standard catalogs, MIDS scores, approval feedbacks provided by InfoSpecies, etc).
 
-[All swiss institutions](/institution/search){: .button .is-primary}
-
 
 ## 3. The SwissCollNet data aggregator
 
