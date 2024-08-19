@@ -6,6 +6,7 @@ background: "{{ site.data.images.data-aggregator-about.src }}"
 imageLicense: "{{ site.data.images.data-aggregator-about.caption }}"
 height: 50vh
 toc: true
+sideNavigation: sideNavigation.tutorials
 ---
 
 <html lang="en">
