@@ -6,10 +6,12 @@ title: Tutorial sessions on the Data Aggregator
 
 # Tutorial sessions for the Data Aggregator users
 
+Data users are invited to participate in tutorial sessions. Depending on availability, it is possible to not follow the lessons of only one session but to attend lessons of different sessions. The goal being to assist at least once to all four lessons planned.
+
 ## Next live tutorial sessions
 
 {: .box }
-**MONDAY session** (4x 45 min)
+**MONDAY afternoon session - 15H-15h45** (4x 45 min)
 <br>- **TBD** Lesson 1 Introduction and data preparation
 <br>- **TBD** Lesson 2 Uploading, Mapping and Encoding
 <br>- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
@@ -18,7 +20,7 @@ title: Tutorial sessions on the Data Aggregator
 
 
 {: .box }
-**THURSDAY session** (4x 45 min)
+**THURSDAY morning session - 10H30-11H15** (4x 45 min)
 <br>- **TBD** Lesson 1 Introduction and data preparation
 <br>- **TBD** Lesson 2 Uploading, Mapping and Encoding
 <br>- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
