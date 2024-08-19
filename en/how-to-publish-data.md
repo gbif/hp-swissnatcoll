@@ -134,7 +134,7 @@ The mappings window (Step 2 of 3) has two parts:
     - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
     - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as an "Extra Attribute".
 
-     <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: **Currently all Extra Attributes are lost after the Mapping.** They are not displayed on the Records view page and can't be exported again (see [Export my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#export-my-data)). But they are still present in the Imports view page.
+     <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: <strong>Currently all Extra Attributes are lost after the Mapping.</strong> They are not displayed on the Records view page and can't be exported. But they are still present in the uploaded files which had them in the Imports view page.
      </div>
 
   2. When satisfied with your mapping, click on **Update mapping**
