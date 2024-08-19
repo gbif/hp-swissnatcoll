@@ -9,6 +9,8 @@ toc: true
 permalink: /en/navigating_in_the_data
 ---
 
+// dire que les données sont floutées
+
 # What data can be found on the SVNHC portal?
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](https://svnhc.hp.gbif-staging.org/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
@@ -42,7 +44,7 @@ On the [occurrences page](https://svnhc.hp.gbif-staging.org/occurrence/search), 
 To filter the data in the Occurrence table presentation, you have a highlighted selected set (listed here below) and by clicking on the "More" button, you have access to more available filters
 
 | Fields | Definition |
-| :------------- |:-------------|
+| :------------- | :------------- |
 | Scientific name       | The scientific name as it appears in the GBIF backbone taxonomy. These names are normalized to ease search across datasets. It is possible that an originally-provided name might be misinterpreted or unknown. To search the names as provided use the "Verbatim scientific name" filter.     |
 | Institution      | The name of the institution having custody of the object(s) or information referred to in the record.     |
 | Recorded by (leg.)      | The names of the person, people, groups or organizations responsible for recording the original occurrence.     |
