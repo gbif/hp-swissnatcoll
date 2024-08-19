@@ -141,9 +141,9 @@ The mappings window (Step 2 of 3) has two parts:
 
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
   1. When satisfied, click on **Run import**.
-    - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
-    - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
-    - If the import worked, the State is **✅ Imported**
+       - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
+       - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
+       - If the import worked, the State is **✅ Imported**
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #ccc; padding: 20px;">
