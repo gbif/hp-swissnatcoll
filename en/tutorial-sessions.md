@@ -9,7 +9,20 @@ title: Tutorial sessions on the Data Aggregator
 ## Next live tutorial sessions
 
 {: .box }
-Date: TBD
+**MONDAY session** (4x 45 min)
+- **TBD** Lesson 1 Introduction and data preparation
+- **TBD** Lesson 2 Uploading, Mapping and Encoding
+- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
+- **TBD** Lesson 4 Conclusions and open-questions
+<br>Zoom link:
+
+
+{: .box }
+**THURSDAY session** (4x 45 min)
+- **TBD** Lesson 1 Introduction and data preparation
+- **TBD** Lesson 2 Uploading, Mapping and Encoding
+- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
+- **TBD** Lesson 4 Conclusions and open-questions
 <br>Zoom link:
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
