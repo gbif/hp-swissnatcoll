@@ -277,68 +277,6 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 The Data Aggregator has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Back to Top Button</title>
-  <style>
-    /* Style for the Back to Top Button */
-    #back-to-top {
-      position: fixed;
-      bottom: 40px;
-      right: 120px;
-      display: none;
-      background-color: #fa5e97;
-      color: white;
-      text-align: center;
-      padding: 5px;
-      border-radius: 5px;
-      font-size: 18px;
-      cursor: pointer;
-      z-index: 1000;
-      width: 70px; /* Width for the rectangle */
-      height: 50px; /* Height for the rectangle */
-      line-height: 40px;
-    }
-
-    #back-to-top:hover {
-      background-color: #fa5e97;
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Back to Top Button -->
-  <a id="back-to-top" href="#" title="Back to top">Up</a>
-
-  <script>
-    // Show or hide the button when scrolling
-    window.onscroll = function() {
-      scrollFunction();
-    };
-
-    function scrollFunction() {
-      var backToTopButton = document.getElementById("back-to-top");
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backToTopButton.style.display = "block";
-      } else {
-        backToTopButton.style.display = "none";
-      }
-    }
-
-    // Scroll to the top when the button is clicked
-    document.getElementById("back-to-top").addEventListener("click", function(event) {
-      event.preventDefault();
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-    });
-  </script>
-
-</body>
-</html>
-
 ## How can I check if my import file is encoded in UTF-8?
 
 * Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" height="10" width="10"> Notepad app.
@@ -503,3 +441,69 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | Institution<br><br> [dwc:institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back to Top Button</title>
+  <style>
+    /* Style for the Back to Top Button */
+    #back-to-top {
+      position: fixed;
+      bottom: 40px;
+      right: 120px;
+      display: none;
+      background-color: #fa5e97;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 1000;
+      width: 70px; /* Width for the rectangle */
+      height: 50px; /* Height for the rectangle */
+      line-height: 40px;
+    }
+
+    #back-to-top:hover {
+      background-color: #fa5e97;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Back to Top Button -->
+  <a id="back-to-top" href="#" title="Back to top">Up</a>
+
+  <script>
+    // Show or hide the button when scrolling
+    window.onscroll = function() {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      var backToTopButton = document.getElementById("back-to-top");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    }
+
+    // Scroll to the top when the button is clicked
+    document.getElementById("back-to-top").addEventListener("click", function(event) {
+      event.preventDefault();
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+  </script>
+
+</body>
+</html>
