@@ -132,6 +132,11 @@ The mappings window (Step 2 of 3) has two parts:
   - The added attributes appear at the bottom of the Mappings window.
   1. Repeat these steps until all of the fields you want to import are mapped.
     - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
+    - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as an "Extra Attribute".
+
+     <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: **Currently all Extra Attributes are lost after the Mapping.** They are not displayed on the Records view page and can't be exported again (see [Export my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#export-my-data)). But they are still present in the Imports view page.
+     </div>
+
   2. When satisfied with your mapping, click on **Update mapping**
 
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
