@@ -279,12 +279,12 @@ The Data Aggregator has a structure in three different layers (imported data, en
 
 ## How can I check if my import file is encoded in UTF-8?
 
-* Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" height="10" width="10"> Notepad app.
+* Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" style="vertical-align:middle" height="15" width="15"> Notepad app.
 * Check the bottom right of the Notepad window.
 
-<img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsANSI.png" width="200" height="200">
+<img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsANSI.png" alt="TXT file in ANSI encoding (Windows-1252/WinLatin1)" width="453" height="201" style="vertical-align:middle;margin:0px 100px">
 
-<img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" width="200" height="200">
+<img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" alt="TXT file in UTF-8 encoding (Unicode Transformation Format – 8-bit)" width="451" height="204" style="vertical-align:middle;margin:0px 100px">
 
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
