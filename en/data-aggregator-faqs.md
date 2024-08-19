@@ -344,7 +344,7 @@ The Data Aggregator has a structure in three different layers (imported data, en
 * Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" height="10" width="10"> Notepad app.
 * Check the bottom right of the Notepad window.
 
-<img src="assets/images/inline_Illustrations/FileEncoding-NotepadWindowsANSI.png" width="200"> <img src="assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" width="200">
+<img src="hp-svnhc/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsANSI.png" width="200"> <img src="hp-svnhc/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" width="200">
 
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
