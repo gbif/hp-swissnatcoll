@@ -171,8 +171,8 @@ toc: true
 
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Summary : Label information recording process and information format' data-action="zoom">
-    <img src="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" alt="<i>Summary : Label information recording process and information format" />
+  <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Summary : Label information recording process and information format (Anouk Mentha / <a href="https://www.cjbg.ch/en">G</a>)' data-action="zoom">
+    <img src="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" alt="<i>Summary : Label information recording process and information format (Anouk Mentha / <a href="https://www.cjbg.ch/en">G</a>)" />
   </a>
-  <figcaption>Summary : Label information recording process and information format</figcaption>
+  <figcaption>Summary : Label information recording process and information format (Anouk Mentha / <a href="https://www.cjbg.ch/en">G</a>)</figcaption>
 </figure>
