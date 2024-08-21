@@ -63,7 +63,7 @@ toc: true
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: ##c0e1f5;">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">catalogNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">institutionCode</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">collectionCode</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">partOfOrganism</th>
