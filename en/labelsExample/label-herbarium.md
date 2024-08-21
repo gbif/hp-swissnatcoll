@@ -61,17 +61,17 @@ toc: true
 ### Database record example (Darwin Core formatted)
 
 <div style="overflow-x: auto;">
-  <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">catalogNumber</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">institutionCode</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">collectionCode</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">partOfOrganism</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">preparations</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">references</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">occurrenceID</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">associatedMedia</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimLabel</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">institutionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">collectionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">partOfOrganism</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">preparations</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">references</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">occurrenceID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">associatedMedia</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 150px; padding: 5px; background-color: #f2ceeb;">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">otherCatalogNumbers</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">yearCollectionEntrance</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimEventDate</th>
@@ -114,7 +114,7 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #fffc00;">georeferenceSources</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #fffc00;">georeferenceRemarks</th>
     </tr>
-    <tr style="height: 100px;">
+    <tr>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #c0e6f5;">G00304683</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffcc;">CJBG</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffcc;">G</td>
@@ -123,7 +123,7 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffcc;">https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=234911&lang=fr</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffcc;">https://www.gbif.org/occurrence/1144789039</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffcc;">https://www.ville-ge.ch/imagezoom/?FIF=cjbiip/cjb19/img_101/G00304683.ptif&cvt=jpg</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f2ceef; max-height: 100px; overflow-y: auto;">Hb.G. 107575<br> G00304683<br> SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest<br> Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975<br> B. de Retz no 71454<br> J .L. van Soest<br> Isotype !<br> TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854<br> TYPUS<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f2ceef;">Hb.G. 107575<br> G00304683<br> SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest<br> Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975<br> B. de Retz no 71454<br> J .L. van Soest<br> Isotype !<br> TARAXACUM retortum S.<br> vidi: J. Kirschner et J. Stepanek<br> anno: 2006<br> no. det.: 18854<br> TYPUS<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #c0e6f5;">Hb.G. 107575 | SIB ID 236892/1</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #c0e6f5;">1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f2ceef;">13 juin 1975</td>
