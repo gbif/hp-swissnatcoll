@@ -63,45 +63,45 @@ toc: true
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">catalogNumber</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">institutionCode</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">collectionCode</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">partOfOrganism</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">preparations</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">references</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">occurrenceID</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">associatedMedia</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #DDA0DD;">verbatimLabel</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">otherCatalogNumbers</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">yearCollectionEntrance</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">verbatimEventDate</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">day</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">month</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">year</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">eventDate</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #DDA0DD;">typeStatus</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #DDA0DD;">verbatimIdentification</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">scientificName</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">acceptedNameUsage</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">family</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">genus</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">specificEpithet</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #90EE90;">scientificNameAuthorship</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">recordedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">recordNumber</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">identifiedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">dateIdentified</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">verbatimLocality</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">continent</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">country</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">stateProvince</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">county</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">municipality</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">locality</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">verbatimElevation</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ADD8E6;">minimumElevationInMeters</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">maximumElevationInMeters</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFD700;">verbatimCoordinates</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: ##c0e1f5;">catalogNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">institutionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">collectionCode</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">partOfOrganism</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">preparations</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">references</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">occurrenceID</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #FFFBCC;">associatedMedia</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimLabel</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">otherCatalogNumbers</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">yearCollectionEntrance</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimEventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">day</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">month</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">year</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #85d050;">eventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">typeStatus</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimIdentification</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">scientificName</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #85d050;">acceptedNameUsage</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">family</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">genus</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">specificEpithet</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">scientificNameAuthorship</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">recordedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">recordNumber</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">identifiedBy</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">dateIdentified</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimLocality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #85d050;">continent</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">country</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #85d050;">stateProvince</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">county</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">municipality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">locality</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimElevation</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">minimumElevationInMeters</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e1f5;">maximumElevationInMeters</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceeb;">verbatimCoordinates</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #fffc00;">locationID</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #fffc00;">decimalLongitude</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #fffc00;">decimalLatitude</th>
@@ -170,8 +170,9 @@ toc: true
 </div>
 
 
-
 <figure class="has-text-centered">
-  <img src="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" alt="<i>Summary : Label information recording process and information format" />
+  <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Summary : Label information recording process and information format' data-action="zoom">
+    <img src="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" alt="<i>Summary : Label information recording process and information format" />
+  </a>
   <figcaption>Summary : Label information recording process and information format</figcaption>
 </figure>
