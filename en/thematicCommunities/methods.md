@@ -50,11 +50,11 @@ enter PICTIS, from where it will be exported to the [GBIF.org database](https://
 layer of the [SwissCollNet data aggregator](https://svnhc.hp.gbif-staging.org/data-aggregator-faqs).
 
 ![image](https://github.com/gbif/hp-svnhc/assets/168731309/dbbf2cc6-2634-4d23-9af4-40d44380b95e)
-*Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SVNHC and GBIF.ch.*
+*Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SwissNatColl and GBIF.ch.*
 
 
-Digital specimens are published on different data portals such as the SVNHC (SVNHC.ch), the [data 
-portal of the Swiss node of GBIF](https://swiss-bif.hp.gbif.org/) and the Virtual Data Center (VDC). On the SVNHC online-portal all 
+Digital specimens are published on different data portals such as the SwissNatColl (SwissNatColl.ch), the [data 
+portal of the Swiss node of GBIF](https://swiss-bif.hp.gbif.org/) and the Virtual Data Center (VDC). On the SwissNatColl online-portal all 
 digital specimens of the data aggregator (fast track and approval track information) will be displayed. 
 Information of specimens collected in Switzerland will also be displayed on the GBIF.ch online-portal (fast track 
 and approval track information). The digital specimen, which have been enriched and approved by experts of 
