@@ -92,7 +92,7 @@ restoration:
 
 swisscollnet:
   src: /assets/images/GraphsDiagrams/netzwerk_SwissCollNet_Call1-2.jpg
-  caption: "[SwissCollNet Call 1 & 2 network](https://swisscollnet.scnat.ch/en/running_projects){:target=\"_blank\"}"
+  caption: "SwissCollNet Call 1 & 2 network"
 
 typus:
   src: /assets/images/categories/Typus-homemade.png
