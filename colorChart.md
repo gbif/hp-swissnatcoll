@@ -1,6 +1,6 @@
 ---
 layout: compose
-title: Color chart SVNHC
+title: Color chart SwissNatColl
 description: definition of the colours and other graphic elements of the hosted portal
 background: "{{ site.data.images.frullania.src }}"
 imageLicense: "{{ site.data.images.frullania.caption }}"
