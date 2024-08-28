@@ -71,7 +71,7 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">references</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">occurrenceID</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">associatedMedia</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 150px; padding: 5px; background-color: #f2ceef;">verbatimLabel----------------------------</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 500px; padding: 5px; background-color: #f2ceef;">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">otherCatalogNumbers</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">yearCollectionEntrance</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimEventDate</th>
@@ -123,7 +123,7 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=234911&lang=fr</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.gbif.org/occurrence/1144789039</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/imagezoom/?FIF=cjbiip/cjb19/img_101/G00304683.ptif&cvt=jpg</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px; max-height: 100px; background-color: #f6ddf4;">Hb.G. 107575; G00304683; SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest; Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975; B. de Retz no 71454; J .L. van Soest; Isotype !; TARAXACUM retortum S.; vidi: J. Kirschner et J. Stepanek; anno: 2006; no. det.: 18854; TYPUS; Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px; max-height: 30px; background-color: #f6ddf4;">Hb.G. 107575; G00304683; SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest; Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975; B. de Retz no 71454; J .L. van Soest; Isotype !; TARAXACUM retortum S.; vidi: J. Kirschner et J. Stepanek; anno: 2006; no. det.: 18854; TYPUS; Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Hb.G. 107575 | SIB ID 236892/1</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">13 juin 1975</td>
