@@ -10,7 +10,7 @@ sideNavigation: sideNavigation.tutorials
 ---
 
 
-# The Swiss Virtual Natural History Collection (SVNHC)
+# The Swiss Virtual Natural History Collection (SwissNatColl)
 
 {: .box }
 Publish and retrieve information on natural history collections and objects
@@ -39,7 +39,7 @@ The digitally available natural history collection data of Swiss public and non-
 * **Collect and curate**, specimen data are collected and curated in a variety of collection management systems in collection institutions such as NH museums, Herbaria or institutions of higher education in Switzerland.
 * **Aggregate and enrich**, specimen data and media linked to the specimens are uploaded to the SwissCollNet data aggregator individually by data managers and curators of collection institutions. Within the data aggregator, data are mapped with Darwin Core fields and encoded towards external catalogs. Encoded datasets can be sent to the international database of GBIF.org. and can be downloaded from the data aggregator by collection institutions or data centers of InfoSpecies (blue arrows). The SwissCollNet data aggregator is situated and maintained at the Swiss node of GBIF.  
 * **Versioning of specimen data**, data of specimens collected in Switzerland can be revised by experts in the data centers of InfoSpecies and a new version (e.g. adaptation to Swiss taxonomic backbone, deontology requested by the Swiss Virtual Data center and GBIF.ch) of the data-set can be transferred through PICTIS to the Virtual Data Center of the Confederation (VDC at FOEN) and to GBIF.org. Furthermore, the dataset can be uploaded back to the data aggregator and be downloaded by the collection institutions. 
-* **Display and publish**, all specimen data, which have been transferred from the data aggregator to GBIF.org and deemed as “publishable” by the data owners, will be displayed on the SVNHC online-portal. Data of specimens collected in Switzerland will also be displayed on the online-portal of the Swiss node of GBIF (GBIF.ch). Furthermore, data of specimens collected in Switzerland and validated by InfoSpecies are distributed via PICTIS to the VDC database and the GBIF.org database and are displayed on the online-portals SVNHC, VDC and GBIF.ch. Importantly, the system is designed in a way that allows each actor to proceed at her/his own pace, without blocking the general data flow. As a result, Swiss specimens will be allowed to appear into the SVNHC portal in their current state, even if a confirmation of species identification is still pending on side of the InfoSpecies centers.
+* **Display and publish**, all specimen data, which have been transferred from the data aggregator to GBIF.org and deemed as “publishable” by the data owners, will be displayed on the SwissNatColl online-portal. Data of specimens collected in Switzerland will also be displayed on the online-portal of the Swiss node of GBIF (GBIF.ch). Furthermore, data of specimens collected in Switzerland and validated by InfoSpecies are distributed via PICTIS to the VDC database and the GBIF.org database and are displayed on the online-portals SwissNatColl, VDC and GBIF.ch. Importantly, the system is designed in a way that allows each actor to proceed at her/his own pace, without blocking the general data flow. As a result, Swiss specimens will be allowed to appear into the SwissNatColl portal in their current state, even if a confirmation of species identification is still pending on side of the InfoSpecies centers.
 * **Export**, at any time-point, the contents of the aggregator can be exported back to the organisation(s) that contributed the collection data. This feature allows data managers and curators to retrieve all the pieces of evidence that have been added by third parties to the aggregated specimens (namely: encoded values towards standard catalogs, MIDS scores, approval feedbacks provided by InfoSpecies, etc).
 
 
@@ -56,13 +56,13 @@ The SwissCollNet data aggregator is mainly divided into three compartments (Figu
 
 **Figure 2** Structure of the SwissCollNet data aggregator
 
-## 4. SVNHC – the online-portal
+## 4. SwissNatColl – the online-portal
 
-The SVNHC online-portal is hosted at GBIF.org. The portal presents institutions and their natural history collections in Switzerland. It also serves as a platform to publish information and news in relation to natural history collections in Switzerland. Search functions allow to search for institutions, collections and specimen information. Search functions are provided by GBIF.org, data is retrieved from the GBIF.org and GRSciColl databases (Figure 3).
+The SwissNatColl online-portal is hosted at GBIF.org. The portal presents institutions and their natural history collections in Switzerland. It also serves as a platform to publish information and news in relation to natural history collections in Switzerland. Search functions allow to search for institutions, collections and specimen information. Search functions are provided by GBIF.org, data is retrieved from the GBIF.org and GRSciColl databases (Figure 3).
 
-![SVNHC online-portal](/assets/images/GraphsDiagrams/Figure3.jpg "Figure 3")
+![SwissNatColl online-portal](/assets/images/GraphsDiagrams/Figure3.jpg "Figure 3")
 
-**Figure 3** The SVNHC online-portal displays information about natural history collections in Switzerland.
+**Figure 3** The SwissNatColl online-portal displays information about natural history collections in Switzerland.
 
 ## 5. The Journey of a museum specimen
 
@@ -93,13 +93,13 @@ Digital specimens collected in Switzerland (Swiss origin) may require specific i
 
 ![Import of digital specimens](/assets/images/GraphsDiagrams/Figure6.jpg "Figure 6")
 
-**Figure 6** Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SVNHC and GBIF.ch.
+**Figure 6** Import of digital specimens into the GBIF.org database through a fast track or an approval track and publication on the GBIF-hosted data portals SwissNatColl and GBIF.ch.
 
 
 ### 5.4. Publication of the digital specimen
 
 
-Digital specimens are published on different data portals such as the SVNHC (SVNHC.ch), the [data portal of the Swiss node of GBIF](https://swiss-bif.hp.gbif.org/) and the Virtual Data Center (VDC). On the SVNHC online-portal all digital specimens of the data aggregator (fast track and approval track information) will be displayed. Information of specimens collected in Switzerland will also be displayed on the GBIF.ch online-portal (fast track and approval track information). The digital specimen, which have been enriched and approved by experts of InfoSpecies datacenters will also be published on the VDC portal of the FOEN.
+Digital specimens are published on different data portals such as the SwissNatColl (SwissNatColl.ch), the [data portal of the Swiss node of GBIF](https://swiss-bif.hp.gbif.org/) and the Virtual Data Center (VDC). On the SwissNatColl online-portal all digital specimens of the data aggregator (fast track and approval track information) will be displayed. Information of specimens collected in Switzerland will also be displayed on the GBIF.ch online-portal (fast track and approval track information). The digital specimen, which have been enriched and approved by experts of InfoSpecies datacenters will also be published on the VDC portal of the FOEN.
 
 ### 5.5. Digital specimen updates
 
@@ -110,7 +110,7 @@ Digital specimen information can be updated in the SwissCollNet data aggregator 
 ## 6. Data ownership and publication rules
 
 
-Data providers are the data owners. They are responsible for the quality of their data and are the decision body for publication of the data through the fast and/or the approval track. For publication of data on SVNHC.ch or GBIF.ch, data quality requirements of GBIF.org have to be fulfilled. For publication of data on the VDC, rules of the FOEN have to be met.
+Data providers are the data owners. They are responsible for the quality of their data and are the decision body for publication of the data through the fast and/or the approval track. For publication of data on SwissNatColl.ch or GBIF.ch, data quality requirements of GBIF.org have to be fulfilled. For publication of data on the VDC, rules of the FOEN have to be met.
 
 <br><br><br>
 Source:
