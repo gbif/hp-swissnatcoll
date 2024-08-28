@@ -49,7 +49,7 @@ Below are the details of the currently selected specimen (⚠️currently displa
 - **Recorded By:** <span id="recordedBy"></span>
 - **Year:** <span id="year"></span>
 - **Country Code:** <span id="countryCode"></span>
-- **SVNHC Occurrence Page:** [View on GBIF](https://svnhc.hp.gbif-staging.org/occurrence/search?entity=3777522425)
+- **SwissNatColl Occurrence Page:** [View on GBIF](https://svnhc.hp.gbif-staging.org/occurrence/search?entity=3777522425)
 - **GBIF Occurrence Page:** [<span id="gbifLink">View on GBIF</span>](#)
 
 <script>
