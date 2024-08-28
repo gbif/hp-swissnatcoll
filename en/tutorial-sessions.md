@@ -6,25 +6,25 @@ title: Tutorial sessions on the Data Aggregator
 
 # Tutorial sessions for the Data Aggregator users
 
-Data users are invited to participate in tutorial sessions. Depending on availability, it is possible to not follow the lessons of only one session but to attend lessons of different sessions. The goal being to assist at least once to all four lessons planned.
+Data users are invited to participate in tutorial sessions. Depending on availability, it is possible to not follow the lessons of only one session but to attend lessons of different sessions. The goal being to assist at least once to all lessons planned.
+<br>
+The first set of lessons focuses on data preparation for the import. Further functionalities will be presented in a future set of lessons (coming soon).
 
 ## Next live tutorial sessions
 
 {: .box }
-**MONDAY afternoon session - 15H-15h45** (4x 45 min)
-<br>- **TBD** Lesson 1 Introduction and data preparation
-<br>- **TBD** Lesson 2 Uploading, Mapping and Encoding
-<br>- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
-<br>- **TBD** Lesson 4 Conclusions and open-questions
+**MONDAY afternoon session - 15H-15h45** (3x 45 min)
+<br>- **09-09-2024** Lesson 1 Introduction and data preparation
+<br>- **23-09-2024** Lesson 2 Uploading and Mapping
+<br>- **07-10-2024** Lesson 3 Conclusions and open-questions
 <br>Zoom link:
 
 
 {: .box }
-**THURSDAY morning session - 10H30-11H15** (4x 45 min)
-<br>- **TBD** Lesson 1 Introduction and data preparation
-<br>- **TBD** Lesson 2 Uploading, Mapping and Encoding
-<br>- **TBD** Lesson 3 Exporting, Publishing, Approval, Show on GBIF and SVNHC
-<br>- **TBD** Lesson 4 Conclusions and open-questions
+**THURSDAY morning session - 10H30-11H15** (3x 45 min)
+<br>- **12-09-2024** Lesson 1 Introduction and data preparation
+<br>- **26-09-2024** Lesson 2 Uploading and Mapping
+<br>- **10-10-2024** Lesson 3 Conclusions and open-questions
 <br>Zoom link:
 
 
