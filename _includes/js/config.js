@@ -36,7 +36,7 @@ var siteConfig = {
 	//{
           //"type": "equals",
           //"key": "publisher",
-          //"value": "SVNHC"
+          //"value": "SwissNatColl"
         //},
         {
           "type": "in",
