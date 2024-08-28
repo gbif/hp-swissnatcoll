@@ -11,7 +11,7 @@ permalink: /en/navigating_in_the_data
 
 // dire que les données sont floutées
 
-# What data can be found on the SVNHC portal?
+# What data can be found on the SwissNatColl portal?
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](https://svnhc.hp.gbif-staging.org/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
 There are currently 3 entry points to the data:
@@ -26,7 +26,7 @@ There are currently 3 entry points to the data:
 5. 🔬 [3D models](https://svnhc.hp.gbif-staging.org/en/threeDmodels), a model viewer displays a selected 3D model of a specimen held in a swiss institution. The model can be viewed from different angles and zoomed in and out. If the specimen data is also available on GBIF, the link and a few basic information is provided.
 
 # How is the data displayed?
-The data present on the SVNHC portal can be displayed as such:
+The data present on the SwissNatColl portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen (or a collection or an institution , depending on the tab selected and each column corresponds to **all the information we have about a specific specimen/collection/institution**.
 
 - a **map** where each point corresponds to a **georeferenced museum specimen**. By clicking on it, a small window opens, and by clicking on the small window, the information panel of the occurrence appears on the right side of the screen. The metadata is grouped in categories, which have their own fields (Summary, Record, Taxon, Location, Occurrence, Event, Identification, Other and Citation). These categories and fields are based on the standard [Darwin Core](https://dwc.tdwg.org/).
@@ -36,7 +36,7 @@ The data present on the SVNHC portal can be displayed as such:
 - a **dashboard** (only in the occurrence page) where you can choose to synthetize the data in plot or lists. Each dashboard element's title is named after the data field name considered.
 
 # Can I download the data?
-On the [occurrences page](https://svnhc.hp.gbif-staging.org/occurrence/search), the last tab on top is [**Download**](https://svnhc.hp.gbif-staging.org/occurrence/search?view=DOWNLOAD). By clicking on it, you are redirected to GBIF.org download page. Note that all applicated filters on the SVNHC data page are transmitted to GBIF.org, allowing you to dowload your data of interest easily.
+On the [occurrences page](https://svnhc.hp.gbif-staging.org/occurrence/search), the last tab on top is [**Download**](https://svnhc.hp.gbif-staging.org/occurrence/search?view=DOWNLOAD). By clicking on it, you are redirected to GBIF.org download page. Note that all applicated filters on the SwissNatColl data page are transmitted to GBIF.org, allowing you to dowload your data of interest easily.
 
 ⚠️The link is quite slow to open and still sending towards "https://www.gbif-staging.org/....". At the moment, by simply removing "-staging" in the url on your browser, you can access the requested GBIF dowload page.
 
