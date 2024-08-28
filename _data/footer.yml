@@ -17,7 +17,7 @@ columns:
   - name: Helpline
     links:
     - text: E-mail
-      href: mailto:contact-svnhc@infofauna.ch
+      href: mailto:contact-swissnatcoll@infofauna.ch
   
   - name: Contact
     description: | # Can be Markdown
