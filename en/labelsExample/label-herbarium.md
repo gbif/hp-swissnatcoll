@@ -71,7 +71,7 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">references</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">occurrenceID</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">associatedMedia</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 150px; padding: 5px; background-color: #f2ceef;">verbatimLabel ----------------------------</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 150px; padding: 5px; background-color: #f2ceef;">verbatimLabel----------------------------</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">otherCatalogNumbers</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">yearCollectionEntrance</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimEventDate</th>
