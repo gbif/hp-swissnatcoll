@@ -107,7 +107,7 @@ Digital specimens are published on different data portals such as the SVNHC (SVN
 Digital specimen information can be updated in the SwissCollNet data aggregator by the data providers/owners. Enriched data can be exported back to the database of the data provider. Older versions of the digital specimen are stored in the data aggregator to allow reconstruction of the history of the data.
 
 
-### 6. Data ownership and publication rules
+## 6. Data ownership and publication rules
 
 
 Data providers are the data owners. They are responsible for the quality of their data and are the decision body for publication of the data through the fast and/or the approval track. For publication of data on SVNHC.ch or GBIF.ch, data quality requirements of GBIF.org have to be fulfilled. For publication of data on the VDC, rules of the FOEN have to be met.
