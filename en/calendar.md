@@ -23,7 +23,7 @@ composition:
         #back-to-top {
           position: fixed;
           bottom: 40px;
-          right: 40px;
+          right: 120px;
           display: none;
           background-color: #fa5e97;
           color: white;
@@ -33,8 +33,8 @@ composition:
           font-size: 18px;
           cursor: pointer;
           z-index: 1000;
-          width: 60px; /* Width for the rectangle */
-          height: 40px; /* Height for the rectangle */
+          width: 70px; /* Width for the rectangle */
+          height: 50px; /* Height for the rectangle */
           line-height: 40px;
         }
     
