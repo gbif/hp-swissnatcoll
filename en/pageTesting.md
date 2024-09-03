@@ -166,3 +166,4 @@ document.addEventListener('DOMContentLoaded', () => {
 | Step-by-step guide | Gif |
 | ------------------ | --- |
 | You can change the language of the webstite | ![gif test](/assets/gif/20240807_LanguagesChange.gif) |
+| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="20" height="20" /> |
