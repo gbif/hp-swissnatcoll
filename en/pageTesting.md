@@ -157,3 +157,10 @@ document.addEventListener('DOMContentLoaded', () => {
 5. (Step 1 of 3) Click on **Choose a file** to select your prepared TSV file or drag and drop it if you have a folder window opened on your screen.
   1. Wait until the purple line is full.
   2. Click on **Upload file**
+
+
+
+
+| Step-by-step guide | Gif |
+| ------------------ | --- |
+| You can change the language of the webstite | !(gif test)[/assets/gif/20240807_LanguagesChange.gif] |
