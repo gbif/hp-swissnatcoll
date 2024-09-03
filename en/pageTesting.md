@@ -146,7 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
   3. Add a description of the collection. 💡optional💡
   4. Click on **Create collection**
     - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
+
 !(gif test)[/assets/gif/20240807_LanguagesChange.gif]
+
 4. Click on the collection name.
   - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
   1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
