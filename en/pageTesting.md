@@ -10,8 +10,7 @@ height: 50vh
 
 # Upload my data
 1. Go to the Data Aggregator website.
-- You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available.
-  <img src="/assets/gif/20240807_LanguagesChange.gif" width="100" height="100" />
+| - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="100" height="100" /> |
 2. Click on Collections on the left side of the window.
 - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the GrSciColl collection names.
 - You can order the collection list by clicking on the column titles (e.g. Name, Code, Progress, Records count/est., and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
@@ -40,14 +39,3 @@ height: 50vh
 5. (Step 1 of 3) Click on **Choose a file** to select your prepared TSV file or drag and drop it if you have a folder window opened on your screen.
   1. Wait until the purple line is full.
   2. Click on **Upload file**
-
-
-
-
-| Step-by-step guide | Gif |
-| ------------------ | --- |
-| You can change the language of the webstite | ![gif test](/assets/gif/20240807_LanguagesChange.gif) |
-| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="100" height="50" /> |
-
-| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="80" height="80" /> |
-
