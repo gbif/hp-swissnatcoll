@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: documentation
 permalink: /pageTesting
 background: "{{ site.data.images.puccinia‎.src }}"
 imageLicense: "{{ site.data.images.puccinia‎.caption }}"
