@@ -8,134 +8,15 @@ description: For Swiss Natural History institutions
 height: 50vh
 ---
 
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-    <title>How to publish data - Data Aggregator</title>
-</head>
-
-<body>
-
-    <header>
-        <h1>How to publish data - Data Aggregator</h1>
-        <p>For Swiss Natural History institutions</p>
-    </header>
-
-    <section id="upload-data">
-        <h2>Upload my data</h2>
-        <ol>
-            <li>
-                Go to the <a href="https://staging.aggregator.scnat.zebbra.ch/" target="_blank">Data Aggregator website</a>.
-                <ul>
-                    <li>
-                        You can 
-                        <button id="openPopup" style="border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
-                            onmouseover="this.style.color='#FA5E97';"
-                            onmouseout="this.style.color='#333';">
-                            change the language
-                        </button> 
-                        of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available.
-                    </li>
-                </ul>
-            </li>
-            <li>
-                Click on <strong>Collections</strong> on the left side of the window.
-                <ul>
-                    <li>
-                        On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the <a href="/collection/search" target="_blank">GrSciColl collection names</a>.
-                    </li>
-                    <li>
-                        You can order the collection list by clicking on the column titles (e.g. Name, Code, Progress, Records count/est., and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
-                    </li>
-                    <li>If you want to update an existing collection, go directly to step 4.</li>
-                    <li>If you want to create a new collection that is not yet on this page, go to the next step.</li>
-                </ul>
-            </li>
-        </ol>
-    </section>
-
-    <!-- Popup Structure -->
-    <div id="popup" class="popup">
-        <span id="closePopup" class="close">&times;</span>
-        <div class="content">
-            <!-- Replace the source with your GIF URL -->
-            <img src="/assets/gif/20240807_LanguagesChange.gif" alt="Language Change GIF" id="gif" style="display: block;">
-        </div>
-    </div>
-
-    <script src="script.js"></script> <!-- Link to your JavaScript file -->
-
-</body>
-
-</html>
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.popup {
-    display: none; /* Hidden by default */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    background-color: white;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-    border-radius: 5px;
-    overflow: hidden;
-    z-index: 1000;
-}
-
-.popup .content {
-    padding: 20px;
-    text-align: center;
-}
-
-.close {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 20px;
-    cursor: pointer;
-    color: #333;
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    const openPopupButton = document.getElementById('openPopup');
-    const closePopupButton = document.getElementById('closePopup');
-    const popup = document.getElementById('popup');
-
-    // Show popup on button click
-    openPopupButton.addEventListener('click', () => {
-        popup.style.display = 'block';
-    });
-
-    // Hide popup on close button click
-    closePopupButton.addEventListener('click', () => {
-        popup.style.display = 'none';
-    });
-
-    // Optional: Close popup when clicking outside
-    window.addEventListener('click', (event) => {
-        if (event.target === popup) {
-            popup.style.display = 'none';
-        }
-    });
-});
-
+# Upload my data
+1. Go to the Data Aggregator website.
+- You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available.
+  <img src="/assets/gif/20240807_LanguagesChange.gif" width="100" height="100" />
+2. Click on Collections on the left side of the window.
+- On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the GrSciColl collection names.
+- You can order the collection list by clicking on the column titles (e.g. Name, Code, Progress, Records count/est., and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
+- If you want to update an existing collection, go directly to step 4.
+- If you want to create a new collection that is not yet on this page, go to the next step.
 
 3. Click on **New collection** on the right side of the window.
   1. Select the type of your data. ⚠️**Mandatory**⚠️
@@ -166,4 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 | Step-by-step guide | Gif |
 | ------------------ | --- |
 | You can change the language of the webstite | ![gif test](/assets/gif/20240807_LanguagesChange.gif) |
-| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="20" height="20" /> |
+| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="100" height="50" /> |
+
+| ibid. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="80" height="80" /> |
+
