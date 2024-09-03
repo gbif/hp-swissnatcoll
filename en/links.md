@@ -81,11 +81,21 @@ Source: [National significance of natural history collections in Switzerland](ht
 ## Infrastructure and Initiatives
 * Integrated Digitized Biocollections ([iDigBio](https://www.idigbio.org/){:target="_blank"})
 
-# Standards & Tools
-* [DarwinCore Standard](https://dwc.tdwg.org/){:target="_blank"}
-* [Access to Biological Collections Data - ABCD-Standard](https://abcd.tdwg.org/){:target="_blank"}
-* [GBIF Integrated Publishing Toolkit - IPT](https://www.gbif.org/ipt){:target="_blank"}
 
+---
+
+
+# Standards & Tools
+* DarwinCore Standard (DwC](https://dwc.tdwg.org/){:target="_blank"})
+* Access to Biological Collections Data ([ABCD-Standard](https://abcd.tdwg.org/){:target="_blank"})
+* GBIF Integrated Publishing Toolkit ([IPT](https://www.gbif.org/ipt){:target="_blank"})
+
+
+---
+
+
+# General knowledge and source of information
+* SCNAT knowledge - FAQ Biodiversity ([Scientific answers to frequently asked questions about biodiversity](https://naturalsciences.ch/biodiversity/questions_and_answers){:target="_blank"})
 
 <html lang="en">
 <head>
