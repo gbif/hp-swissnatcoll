@@ -45,7 +45,7 @@ height: 50vh
                 Click on <strong>Collections</strong> on the left side of the window.
                 <ul>
                     <li>
-                        On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the <a href="https://scientific-collections.gbif.org/collection/search" target="_blank">GrSciColl collection names</a>.
+                        On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the <a href="/collection/search" target="_blank">GrSciColl collection names</a>.
                     </li>
                     <li>
                         You can order the collection list by clicking on the column titles (e.g. Name, Code, Progress, Records count/est., and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
   3. Add a description of the collection. 💡optional💡
   4. Click on **Create collection**
     - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
-
+!(gif test)[/assets/gif/20240807_LanguagesChange.gif]
 4. Click on the collection name.
   - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
   1. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
