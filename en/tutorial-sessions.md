@@ -17,7 +17,7 @@ The first set of lessons focuses on data preparation for the import. Further fun
 <br>- **09-09-2024** Lesson 1 Introduction, log in and data preparation
 <br>- **23-09-2024** Lesson 2 Uploading and Mapping
 <br>- **07-10-2024** Lesson 3 Conclusions and open-questions
-<br>Zoom link: <i>TBA</i>
+<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 
 {: .box }
@@ -25,7 +25,7 @@ The first set of lessons focuses on data preparation for the import. Further fun
 <br>- **12-09-2024** Lesson 1 Introduction, log in and data preparation
 <br>- **26-09-2024** Lesson 2 Uploading and Mapping
 <br>- **10-10-2024** Lesson 3 Conclusions and open-questions
-<br>Zoom link: <i>TBA</i>
+<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
