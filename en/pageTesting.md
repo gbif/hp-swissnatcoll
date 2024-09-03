@@ -11,13 +11,15 @@ height: 50vh
 # Upload my data
 1. Go to the Data Aggregator website.
 
-| - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available. | <img src="/assets/gif/20240807_LanguagesChange.gif" width="300" height="300" /> |
+|  | You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). At the moment, only English and Deutsch are available. | ![gif test](/assets/gif/20240807_LanguagesChange.gif) |
 
 2. Click on Collections on the left side of the window.
 - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The names of the collections are based on the GrSciColl collection names.
 - You can order the collection list by clicking on the column titles (e.g. Name, Code, Progress, Records count/est., and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
 - If you want to update an existing collection, go directly to step 4.
 - If you want to create a new collection that is not yet on this page, go to the next step.
+
+<img src="/assets/gif/20240807_LanguagesChange.gif" width="300" height="300" />
 
 3. Click on **New collection** on the right side of the window.
   1. Select the type of your data. ⚠️**Mandatory**⚠️
