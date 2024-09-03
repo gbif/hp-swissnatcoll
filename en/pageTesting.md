@@ -64,7 +64,7 @@ composition:
         <span id="closePopup" class="close">&times;</span>
         <div class="content">
             <!-- Replace the source with your GIF URL -->
-            <img src="https://github.com/gbif/hp-svnhc/blob/d66d058915ad7847d5fe439690f414cee18bb5e4/assets/gif/20240807_LanguagesChange.gif" alt="Language Change GIF" id="gif" style="display: block;">
+            <img src="/assets/gif/20240807_LanguagesChange.gif" alt="Language Change GIF" id="gif" style="display: block;">
         </div>
     </div>
 
