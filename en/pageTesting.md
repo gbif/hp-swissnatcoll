@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
   4. Click on **Create collection**
     - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
 
-!(gif test)[/assets/gif/20240807_LanguagesChange.gif]
+![gif test](/assets/gif/20240807_LanguagesChange.gif)
 
 4. Click on the collection name.
   - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
@@ -165,4 +165,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 | Step-by-step guide | Gif |
 | ------------------ | --- |
-| You can change the language of the webstite | !(gif test)[/assets/gif/20240807_LanguagesChange.gif] |
+| You can change the language of the webstite | ![gif test](/assets/gif/20240807_LanguagesChange.gif) |
