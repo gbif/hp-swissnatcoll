@@ -475,7 +475,7 @@ There are two different roles for profile users on the Data Aggregator:
 | **Users** -add/edit/remove Data Administrator | ❌ | ✅ own institution |
 | **Collections** -add/edit | ❌ | ✅ own institution |
 | **Collections** -view | ✅ own institution | ✅ own institution |
-| **Dataset** -upload/mapping/encode/export/publish |  | ❌ |
+| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 
 For each role, the following rules apply:
