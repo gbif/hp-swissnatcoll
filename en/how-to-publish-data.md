@@ -52,6 +52,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">...</th>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">country</th>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">stateProvince</th>
+    <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">...</th>
 
   </tr>
   <tr>
@@ -60,6 +61,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Geneve</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
   <tr>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-7891011</td>
@@ -67,8 +69,10 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Vaud</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
   <tr>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
@@ -81,6 +85,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;"></td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
   <tr>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">XXX-9999999</td>
@@ -88,6 +93,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Ticino</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
 
   </table>
