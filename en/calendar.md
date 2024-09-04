@@ -9,7 +9,7 @@ composition:
 - type: heroImage
 - type: pageMarkdown
 
-# https://raw.githubusercontent.com/gbif/hp-svnhc/master/data/eventlist.yml
+# https://raw.githubusercontent.com/gbif/hp-swissnatcoll/master/data/eventlist.yml
 ---
 
 
@@ -142,7 +142,7 @@ composition:
     <script>
         async function fetchEvents() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/gbif/hp-svnhc/master/_data/eventlist.yml');
+                const response = await fetch('https://raw.githubusercontent.com/gbif/hp-swissnatcoll/master/_data/eventlist.yml');
                 if (!response.ok) {
                     throw new Error(`Network response was not ok: ${response.statusText}`);
                 }
