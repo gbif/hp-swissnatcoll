@@ -478,8 +478,8 @@ There are two different roles for user profile on the Data Aggregator:
 | **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 <br><br>
-{: .box }
-For all users and roles, the following rules apply:
+
+{: .box } For all users and roles, the following rules apply:
 <br>🔸One **institution** can have **more than one user / role**
 <br>🔸One **user** is attributed to **one and only one institution**
 <br>🔸One **user** can have **more than one role**
