@@ -460,15 +460,15 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 ## What are the different roles of the user profiles on the Data Aggregator?
 
 There are two different roles for profile users on the Data Aggregator:
-- Data Administrator
+- **Data Administrator**
   - can view the collections of their institution
   - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
-
-- Collection Digitizer
+<br>
+- **Collection Digitizer**
   - can view, add, edit and remove Data Administrator users of their institution
   - can view, add and edit collections of their institution
  
-
+<br>
 | Tasks | Data Administrator | Collection Digitizer |
 | ----- | ------------------ | -------------------- |
 | **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
@@ -477,10 +477,10 @@ There are two different roles for profile users on the Data Aggregator:
 | **Collections** -view | ✅ own institution | ✅ own institution |
 | **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
-
+<br><br>
 For each role, the following rules apply:
 
-{:box}
+{: .box }
 🔸One **institution** can have **more than one user / role**
 <br>🔸One **user** is attributed to **one and only one institution**
 <br>🔸One **user** can have **more than one role**
