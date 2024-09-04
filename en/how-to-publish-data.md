@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data on the Data Aggregator
-In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a .csv or .tab file (Comma-Separated Values or Tab-Separated Values file) with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](https://svnhc.hp.gbif-staging.org/occurrence/search){:target="_blank"}.
+In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a .csv or .tab file (Comma-Separated Values or Tab-Separated Values file) with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
 # Checklist -to do before starting the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
@@ -20,11 +20,11 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 
 > Example: [Herbarium - General collection](https://scientific-collections.gbif.org/collection/836af357-06e8-4a4f-9511-c3d33155f2b5){:target="_blank"}
 
-✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator-faqs){:target="_blank"} on the Data Aggregator
+✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator-faqs){:target="_blank"} on the Data Aggregator
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded tab-separated values file** with **[Darwin Core standardised columns and cell content](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**
+✅ My ready-for-upload dataset file is an **UTF-8 encoded tab-separated values file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**
 
 ✅ My ready-for-upload dataset file has a **maximum size of 20 Mo**.
 
@@ -40,7 +40,7 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 
 
 # Prepare my data
-Please check out our [FAQs](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
+Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
@@ -129,11 +129,11 @@ The mappings window (Step 2 of 3) has two parts:
 
 1. For the Required attributes, select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
   - By typing the beginning of your field names, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult this [page](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
+  - If unsure of the correspondence between the attributes and your field names, consult this [page](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
 2. For the Additional columns, either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
   - The added attributes appear at the bottom of the Mappings window.
 3. Repeat these steps until all of the fields you want to import are mapped.
-  - Not all of your fields may be mandatory for GBIF. Find [here](https://svnhc.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
+  - Not all of your fields may be mandatory for GBIF. Find [here](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
   - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as an "Extra Attribute".
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: <strong>Currently all Extra Attributes are lost after the Mapping.</strong> They are not displayed on the Records view page and can't be exported. But they are still present in the uploaded files which had them in the Imports view page.
@@ -181,8 +181,8 @@ The mappings window (Step 2 of 3) has two parts:
 
 # Export my data
 1. Click on **Export**.
-  - Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#upload-my-data) part, or the DWC Attributes, as mapped in the [Map my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#map-my-data) part. You can select only one at a time. If you want both, export the records twice.
-  - Select the data layer you want to export (either your original data, as imported in the [Upload my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](https://svnhc.hp.gbif-staging.org/en/how-to-publish-data#encode-my-data) part. You can select only one at a time. If you want both, export the records twice.
+  - Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the DWC Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part. You can select only one at a time. If you want both, export the records twice.
+  - Select the data layer you want to export (either your original data, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part. You can select only one at a time. If you want both, export the records twice.
 2. Click on **Start export**.
   - The page view changes from "Records view" to "Exports view" where all of your exported files are listed.
   - A progression bar appears during the export process and disappears when finished.
