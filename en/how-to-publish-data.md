@@ -26,7 +26,7 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 
 ✅ My ready-for-upload dataset file is an **UTF-8 encoded tab-separated values file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**
 
-✅ My ready-for-upload dataset file has a **maximum size of 20 Mo**.
+✅ My ready-for-upload dataset file has a **maximum size of 20 Mbyte/Mo**.
 
 <br>
 
@@ -44,7 +44,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 tab-separated values file (.tab or .txt) of a maximum size of 20 Mo, with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
+  <p>✅ 1 tab-separated values file (.tab or .txt) of a maximum size of 20 Mbyte/Mo, with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
