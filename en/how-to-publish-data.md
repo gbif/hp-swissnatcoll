@@ -97,7 +97,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are better than cells with "n.a." values ⚠️</p>
+  <p> ⚠️ empty cells are better than cells with "n.a." values | avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
 </div>
 
 # Upload my data
