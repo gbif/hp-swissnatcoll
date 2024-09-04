@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data on the Data Aggregator
-In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a .csv or .tab file (Comma-Separated Values or Tab-Separated Values file) with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#approve-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a Tab-separated .tab or .txt file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in), upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#approve-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
 
 # Checklist -to do before starting the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
@@ -19,6 +19,8 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 ✅ My institution has **at least one collection registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
 
 > Example: [Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
+
+✅ My institution has **at least one user profile with the [Collection Digitizer](/en/ role** 
 
 ✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
@@ -100,8 +102,13 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
   <p> ⚠️ empty cells are better than cells with "n.a." values | avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
 </div>
 
+# Log in
+
+
 # Upload my data
-1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"}.
+1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}.
+2. Insert your login details in the corresponding field.
+  - After signing in you arrive on the Dashboard page of the Aggregator (it is yet empty, but soon information will be put on it).
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). But at the moment, English is the main language. The rest has not been translated yet.
 2. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
