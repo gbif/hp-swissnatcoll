@@ -13,7 +13,7 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](https://svnhc.hp.gbif-staging.org/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
+There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into the Data Aggregator.
 
@@ -428,7 +428,7 @@ Each **term** of Darwin Core has a **precise and unique definition**, and for so
 ### Where can I find the Darwin Core terms description?
 On the Darwin Core official website, the [Quick Reference Guide](https://dwc.tdwg.org/terms/) is the easiest to use.
 
-Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a [controlled vocabulary](https://svnhc.hp.gbif-staging.org/en/data-aggregator/#what-is-a-controlled-vocabulary).
+Here are a few of the top-10 most used fields in natural history institutions' databases. The ones marked with a "!" should use only a [controlled vocabulary](/en/data-aggregator/#what-is-a-controlled-vocabulary).
 
 | DwC term (dwc:) | DwC Definition | Corresponding terms found in NHC datasets | Examples |
 | --------------- | -------------- | ----------------------------------------- | -------- |
