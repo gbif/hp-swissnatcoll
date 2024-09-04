@@ -457,9 +457,37 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | Institution<br><br> [dwc:institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
+## What are the different roles of the user profiles on the Data Aggregator?
+
+There are two different roles for profile users on the Data Aggregator:
+- Data Administrator
+  - can view the collections of their institution
+  - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
+
+- Collection Digitizer
+  - can view, add, edit and remove Data Administrator users of their institution
+  - can view, add and edit collections of their institution
+ 
+
+| Tasks | Data Administrator | Collection Digitizer |
+| ----- | ------------------ | -------------------- |
+| **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
+| **Users** -add/edit/remove Data Administrator | ❌ | ✅ own institution |
+| **Collections** -add/edit | ❌ | ✅ own institution |
+| **Collections** -view | ✅ own institution | ✅ own institution |
+| **Dataset** -upload/mapping/encode/export/publish |  | ❌ |
 
 
+For each role, the following rules apply:
 
+{:box}
+🔸One **institution** can have **more than one user / role**
+<br>🔸One **user** is attributed to **one and only one institution**
+<br>🔸One **user** can have **more than one role**
+
+### My institution does not have a Collection Digitizer yet, what can I do?
+
+Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name.
 
 
 <html lang="en">
