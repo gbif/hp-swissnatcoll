@@ -457,9 +457,9 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | Institution<br><br> [dwc:institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
-## What are the different roles of the user profiles on the Data Aggregator?
+## What are the different roles of the user profile on the Data Aggregator?
 
-There are two different roles for profile users on the Data Aggregator:
+There are two different roles for user profile on the Data Aggregator:
 - **Data Administrator**
   - can view the collections of their institution
   - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
