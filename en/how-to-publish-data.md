@@ -20,7 +20,7 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 
 > Example: [Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-✅ My institution has **at least one user profile with the [Collection Digitizer](/en/ role** 
+✅ My institution has **at least one user profile with the [Collection Digitizer](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profiles-on-the-data-aggregator) role** 
 
 ✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
