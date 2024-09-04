@@ -11,14 +11,14 @@ composition:
   - type: pageMarkdown
 ---
 # Bases elements of the hosted portals
-[_config.yml](https://github.com/gbif/hp-svnhc/blob/master/_config.yml)
+[_config.yml](https://github.com/gbif/hp-swissnatcoll/blob/master/_config.yml)
 <div style="width: 100px; height: 100px; background-color: #FA5E97;"></div>
 - primary = "#fa5e97"
     - buttons
     - links
 - links = default (same as primary)
 
-In order to maintain a consistency in colors and hues, a yml file ([_data/colors.yml](https://github.com/gbif/hp-svnhc/blob/master/_data/colors.yml)) has been created and contains the colors information used in the hosted portal)
+In order to maintain a consistency in colors and hues, a yml file ([_data/colors.yml](https://github.com/gbif/hp-swissnatcoll/blob/master/_data/colors.yml)) has been created and contains the colors information used in the hosted portal)
 
 Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?search=#fa5e97)
 
