@@ -1,6 +1,5 @@
 ---
 layout: documentation
-permalink: /en/how-to-publish-data
 title: How to publish data on the Data Aggregator
 description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
