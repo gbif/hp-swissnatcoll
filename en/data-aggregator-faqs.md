@@ -469,6 +469,7 @@ There are two different roles for user profile on the Data Aggregator:
   - can view, add and edit collections of their institution
  
 <br>
+
 | Tasks | Data Administrator | Collection Digitizer |
 | ----- | ------------------ | -------------------- |
 | **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
