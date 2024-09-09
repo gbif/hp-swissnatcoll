@@ -65,8 +65,30 @@ Digital specimen information can be updated in the SwissCollNet data aggregator 
 providers/owners. Enriched data can be exported back to the database of the data provider. Older versions of 
 the digital specimen are stored in the data aggregator to allow reconstruction of the history of the data.
 
+
+
+
+<figure class="has-text-centered">
+  <a href="/assets/images/GraphsDiagrams/Dagi_Big_Picture_Simplified.png" data-lightbox="image-7" 
+     data-title='Data Aggregator Team'>
+    <img src="/assets/images/GraphsDiagrams/Dagi_Big_Picture_Simplified.png" 
+         alt="Data Aggregator - Big picture simplified" 
+         style="max-width: 100%; height: auto; cursor: zoom-in;" />
+  </a>
+  <figcaption>Data Aggregator - Big picture simplified</figcaption>
+</figure>
+
 <html lang="en">
 <head>
+
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <!-- Your existing CSS -->
+  
+  <!-- Lightbox2 JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+  <!-- Your existing JavaScript -->
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Back to Top Button</title>
