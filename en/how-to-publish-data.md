@@ -1,15 +1,15 @@
 ---
 layout: documentation
 permalink: /en/how-to-publish-data
-title: How to publish data on the Data Aggregator
+title: How to publish data with the Data Aggregator
 description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
-# How to publish data on the Data Aggregator
-In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a Tab-separated .tab or .txt file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in), upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#approve-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+# How to publish data with the Data Aggregator
+In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a Tab-separated .tab or .txt file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in), [upload your data](#upload-my-data) in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [sent for validation](#approve-my-data) to Infospecies experts and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
 
-# Checklist -to do before starting the Data Aggregator
+# Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
 
 > Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
@@ -20,7 +20,10 @@ In order to publish your dataset/collection on the SwissNatColl portal, you need
 
 > Example: [Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-✅ My institution has **at least one user profile with the [Collection Digitizer](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profiles-on-the-data-aggregator){:target="_blank"} role** 
+✅ My institution has **at least one user profile with the [Collection Digitizer](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"} role**
+
+> - Collection Digitizer
+> - Data Administrator
 
 ✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
