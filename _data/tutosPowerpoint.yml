@@ -1,0 +1,9 @@
+title: Tutorial sessions for the use of the Data Aggregator
+klass: contentTypesStat
+description: |
+  Lesson 1 : General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
+features: 
+- title: "Lesson 1"
+  categories: ["pdf"]
+  background: /assets/images/categories/tuto_lesson1.png
+  href: /assets/files/Lesson_1_IntroLogInDataPrepa.pdf
