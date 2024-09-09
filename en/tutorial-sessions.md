@@ -5,7 +5,7 @@ title: Tutorial sessions on the Data Aggregator
 composition:
   - type: pageMarkdown
   - type: features
-    data: tutosPowerpoint
+    data: tutosPowerpoint.lessons
 ---
 
 # Tutorial sessions for the Data Aggregator users
