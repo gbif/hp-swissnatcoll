@@ -485,6 +485,7 @@ For all users and roles, the following rules apply:
 <br>🔸One **institution** can have **more than one user / role**
 <br>🔸One **user** is attributed to **one and only one institution**
 <br>🔸One **user** can have **more than one role**
+<br>🔸**A user profile is specific to an individual and must not be shared with others**
 
 ### My institution does not have a Collection Digitizer yet, what can I do?
 
