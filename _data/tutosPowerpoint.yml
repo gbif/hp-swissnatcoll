@@ -5,6 +5,6 @@ description: |
 features: 
 - title: "Lesson 1"
   categories: ["pdf"]
-  description: Lesson 1 : General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
+  description: "Lesson 1 : General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets."
   background: /assets/images/categories/tuto_lesson1.png
   href: /assets/files/Lesson_1_IntroLogInDataPrepa.pdf
