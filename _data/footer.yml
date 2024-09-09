@@ -18,6 +18,8 @@ columns:
     links:
     - text: E-mail
       href: mailto:contact-swissnatcoll@infofauna.ch
+    - text: Phone
+      href: tel:+41325603756
   
   - name: Contact
     description: | # Can be Markdown
