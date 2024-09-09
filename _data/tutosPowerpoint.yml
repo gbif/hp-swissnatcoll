@@ -1,10 +1,9 @@
-title: Tutorial sessions
-klass: contentTypesStat
-description: |
-  How to use the Data Aggregatore functionalities
-features: 
-- title: "Lesson 1"
-  categories: ["pdf"]
-  description: "Lesson 1 : General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets."
-  background: /assets/images/categories/tuto_lesson1.png
-  href: /assets/files/Lesson_1_IntroLogInDataPrepa.pdf
+lessons:
+  title: "Tutorial sessions"
+  description: "How to use the Data Aggregatore functionalities"
+  features:
+    - title: "Lesson 1" # required
+      description: |      # required
+        Lesson 1 : General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
+      href: "/assets/files/Lesson_1_IntroLogInDataPrepa.pdf"
+      background: "/assets/images/categories/tuto_lesson1.png"
