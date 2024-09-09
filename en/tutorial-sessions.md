@@ -1,7 +1,11 @@
 ---
-layout: default
+layout: compose
 permalink: /en/tutorial-sessions
 title: Tutorial sessions on the Data Aggregator
+composition:
+  - type: pageMarkdown
+  - type: features
+    data: tutosPowerpoint
 ---
 
 # Tutorial sessions for the Data Aggregator users
@@ -56,3 +60,5 @@ The first set of lessons focuses on data preparation for the import. Further fun
 ### Video material
 
 _coming soon_
+
+
