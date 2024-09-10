@@ -37,8 +37,8 @@ models_three_d:
   caption: "© 2023 [The Biocommunication Group - ETH Zurich](https://biocommunication.org/en/insects360/3d-scans/){:target=\"_blank\"}"
 
 visit_us:
-  src: /assets/images/placeholders/irpex_spiculifer_1135723338.jpg
-  caption: "[Isotype of _Irpex spiculifer_ G.Cunn.](https://www.gbif.org/occurrence/1135723338){:target=\"_blank\"} from Manaaki Whenua - Landcare Research](/collection/034e128e-ee23-42d4-989d-cbe406c04fdb){:target=\"_blank\"}"
+  src: /assets/images/placeholders/collections.png
+  caption: "GBIF standardised image"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
