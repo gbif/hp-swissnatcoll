@@ -1,9 +1,9 @@
 ---
 title: Virtual visit of the Swiss scientific collections
 layout: compose
-permalink: /en/virtualvisit
-background: "{{ site.data.images.virtual_visit.src }}"
-imageLicense: "{{ site.data.images.virtual_visit.caption }}"
+permalink: /en/visit_us
+background: "{{ site.data.images.visit_us.src }}"
+imageLicense: "{{ site.data.images.visit_us.caption }}"
 height: 50vh
 composition:
   - type: heroImage
