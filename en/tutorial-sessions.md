@@ -2,6 +2,7 @@
 layout: compose
 permalink: /en/tutorial-sessions
 title: Tutorial sessions on the Data Aggregator
+toc: true
 composition:
   - type: pageMarkdown
   - type: features
@@ -39,8 +40,10 @@ The first set of lessons focuses on data preparation for the import. Further fun
 <br><br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ To select the next sessions time slots and fit them better to your availabilities, you can <a href='https://www.when2meet.com/?26382542-qnMyB'>fill in this When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.
+ℹ️ To select the next sessions time slots and fit them better to your availabilities, you can <a href='https://www.when2meet.com/?26382542-qnMyB'>fill in this When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br> The sessions are planned to have always 45minutes lessons, with one lesson every two weeks. The number of lessons per session shall vary on how the themes are arranged.
 </div>
+
+<br><br>
 
 ## Available material
 
