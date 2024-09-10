@@ -36,6 +36,12 @@ The first set of lessons focuses on data preparation for the import. Further fun
 ⚠️ <strong>The ZOOM lessons will be recorded</strong> for remote availability for absent Data Aggregator users. The videos will not be publicly published and erased as soon as official tutorial video material is produced.
 </div>
 
+<br><br>
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+ℹ️ To select the next sessions time slots and fit them better to your availabilities, you can <a href='https://www.when2meet.com/?26382542-qnMyB'>fill in this When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.
+</div>
+
 ## Available material
 
 ### Text material
