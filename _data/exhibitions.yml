@@ -3,6 +3,7 @@ klass: contentTypesStat
 description: |
   Every day of the year, come discover specific elements of our collections through the temporary exhibitions of our institutions. Don't hesitate to come back for the permanent exhibition too.
 features: 
+
 - title: "Die ganze Welt in einem Herbarium"
   categories: ["Herbarium"]
   description: |
@@ -11,3 +12,13 @@ features:
     **Universität Basel** [Universitätsbibliothek](https://maps.app.goo.gl/Vvm89Hz7xHRKrcVu6)   
   background: "https://ub.unibas.ch/fileadmin/_processed_/7/7/csm_UBB_web_key_visual_Herbarium_2500x1250_ca339b9133.jpg?1725438826"
   href: https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/Aktuell/Ausstellungen/Herbarium/GEST_Einladung__Herbarium_20240807_si.pdf
+
+- title: "tick tack - der Countdown des Lebens"
+  categories: ["Nature"]
+  description: |
+    **20.03.2025 - 19.10.2025**<br>
+    A special exhibition made by the [Natural History Museum Fribourg](https://www.fr.ch/mhnf), Switzerland<br>
+    **Naturmuseum Olten** [Haus der Museen](https://maps.app.goo.gl/X9sUovTLdPuS9AVJ9)   
+  background: "https://hausdermuseen.ch/templates/yootheme/cache/01/Tick_Tack_Vogel-01647f75.webp"
+  href: https://hausdermuseen.ch/sonderausstellung
+
