@@ -1,6 +1,6 @@
 lessons:
   title: "Tutorial sessions"
-  description: "How to use the Data Aggregatore functionalities"
+  description: "How to use the Data Aggregator functionalities"
   features:
     - title: "Lesson 1" # required
       description: |      # required
