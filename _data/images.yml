@@ -37,8 +37,8 @@ models_three_d:
   caption: "© 2023 [The Biocommunication Group - ETH Zurich](https://biocommunication.org/en/insects360/3d-scans/){:target=\"_blank\"}"
 
 visit_us:
-  src: /assets/images/placeholders/collections.png
-  caption: "GBIF standardised image"
+  src: /assets/images/categories/visit_us_Facade200D.jpg
+  caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
