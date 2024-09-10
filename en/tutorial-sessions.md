@@ -18,7 +18,7 @@ The first set of lessons focuses on data preparation for the import. Further fun
 
 {: .box }
 **MONDAY afternoon session - 15H-15h45** (3x 45 min)
-<br>- **09-09-2024** Lesson 1 Introduction, log in and data preparation
+<br>- ~~**09-09-2024** Lesson 1 Introduction, log in and data preparation~~
 <br>- **23-09-2024** Lesson 2 Uploading and Mapping
 <br>- **07-10-2024** Lesson 3 Conclusions and open-questions
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
