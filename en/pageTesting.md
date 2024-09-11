@@ -5,6 +5,9 @@ description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
+
+<div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cscfetkarch.sharepoint.com/sites/EquipeIT2/_layouts/15/embed.aspx?UniqueId=7a035c03-1344-4f75-8262-d0cdf76445b9&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Peche_Electrique_hd_3.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+
 # How to publish data on the Data Aggregator
 In order to publish your dataset/collection on the SwissNatColl portal, you need to first prepare a .csv or .tab file (Comma-Separated Values or Tab-Separated Values file) with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to upload your data in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/){:target="_blank"} (see [upload my data](#upload-my-data) here below). Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [validated](#validate-my-data) and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
