@@ -123,26 +123,25 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   - After signing in you arrive on the Dashboard page of the Aggregator (it is yet empty, but soon information will be put on it).
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). But at the moment, English is the main language. The rest has not been translated yet.
 
-# Upload my data
-3. Click on **Collections** on the left side of the window.
-  - On this page, you can see all the collections of your institution that have already been uploaded in the Data Aggregator. The name of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
+# Add a new collection
+1. Click on **Collections** on the left side of the window.
+  - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
   - You can order the collection list by clicking on the columns titel (e.g. Name, Code, State, Institution Code, Institution, Progress, Records count / est. and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
-  - The State column informs you of the running process step (Importing, Encoding, Publishing, Deleting). Unless the State of a collection is on "🕒Ready", no action can be launched until the current one is executed. Depending on the number of records, it can take up to a few hours.
-4. If you want to update an existing collection, go directly to step 12.
-5. If you want to create a new collection that is not yet on this page, go to the next step.
-6. Click on **New collection** on the right side of the window.
-7. Select the type of your data. ⚠️**Mandatory**⚠️
+  - The State column informs you of the running process step (Importing, Encoding, Publishing, Deleting). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+2. Click on **New collection** on the right side of the window.
+3. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
-8. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page (see step 2.).
-    - You can filter the suggested collections by writing your institution code (e.g. G, BERN, NMLU, etc.). This reduces the suggested list to only your registered collections.
-9. Add a description of the collection. 💡optional💡
-10. Click on **Create collection**
-    - If not ordered (see step 2., second sublist item), your newly created collection is added at the end of the list. If you want to find it quickly, you may click on the column titel **Updated at** and order it in a descending order (Newest to Latest).
-11. Click on the collection name.
-  - For each collection on the Data Aggregator, you have 4 tabs which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
-12. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
-13. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
+4. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+    - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page.
+5. Add a description of the collection. 💡optional💡
+6. Click on **Create collection**
+
+# Upload my data
+1. Click on **Collections** on the left side of the window.
+2. Click on the collection name.
+  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar below the collection name title, which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
+2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
+3. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
 --- A three-steps window has opened. ---
 
