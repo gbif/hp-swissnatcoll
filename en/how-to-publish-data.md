@@ -170,7 +170,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.tab/.txt file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple line is full.
-3. Click on **Upload file**
+3. Click on **Next**
 
 ## Map my data
 
