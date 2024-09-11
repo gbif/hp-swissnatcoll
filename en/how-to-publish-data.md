@@ -20,18 +20,18 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 > Example: [Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-✅ My institution has **at least one user profile with the [Collection Digitizer](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"} role**.
+✅ My institution has **at least [one user](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
 
 > - Collection Digitizer
 > - Data Administrator
 
-⚠️ If your institution does not have yet a Collection Digitizer, please send an email [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Digitizer, please send an email [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
 ✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded tab-separated values file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or tsv file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 
 ✅ My ready-for-upload dataset file has a **maximum size of 20 Mbyte (= 20 Mo)**.
 
@@ -48,8 +48,8 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 # Prepare my data
 
-1. You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
-   - Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+1. Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+   - You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
 2. Check that your file does not have
    - catalogNumber duplicate
    - "N/A"
