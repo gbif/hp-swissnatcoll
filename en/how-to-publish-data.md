@@ -124,8 +124,14 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). But at the moment, English is the main language. The rest has not been translated yet.
 
 # Add a new collection
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+❌ Only the _Collection Digitizer_ can add, edit and delete collections. The steps described in this section are unavailable for users with only the _Data Administrator_ role.
+</div>
+
 1. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
+     - If no collection has been added yet, you can click on "+ New collection" to add one
   - You can order the collection list by clicking on the columns titel (e.g. Name, Code, State, Institution Code, Institution, Progress, Records count / est. and Updated At). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the running process step (Importing, Encoding, Publishing, Deleting). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. Click on **New collection** on the right side of the window.
@@ -137,8 +143,13 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 6. Click on **Create collection**
 
 # Upload my data
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+❌ Only the _Data Administrator_ can do the following steps, from the upload to the publication on GBIForg. The steps described here are unavailable for users with only the _Collection Digitizer_ role.
+</div>
+
 1. Click on **Collections** on the left side of the window.
-2. Click on the collection name.
+2. Click on the collection name in which you want to upload your data.
   - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar below the collection name title, which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
 2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
 3. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
