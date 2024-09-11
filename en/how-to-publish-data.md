@@ -47,10 +47,15 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 # Prepare my data
 
 ⚠️ You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
+
   ✅ Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+  
 ⚠️ Check that your file does not have
+
   ❌ catalogNumber duplicate
+  
   ❌ "N/A"
+  
   ❌ Special symbols ($, ç, ö, #, %, etc.)
 
 
