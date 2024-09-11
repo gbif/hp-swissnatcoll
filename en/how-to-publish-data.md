@@ -31,12 +31,12 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 ✅ My ready-for-upload dataset file is an **UTF-8 encoded tab-separated values file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**
 
-✅ My ready-for-upload dataset file has a **maximum size of 20 Mbyte(= 20 Mo)**.
+✅ My ready-for-upload dataset file has a **maximum size of 20 Mbyte (= 20 Mo)**.
 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<strong>You can perform as many data imports as you like</strong> as long as your data isn't published on GBIF. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber values remain unchanged</strong>, each new import will update the corresponding existing data.
+<strong>ℹ️ You can perform as many data imports as you like</strong> as long as your data isn't published on GBIF. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber values remain unchanged</strong>, each new import will update the corresponding existing data.
 </div>
 
 <br>
@@ -45,7 +45,16 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 
 # Prepare my data
-Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how to prepare your dataset/collection for the upload in the Data Aggregator.
+
+⚠️ You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
+  ✅ Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+⚠️ Check that your file does not have
+  ❌ catalogNumber duplicate
+  ❌ "N/A"
+  ❌ Special symbols ($, ç, ö, #, %, etc.)
+
+
+Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
@@ -102,7 +111,8 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} on how t
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are better than cells with "n.a." values | avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
+  <p> ⚠️ empty cells are better than cells with "n.a." values ⚠️</p>
+  <p> ⚠️  avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
 </div>
 
 # Log in
