@@ -117,11 +117,13 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   <p> ⚠️  avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
 </div>
 
+
 # Log in
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
   - After signing in, you arrive on the Dashboard page of the Aggregator (it is yet empty, but soon information will be put on it).
   - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). Though at the moment, English is the main language. The rest has not been translated yet.
+
 
 # Add a new collection
 
@@ -132,7 +134,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 1. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
   - If no collection has been added yet, you can click on **+ New collection** to add one
-  - You can order the collection list by clicking on the **columns titel** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
+  - You can order the collection list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. If your Collections page is empty, click either on the **+ Add a collection** button in the center of the page or on **New collection** on the top-right corner of the window (it does the same thing at this point).
 3. If your Collections page already has collections, click on the **New collection** button in the top right corner.
@@ -147,15 +149,16 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 4. Click on **Create collection**
     - If you change your mind, you can cancel and close the window at any time, or delete the collection afterwards.
 
+
 # Upload my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Data Administrator</i> can do the following steps, from the upload to the publication on GBIForg. The steps described here are unavailable for users with only the <i>Collection Digitizer</i> role.
+❌ Only the <i>Data Administrator</i> can do the following steps, from the upload to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
 </div>
 
 1. Click on **Collections** on the left side of the window.
 2. Click on the collection name in which you want to upload your data.
-  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar on top of the collection page (Records, Imports, Exports, Publications and Approvals).
+  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar on top of the collection page (_Records_, _Imports_, _Exports_, _Publications and Approvals_).
   - The tab **Records** displays the imported records available in your collection.
   - The tab **Imports** stores all the files you have imported, displaying the state of import, the name of the file with the number of rows, the size and the number of records imported.
   - The tab **Exports** stores all the files you have exported (see [Export my data](#export-my-data)).
@@ -165,11 +168,12 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 --- A three-steps window has opened. ---
 
-1. (Step 1 of 3) Click on **Choose a file** to select your prepared .tab file or drag and drop it if you have a folder window opened on your screen.
+1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.tab/.txt file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple line is full.
 3. Click on **Upload file**
 
 ## Map my data
+
 The mappings window (Step 2 of 3) has two parts:
   - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator (scientificName and catalogNumber).
   - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
@@ -201,6 +205,7 @@ The mappings window (Step 2 of 3) has two parts:
 </div>
 
 # Encode my data
+
 1. Click on **Encode**.
   - A window opens for confirmation check.
 2. Click on **Yes, encode**.
@@ -211,6 +216,7 @@ The mappings window (Step 2 of 3) has two parts:
       - if the status is "Incomplete", the record is "Not encoded". The reason is displayed when passing over the "Incomplete" logo with the mouse.
 
 # Approve my data
+
 1. Click on **Approve**.
   - A window opens for confirmation check.
 2. Click on **Yes, approve**.
@@ -219,6 +225,12 @@ The mappings window (Step 2 of 3) has two parts:
 
 
 # Publish my data
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, your published data are on GBIF-UAT (technical page of GBIF), where you can have a preview of how your dataset page will look like on GBIF.org<br>
+We thank you for your patience and understanding.
+</div>
+
 1. Click on **Publish**.
    - A window opens for confirmation check.
 2. Click on **Yes, publish**
@@ -227,6 +239,7 @@ The mappings window (Step 2 of 3) has two parts:
 
 
 # Export my data
+
 1. Click on **Export**.
   - Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the DWC Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part. You can select only one at a time. If you want both, export the records twice.
   - Select the data layer you want to export (either your original data, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part. You can select only one at a time. If you want both, export the records twice.
