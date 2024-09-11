@@ -72,5 +72,5 @@ The first set of lessons focuses on data preparation for the import. Further fun
 
 _Available on Thursday, 12th of September_
 
-// <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cscfetkarch.sharepoint.com/sites/EquipeIT2/_layouts/15/embed.aspx?UniqueId=51591e6b-5e4a-4d26-8d72-5e736bca65eb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Dagi_Session1Lesson1MONDAY.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
+/// <div style="max-width: 1280px"><div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"><iframe src="https://cscfetkarch.sharepoint.com/sites/EquipeIT2/_layouts/15/embed.aspx?UniqueId=51591e6b-5e4a-4d26-8d72-5e736bca65eb&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="1280" height="720" frameborder="0" scrolling="no" allowfullscreen title="Dagi_Session1Lesson1MONDAY.mp4" style="border:none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; height: 100%; max-width: 100%;"></iframe></div></div>
 
