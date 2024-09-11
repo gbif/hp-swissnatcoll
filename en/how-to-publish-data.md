@@ -126,14 +126,14 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 # Add a new collection
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Collection Digitizer</i> can add, edit and delete collections. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
+❌ Only the <i>Collection Digitizer</i> role can add, edit and delete collections. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
 </div>
 
 1. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
-  - If no collection has been added yet, you can click on "+ New collection" to add one
-  - You can order the collection list by clicking on the columns titel (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
-  - The State column informs you of the running process step (Importing, Encoding, Publishing, Deleting). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+  - If no collection has been added yet, you can click on **+ New collection** to add one
+  - You can order the collection list by clicking on the **columns titel** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
+  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. If your Collections page is empty, click either on the **+ Add a collection** button in the center of the page or on **New collection** on the top-right corner of the window (it does the same thing at this point).
 3. If your Collections page already has collections, click on the **New collection** button in the top right corner.
 
