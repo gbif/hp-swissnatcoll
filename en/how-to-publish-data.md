@@ -131,16 +131,21 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 1. Click on **Collections** on the left side of the window.
   - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
-     - If no collection has been added yet, you can click on "+ New collection" to add one
+  - If no collection has been added yet, you can click on "+ New collection" to add one
   - You can order the collection list by clicking on the columns titel (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the running process step (Importing, Encoding, Publishing, Deleting). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
-2. Click on **New collection** on the right side of the window.
-3. Select the type of your data. ⚠️**Mandatory**⚠️
+2. If your Collections page is empty, click either on the **+ Add a collection** button in the center of the page or on **New collection** on the top-right corner of the window (it does the same thing at this point).
+3. If your Collections page already has collections, click on the **New collection** button in the top right corner.
+
+--- A window has opened. ---
+
+1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
-4. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
     - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page.
-5. Add a description of the collection. 💡optional💡
-6. Click on **Create collection**
+3. Add a description of the collection. 💡optional💡
+4. Click on **Create collection**
+    - If you change your mind, you can cancel and close the window at any time, or delete the collection afterwards.
 
 # Upload my data
 
@@ -150,8 +155,12 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 1. Click on **Collections** on the left side of the window.
 2. Click on the collection name in which you want to upload your data.
-  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar below the collection name title, which will be used through the whole process (Records, Imports, Exports, Publications, and Approvals)
-2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner (it does the same thing at this point).
+  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar on top of the collection page (Records, Imports, Exports, Publications and Approvals).
+  - The tab **Records** displays the imported records available in your collection.
+  - The tab **Imports** stores all the files you have imported, displaying the state of import, the name of the file with the number of rows, the size and the number of records imported.
+  - The tab **Exports** stores all the files you have exported (see [Export my data](#export-my-data)).
+  - The tab **Publications and Approvals** stores all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers (see [Publish my data](h#publish-my-data) and [Approve my data](#approve-my-data)).
+2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
 3. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
 --- A three-steps window has opened. ---
