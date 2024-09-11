@@ -301,6 +301,22 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 # Data Aggregator functionalities
 
+## Can I upload images in the Data Aggregator?
+Ultimately, yes. This aspect is still in development and not everyone will be able to upload images in the media store of the Aggregator.
+
+However, some elements can already be prepared by the institutions:
+
+✅ My specimen image files are named after the catalogNumber of my specimen (or at least start with it).
+
+> Example: G12346579.jpg, BERN-123456.tiff
+
+✅ The name of the image files is added to my dataset in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}
+
+> Example 1: Sheet-132456789.jpg
+> Example 2: Sheet-123456789_front.jpg | Sheet-123456798_back.jpg
+
+✅ My image files to be uploaded are smaller than 5 Mb (JPEG) and 30 Mb (TIFF)
+
 ## I made a mistake when importing my data into the Data Aggregator, what do I do?
 
 The Data Aggregator has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
