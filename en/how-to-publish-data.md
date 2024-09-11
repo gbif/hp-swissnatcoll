@@ -114,7 +114,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
   </table>
   <p> ⚠️ empty cells are better than cells with "n.a." values ⚠️</p>
-  <p> ⚠️  avoid special symbols (#, ö, é, ...) at all costs ⚠️</p>
+  <p> ⚠️  avoid special symbols (#, ü, ö, é, &, %, ...) at all costs ⚠️</p>
 </div>
 
 
@@ -169,19 +169,20 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 --- A three-steps window has opened. ---
 
 1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.tab/.txt file or drag and drop it if you have a folder window opened on your screen.
-2. Wait until the purple line is full.
+2. Wait until the purple bar is full.
 3. Click on **Next**
 
 ## Map my data
 
 The mappings window (Step 2 of 3) has two parts:
-  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator (scientificName and catalogNumber).
+  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
   - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
 
-1. For the Required attributes, select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
+1. If you already did a mapping, it is possible to reuse from the previous mapping (blue band on the of the window) by clicking on **Load** (click once and wait a little, it is sometimes slow), if not, go to the next step.
+2. For the Required attributes, select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
   - By typing the beginning of your field names, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult this [page](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
-2. For the Additional columns, either click on **+ Add all** or on the attribute names (with grey background) to map your fields with the additional attributes.
+  - If unsure of the correspondence between the attributes and your field names, consult the FAQs section [Where can I find the Darwin Core terms description?](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
+2. For the Additional columns, either click on **+ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the additional attributes.
   - The added attributes appear at the bottom of the Mappings window.
 3. Repeat these steps until all of the fields you want to import are mapped.
   - Not all of your fields may be mandatory for GBIF. Find [here](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
@@ -194,7 +195,7 @@ The mappings window (Step 2 of 3) has two parts:
 
 5. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
 6. When satisfied, click on **Run import**.
-  - The window displayed is now the Imports tab, where you can see all your imports for a given collection at all times as well as the original imported files for each import.
+  - The window displayed is now the Imports tab, where you can see all your imported files for a given collection at all times.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
 7. Click on **Records** to see your imported records.
