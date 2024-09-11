@@ -68,6 +68,7 @@ The first set of lessons focuses on data preparation for the import. Further fun
 
 ### Video material
 
-_coming soon_
+#### Lesson 1 Introduction, log in and data preparation
 
+_Available on Thursday, 12th of September_
 
