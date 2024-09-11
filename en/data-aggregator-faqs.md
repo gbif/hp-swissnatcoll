@@ -6,10 +6,10 @@ toc: true
 sideNavigation: sideNavigation.tutorials
 ---
 
-# Swiss Data Aggregator
+# Swiss Data Aggregator FAQs
 
 
-# FAQs
+# Data preparation
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
@@ -287,10 +287,6 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | ...    | ... |
 
 
-## I made a mistake when importing my data into the Data Aggregator, what do I do?
-
-The Data Aggregator has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
-
 ## How can I check if my import file is encoded in UTF-8?
 
 * Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" style="vertical-align:middle" height="15" width="15"> Notepad app.
@@ -302,6 +298,49 @@ The Data Aggregator has a structure in three different layers (imported data, en
 
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
+
+# Data Aggregator functionalities
+
+## I made a mistake when importing my data into the Data Aggregator, what do I do?
+
+The Data Aggregator has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
+
+
+## What are the different roles of the user profile on the Data Aggregator?
+
+There are two different roles for user profile on the Data Aggregator:
+- **Data Administrator**
+  - can view the collections of their institution
+  - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
+<br>
+- **Collection Digitizer**
+  - can view, add, edit and remove Data Administrator users of their institution
+  - can view, add and edit collections of their institution
+ 
+<br>
+
+| Tasks | Data Administrator | Collection Digitizer |
+| ----- | ------------------ | -------------------- |
+| **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
+| **Users** -add/edit/remove Data Administrator | ❌ | ✅ own institution |
+| **Collections** -add/edit | ❌ | ✅ own institution |
+| **Collections** -view | ✅ own institution | ✅ own institution |
+| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
+
+<br><br>
+
+{: .box }
+For all users and roles, the following rules apply:
+<br>🔸One **institution** can have **more than one user / role**
+<br>🔸One **user** is attributed to **one and only one institution**
+<br>🔸One **user** can have **more than one role**
+<br>🔸**A user profile is specific to an individual and must not be shared with others**
+
+### My institution does not have a Collection Digitizer yet, what can I do?
+
+Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name.
+
+# Data standards
 
 ## What is Darwin Core?
 
@@ -457,39 +496,6 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | Institution<br><br> [dwc:institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} | Herbarium des Botanischen Gartens der Universität Bern<br> Herbarium Bern<br> Herb. Bern<br> Herbarium BOGA | BERN | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
-## What are the different roles of the user profile on the Data Aggregator?
-
-There are two different roles for user profile on the Data Aggregator:
-- **Data Administrator**
-  - can view the collections of their institution
-  - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
-<br>
-- **Collection Digitizer**
-  - can view, add, edit and remove Data Administrator users of their institution
-  - can view, add and edit collections of their institution
- 
-<br>
-
-| Tasks | Data Administrator | Collection Digitizer |
-| ----- | ------------------ | -------------------- |
-| **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
-| **Users** -add/edit/remove Data Administrator | ❌ | ✅ own institution |
-| **Collections** -add/edit | ❌ | ✅ own institution |
-| **Collections** -view | ✅ own institution | ✅ own institution |
-| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
-
-<br><br>
-
-{: .box }
-For all users and roles, the following rules apply:
-<br>🔸One **institution** can have **more than one user / role**
-<br>🔸One **user** is attributed to **one and only one institution**
-<br>🔸One **user** can have **more than one role**
-<br>🔸**A user profile is specific to an individual and must not be shared with others**
-
-### My institution does not have a Collection Digitizer yet, what can I do?
-
-Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name.
 
 
 <html lang="en">
