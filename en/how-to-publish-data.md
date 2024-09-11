@@ -48,22 +48,22 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 ⚠️ You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
 
-  ✅ Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+    ✅ Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
   
 ⚠️ Check that your file does not have
 
-  ❌ catalogNumber duplicate
+    ❌ catalogNumber duplicate
   
-  ❌ "N/A"
+    ❌ "N/A"
   
-  ❌ Special symbols ($, ç, ö, #, %, etc.)
+    ❌ Special symbols ($, ç, ö, #, %, etc.)
 
 
 Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the upload in the Data Aggregator.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 tab-separated values file (.tab or .txt) of a maximum size of 20 Mbyte/Mo, with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
+  <p>✅ 1 csv or tab-separated values file (.tab or .txt) of a maximum size of 20 Mbyte/Mo, with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
