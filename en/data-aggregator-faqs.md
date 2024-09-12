@@ -603,6 +603,12 @@ Currently, the staff of GBIF Swiss Node is preparing the correct procedure to so
 If this special case concerns you, please take contact with [GBIF Swiss Node](mailto:contact@gbif.ch).
 
 
+## My institution has geological specimens (rocks and such), what have you planned about it?
+
+Currently, the Data Aggregator and SwissNatColl hosted portal are mainly oriented for biological data (including fossils and paleontology). On the other side, GBIF.org does not support geological data.
+
+The inclusion of the geological data of Switzerland is still in discussion, and no planning can be determined at the point where we stand at the moment.
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
