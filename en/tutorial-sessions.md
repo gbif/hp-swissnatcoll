@@ -68,10 +68,8 @@ The first set of lessons focuses on data preparation for the import. Further fun
 
 ### Video material
 
-Link to the tutorial folder: [SwissNatColl/Tutorials](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EUAHFuUJs9dGpZOmLDcHsREBH0LCdbOz2yCUsO0W8NRcaA?e=EtisnC)
-
 #### Lesson 1 Introduction, log in and data preparation
 
 _Available on Thursday, 12th of September_
 
-Link to the video : [Dagi_Session1Lesson1MONDAY](https://cscfetkarch.sharepoint.com/:v:/r/sites/infofauna_extern/Documents/Projets/SwissNatColl/Tutoriels/Dagi_Session1Lesson1MONDAY.mp4?csf=1&web=1&e=Eu7t3y&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link to the video : [Dagi_Session1Lesson1MONDAY](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/ERUY8dF1l15PlmktTwK-avMBtfSAOKdgDotw9_MaUz3BqA?e=vAKPLb)
