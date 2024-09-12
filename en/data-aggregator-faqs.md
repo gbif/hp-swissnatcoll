@@ -591,6 +591,17 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
 
+# Special cases
+
+## My institution already has data on GBIF.org, how is this dealt with?
+
+In this case, the data in your database that has already been sent to an Infospecies data center and/or GBIF Swiss Node and/or GBIF.org **MUST NOT be published again through the Data Aggregator**. This could cause big problems of duplicated data, losing visibility through the articles that already used your specimen data on GBIF.org and provided the link to it (DOI, dataset ID, occurrence ID, etc...).
+
+Currently, the staff of GBIF Swiss Node is preparing the correct procedure to solve this issue. We recommend in the meantime to import on the Aggregator data that has not been published anywhere else yet.
+
+{: .box }
+If this special case concerns you, please take contact with [GBIF Swiss Node](mailto:contact@gbif.ch).
+
 
 <html lang="en">
 <head>
