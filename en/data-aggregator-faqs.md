@@ -287,7 +287,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | ...    | ... |
 
 
-## Are there fields in Data Aggregator which are not part of Darwin Core?
+## Are there fields in Data Aggregator that are not part of Darwin Core?
 
 Some of the fields in the Data Aggregator have been borrowed from other sources (e.g. [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"}, GBIF Swiss Node) or have been homemade to answer specific needs of our swiss institutions (e.g. our swiss coordinates systems).
 
