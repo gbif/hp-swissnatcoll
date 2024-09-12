@@ -293,16 +293,6 @@ Some of the fields in the Data Aggregator have been borrowed from other sources 
 
 Here is a table with those fields and their definition:
 
-| Source | Borrowed term | Definition | Examples |
-| ------ | ------------- | ---------- | -------- |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-
 | Attribute                        | Description                                                                                                                                                     | Examples                                                                                         |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | endOfPeriodDay                   | The integer day of a date marking the end of an interval in which the Event occurred.                                                                            | 2, 30                                                                                            |
