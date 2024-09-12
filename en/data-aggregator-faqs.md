@@ -302,7 +302,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 # Data Aggregator functionalities
 
 ## Can I upload images in the Data Aggregator?
-Ultimately, yes. This aspect is still in development and not everyone will be able to upload images in the media store of the Aggregator.
+Ultimately, yes. This aspect is still in development and not everyone will be able to upload images in the Media Store of the Aggregator.
 
 However, some elements can already be prepared by the institutions:
 
