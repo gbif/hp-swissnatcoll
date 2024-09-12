@@ -147,8 +147,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
     - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page.
 3. Add a description of the collection. 💡optional💡
 4. Click on **Create collection**
-    - If you change your mind, you can cancel and close the window at any time, or delete the collection afterwards.
-
+    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or delete the collection afterwards.
 
 # Upload my data
 
@@ -208,20 +207,24 @@ The mappings window (Step 2 of 3) has two parts:
 # Encode my data
 
 1. Click on **Encode**.
-  - A window opens for confirmation check.
-2. Click on **Yes, encode**.
-  - A progression bar appears during the encoding process and disappears when finished. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
+  - A window opens with a short summary of what the encoding does.
+  - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
+2. Click on **Encode**.
+  - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
+  - During the encoding, no other action can be started.
 3. Check the percentage of encoded data on your Collection page.
   - Below the grey band with Records - Imports - Exports - Publication and Approvals, there are two boxes displaying first the total number of records (*All records*) and second the percentage and number of un-encoded records (*Not encoded*).
   - By clicking on any **record**, and then on the **Record encodings** drop-down list, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
-      - if the status is "Incomplete", the record is "Not encoded". The reason is displayed when passing over the "Incomplete" logo with the mouse.
+  - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when passing over the "Incomplete" logo with the mouse.
 
 # Approve my data
 
 1. Click on **Approve**.
-  - A window opens for confirmation check.
-2. Click on **Yes, approve**.
-  - A progression bar appears during the approval process and disappears when finished.
+  - A window opens with a short summary of what the approval entitles.
+  - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
+2. Click on **Approve**.
+  - A progression bar appears during the approval process and disappears when launched.
+  - This process might take some time, but we currently can't say how long.
 3. Check the Approval status of your records on your Collection page.
 
 
@@ -233,21 +236,26 @@ We thank you for your patience and understanding.
 </div>
 
 1. Click on **Publish**.
-   - A window opens for confirmation check.
-2. Click on **Yes, publish**
-    - A progression bar appears during the publishing process and disappears when finished.
-3. Check the Publication status of your records on your Collection page.
+   - A window opens with a short summary of what the publication entitles.
+3. Tick the check box if you agree with our [terms and conditions](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and accept full responsibility for the publication.
+  - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.
+4. Click on **Publish**
+    - A progression bar appears during the publishing process and disappears when launched.
+5. Check the Publication status of your records on your Collection page.
+6. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
 
 
 # Export my data
 
 1. Click on **Export**.
-  - Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the DWC Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part. You can select only one at a time. If you want both, export the records twice.
-  - Select the data layer you want to export (either your original data, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part. You can select only one at a time. If you want both, export the records twice.
-2. Click on **Start export**.
-  - The page view changes from "Records view" to "Exports view" where all of your exported files are listed.
+2. Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the Darwin Core (DWC) Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part.
+   - You can select only one at a time. If you want both, export the records twice.
+3. Select the data layer you want to export (either your original data (Raw), as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part.
+   - You can select only one at a time. If you want both, export the records twice.
+4. Click on **Start export**.
+  - The page view changes from "Records" to "Exports" where all of your exported files are listed.
   - A progression bar appears during the export process and disappears when finished.
-3. Click on the **blue icon** of your export file in the *Size* column.
+3. Click on the **blue icon** of your export file in the _Size_ column.
   - The file is now saved as a .zip file on your computer (usually in the Dowloads folder or on your Desktop).
 4. Go to the zip file on your computer and extract the CSV file it contains.
   - A unique file name for this CSV file has been generated by the Data Aggregator.
