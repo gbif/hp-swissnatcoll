@@ -70,6 +70,12 @@ The first set of lessons focuses on data preparation for the import. Further fun
 
 #### Lesson 1 Introduction, log in and data preparation
 
-_Available on Thursday, 12th of September_
-
-Link to the video : [Dagi_Session1Lesson1MONDAY](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/ERUY8dF1l15PlmktTwK-avMBtfSAOKdgDotw9_MaUz3BqA?e=vAKPLb)
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/ERUY8dF1l15PlmktTwK-avMBtfSAOKdgDotw9_MaUz3BqA?e=vAKPLb" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='#FA5E97';"
+            onmouseout="this.style.color='#333';">
+      1️⃣ Session 1 Lesson 1
+    </button>
+  </a>
+</div>
