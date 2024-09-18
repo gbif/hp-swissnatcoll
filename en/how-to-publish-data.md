@@ -154,7 +154,8 @@ There are five different tabs on your institution page
     - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page.
 3. Add a description of the collection. 💡optional💡
 4. Click on **Create collection**
-    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or delete the collection afterwards.
+    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
+    - ⚠️Do not delete a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️
 
 # Upload my data
 
@@ -268,6 +269,7 @@ We thank you for your patience and understanding.
     - A progression bar appears during the publishing process and disappears when launched.
 5. Check the Publication status of your records on your Collection page.
 6. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
+    - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
 
 
 <html lang="en">
