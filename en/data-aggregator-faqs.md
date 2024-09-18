@@ -96,7 +96,7 @@ To help you select your fields, **here is a table with the most important Darwin
       <td style="border: 1px solid black; padding: 5px; text-align: left;">General collection</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">t62v83k3-3zs9-6934-kk21-o49ra9e7348p</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">dried plant</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Not a type</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">2015</td>
     </tr>
   </table>
