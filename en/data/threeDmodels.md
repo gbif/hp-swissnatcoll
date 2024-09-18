@@ -41,7 +41,11 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
 
 ## Specimen Details
 
-Below are the details of the currently selected specimen (⚠️currently displayed as an example, these are not the corresponding data⚠️):
+Below are the details of the currently selected specimen
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ The details currently displayed are an example, these are not the corresponding data, except for the source of the model.
+</div>
 
 - **Scientific Name:** <span id="scientificName"></span>
 - **Catalog Number:** <span id="catalogNumber"></span>
@@ -51,6 +55,7 @@ Below are the details of the currently selected specimen (⚠️currently displa
 - **Country Code:** <span id="countryCode"></span>
 - **SwissNatColl Occurrence Page:** [View on GBIF](/occurrence/search?entity=3777522425)
 - **GBIF Occurrence Page:** [<span id="gbifLink">View on GBIF</span>](#)
+- **Source of the model:** [Insects360 - Biocomm Research Group](https://biocommunication.org/en/insects360/3d-scans/hylaeus-nigritus/)
 
 <script>
 function getModelNameFromURL() {
