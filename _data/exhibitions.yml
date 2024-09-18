@@ -4,6 +4,15 @@ description: |
   Every day of the year, come discover specific elements of our collections through the temporary exhibitions of our institutions. Don't hesitate to come back for the permanent exhibition too.
 features: 
 
+- title: "Spuren - Fährten, Frass und Federn"
+  categories: ["Nature"]
+  description: |
+    **14.12.2023 - 22.10.2024 ⚠️SOON OVER**<br>
+    The special exhibition "Traces – Tracks, Grazing and Feathers" is an in-house production of the Natural History Museum and focuses on the different traces and their causes. With the help of comparison objects, interactive stations or identification aids, young and older researchers are given the tools to solve the puzzles.<br>
+    **Naturmuseum Solothurn** [Naturmuseum](https://maps.app.goo.gl/ho73iuuUqqxnq39Q7)   
+  background: "https://cache.pressmailing.net/thumbnail/story_big/84378cd0-9f4e-4fa9-a975-276e37c23bf0/neue-sonderausstellung-spuren-f-hrten-frass-und-federn-im-naturmuseum-solothurn"
+  href: https://naturmuseum-so.ch/ausstellungen/aktuelle-sonderausstellung/
+
 - title: "Die ganze Welt in einem Herbarium"
   categories: ["Herbarium"]
   description: |
@@ -19,6 +28,6 @@ features:
     **20.03.2025 - 19.10.2025**<br>
     A special exhibition made by the [Natural History Museum Fribourg](https://www.fr.ch/mhnf), Switzerland<br>
     **Naturmuseum Olten** [Haus der Museen](https://maps.app.goo.gl/X9sUovTLdPuS9AVJ9)   
-  background: "https://hausdermuseen.ch/templates/yootheme/cache/01/Tick_Tack_Vogel-01647f75.webp"
+  background: "https://hausdermuseen.ch/images/nmo/home/teaser/sonderausstellung_2024.gif"
   href: https://hausdermuseen.ch/sonderausstellung
 
