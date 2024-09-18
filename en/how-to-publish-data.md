@@ -121,9 +121,13 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 # Log in
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
-  - After signing in, you arrive on the Dashboard page of the Aggregator (it is yet empty, but soon information will be put on it).
-  - You can change the language of the website on the top right corner of the window (Available languages: English, Français, Deutsch). Though at the moment, English is the main language. The rest has not been translated yet.
-
+  - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
+  - There are five different tabs on your institution page
+      - **Collections**: displays all the collections of your institution already added in the Data Aggregator.
+      - **Records**: displays all the records already imported, present in all of your collections.
+      - **Administration**: visible only to Collection Digitizer users, displays all users already added to your institution.
+      - **Guide**: opens the **How to publish data with the Data Aggregator** page on the SwissNatColl hosted portal
+      - **Tutorials**: opens the **Tutorial sessions for the Data Aggregator users** page on the SwissNatColl hosted portal
 
 # Add a new collection
 
