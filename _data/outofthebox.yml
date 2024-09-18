@@ -1,15 +1,15 @@
 title: Out of the Box
 klass: contentTypesStat
 description: |
-  Treasures brought to light by digitisation of Swiss natural history collections
+  Treasures brought to light by digitisation of Swiss natural history collections<br>
   Inspiration: [SCNAT - Out of the Box](https://swisscollnet.scnat.ch/en/out_of_the_box)
 features: 
-- title: "Colours or not colours"
-  categories: ["Herbarium"]
-  background: "/assets/images/virtualvisit/Post_1.jpg"
-  href: /en/visit_us/post_1
+- title: "Artificial Intelligence to the Rescue"
+  categories: ["AI"]
+  background: "https://portal-cdn.scnat.ch/asset/247958a7-aa17-5651-9336-eefd39d4544a/SCN115-NE_Short-story_01.jpg?b=d2be36dc-4c63-5922-a3c8-02d77a34e546&v=d806dccd-5396-5469-b00b-c55c4865681e_100&s=hORS4QWZsI23V2XvEq7IeWcSHiE9640i1k_d34AlG5kUtuWX1bxQHFuOJESHiXU01xIJrNmJTShe_YsJdvxmPcvuBfLwGIoUmWjCYI0AH1sAwoOe8H69dFQjSeCOkeNKYr0K22HKy-1XJPHOuYqzfPO-2iFueZLINdrwJHI3xgM&t=fc13185f-cc70-4eb1-86f2-ea80914407bc&sc=2"
+  href: https://swisscollnet.scnat.ch/en/out_of_the_box/uuid/i/3a852aa4-cd88-56ec-89f5-5c5182ffc99f-Artificial_Intelligence_to_the_Rescue
   
-- title: "Coming soon" #"{{ site.data.outoftheboxposts.post_2.title }}"
-  categories: ["Coming soon"]
-  #background: "{{ site.data.outoftheboxposts.post_2.background }}"
-  href: /en/visit_us/post_2
+- title: "Filmpremiere: ARCHIV DER ZUKUNFT"
+  categories: ["Movies"]
+  background: "https://portal-cdn.scnat.ch/asset/85f7cb75-908f-577f-a7d2-d0e6544aa849/Archiv_der_Zukunft_02%C2%A9Navigator-Film-552x310.jpg?b=955f2a96-941e-566a-b4d9-fa14d27c35aa&v=a9020a82-c7ff-5a39-8e9a-fed693a3b4e4_0&s=C9qwrKlJVxlMzQ9we43LWrLlJ5PLCz7J65l8Yw4xMvKlP0dLc73I_m6IVznP0IXKWroH9NG1o3lPV-7WH9xs4Wcl6xU5Rzo5pDOvhNEaisnlWucRa0j_jrOqftkn7EzOiVXZvFaKdZlEu9BIIP8EjWITdajl-gJ3MGHOHiwXtNQ&t=fc13185f-cc70-4eb1-86f2-ea80914407bc&sc=2"
+  href: https://swisscollnet.scnat.ch/fr/out_of_the_box/uuid/i/39f63518-14de-5646-a766-40f2a6788db1-Filmpremiere_ARCHIV_DER_ZUKUNFT
