@@ -5,6 +5,8 @@ tutorials:
     path: /en/data-aggregator-about
   - title: FAQs
     path: /en/data-aggregator-faqs
+  - title: 🔗Direct Link
+    path: https://staging.aggregator.scnat.zebbra.ch/sign-in
 
 - grouptitle: Darwin Core
   content:
