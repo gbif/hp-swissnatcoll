@@ -11,9 +11,13 @@ composition:
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
   - type: features
     data: exhibitions
+  - type: blank
+    data: 
   - type: features
     data: outofthebox
 ---
+
+
 
 ## Discover the treasures of our collections
 Here starts an extraordinary journey to uncover the hidden and forgotten treasures within Switzerland's natural history collections.
