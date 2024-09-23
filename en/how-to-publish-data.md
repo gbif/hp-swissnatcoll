@@ -196,21 +196,18 @@ The mappings window (Step 2 of 3) has three parts:
 5. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the additional attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
-3. Repeat these steps until all of the fields you want to import are mapped.
+6. Repeat these steps until all of the fields you want to import are mapped.
   - Not all of your fields may be mandatory for GBIF. Find [here](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
-  - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute".
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: <strong>Currently all Extra Attributes are lost after the Mapping.</strong> They are not displayed on the Records view page and can't be exported. But they are still present in the uploaded files which had them in the Imports view page.
-</div>
-
-4. When satisfied with your mapping, click on **Update mapping**.
-
-5. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
-6. When satisfied, click on **Run import**.
+  - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes are currently not encoded and published on GBIF. It is still useful to have them in case they can be used in future versions.
+<br>
+7. When satisfied with your mapping, click on **Update mapping**.
+<br>
+8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
+9. When satisfied, click on **Run import**.
   - The window displayed is now the Imports tab, where you can see all your imported files for a given collection at all times.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
-7. Click on **Records** to see your imported records.
+10. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
