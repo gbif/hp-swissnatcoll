@@ -9,7 +9,7 @@ stats:
       background: "{{ site.data.images.institutions.src }}"
       href: "/institution/search"
     
-    - title: "320" #<span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CH&limit=0">45</span>
+    - title: "320" #<span data-ajax-url="https://api.gbif.org/v1//grscicoll/collection?country=CH&limit=0"></span>
       description: "Collections"
       background: "{{ site.data.images.collections.src }}"
       href: "/collection/search"
