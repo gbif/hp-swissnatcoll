@@ -4,7 +4,7 @@
 stats:
   klass: contentTypesStat
   features:
-    - title: "51" #<span data-ajax-url="https://api.gbif.org/v1/organization?country=CH&limit=0&isEndorsed=true">642</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=CH&limit=0&isEndorsed=true"></span>
       description: "Swiss institutions"
       background: "{{ site.data.images.institutions.src }}"
       href: "/institution/search"
