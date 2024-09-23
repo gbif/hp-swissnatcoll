@@ -183,9 +183,9 @@ There are five different tabs on your institution page
 
 {: .box }
 The mappings window (Step 2 of 3) has three parts:
-  - Quick Start: if your field names are the exactly the same as the Data Aggregator's attributes, the mapping can be automatically performed by **Try auto-mapping**. The second button can be used after the first mapping and re-mapps your fields the same way you mapped them previously (as long as your field names do not change)
-  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-  - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
+<br>  - Quick Start: if your field names are the exactly the same as the Data Aggregator's attributes, the mapping can be automatically performed by **Try auto-mapping**. The second button can be used after the first mapping and re-mapps your fields the same way you mapped them previously (as long as your field names do not change)
+<br>  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
+<br> - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
 
 1. If your fields are 100% the same as the Data Aggregator's attribute, click on **✨ Try auto-mapping** and simply check the mapping before clicking on **Update mapping**.
 2. If you already did a mapping, click on **🔄️ Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
