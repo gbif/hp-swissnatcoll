@@ -13,7 +13,7 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** on the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
+There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into the Data Aggregator.
 
@@ -402,7 +402,7 @@ The Data Aggregator has a structure in three different layers (imported data, en
 
 ## What are the different roles of the user profile on the Data Aggregator?
 
-There are two different roles for user profile on the Data Aggregator:
+There are two different roles for user profile in the Data Aggregator:
 - **Data Administrator**
   - can view the collections of their institution
   - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
