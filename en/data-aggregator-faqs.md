@@ -9,7 +9,7 @@ sideNavigation: sideNavigation.tutorials
 # Swiss Data Aggregator FAQs
 
 
-# Data preparation
+<h1 style="background-color: #6DE4FF; padding: 10px; color: black;">Data preparation</h1>
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
