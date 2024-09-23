@@ -53,7 +53,7 @@ Below are the details of the currently selected specimen
 - **Recorded By:** <span id="recordedBy"></span>
 - **Year:** <span id="year"></span>
 - **Country Code:** <span id="countryCode"></span>
-- **SwissNatColl Occurrence Page:** [View on GBIF](/occurrence/search?entity=3777522425)
+- **SwissNatColl Occurrence Page:** [View on SwissNatColl Data](/occurrence/search?entity=3777522425)
 - **GBIF Occurrence Page:** [<span id="gbifLink">View on GBIF</span>](#)
 - **Source of the model:** [Insects360 - Biocomm Research Group](https://biocommunication.org/en/insects360/3d-scans/hylaeus-nigritus/)
 
