@@ -377,7 +377,7 @@ Here is a table with those fields and their definition:
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
 
-# Data Aggregator functionalities
+<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
 ## Can I upload images in the Data Aggregator?
 Ultimately, yes. This aspect is still in development and not everyone will be able to upload images in the Media Store of the Aggregator.
@@ -434,7 +434,7 @@ For all users and roles, the following rules apply:
 
 Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name.
 
-# Data standards
+<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data standards</h1>
 
 ## What is Darwin Core?
 
@@ -591,7 +591,7 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 | collection<br><br> [dwc:country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"} | Hauptsammlung | Herbarium specimens | [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"} |
 
 
-# Special cases
+<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
 
 ## My institution already has data on GBIF.org, how is this dealt with?
 
