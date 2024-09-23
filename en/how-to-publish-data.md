@@ -181,19 +181,24 @@ There are five different tabs on your institution page
 
 ## Map my data
 
-The mappings window (Step 2 of 3) has two parts:
+{: .box }
+The mappings window (Step 2 of 3) has three parts:
+  - Quick Start: if your field names are the exactly the same as the Data Aggregator's attributes, the mapping can be automatically performed by **Try auto-mapping**. The second button can be used after the first mapping and re-mapps your fields the same way you mapped them previously (as long as your field names do not change)
   - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
   - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
 
-1. If you already did a mapping, it is possible to reuse from the previous mapping (blue band on the of the window) by clicking on **Load** (click once and wait a little, it is sometimes slow), if not, go to the next step.
-2. For the Required attributes, select in the drop-down menu **Filter columns...** the corresponding field in your imported file of each required attribute.
-  - By typing the beginning of your field names, you can find them more easily.
+1. If your fields are 100% the same as the Data Aggregator's attribute, click on **✨ Try auto-mapping** and simply check the mapping before clicking on **Update mapping**.
+2. If you already did a mapping, click on **🔄️ Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
+3. Else, do the following steps.
+4. For the Required attributes, select in the drop-down menu **Select a column** the corresponding field in your imported file of each required attribute.
+  - By typing the beginning of your field names in the search bar, you can find them more easily.
   - If unsure of the correspondence between the attributes and your field names, consult the FAQs section [Where can I find the Darwin Core terms description?](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
-2. For the Additional columns, either click on **+ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the additional attributes.
-  - The added attributes appear at the bottom of the Mappings window.
+5. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the additional attributes.
+  - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
+  - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
 3. Repeat these steps until all of the fields you want to import are mapped.
   - Not all of your fields may be mandatory for GBIF. Find [here](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
-  - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as an "Extra Attribute".
+  - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute".
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">⚠️ August 2024: <strong>Currently all Extra Attributes are lost after the Mapping.</strong> They are not displayed on the Records view page and can't be exported. But they are still present in the uploaded files which had them in the Imports view page.
 </div>
