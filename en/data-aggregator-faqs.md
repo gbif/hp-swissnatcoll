@@ -595,13 +595,18 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
 
 ## My institution already has data on GBIF.org, how is this dealt with?
 
-In this case, the data in your database that has already been sent to an Infospecies data center and/or GBIF Swiss Node and/or GBIF.org **MUST NOT be published again through the Data Aggregator**. This could cause big problems of duplicated data, losing visibility through the articles that already used your specimen data on GBIF.org and provided the link to it (DOI, dataset ID, occurrence ID, etc...).
+In this case, the data in your database that has already been sent to an Infospecies data center and/or GBIF Swiss Node and/or GBIF.org **MUST NOT YET be published again through the Data Aggregator**. This could cause big problems of duplicated data, losing visibility through the articles that already used your specimen data on GBIF.org and provided the link to it (DOI, dataset ID, occurrence ID, etc...).
 
 Currently, the staff of GBIF Swiss Node is preparing the correct procedure to solve this issue. We recommend in the meantime to import on the Aggregator data that has not been published anywhere else yet.
 
 {: .box }
 If this special case concerns you, please take contact with [GBIF Swiss Node](mailto:contact@gbif.ch).
 
+<br>
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
+✅ If you already know which specimens of your collection have been sent to or obtained from an Infospecies data center, please inform the data center identifier in the field <strong>occurrenceID</strong> of your dataset.
+</div>
+<br>
 
 ## My institution has geological specimens (rocks and such), what have you planned about it?
 
