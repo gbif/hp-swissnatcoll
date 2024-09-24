@@ -90,6 +90,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 
 # Standards & Tools
 * DarwinCore Standard ([DwC](https://dwc.tdwg.org/){:target="_blank"})
+    * Supplementary help with Darwin Core ([OBIS Manual - Darwin Core](https://manual.obis.org/darwin_core.html){:target="_blank"})
 * Access to Biological Collections Data ([ABCD-Standard](https://abcd.tdwg.org/){:target="_blank"})
 * GBIF Integrated Publishing Toolkit ([IPT](https://www.gbif.org/ipt){:target="_blank"})
 
