@@ -28,7 +28,10 @@ Source: [National significance of natural history collections in Switzerland](ht
 
 ## Online collections
 * Natural Science Collections Online - ETH Zürich ([NAHIMA](https://www.nahima.ethz.ch/search){:target="_blank"})
-* Herbarium of the Botanical Garden of the University of Bern ([BERN](https://herbarium-bernense.ch/){:target="_blank"})
+* Herbarium of the Botanical Garden of the University of Bern ([Herbarium Bernense](https://herbarium-bernense.ch/){:target="_blank"})
+* Zurich Herbaria ([United Herbaria Z+ZT and Herbarium of the Zurich Succulent Plant Collection (ZSS)](https://www.herbarien.uzh.ch/de.html){:target="_blank"})
+* Naturmuseum Uri ([Naturkundemuseum Online](https://naturmuseum.kmsu.ch/){:target="_blank"})
+* Paleontological institute university of Zürich ([Palaeontological Collection UZH](https://sketchfab.com/PIMUZ/models){:target="_blank"})
 
 ## Education and Collaboration
 * Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
