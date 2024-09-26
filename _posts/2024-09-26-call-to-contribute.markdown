@@ -1,8 +1,8 @@
 ---
 title:  "Call to contribute!"
-date:   2024-09-26 13:37:12 +0100
+date:   2024-09-26 13:37:12 +0200
 categories: community
-lang-ref: en
+lang-ref: call_to_contribute
 background: /assets/images/posts/20240926_call_to_contribute_600x300.jpg
 ---
 
