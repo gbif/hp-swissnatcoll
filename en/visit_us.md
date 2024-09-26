@@ -12,7 +12,7 @@ composition:
   - type: features
     data: exhibitions
   - type: blank
-    data: 
+    data: "---"
   - type: features
     data: outofthebox
 ---
