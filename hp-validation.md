@@ -8,12 +8,101 @@ toc: true
 
 ## Current state
 
-<!-- Section Résumé des Avancées par Groupes de Pages -->
 <div id="summary">
     <div class="progress-group">
         <h2>Global (10 sections)</h2>
         <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 40%;">10%</div>
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: Homepage</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: About</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: Data</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: Data Aggregator</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: Methods</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: Visit us</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: 🔗Links</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: 📰News</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: 🗓️Calendar</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<div id="summary">
+    <div class="progress-group">
+        <h2>Thematic: ❓Helpdesk</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 100%;">1/6</div>
         </div>
     </div>
 </div>
