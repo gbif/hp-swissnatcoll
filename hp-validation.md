@@ -1,9 +1,27 @@
 ---
-layout: documentation
+layout: post
 permalink: /hp-validation
-title: Validation process
+title: Validation process of the SwissNatColl hosted portal
 toc: true
 ---
 
-# Validation process of the SwissNatColl hosted portal
+# Current state
+
+# Pages status
+
+## Homepage
+
+## Data Aggregator
+
+### How to publish data
+
+### FAQs
+
+## Links
+
+## News
+
+## Calendar
+
+
 
