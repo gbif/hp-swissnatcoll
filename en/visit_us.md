@@ -11,8 +11,6 @@ composition:
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
   - type: features
     data: exhibitions
-  - type: blank
-    data: "---"
   - type: features
     data: outofthebox
 ---
