@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 permalink: /hp-validation
 title: Validation process of the SwissNatColl hosted portal
 toc: true
