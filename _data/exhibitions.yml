@@ -9,7 +9,7 @@ features:
   description: |
     **14.12.2023 - 22.10.2024 ⚠️ENDING SOON⚠️**<br>
     This special exhibition is an in-house production of the Natural History Museum and focuses on the different traces and their causes.<br>
-    **Naturmuseum Solothurn** [Naturmuseum](https://maps.app.goo.gl/ho73iuuUqqxnq39Q7)   
+    **Naturmuseum Solothurn** [Naturmuseum](https://maps.app.goo.gl/ho73iuuUqqxnq39Q7){:target="_blank"}  
   background: "https://cache.pressmailing.net/thumbnail/story_big/84378cd0-9f4e-4fa9-a975-276e37c23bf0/neue-sonderausstellung-spuren-f-hrten-frass-und-federn-im-naturmuseum-solothurn"
   href: https://naturmuseum-so.ch/ausstellungen/aktuelle-sonderausstellung/
 
@@ -18,16 +18,25 @@ features:
   description: |
     **20.09.2024 - 08.01.2025**<br>
     Jubilee exhibition on the 400th anniversary of Caspar Bauhin's death.<br>
-    **Universität Basel** [Universitätsbibliothek](https://maps.app.goo.gl/Vvm89Hz7xHRKrcVu6)   
+    **Universität Basel** [Universitätsbibliothek](https://maps.app.goo.gl/Vvm89Hz7xHRKrcVu6){:target="_blank"}   
   background: "https://ub.unibas.ch/fileadmin/_processed_/7/7/csm_UBB_web_key_visual_Herbarium_2500x1250_ca339b9133.jpg?1725438826"
   href: https://ub.unibas.ch/fileadmin/user_upload/universitaetsbibliothek/Universitaetsbibliothek/Aktuell/Ausstellungen/Herbarium/GEST_Einladung__Herbarium_20240807_si.pdf
+
+- title: "100 + 100"
+  categories: ["Collections"]
+  description: |
+    **17.05.2024 - 09.02.2025**<br>
+    100 personnes qui représentent le public du Musée, 100 objets qui reflètent ses collections scientifiques, 100 duos inédits qui racontent 200 ans d’histoire du Musée.<br>
+    **Musée d'histoire naturelle de Fribourg** [Museum](https://maps.app.goo.gl/XPqXsXtvBrxBGBeTA){:target="_blank"}
+  background: "https://www.fr.ch/sites/default/files/2024-04/100%2B100-affiche.jpg"
+  href: https://www.fr.ch/mhnf/evenements/100-100-200-ans-dhistoire-en-100-duos-inedits
 
 - title: "Insect Decline — It’s Going to be All Right"
   categories: ["Nature"]
   description: |
     **03.11.2023 - 31.05.2025**<br>
     The Natural History Museum of Bern is once again tackling a highly topical, socio-politically relevant subject<br>
-    **Naturhistorisches Museum Bern** [Bernastrasse](https://maps.app.goo.gl/qC6J4yfXMbzcRwFPA)   
+    **Naturhistorisches Museum Bern** [Bernastrasse](https://maps.app.goo.gl/qC6J4yfXMbzcRwFPA){:target="_blank"}   
   background: "https://www.nmbe.ch/sites/default/files/styles/default_landscape__sizes_1600/public/2023-10/nmbe_insektensterben_bg_0.jpg?h=77ec47b7&itok=J-FBnY7W"
   href: https://www.nmbe.ch/en/node/1364
 
@@ -36,7 +45,7 @@ features:
   description: |
     **20.03.2025 - 19.10.2025**<br>
     A special exhibition made by the [Natural History Museum Fribourg](https://www.fr.ch/mhnf), Switzerland<br>
-    **Naturmuseum Olten** [Haus der Museen](https://maps.app.goo.gl/X9sUovTLdPuS9AVJ9)   
+    **Naturmuseum Olten** [Haus der Museen](https://maps.app.goo.gl/X9sUovTLdPuS9AVJ9){:target="_blank"}   
   background: "https://hausdermuseen.ch/images/nmo/home/teaser/sonderausstellung_2024.gif"
   href: https://hausdermuseen.ch/sonderausstellung
 
