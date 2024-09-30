@@ -432,7 +432,28 @@ For all users and roles, the following rules apply:
 
 ### My institution does not have a Collection Digitizer yet, what can I do?
 
-Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name.
+Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
+
+## What are the different data layers of the Data Aggregator?
+
+The data inside the data aggregator is organised in a table, with **entities** in lines (= specimens with a unique catalogNumber value associated) and **attributes** in columns. The **value** is the information stored in a given attribute for a given entity. 
+
+The values of a given entity can be added and updated in three different layers:
+    1. The **Raw layer**: this layer contains the verbatim attributes and the interpreted attributes (encoded and enriched) imported in the import files. The import files come from the Museum, are uploaded by the museums, are updated if a new import file contains entities (records) already present in the Raw layer.
+    2. The **Encoded layer**: this layer is in two parts, the encode part and the enrich part. For each encoded and enriched attribute, the Data Aggregator uses reference attributes (e.g. scientificName, locality, country, decimalLatitude/decimalLongitude, etc...) to fetch the corresponding values found in a set of thesaurii. The acquired values are then added to the corresponding entities' attribute of that layer.
+    3. The **Approval layer**: this layer concerns the validation of the data by the swiss Infospecies data centers, specifically in cases where sensitive data must be hidden or replaced by a less precise information (e.g. the coordinates of a rare and threatened species are replaced by their corresponding 10 km-square).
+
+<figure class="has-text-centered">
+  <a href="/assets/images/GraphsDiagrams/Dagi_dataLayers.png" data-lightbox="image-1" 
+     data-title='Inside the data store: layers and responsibilities'>
+    <img src="/assets/images/GraphsDiagrams/Dagi_dataLayers.png" 
+         alt="<i>Data Aggregator Layers" 
+         style="max-width: 100%; height: auto; cursor: zoom-in;" />
+  </a>
+  <figcaption>Data Aggregator Layers</figcaption>
+</figure>
+
+
 
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data standards</h1>
 
