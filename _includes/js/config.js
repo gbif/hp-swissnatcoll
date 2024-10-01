@@ -65,6 +65,7 @@ var siteConfig = {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
+      institutionKey: "8d572607-d32c-4477-8834-c9dbe76c57f9",
       country: countryCode,
       active: true
     },
@@ -74,17 +75,6 @@ var siteConfig = {
       lng: 8.092451942260254,
       zoom: 7.877
     },
-    rootPredicate: {
-      "type": "and",
-      "predicates": [
-	{
-          "type": "equals",
-          "key": "institutionKey",
-          "value": "8d572607-d32c-4477-8834-c9dbe76c57f9"
-        }
-      ]
-    },
-
   },
   literature: {
     rootFilter: {
