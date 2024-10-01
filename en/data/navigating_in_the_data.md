@@ -9,8 +9,6 @@ toc: true
 permalink: /en/navigating_in_the_data
 ---
 
-// dire que les données sont floutées
-
 # What data can be found on the SwissNatColl portal?
 The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
 
@@ -61,6 +59,9 @@ To filter the data in the Occurrence table presentation, you have a highlighted 
 | Elevation      | The distance above a vertical reference point (usually mean sea level or a geoid) in metres.     |
 | Issues and flags      | The types of issues or flags of potential interest discovered in processing the data.     |
 
+# Is the data exactly the same as in the institution databases?
+
+No, the data published on GBIF by the swiss Data Aggregator and displayed here has been going through various encoding, enrichment and validation processes. For most of it, it may have not changed much, but for threatened and sensitive species, some data accuracy have been reduced to a grid-cell level or a higher taxonomy rank before publishing.
 
 <html lang="en">
 <head>
