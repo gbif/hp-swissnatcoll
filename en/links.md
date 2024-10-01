@@ -34,6 +34,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 * Herbarium of the Botanical Garden of the University of Bern ([Herbarium Bernense](https://herbarium-bernense.ch/){:target="_blank"})
 * Zurich Herbaria ([United Herbaria Z+ZT and Herbarium of the Zurich Succulent Plant Collection (ZSS)](https://www.herbarien.uzh.ch/de.html){:target="_blank"})
 * Naturmuseum Uri ([Naturkundemuseum Online](https://naturmuseum.kmsu.ch/){:target="_blank"})
+* hallerNet platform ([hallerNet](https://www.hallernet.org/){:target="_blank"})
 
 ## 3D models of specimens
 * Insects in 3D ([Insects360](https://biocommunication.org/en/insects360/3d-scans/){:target="_blank"})
