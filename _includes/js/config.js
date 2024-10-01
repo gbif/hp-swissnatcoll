@@ -80,7 +80,7 @@ var siteConfig = {
 	{
           "type": "equals",
           "key": "institutionKey",
-          "value": 8d572607-d32c-4477-8834-c9dbe76c57f9
+          "value": "8d572607-d32c-4477-8834-c9dbe76c57f9"
         }
       ]
     },
