@@ -35,8 +35,8 @@ var siteConfig = {
         },
 	//{
           //"type": "equals",
-          //"key": "publisher",
-          //"value": "SwissNatColl"
+          //"key": "publishing_org",
+          //"value": "9661d20d-86b6-4485-8948-f3c86b022fa7"
         //},
         {
           "type": "in",
