@@ -65,7 +65,7 @@ var siteConfig = {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
-      institutionKey: ["8d572607-d32c-4477-8834-c9dbe76c57f9", "e772c6d6-bbc8-40c8-92e9-b74407e1f5bb"]
+      institutionKey: ["8d572607-d32c-4477-8834-c9dbe76c57f9", "e772c6d6-bbc8-40c8-92e9-b74407e1f5bb"],
       country: countryCode,
       active: true
     },
