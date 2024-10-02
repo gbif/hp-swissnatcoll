@@ -102,16 +102,18 @@ Source: [National significance of natural history collections in Switzerland](ht
 # General knowledge and source of information
 * SCNAT knowledge - FAQ Biodiversity ([Scientific answers to frequently asked questions about biodiversity](https://naturalsciences.ch/biodiversity/questions_and_answers){:target="_blank"})
 
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Back to Top Button</title>
+  <link rel="stylesheet" href="path/to/backToTop.css">
 </head>
 
 <body>
 
   <!-- Back to Top Button -->
-  <a id="back-to-top" klass="backToTop" title="Back to top">Up</a>
+  <a id="back-to-top" href="#" title="Back to top">Up</a>
 
   <script>
     // Show or hide the button when scrolling
