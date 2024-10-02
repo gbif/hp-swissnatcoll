@@ -107,7 +107,7 @@ Source: [National significance of natural history collections in Switzerland](ht
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Back to Top Button</title>
-  <link rel="stylesheet" href="path/to/backToTop.css">
+  <link rel="stylesheet" href="sass/_backToTop.scss">
 </head>
 
 <body>
