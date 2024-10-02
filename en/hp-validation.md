@@ -9,7 +9,7 @@ toc: true
 ## Current state
 
 <!-- Toggle button -->
-<button class="toggle-button" id="toggle-summary">Click here to develop</button>
+<button class="toggle-button" id="toggle-summary">Click here to develop/hide</button>
 
 <!-- The summary content -->
 <div id="summary">
