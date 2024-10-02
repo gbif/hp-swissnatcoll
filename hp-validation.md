@@ -10,7 +10,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Global (10 sections)</h3>
+        <p>Global (10 sections)</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 14%;"></div>
         </div>
@@ -19,7 +19,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: Homepage</h3>
+        <p>Thematic: Homepage</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -28,7 +28,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: About</h3>
+        <p>Thematic: About</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -37,7 +37,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: Data</h3>
+        <p>Thematic: Data</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -46,7 +46,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: Data Aggregator</h3>
+        <p>Thematic: Data Aggregator</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -55,7 +55,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: Methods</h3>
+        <p>Thematic: Methods</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 0%;">0/6</div>
         </div>
@@ -64,7 +64,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: Visit us</h3>
+        <p>Thematic: Visit us</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -73,7 +73,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: 🔗Links</h3>
+        <p>Thematic: 🔗Links</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -82,7 +82,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: 📰News</h3>
+        <p>Thematic: 📰News</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -91,7 +91,7 @@ toc: true
 
 <div id="summary">
     <div class="progress-group">
-        <h3>Thematic: 🗓️Calendar</h3>
+        <p>Thematic: 🗓️Calendar</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -100,7 +100,7 @@ toc: true
 
 <div id="summary" class="meta_for_parser tablespecs" style="visibility:hidden">
     <div class="progress-group">
-        <h3>Thematic: ❓Helpdesk</h3>
+        <p>Thematic: ❓Helpdesk</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -139,7 +139,7 @@ toc: true
             margin-bottom: 20px;
         }
 
-        .progress-group h3 {
+        .progress-group p {
             font-size: 1.5em;
         }
 
@@ -162,10 +162,6 @@ toc: true
 
         .page-detail {
             margin-bottom: 20px;
-        }
-
-        .page-detail h3 {
-            margin: 0;
         }
 
         .validation-system {
