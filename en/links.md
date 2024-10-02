@@ -107,7 +107,30 @@ Source: [National significance of natural history collections in Switzerland](ht
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Back to Top Button</title>
-  <link rel="stylesheet" href="sass/_backToTop.scss">
+  <style>
+    /* Style for the Back to Top Button */
+    #back-to-top {
+      position: fixed;
+      bottom: 40px;
+      right: 120px;
+      display: none;
+      background-color: #fa5e97;
+      color: white;
+      text-align: center;
+      padding: 5px;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      z-index: 1000;
+      width: 70px; /* Width for the rectangle */
+      height: 50px; /* Height for the rectangle */
+      line-height: 40px;
+    }
+
+    #back-to-top:hover {
+      background-color: #fa5e97;
+    }
+  </style>
 </head>
 
 <body>
