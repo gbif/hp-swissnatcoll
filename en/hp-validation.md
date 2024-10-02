@@ -150,6 +150,37 @@ toc: true
             margin-bottom: 10px;
             font-weight: bold;
         }
+        /* Hide the default checkbox */
+        input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+        }
+
+        /* Create a custom checkbox design */
+        .custom-checkbox {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #ccc;
+            border-radius: 4px;
+            border: 2px solid #ccc;
+            cursor: pointer;
+        }
+
+        /* Style the checkbox when checked */
+        input[type="checkbox"]:checked + .custom-checkbox {
+            background-color: green;
+            border-color: green;
+        }
+
+        /* Optional: Add a checkmark when checked */
+        input[type="checkbox"]:checked + .custom-checkbox:after {
+            content: '✔';
+            display: block;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+        }
     </style>
 </head>
 
