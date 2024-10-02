@@ -111,7 +111,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 <body>
 
   <!-- Back to Top Button -->
-  <a id="back-to-top" class="backToTop" title="Back to top">Up</a>
+  <a id="back-to-top" klass="backToTop" title="Back to top">Up</a>
 
   <script>
     // Show or hide the button when scrolling
