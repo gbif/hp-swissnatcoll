@@ -98,9 +98,22 @@ toc: true
     </div>
 </div>
 
-<div id="summary" class="meta_for_parser tablespecs" style="visibility:hidden">
+<div id="summary">
     <div class="progress-group">
         <p>Thematic: ❓Helpdesk</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+    </div>
+</div>
+
+<!-- Toggle button -->
+<button class="toggle-button" id="toggle-summary">Toggle Summary</button>
+
+<!-- The summary content -->
+<div id="summary">
+    <div class="progress-group">
+        <p>Thematic: 🗓️Calendar</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
@@ -176,5 +189,39 @@ toc: true
             color: green;
             font-weight: bold;
         }
+        #summary {
+            display: none; /* Initially hidden */
+            transition: all 0.3s ease-in-out;
+        }
+
+        /* You can also add some style for better display */
+        .toggle-button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
+
+<body>
+    <script>
+        // JavaScript to toggle visibility
+        const toggleButton = document.getElementById('toggle-summary');
+        const summaryDiv = document.getElementById('summary');
+
+        toggleButton.addEventListener('click', function() {
+            // Check if the summary is currently visible
+            if (summaryDiv.style.display === 'none' || summaryDiv.style.display === '') {
+                // Show the summary
+                summaryDiv.style.display = 'block';
+            } else {
+                // Hide the summary
+                summaryDiv.style.display = 'none';
+            }
+        });
+    </script>
+</body>
