@@ -67,6 +67,10 @@ toc: true
 
 ### Data Aggregator
 
+<label>
+        <input type="checkbox" id="persistentCheckbox"> Anne Morel
+</label>
+
 ### How to publish data
 
 ### FAQs
@@ -151,6 +155,22 @@ toc: true
 
 <body>
     <script>
+        // Get the checkbox element
+        const checkbox = document.getElementById('persistentCheckbox');
+
+        // When the page loads, check the localStorage to see if the checkbox should be checked
+        window.onload = function() {
+            const isChecked = localStorage.getItem('checkboxStatus');
+            if (isChecked === 'true') {
+                checkbox.checked = true;
+            }
+        };
+
+        // Add an event listener to store the checkbox status in localStorage when it's clicked
+        checkbox.addEventListener('change', function() {
+            localStorage.setItem('checkboxStatus', checkbox.checked);
+        });
+
         // JavaScript to toggle visibility
         const toggleButton = document.getElementById('toggle-summary');
         const summaryDiv = document.getElementById('summary');
