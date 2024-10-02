@@ -8,112 +8,53 @@ toc: true
 
 ## Current state
 
-<div id="summary">
-    <div class="progress-group">
-        <p>Global (10 sections)</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 14%;"></div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: Homepage</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: About</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: Data</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: Data Aggregator</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: Methods</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 0%;">0/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: Visit us</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: 🔗Links</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: 📰News</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: 🗓️Calendar</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
-<div id="summary">
-    <div class="progress-group">
-        <p>Thematic: ❓Helpdesk</p>
-        <div class="progress-bar">
-            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
-        </div>
-    </div>
-</div>
-
 <!-- Toggle button -->
 <button class="toggle-button" id="toggle-summary">Toggle Summary</button>
 
 <!-- The summary content -->
 <div id="summary">
     <div class="progress-group">
+        <p>Global (10 sections)</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 14%;"></div>
+        </div>
+        <p>Thematic: Homepage</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: About</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: Data</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: Data Aggregator</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: Methods</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 0%;">0/6</div>
+        </div>
+        <p>Thematic: Visit us</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: 🔗Links</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: 📰News</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
         <p>Thematic: 🗓️Calendar</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
+        </div>
+        <p>Thematic: ❓Helpdesk</p>
         <div class="progress-bar">
             <div class="progress" id="progress-principal" style="width: 16%;">1/6</div>
         </div>
