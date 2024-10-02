@@ -9,7 +9,7 @@ toc: true
 ## Current state
 
 <!-- Toggle button -->
-<button class="toggle-button" id="toggle-summary">Toggle Summary</button>
+<button class="toggle-button" id="toggle-summary">Click here to develop</button>
 
 <!-- The summary content -->
 <div id="summary">
@@ -138,12 +138,13 @@ toc: true
         /* You can also add some style for better display */
         .toggle-button {
             padding: 10px;
-            background-color: #007bff;
+            background-color: #FF6699;
             color: white;
             cursor: pointer;
             border: none;
             border-radius: 5px;
             margin-bottom: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
