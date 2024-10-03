@@ -4,7 +4,7 @@
 stats:
   klass: contentTypesStat
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?code=MHNG&code=NMB&code=NMBE&code=CJBG&code=ETHZ&code=NATUREUM%3ADZ&code=UZH%3AZ&code=UZH%3ANMZ&code=NATUREUM%3ADB&code=WSL&code=UNIBAS%3AHERBARIA&code=MHNN&code=Museum.BL&code=BERN&code=UNINE%3ANEU&code=BNM&code=MCSN&code=NMSG&code=MHNF&code=UNIBAS%3AIPNA&code=NMSH&code=NMSO&code=MNVS&code=JURASSICA&code=NMWIN&code=NAAG&code=UNIBAS%3ADUW&code=NMTG&code=NWSGL&code=MUZOO&code=NMLU&code=MSI&code=ZSS&code=MZO&code=EAWAG&code=FIBL&code=HGSB&code=KMDMZ&code=NMOL&code=UZH%3AIEM&code=NSUR&code=MDLR&code=MUHE&code=UNINE%3AARCZ&limit=51"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?code=MHNG&code=NMB&code=NMBE&code=CJBG&code=ETHZ&code=NATUREUM%3ADZ&code=UZH%3AZ&code=UZH%3ANMZ&code=NATUREUM%3ADB&code=WSL&code=UNIBAS%3AHERBARIA&code=MHNN&code=Museum.BL&code=BERN&code=UNINE%3ANEU&code=BNM&code=MCSN&code=NMSG&code=MHNF&code=UNIBAS%3AIPNA&code=NMSH&code=NMSO&code=MNVS&code=JURASSICA&code=NMWIN&code=NAAG&code=UNIBAS%3ADUW&code=NMTG&code=NWSGL&code=MUZOO&code=NMLU&code=MSI&code=ZSS&code=MZO&code=EAWAG&code=FIBL&code=HGSB&code=KMDMZ&code=NMOL&code=UZH%3AIEM&code=NSUR&code=MDLR&code=MUHE&code=UNINE%3AARCZ&limit=51">"45"</span>
       description: "Swiss institutions"
       background: "{{ site.data.images.institutions.src }}"
       href: "/institution/search"
