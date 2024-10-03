@@ -19,9 +19,7 @@ cta:
     href: /occurrence/search
     isPrimary: true
   - text: About
-    href: /about 
-  - text: Publish my data
-    href: /en/how-to-publish-data
+    href: /about
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
