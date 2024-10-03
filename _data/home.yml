@@ -4,7 +4,7 @@
 stats:
   klass: contentTypesStat
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?code=MHNG,NMB,NMBE,CJBG,ETHZ,NATUREUM%3ADZ,UZH%3AZ,UZH%3ANMZ,NATUREUM%3ADB,WSL,UNIBAS%3AHERBARIA,MHNN,Museum.BL,BERN,UNINE%3ANEU,BNM,MCSN,NMSG,MHNF,UNIBAS%3AIPNA,NMSH,NMSO,MNVS,JURASSICA,NMWIN,NAAG,UNIBAS%3ADUW,NMTG,NWSGL,MUZOO,NMLU,MSI,ZSS,MZO,EAWAG,FIBL,HGSB,KMDMZ,NMOL,UZH%3AIEM,NSUR,MDLR,MUHE,UNINE%3AARCZ"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/grscicoll/institution?code=MHNG,NMB,NMBE,CJBG,ETHZ,NATUREUM%3ADZ,UZH%3AZ,UZH%3ANMZ,NATUREUM%3ADB,WSL,UNIBAS%3AHERBARIA,MHNN,Museum.BL,BERN,UNINE%3ANEU,BNM,MCSN,NMSG,MHNF,UNIBAS%3AIPNA,NMSH,NMSO,MNVS,JURASSICA,NMWIN,NAAG,UNIBAS%3ADUW,NMTG,NWSGL,MUZOO,NMLU,MSI,ZSS,MZO,EAWAG,FIBL,HGSB,KMDMZ,NMOL,UZH%3AIEM,NSUR,MDLR,MUHE,UNINE%3AARCZ&limit=51"></span>
       description: "Swiss institutions"
       background: "{{ site.data.images.institutions.src }}"
       href: "/institution/search"
