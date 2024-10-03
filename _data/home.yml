@@ -14,7 +14,7 @@ stats:
       background: "{{ site.data.images.collections.src }}"
       href: "/collection/search"
       
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/count?publishingCountry=CH"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/publishingCountry=CH"></span>
       description: "Occurrences"
       background: "{{ site.data.images.specimens.src }}"
       href: "/occurrence/search"
