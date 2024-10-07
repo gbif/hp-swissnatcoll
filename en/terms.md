@@ -1,6 +1,6 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
-title: SwissNatColl & Data Aggregator Terms
+title: Data Aggregator Terms
 description: Terms of Use, Publication policy and Publisher agreement
 background: "{{ site.data.images.helpdesk.src }}"
 imageLicense: "{{ site.data.images.helpdesk.caption }}"
