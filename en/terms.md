@@ -144,7 +144,7 @@ We may amend this Publication Policy from time to time. Updates will be communic
 Compliance with this policy is mandatory for all data contributors. Violations may result in the removal of data or termination of access.
 
 ## 12. Contact Information
-For questions or concerns about this Publication Policy, please contact us at contact-swissnatcoll@infofauna.ch
+For questions or concerns about this Publication Policy, please contact us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch)
 
 
 # PUBLISHER AGREEMENT
