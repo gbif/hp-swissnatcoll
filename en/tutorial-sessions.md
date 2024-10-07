@@ -18,18 +18,26 @@ The first set of lessons focuses on data preparation for the import. Further fun
 ## Next live tutorial sessions
 
 {: .box }
-**MONDAY afternoon session - 15H-15h45** (3x 45 min)
-<br>- ~~**09-09-2024** Lesson 1 Introduction, log in and data preparation~~
-<br>- ~~**23-09-2024** Lesson 2 Uploading and Mapping~~
-<br>- **07-10-2024** Lesson 3 Conclusions and open-questions
+**Session 2** (3x 45 min)
+<br>- **WEDNESDAY - 23-10-2024 - 15H-15h45** Lesson 1 Introduction, log in and data preparation
+<br>- **TUESDAY - 29-10-2024 - 10H30-11H15** Lesson 2 Uploading, mapping and encoding
+<br>- **THURSDAY - 31-10-2024 - 15H-15h45** Open-questions
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
+---
 
 {: .box }
-**THURSDAY morning session - 10H30-11H15** (3x 45 min)
+**MONDAY afternoon session - 15H-15h45** (45 min)
+<br>- ~~**09-09-2024** Lesson 1 Introduction, log in and data preparation~~
+<br>- ~~**23-09-2024** Lesson 2 Uploading and Mapping~~
+<br>- **07-10-2024** Conclusions and open-questions
+<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
+
+{: .box }
+**THURSDAY morning session - 10H30-11H15** (45 min)
 <br>- ~~**12-09-2024** Lesson 1 Introduction, log in and data preparation~~
 <br>- ~~**26-09-2024** Lesson 2 Uploading and Mapping~~
-<br>- **10-10-2024** Lesson 3 Conclusions and open-questions
+<br>- **10-10-2024** Conclusions and open-questions
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 
