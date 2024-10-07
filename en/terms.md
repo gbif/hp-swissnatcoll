@@ -73,6 +73,8 @@ All content on the Aggregator is protected by intellectual property laws. The ow
 ### 6.1 Permitted Use
 Users may use the data for personal, educational, or non-commercial research purposes.
 
+Concerning specifically swiss specimens, the data flow and data use is reglemented by the [common guidelines of Infospecies](https://www.infospecies.ch/fr/donnees/deontologie.html){:target="_blank"}, the national data centres.
+
 ### 6.2 Prohibited Use
 Data must not be resold, redistributed, or used for commercial purposes without explicit permission.
 
@@ -147,9 +149,14 @@ Compliance with this policy is mandatory for all data contributors. Violations m
 For questions or concerns about this Publication Policy, please contact us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch)
 
 
+# PRIVACY POLICY
+
+...TBA...
+
 # PUBLISHER AGREEMENT
 
 ...TBA...
+
 
 <html lang="en">
 <head>
