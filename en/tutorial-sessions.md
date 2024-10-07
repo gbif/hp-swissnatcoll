@@ -13,7 +13,6 @@ composition:
 
 Data users are invited to participate in tutorial sessions. Depending on availability, it is possible to not follow the lessons of only one session but to attend lessons of different sessions. The goal being to participate at least once to all lessons planned.
 <br>
-The first set of lessons focuses on data preparation for the import. Further functionalities will be presented in a future set of lessons (coming soon).
 
 ## Next live tutorial sessions
 
