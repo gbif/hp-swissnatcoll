@@ -1,4 +1,11 @@
 # ===================================================================================================
+# JANUARY 2025
+# ===================================================================================================
+- date: '2025-01-17'
+  title: 'SwissCollNet annual meeting'
+  url: 'https://swisscollnet.scnat.ch/fr/exchange/workshops/uuid/i/a0f2f436-0821-5914-8855-1dc5fb9a09d9-Successes_Milestones_of_SwissCollNet'
+
+# ===================================================================================================
 # OCTOBRE 2024
 # ===================================================================================================
 - date: '2024-10-27'
@@ -16,35 +23,30 @@
 # AOÛT 2024
 # ===================================================================================================
 - date: '2024-06-20'
-  title: 'Vaud - Vernissage Spécimens24 au Naturéum'
+  title: 'VD - Vernissage Spécimens24 au Naturéum'
   url: 'https://zoologie.vd.ch/expositions/specimens-24/'
 
 - date: '2024-08-23'
-  title: 'Bern - Congrès annuel des musées suisses'
+  title: 'BE - Congrès annuel des musées suisses'
   url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
 
 - date: '2024-08-22'
-  title: 'Bern - Congrès annuel des musées suisses'
+  title: 'BE - Congrès annuel des musées suisses'
   url: 'https://www.museums.ch/fr/sonstige/congres-annuel-des-musees-suisses-4630.html'
 
 - date: '2024-08-17'
-  title: 'Basel - Museumsflohmarkt'
+  title: 'BS - Museumsflohmarkt'
   url: 'https://www.museum.bl.ch/veranstaltungen/7/sonderveranstaltungen/310/museumsflohmarkt/'
-
-# ===================================================================================================
-# JUILLET 2024
-# ===================================================================================================
-
 
 # ===================================================================================================
 # JUIN 2024
 # ===================================================================================================
 - date: '2024-06-07'
-  title: 'Bern - AG musnatcoll'
+  title: 'BE - AG musnatcoll'
   url: 'https://musnatcoll.ch/fr/annual_meeting'
 
 - date: '2024-06-06'
-  title: 'Bern - AG musnatcoll'
+  title: 'BE - AG musnatcoll'
   url: 'https://musnatcoll.ch/fr/annual_meeting'
 
 # ===================================================================================================
