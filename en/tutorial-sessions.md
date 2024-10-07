@@ -26,13 +26,6 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 ---
 
 {: .box }
-**MONDAY afternoon session - 15H-15h45** (45 min)
-<br>- ~~**09-09-2024** Lesson 1 Introduction, log in and data preparation~~
-<br>- ~~**23-09-2024** Lesson 2 Uploading and Mapping~~
-<br>- **07-10-2024** Conclusions and open-questions
-<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
-
-{: .box }
 **THURSDAY morning session - 10H30-11H15** (45 min)
 <br>- ~~**12-09-2024** Lesson 1 Introduction, log in and data preparation~~
 <br>- ~~**26-09-2024** Lesson 2 Uploading and Mapping~~
@@ -105,6 +98,19 @@ Data users are invited to participate in tutorial sessions. Depending on availab
     </button>
   </a>
 </div>
+
+<br> 
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EQs9OC2Sy-tNuRtY-4cvA3IBV9-XDzyesSb_ZckwLlPAow?e=RLhtzt" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='#FA5E97';"
+            onmouseout="this.style.color='#333';">
+      🎥 Session 1 Lesson 3 MONDAY
+    </button>
+  </a>
+</div>
+
 
 
 <html lang="en">
