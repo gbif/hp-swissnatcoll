@@ -8,14 +8,14 @@ lessons:
       href: "/assets/files/Lesson_1_IntroLogInDataPrepa.pdf"
       background: "/assets/images/categories/tuto_lesson1.png"
 
-    - title: "Lesson 2" # required
-      description: |      # required
+    - title: "Lesson 2"
+      description: |
         Focus on adding a collection, importing a dataset file and do the mapping. Additional examples with possible error messages are also provided
       href: "/assets/files/Lesson_2_DatasetUploadingMapping.pdf"
       background: "/assets/images/categories/tuto_lesson2.png"
 
-    - title: "Lesson 3" # required
-      description: |      # required
+    - title: "Lesson 3"
+      description: |
         Summary of the previous lessons and of what comes next
       href: "/assets/files/Lesson_3_Summary.pdf"
-      background: "/assets/files/Lesson_3_Summary.pdf"
+      background: "/assets/images/categories/tuto_lesson3.png"
