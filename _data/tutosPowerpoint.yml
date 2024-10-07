@@ -14,6 +14,8 @@ lessons:
       href: "/assets/files/Lesson_2_DatasetUploadingMapping.pdf"
       background: "/assets/images/categories/tuto_lesson2.png"
 
-
-
-      
+    - title: "Lesson 3" # required
+      description: |      # required
+        Summary of the previous lessons and of what comes next
+      href: "/assets/files/Lesson_3_Summary.pdf"
+      background: "/assets/files/Lesson_3_Summary.pdf"
