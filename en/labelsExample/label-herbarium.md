@@ -62,8 +62,7 @@ toc: true
 
 <div style="overflow-x: auto;">
   <table style="border-collapse: collapse; border: 1px solid black; width: 1500%; table-layout: fixed;">
-    <colgroup>
-        
+    <colgroup>        
         <col style="width: 5%;">   <!-- catalogNumber -->
         <col style="width: 5%;">   <!-- institutionCode -->
         <col style="width: 5%;">   <!-- collectionCode -->
@@ -115,7 +114,6 @@ toc: true
         <col style="width: 10%;">  <!-- georeferenceSources -->
         <col style="width: 8%;">   <!-- georeferenceRemarks -->
     </colgroup>
-
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">catalogNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">institutionCode</th>
