@@ -61,7 +61,7 @@ toc: true
 ### Database record example (Darwin Core formatted)
 
 <div style="overflow-x: auto;">
-  <table style="border-collapse: collapse; border: 1px solid black; width: 1500%; table-layout: fixed;">
+  <table style="border-collapse: collapse; border: 1px solid black; width: 2000%; table-layout: fixed;">
     <colgroup>        
         <col style="width: 5%;">   <!-- catalogNumber -->
         <col style="width: 5%;">   <!-- institutionCode -->
@@ -130,7 +130,7 @@ toc: true
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">day</th>
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">month</th>
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">year</th>
-      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #92d050;">eventDate</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #92d050;">eventDate</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">typeStatus</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimIdentification</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">scientificName</th>
