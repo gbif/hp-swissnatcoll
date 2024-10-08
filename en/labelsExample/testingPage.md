@@ -7,7 +7,7 @@ toc: true
 ---
 
 <div style="overflow-x: auto;">
-  <table style="border-collapse: collapse; border: 1px solid black; width: 100%;">
+  <table style="border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">catalogNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">institutionCode</th>
