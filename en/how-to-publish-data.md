@@ -263,6 +263,7 @@ The mappings window (Step 2 of 3) has three parts:
 We thank you for your patience and understanding.
 </div>
 
+- By filtering your records in a Collection, you can select a certain set of records to be published.
 1. Click on **Publish**.
    - A window opens with a short summary of what the publication entitles.
    - Note that the data published comes from the Encoded layer of the Data Aggregator. Encoding your data is mandatory to publish it on GBIF.
