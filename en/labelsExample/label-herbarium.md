@@ -61,7 +61,7 @@ toc: true
 ### Database record example (Darwin Core formatted)
 
 <div style="overflow-x: auto;">
-  <table style="border-collapse: collapse; border: 1px solid black; width: 2000%; table-layout: fixed;">
+  <table style="border-collapse: collapse; border: 1px solid black; width: 1750%; table-layout: fixed;">
     <colgroup>        
         <col style="width: 5%;">   <!-- catalogNumber -->
         <col style="width: 5%;">   <!-- institutionCode -->
