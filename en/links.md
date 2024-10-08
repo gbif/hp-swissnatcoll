@@ -99,8 +99,22 @@ Source: [National significance of natural history collections in Switzerland](ht
 ---
 
 
+
+
+---
+
+
 # General knowledge and source of information
 * SCNAT knowledge - FAQ Biodiversity ([Scientific answers to frequently asked questions about biodiversity](https://naturalsciences.ch/biodiversity/questions_and_answers){:target="_blank"})
+
+
+---
+
+
+# Job opportunities
+* Job board ([museums.ch](https://www.museums.ch/fr/espace-professionnel/offres/portail-de-lemploi-3036.html){:target="_blank"})
+
+
 
 <html lang="en">
 <head>
