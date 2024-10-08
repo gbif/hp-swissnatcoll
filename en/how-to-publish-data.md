@@ -259,7 +259,7 @@ The mappings window (Step 2 of 3) has three parts:
 # Publish my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, your published data are on GBIF-UAT (technical page of GBIF), where you can have a preview of how your dataset page will look like on GBIF.org<br>
+❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on GBIF-UAT</strong> (technical page of GBIF), where you can have a preview of how your dataset page will look like on GBIF.org<br>
 We thank you for your patience and understanding.
 </div>
 
