@@ -180,7 +180,7 @@ toc: true
       <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">13 juin 1975</td>
       <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">13</td>
-      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">06</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">6</td>
       <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">1975</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #b3de85;">1975-06-13</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Isotypus of Taraxacum retortum Soest.</td>
