@@ -9,18 +9,18 @@ toc: true
 <div style="overflow-x: auto;">
   <table style="border-collapse: collapse; border: 1px solid black; width: 100%; table-layout: fixed;">
     <colgroup>
-      <col style="width: 5%;">
-      <col style="width: 5%;">
-      <col style="width: 5%;">
-      <col style="width: 10%;">
-      <col style="width: 10%;">
-      <col style="width: 10%;">
-      <col style="width: 10%;">
-      <col style="width: 10%;">
-      <col style="width: 20%;"> <!-- Make the 9th column (verbatimLabel) wider -->
-      <col style="width: 5%;">
-      <col style="width: 5%;">
-      <col style="width: 5%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 50%;"> <!-- Make the 9th column (verbatimLabel) wider -->
+      <col style="width: 25%;">
+      <col style="width: 25%;">
+      <col style="width: 25%;">
     </colgroup>
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">catalogNumber</th>
