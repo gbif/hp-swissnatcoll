@@ -264,16 +264,17 @@ We thank you for your patience and understanding.
 </div>
 
 - By filtering your records in a Collection, you can select a certain set of records to be published.
+
 1. Click on **Publish**.
    - A window opens with a short summary of what the publication entitles.
    - Note that the data published comes from the Encoded layer of the Data Aggregator. Encoding your data is mandatory to publish it on GBIF.
-3. Tick the check box if you agree with our [terms and conditions](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and accept full responsibility for the publication.
-  - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br>
-4. Click on **Publish**
-    - A progression bar appears during the publishing process and disappears when launched.
-5. Check the Publication status of your records on your Collection page.
-6. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
-    - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
+2. Tick the check box if you agree with our [terms and conditions](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and accept full responsibility for the publication.
+   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.
+3. Click on **Publish**
+   - A progression bar appears during the publishing process and disappears when launched.
+4. Check the Publication status of your records on your Collection page.
+5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
+   - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
 
 
 <html lang="en">
