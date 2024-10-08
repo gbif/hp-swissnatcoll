@@ -61,7 +61,61 @@ toc: true
 ### Database record example (Darwin Core formatted)
 
 <div style="overflow-x: auto;">
-  <table style="border-collapse: collapse; border: 1px solid black;">
+  <table style="border-collapse: collapse; border: 1px solid black; width: 1500%; table-layout: fixed;">
+    <colgroup>
+        
+        <col style="width: 5%;">   <!-- catalogNumber -->
+        <col style="width: 5%;">   <!-- institutionCode -->
+        <col style="width: 5%;">   <!-- collectionCode -->
+        <col style="width: 7%;">   <!-- partOfOrganism -->
+        <col style="width: 7%;">   <!-- preparations -->
+        <col style="width: 10%;">  <!-- references -->
+        <col style="width: 10%;">  <!-- occurrenceID -->
+        <col style="width: 10%;">  <!-- associatedMedia -->
+        <col style="width: 20%;">  <!-- verbatimLabel -->
+        <col style="width: 7%;">   <!-- otherCatalogNumbers -->
+        <col style="width: 5%;">   <!-- yearCollectionEntrance -->
+        <col style="width: 7%;">   <!-- verbatimEventDate -->
+        <col style="width: 3%;">   <!-- day -->
+        <col style="width: 3%;">   <!-- month -->
+        <col style="width: 4%;">   <!-- year -->
+        <col style="width: 7%;">   <!-- eventDate -->
+        <col style="width: 6%;">   <!-- typeStatus -->
+        <col style="width: 10%;">  <!-- verbatimIdentification -->
+        <col style="width: 10%;">  <!-- scientificName -->
+        <col style="width: 10%;">  <!-- acceptedNameUsage -->
+        <col style="width: 8%;">   <!-- family -->
+        <col style="width: 6%;">   <!-- genus -->
+        <col style="width: 6%;">   <!-- specificEpithet -->
+        <col style="width: 8%;">   <!-- scientificNameAuthorship -->
+        <col style="width: 7%;">   <!-- recordedBy -->
+        <col style="width: 5%;">   <!-- recordNumber -->
+        <col style="width: 7%;">   <!-- identifiedBy -->
+        <col style="width: 5%;">   <!-- dateIdentified -->
+        <col style="width: 10%;">  <!-- verbatimLocality -->
+        <col style="width: 5%;">   <!-- continent -->
+        <col style="width: 5%;">   <!-- country -->
+        <col style="width: 5%;">   <!-- stateProvince -->
+        <col style="width: 5%;">   <!-- county -->
+        <col style="width: 5%;">   <!-- municipality -->
+        <col style="width: 8%;">   <!-- locality -->
+        <col style="width: 8%;">   <!-- verbatimElevation -->
+        <col style="width: 5%;">   <!-- minimumElevationInMeters -->
+        <col style="width: 5%;">   <!-- maximumElevationInMeters -->
+        <col style="width: 10%;">  <!-- verbatimCoordinates -->
+        <col style="width: 7%;">   <!-- locationID -->
+        <col style="width: 7%;">   <!-- decimalLongitude -->
+        <col style="width: 7%;">   <!-- decimalLatitude -->
+        <col style="width: 6%;">   <!-- geodeticDatum -->
+        <col style="width: 8%;">   <!-- coordinateUncertaintyInMeters -->
+        <col style="width: 6%;">   <!-- coordinatePrecision -->
+        <col style="width: 7%;">   <!-- georeferencedBy -->
+        <col style="width: 10%;">  <!-- georeferenceProtocol -->
+        <col style="width: 7%;">   <!-- georeferencedDate -->
+        <col style="width: 10%;">  <!-- georeferenceSources -->
+        <col style="width: 8%;">   <!-- georeferenceRemarks -->
+    </colgroup>
+
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">catalogNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">institutionCode</th>
@@ -73,12 +127,12 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffffcc;">associatedMedia</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; max-width: 500px; padding: 5px; background-color: #f2ceef;">verbatimLabel</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">otherCatalogNumbers</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">yearCollectionEntrance</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">yearCollectionEntrance</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimEventDate</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">day</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">month</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">year</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #92d050;">eventDate</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">day</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">month</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">year</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #92d050;">eventDate</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">typeStatus</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimIdentification</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">scientificName</th>
@@ -88,9 +142,9 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">specificEpithet</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">scientificNameAuthorship</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">recordedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">recordNumber</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">recordNumber</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">identifiedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">dateIdentified</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">dateIdentified</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimLocality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #92d050;">continent</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">country</th>
@@ -99,15 +153,15 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">municipality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">locality</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimElevation</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">minimumElevationInMeters</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">maximumElevationInMeters</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">minimumElevationInMeters</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">maximumElevationInMeters</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimCoordinates</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">locationID</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLongitude</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLatitude</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLongitude</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLatitude</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">geodeticDatum</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinateUncertaintyInMeters</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinatePrecision</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinateUncertaintyInMeters</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinatePrecision</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">georeferencedBy</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">georeferenceProtocol</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">georeferencedDate</th>
@@ -123,13 +177,13 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=234911&lang=fr</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.gbif.org/occurrence/1144789039</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/imagezoom/?FIF=cjbiip/cjb19/img_101/G00304683.ptif&cvt=jpg</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px; max-height: 30px; background-color: #f6ddf4;">Hb.G. 107575; G00304683; SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN, Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023 Taraxacum retortum v. Soest; Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975; B. de Retz no 71454; J .L. van Soest; Isotype !; TARAXACUM retortum S.; vidi: J. Kirschner et J. Stepanek; anno: 2006; no. det.: 18854; TYPUS; Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px; max-height: 30px; background-color: #f6ddf4;">Hb.G. 107575;<br> G00304683; SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN,<br> Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023<br> Taraxacum retortum v. Soest; Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975;<br> B. de Retz no 71454; J .L. van Soest; Isotype !;<br> TARAXACUM retortum S.; vidi: J. Kirschner et J. Stepanek; anno: 2006; no. det.: 18854; TYPUS;<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Hb.G. 107575 | SIB ID 236892/1</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">1977</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">1977</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">13 juin 1975</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">13</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">6</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">1975</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">13</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">06</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">1975</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #b3de85;">1975-06-13</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Isotypus of Taraxacum retortum Soest.</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">Taraxacum retortum v. Soest</td>
@@ -140,9 +194,9 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">retortum</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Soest.</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">de Retz, B.</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">71454</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">71454</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Stepanek, J.</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">2006</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">2006</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">Urdos (France, Pyrénées-Atlantiques), le long de la route du Col du Somport, 200m avant la frontière avec l'Espagne</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #b3de85;">Europe</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">France</td>
@@ -151,15 +205,15 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Urdos</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">Col du Somport</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">alt. 1600 m</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">1600</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #d3eef8;">1600</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">NA</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #f6ddf4;">NA</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">geopick-v2.1.0-2024-06-18T07-23-18.770Z-243</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">42.7961761</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">-0.5314797</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #ffffb3;">42.7961761</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #ffffb3;">-0.5314797</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">epsg:4326</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">104</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">0.0000001</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #ffffb3;">104</td>
+      <td style="border: 1px solid black; text-align: right; vertical-align: top; padding: 5px;background-color: #ffffb3;">0.0000001</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">A. Mentha</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">Georeferencing Quick Reference Guide (Zermoglio et al. 2020, https://doi.org/10.35035/e09p-h128)</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffb3;">2024-08-12T14:57:33.750Z</td>
