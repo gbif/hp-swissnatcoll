@@ -3,8 +3,8 @@ layout: compose
 permalink: /en/methods
 title: Methods
 description: Learn more about the journey of a museum specimen, the various techniques of curating and more
-background: "{{ site.data.images.methods.src }}"
-imageLicense: "{{ site.data.images.methods.caption }}"
+background: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
+imageLicense: [Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892){:target=\"_blank\"} from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09){:target=\"_blank\"}
 height: 50vh
 composition:
 - type: heroImage
