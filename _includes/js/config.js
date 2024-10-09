@@ -16,7 +16,8 @@ var siteConfig = {
  },  
   version: 2,
   routes: {
-    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch']
+    enabledRoutes: ['occurrenceSearch', 'institutionSearch', 'institutionKey', 'collectionSearch', 'collectionKey', 'datasetKey', 'datasetSearch', 'literatureSearch'],
+    occurrenceSearch: { route: "/specimen/search"}
   },
   occurrence: {
     mapSettings: {
