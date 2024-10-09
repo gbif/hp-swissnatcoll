@@ -16,7 +16,7 @@ stats:
       imageLicense: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
       #href: "/collection/search"
       
-    - title: <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/publishingOrgKey=d80fedd1-940b-4669-871d-b9c990cf650e"></span>
+    - title: <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/search?publishingOrgKey=d80fedd1-940b-4669-871d-b9c990cf650e"></span>
       description: "Occurrences"
       background: /assets/images/swissMuseumsImages/DSC_5509.jpg
       imageLicense: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
