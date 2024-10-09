@@ -17,7 +17,7 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 ## Next live tutorial sessions
 
 {: .box }
-**Session 2** (3x 45 min)
+**Session 3** (3x 45 min)
 <br>- **WEDNESDAY - 23-10-2024 - 15H-15h45** Lesson 1 Introduction, log in and data preparation
 <br>- **TUESDAY - 29-10-2024 - 10H30-11H15** Lesson 2 Uploading, mapping and encoding
 <br>- **THURSDAY - 31-10-2024 - 15H-15h45** Open-questions
