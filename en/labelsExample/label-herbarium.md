@@ -37,7 +37,7 @@ toc: true
 
 ### Specimen elements corrrespondance with institution encoding and Darwin Core terms
 
-| Museum Specimen | Institution encoding | Darwin Core correspondance |
+| Museum Specimen | Institution encoding* | Darwin Core correspondance |
 | --------------- | -------------------- | -------------------------- |
 | Hb.G. 107575 | _not encoded anymore_ | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
 | TARAXACUM retortum vS. | NOM.NOM_COMPLET | part of [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target="_blank"} |
@@ -57,6 +57,7 @@ toc: true
 | J. L. van Soest | _not encoded_ | [previousIdentifications](https://dwc.tdwg.org/terms/#dwc:previousIdentifications){:target="_blank"} |
 | Isotype ! | TYPUS.TYPUS | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target="_blank"} |
 
+*The institution encoding presented here may not represent the current encoding used in the institution but serves as an example.
 
 ### Database record example (Darwin Core formatted)
 
@@ -221,6 +222,9 @@ toc: true
   </table>
 </div>
 
+*The Darwin Core correspondance here may represent a possible data encoding, not necessarily used by the institution. It serves as an example to facilitate the understanding of Darwin Core terms.
+
+<br>
 
 <figure class="has-text-centered">
   <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Anouk Mentha / <a href="https://www.cjbg.ch/en" target="_blank">Conservatoire et Jardin botaniques de Genève</a>' data-action="zoom">
