@@ -3,7 +3,7 @@ lang-ref: about
 layout: post
 title: About
 description: SwissNatColl
-background: /assets/images/GraphsDiagrams/SwissDataFlows1.png
+background: /assets/images/GraphsDiagrams/SwissDataFlows.png
 imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 height: 50vh
 toc: true
