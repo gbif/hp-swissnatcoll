@@ -16,10 +16,10 @@ tutorials:
     section:
     - title: Mollusca
       path: /en/label-mollusca
+    - title: Herbarium
+      path: /en/label-herbarium
     #- title: Ornithology
     #  path: /en/label-ornithology
-    #- title: Herbarium
-    #  path: /en/label-herbarium
     #- title: Entomology
     #  path: /en/label-entomology
     #- title: Geology
