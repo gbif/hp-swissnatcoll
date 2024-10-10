@@ -31,14 +31,9 @@ var siteConfig = {
       "predicates": [
 	{
           "type": "equals",
-          "key": "publishingCountry",
-          "value": countryCode
+          "key": "publishing_org",
+          "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"
         },
-	//{
-          //"type": "equals",
-          //"key": "publishing_org",
-          //"value": "9661d20d-86b6-4485-8948-f3c86b022fa7"
-        //},
         {
           "type": "in",
           "key": "basisOfRecord",
