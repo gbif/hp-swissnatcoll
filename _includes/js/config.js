@@ -31,7 +31,7 @@ var siteConfig = {
       "predicates": [
 	{
           "type": "equals",
-          "key": "publishing_org",
+          "key": "publishingOrgKey",
           "value": "d80fedd1-940b-4669-871d-b9c990cf650e"
         },
         {
