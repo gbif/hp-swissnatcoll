@@ -1,1 +1,12 @@
 url: "https://swissnatcoll.hp.gbif-uat.org/" # the base hostname & protocol for your staging site, e.g. https://hp-example.gbif-uat.org
+
+siteMeasurements:
+  enable: false
+
+plausible:
+  enabled: false
+  domain: swissnatcoll.gbif-uat.org
+
+graphqlEndpoint: "https://graphql.gbif-uat.org/graphql"
+
+useSharedLibrary: true
