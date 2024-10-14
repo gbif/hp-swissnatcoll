@@ -94,7 +94,7 @@ Data users are invited to participate in tutorial sessions. Depending on availab
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🎥 Session 1 Lesson 2 THURSDAY
+      🎥 Session 2 Lesson 2 THURSDAY
     </button>
   </a>
 </div>
@@ -113,7 +113,7 @@ Data users are invited to participate in tutorial sessions. Depending on availab
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🎥 Session 1 Lesson 3 THURSDAY
+      🎥 Session 2 Lesson 3 THURSDAY
     </button>
   </a>
 </div>
