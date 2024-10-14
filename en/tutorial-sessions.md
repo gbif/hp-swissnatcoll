@@ -68,7 +68,7 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 
 ### Video material
 
-#### Lesson 1 Introduction, log in and data preparation
+#### Lesson 1 Uploading and Mapping
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/ERUY8dF1l15PlmktTwK-avMBtfSAOKdgDotw9_MaUz3BqA?e=vAKPLb" style="text-decoration: none;">
@@ -81,6 +81,8 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 </div>
 
 <br> 
+
+#### Lesson 2 Uploading and Mapping
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EavJo6LRQUFEroTlCA_VT84BQz8-5QCojjGAsAudqBJChw?e=Q5fVgy" style="text-decoration: none;">
@@ -100,6 +102,9 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 </div>
 
 <br> 
+
+#### Lesson 3 Conclusions and open-questions
+
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EQs9OC2Sy-tNuRtY-4cvA3IBV9-XDzyesSb_ZckwLlPAow?e=RLhtzt" style="text-decoration: none;">
