@@ -11,6 +11,10 @@ composition:
 - type: pageMarkdown
 ---
 
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ These terms are still in a writing process. Please keep in mind they should soon be updated and adapted.
+</div>
+
 # TERMS OF USE
 
 ## 1. Introduction
