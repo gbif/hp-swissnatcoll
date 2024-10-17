@@ -1,7 +1,7 @@
 ---
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Data Aggregator Terms
-description: Terms of Use, Publication policy and Publisher agreement
+description: Agreements and disclaimers relating to access and use of the Data Aggregator for biodiversity Swiss data 
 background: "{{ site.data.images.helpdesk.src }}"
 imageLicense: "{{ site.data.images.helpdesk.caption }}"
 height: 50vh
@@ -12,154 +12,65 @@ composition:
 ---
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ These terms are still in a writing process. Please keep in mind they should soon be updated and adapted.
+⚠️ These terms are still under revision. Please keep in mind they should soon be updated and adapted.
 </div>
 
 # TERMS OF USE
 
 ## 1. Introduction
-These Terms of Use ("Terms") concern the swiss Data Aggregator ("Aggregator"). They govern user’s access to and use of the Aggregator services, including any data, content, and functionality offered on or through the Aggregator. By using the Aggregator, the user’s agree to comply with these Terms. If they do not agree, the access to the Aggregator won’t be provided.
+
+In the context of the mobilisation of biodiversity Swiss data, the Data Aggregator ("DAGI") was developed to assure that data are compliant with international standards and are organised into recognised formats. The DAGI is hosted and deployed by [info fauna](https://www.infofauna.ch/){:target="_blank"} and maintained under the technical environment of the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}). The DAGI has as main missions the centralisation of data from different sources of truth, the harmonisation and enrichment of the information and the publication into GBIF.
+These Terms of Use ("Terms") concern the conditions that govern the access and use of the DAGI. By using the DAGI, the users are required to expressly agree to comply with these Terms. If they do not agree, the access to the DAGI will not be granted.
 
 ## 2. Definitions
-- “Aggregator” refers to the swiss Data Aggregator.
 
-- “User” refers to any individual or organization accessing the Aggregator. The two categories of users are defined under 4.4 User categories but are not differentiated if not specified.
+- “DAGI” refers to the Data Aggregator deployed by info fauna and maintained under the technical environment of GBIF.ch.
+- “Provider” refers to any individual accessing and using the DAGI to upload and publish data. Data are owned by the organization to which the individual is affiliated.
+- “Publisher” refers to a custodian of data making it technically available on GBIF. In this context it does not correspond to the data owner.
+- “Data” refers to any biodiversity data metadata, or content made available on the DAGI.
+- “Dataset” refers to a package of data made available on the DAGI. It is the entity that is sent to GBIF for publication.
+- “Content” refers to all information in text form, numbers, images, and other resources made available through the DAGI.
 
-- “Data” refers to any data sets, metadata, or content made available on the Aggregator.
+## 3. International framework within GBIF
 
-- “Content” refers to all text, images, and other materials made available through the Aggregator.
-
-- "Contributor" refers to any organization or institution importing its data into the Data Aggregator
-
-## 3. Eligibility
-Users must be employed professionals by a swiss natural history institution and accredited by the Aggregator Administrator based on the User Management Plan. By using the Aggregator, the users represent and warrant that they meet these requirements.
-
-## 4. User Obligations and Responsibilities
-### 4.1 Account Registration
-Users are required to register an account to access the features. They are responsible for maintaining the confidentiality of their account information and for all activities under their account.
-
-### 4.2 Compliance
-Users agree to comply with all applicable laws and regulations while using the Aggregator.
-
-### 4.3 Prohibited Activities
-Users must not:
-
-- Engage in data scraping, harvesting, or any automated data collection activities.
-- Attempt to gain unauthorized access to the Aggregator or its systems.
-- Use the Aggregator for any illegal or unauthorized purposes.
-- Distribute or post any harmful content or software.
-
-### 4.4 User categories
-Users can be of one or two categories:
-
-- Data Administrator
-
-  - can view its attributed collections
-
-  - can upload, map, encode, export and publish datasets in its attributed collections
-
-  - can be registered in one and only one institution
-
-- Collection Digitizer
-
-  - can view, add, edit the collections in its attributed institution
-
-  - can add, edit and remove other Data Administrator users in its attributed institution
-
-  - can not upload, map, encode, export and publish datasets
-
-  - can be registered in one and only one institution
-
-## 5. Intellectual Property Rights
-All content on the Aggregator is protected by intellectual property laws. The ownership of data remains with the original data providers. Users are granted a limited, non-exclusive license to use the data in accordance with these Terms.
-
-## 6. Data Use and Restrictions
-### 6.1 Permitted Use
-Users may use the data for personal, educational, or non-commercial research purposes.
-
-Concerning specifically swiss specimens, the data flow and data use is reglemented by the [common guidelines of Infospecies](https://www.infospecies.ch/fr/donnees/deontologie.html){:target="_blank"}, the national data centres.
-
-### 6.2 Prohibited Use
-Data must not be resold, redistributed, or used for commercial purposes without explicit permission.
-
-## 7. Privacy Policy
-Our Privacy Policy explains how we collect, use, and protect your personal data. By using the Aggregator, you consent to the collection and use of your data as described in the Privacy Policy.
-
-## 8. Limitation of Liability
-The Aggregator is provided "as is" without warranties of any kind. The Aggregator is not liable for any errors, inaccuracies, or data loss. We do not warrant that the Aggregator will be available at all times.
-
-## 9. Termination of Access
-The Aggregator Administrator reserves the right to terminate or suspend access to the Aggregator for any user who violates these Terms or engages in unlawful behavior.
-
-## 10. Modifications to Terms
-We may revise these Terms at any time. Changes will be posted on this page, and your continued use of the Aggregator after such changes constitutes acceptance of the new Terms.
-
-## 13. Governing Law and Dispute Resolution
-These Terms are governed by the laws of Switzerland. Any disputes arising from these Terms will be resolved through arbitration in Switzerland.
-
-## 12. Contact Information
-For questions or concerns about these Terms, please contact us at contact-swissnatcoll@infofauna.ch
+The Providers must be aware that the action of publishing a dataset will send data to GBIF, making them publicly available. The Publisher on GBIF is [SwissNatColl](https://www.gbif.org/publisher/9661d20d-86b6-4485-8948-f3c86b022fa7){:target="_blank"}, whose endorsement was agreed under the conditions laid down by the [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}.
+Provisions for the use of data from the portal and web services offered by GBIF are regulated by policies and terms laid down by the [Data User Agreement](https://www.gbif.org/terms/data-user){:target="_blank"}.
 
 
+## 4. Eligibility, Obligations and Responsibilities
 
-# PUBLICATION POLICY
+The Providers must be recognised collaborators within a Swiss institution and the first person to be registered within the institution must be accredited by the DAGI Administrator. The Providers agree to comply with all applicable laws and regulations while using the DAGI and cannot engage on illegal or unauthorized activities related to the infrastructure or the data inside the system. The DAGI Administrator reserves the right to terminate or suspend access for any Provider who violates these Terms or engages in unlawful behaviour.
+The Providers are required to register an account to access the features and they are responsible for the accuracy and confidentiality of their personal information, and for all the activities carried out under their account. The Providers have necessarily one of the two roles in the DAGI, but one Provider can also fulfil both of them. Registration of the Providers implies that the DAGI Administrator attributes a personal login for the first person that is registered within a given institution. According to the role of the Provider, the rights to different actions vary, but every action will always be within the scope of the institution to which the Provider is affiliated. The two possible roles and respective rights are:
+- Collection Digitizer, who can visualise, add and edit the datasets, and add, edit and remove Data Administrators and Collection Digitizers.
+- Data Administrator, who can visualise the datasets and upload, map, encode, export and publish datasets.
 
-## 1. Scope and Purpose
-The purpose of this Publication Policy is to outline the principles and practices for managing and sharing data on the swiss Data Aggregator. We are committed to promoting transparency and ensuring high data quality treatment.
+<br>
+The Providers are the legal owners of their data and are responsible for the quality, accuracy, completeness and lawful of the content provided. The Providers can withdraw uploaded data from the DAGI at any time. However, this action will not have an influence on the data made publicly available on GBIF prior to withdrawal. Assistance from GBIF.ch ([email](mailto:contact@gbif.ch)) is needed for any revision of a dataset after publication. The Providers are committed to avoid such situation and manual interventions in a dataset publicly available remains an exception.
 
-## 2. Data Sources and Collection
-Data is sourced from Swiss natural history institutions.
+## 5. Publication permission and Data licencing
 
-- Contributors must ensure that the data provided is accurate, complete, and lawful.
+In the context of the DAGI, publishing a dataset implies making biodiversity data openly and universally available on the GBIF portal. The Publisher of these data is the SwissNatColl, who is the entity that observes the provisions of the GBIF Data Publisher Agreement, and who has the power to publish or to retract data from publication.
+Within the DAGI’s constellation, the Providers must be aware that when publishing data, they implicitly accept the conditions of the Data Publisher Agreement. We emphasise that they agree to hold the GBIF Secretariat harmless from any consequence of the decision to publish a certain dataset and that they are responsible for: 
+- the accuracy of the data provided – the GBIF Secretariat reserves the right to refuse or retract from publication a dataset that provides misleading or inaccurate information.
+- the restriction access to sensitive data – the GBIF Secretariat reserves the right to refuse or retract from publication a dataset that causes harm or danger.
 
-- Contributors remain legal owners of their data. They can withdraw uploaded data at anytime.
-
-## 3. Data Quality and Accuracy
-We strive to maintain high data quality treatment through validation and regular updates of the thesaurus and verification layers.
-
-- Users are encouraged to report any errors or discrepancies they find in the data.
-
-- Contributors are responsible for the quality, accuracy, completeness and legality of the uploaded data
-
-## 4. Data Licensing and Permissions
-Data is made available under the CC BY and/or CC BY-NC, unless otherwise specified.
-
-Users must adhere to the terms of the data license when using the data aggregator.
-
-## 5. Attribution Requirements
-Contributors must provide proper attribution to the data source to allow using and publishing the data.
-
-## 6. Data Privacy and Confidentiality
-Sensitive or personal data is handled in accordance with our Privacy Policy.
-
-## 7. User Contributions and Submissions
-User-submitted data must comply with our data quality standards and licensing terms.
-
-## 8. Ethical Considerations
-We are committed to ethical data use, avoiding bias, and respecting the consent of data subjects.
-
-## 9. Review and Approval Process
-Data submitted for publication undergoes an approval process by Info Species to ensure compliance with our standards.
-
-The review process includes checks for data quality, accuracy, and compliance with licensing terms.
-
-## 10. Amendments to the Policy
-We may amend this Publication Policy from time to time. Updates will be communicated to stakeholders and posted on our website.
-
-## 11. Compliance and Enforcement
-Compliance with this policy is mandatory for all data contributors. Violations may result in the removal of data or termination of access.
-
-## 12. Contact Information
-For questions or concerns about this Publication Policy, please contact us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch)
+<br>
+GBIF ensures that all datasets are associated to digital licences and three options Creative Commons are supported: CC0, CC BY and CC BY-NC. The standard practice promoted by the DAGI and GBIF is the attribution of the licence CC BY, but the Provider will be able to specify another available licence if desired at the moment they publish the dataset.
+The data concerning Swiss specimens of specific taxonomic groups submitted for publication are regulated by the [general guidelines of InfoSpecies](https://www.infospecies.ch/fr/donnees/deontologie.html){:target="_blank"}. The Providers must be aware that these specific data will ultimately undergo a process of validation by the national data centres and that the validated data will be part of the reference data used by the Confederation for species conservation purposes.
+The DAGI host organizations (info fauna and GBIF Swiss Node) are committed to ensure transparency at all levels and we strive to maintain high data quality treatment through validation and regular updates of the thesaurus and verification layers.
 
 
-# PRIVACY POLICY
+## 6. Rights, Clauses and Legal issues
 
-...TBA...
+The whole DAGI infrastructure is protected by intellectual property laws. The DAGI is provided "as is" without warranties of any kind.
+The DAGI host organizations (info fauna and GBIF Swiss Node) are not liable or responsible, nor are their collaborators or contractors, for data contents or their use; or for any errors, inaccuracies, data loss or inability to use the entire infrastructure or part of it.
+The DAGI collects the minimum amount of personal information needed to fulfill the purpose of attribution of roles and rights. We do not process the information collected, nor sell or transfer this information to third parties, and the same standard of privacy protection is applied to all DAGI’s users. As users of GBIF, the Providers must however be aware of the [Privacy Policy](https://www.gbif.org/en/terms/privacy-policy){:target="_blank"} employed to collect, use and disclose personal data.
+These Terms are governed by the laws of Switzerland. Any disputes arising will be resolved through arbitration in Switzerland.
 
-# PUBLISHER AGREEMENT
 
-...TBA...
+## 7. Modifications and Contact
+The DAGI host organizations (info fauna and GBIF Swiss Node) have the right to update and change these Terms from time to time. Any changes will be posted on this page, and your continued use of the DAGI after such changes constitutes acceptance of the new Terms.
+For any questions or concerns about these Terms, please contact [contact@gbif.ch](mailto:contact@gbif.ch).
 
 
 <html lang="en">
