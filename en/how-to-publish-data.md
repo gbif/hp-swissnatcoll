@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data with the Data Aggregator
-In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [sent for validation](#approve-my-data) to Infospecies experts and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
@@ -245,17 +245,6 @@ The mappings window (Step 2 of 3) has three parts:
   - Your data content is separated by commas.
 
 
-## Approve my data
-
-1. Click on **Approve**.
-  - A window opens with a short summary of what the approval entitles.
-  - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
-2. Click on **Approve**.
-  - A progression bar appears during the approval process and disappears when launched.
-  - This process might take some time, but we currently can't say how long.
-3. Check the Approval status of your records on your Collection page.
-
-
 ## Publish my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
@@ -275,6 +264,21 @@ We thank you for your patience and understanding.
 4. Check the Publication status of your records on your Collection page.
 5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
    - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
+
+## Approve my data
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
+</div>
+
+1. Click on **Approve**.
+  - A window opens with a short summary of what the approval entitles.
+  - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
+2. Click on **Approve**.
+  - A progression bar appears during the approval process and disappears when launched.
+  - This process might take some time, but we currently can't say how long.
+3. Check the Approval status of your records on your Collection page.
+
 
 <br>
 
