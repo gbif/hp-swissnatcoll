@@ -12,13 +12,13 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 # Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
 
-> Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
+> Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-✅ My institution has **at least one collection registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
+✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
 
-> Example: [Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
+> Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
 ✅ My institution has **at least [one user](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
 
@@ -27,7 +27,7 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 ⚠️ If your institution does not yet have a Collection Digitizer, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
-✅ My dataset has all **mandatory fields** (attributes) to ensure [minimal encoding](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"} on the Data Aggregator.
+✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in the Data Aggregator.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
