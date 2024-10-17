@@ -9,7 +9,7 @@ toc: true
 # How to publish data with the Data Aggregator
 In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset/collection is ready to be [sent for validation](#approve-my-data) to Infospecies experts and [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
 
-# Checklist -to do before logging in the Data Aggregator
+## Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
 
 > Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
@@ -20,7 +20,7 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-✅ My institution has **at least [one user](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
+✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
 
 > - Collection Digitizer
 > - Data Administrator
@@ -46,9 +46,9 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 ---
 
 
-# Prepare my data
+## Prepare my data
 
-1. Focus on the most important fields first ([Mandatory fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+1. Focus on the most important fields first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
 2. Check that your file does not have
    - catalogNumber duplicate
@@ -118,7 +118,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 </div>
 
 
-# Log in
+## Log in
 1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
   - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
@@ -132,7 +132,7 @@ There are five different tabs on your institution page
   - **Guide**: opens the **How to publish data with the Data Aggregator** page on the SwissNatColl hosted portal
   - **Tutorials**: opens the **Tutorial sessions for the Data Aggregator users** page on the SwissNatColl hosted portal
 
-# Add a new collection
+## Add a new collection
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Collection Digitizer</i> role can add, edit and delete collections. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
@@ -157,7 +157,7 @@ There are five different tabs on your institution page
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
     - ⚠️Do not delete a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️
 
-# Upload my data
+## Upload my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Data Administrator</i> can do the following steps, from the upload to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
@@ -179,7 +179,7 @@ There are five different tabs on your institution page
 2. Wait until the purple bar is full.
 3. Click on **Next**
 
-## Map my data
+### Map my data
 
 {: .box }
 The mappings window (Step 2 of 3) has three parts:
@@ -214,7 +214,7 @@ The mappings window (Step 2 of 3) has three parts:
   <p>✅ A certain amount of imported records shown in the <strong>Records</strong> tab of your collection page. If it was your first import in this collection, then the <strong>Not encoded</strong> percentage is 100%.</p>
 </div>
 
-# Encode my data
+## Encode my data
 
 1. Click on **Encode**.
   - A window opens with a short summary of what the encoding does.
@@ -228,7 +228,7 @@ The mappings window (Step 2 of 3) has three parts:
   - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when passing over the "Incomplete" logo with the mouse.
 
 
-# Export my data
+## Export my data
 
 1. Click on **Export**.
 2. Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the Darwin Core (DWC) Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part.
@@ -245,7 +245,7 @@ The mappings window (Step 2 of 3) has three parts:
   - Your data content is separated by commas.
 
 
-# Approve my data
+## Approve my data
 
 1. Click on **Approve**.
   - A window opens with a short summary of what the approval entitles.
@@ -256,7 +256,7 @@ The mappings window (Step 2 of 3) has three parts:
 3. Check the Approval status of your records on your Collection page.
 
 
-# Publish my data
+## Publish my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on GBIF-UAT</strong> (technical page of GBIF), where you can have a preview of how your dataset page will look like on GBIF.org<br>
@@ -268,7 +268,7 @@ We thank you for your patience and understanding.
 1. Click on **Publish**.
    - A window opens with a short summary of what the publication entitles.
    - Note that the data published comes from the Encoded layer of the Data Aggregator. Encoding your data is mandatory to publish it on GBIF.
-2. Tick the check box if you agree with our [terms and conditions](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and accept full responsibility for the publication.
+2. Tick the check box if you agree with our [terms and conditions](/en/terms/){:target="_blank"} and accept full responsibility for the publication.
    - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.
 3. Click on **Publish**
    - A progression bar appears during the publishing process and disappears when launched.
@@ -276,6 +276,33 @@ We thank you for your patience and understanding.
 5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
    - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
 
+<br>
+
+---
+
+<br>
+
+# How to navigate in the Data Aggregator
+
+When [logging in](#log-in) the Data Aggregator, the platform opens on the [Collections page](#collections-page).
+
+In the top-right corner of the page, you can see your login name, the button to log out and the button to choose between light/dark/computer themes. The platform is available only in English.
+
+## Collections page
+
+The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institutions you have registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order.
+
+The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done ([📤import a dataset](#upload-my-data), [📥export](#export-my-data),  encode, publish and approve)
+
+## Records page
+
+## Admnistration page
+
+## External links
+
+### Guide
+
+### Tutorials
 
 <html lang="en">
 <head>
