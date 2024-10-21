@@ -26,7 +26,7 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 ---
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ <strong>The ZOOM lessons will be recorded</strong> for remote availability for absent Data Aggregator users. The videos will not be publicly published and erased as soon as official tutorial video material is produced.
+⚠️ <strong>The ZOOM lessons can be recorded</strong> for remote availability for absent Data Aggregator users. The videos will not be publicly published and erased as soon as official tutorial video material is produced.
 </div>
 
 <br>
