@@ -10,7 +10,7 @@ columns:
   - name: Partners
     links:
     - text: GBIF Swiss Node
-      href: https://staging.aggregator.scnat.zebbra.ch/images/logo.png
+      href: https://www.gbif.org/country/CH/summary
     - text: SwissCollNet
       href: https://swisscollnet.scnat.ch/
 
