@@ -418,18 +418,17 @@ The Data Aggregator has a structure in three different layers (imported data, en
 There are two different roles for user profile in the Data Aggregator:
 - **Data Administrator**
   - can view the collections of their institution
-  - can upload, map, encode, export, activate the validation and publish the records in the collections of their institution
+  - can upload, map, encode, export and publish the records in the collections of their institution
 <br>
 - **Collection Digitizer**
-  - can view, add, edit and remove Data Administrator users of their institution
+  - can view, add, edit and remove users of their institution
   - can view, add and edit collections of their institution
  
 <br>
 
 | Tasks | Data Administrator | Collection Digitizer |
 | ----- | ------------------ | -------------------- |
-| **Users** -add/edit/remove Collection Digitizer | ❌ | ❌ |
-| **Users** -add/edit/remove Data Administrator | ❌ | ✅ own institution |
+| **Users** -view/add/edit/remove | ❌ | ✅ own institution |
 | **Collections** -add/edit | ❌ | ✅ own institution |
 | **Collections** -view | ✅ own institution | ✅ own institution |
 | **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
