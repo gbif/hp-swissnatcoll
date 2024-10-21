@@ -25,6 +25,14 @@ tutorials:
     #- title: Geology
     #  path: /en/label-geology
 
+- grouptitle: Presentations powerpoint
+  content:
+  - title: General introduction & Log in & Data Preparation
+    path: /assets/files/Lesson_1_IntroLogInDataPrepa.pdf
+  - title: Collection & Data Import & Mapping
+    path: /assets/files/Lesson_2_DatasetUploadingMapping.pdf
+
+
 terms:
 - grouptitle: Group name
   content:
