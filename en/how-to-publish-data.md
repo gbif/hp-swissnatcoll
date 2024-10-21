@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data with the Data Aggregator
-In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
+In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the Data Aggregator (DAGI) website. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
@@ -119,7 +119,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 
 ## Log in
-1. Go to the [Data Aggregator website](https://staging.aggregator.scnat.zebbra.ch/sign-in){:target="_blank"}.
+1. Go to the Data Aggregator website.
 2. Insert your login details in the corresponding field.
   - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
 
