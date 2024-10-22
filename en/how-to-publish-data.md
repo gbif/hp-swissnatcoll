@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data with the Data Aggregator
-In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the Data Aggregator (DAGI) website. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
+In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator
 ✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
@@ -119,7 +119,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 
 
 ## Log in
-1. Go to the Data Aggregator website.
+1. Go to the [Data Aggregator website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
   - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
 
@@ -292,15 +292,22 @@ When [logging in](#log-in) the Data Aggregator, the platform opens on the [Colle
 
 In the top-right corner of the page, you can see your login name, the button to log out and the button to choose between light/dark/computer themes. The platform is available only in English.
 
-## Collections page
+## Collections view
 
-The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institutions you have registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order.
+The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institution you have have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order. Only the Collection Digitizers can add, edit and delete collections in the Collections page.
 
-The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done ([📤import a dataset](#upload-my-data), [📥export](#export-my-data),  encode, publish and approve)
+The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#upload-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
 
-## Records page
+### Collection page
 
-## Admnistration page
+The page of a collection has 5 available tabs.
+
+- The Records tab :<br> View on all imported records of the collection with a selection of important attributes (Picture available, IUCN tag, Typus, scientificName, verbatimIdentification, occurrenceID, catalogNmber, recordedBy, identifiedBy, eventDate, StateProvince & countryCode, verbatimElevation, decimalLatitude & decimalLongitude), the current state of the available actions (Encoding, Publication status, Approval status), the MIDS quality level and the timestamp of the last update of the record. <br>The tab is separated in two parts: The **filters** on top (Quick filters, Search bar, selected layer, value filters) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the number selected.<br>
+- The Imports tab :<br> View on all imported files of the collection with a selection of important metadata (State of the import, File name, Size, timestamp of the import, and number of records imported from the file). The State is either blue (⚙️In progress), green (✅Imported) or red (❌Failed). When the state is Failed, by clicking on the red ❌Failed icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = Preview error log) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further. Each imported file, even the failed ones, are kept at all times in the DAGI server. They are available for a download by clicking on the blue size icon (📥xyz.x Mbyte).<br>
+
+## Records view
+
+## Admnistration view
 
 ## External links
 
