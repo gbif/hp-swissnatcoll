@@ -2,8 +2,8 @@
 layout: post
 title: About
 description: Data Aggregator
-background: "{{ site.data.images.data-aggregator-about.src }}"
-imageLicense: "{{ site.data.images.data-aggregator-about.caption }}"
+background: "assets/images/GraphsDiagrams/netzwerk_SwissCollNet_Call1-2.jpg"
+imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 height: 50vh
 toc: true
 sideNavigation: sideNavigation.tutorials
