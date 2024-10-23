@@ -2,13 +2,13 @@ lessons:
   title: "Powerpoint presentations"
   description: "How to use the Data Aggregator functionalities"
   features:
-    - title: "Lesson 1" # required
+    - title: "Lesson 1 ✨NEW" # required
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/ETi2IBK567ZKgx2rUbWJru4BsMvJ-ClupsYCQgmaTAwLpQ?e=3MPV4n"
       background: "/assets/images/categories/tuto_lesson1.png"
 
-    - title: "Lesson 2"
+    - title: "Lesson 2 ✨NEW"
       description: |
         Focus on adding a collection, importing a dataset file and do the mapping. Additional examples with possible error messages are also provided
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/ETWVyF6knPxHpK_BK3Ak5_MBM38yQu0ntePa3UCRzKozVQ?e=S6WpCT"
