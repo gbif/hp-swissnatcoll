@@ -14,33 +14,37 @@ After this important step, you are ready to [log in](#log-in) and [upload your d
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator
-✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
+
+<br>✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
 > Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
+<br>✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate suggestions of change on your GRSciColl collection page.
 
 
-✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
+<br>✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
 
 > - Collection Digitizer
 > - Data Administrator
 
 ⚠️ If your institution does not yet have a Collection Digitizer, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
-✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in the Data Aggregator.
+<br>✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in the Data Aggregator.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or text file with tab separation** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+> catalogNumber scientificName  eventDate   recordedBy<br>
+> XXX-123456789 Poa annua L.    2024-10-09  Weber Morgan<br>
+> XXX-234567890 Poa annua L.    2024-10-08  Weber Morgan
 
-✅ My ready-for-upload dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
+<br>✅ My ready-for-upload dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
