@@ -13,7 +13,7 @@ After this important step, you are ready to [log in](#log-in) and [upload your d
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
-## Checklist -to do before logging in the Data Aggregator
+## Checklist -to do before logging in the Data Aggregator DAGI
 
 <br>✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
@@ -28,14 +28,14 @@ A feature currently in development will also allow you to [send your swiss data 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate suggestions of change on your GRSciColl collection page.
 
 
-<br>✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
+<br>✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
 
 > - Collection Digitizer
 > - Data Administrator
 
 ⚠️ If your institution does not yet have a Collection Digitizer, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
-<br>✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in the Data Aggregator.
+<br>✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
@@ -63,16 +63,16 @@ A feature currently in development will also allow you to [send your swiss data 
 1. Focus on the most important fields first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
 2. Check that your file does not have
-   - catalogNumber duplicate
-   - "N/A"
-   - Special symbols ($, ç, ö, #, %, etc.)
+   - catalogNumber duplicates
+   - empty scientificName fields
+   - duplicated columns
 
 
-Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the upload in the Data Aggregator.
+Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the upload in DAGI.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 csv or tab-separated values file (.tab or .txt) of a maximum size of 20 Mbyte/Mo, with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>no empty lines</strong></p>.
+  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 Mbyte (=Mo), with your data arranged as <strong>one line is one occurrence/specimen</strong>, <strong>one column is one attribute</strong>, and <strong>there are no empty lines</strong></p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
@@ -125,24 +125,23 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are better than cells with "n.a." values ⚠️</p>
-  <p> ⚠️  avoid special symbols (#, ü, ö, é, &, %, ...) at all costs ⚠️</p>
+  <p> ⚠️ empty cells are better than cells with "n.a." or "N/A" or "n.s." or "unknown" values ⚠️</p>
 </div>
 
 
 ## Log in
-1. Go to the [Data Aggregator website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
+1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
   - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
 
 
 There are five different tabs on your institution page
 
-  - **Collections**: displays all the collections of your institution already added in the Data Aggregator.
-  - **Records**: displays all the records already imported, present in all of your collections.
-  - **Administration**: visible only to Collection Digitizer users, displays all users already added to your institution.
-  - **Guide**: opens the **How to publish data with the Data Aggregator** page on the SwissNatColl hosted portal
-  - **Tutorials**: opens the **Tutorial sessions for the Data Aggregator users** page on the SwissNatColl hosted portal
+  - **[Collections](#collections-view)**: displays all the collections of your institution already added in DAGI.
+  - **[Records](#records-view)**: displays all the records already imported, present in all of your collections.
+  - **[Administration](#admnistration-view)**: visible only to Collection Digitizer users, displays all users already added to your institution.
+  - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* page on the SwissNatColl hosted portal
+  - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* page on the SwissNatColl hosted portal
 
 ## Add a new collection
 
@@ -151,7 +150,7 @@ There are five different tabs on your institution page
 </div>
 
 1. Click on **Collections** on the left side of the window.
-  - On this page, you can see all the collections of your institution that have already been added in the Data Aggregator. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
+  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
   - If no collection has been added yet, you can click on **+ New collection** to add one
   - You can order the collection list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
@@ -196,7 +195,7 @@ There are five different tabs on your institution page
 {: .box }
 The mappings window (Step 2 of 3) has three parts:
 <br>  - Quick Start: if your field names are the exactly the same as the Data Aggregator's attributes, the mapping can be automatically performed by **Try auto-mapping**. The second button can be used after the first mapping and re-mapps your fields the same way you mapped them previously (as long as your field names do not change)
-<br>  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in the Data Aggregator ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
+<br>  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
 <br> - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
 
 1. If your fields are 100% the same as the Data Aggregator's attribute, click on **✨ Try auto-mapping** and simply check the mapping before clicking on **Update mapping**.
@@ -298,7 +297,7 @@ We thank you for your patience and understanding.
 
 <br>
 
-# How to navigate in the Data Aggregator
+# How to navigate in DAGI
 
 When [logging in](#log-in) the Data Aggregator, the platform opens on the [Collections page](#collections-page).
 
