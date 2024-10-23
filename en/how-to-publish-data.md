@@ -9,7 +9,7 @@ toc: true
 # How to publish data with the Data Aggregator
 In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below).
 
-After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
@@ -21,7 +21,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-<br>✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
+<br>✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
@@ -39,13 +39,13 @@ A feature currently in development will also allow you to [send your swiss data 
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-<br>✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My ready-for-import dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 > catalogNumber scientificName  eventDate   recordedBy   ...<br>
 > XXX-123456789 Poa annua L.    2024-10-09  Weber Morgan   ...<br>
 > ...   ...   ...   ...   ...<br>
 > XXX-234567890 Poa annua L.    2024-10-08  Weber Morgan   ...
 
-<br>✅ My ready-for-upload dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
+<br>✅ My ready-for-import dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
@@ -61,14 +61,14 @@ A feature currently in development will also allow you to [send your swiss data 
 ## Prepare my data
 
 1. Focus on the most important fields first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
-   - You don't need to upload your entire database into the Aggregator. Some of your fields are purely internal management.
-2. Check that your file does not have
+   - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
+<br>2. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName fields
    - duplicated columns
 
 
-Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the upload in DAGI.
+Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the import in DAGI.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
@@ -132,16 +132,16 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
-  - After signing in, you arrive on Collections page of your institution. Only the users registered with your institution can see these collections
+  - After signing in, you arrive on the Collections page of your institution. Only the users registered with your institution can see this DAGI page.
 
 
-There are five different tabs on your institution page
+There are five different tabs on your institution page:
 
-  - **[Collections](#collections-view)**: displays all the collections of your institution already added in DAGI.
-  - **[Records](#records-view)**: displays all the records already imported, present in all of your collections.
-  - **[Administration](#admnistration-view)**: visible only to Collection Digitizer users, displays all users already added to your institution.
-  - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* page on the SwissNatColl hosted portal
-  - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* page on the SwissNatColl hosted portal
+  - **[Collections](#collections-view)**: displays all the **collections** of your institution already added in DAGI.
+  - **[Records](#records-view)**: displays all the **records** already imported, present in all of your collections.
+  - **[Administration](#admnistration-view)**: visible only to Collection Digitizer users, displays all **users** already added to your institution.
+  - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
+  - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
 ## Add a new collection
 
@@ -150,43 +150,43 @@ There are five different tabs on your institution page
 </div>
 
 1. Click on **Collections** on the left side of the window.
-  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search){:target="_blank"}.
+  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
   - If no collection has been added yet, you can click on **+ New collection** to add one
   - You can order the collection list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. If your Collections page is empty, click either on the **+ Add a collection** button in the center of the page or on **New collection** on the top-right corner of the window (it does the same thing at this point).
 3. If your Collections page already has collections, click on the **New collection** button in the top right corner.
 
---- A window has opened. ---
+--- A pop-up window has opened. ---
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
-2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GrSciColl collection has already been used in another upload, it is not present anymore on the drop-down list of this window. You can find it on the Collections page.
-3. Add a description of the collection. 💡optional💡
-4. Click on **Create collection**
+<br>2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+    - If the GrSciColl collection has already been used in another import, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Collections page.
+<br>3. Add a description of the collection. 💡optional💡
+<br>4. Click on **Create collection**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
-    - ⚠️Do not delete a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️
+    - ⚠️Avoid deleting a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take [contact](mailto:contact-swissnatcoll@infofauna.ch) with us, so we can advise you correctly.
 
-## Upload my data
+## Import my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Data Administrator</i> can do the following steps, from the upload to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
+❌ Only the <i>Data Administrator</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
 </div>
 
-1. Click on **Collections** on the left side of the window.
-2. Click on the collection name in which you want to upload your data.
-  - For each collection on the Data Aggregator, you have 4 tabs, in a grey bar on top of the collection page (_Records_, _Imports_, _Exports_, _Publications and Approvals_).
+1. Go to the **Collections** view.
+2. Click on the collection name in which you want to import your data.
+  - For each collection in DAGI, you have 4 tabs, in a grey bar on top of the collection page (_Records_, _Imports_, _Exports_, _Publications and Approvals_) (see the [Collection page](#collection-page) paragraph for a precise description).
   - The tab **Records** displays the imported records available in your collection.
-  - The tab **Imports** stores all the files you have imported, displaying the state of import, the name of the file with the number of rows, the size and the number of records imported.
-  - The tab **Exports** stores all the files you have exported (see [Export my data](#export-my-data)).
-  - The tab **Publications and Approvals** stores all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers (see [Publish my data](h#publish-my-data) and [Approve my data](#approve-my-data)).
+  - The tab **Imports** displays all the files you have imported.
+  - The tab **Exports** displays all the files you have exported.
+  - The tab **Publications and Approvals** displays all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
 2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
 3. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
---- A three-steps window has opened. ---
+--- A three-steps pop-up window has opened. ---
 
-1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.tab/.txt file or drag and drop it if you have a folder window opened on your screen.
+1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.txt file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
 3. Click on **Next**
 
@@ -242,9 +242,9 @@ The mappings window (Step 2 of 3) has three parts:
 ## Export my data
 
 1. Click on **Export**.
-2. Select the headers of the export file you want to generate (either your original headers, as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the Darwin Core (DWC) Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part.
+2. Select the headers of the export file you want to generate (either your original headers, as imported in the [Import my data](/en/how-to-publish-data#import-my-data) part, or the Darwin Core (DWC) Attributes, as mapped in the [Map my data](/en/how-to-publish-data#map-my-data) part.
    - You can select only one at a time. If you want both, export the records twice.
-3. Select the data layer you want to export (either your original data (Raw), as imported in the [Upload my data](/en/how-to-publish-data#upload-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part.
+3. Select the data layer you want to export (either your original data (Raw), as imported in the [Import my data](/en/how-to-publish-data#import-my-data) part, or the encoded data, as encoded in the [Encode my data](/en/how-to-publish-data#encode-my-data) part.
    - You can select only one at a time. If you want both, export the records twice.
 4. Click on **Start export**.
   - The page view changes from "Records" to "Exports" where all of your exported files are listed.
@@ -307,7 +307,7 @@ In the top-right corner of the page, you can see your login name, the button to 
 
 The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institution you have have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order. Only the Collection Digitizers can add, edit and delete collections in the Collections page.
 
-The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#upload-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
+The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
 
 ### Collection page
 
