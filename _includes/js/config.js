@@ -32,7 +32,7 @@ var siteConfig = {
 	{
           "type": "in",
           "key": "publishing_org",
-          "value": ["d80fedd1-940b-4669-871d-b9c990cf650e"]
+          "value": ["d80fedd1-940b-4669-871d-b9c990cf650e", "9661d20d-86b6-4485-8948-f3c86b022fa7"]
         },
         {
           "type": "in",
