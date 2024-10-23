@@ -7,10 +7,14 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data with the Data Aggregator
-In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below). After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section. A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
+In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below).
+
+After this important step, you are ready to [log in](#log-in) and [upload your data](#upload-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+
+A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator
-✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search){:target="_blank"}**.
+✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
 > Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
@@ -19,6 +23,9 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 ✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search){:target="_blank"}**.
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
+
+⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate suggestions of change on your GRSciColl collection page.
+
 
 ✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in the Data Aggregator.
 
@@ -31,9 +38,9 @@ In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/)
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or tsv file** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or text file with tab separation** with **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 
-✅ My ready-for-upload dataset file has a **maximum size of 20 Mbyte (= 20 Mo)**.
+✅ My ready-for-upload dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
