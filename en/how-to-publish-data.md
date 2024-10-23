@@ -40,16 +40,17 @@ A feature currently in development will also allow you to [send your swiss data 
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
 <br>✅ My ready-for-upload dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
-> catalogNumber scientificName  eventDate   recordedBy<br>
-> XXX-123456789 Poa annua L.    2024-10-09  Weber Morgan<br>
-> XXX-234567890 Poa annua L.    2024-10-08  Weber Morgan
+> catalogNumber scientificName  eventDate   recordedBy   ...<br>
+> XXX-123456789 Poa annua L.    2024-10-09  Weber Morgan   ...<br>
+> ...   ...   ...   ...   ...<br>
+> XXX-234567890 Poa annua L.    2024-10-08  Weber Morgan   ...
 
 <br>✅ My ready-for-upload dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<strong>ℹ️ You can perform as many data imports as you like</strong> as long as your data isn't published on GBIF. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber values remain unchanged</strong>, each new import will update the corresponding existing data.
+<strong>👌 You can do as many data imports as you like</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remain unchanged</strong>, each new import will update the corresponding existing data.
 </div>
 
 <br>
