@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 # How to publish data with the Data Aggregator
-In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below).
+In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently on the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below).
 
 After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
 
