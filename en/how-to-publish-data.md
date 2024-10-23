@@ -194,13 +194,13 @@ There are five different tabs on your institution page:
 
 {: .box }
 The mappings window (Step 2 of 3) has three parts:
-<br>  - Quick Start: if your field names are the exactly the same as the Data Aggregator's attributes, the mapping can be automatically performed by **Try auto-mapping**. The second button can be used after the first mapping and re-mapps your fields the same way you mapped them previously (as long as your field names do not change)
-<br>  - Required attributes: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-<br> - Additional columns: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
+<br>- *Quick Start*: if your field names are exactly the same as the DAGI's attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
+<br>- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
+<br> - *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
 
-1. If your fields are 100% the same as the Data Aggregator's attribute, click on **✨ Try auto-mapping** and simply check the mapping before clicking on **Update mapping**.
-2. If you already did a mapping, click on **🔄️ Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
-3. Else, do the following steps.
+1. If your field names are 100% the same as the Data Aggregator's attribute, click on **✨Try auto-mapping**.
+2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
+3. Else, do the following steps:
 4. For the Required attributes, select in the drop-down menu **Select a column** the corresponding field in your imported file of each required attribute.
   - By typing the beginning of your field names in the search bar, you can find them more easily.
   - If unsure of the correspondence between the attributes and your field names, consult the FAQs section [Where can I find the Darwin Core terms description?](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
@@ -215,7 +215,7 @@ The mappings window (Step 2 of 3) has three parts:
 <br>
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
 9. When satisfied, click on **Run import**.
-  - The window displayed is now the Imports tab, where you can see all your imported files for a given collection at all times.
+  - The page displayed is now the Imports tab, where you can see all your imported files for a given collection at all times.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
 10. Click on **Records** to see your imported records.
@@ -227,16 +227,18 @@ The mappings window (Step 2 of 3) has three parts:
 
 ## Encode my data
 
-1. Click on **Encode**.
+1. If you want to encode only a certain set of your data, use the **available filters**.
+  - **Quick-filters**: Below the grey tab band with Records - Imports - Exports - Publication and Approvals, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-approved records (**Not approved**). By selecting one, you can set a first level of filters.
+  - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : 
+3. Click on **Encode**.
   - A window opens with a short summary of what the encoding does.
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
-2. Click on **Encode**.
+3. Click on **Encode**.
   - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
   - During the encoding, no other action can be started.
-3. Check the percentage of encoded data on your Collection page.
-  - Below the grey band with Records - Imports - Exports - Publication and Approvals, there are two boxes displaying first the total number of records (*All records*) and second the percentage and number of un-encoded records (*Not encoded*).
-  - By clicking on any **record**, and then on the **Record encodings** drop-down list, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
-  - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when passing over the "Incomplete" logo with the mouse.
+4. Check the percentage of encoded data on your Collection page (see the second box called **Not encoded / Incomplete**).
+  - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
+  - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when clicking on the yellow **⚠️Incomplete** icon. It opens the side-pane in the **Encodings tab**.
 
 
 ## Export my data
@@ -313,7 +315,7 @@ The State display is green (🕒Ready) when the previous action requested is fin
 
 The page of a collection has 5 available tabs.
 
-- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNmber*, *ecordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *ublication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *elected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
+- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNmber*, *ecordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *ublication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
 
 - The **Imports tab** :<br> View on all imported **files** of the collection with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for a download by clicking on the blue size icon (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
 
