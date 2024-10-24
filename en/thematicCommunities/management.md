@@ -5,7 +5,7 @@ title: Management
 description: Management of natural history collections, best practices, examples, material and more.
 background: "{{ site.data.images.management.src }}"
 imageLicense: "{{ site.data.images.management.caption }}"
-height: 70vh
+height: 50vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
 composition:
