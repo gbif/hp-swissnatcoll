@@ -5,7 +5,7 @@ title: Digitalisation
 description: Digitalisation of natural history collections, best practices, examples, material and more.
 background: "{{ site.data.images.digitalisation.src }}"
 imageLicense: "{{ site.data.images.digitalisation.caption }}"
-height: 70vh
+height: 50vh
 
 composition:
 - type: heroImage # The type is a template. In this case  a big splashy image with some text on it. The data defines what the image is and what the text is. 
