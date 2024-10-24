@@ -6,7 +6,7 @@ description: Information and important pages on swiss flora
 background: /assets/images/categories/flora-istockphoto-689068468-1024x1024.jpg
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
-height: 70vh
+height: 50vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
 composition:
