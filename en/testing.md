@@ -5,25 +5,29 @@ title: Testing page
 ---
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GIF Pop-up</title>
+  <style>
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-content {
+      margin: 15% auto;
+      display: block;
+      max-width: 600px;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Button that opens the GIF in a pop-up -->
-  <button onclick="openGifPopup()" style="padding: 10px 20px; font-size: 16px; cursor: pointer;">
-    View GIF
-  </button>
-
-  <script>
-    function openGifPopup() {
-      // Replace with your actual server link to the GIF
-      var gifUrl = "https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EbjpkjzO0bVImDEL6wYRcWABE9NPxXXO_H_VzFhazBc8wA?e=zprzQe";
-      
-      // Open the GIF in a new small pop-up window
-      window.open(gifUrl, "gifPopup", "width=600,height=400");
-    }
-  </script>
-
+  <!-- Button to open the modal -->
+  <button onclick="document.getElementById('myModal').style.display='block'">View GIF</button>
+  <!-- The Modal -->
+  <div id="myModal" class="modal" onclick="this.style.display='none'">
+    <img class="modal-content" src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EbjpkjzO0bVImDEL6wYRcWABE9NPxXXO_H_VzFhazBc8wA?e=1xMnV8">
+  </div>
 </body>
