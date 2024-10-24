@@ -5,7 +5,7 @@ title: Georeferencing
 description: Information and important pages on georeferencing
 background: "{{ site.data.images.georeferencing‎.src }}"
 imageLicense: "{{ site.data.images.georeferencing‎.caption }}"
-height: 70vh
+height: 50vh
 composition:
 - type: heroImage
 - type: media
