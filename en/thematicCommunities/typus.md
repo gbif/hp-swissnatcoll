@@ -5,7 +5,7 @@ title: TYPUS
 description: Information and important pages on TYPUS
 background: "{{ site.data.images.typus.src }}"
 imageLicense: "{{ site.data.images.typus.caption }}"
-height: 70vh
+height: 50vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
 composition:
