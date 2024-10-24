@@ -5,7 +5,7 @@ title: Fauna
 description: Information and important pages on swiss fauna
 background: "{{ site.data.images.zoology.src }}"
 imageLicense: "{{ site.data.images.zoology.caption }}"
-height: 70vh
+height: 50vh
 # The general format for these compositions is a list of blocks. Each block has a type and some data that is used by the block template.
 # See more examples at https://hp-theme.gbif-staging.org/layout/compose
 composition:
