@@ -446,6 +446,12 @@ For all users and roles, the following rules apply:
 
 Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
 
+### How can I have more users in my institution?
+
+Only Collection Digitizers can add/edit/remove and assign roles to other users for their institution. To do this, go to the Administration page on DAGI (icon on the left of your DAGI's page) and click on **👤➕ Add user**.
+
+We consider that the Collection Digitizer is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
+
 ## What are the different data layers of the Data Aggregator?
 
 The data inside the data aggregator is organised in a table, with **entities** in lines (= specimens with a unique catalogNumber value associated) and **attributes** in columns. The **value** is the information stored in a given attribute for a given entity. 
