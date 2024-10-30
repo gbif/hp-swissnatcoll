@@ -64,8 +64,8 @@ A feature currently in development will also allow you to [send your swiss data 
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
 2. Check that your file does not have
    - catalogNumber duplicates
-   - empty scientificName fields
-   - duplicated columns
+   - empty scientificName cells
+   - duplicated headers (field names)
    - an unwanted space after a header
 
 
@@ -162,10 +162,10 @@ There are five different tabs on your institution page:
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
-<br>2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
     - If the GrSciColl collection has already been used in another import, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Collections page.
-<br>3. Add a description of the collection. 💡optional💡
-<br>4. Click on **Create collection**
+3. Add a description of the collection. 💡optional💡
+4. Click on **Create collection**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
     - ⚠️Avoid deleting a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take [contact](mailto:contact-swissnatcoll@infofauna.ch) with us, so we can advise you correctly.
 
@@ -182,8 +182,8 @@ There are five different tabs on your institution page:
   - The tab **Imports** displays all the files you have imported.
   - The tab **Exports** displays all the files you have exported.
   - The tab **Publications and Approvals** displays all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
-2. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
-3. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
+3. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
+4. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
 --- A three-steps pop-up window has opened. ---
 
@@ -232,7 +232,7 @@ The mappings window (Step 2 of 3) has three parts:
   - **Quick-filters**: Below the grey tab band with Records - Imports - Exports - Publication and Approvals, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-approved records (**Not approved**). By selecting one, you can set a first level of filters.
   - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : 
 3. Click on **Encode**.
-  - A window opens with a short summary of what the encoding does.
+  - A window opens with a short summary of what the encoding does. Briefly said, it uses some fields as query values to available dictionaries of data (like GBIF API) to encode the provided values and enrich attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc.
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
 3. Click on **Encode**.
   - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
@@ -262,7 +262,7 @@ The mappings window (Step 2 of 3) has three parts:
 ## Publish my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on GBIF-UAT</strong> (technical page of GBIF), where you can have a preview of how your dataset page will look like on GBIF.org<br>
+❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on the Testing platform of GBIF</strong>, where you can have a preview of how your dataset page will look like on GBIF.org<br>
 We thank you for your patience and understanding.
 </div>
 
@@ -276,8 +276,9 @@ We thank you for your patience and understanding.
 3. Click on **Publish**
    - A progression bar appears during the publishing process and disappears when launched.
 4. Check the Publication status of your records on your Collection page.
-5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the GBIF-uat page of your dataset and check the validity of the data before publishing on GBIF.org.
+5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the Testing GBIF page of your dataset and check the validity of the data before publishing on GBIF.org.
    - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
+   - Please check that **the authors of your dataset are correct**, that **the description of your dataset is correct**, and any other metadata visible. This is how your dataset will look like on GBIF and be cited by scientists worldwide. If anything is wrong or incomplete, please [contact us](mailto:contact-swissnatcoll@infofauna.ch) so that we can advise you on what can be done
 
 ## Approve my data
 
@@ -302,13 +303,13 @@ We thank you for your patience and understanding.
 
 # How to navigate in DAGI
 
-When [logging in](#log-in) the Data Aggregator, the platform opens on the [Collections page](#collections-page).
+When [logging](#log-in) in the Data Aggregator, the platform opens on the [Collections page](#collections-page).
 
 In the top-right corner of the page, you can see your login name, the button to log out and the button to choose between light/dark/computer themes. The platform is available only in English.
 
 ## Collections view
 
-The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institution you have have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order. Only the Collection Digitizers can add, edit and delete collections in the Collections page.
+The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order. Only the Collection Digitizers can add, edit and delete collections in the Collections page.
 
 The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
 
