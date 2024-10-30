@@ -107,6 +107,13 @@ To help you select your fields, **here is a table with the most important Darwin
 <br><br>
 The Darwin Core Github repository also offers files with all or a selection of the Darwin Core fields : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist){:target="_blank"}
 
+### How does the update of my data in the Data Aggregator work?
+
+You can update your data by importing a new import file. This file must have the two mandatory fields (catalogNumber and scientificName). The other fields in the file can be either the same as previously imported or only the fields that have to be updated. It is up to you.
+
+During the new import, DAGI checks the **catalogNumber value** to determine if a specimen is already present in the collection records, or if it is newly imported.
+- When the specimen is already present, all other fields imported are updated (scientificName too).
+- When the specimen is new (new catalogNumber), the record is added to the records table with all imported fields.
 
 ## But my database/dataset is not formatted in Darwin Core, do I have to change everything?
 
