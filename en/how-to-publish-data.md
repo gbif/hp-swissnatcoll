@@ -25,7 +25,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate suggestions of change on your GRSciColl collection page.
+⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
 
 
 <br>✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
@@ -33,24 +33,24 @@ A feature currently in development will also allow you to [send your swiss data 
 > - Collection Digitizer
 > - Data Administrator
 
-⚠️ If your institution does not yet have a Collection Digitizer, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Digitizer, please send a request by email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
-<br>✅ My dataset has all **mandatory fields** (attributes) to ensure correct import in DAGI.
+<br>✅ My dataset has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
 <br>✅ My ready-for-import dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
-> catalogNumber scientificName  eventDate   recordedBy   ...<br>
-> XXX-123456789 Poa annua L.    2024-10-09  Weber Morgan   ...<br>
-> ...   ...   ...   ...   ...<br>
-> XXX-234567890 Poa annua L.    2024-10-08  Weber Morgan   ...
+> catalogNumber     scientificName     eventDate     recordedBy     ...<br>
+> XXX-123456789     Poa annua L.     2024-10-09     Weber Morgan     ...<br>
+> ...      ...     ...      ...     ...<br>
+> XXX-234567890     Poa annua L.     2024-10-08     Weber Morgan     ...
 
 <br>✅ My ready-for-import dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<strong>👌 You can do as many data imports as you like</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remain unchanged</strong>, each new import will update the corresponding existing data.
+<strong>👌 You can do as many data imports as you want</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remain unchanged, each new import will update the corresponding existing data</strong>.
 </div>
 
 <br>
@@ -62,10 +62,11 @@ A feature currently in development will also allow you to [send your swiss data 
 
 1. Focus on the most important fields first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
-<br>2. Check that your file does not have
+2. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName fields
    - duplicated columns
+   - an unwanted space after a header
 
 
 Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on how to prepare your dataset/collection for the import in DAGI.
@@ -138,8 +139,8 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
 There are five different tabs on your institution page:
 
   - **[Collections](#collections-view)**: displays all the **collections** of your institution already added in DAGI.
-  - **[Records](#records-view)**: displays all the **records** already imported, present in all of your collections.
-  - **[Administration](#admnistration-view)**: visible only to Collection Digitizer users, displays all **users** already added to your institution.
+  - **[Records](#records-view)**: displays all the **records** already imported in all of your collections.
+  - **[Administration](#admnistration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
