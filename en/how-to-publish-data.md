@@ -136,11 +136,14 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   - After signing in, you arrive on the Collections page of your institution. Only the users registered with your institution can see this DAGI page.
 
 
-There are five different tabs on your institution page:
+There are three different views on your institution page:
 
   - **[Collections](#collections-view)**: displays all the **collections** of your institution already added in DAGI.
   - **[Records](#records-view)**: displays all the **records** already imported in all of your collections.
   - **[Administration](#admnistration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
+
+Additionnally, there are two icons opening the pages on the SwissNatColl portal on which you can find help and guidance for the use of DAGI
+
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
@@ -328,7 +331,7 @@ The page of a collection has 5 available tabs.
 
 ## Records view
 
-## Admnistration view
+## Administration view
 
 ## External links
 
