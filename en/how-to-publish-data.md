@@ -340,9 +340,9 @@ The page of a collection has 5 available tabs.
 
 ## Records view
 
-The Records view displays all the records already imported in all of your collections on DAGI. The records are organised by default by order of creation. If you wish to order them differently, you can click on the *catalogNumber* or *scientificName* headers and order them in an ascending or descending order.
+The Records view displays **all the records already imported in all of your collections on DAGI**. The records are organised by default by order of creation. If you wish to order them differently, you can click on the *catalogNumber* or *scientificName* headers and order them in an ascending or descending order.
 
-The data displayed for each record is the taxonomy (*genus*, *family*, *order*, *class*, *phylum*). Additionally, the encoding state (*Encoding*) is shown, and by clicking on the icon of a given record, it opens a side-pane on the right-side of the page with all available terms in DAGI and the value informed for the record on both Imported and Encoded layers. A hyperlink to the collection in which a given record has been imported is available (*Collection*), as well as a timestamp of the last change executed on the record (*Updated At*).
+The data displayed for each record is the taxonomy (*genus*, *family*, *order*, *class*, *phylum*). Additionally, the encoding state (*Encoding*) is shown, and by clicking on the icon of a given record, it opens a side-pane on the right-side of the page on which you can find all available terms in DAGI and their respective value for the record on both Imported and Encoded layers. A hyperlink to the collection in which a given record has been imported is available (*Collection*), as well as a timestamp of the last change executed on the record (*Updated At*).
 
 ## Administration view
 
@@ -350,12 +350,12 @@ The data displayed for each record is the taxonomy (*genus*, *family*, *order*, 
 ❌ Only the <i>Collection Digitizer</i> role can access this view.
 </div>
 
-The Administration view displays all **users** already added to your institution. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
+The Administration view displays **all users already added to your institution**. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
 
-The *Roles* column informs you on the role.s attributed to each user:
+The *Roles* column informs you on the role/s attributed to each user:
 - **Data Administrator** (execution role)
   - can view the collections of their institution
-  - can upload, map, encode, export and publish the records in the collections of their institution
+  - can [upload](#import-my-data), [map](#map-my-data), [encode](#encode-my-data), [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the collections of their institution
 - **Collection Digitizer** (management role)
   - can view, add, edit and remove users of their institution
   - can view, add and edit collections of their institution
@@ -374,15 +374,25 @@ For each user, it is possible to edit their profile (📝) and delete them (🗑
 ### Add a new user
 
 1) Click on **👤➕ Add User**
-2) 
-
-⚠️The password of a user is available for display only during the creation steps. It is hidden afterwards. Be sure to communicate the generated password
+2) Enter the corresponding data in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
+3) Enter a customed password or click on **Generate Password**.<br>
+   ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
+4) Click on **Next**
+5) Click on the toggle switch/es corresponding to the role you want to attribute to the new user (see here above for the definitions).
+6) Click on **Next**
+7) Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list.
 
 ## External links
 
 ### Guide
 
+By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. Do not hesitate to [contact us](mailto:contact-swisscollnet@infofauna.ch) if you see anything that is missing or unclear. This support material's purpose is to serve the users' needs.
+
 ### Tutorials
+
+By clicking on **📹Tutorials**, a new tab is opened on the tutorial sessions page of the SwissNatColl hosted portal. This is where we inform of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person acting as a bridge between you and the development of DAGI.
+
+On this page are also listing all the text material, video material and Powerpoint presentations, prepared to help you in your use of DAGI and also in other subjects, such as data preparation and Darwin Core.
 
 <html lang="en">
 <head>
