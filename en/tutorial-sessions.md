@@ -7,6 +7,8 @@ composition:
   - type: pageMarkdown
   - type: features
     data: tutosPowerpoint.lessons
+
+# [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 ---
 
 # Tutorial sessions for the Data Aggregator users
@@ -16,23 +18,21 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 
 ## Next live tutorial sessions
 
+<br>
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br> The sessions are planned to be at least two lessons of 45 minutes each, with one lesson on the same day at the same time every two weeks. The number of lessons per session may vary.
+</div>
+
+
 {: .box }
-**Session 3** (3x 45 min)
-<br>- ~~**WEDNESDAY - 23-10-2024 - 15H-15h45** Lesson 1 Introduction, log in and data preparation~~
-<br>- ~~**TUESDAY - 29-10-2024 - 10H30-11H15** Lesson 2 Uploading, mapping and encoding~~
-<br>- **THURSDAY - 31-10-2024 - 15H-15h45** Open-questions
-<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
+*Coming-soon, announcement in the second half of November for sessions in December*
+<br>Zoom link: TBA
 
 ---
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ <strong>The ZOOM lessons can be recorded</strong> for remote availability for absent Data Aggregator users. The videos will not be publicly published and erased as soon as official tutorial video material is produced.
-</div>
-
-<br>
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br> The sessions are planned to be at least two lessons of 45 minutes each, with one lesson on the same day at the same time every two weeks. The number of lessons per session may vary.
 </div>
 
 <br>
