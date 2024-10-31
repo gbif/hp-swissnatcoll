@@ -15,13 +15,13 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Checklist -to do before logging in the Data Aggregator DAGI
 
-<br>✅ My institution is **registered on [GrSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
+<br>✅ My institution is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
 > Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-<br>✅ My collection is **registered on [GrSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
+<br>✅ My collection is **registered on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
 > Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
@@ -154,7 +154,7 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 </div>
 
 1. Click on **Collections** on the left side of the window.
-  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GrSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
+  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
   - If no collection has been added yet, you can click on **+ New collection** to add one
   - You can order the collection list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
@@ -165,8 +165,8 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
-2. Select the corresponding GrSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GrSciColl collection has already been used in another import, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Collections page.
+2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+    - If the GRSciColl collection has already been used in another import, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Collections page.
 3. Add a description of the collection. 💡optional💡
 4. Click on **Create collection**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
@@ -306,21 +306,30 @@ We thank you for your patience and understanding.
 
 # How to navigate in DAGI
 
-When [logging](#log-in) in the Data Aggregator, the platform opens on the [Collections page](#collections-page).
+When [logging](#log-in) in the Data Aggregator, the platform opens on the [Collections view](#collections-view).
 
 In the top-right corner of the page, you can see your login name, the button to log out and the button to choose between light/dark/computer themes. The platform is available only in English.
 
 ## Collections view
 
-The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can see only the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers (Name, Code, State, Institution Code, Institution, Progress, Records count / est., Updated At) and order them in an ascending or descending order. Only the Collection Digitizers can add, edit and delete collections in the Collections page.
+The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order.:
+- *Name*: name of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
+- *Code*: code of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
+- *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
+- *Institution Code*: code of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institutionCode)
+- *Institution*: name of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institution name)
+- *Progress*: progress bar linked to the number of records already imported and the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
+- *Records count / est.*: numerical display of the progress, with first the number of records currently present in the collection on DAGI and second the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
+- *Updated At*: timestamp of the last action executed on the collection)
 
-The State display is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
+Only the Collection Digitizers can add (🪟New collection), edit (📝) and delete (🗑️) collections in the Collections page.
+
 
 ### Collection page
 
 The page of a collection has 5 available tabs.
 
-- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNmber*, *ecordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *ublication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
+- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNmber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *ublication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
 
 - The **Imports tab** :<br> View on all imported **files** of the collection with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for a download by clicking on the blue size icon (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
 
