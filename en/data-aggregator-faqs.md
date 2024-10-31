@@ -445,7 +445,7 @@ There are two different roles for user profile in the Data Aggregator:
 | **Users** -view/add/edit/remove | ❌ | ✅ own institution |
 | **Collections** -view | ✅ own institution | ✅ own institution |
 | **Collections** -add/edit | ❌ | ✅ own institution |
-| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
+| **Records** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 <br><br>
 
