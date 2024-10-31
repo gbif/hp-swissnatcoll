@@ -367,7 +367,7 @@ The *Roles* column informs you on the role/s attributed to each user:
 | **Users** -view/add/edit/remove | ❌ | ✅ own institution |
 | **Collections** -view | ✅ own institution | ✅ own institution |
 | **Collections** -add/edit | ❌ | ✅ own institution |
-| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
+| **Records** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 For each user, it is possible to edit their profile (📝) and delete them (🗑️).
 
