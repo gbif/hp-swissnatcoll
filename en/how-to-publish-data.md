@@ -373,14 +373,14 @@ For each user, it is possible to edit their profile (📝) and delete them (🗑
 
 ### Add a new user
 
-1) Click on **👤➕ Add User**
-2) Enter the corresponding data in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
-3) Enter a customed password or click on **Generate Password**.<br>
+1. Click on **👤➕ Add User**
+2. Enter the corresponding data in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
+3. Enter a customed password or click on **Generate Password**.<br>
    ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
-4) Click on **Next**
-5) Click on the toggle switch/es corresponding to the role you want to attribute to the new user (see here above for the definitions).
-6) Click on **Next**
-7) Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list.
+4. Click on **Next**
+5. Click on the toggle switch/es corresponding to the role you want to attribute to the new user (see here above for the definitions).
+6. Click on **Next**
+7. Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list.
 
 ## External links
 
