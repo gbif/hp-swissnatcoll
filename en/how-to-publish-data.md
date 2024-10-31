@@ -355,7 +355,7 @@ The Administration view displays **all users already added to your institution**
 The *Roles* column informs you on the role/s attributed to each user:
 - **Data Administrator** (execution role)
   - can view the collections of their institution
-  - can [upload](#import-my-data), [map](#map-my-data), [encode](#encode-my-data), [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the collections of their institution
+  - can [upload](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the collections of their institution
 - **Collection Digitizer** (management role)
   - can view, add, edit and remove users of their institution
   - can view, add and edit collections of their institution
@@ -386,13 +386,13 @@ For each user, it is possible to edit their profile (📝) and delete them (🗑
 
 ### Guide
 
-By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. Do not hesitate to [contact us](mailto:contact-swisscollnet@infofauna.ch) if you see anything that is missing or unclear. This support material's purpose is to serve the users' needs.
+By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swisscollnet@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
 
 ### Tutorials
 
-By clicking on **📹Tutorials**, a new tab is opened on the tutorial sessions page of the SwissNatColl hosted portal. This is where we inform of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person acting as a bridge between you and the development of DAGI.
+By clicking on **📹Tutorials**, a new tab is opened on the [tutorial sessions page](https://swissnatcoll.hp.gbif-staging.org/en/tutorial-sessions){:target="_blank"} of the SwissNatColl hosted portal. This is where we inform you of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person, who is acting as a bridge between you and the development team of DAGI.
 
-On this page are also listing all the text material, video material and Powerpoint presentations, prepared to help you in your use of DAGI and also in other subjects, such as data preparation and Darwin Core.
+On this page are also listed all the text material, video material and Powerpoint presentations, prepared to help you in your use of DAGI and also related subjects, such as data preparation and Darwin Core.
 
 <html lang="en">
 <head>
