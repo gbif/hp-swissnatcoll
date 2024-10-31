@@ -312,7 +312,7 @@ In the top-right corner of the page, you can see your login name, the button to 
 
 ## Collections view
 
-The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order.:
+The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
 - *Code*: code of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
 - *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
@@ -329,18 +329,54 @@ Only the Collection Digitizers can add (🪟New collection), edit (📝) and del
 
 The page of a collection has 5 available tabs.
 
-- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNmber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *ublication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
+- The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
 
-- The **Imports tab** :<br> View on all imported **files** of the collection with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for a download by clicking on the blue size icon (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Imports tab** :<br> View on all imported **files** of the collection with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Exports tab** :<br> View on all exported **files** of the collection with a selection of important metadata (*State of the export*, *File name*, *Size*, *timestamp of the export*, and *number of records exported in the file*). The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for a download by clicking on the blue size icon (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Exports tab** :<br> View on all exported **files** of the collection with a selection of important metadata (*State of the export*, *File name*, *Size*, *timestamp of the export*, and *number of records exported in the file*). The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Publications and Approvals tab** :<br> View on all published or sent for approval **files** of the collection with a selection of important metadata (*State of the publication/approval*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for approval files are kept at all times in the DAGI server**. They are available for a download by clicking on the blue size icon (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Publications and Approvals tab** :<br> View on all published or sent for approval **files** of the collection with a selection of important metadata (*State of the publication/approval*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for approval files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
 
 ## Records view
 
+The Records view displays all the records already imported in all of your collections on DAGI. The records are organised by default by order of creation. If you wish to order them differently, you can click on the *catalogNumber* or *scientificName* headers and order them in an ascending or descending order.
+
+The data displayed for each record is the taxonomy (*genus*, *family*, *order*, *class*, *phylum*). Additionally, the encoding state (*Encoding*) is shown, and by clicking on the icon of a given record, it opens a side-pane on the right-side of the page with all available terms in DAGI and the value informed for the record on both Imported and Encoded layers. A hyperlink to the collection in which a given record has been imported is available (*Collection*), as well as a timestamp of the last change executed on the record (*Updated At*).
+
 ## Administration view
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+❌ Only the <i>Collection Digitizer</i> role can access this view.
+</div>
+
+The Administration view displays all **users** already added to your institution. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
+
+The *Roles* column informs you on the role.s attributed to each user:
+- **Data Administrator** (execution role)
+  - can view the collections of their institution
+  - can upload, map, encode, export and publish the records in the collections of their institution
+- **Collection Digitizer** (management role)
+  - can view, add, edit and remove users of their institution
+  - can view, add and edit collections of their institution
+ 
+<br>
+
+| Tasks | Data Administrator | Collection Digitizer |
+| ----- | ------------------ | -------------------- |
+| **Users** -view/add/edit/remove | ❌ | ✅ own institution |
+| **Collections** -view | ✅ own institution | ✅ own institution |
+| **Collections** -add/edit | ❌ | ✅ own institution |
+| **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
+
+For each user, it is possible to edit their profile (📝) and delete them (🗑️).
+
+### Add a new user
+
+1) Click on **👤➕ Add User**
+2) 
+
+⚠️The password of a user is available for display only during the creation steps. It is hidden afterwards. Be sure to communicate the generated password
 
 ## External links
 
