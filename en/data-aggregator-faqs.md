@@ -443,8 +443,8 @@ There are two different roles for user profile in the Data Aggregator:
 | Tasks | Data Administrator | Collection Digitizer |
 | ----- | ------------------ | -------------------- |
 | **Users** -view/add/edit/remove | ❌ | ✅ own institution |
-| **Collections** -add/edit | ❌ | ✅ own institution |
 | **Collections** -view | ✅ own institution | ✅ own institution |
+| **Collections** -add/edit | ❌ | ✅ own institution |
 | **Dataset** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 <br><br>
