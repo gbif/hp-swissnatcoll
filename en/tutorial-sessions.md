@@ -18,16 +18,15 @@ Data users are invited to participate in tutorial sessions. Depending on availab
 
 ## Next live tutorial sessions
 
+{: .box }
+*Coming-soon, announcement in the second half of November for sessions in December*
+<br>Zoom link: TBA
+
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br> The sessions are planned to be at least two lessons of 45 minutes each, with one lesson on the same day at the same time every two weeks. The number of lessons per session may vary.
 </div>
-
-
-{: .box }
-*Coming-soon, announcement in the second half of November for sessions in December*
-<br>Zoom link: TBA
 
 ---
 
