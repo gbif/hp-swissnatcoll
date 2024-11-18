@@ -20,7 +20,7 @@ composition:
 
 ## 1. Introduction
 
-In the context of the mobilisation of biodiversity Swiss data, the Data Aggregator ("DAGI") was developed to assure that data are compliant with international standards and are organised into recognised formats. The DAGI is hosted and deployed by info fauna [infofauna.ch](https://www.infofauna.ch/){:target="_blank"} and maintained under the technical environment of the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}). The DAGI has as main missions the centralisation of data from different sources of truth, the harmonisation and enrichment of the information and the publication into GBIF.
+In the context of the mobilisation of biodiversity Swiss data, the Data Aggregator ("DAGI") was developed to assure that data are compliant with international standards and are organised into recognised formats. The DAGI is hosted and deployed by info fauna ([infofauna.ch](https://www.infofauna.ch/){:target="_blank"}) and maintained under the technical environment of the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}). The DAGI has as main missions the centralisation of data from different sources of truth, the harmonisation and enrichment of the information and the publication into GBIF.
 
 These Terms of Use ("Terms") concern the conditions that govern the access and use of the DAGI. By using the DAGI, the Users are required to expressly agree to comply with these Terms at the moment of their accreditation, by clicking on an automatic pop-up that appears when they first log in. If they do not agree, the access to the DAGI will not be granted.
 
