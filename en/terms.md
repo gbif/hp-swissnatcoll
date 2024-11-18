@@ -13,7 +13,7 @@ composition:
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ These terms are still under revision. Please keep in mind they should soon be updated and adapted.<br>
-<i>Last update: 18/11/2024</i>
+<i>Last update: 18.11.2024</i>
 </div>
 
 # TERMS OF USE
