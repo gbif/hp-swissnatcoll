@@ -126,7 +126,7 @@ Please check out our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more
   </tr>
 
   </table>
-  <p> ⚠️ empty cells are better than cells with "n.a." or "N/A" or "n.s." or "unknown" values ⚠️</p>
+  <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", etc. values from your file or you may receive an error message during import. ⚠️</p>
 </div>
 
 
