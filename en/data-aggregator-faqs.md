@@ -411,16 +411,18 @@ Ultimately, yes. This aspect is still in development and not everyone will be ab
 
 However, some elements can already be prepared by the institutions:
 
-✅ My specimen image files are named after the catalogNumber of my specimen (or at least start with it).
+✅ My **specimen image file** is named after the **catalogNumber** of my specimen (or at least starts with it).
 
 > Example: G12346579.jpg, BERN-123456.tiff
 
-✅ The name of the image files is added to my dataset in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}
+✅ The **name of the image file** is added to my dataset **in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}**
 
 > Example 1: Sheet-132456789.jpg<br>
 > Example 2: Sheet-123456789_front.jpg | Sheet-123456798_back.jpg
 
-✅ My image files to be uploaded are smaller than 5 Mb (JPEG) and 30 Mb (TIFF)
+✅ My **image files** to be uploaded are **smaller than 5 Mb** and in the format JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP.
+
+✅ My **zip file** containing my image files is **smaller than 200 Mb**
 
 ## I made a mistake when importing my data into the Data Aggregator, what do I do?
 
