@@ -417,7 +417,7 @@ However, some elements can already be prepared by the institutions:
 
 ✅ The name of the image files is added to my dataset in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}
 
-> Example 1: Sheet-132456789.jpg
+> Example 1: Sheet-132456789.jpg<br>
 > Example 2: Sheet-123456789_front.jpg | Sheet-123456798_back.jpg
 
 ✅ My image files to be uploaded are smaller than 5 Mb (JPEG) and 30 Mb (TIFF)
