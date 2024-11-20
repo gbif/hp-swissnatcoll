@@ -13,19 +13,22 @@ composition:
 
 # Tutorial sessions for the Data Aggregator users
 
-Data users are invited to participate in tutorial sessions. Depending on availability, it is possible to not follow the lessons of only one session but to attend lessons of different sessions. The goal being to participate at least once to all lessons planned.
+**Current session goal**: Open questions, overview of DAGI or focus on a topic upon request.
 <br>
 
 ## Next live tutorial sessions
 
-{: .box }
-*Coming-soon, announcement in the second half of November for sessions in December*
-<br>Zoom link: TBA
+{: .box } FAQ session (60min)
+- THURSDAY - **28-11-2024** - **15H**-16H
+- TUESDAY - **03-12-2024** - **10H30**-11H30
+- WEDNESDAY - **11-12-2024** - **15H**-16H
+- MONDAY - **16-12-2024** - **15H**-16H
+<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br> The sessions are planned to be at least two lessons of 45 minutes each, with one lesson on the same day at the same time every two weeks. The number of lessons per session may vary.
+ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br>
 </div>
 
 ---
