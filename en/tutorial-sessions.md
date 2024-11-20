@@ -18,11 +18,12 @@ composition:
 
 ## Next live tutorial sessions
 
-{: .box } FAQ session (60min)
-- THURSDAY - **28-11-2024** - **15H**-16H
-- TUESDAY - **03-12-2024** - **10H30**-11H30
-- WEDNESDAY - **11-12-2024** - **15H**-16H
-- MONDAY - **16-12-2024** - **15H**-16H
+{: .box }
+**FAQ session (60min)**
+<br>- THURSDAY - **28-11-2024** - **15H**-16H
+<br>- TUESDAY - **03-12-2024** - **10H30**-11H30
+<br>- WEDNESDAY - **11-12-2024** - **15H**-16H
+<br>- MONDAY - **16-12-2024** - **15H**-16H
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 <br>
