@@ -10,8 +10,8 @@ tutorials:
 
 - grouptitle: Darwin Core
   content:
-  - title: About
-    path: /en/data-aggregator-faqs#what-is-darwin-core
+  - title: FAQs
+    path: /en/data-dwc
   - sectiontitle: Label examples
     section:
     - title: Mollusca
