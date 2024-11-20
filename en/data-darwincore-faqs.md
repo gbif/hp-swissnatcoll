@@ -6,7 +6,7 @@ toc: true
 sideNavigation: sideNavigation.tutorials
 ---
 
-# Darwin Core data standard
+# Darwin Core data standard FAQs
 
 ## What is Darwin Core?
 
