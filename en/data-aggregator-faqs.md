@@ -513,8 +513,8 @@ Here are the Thesaurii available in DAGI:
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;"  rowspan="2">API Category</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="2">Source Attribute</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="2">Output Attribute(s) = ENCODED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="2">Source Data</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="2">Output Data = ENCODED</th>
     </tr>
     <tr>
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Attribute</th>
