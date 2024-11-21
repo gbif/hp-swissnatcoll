@@ -507,6 +507,140 @@ Here are the Thesaurii available in DAGI:
 
 **The Image Upload is not yet available, changes to this line might occur.
 
+#### Example of encoded data
+
+<div style="overflow-x: auto;">
+  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;"  rowspan="2">API Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="2">Source Attribute</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="2">Output Attribute(s) = ENCODED</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Attribute</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Value</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Attribute</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Value</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">scientificName</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10"><i>Enydra anagallis</i> Gardner</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">5402444</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">kingdom</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Plantae</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">phylum</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Tracheophyta</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">class</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Magnoliopsida</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">order</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Asterales</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">family</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Asteraceae</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">genus</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Enydra</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">scientificName</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Enydra anagallis</i> Gardner</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">scientificNameAuthorship</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Gardner</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;text-align: left;">specificEpithet</td>
+      <td style="border: 1px solid black; padding: 5px;text-align: left;">anagallis</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Swiss Species</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">5998041</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">22879</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">acceptedNameUsage</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Cerambyx miles</i> Bonelli, 1823</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">decimalLatitude<br>decimalLongitude</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">47.65545071<br>8.667665926</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">country</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">countryCode</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">stateProvince</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Zurich</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">municipality</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Benken (ZH)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv95_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">2692331.25671</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv95_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">1279034.48212</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv03_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">692331.25671</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv03_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">279034.48212</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">Geo Forward</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">country<br>continent</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">Suisse<br>Europe</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">country</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">countryCode</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF IUCN Redlist</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">3188295</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">iucn_redlist_category</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">EN</td>
+    </tr>
+  </table>
+</div>
+
+
 
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
 
