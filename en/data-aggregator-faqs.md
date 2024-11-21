@@ -510,7 +510,7 @@ Here are the Thesaurii available in DAGI:
 #### Example of encoded data
 
 <div style="overflow-x: auto;">
-  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;"  rowspan="2">API Category</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="2">Source Data</th>
