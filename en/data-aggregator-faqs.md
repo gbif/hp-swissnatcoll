@@ -495,7 +495,7 @@ Here are the Thesaurii available in DAGI:
 
 | Category | Resource | Field(s) used for query | Information encoded |
 | -------- | -------- | ----------------------- | ------------------- |
-| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | scientificName | taxonID, kingdom, phylum, order, class, family, genus, scientificName |
+| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | scientificName | taxonID, kingdom, phylum, order, class, family, genus, specificEpithet, scientificNameAuthorship, scientificName |
 | Swiss Species | PICTIS | taxonID | taxonIdCH, acceptedNameUsage |
 | Geo Reverse | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | decimalLatitude, decimalLongitude* | continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95_x,_y and swissCoordinatesLv03_x,_y) |
 | Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | country, continent | continent, country, countryCode |
