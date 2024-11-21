@@ -13,7 +13,7 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
+There is no need to upload all of your database into the Data Aggregator. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your Data Aggregator Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the Data Aggregator Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into the Data Aggregator.
 
@@ -486,6 +486,22 @@ The values of a given entity can be added and updated in three different layers:
   </a>
   <figcaption>Data Aggregator Layers</figcaption>
 </figure>
+
+### What does the Encoding do?
+
+The Encoding process standardises values of some of your data, and enriches your specimen data with new standard information it did not have.
+
+Here are the Thesaurii available in DAGI:
+
+| Category 
+
+- taxonomy : GBIF API
+- swiss species : PICTIS
+- geo_forward : opencagedata
+- geo_reverse : opencagedata
+- IUCN redlist : GBIF API
+- institution code : DAGI internal, based on GRSciColl
+(- relate images : associatedMedia + Image Upload
 
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
 
