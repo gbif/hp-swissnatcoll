@@ -264,6 +264,22 @@ The mappings window (Step 2 of 3) has three parts:
 
 ## Publish my data
 
+### Checklist -to do before publishing your data
+
+<br>✅ The **authors of my dataset** are correct.
+
+> Either individual names or the name of the institution can be used as authors. To verify your authors, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then click on **Contacts**. The contacts that will appear as authors are the ones whose **Position** details are *DAGI - Technical support*, *creator* and *metadataProvider*. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
+
+⚠️ These details have to be provided **in all of the collections you want to publish**, or else the citation won't be built properly.
+
+<br>✅ The **description of my dataset** is correct
+
+> The description of your dataset is in a box on top of the dataset page, just below the title. To verify the description, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then go to the **Notes** section in the Collection details. The text written there will appear as such on your dataset page. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
+
+⚠️ These details have to be provided **in all of the collections you want to publish**, or else the description won't be accurate.
+
+<br>
+
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on the Testing platform of GBIF</strong>, where you can have a preview of how your dataset page will look like on GBIF.org<br>
 We thank you for your patience and understanding.
@@ -274,14 +290,13 @@ We thank you for your patience and understanding.
 1. Click on **Publish**.
    - A window opens with a short summary of what the publication entitles.
    - Note that the data published comes from the Encoded layer of the Data Aggregator. Encoding your data is mandatory to publish it on GBIF.
-2. Tick the check box if you agree with our [terms and conditions](/en/terms/){:target="_blank"} and accept full responsibility for the publication.
+2. Tick the check box to agree with our [terms and conditions](/en/terms/){:target="_blank"} and accept full responsibility for the publication.
    - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.
 3. Click on **Publish**
    - A progression bar appears during the publishing process and disappears when launched.
 4. Check the Publication status of your records on your Collection page.
-5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access to the Testing GBIF page of your dataset and check the validity of the data before publishing on GBIF.org.
-   - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates⚠️
-   - Please check that **the authors of your dataset are correct**, that **the description of your dataset is correct**, and any other metadata visible. This is how your dataset will look like on GBIF and be cited by scientists worldwide. If anything is wrong or incomplete, please [contact us](mailto:contact-swissnatcoll@infofauna.ch) so that we can advise you on what can be done
+5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes/for all the occurrences to appear.
+   - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 ## Approve my data
 
