@@ -489,19 +489,24 @@ The values of a given entity can be added and updated in three different layers:
 
 ### What does the Encoding do?
 
-The Encoding process standardises values of some of your data, and enriches your specimen data with new standard information it did not have.
+The Encoding process standardises important values of your data, and enriches your specimen with new standard information it did not have.
 
 Here are the Thesaurii available in DAGI:
 
-| Category 
+| Category | Resource | Field(s) used for query | Information encoded |
+| -------- | -------- | ----------------------- | ------------------- |
+| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | scientificName | taxonID, kingdom, phylum, order, class, family, genus, scientificName |
+| Swiss Species | PICTIS | taxonID | ... |
+| Geo Reverse | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | decimalLatitude, decimalLongitude* | continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95_x,_y and swissCoordinatesLv03_x,_y) |
+| Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | country, continent | continent, country, countryCode |
+| GBIF IUCN Redlist | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | taxonID | iucn_redlist_category |
+| Add Institution Code | [GBIF Registry API](https://techdocs.gbif.org/en/openapi/v1/registry){:target='_blank'} ([GRSciColl](https://scientific-collections.gbif.org/){:target='_blank'}) | (Collection where encoding is done in DAGI) | institutionCode, institutionID |
+| Relate Images** | DAGI Media Store | Attribute selected during Image Upload | associatedMedia |
 
-- taxonomy : GBIF API
-- swiss species : PICTIS
-- geo_forward : opencagedata
-- geo_reverse : opencagedata
-- IUCN redlist : GBIF API
-- institution code : DAGI internal, based on GRSciColl
-(- relate images : associatedMedia + Image Upload
+*If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_x, swissCoordinatesLv95_y (=CH1903+/LV95) or swissCoordinatesLv03_x, swissCoordinatesLv03_y (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
+
+**The Image Upload is not yet available, changes to this line might occur.
+
 
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
 
