@@ -140,7 +140,7 @@ There are three different views on your institution page:
 
   - **[Collections](#collections-view)**: displays all the **collections** of your institution already added in DAGI.
   - **[Records](#records-view)**: displays all the **records** already imported in all of your collections.
-  - **[Administration](#admnistration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
+  - **[Administration](#administration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
 
 Additionnally, there are two icons opening the pages on the SwissNatColl portal on which you can find help and guidance for the use of DAGI
 
