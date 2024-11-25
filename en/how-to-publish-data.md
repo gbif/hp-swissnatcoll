@@ -401,7 +401,7 @@ For each user, it is possible to edit their profile (📝) and delete them (🗑
 
 ### Guide
 
-By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swisscollnet@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
+By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swissnatcoll@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
 
 ### Tutorials
 
