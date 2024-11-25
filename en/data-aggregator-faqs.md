@@ -407,17 +407,30 @@ Here is a table with those fields and their definition:
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
 ## Can I upload images in the Data Aggregator?
-Ultimately, yes. This aspect is still in development and not everyone will be able to upload images in the Media Store of the Aggregator.
+
+Ultimately, yes. This feature is **still in development** and not everyone will be able to upload images in the Media Store of the Aggregator.
 
 However, some elements can already be prepared by the institutions:
 
 ✅ My **specimen image file** is named after the **catalogNumber** of my specimen (or at least starts with it).
 
-> Example: G12346579.jpg, BERN-123456.tiff
+> Example 1 : G12346579.jpg --> catalogNumber = G12346579
+> Example 2 : BERN-123456_3.tiff  --> catalogNumber = BERN-123456
 
-✅ My **image files** to be uploaded are **smaller than 5 Mb** and in the format JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP.
+⚠️ It is possible to use another attribute than the catalogNumber, however this other attribute has to be one available on DAGI (it can't be a Custom Attribute nor associatedMedia)
+
+✅ My **image files** are **smaller than 5 Mb** and are in the format JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP.
 
 ✅ My **zip file** containing my image files is **smaller than 200 Mb**
+
+During the Image Upload, the image file is stored in a Cloud and the link to the Cloud is added in the attribute *associatedMedia*. Many images can be mapped to the same record.
+
+### My images are already publicly available on a website, do I have to upload them too?
+
+No, you don't need the Media Store of DAGI if your images are already available publicly. What you can do is write down the **link to your images** in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}.
+
+> Example 1: associatedMedia = [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg)
+> Example 2: associatedMedia = [https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb19/img_99/G00301833.ptif&cvt=jpeg](https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb19/img_99/G00301833.ptif&cvt=jpeg)
 
 ## I made a mistake when importing my data into the Data Aggregator, what do I do?
 
