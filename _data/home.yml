@@ -71,10 +71,7 @@ vision:
   reverse: true
   title: "Vision"
   description: >
-     Our platform offers open access to standardized data from natural history collections housed in Swiss institutions,
-     as well as information on specimens collected in Switzerland and curated abroad. Allowing easy access to discover detailed presentations
-     of institutions and their natural history collections across Switzerland, the portal serves as a hub for publishing news and
-     information related to natural history collections in the country.
+     Our platform offers open access to standardized data from natural history collections housed in Swiss institutions, as well as information on specimens collected in Switzerland and curated abroad. Allowing easy access to discover detailed presentations of institutions and their natural history collections across Switzerland, the portal serves as a hub for publishing news and information related to natural history collections in the country.
   background: "{{ site.data.images.vision.src }}"
   imageLicense: "{{ site.data.images.vision.caption }}"
   
