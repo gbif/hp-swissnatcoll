@@ -16,7 +16,7 @@ composition:
       - preTitle: Web  # optional
         title: Attribution de coordonnées standardisées aux cantons et localités suisses pour une saisie homogène des étiquettes lacunaires (Vust M., 2023) # required
         description: |      # required
-          Digitization of old herbariums reveals cases where only the town, or even the canton, is indicated as the locality. Other samples have no indication of localization, but the biography of the collector suggests that they came from Switzerland. In the absence of more precise information, the question arises as to what coordinates and uncertainty should we assign to these samples in a digitization's goal targeting national and international databases in order to represent them on distribution maps. Standardization was proposed and discussed.
+          Digitisation of old herbariums reveals cases where only the town, or even the canton, is indicated as the locality. Other samples have no indication of localization, but the biography of the collector suggests that they came from Switzerland. In the absence of more precise information, the question arises as to what coordinates and uncertainty should we assign to these samples in a digitization's goal targeting national and international databases in order to represent them on distribution maps. Standardization was proposed and discussed.
         # img required
         background: https://www.e-periodica.ch/iiif/2/e-periodica!bsv!2023_102!bsv-002_2023_102_0001.jpg/full/!320,320/0/default.jpg
         imageLicense: Bulletin de la Société Vaudoise des Sciences Naturelles Band 102 (2023)
