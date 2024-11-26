@@ -274,6 +274,8 @@ The mappings window (Step 2 of 3) has three parts:
 {: .box}
 **If your images are already available online, simply add the url links to your images in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"} of the corresponding specimen.**
 
+<br><br>
+
 1. Prepare a ZIP file containing your specimen images (see [this section in our FAQ](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#can-i-upload-images-in-the-data-aggregator){:target="_blank"}).
 - file name = your chosen attribute for mapping (recommended: **catalogNumber**)
 - file format = **JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**
