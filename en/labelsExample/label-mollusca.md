@@ -42,7 +42,7 @@ toc: true
 | _cajetanus_ | espèce (et sous-espèce si présent) | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
 | _Poli_ | Auteur | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
 | _(Lepidopleurus)_ | détermination entre parenthèse | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| _(image .tiff/.jpg/.raw/...)_ | Image ID | part of [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
+| _(image .tiff/.jpg/.raw/...)_ | Image ID | part of the url in [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"} |
 | _M<sup>r</sup> le Marquis de Monterosato_ | Legs | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
 | _Naples_ | Localité ou pays...dépend de l'info | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
 | _(Médit.)_ | Région (ou province) | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
