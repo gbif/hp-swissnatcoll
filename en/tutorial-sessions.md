@@ -23,7 +23,7 @@ composition:
 <br>- THURSDAY - **28-11-2024** - **15H**-16H
 <br>- TUESDAY - **03-12-2024** - **10H30**-11H30
 <br>- WEDNESDAY - **11-12-2024** - **15H**-16H
-<br>- MONDAY - **16-12-2024** - **15H**-16H
+<br>- MONDAY - **16-12-2024** - **16H**-17H ⚠️ one hour later than the other afternoon sessions
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
 <br>
