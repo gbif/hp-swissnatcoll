@@ -42,7 +42,7 @@ toc: true
 | _cajetanus_ | espèce (et sous-espèce si présent) | [specificEpithet](https://dwc.tdwg.org/terms/#dwc:specificEpithet){:target="_blank"} |
 | _Poli_ | Auteur | [scientificNameAuthorship](https://dwc.tdwg.org/terms/#dwc:scientificNameAuthorship){:target="_blank"} |
 | _(Lepidopleurus)_ | détermination entre parenthèse | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target="_blank"} |
-| _(image .tiff/.jpg/.raw/...)_ | Image ID | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
+| _(image .tiff/.jpg/.raw/...)_ | Image ID | part of [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia) |
 | _M<sup>r</sup> le Marquis de Monterosato_ | Legs | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target="_blank"} |
 | _Naples_ | Localité ou pays...dépend de l'info | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"} |
 | _(Médit.)_ | Région (ou province) | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"} |
@@ -85,7 +85,7 @@ toc: true
       <td style="border: 1px solid black; padding: 5px;">Mediterranean region</td>
       <td style="border: 1px solid black; padding: 5px; text-align: right;">1</td>
       <td style="border: 1px solid black; padding: 5px;">shell</td>
-      <td style="border: 1px solid black; padding: 5px;">MHNN-1.jpg | https://depository-location.ch/path/to/image/MHNN-1.jpg</td>
+      <td style="border: 1px solid black; padding: 5px;">https://depository-location.ch/path/to/image/MHNN-1.jpg</td>
     </tr>
   </table>
 </div>
