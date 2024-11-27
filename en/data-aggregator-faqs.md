@@ -414,7 +414,7 @@ However, some elements can already be prepared by the institutions:
 
 ✅ My **specimen image file** is named after the **catalogNumber** of my specimen (or at least starts with it).
 
-> Example 1 : G12346579.jpg --> catalogNumber = G12346579
+> Example 1 : G12346579.jpg --> catalogNumber = G12346579<br>
 > Example 2 : BERN-123456_3.tiff  --> catalogNumber = BERN-123456
 
 ⚠️ It is possible to use another attribute than the catalogNumber, however this other attribute has to be one available on DAGI (it can't be a Custom Attribute nor associatedMedia)
@@ -429,7 +429,7 @@ During the Image Upload, the image file is stored in a Cloud and the link to the
 
 No, you don't need the Media Store of DAGI if your images are already available publicly. What you can do is write down the **link to your images** in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}.
 
-> Example 1: associatedMedia = [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg)
+> Example 1: associatedMedia = [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg)<br>
 > Example 2: associatedMedia = [https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb19/img_99/G00301833.ptif&cvt=jpeg](https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb19/img_99/G00301833.ptif&cvt=jpeg)
 
 ## I made a mistake when importing my data into the Data Aggregator, what do I do?
@@ -526,9 +526,9 @@ Here are the Thesaurii available in DAGI:
     </tr>
     <tr>
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Attribute</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Value</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Value (example)</th>
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Attribute</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Value</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Value (example)</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">GBIF Taxonomy</td>
