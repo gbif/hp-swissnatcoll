@@ -5,13 +5,13 @@ lessons:
     - title: "Lesson 1 ✨NEW" # required
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/ETi2IBK567ZKgx2rUbWJru4BsMvJ-ClupsYCQgmaTAwLpQ?e=3MPV4n"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/Ed-s8luGHXRFubJ2CRYtb4IBLnHlswFFOXuC3cNcFVJGpQ?e=Qh4GNn"
       background: "/assets/images/categories/tuto_lesson1.png"
 
     - title: "Lesson 2 ✨NEW"
       description: |
         Focus on adding a collection, importing a dataset file and do the mapping. Additional examples with possible error messages are also provided
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZT53fpumtBPs4raEktOX5UB74MycNA3OlreocqMmSxQ-Q?e=QEPxgJ"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EXzcf6jD5DVEqTN8f7ODp0gBvWzmDf3Un8TErtMYkKUu4A?e=RDQ7jW"
       background: "/assets/images/categories/tuto_lesson2.png"
 
     - title: "Lesson 3"
