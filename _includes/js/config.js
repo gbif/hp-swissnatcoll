@@ -53,6 +53,7 @@ var siteConfig = {
     excludedFilters: ['countryGrSciColl'],
     rootFilter: {
       displayOnNHCPortal: true,
+      institutionKey: institutionKey    
     }
   },
   institution: {
