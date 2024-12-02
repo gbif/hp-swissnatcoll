@@ -152,91 +152,96 @@ composition:
                 console.error('Failed to fetch events:', error);
             }
         }
-
+    
         function generateCalendar(containerId, monthTitleId, backgroundColor, year, month, events) {
             const containerElement = document.getElementById(containerId);
             containerElement.innerHTML = ''; // Clear previous calendar
-
+    
             const monthTitleElement = document.getElementById(monthTitleId);
             monthTitleElement.textContent = ''; // Clear previous month title
-
+    
             const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    
+            // Handle year transitions before processing
+            if (month > 11) {
+                year += Math.floor(month / 12); // Add to year if month exceeds 11
+                month %= 12; // Adjust month to stay within 0-11
+            } else if (month < 0) {
+                year += Math.floor(month / 12);
+                month = (month % 12 + 12) % 12; // Adjust negative months to valid range
+            }
+    
             const currentMonthName = monthNames[month];
             monthTitleElement.textContent = `${currentMonthName} ${year}`;
-
+    
             const calendarElement = document.createElement('div');
             calendarElement.className = 'calendar';
             containerElement.appendChild(calendarElement);
-
+    
             const daysInMonth = new Date(year, month + 1, 0).getDate();
-
-            if (month > 11) {
-                year += Math.floor(month / 12);
-                month %= 12;
-            }
-
+    
             // Calculate the first day of the month (0 is Sunday, 1 is Monday, etc.)
             const firstDayIndex = new Date(year, month, 1).getDay();
             const offset = (firstDayIndex + 6) % 7; // Adjusting to start with Monday
+    
             // Get the current date
             const currentDate = new Date();
             const currentDay = currentDate.getDate();
             const isCurrentMonth = currentDate.getFullYear() === year && currentDate.getMonth() === month;
-
+    
             // Create blank days for the previous month
             for (let i = 0; i < offset; i++) {
                 const blankDayElement = document.createElement('div');
                 blankDayElement.className = 'day';
                 calendarElement.appendChild(blankDayElement);
             }
-
+    
             for (let day = 1; day <= daysInMonth; day++) {
                 const dayElement = document.createElement('div');
                 dayElement.className = 'day';
                 dayElement.style.backgroundColor = backgroundColor; // Apply background color
-                
+    
                 if (isCurrentMonth && day === currentDay) {
                     dayElement.classList.add('current-day'); // Highlight the current day
                 }
-
+    
                 const dayNumber = document.createElement('h3');
                 dayNumber.textContent = day;
                 dayElement.appendChild(dayNumber);
-
+    
                 const dayEvents = events.filter(event => {
                     const eventDate = new Date(event.date);
                     return eventDate.getFullYear() === year && eventDate.getMonth() === month && eventDate.getDate() === day;
                 });
-
+    
                 dayEvents.forEach(event => {
                     const eventElement = document.createElement('div');
                     eventElement.className = 'event';
-                    
+    
                     const eventLink = document.createElement('a');
                     eventLink.href = event.url;
                     eventLink.target = '_blank';
                     eventLink.textContent = event.title;
-                    
+    
                     eventElement.appendChild(eventLink);
                     dayElement.appendChild(eventElement);
                 });
-
+    
                 calendarElement.appendChild(dayElement);
             }
         }
-        
+    
         async function initializeCalendar() {
             const currentDate = new Date();
             const currentYear = currentDate.getFullYear();
             const currentMonth = currentDate.getMonth();
-
+    
             const events = await fetchEvents();
             generateCalendar('calendar1', 'monthTitle1', '#EDF3F3', currentYear, currentMonth, events);
             generateCalendar('calendar2', 'monthTitle2', '#EDF3F3', currentYear, currentMonth + 1, events);
             generateCalendar('calendar3', 'monthTitle3', '#EDF3F3', currentYear, currentMonth + 2, events);
         }
-
-
+    
         initializeCalendar();
     </script>
 </body>
