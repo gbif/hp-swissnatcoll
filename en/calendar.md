@@ -170,6 +170,11 @@ composition:
 
             const daysInMonth = new Date(year, month + 1, 0).getDate();
 
+            if (month > 11) {
+                year += Math.floor(month / 12);
+                month %= 12;
+            }
+
             // Calculate the first day of the month (0 is Sunday, 1 is Monday, etc.)
             const firstDayIndex = new Date(year, month, 1).getDay();
             const offset = (firstDayIndex + 6) % 7; // Adjusting to start with Monday
@@ -226,10 +231,11 @@ composition:
             const currentMonth = currentDate.getMonth();
 
             const events = await fetchEvents();
-            generateCalendar('calendar1', 'monthTitle1', '#EDF3F3', currentYear, currentMonth, events); // Set background color for each day in the month
+            generateCalendar('calendar1', 'monthTitle1', '#EDF3F3', currentYear, currentMonth, events);
             generateCalendar('calendar2', 'monthTitle2', '#EDF3F3', currentYear, currentMonth + 1, events);
             generateCalendar('calendar3', 'monthTitle3', '#EDF3F3', currentYear, currentMonth + 2, events);
         }
+
 
         initializeCalendar();
     </script>
