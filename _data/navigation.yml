@@ -9,8 +9,8 @@
     href: /en/navigating_in_the_data
   #- text: 📍 Occurrences
   #  href: /occurrence/search
-  #- text: 🗃️ Collections
-  #  href: /collection/search
+  - text: 🗃️ Collections
+    href: /collection/search
   - text: 🏛️ Institutions
     href: /institution/search
   #- text: 🔖 Typus
