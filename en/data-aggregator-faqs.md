@@ -577,7 +577,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Swiss Species</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">taxonID</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">5998041</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonIdCH</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">22879</td>
     </tr>
     <tr>
