@@ -36,15 +36,15 @@ toc: true
 | Museum Specimen | Museum encoding | Darwin Core correspondance |
 | --------------- | --------------- | -------------------------- |
 | _Glaucidium passerinum_ | Artname | [scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} |
-| _Sperlingskauz_ | ... | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
+| _Sperlingskauz_ | _not encoded_ | [vernacularName](https://dwc.tdwg.org/terms/#dwc:vernacularName){:target="_blank"} |
 | _♀_ | Geschlecht | [sex](https://dwc.tdwg.org/terms/#dwc:sex){:target="_blank"} |
 | _ad_ | Alter | [lifeStage](https://dwc.tdwg.org/terms/#dwc:lifeStage){:target="_blank"} |
 | _CH : OW / NW / LU: Pilatus [Pilatus]_ | Fundort | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) |
-| _4. Dez. 1914_<br> _4.XII 1914_ | ... | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
-| _374_ | ... | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
-| _NMLU_ | ... | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
-| _ZOO AV_ | ... | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
-| _AS-145-MON_ | NML Nr. | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
+| _4. Dez. 1914_<br> _4.XII 1914_ | Funddatum | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
+| _374_ | alte Mus. Nr. | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
+| _NMLU_ | Sammlung | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
+| _ZOO AVE_ | Sammlung | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
+| _AS-145-MON_ | Inventarnummer | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
 ### Database record example
 
