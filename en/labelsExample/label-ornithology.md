@@ -69,6 +69,7 @@ toc: true
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">day</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">basisOfRecord</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">AS-145-MON</td>
@@ -80,7 +81,7 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">passerinum</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">(Linnaeus, 1758)</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Sperlingskauz | Chevechette d'Europe | Civetta nana</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">n.a.</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;"></td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Pilatus | CH : OW/NW/LU: Pilatus [Pilatus]</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">Pilatus</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">4. Dez. 1914 | 4.XII 1914</td>
@@ -88,6 +89,7 @@ toc: true
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">04</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">12</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;">1914</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;">PreservedSpecimen</td>
     </tr>
   </table>
 </div>
