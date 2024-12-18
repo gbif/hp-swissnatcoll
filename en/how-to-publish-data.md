@@ -265,7 +265,7 @@ The mappings window (Step 2 of 3) has three parts:
 ## Upload images
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ This feature will be available in the next release of DAGI (planned at the End of December 2024).
+⚠️ This feature will be available in the next release of DAGI (planned at the beginning of January 2025).
 </div>
 
 - Only images that can be linked to an **existing record** in your DAGI collection can be uploaded.
