@@ -274,8 +274,8 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 | catalogNumber | your institution unique ID for a specimen | G00547679 |
 | occurrenceID | Info Species data center unique ID for a specimen | NISM-BRYO-537533 |
 | organismID | GBIFCH unique ID for a specimen | GBIFCH000014 |
-| swissCoordinates_x | swiss latitude coordinate in CH1903+/LV95 format | 2598633.94 |
-| swissCoordinates_y | swiss longitude coordinate in CH1903+/LV95 format | 1200386.85 |
+| swissCoordinates_x | swiss longitude coordinate in CH1903+/LV95 format | 2598633.94 |
+| swissCoordinates_y | swiss latitude coordinate in CH1903+/LV95 format | 1200386.85 |
 
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) expected in DAGI correspond to the minimal expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
