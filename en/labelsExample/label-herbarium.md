@@ -156,8 +156,8 @@ toc: true
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #c0e6f5;">maximumElevationInMeters</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #f2ceef;">verbatimCoordinates</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">locationID</th>
-      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLongitude</th>
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLatitude</th>
+      <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">decimalLongitude</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">geodeticDatum</th>
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinateUncertaintyInMeters</th>
       <th style="text-align: right; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #ffff00;">coordinatePrecision</th>
