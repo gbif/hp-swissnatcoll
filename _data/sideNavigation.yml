@@ -14,16 +14,16 @@ tutorials:
     path: /en/data-dwc
   - sectiontitle: Label examples
     section:
-    - title: Mollusca
-      path: /en/label-mollusca
-    - title: Herbarium
-      path: /en/label-herbarium
-    #- title: Ornithology
-    #  path: /en/label-ornithology
     #- title: Entomology
     #  path: /en/label-entomology
     #- title: Geology
     #  path: /en/label-geology
+    - title: Herbarium
+      path: /en/label-herbarium
+    - title: Mollusca
+      path: /en/label-mollusca
+    - title: Ornithology
+      path: /en/label-ornithology
 
 - grouptitle: Powerpoint Presentations
   content:
