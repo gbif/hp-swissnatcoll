@@ -1,5 +1,6 @@
 # ============================================================================================================================
 # STATISTICS (GBIF)
+# Published specimens : <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/search?publishing_org=d80fedd1-940b-4669-871d-b9c990cf650e&limit=0"></span>
 # ============================================================================================================================
 stats:
   klass: contentTypesStat
@@ -16,7 +17,7 @@ stats:
       imageLicense: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
       href: "/collection/search"
       
-    - title: "907'950" // <span data-ajax-url="https://api.gbif-uat.org/v1/occurrence/search?publishing_org=d80fedd1-940b-4669-871d-b9c990cf650e&limit=0"></span>
+    - title: "907'950"
       description: "Published specimens"
       background: /assets/images/swissMuseumsImages/DSC_5509.jpg
       imageLicense: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
