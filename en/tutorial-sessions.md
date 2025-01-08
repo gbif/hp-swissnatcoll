@@ -18,7 +18,9 @@ composition:
 ## ✨NEW In-house training
 
 {: .box }
-**To request for a DAGI individual support in your institution**, please send an email to (contact-swissnatcoll@infofauna.ch)[mailto:contact-swissnatcoll@infofauna.ch] with your date of preference, institution name and location and the number of people attending.
+**To request for a DAGI individual support in your institution**, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your date of preference, institution name and location and the number of people attending.
+
+<br>
 
 **In-house training goal**: provide DAGI users with personalised support tailored to the specific needs of their respective databases and management systems
 
@@ -26,7 +28,8 @@ composition:
 1. Data Administrator for the technical aspects of the training (how to use the different features of DAGI)
 2. Collection Digitizer for the context and global understanding of the system (plus-value of DAGI, what is and can be done with the imported data)
 
----------
+<br>
+<br>
 
 ## Next live tutorial sessions
 
@@ -39,7 +42,7 @@ _TBA_
 ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br>
 </div>
 
--------
+<br><br>
 
 ## Available material
 
