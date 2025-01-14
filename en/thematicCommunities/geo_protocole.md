@@ -18,14 +18,125 @@ composition:
 
 # Geographical encoding in DAGI
 
-## Procedure
+Geographical encoding allows to standardise and enrich the geographical data associated to a specimen. In DAGI, the geographical encoding is composed of two parts. One is the **Geo Forward** (based on the imported information in the attributes _country_ and _continent_) and the other one is the **Geo Reverse** (based on the imported information in the coordinates attributes (_decimalLatitude_ and _decimalLongitude_, _swissCoordinates_lv95_x_ and _swissCoordinates_lv95_y_, _swissCoordinates_lv03_x_ and _swissCoordinates_lv03_y_).
 
-The geo-encoding is split into two routes :
-1. Geo forward
-2. Geo reverse
+**Geo Forward** and **Geo Reverse** encoding uses the API of the website [OpenCage data](https://opencagedata.com/){:target="_blank"}. With the use of the attributes mentioned before, a query is built and the result elements are splitted into the corresponding encoded attribute.
 
-## API source
+In addition to these two parts, coordinates in one or two of the available swiss systems attributes are being converted into WGS84 (_decimalLatitude_ and _decimalLongitude_) and the other available swiss system if it was previously empty.
 
-[OpenCage data](https://opencagedata.com/){:target="_blank"}
+## Geo Forward
+
+
+
+## Geo Reverse
+
+{: .box }
+**Attributes needed** : _decimalLatitude_ and _decimalLongitude_ <br>
+**Attributes informed** : _continent_, _country_, _countryCode_, _stateProvince_ and _municipality_ (if _countryCode_ = CH, then also _swissCoordinatesLv95_x_, _swissCoordinatesLv95_y_, _swissCoordinatesLv03_x_ and _swissCoordinatesLv03_y_
+
+
+## Coordinates conversion
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ When importing multiple coordinate systems for the same record, ensure that they all correspond to the same location. DAGI does not compare attributes to detect inconsistencies.
+</div>
+
+The coordinate attributes are ranked by priority :
+1. WGS84
+2. CH1903+/LV95
+3. CH1903/LV03
+
+When importing coordinates, it is better practice to import one set of coordinates per specimen (in either of the three systems supported by DAGI) than doing the conversion before importing and importing multiple systems for the same record. The table here below illustrates what happens when importing 1 or 2 or 3 different locations among the coordinate terms available.
+
+<div style="overflow-x: auto;">
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px;" rowspan="2"></th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="3">IMPORTED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="4">ENCODED</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">CH1903+/LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da">CH1903/LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">CH1903+/LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">CH1903/LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">countryCode</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; text-align: middle;" rowspan="3">1 <br>coordinate value imported</th>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">Z</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; text-align: middle;" rowspan="3">2 different <br>coordinate values imported <br>(2 different locations)</th>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">Z</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;"></td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">Y</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">Z</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">❌</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; text-align: middle;">3 different<br> coordinate values imported <br>(3 different locations)</th>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">Z</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰 </td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌ </td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌ </td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br>X &ne; Y &ne;  Z (they are three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
+    </tr>
+  </table>
+</div>
+
+
+
 
 # Examples with real specimens
