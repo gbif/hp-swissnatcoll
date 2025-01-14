@@ -125,7 +125,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center; vertical-align: middle; ">3 locations️ ⚠️⚠️</td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br>X &ne; Y &ne;  Z (they are three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
+        <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br> coordinates X &ne; coordinates Y &ne; coordinates Z (these represent three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
     </tr>
   </table>
 </div>
