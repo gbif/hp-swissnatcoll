@@ -26,7 +26,9 @@ In addition to these two parts, coordinates in one or two of the available swiss
 
 ## Geo Forward
 
-
+{: .box }
+**Attributes needed** : _continent_ OR _country_ <br>
+**Attributes informed** : _continent_, _country_, _countryCode_
 
 ## Geo Reverse
 
@@ -51,7 +53,6 @@ When importing coordinates, it is better practice to import one set of coordinat
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px;" rowspan="2"></th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="3">IMPORTED</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="4">ENCODED</th>
     </tr>
@@ -65,7 +66,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">countryCode</th>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: middle;" rowspan="3">1 <br>coordinate value imported</th>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
@@ -93,7 +93,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: middle;" rowspan="3">2 different <br>coordinate values imported <br>(2 different locations)</th>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
@@ -121,7 +120,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: middle;">3 different<br> coordinate values imported <br>(3 different locations)</th>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">Z</td>
@@ -135,7 +133,6 @@ When importing coordinates, it is better practice to import one set of coordinat
     </tr>
   </table>
 </div>
-
 
 
 
