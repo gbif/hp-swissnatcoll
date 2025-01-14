@@ -13,6 +13,10 @@ composition:
 ---
 
 # Context
+
+Georeferencing is the enrichment of the geographical information of a collection specimen. Nowadays, this can be done directly in the field with GPS. However for most of older specimen, the geographical description is textual and often scarce. Concepts have also evolved with time. 
+
+In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to how things are done in an institution.
 - historical specimen in our collection
 - countries that don't exist anymore
 
