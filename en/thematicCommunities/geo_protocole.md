@@ -72,7 +72,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
-      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;" rowspan="3">1 location ✔️</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center; vertical-align: middle; " rowspan="3">1 location ✔️</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
@@ -97,7 +97,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
-      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;" rowspan="3">2 locations ⚠️️</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center; vertical-align: middle; " rowspan="3">2 locations ⚠️️</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
@@ -122,7 +122,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: center;">3 locations️ ⚠️⚠️</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center; vertical-align: middle; ">3 locations️ ⚠️⚠️</td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br>X &ne; Y &ne;  Z (they are three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
