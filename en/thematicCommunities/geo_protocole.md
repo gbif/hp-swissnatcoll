@@ -54,16 +54,16 @@ When importing coordinates, it is better practice to import one set of coordinat
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="3">IMPORTED</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="4">ENCODED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="3">ENCODED</th>
+      <th style="text-align: left; text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;" rowspan="2">Consequence</th>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">CH1903+/LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da">CH1903/LV03</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">CH1903+/LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">CH1903/LV03</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">countryCode</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">CH1903+/LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da">CH1903/LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">CH1903+/LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">CH1903/LV03</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
@@ -72,7 +72,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;" rowspan="3">1 location ✔️</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;"></td>
@@ -81,7 +81,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;"></td>
@@ -90,7 +89,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">🟰</td>
-      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
@@ -99,7 +97,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;" rowspan="3">2 locations ⚠️️</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
@@ -108,7 +106,6 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;"></td>
@@ -117,16 +114,15 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">✅</td>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">🟰</td>
       <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: center;">❌</td>
-      <td style="border: 1px solid black; border-bottom: 3px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">Y</td>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">Z</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰 </td>
-      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌ </td>
-      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌ </td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">🟰</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">❌</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: center;">3 locations️ ⚠️⚠️</td>
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br>X &ne; Y &ne;  Z (they are three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
