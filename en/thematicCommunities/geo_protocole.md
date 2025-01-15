@@ -32,13 +32,13 @@ In addition to these two parts, coordinates in one or two of the available swiss
 
 {: .box }
 **Attributes needed** : _continent_ OR _country_ <br>
-**Attributes informed** : _continent_, _country_, _countryCode_
+**Attributes encoded** : _continent_, _country_, _countryCode_
 
 ## Geo Reverse
 
 {: .box }
 **Attributes needed** : _decimalLatitude_ and _decimalLongitude_ <br>
-**Attributes informed** : _continent_, _country_, _countryCode_, _stateProvince_ and _municipality_ (if _countryCode_ = CH, then also _swissCoordinatesLv95_x_, _swissCoordinatesLv95_y_, _swissCoordinatesLv03_x_ and _swissCoordinatesLv03_y_
+**Attributes encoded** : _continent_, _country_, _countryCode_, _stateProvince_ and _municipality_ (if _countryCode_ = CH, then also _swissCoordinatesLv95_x_, _swissCoordinatesLv95_y_, _swissCoordinatesLv03_x_ and _swissCoordinatesLv03_y_
 
 
 ## Coordinates conversion
