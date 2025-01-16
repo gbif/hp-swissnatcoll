@@ -20,15 +20,15 @@ toc: true
 
 # Ornithology labels
 
-## [Natur-Museum Luzern](/institution/582f1eda-5673-4265-87ac-6a164cd8d193){:target="_blank"}
+## [Museum Luzern](/institution/582f1eda-5673-4265-87ac-6a164cd8d193){:target="_blank"}
 
 ### Label example
 
 <figure class="has-text-centered">
-  <a href="/assets/images/categories/Label_Ornitho_NMLU.png" data-lightbox="image-1" data-title='Tamara Emmenegger / <a href="https://naturmuseum.lu.ch/Sammlung_und_Forschung" target="_blank">Natur-Museum Luzern</a>'>
-    <img src="/assets/images/categories/Label_Ornitho_NMLU.png" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)" style="max-width: 100%; height: auto; cursor: zoom-in;" />
+  <a href="/assets/images/categories/Label_Ornitho_MULU.png" data-lightbox="image-1" data-title='Tamara Emmenegger / <a href="https://naturmuseum.lu.ch/Sammlung_und_Forschung" target="_blank">Museum Luzern</a>'>
+    <img src="/assets/images/categories/Label_Ornitho_MULU.png" alt="<i>Glaucidium passerinum</i> (Linnaeus, 1758) (MULU)" style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
-  <figcaption><i>Glaucidium passerinum</i> (Linnaeus, 1758) (NMLU)</figcaption>
+  <figcaption><i>Glaucidium passerinum</i> (Linnaeus, 1758) (MULU)</figcaption>
 </figure>
 
 ### Specimen elements corrrespondance with museum encoding and Darwin Core terms
@@ -42,7 +42,7 @@ toc: true
 | _CH : OW / NW / LU: Pilatus [Pilatus]_ | Fundort | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality) |
 | _4. Dez. 1914_<br> _4.XII 1914_ | Funddatum | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target="_blank"} |
 | _374_ | alte Mus. Nr. | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target="_blank"} |
-| _NMLU_ | Sammlung | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
+| _MULU_ | Sammlung | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target="_blank"} |
 | _ZOO AVE_ | Sammlung | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target="_blank"} |
 | _AS-145-MON_ | Inventarnummer | [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"} |
 
