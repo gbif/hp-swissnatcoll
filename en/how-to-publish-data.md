@@ -74,7 +74,7 @@ A feature currently in development will also allow you to [send your swiss data 
    - an unwanted space after a header
 
 
-Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on preparing your dataset/collection for import into DAGI.
+Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on preparing your data for import into DAGI.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
@@ -138,13 +138,12 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
-  - After signing in, you arrive on the Collections page of your institution. Only the users registered with your institution can see this DAGI page.
+  - After signing in, you arrive on the Datasets page of your institution. Only the users registered with your institution can see this DAGI page.
 
 
-There are three different views on your institution page:
+There are two different views on your institution page:
 
-  - **[Collections](#collections-view)**: displays all the **collections** of your institution already added in DAGI.
-  - **[Records](#records-view)**: displays all the **records** already imported in all of your collections.
+  - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
   - **[Administration](#administration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
 
 Additionnally, there are two icons opening the pages on the SwissNatColl portal on which you can find help and guidance for the use of DAGI
@@ -152,30 +151,30 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
-## Add a new collection
+## Add a new dataset
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Collection Digitizer</i> role can add, edit and delete collections. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
+❌ Only the <i>Collection Digitizer</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
 </div>
 
-1. Click on **Collections** on the left side of the window.
-  - On this page, you can see all the collections of your institution that have already been added in DAGI. The names of the collections are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - If no collection has been added yet, you can click on **+ New collection** to add one
-  - You can order the collection list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
-  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a collection is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
-2. If your Collections page is empty, click either on the **+ Add a collection** button in the center of the page or on **New collection** on the top-right corner of the window (it does the same thing at this point).
-3. If your Collections page already has collections, click on the **New collection** button in the top right corner.
+1. Click on **Datasets** on the left side of the window.
+  - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
+  - If no dataset has been added yet, you can click on **+ New dataset** to add one
+  - You can order the dataset list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
+  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a dataset is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+2. If your Datasets page is empty, click either on the **+ Add a dataset** button in the center of the page or on **New dataset** on the top-right corner of the window (it does the same thing at this point).
+3. If your Datasets page already has datasets, click on the **New dataset** button in the top right corner.
 
 --- A pop-up window has opened. ---
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
 2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GRSciColl collection has already been used in another import, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Collections page.
-3. Add a description of the collection. 💡optional💡
-4. Click on **Create collection**
-    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the collection afterwards.
-    - ⚠️Avoid deleting a collection after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take [contact](mailto:contact-swissnatcoll@infofauna.ch) with us, so we can advise you correctly.
+    - If the GRSciColl collection has already been added on DAGI, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Datasets page.
+3. Add a description of the dataset. 💡optional💡
+4. Click on **Create dataset**
+    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
+    - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take [contact](mailto:contact-swissnatcoll@infofauna.ch) with us, so we can advise you correctly.
 
 ## Import my data
 
@@ -183,15 +182,15 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 ❌ Only the <i>Data Administrator</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
 </div>
 
-1. Go to the **Collections** view.
-2. Click on the collection name in which you want to import your data.
-  - For each collection in DAGI, you have 4 tabs, in a grey bar on top of the collection page (_Records_, _Imports_, _Exports_, _Publications and Approvals_) (see the [Collection page](#collection-page) paragraph for a precise description).
-  - The tab **Records** displays the imported records available in your collection.
+1. Go to the **Datasets** view.
+2. Click on the dataset name in which you want to import your data.
+  - For each dataset in DAGI, you have 4 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Approvals_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
+  - The tab **Records** displays the imported records available in your dataset.
   - The tab **Imports** displays all the files you have imported.
   - The tab **Exports** displays all the files you have exported.
   - The tab **Publications and Approvals** displays all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
-3. If your collection is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
-4. If your collection already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
+3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
+4. If your dataset already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
 
 --- A three-steps pop-up window has opened. ---
 
@@ -224,14 +223,14 @@ The mappings window (Step 2 of 3) has three parts:
 <br>
 8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
 9. When satisfied, click on **Run import**.
-  - The page displayed is now the Imports tab, where you can see all your imported files for a given collection at all times.
+  - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
 10. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ A certain amount of imported records shown in the <strong>Records</strong> tab of your collection page. If it was your first import in this collection, then the <strong>Not encoded</strong> percentage is 100%.</p>
+  <p>✅ A certain amount of imported records shown in the <strong>Records</strong> tab of your dataset page. If it was your first import in this dataset, then the <strong>Not encoded</strong> percentage is 100%.</p>
 </div>
 
 ## Encode my data
@@ -273,7 +272,7 @@ The mappings window (Step 2 of 3) has three parts:
 ⚠️ This feature will be available in the next release of DAGI (planned at the beginning of January 2025).
 </div>
 
-- Only images that can be linked to an **existing record** in your DAGI collection can be uploaded.
+- Only images that can be linked to an **existing record** in your DAGI dataset can be uploaded.
 - This feature **is NOT for high definition images**, but for enhancing the visibility of collections who don't have a publicly available image deposit.
 
 {: .box}
@@ -287,7 +286,7 @@ The mappings window (Step 2 of 3) has three parts:
 - maximal file size = **5 Mb** (Mo)
 - maximale ZIP file size = **200 Mb** (Mo)
 
-2. Click on **Image Upload** in the grey tab band of your collection, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
+2. Click on **Image Upload** in the grey tab band of your dataset, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
 
 --- A three-steps pop-up window has opened. ---
 
@@ -300,7 +299,7 @@ The mappings window (Step 2 of 3) has three parts:
 9. When satisfied, click on **Run Mapping**.
 10. You can check the status of your Image Upload
 - Incomplete : All or a part of your images remained unmapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. By clicking on the yellow **Incomplete** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
-- Finished : All of your images could be mapped with a record in your collection. By clicking on the green **✅Finished** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
+- Finished : All of your images could be mapped with a record in your dataset. By clicking on the green **✅Finished** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
 
 Now, in the Records tab of your Collection, the records with an image have a green camera icon, and you can see the image when opening the side-panel of a record (only the first image is displayed if multiple images have been mapped to the same record). The link to the DAGI Media Store has been added in the attribute *[associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}*. When publishing your data, the image will also be displayed on the GBIF occurrence page of your specimen.
 
@@ -314,13 +313,13 @@ Now, in the Records tab of your Collection, the records with an image have a gre
 
 > Either individual names or the name of the institution can be used as authors. To verify your authors, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then click on **Contacts**. The contacts that will appear as authors are the ones whose **Position** details are *DAGI - Technical support*, *creator* and *metadataProvider*. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-⚠️ These details have to be provided **in all of the collections you want to publish**, or else the citation won't be built properly.
+⚠️ These details have to be provided **in all of the datasets you want to publish**, or else the citation won't be built properly.
 
 <br>✅ The **description of my dataset** is correct
 
 > The description of your dataset is in a box on top of the dataset page, just below the title. To verify the description, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then go to the **Notes** section in the Collection details. The text written there will appear as such on your dataset page. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-⚠️ These details have to be provided **in all of the collections you want to publish**, or else the description won't be accurate.
+⚠️ These details have to be provided **in all of the datasets you want to publish**, or else the description won't be accurate.
 
 <br>
 
@@ -339,8 +338,8 @@ We thank you for your patience and understanding.
 3. Click on **Publish**
    - A progression bar appears during the publishing process and disappears when launched.
 4. Check the Publication status of your records on your Collection page.
-5. By clicking on **Show on GBIF** (purple text in the top-left corner of your collection page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes/for all the occurrences to appear.
-   - ⚠️Do not delete a collection after publishing on GBIF or it might create unwanted duplicates.⚠️
+5. By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes/for all the occurrences to appear.
+   - ⚠️Do not delete a dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 ## Approve my data
 
@@ -365,28 +364,28 @@ We thank you for your patience and understanding.
 
 # How to navigate in DAGI
 
-When [logging](#log-in) in the Data Aggregator, the platform opens on the [Collections view](#collections-view).
+When [logging](#log-in) in the Data Aggregator, the platform opens on the [Datasets view](#datasets-view).
 
 In the top-right corner of the page, you can see your login name, the button to log out and the button to choose between light/dark/computer themes. The platform is available only in English.
 
-## Collections view
+## Datasets view
 
-The collections displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the collections of the institution you have been registered to upon creation of your user's profile. The collections are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
+The datasets displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
 - *Code*: code of your collection as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
 - *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
 - *Institution Code*: code of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institutionCode)
 - *Institution*: name of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institution name)
 - *Progress*: progress bar linked to the number of records already imported and the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
-- *Records count / est.*: numerical display of the progress, with first the number of records currently present in the collection on DAGI and second the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
-- *Updated At*: timestamp of the last action executed on the collection)
+- *Records count / est.*: numerical display of the progress, with first the number of records currently present in the dataset on DAGI and second the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
+- *Updated At*: timestamp of the last action executed on the dataset)
 
-Only the Collection Digitizers can add (🪟New collection), edit (📝) and delete (🗑️) collections in the Collections page.
+Only the Collection Digitizers can add (🪟New dataset), edit (📝) and delete (🗑️) datasets in the Datasets page.
 
 
-### Collection page
+### Dataset page
 
-The page of a collection has 5 available tabs.
+The page of a dataset has 5 available tabs.
 
 - The **Records tab** :<br> View on all imported **records** of the collection with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
 
@@ -398,13 +397,6 @@ The page of a collection has 5 available tabs.
 
 - The **Image Upload tab**:<br> View on all uploaded zip **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also details such as the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table). The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
-
-## Records view
-
-The Records view displays **all the records already imported in all of your collections on DAGI**. The records are organised by default by order of creation. If you wish to order them differently, you can click on the *catalogNumber* or *scientificName* headers and order them in an ascending or descending order.
-
-The data displayed for each record is the taxonomy (*genus*, *family*, *order*, *class*, *phylum*). Additionally, the encoding state (*Encoding*) is shown, and by clicking on the icon of a given record, it opens a side-pane on the right-side of the page on which you can find all available terms in DAGI and their respective value for the record on both Imported and Encoded layers. A hyperlink to the collection in which a given record has been imported is available (*Collection*), as well as a timestamp of the last change executed on the record (*Updated At*).
-
 ## Administration view
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
@@ -415,19 +407,19 @@ The Administration view displays **all users already added to your institution**
 
 The *Roles* column informs you on the role/s attributed to each user:
 - **Data Administrator** (execution role)
-  - can view the collections of their institution
-  - can [upload](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the collections of their institution
+  - can view the datasets of their institution
+  - can [upload](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the datasets of their institution
 - **Collection Digitizer** (management role)
   - can view, add, edit and remove users of their institution
-  - can view, add and edit collections of their institution
+  - can view, add and edit datasets of their institution
  
 <br>
 
 | Tasks | Data Administrator | Collection Digitizer |
 | ----- | ------------------ | -------------------- |
 | **Users** -view/add/edit/remove | ❌ | ✅ own institution |
-| **Collections** -view | ✅ own institution | ✅ own institution |
-| **Collections** -add/edit | ❌ | ✅ own institution |
+| **Datasets** -view | ✅ own institution | ✅ own institution |
+| **Datasets** -add/edit | ❌ | ✅ own institution |
 | **Records** -upload/mapping/encode/export/publish | ✅ | ❌ |
 
 For each user, it is possible to edit their profile (📝) and delete them (🗑️).
