@@ -1,7 +1,7 @@
 ---
 layout: documentation
 permalink: /en/how-to-publish-data
-title: How to publish data with the Data Aggregator
+title: How to publish data with the Data Aggregator DAGI
 description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
@@ -9,7 +9,7 @@ toc: true
 # How to publish data with the Data Aggregator
 In order to publish your dataset/collection on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently on the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare a file with your data (see [Prepare my data](#prepare-my-data) here below).
 
-After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) website](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data](/occurrence/search){:target="_blank"} section.
+After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org is made available-⚠️).
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
 
@@ -17,7 +17,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 <br>✅ My institution is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
-> Example: [CJBG Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
+> Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
