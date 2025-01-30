@@ -423,7 +423,7 @@ There are two ways to have images associated to your records in DAGI.
 
 1. Reduce the size of your images to a **size lower than 5 Mb** and make sure their **format is JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**.
 2. Name your image files so that the unique number associated to them corresponds to one of the DAGI's attributes (e.g. _catalogNumber_ = G12346579 and image name = G12346579.jpg)<br>
-⚠️ It is possible to use another attribute than the catalogNumber, however this other attribute has to be one available on DAGI (it can't be a Custom Attribute nor associatedMedia)
+⚠️ It is possible to use another attribute than the catalogNumber, however this other attribute has to be one available on DAGI (it can't be a Custom Attribute nor _associatedMedia_)
 3. Compress your images (or a part of it) into a **zip file** with a **size smaller than 200 Mb**
 4. You are now ready to upload your ZIP file(s) in the Image Upload tab of your DAGI's dataset.
 
