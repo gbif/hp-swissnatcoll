@@ -283,7 +283,7 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
 | _swissCoordinatesLv95_y_ | swiss latitude coordinate in CH1903+/LV95 format | 1200386.85 |
 | _swissCoordinatesLv03_x_ | swiss longitude coordinate in CH1903/LV03 format | 657499.41 |
 | _swissCoordinatesLv03_y_ | swiss latitude coordinate in CH1903/LV03 format | 191750.14 |
-| _associatedMedia_ | <empty> or the url to a public deposit of your specimen image | [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg){:target="_blank"} |
+| _associatedMedia_ | _empty_ OR the url to a public deposit of your specimen image | [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg){:target="_blank"} |
 
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) expected in DAGI correspond to the minimal expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
