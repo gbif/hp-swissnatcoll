@@ -323,7 +323,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 ## Are there fields in Data Aggregator that are not part of Darwin Core?
 
-Some of the fields in DAGI have been borrowed from other sources (e.g. [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"}, GBIF Swiss Node) or have been homemade to answer specific needs of our swiss institutions (e.g. our swiss coordinates systems).
+Some of the fields in DAGI have been borrowed from other sources (e.g. [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"}, GBIF Swiss Node) or have been homemade to answer specific needs of our swiss institutions (e.g. our swiss coordinates systems). These attributes can't be yet published on GBIF (because GBIF does not have the structure for them). However some are used in DAGI during the encoding.
 
 Here is a table with those fields and their definition:
 
@@ -346,10 +346,10 @@ Here is a table with those fields and their definition:
 | evidenceType                     | Type of evidence or validation criterion considered (preferably according to a controlled vocabulary).                                                             | identified by genitalia                                                                          |
 | lastVerifiedBy                   | Person confirming the identification (usually a specialist of the corresponding systematic family).                                                               | Huber C.                                                                                         |
 | lastVerifiedByID                 | Globally Unique Identifier of the person confirming the identification (usually a specialist of the coresponding systematic family).                              | https://orcid.org/0000-0003-3283-7764                                                            |
-| swissCoordinates_LV03_x          | Swiss Coordinates CH1903/LV03, value towards the East (6 digits, https://epsg.io/21781).                                                                          | 574175,61                                                                                        |
-| swissCoordinates_LV95_x          | Swiss Coordinates CH1903+/LV95, value towards the East (7 digits, https://epsg.io/2056).                                                                          | 2574174,86                                                                                       |
-| swissCoordinates_LV03_y          | Swiss Coordinates CH1903/LV03, value towards the Nord (6 digits, https://epsg.io/21781).                                                                          | 103975,67                                                                                        |
-| swissCoordinates_LV95_y          | Swiss Coordinates CH1903+/LV95, value towards the Nord (7 digits, https://epsg.io/2056).                                                                          | 1104009,83                                                                                       |
+| swissCoordinatesLv03_x          | Swiss Coordinates CH1903/LV03, value towards the East (6 digits, https://epsg.io/21781).                                                                          | 574175,61                                                                                        |
+| swissCoordinatesLv95_x          | Swiss Coordinates CH1903+/LV95, value towards the East (7 digits, https://epsg.io/2056).                                                                          | 2574174,86                                                                                       |
+| swissCoordinatesLv03_y          | Swiss Coordinates CH1903/LV03, value towards the Nord (6 digits, https://epsg.io/21781).                                                                          | 103975,67                                                                                        |
+| swissCoordinatesLv95_y          | Swiss Coordinates CH1903+/LV95, value towards the Nord (7 digits, https://epsg.io/2056).                                                                          | 1104009,83                                                                                       |
 | waterbodyID                      | The ID of the water body in which the Location occurs (according to a registry such as GEWISS).                                                                   | CH0000180000 (for Walibach, Bennwil BL)                                                          |
 | anatomicalDescription            | Free text description of the preserved part of organism.                                                                                                          | Mand. Dext. Mit Winkel und Ramus ascendens M3-P3                                                 |
 | articulation                     | Articulation in the preserved specimen - applies to invertebrate shells and exoskeletons as well as vertebrate skeletons.                                          | articulated, dis-articulated, single valves                                                      |
@@ -615,19 +615,19 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">Benken (ZH)</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv95_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_x</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">2692331.25671</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv95_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_y</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">1279034.48212</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv03_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_x</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">692331.25671</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinates_Lv03_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_y</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">279034.48212</td>
     </tr>
     <tr>
