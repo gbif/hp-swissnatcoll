@@ -33,10 +33,10 @@ A feature currently in development will also allow you to [send your swiss data 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
 
 
-<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
+<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}**, with the Collection Digitizer role, registered in DAGI.
 
-> - Collection Digitizer
-> - Data Administrator
+> - Collection Digitizer ⚠️mandatory
+> - Data Administrator 💡optional
 
 ⚠️ If your institution does not yet have a Collection Digitizer, please send a request by email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
@@ -65,7 +65,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Prepare my data
 
-1. Focus on the most important fields first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
 2. Check that your file does not have
    - catalogNumber duplicates
