@@ -272,13 +272,18 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 
 ### Fields in the Data Aggregator with special values required
 
+The DAGI's available attributes are based mainly on the Darwin Core terms but there are also supplementary attributes from the GBIF extensions, ABCD standard and GBIF-CH. The use of some of these attributes is also specific to our national installations.
+
 | DAGI Attribute | Value required | Examples |
 | -------------- | -------------- | -------- |
-| catalogNumber | your institution unique ID for a specimen | G00547679 |
-| occurrenceID | Info Species data center unique ID for a specimen | NISM-BRYO-537533 |
-| organismID | GBIFCH unique ID for a specimen | GBIFCH000014 |
-| swissCoordinates_x | swiss longitude coordinate in CH1903+/LV95 format | 2598633.94 |
-| swissCoordinates_y | swiss latitude coordinate in CH1903+/LV95 format | 1200386.85 |
+| _catalogNumber_ | your institution unique ID for a specimen | G00547679 |
+| _occurrenceID_ | Info Species data center unique ID for a specimen | NISM-BRYO-537533 |
+| _organismID_ | GBIFCH unique ID for a specimen | GBIFCH000014 |
+| _swissCoordinatesLv95_x_ | swiss longitude coordinate in CH1903+/LV95 format | 2598633.94 |
+| _swissCoordinatesLv95_y_ | swiss latitude coordinate in CH1903+/LV95 format | 1200386.85 |
+| _swissCoordinatesLv03_x_ | swiss longitude coordinate in CH1903/LV03 format | 657499.41 |
+| _swissCoordinatesLv03_y_ | swiss latitude coordinate in CH1903/LV03 format | 191750.14 |
+| _associatedMedia_ | <empty> or the url to a public deposit of your specimen image | [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg){:target="_blank"} |
 
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) expected in DAGI correspond to the minimal expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
