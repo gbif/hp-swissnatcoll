@@ -288,19 +288,19 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) expected in DAGI correspond to the minimal expected information to be present when publishing on GBIF. All of the expected fields have to be present and contain data for a record to reach the corresponding MIDS quality level.
 
-| MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
+| MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
 | 0 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | ... | BERN<br> G<br> MHNN |
 
-| MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
+| MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
-| 1 | _part_of_organism_ ! _not DwC_ ! | Part or parts of the organism that have been preserved. | ... | shell<br> skeleton<br> skull<br> soft tissue |
+| 1 | _partOfOrganism_ | Part or parts of the organism that have been preserved. | ... | shell<br> skeleton<br> skull<br> soft tissue |
 | 1 | [preparations](https://dwc.tdwg.org/terms/#dwc:preparations){:target='_blank'} | A list (concatenated and separated) of preparations and preservation methods for a specimen. | ... | fossil<br> cast<br> photograph<br> DNA extract<br> skin<br> skull<br> skeleton<br> whole animal (ETOH)<br> tissue (EDTA) |
 
 
-| MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
+| MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
-| 2 | _yearCollectionEntrance_ ! _not DwC_ ! | The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event). | ... | ... |
+| 2 | _yearCollectionEntrance_ | The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event). | ... | ... |
 | 2 | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target='_blank'} | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | ... | ... |
 | 2 | [collectionID](https://dwc.tdwg.org/terms/#dwc:collectionID){:target='_blank'} | An identifier for the collection or dataset from which the record was derived. | ...    | ... |
 | 2 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect<br> collection date<br> date de récolte<br> Funddatum<br> date<br> Datum | August 1903<br> 01.04.85<br> 15 VII 1867 |
@@ -315,7 +315,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 | 2 | [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target='_blank'} | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive. | coordonnées y<br> coordinates | ...  |
 | 2 | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target='_blank'} | The original description of the elevation (altitude, usually above sea level) of the Location. | ... | ... |
 
-| MIDS | DwC term (dwc:) | Definition | Corresponding terms found in datasets | Examples |
+| MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
 | 3 | [county](https://dwc.tdwg.org/terms/#dwc:county){:target='_blank'} | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.  | ... | ... |
 | 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface.  | ...    | ... |
@@ -327,7 +327,7 @@ Some of the fields in DAGI have been borrowed from other sources (e.g. [MIDS](ht
 
 Here is a table with those fields and their definition:
 
-| Attribute                        | Description                                                                                                                                                     | Examples                                                                                         |
+| DAGI Attribute                        | Description                                                                                                                                                     | Examples                                                                                         |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | endOfPeriodDay                   | The integer day of a date marking the end of an interval in which the Event occurred.                                                                            | 2, 30                                                                                            |
 | endOfPeriodMonth                 | The ordinal month of a date marking the end of an interval in which the Event occurred.                                                                          | 2 (February), 11 (November)                                                                      |
