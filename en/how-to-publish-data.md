@@ -6,17 +6,17 @@ description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
-# How to publish data with the Data Aggregator
+# How to publish data with the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 ℹ️ A new version has been recently released on DAGI 🎉 This page is in the work to be updated to the new features of this update. We hope you understand if something has not yet been corrected.
 </div>
 
-In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} (⚠️-currently on the Testing platform of GBIF-⚠️) and have it displayed on the SwissNatColl portal, you need to first prepare an import file with it (see [Prepare my data](#prepare-my-data) here below).
+**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"}** (⚠️-currently on the Testing platform of GBIF-⚠️) **and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with it (see [Prepare my data](#prepare-my-data) here below).
 
-After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org is made available-⚠️).
+After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org will be effective-⚠️).
 
-A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) by the Infospecies data centers experts.
+A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
 ## Checklist -to do before logging in the Data Aggregator DAGI
 
@@ -28,12 +28,12 @@ A feature currently in development will also allow you to [send your swiss data 
 
 <br>✅ My collection is **registered on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
-> Example: [CJBG-G-DC Herbier De Candolle](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
+> Example: [Herbarium – De Candolle's Prodromus](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
 
 
-<br>✅ My institution has **at least [one user](##what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
+<br>✅ My institution has **at least [one user](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
 
 > - Collection Digitizer
 > - Data Administrator
