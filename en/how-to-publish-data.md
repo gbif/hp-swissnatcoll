@@ -67,7 +67,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
-2. Make sure the attributes in DAGI which require
+2. Make sure the [attributes in DAGI which require special values](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName cells
@@ -79,7 +79,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 Mbyte (=Mo), containing your data arranged such that <strong>each line represents one occurrence/specimen, each column represents one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
+  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 Mbyte (= 800 Mo), containing your data arranged as <strong>each line represents one occurrence/specimen, each column represents one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
@@ -132,7 +132,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
   </tr>
 
   </table>
-  <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", etc. values from your file or you may receive an error message during import. ⚠️</p>
+  <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", "indet.", etc. values from your file or you may receive an error message during import. ⚠️</p>
 </div>
 
 
