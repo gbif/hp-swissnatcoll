@@ -33,7 +33,7 @@ A feature currently in development will also allow you to [send your swiss data 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
 
 
-<br>✅ My institution has **at least [one user](#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
+<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** registered in DAGI.
 
 > - Collection Digitizer
 > - Data Administrator
