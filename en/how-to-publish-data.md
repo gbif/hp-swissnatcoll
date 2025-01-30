@@ -65,9 +65,10 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Prepare my data
 
-1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
+1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
-2. Check that your file does not have
+2. Make sure the attributes in DAGI which require
+3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName cells
    - duplicated headers (field names)
