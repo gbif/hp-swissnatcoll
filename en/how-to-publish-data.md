@@ -18,6 +18,17 @@ After this important step, you are ready to [log in](#log-in) and [import your d
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
+<figure class="has-text-centered">
+  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow.png" data-lightbox="image-1" 
+     data-title='Anne Morel / SwissNatColl Team'>
+    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow.png" 
+         alt="DAGI Data Flow" 
+         style="max-width: 100%; height: auto; cursor: zoom-in;" />
+  </a>
+  <figcaption>DAGI Data flow</figcaption>
+</figure>
+
+
 ## Checklist -to do before logging in the Data Aggregator DAGI
 
 <br>✅ My institution is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
@@ -59,19 +70,6 @@ A feature currently in development will also allow you to [send your swiss data 
 </div>
 
 <br>
-
----
-
-<figure class="has-text-centered">
-  <a href="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=1ABbOs" data-lightbox="image-1" 
-     data-title='Anne Morel / SwissNatColl Team'>
-    <img src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=1ABbOs" 
-         alt="DAGI Data Flow" 
-         style="max-width: 100%; height: auto; cursor: zoom-in;" />
-  </a>
-  <figcaption>DAGI Data flow</figcaption>
-</figure>
-
 
 ---
 
