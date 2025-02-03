@@ -55,7 +55,7 @@ A feature currently in development will also allow you to [send your swiss data 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<strong>👌 You can do as many data imports as you want</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remain unchanged, each new import will update the corresponding existing data</strong>.
+<strong>👌 You can do as many data imports as you want</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remains unchanged, each new import will update the corresponding existing data</strong>.
 </div>
 
 <br>
