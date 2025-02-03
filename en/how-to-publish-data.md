@@ -62,6 +62,19 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ---
 
+<figure class="has-text-centered">
+  <a href="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=1ABbOs" data-lightbox="image-1" 
+     data-title='Anne Morel / SwissNatColl Team'>
+    <img src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=1ABbOs" 
+         alt="DAGI Data Flow" 
+         style="max-width: 100%; height: auto; cursor: zoom-in;" />
+  </a>
+  <figcaption>DAGI Data flow</figcaption>
+</figure>
+
+
+---
+
 
 ## Prepare my data
 
