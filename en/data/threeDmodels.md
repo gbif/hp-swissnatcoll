@@ -17,6 +17,8 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
     <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
     <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
     <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
+    <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_15_Scaptodrosophila_deflexa.glb?v=1736026991">🪰 Scaptodrosophila deflexa</option>
+    <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_16_Cave_beetle.glb?v=1736014842">🦗Anthroherpon cylindricolle thoracicum</option>
 </select>
 
 ## 3D Model Viewer
