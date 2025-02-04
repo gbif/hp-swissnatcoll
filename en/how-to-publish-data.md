@@ -35,9 +35,9 @@ After this important step, you are ready to [log in](#log-in) and [import your d
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
 <figure class="has-text-centered">
-  <a href="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=i8XeTs" data-lightbox="image-1" 
+  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow.png" data-lightbox="image-1" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=i8XeTs" 
+    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow.png" 
          alt="DAGI Data Flow" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
