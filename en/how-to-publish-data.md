@@ -223,34 +223,31 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 --- A three-steps pop-up window has opened. ---
 
-1. (Step 1 of 3) Click on **Choose a file** to select your prepared .csv/.txt file or drag and drop it if you have a folder window opened on your screen.
+1. (Step 1️⃣ of 3️⃣) Click on **Choose a file** to select your prepared .csv/.txt file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
 3. Click on **Next**
 
 ### Map my data
 
-{: .box }
-The mappings window (Step 2 of 3) has three parts:
+The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 - *Quick Start*: if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button **🔄️Load existing mapping** can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
 - *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-- *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file. After selecting the required attributes, the button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them
+- *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file. After selecting the required attributes, the button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them.
 
 1. If your field names are 100% the same as the Data Aggregator's attribute, click on **✨Try auto-mapping**.
 2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
-3. Else, do the following steps:
-4. For the Required attributes, select in the drop-down menu **Select a column** the corresponding field in your imported file of each required attribute.
+3. If it is your first mapping and your field names are different than the DAGI attributes, select first the Required attributes by clicking on the drop-down menu **Select a column** of both attributes. You can then select the corresponding field in your imported file.
   - By typing the beginning of your field names in the search bar, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult the FAQs section [Where can I find the Darwin Core terms description?](/en/data-aggregator-faqs/#where-can-i-find-the-darwin-core-terms-description).
-5. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the additional attributes.
+  - If unsure of the correspondence between the attributes and your field names, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description).
+5. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the DAGI attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
 6. Repeat these steps until all of the fields you want to import are mapped.
-  - Not all of your fields may be mandatory for GBIF. Find [here](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"} a list with the required and optional fields guaranteeing the highest data quality.
-  - If you can't find a Darwin Core term corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes are currently not encoded and published on GBIF. It is still useful to have them in case they can be used in future versions.
+  - If you can't find a DAGI attribute corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Approval/Validation process)
 <br>
 7. When satisfied with your mapping, click on **Update mapping**.
 <br>
-8. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
+8. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
 9. When satisfied, click on **Run import**.
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
@@ -319,12 +316,12 @@ The mappings window (Step 2 of 3) has three parts:
 
 --- A three-steps pop-up window has opened. ---
 
-1. (Step 1 of 3) Click on **Choose a file** to select your prepared ZIP file or drag and drop it if you have a folder window opened on your screen.
+1. (Step 1️⃣ of 3️⃣) Click on **Choose a file** to select your prepared ZIP file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
 3. Click on **Next**
-4. (Step 2 of 3) Select in the drop-down menu **Mapping Identifier** the corresponding attribute to your file names.
+4. (Step 2️⃣ of 3️⃣) Select in the drop-down menu **Mapping Identifier** the corresponding attribute to your file names.
 5. Click on **Update mapping**
-6. (Step 3 of 3) The last step is a summary window on which you can check your file name and size, creation date, the number of invalid files, and the mapped identifier.
+6. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of invalid files, and the mapped identifier.
 9. When satisfied, click on **Run Mapping**.
 10. You can check the status of your Image Upload
 - Incomplete : All or a part of your images remained unmapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. By clicking on the yellow **Incomplete** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
