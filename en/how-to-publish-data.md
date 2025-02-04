@@ -6,6 +6,22 @@ description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
+
+<head>
+  <!-- Lightbox2 CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  
+  <!-- Lightbox2 JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- Zoom.js CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
+
+  <!-- Zoom.js JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
+
+</head>
+
 # How to publish data with the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
@@ -19,9 +35,9 @@ After this important step, you are ready to [log in](#log-in) and [import your d
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow.png" data-lightbox="image-1" 
+  <a href="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=i8XeTs" data-lightbox="image-1" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow.png" 
+    <img src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EdT4imb3enZAhJkSa7pTlDMBlRa6g-PpXvw7hd5q4kdeBA?e=i8XeTs" 
          alt="DAGI Data Flow" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
