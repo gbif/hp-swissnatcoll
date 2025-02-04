@@ -274,6 +274,58 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 
 The DAGI's available attributes are based mainly on the Darwin Core terms but there are also supplementary attributes from the GBIF extensions, ABCD standard and GBIF-CH. The use of some of these attributes is also specific to our national installations.
 
+<table>
+    <thead>
+        <tr>
+            <th>DAGI Attribute</th>
+            <th>Value required</th>
+            <th>Examples</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><em>catalogNumber</em></td>
+            <td>Your institution unique ID for a specimen</td>
+            <td>G00547679</td>
+        </tr>
+        <tr>
+            <td><em>occurrenceID</em></td>
+            <td>Info Species data center unique ID for a specimen</td>
+            <td>NISM-BRYO-537533</td>
+        </tr>
+        <tr>
+            <td><em>organismID</em></td>
+            <td>GBIFCH unique ID for a specimen</td>
+            <td>GBIFCH000014</td>
+        </tr>
+        <tr>
+            <td><em>swissCoordinatesLv95_x</em></td>
+            <td>Swiss longitude coordinate in CH1903+/LV95 format</td>
+            <td>2598633.94</td>
+        </tr>
+        <tr>
+            <td><em>swissCoordinatesLv95_y</em></td>
+            <td>Swiss latitude coordinate in CH1903+/LV95 format</td>
+            <td>1200386.85</td>
+        </tr>
+        <tr>
+            <td><em>swissCoordinatesLv03_x</em></td>
+            <td>Swiss longitude coordinate in CH1903/LV03 format</td>
+            <td>657499.41</td>
+        </tr>
+        <tr>
+            <td><em>swissCoordinatesLv03_y</em></td>
+            <td>Swiss latitude coordinate in CH1903/LV03 format</td>
+            <td>191750.14</td>
+        </tr>
+        <tr>
+            <td><em>associatedMedia</em></td>
+            <td><em>empty</em> OR the URL to a public deposit of your specimen image</td>
+            <td><a href="https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg" target="_blank">https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg</a></td>
+        </tr>
+    </tbody>
+</table>
+
 | DAGI Attribute | Value required | Examples |
 | -------------- | -------------- | -------- |
 | _catalogNumber_ | your institution unique ID for a specimen | G00547679 |
