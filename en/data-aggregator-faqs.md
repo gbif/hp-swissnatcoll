@@ -282,9 +282,9 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
       <col style="width: 30%;">   <!-- Examples -->
     </colgroup>
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px;">DAGI Attribute</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px;">Value required</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px;">Examples</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;">DAGI Attribute</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;">Value required</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;">Examples</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>catalogNumber</em></td>
