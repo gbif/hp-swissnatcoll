@@ -324,7 +324,7 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>associatedMedia</em></td>
       <td style="border: 1px solid black; padding: 5px;"><em>empty</em> OR the URL to a public deposit of your specimen image</td>
-      <td style="border: 1px solid black; width: 30%; padding: 5px;"><a href="https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg" target="_blank">https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg</a></td>
+      <td style="border: 1px solid black; width: 30%; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><a href="https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg" target="_blank">https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg</a></td>
     </tr>
   </table>
 </div>
