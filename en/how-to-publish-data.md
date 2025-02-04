@@ -71,7 +71,7 @@ A feature currently in development will also allow you to [send your swiss data 
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-<br>✅ My ready-for-import dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-aggregator-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My ready-for-import dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 > catalogNumber     scientificName     eventDate     recordedBy     ...<br>
 > XXX-123456789     Poa annua L.     2024-10-09     Weber Morgan     ...<br>
 > ...      ...     ...      ...     ...<br>
@@ -93,8 +93,8 @@ A feature currently in development will also allow you to [send your swiss data 
 ## Prepare my data
 
 1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
-   - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.
-2. Make sure the [attributes in DAGI which require special values](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
+   - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.<br>
+2. Make sure the [fields which require special values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName cells
@@ -166,15 +166,14 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding field.
-  - After signing in, you arrive on the Datasets page of your institution. Only the users registered with your institution can see this DAGI page.
-
+  - After signing in, you arrive on your institution page, which can be seen only the users registered in your institution.
 
 There are two different views on your institution page:
 
   - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
-  - **[Administration](#administration-view)**: ⚠️visible only to Collection Digitizers⚠️, displays all **users** already added to your institution.
+  - **[Administration](#administration-view)**: ⚠️visible only to _Collection Digitizers_ ⚠️, displays all **users** already added to your institution.
 
-Additionnally, there are two icons opening the pages on the SwissNatColl portal on which you can find help and guidance for the use of DAGI
+Additionnally, there are two icons opening the pages on the SwissNatColl portal with this guide and tutorial material to help you using DAGI.
 
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
@@ -185,40 +184,42 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 ❌ Only the <i>Collection Digitizer</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
 </div>
 
-1. Click on **Datasets** on the left side of the window.
+1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - If no dataset has been added yet, you can click on **+ New dataset** to add one
   - You can order the dataset list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a dataset is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
-2. If your Datasets page is empty, click either on the **+ Add a dataset** button in the center of the page or on **New dataset** on the top-right corner of the window (it does the same thing at this point).
-3. If your Datasets page already has datasets, click on the **New dataset** button in the top right corner.
+2. If your Datasets view is empty, click either on the **+ New datasest** button in the center of the page or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
+3. If your Datasets page already has datasets, click on the **🪟New dataset** button in the top right corner of the page.
 
 --- A pop-up window has opened. ---
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
 2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GRSciColl collection has already been added on DAGI, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Datasets page.
+    - If the GRSciColl collection has already been added on DAGI, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Datasets view.
 3. Add a description of the dataset. 💡optional💡
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
-    - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take [contact](mailto:contact-swissnatcoll@infofauna.ch) with us, so we can advise you correctly.
+    - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take contact with [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
+5. You newly added dataset is now visible in the Datasets view.
 
 ## Import my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Data Administrator</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable for users with only the <i>Collection Digitizer</i> role.
+❌ Only the <i>Data Administrator</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable to users with only the <i>Collection Digitizer</i> role.
 </div>
 
-1. Go to the **Datasets** view.
+1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
 2. Click on the dataset name in which you want to import your data.
-  - For each dataset in DAGI, you have 4 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Approvals_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
-  - The tab **Records** displays the imported records available in your dataset.
-  - The tab **Imports** displays all the files you have imported.
-  - The tab **Exports** displays all the files you have exported.
-  - The tab **Publications and Approvals** displays all the files you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
-3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **Import dataset** button in the top-right corner of the window (it does the same thing at this point).
-4. If your dataset already has records and you want to add new records or update the existing ones, click on the **Import dataset** button in the top-right corner.
+  - For each dataset in DAGI, you have 6 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Approvals_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
+  - The tab **Records** displays the imported **records** available in your dataset.
+  - The tab **Imports** displays all the **files** you have imported.
+  - The tab **Exports** displays all the **files** you have exported.
+  - The tab **Publications and Approvals** displays all the **files** you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
+  - The tab **Image Upload** displays all the **files** with images you have imported.
+  - The tab **Published Records** displays all the **records** that have been already published.
+3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
+4. If your dataset already has records and you want to add new records or update the existing ones, click on the **📤Import data** button in the top-right corner of the window.
 
 --- A three-steps pop-up window has opened. ---
 
@@ -230,9 +231,9 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 {: .box }
 The mappings window (Step 2 of 3) has three parts:
-<br>- *Quick Start*: if your field names are exactly the same as the DAGI's attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
-<br>- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-<br> - *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file.
+- *Quick Start*: if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button **🔄️Load existing mapping** can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
+- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
+- *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file. After selecting the required attributes, the button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them
 
 1. If your field names are 100% the same as the Data Aggregator's attribute, click on **✨Try auto-mapping**.
 2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
