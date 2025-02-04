@@ -274,7 +274,7 @@ Rest assured, you do not need to change your database/dataset dramatically. The 
 
 The DAGI's available attributes are based mainly on the Darwin Core terms but there are also supplementary attributes from the GBIF extensions, ABCD standard and GBIF-CH. The use of some of these attributes is also specific to our national installations.
 
-<div>
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed;">
     <colgroup>
       <col style="width: 30%;">   <!-- DAGI Attribute -->
