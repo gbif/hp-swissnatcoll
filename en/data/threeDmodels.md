@@ -13,26 +13,48 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
 <label for="model-selector"><strong>Specimens available:</strong></label>
 <select id="model-selector" onchange="updateModel()">
     <option value="">---Select a model---</option>
-    <!-- Options will be dynamically inserted here -->
-    <!-- Include the generated dropdown options -->
-    <script>
-        fetch('dropdown_options.html')
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById("model-selector").innerHTML += html;
-            })
-            .catch(error => console.error('Error loading dropdown options:', error));
-    </script>
+
+    <optgroup label="🪲 Coleoptera">
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_16_Cave_beetle.glb?v=1736014842">🪲 <em>Anthroherpon cylindricolle thoracicum</em></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_FK_17_Temnorhinus_strabus_20241115.glb?v=1736014250">🪲 <i>Temnorhinus strabus</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_CF_23_V2_Scarabaeus_sacera_20241223.glb?v=1736009564">🪲 <i>Scarabaeus sacer</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_14_Taurhina_longiceps_20241107.glb?v=1731354432">🪲 <i>Taurhina longiceps</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_CF_07_Agrilus_pianipennis_20240709.glb?v=1731351398">🪲 <i>Agrilus planipennis</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823.gltf?v=1697467520">🪲 <i>Carabus montivagus</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823.gltf?v=1697467519">🪲 <i>Cicindela andriana</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_11_Omophron_obliteratum_utense20241029.glb?v=1731353967">🪲 <i>Omophron obliteratum</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_10_Gnathocera_flavovirens_20241029.glb?v=1731354819">🪲 <i>Gnathocera flavovirens</i></option>
+    </optgroup>
+
+    <optgroup label="🦋 Lepidoptera">
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_FK_25_Macroglossum_stellatarum_20241115.glb?v=1736011723">🦋 <i>Macroglossum stellatarum</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_SB_18_Cupido_argiades.glb?v=1736011093">🦋 <i>Cupido argiades</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_22_Synanthedon_culiciformis_20241223.glb?v=1736009168">🦋 <i>Synanthedon culiciformis</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_AS_27_Tortricidae_Phaloniinae.glb?v=1736008455">🦋 <i>Agapeta zoegana</i></option>
+    </optgroup>
+
+    <optgroup label="🦟🪰 Diptera">
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_15_Scaptodrosophila_deflexa.glb?v=1736026991">🪰 <i>Scaptodrosophila deflexa</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_FK_21_Temnostoma_vespiforme.glb?v=1736013948">🪰 <i>Temnostoma vespiforme</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211.gltf?v=1704981158">🦟 <i>Aedes aegypti</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/Muse%CC%81e-dhistoire-post-naturelle_CF_CF_08_Anopheles_20241008.glb?v=1731355350">🦟 _Anopheles stephensi_</option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_12_Tephritis_mariannae_20241106.glb?v=1731354336">🪰 <i>Tephritis mariannae</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_CF_05_Hermetia_Larva_20240309.glb?v=1731352127">🪰 <i>Hermetia illucens, larva</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_CF_06_Hermetia_20241030.glb?v=1731353334">🪰 <i>Hermetia illucens, adult</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_13_Tipula_saginata_20241101.glb?v=1736878979">🦟 <i>Tipula saginata</i></option>
+    </optgroup>
+
+    <optgroup label="🐝 Hymenoptera">
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_CF_08_Chrysis_splendidula_20241224.glb?v=1736010409">🐝 <i>Chrysis splendidula</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823.gltf?v=1697467521">🐝 <i>Hylaeus nigritus</i></option>
+    </optgroup>
+
+    <optgroup label="🦗 Odonata & Orthoptera">
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_26_Coenagrion_hastulatum_20241223.glb?v=1736010013">🦗 <i>Coenagrion hastulatum</i></option>
+        <option value="https://biocommunication.org/filesystems/scans/AGORA_FK_FK_24_Epacromius_tergestinus_20241203.glb?v=1736013276">🦗 <i>Epacromius tergestinus</i></option>
+    </optgroup>
 </select>
 
-<script>
-    function updateModel() {
-        const selectedModel = document.getElementById("model-selector").value;
-        if (selectedModel) {
-            window.open(selectedModel, "_blank");
-        }
-    }
-</script>
 
 
 ## 3D Model Viewer
