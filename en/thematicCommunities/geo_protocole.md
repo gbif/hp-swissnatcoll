@@ -63,11 +63,11 @@ When importing coordinates, it is better practice to import one set of coordinat
     </tr>
     <tr>
       <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">CH1903+/LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da">CH1903/LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da">LV03</th>
       <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">CH1903+/LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">CH1903/LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">LV03</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
@@ -129,7 +129,7 @@ When importing coordinates, it is better practice to import one set of coordinat
       <td style="border: 1px solid black; padding: 5px; text-align: center; vertical-align: middle; ">3 locations️ ⚠️⚠️</td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br> coordinates X &ne; coordinates Y &ne; coordinates Z (these represent three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
+        <td style="border: 1px solid black; padding: 5px; text-align: left;" colspan="8">legend:<br>LV95 = CH1903+/LV95; LV03 = CH1903/LV03<br> coordinates X &ne; coordinates Y &ne; coordinates Z (these represent three different locations)<br> 🟰 = original value used for conversion, ✅ = converted from 🟰 value, ❌ = unconverted original value</td>
     </tr>
   </table>
 </div>
