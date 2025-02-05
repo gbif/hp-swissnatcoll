@@ -10,16 +10,30 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
 
 ## Choose a Specimen to View
 
-<label for="model-selector">**Specimens available:**</label>
+<label for="model-selector"><strong>Specimens available:</strong></label>
 <select id="model-selector" onchange="updateModel()">
     <option value="">---Select a model---</option>
-    <option value="https://biocommunication.org/filesystems/scans/Hylaeus-cgj-20230823">🐝 Hylaeus nigritus</option>
-    <option value="https://biocommunication.org/filesystems/scans/Mosquito-cgj-20240211">🦟 Anopheles gambiae</option>
-    <option value="https://biocommunication.org/filesystems/scans/Carabus-cgj-20230823">🪲 Carabus montivagus</option>
-    <option value="https://biocommunication.org/filesystems/scans/Cicindela-cgj-20230823">🪲 Cicindela andriana</option>
-    <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_15_Scaptodrosophila_deflexa.glb?v=1736026991">🪰 Scaptodrosophila deflexa</option>
-    <option value="https://biocommunication.org/filesystems/scans/AGORA_CF_SB_16_Cave_beetle.glb?v=1736014842">🦗Anthroherpon cylindricolle thoracicum</option>
+    <!-- Options will be dynamically inserted here -->
+    <!-- Include the generated dropdown options -->
+    <script>
+        fetch('dropdown_options.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("model-selector").innerHTML += html;
+            })
+            .catch(error => console.error('Error loading dropdown options:', error));
+    </script>
 </select>
+
+<script>
+    function updateModel() {
+        const selectedModel = document.getElementById("model-selector").value;
+        if (selectedModel) {
+            window.open(selectedModel, "_blank");
+        }
+    }
+</script>
+
 
 ## 3D Model Viewer
 
