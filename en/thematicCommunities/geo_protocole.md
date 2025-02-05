@@ -134,6 +134,8 @@ When importing coordinates, it is better practice to import one set of coordinat
   </table>
 </div>
 
+# Helpful files
 
+- [ISO3166-1_allCountries.xlsx](https://cscfetkarch.sharepoint.com/:x:/s/infofauna_extern/ESm__vPTnz5HncuIQz0eXxwBiuuwvF3dx2xpA7zjpEm6BQ?e=wkOtg4){:target="_blank"}
 
 # Examples with real specimens
