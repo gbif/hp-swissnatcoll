@@ -53,8 +53,8 @@ siteMeasurements:
 algae:
   rootLang: en
   # latestPostLimit: 2
-  logo: assets/images/logos/logoDataAggregator.png  # Logo in navbar, will be displayed with 28px height
-  logoAndTitle: true               # include the title next to the logo
+  logo:  # Logo in navbar, will be displayed with 28px height
+  logoAndTitle: false               # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:
     # square: false               # Should corners be square or rounded
