@@ -7,6 +7,7 @@ background: "{{ site.data.images.georeferencing‎.src }}"
 imageLicense: "{{ site.data.images.georeferencing‎.caption }}"
 height: 50vh
 toc: true
+sideNavigation: sideNavigation.georeferencing
 composition:
 - type: heroImage
 - type: pageMarkdown # This block will render the markdown in this file so no data property needed
@@ -14,13 +15,31 @@ composition:
 
 # Context
 
-Georeferencing is the enrichment of the geographical information of a collection specimen with coordinates and a margin of error. Nowadays, this can be done directly in the field with GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _Brazil_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as Darwin Core implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
+Georeferencing is the enrichment of the geographical information of a collection specimen with coordinates and a margin of error. Nowadays, this can be done directly in the field with GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as the Darwin Core terms implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
 
 In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to how things are done in an institution.
 - historical specimen in our collection
 - countries that don't exist anymore
 
-# Geographical encoding in DAGI
+# 1) Preliminary assessment
+
+## 1.1) Data Review
+
+## 1.2) Prioritization
+
+# 2) Standardized data entry
+
+## 2.1) Digitization
+
+## 2.2) Data cleaning
+
+# 3) Georeferencing approach
+
+## 3.1) Historical maps and reference material
+
+## 3.2) Coordinate assignment
+
+## 3.3) Geographical encoding
 
 Geographical encoding allows to standardise and enrich the geographical data associated to a specimen. In DAGI, the geographical encoding is composed of two parts. One is the **Geo Forward** (based on the imported information in the attributes _country_ and _continent_) and the other one is the **Geo Reverse** (based on the imported information in the coordinates attributes (_decimalLatitude_ and _decimalLongitude_, _swissCoordinates_lv95_x_ and _swissCoordinates_lv95_y_, _swissCoordinates_lv03_x_ and _swissCoordinates_lv03_y_).
 
@@ -134,8 +153,14 @@ When importing coordinates, it is better practice to import one set of coordinat
   </table>
 </div>
 
-# Helpful files
+# 4) Uncertainty estimation
+
+# 5) Validation and Quality control
+
+## 5.1) Cross checking
+
+# Documentation
+
+## Helpful files
 
 - [ISO3166-1_allCountries.xlsx](https://github.com/morelanneIF/swissnatcoll-sharingportal/blob/0547ca7fe525abfe947728e5156425701cbb5695/Location-files/ISO3166-1_allCountries.xlsx){:target="_blank"}
-
-# Examples with real specimens
