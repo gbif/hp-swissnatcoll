@@ -136,6 +136,6 @@ When importing coordinates, it is better practice to import one set of coordinat
 
 # Helpful files
 
-- [ISO3166-1_allCountries.xlsx](https://cscfetkarch.sharepoint.com/:x:/s/infofauna_extern/ESm__vPTnz5HncuIQz0eXxwBiuuwvF3dx2xpA7zjpEm6BQ?e=wkOtg4){:target="_blank"}
+- [ISO3166-1_allCountries.xlsx](https://github.com/morelanneIF/swissnatcoll-sharingportal/blob/0547ca7fe525abfe947728e5156425701cbb5695/Location-files/ISO3166-1_allCountries.xlsx){:target="_blank"}
 
 # Examples with real specimens
