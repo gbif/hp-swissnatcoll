@@ -65,7 +65,7 @@ graph TD;
     style G fill:#33cc33,stroke:#333,stroke-width:2px;
     
     %% Define the hyperlink
-    click G "/en/geo-protocole#3-georeferencing-approach" "Go to Georeferencing approach"
+    click G "/en/geo-protocole#3-georeferencing-approach"
 </div>
 </body>
 
