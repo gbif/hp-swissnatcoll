@@ -54,6 +54,9 @@ graph TD;
     E --> |yes| F[Do-able?];
     F --> |no| D;
     F --> |yes| G[Georeference with care];
+    C -->|⬇️ ️click here ⬇️| H[2. Standardized data entry];
+    G -->|⬇️ ️click here ⬇️| I[3. Georeferencing approach];
+    D -->|⬇️ ️click here ⬇️| J[X. to define];
 
     %% Apply Colors
     style A fill:#ffcc00,stroke:#333,stroke-width:2px;
@@ -63,12 +66,16 @@ graph TD;
     style E fill:#ff9900,stroke:#333,stroke-width:2px;
     style F fill:#66cc99,stroke:#333,stroke-width:2px;
     style G fill:#33cc33,stroke:#333,stroke-width:2px;
+    style H fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style I fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style J fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+
     
     %% Define the hyperlink
-    click G "/en/geo-protocole#3-georeferencing-approach"
+    click H "/en/geo-protocole#2-standardized-data-entry"
+    click I "/en/geo-protocole#3-georeferencing-approach"
 </div>
 </body>
-
 
 # 2) Standardized data entry
 
