@@ -17,11 +17,15 @@ composition:
 
 Georeferencing is the enrichment of the geographical information of a collection specimen with coordinates and a margin of error. Nowadays, this can be done directly in the field with GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as the Darwin Core terms implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
 
-In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to how things are done in an institution.
-- historical specimen in our collection
-- countries that don't exist anymore
+In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. For instance, countries that don't exist anymore are still being recorded in the attribute dwc:country.
+
+Specimens have to be treated differently based on their category. The first step is to do [preliminary assessments](/en/geo-protocole#1-preliminary-assessment) defining the categories concerned in a given collection and how they have to be treated.
 
 # 1) Preliminary assessment
+
+| Category | Definition | Specific treatment |
+| -------- | ---------- | ------------------ |
+
 
 ## 1.1) Data Review
 
@@ -163,4 +167,7 @@ When importing coordinates, it is better practice to import one set of coordinat
 
 ## Helpful files
 
-- [ISO3166-1_allCountries.xlsx](https://github.com/morelanneIF/swissnatcoll-sharingportal/blob/0547ca7fe525abfe947728e5156425701cbb5695/Location-files/ISO3166-1_allCountries.xlsx){:target="_blank"}
+- [ISO3166-1_allCountries.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FmorelanneIF%2Fswissnatcoll-sharingportal%2Frefs%2Fheads%2Fmain%2FLocation-files%2FISO3166-1_allCountries.xlsx&wdOrigin=BROWSELINK){:target="_blank"}
+
+## Source for this page
+- Tschudin P., Burckhardt D., Monnerat C., Sanchez A., Burri F., Jutzi M. & Gonseth Y. 2014. Recommandations pour la saisie  de données de spécimens en collections, Ver. 2.0. Neuchâtel : GBIF Swiss Node, 12 pp. (available upon request)
