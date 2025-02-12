@@ -25,6 +25,8 @@ Specimens have to be treated differently based on their category. The first step
 
 | Category | Definition | Specific treatment |
 | -------- | ---------- | ------------------ |
+| Typus specimen | Specimens that served as the basis of description and publication of a new combination | [Typus](/en/geo-typus){:target="_blank"} |
+|  |  |  |
 
 
 ## 1.1) Data Review
