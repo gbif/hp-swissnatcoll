@@ -63,10 +63,11 @@ graph TD;
     style E fill:#ff9900,stroke:#333,stroke-width:2px;
     style F fill:#66cc99,stroke:#333,stroke-width:2px;
     style G fill:#33cc33,stroke:#333,stroke-width:2px;
+    
+    %% Define the hyperlink
+    click G "/en/geo-protocole#3-georeferencing-approach" "Go to Georeferencing approach"
 </div>
-
 </body>
-</html>
 
 
 # 2) Standardized data entry
