@@ -33,6 +33,42 @@ Specimens have to be treated differently based on their category. The first step
 
 ## 1.2) Prioritization
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid Decision Graph</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+
+<div class="mermaid">
+graph TD;
+    A[Coordinates present?] -->|no| B[Georeferencing possible?];
+    A -->|yes| C[Transcribe/convert/document/enrich];
+    B --> |no| D[Don't georeference!];
+    B --> |yes| E[Pertinent?];
+    E --> |no| D;
+    E --> |yes| F[Do-able?];
+    F --> |no| D;
+    F --> |yes| G[Georeference with care];
+
+    %% Apply Colors
+    style A fill:#ffcc00,stroke:#333,stroke-width:2px;
+    style B fill:#ff6666,stroke:#333,stroke-width:2px;
+    style C fill:#66ccff,stroke:#333,stroke-width:2px;
+    style D fill:#ff3333,stroke:#000,stroke-width:2px,color:white;
+    style E fill:#ff9900,stroke:#333,stroke-width:2px;
+    style F fill:#66cc99,stroke:#333,stroke-width:2px;
+    style G fill:#33cc33,stroke:#333,stroke-width:2px;
+</div>
+
+</body>
+</html>
+
+
 # 2) Standardized data entry
 
 ## 2.1) Digitization
