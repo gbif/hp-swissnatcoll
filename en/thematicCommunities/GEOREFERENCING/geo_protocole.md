@@ -15,23 +15,15 @@ composition:
 
 # Context
 
-Georeferencing is the enrichment of the geographical information of a collection specimen with coordinates and a margin of error. Nowadays, this can be done directly in the field with GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as the Darwin Core terms implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
+Georeferencing is the enrichment of the geographical information of a collection specimen with modern coordinates and a margin of error. Nowadays, this can usually be done directly in the field with a GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as the Darwin Core terms implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
 
-In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. For instance, countries that don't exist anymore are still being recorded in the attribute dwc:country.
+In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. Countries that don't exist anymore are still being recorded in the attribute dwc:country, while the recommendation of this term is to use the ISO 3166-1-alpha-2 country standard.
 
-Specimens have to be treated differently based on their category. The first step is to do [preliminary assessments](/en/geo-protocole#1-preliminary-assessment) defining the categories concerned in a given collection and how they have to be treated.
+The Data Aggregator DAGI uses the OpenCage Geocoding API of OpenCage GmbH ([https://opencagedata.com/](https://opencagedata.com/){:target="_blank"}) to encode and enrich specific attributes of the institution's records. For the encoding to be successfull, the values of the source attributes must be following the definitions of the attributes, or else inconsistencies and "wrong" data might be inserted.
+
+This protocole aims to provide the best practices in using the DAGI for geographical encoding of natural history collection specimens.
 
 # 1) Preliminary assessment
-
-| Category | Definition | Specific treatment |
-| -------- | ---------- | ------------------ |
-| Typus specimen | Specimens that served as the basis of description and publication of a new combination | [Typus](/en/geo-typus){:target="_blank"} |
-|  |  |  |
-
-
-## 1.1) Data Review
-
-## 1.2) Prioritization
 
 <head>
     <meta charset="UTF-8">
@@ -46,6 +38,11 @@ Specimens have to be treated differently based on their category. The first step
 
 <div class="mermaid">
 graph TD;
+    Start[Specimen label Location data] --> |Step 1| Step1[Transcribe verbatim Location data];
+    Step1 --> |Step 2| Step2[Enrich standardized textual Location data];
+
+    %% Decision Graph in Step 3
+    Step2 --> |Step 3| A[Coordinates present?];
     A[Coordinates present?] -->|no| B[Georeferencing possible?];
     A -->|yes| C[Transcribe/convert/document/enrich];
     B --> |no| D[Don't georeference!];
@@ -53,12 +50,13 @@ graph TD;
     E --> |no| D;
     E --> |yes| F[Do-able?];
     F --> |no| D;
-    F --> |yes| G[Georeference with care];
+    F --> |yes| G[Georeference/document/enrich];
     C -->|⬇️ ️click here ⬇️| H[2. Standardized data entry];
     G -->|⬇️ ️click here ⬇️| I[3. Georeferencing approach];
     D -->|⬇️ ️click here ⬇️| J[X. to define];
 
     %% Apply Colors
+    style Start fill:#FFFFFF,stroke:#333,stroke-width:4px,font-weight:bold,font-size:50px;;
     style A fill:#ffcc00,stroke:#333,stroke-width:2px;
     style B fill:#ff6666,stroke:#333,stroke-width:2px;
     style C fill:#66ccff,stroke:#333,stroke-width:2px;
@@ -76,6 +74,8 @@ graph TD;
     click I "/en/geo-protocole#3-georeferencing-approach"
 </div>
 </body>
+
+## 1.2) Prioritization
 
 # 2) Standardized data entry
 
@@ -211,9 +211,16 @@ When importing coordinates, it is better practice to import one set of coordinat
 
 # Documentation
 
+## Reference protocols
+- Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853){:target="_blank"}. Available online : [https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf](https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf){:target="_blank"}
+
+- Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. [https://doi.org/10.35035/e09p-h128](https://doi.org/10.35035/e09p-h128){:target="_blank"}. Available online: [https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf){:target="_blank"}
+
 ## Helpful files
 
 - [ISO3166-1_allCountries.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FmorelanneIF%2Fswissnatcoll-sharingportal%2Frefs%2Fheads%2Fmain%2FLocation-files%2FISO3166-1_allCountries.xlsx&wdOrigin=BROWSELINK){:target="_blank"}
 
 ## Source for this page
 - Tschudin P., Burckhardt D., Monnerat C., Sanchez A., Burri F., Jutzi M. & Gonseth Y. 2014. Recommandations pour la saisie  de données de spécimens en collections, Ver. 2.0. Neuchâtel : GBIF Swiss Node, 12 pp. (available upon request)
+
+Authors: Collaboration between the CJBG, Naturéum, Info fauna and GBIF.ch
