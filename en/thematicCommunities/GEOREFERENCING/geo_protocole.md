@@ -38,8 +38,8 @@ This protocole aims to provide the best practices in using the DAGI for geograph
 
 <div class="mermaid">
 graph TD;
-    Start[Specimen label Location data] --> |Step 1| Step1[Transcribe verbatim Location data];
-    Step1 --> |Step 2| Step2[Enrich standardized textual Location data];
+    Start[Specimen label Location data] --> |Step 1| Step1[1.1. Transcribe verbatim Location data];
+    Step1 --> |Step 2| Step2[2.1. Enrich standardized textual Location data];
 
     %% Decision Graph in Step 3
     Step2 --> |Step 3| A[Coordinates present?];
@@ -51,8 +51,8 @@ graph TD;
     E --> |yes| F[Do-able?];
     F --> |no| D;
     F --> |yes| G[Georeference/document/enrich];
-    C -->|⬇️ ️click here ⬇️| H[2. Standardized data entry];
-    G -->|⬇️ ️click here ⬇️| I[3. Georeferencing approach];
+    C -->|⬇️ ️click here ⬇️| H[1.2. Transcribe verbatim coordinates data];
+    G -->|⬇️ ️click here ⬇️| I[2.2. Enrich standardised coordinates data];
     D -->|⬇️ ️click here ⬇️| J[X. to define];
 
     %% Apply Colors
@@ -67,21 +67,27 @@ graph TD;
     style H fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
     style I fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
     style J fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Step1 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Step2 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
 
     
     %% Define the hyperlink
-    click H "/en/geo-protocole#2-standardized-data-entry"
-    click I "/en/geo-protocole#3-georeferencing-approach"
+    click H "/en/geo-protocole#1-2--transcribe-verbatim-coordinates-data"
+    click I "/en/geo-protocole#2-2--enrich-standardised-coordinates-data"
+    click Step1 "en/geo-protocole#1-1--step-1--transcribe-verbatim-location-data"
+    click Step2 "en/geo-protocole#2-1--enrich-standardised-textual-location-data"
 </div>
 </body>
 
-## 1.2) Prioritization
+## 1.1) Step 1: Transcribe verbatim Location data
+
+## 1.2) Transcribe verbatim coordinates data
 
 # 2) Standardized data entry
 
-## 2.1) Digitization
+## 2.1) Enrich standardised textual Location data
 
-## 2.2) Data cleaning
+## 2.2) Enrich standardised coordinates data
 
 # 3) Georeferencing approach
 
