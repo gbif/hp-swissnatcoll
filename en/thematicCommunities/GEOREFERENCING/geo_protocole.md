@@ -74,8 +74,8 @@ graph TD;
     %% Define the hyperlink
     click H "/en/geo-protocole#12-transcribe-verbatim-coordinates-data"
     click I "/en/geo-protocole#22-enrich-standardised-coordinates-data"
-    click Step1 "en/geo-protocole#11-step-1-transcribe-verbatim-location-data"
-    click Step2 "en/geo-protocole#21-enrich-standardised-textual-location-data"
+    click Step1 "/en/geo-protocole#11-step-1-transcribe-verbatim-location-data"
+    click Step2 "/en/geo-protocole#21-enrich-standardised-textual-location-data"
 </div>
 </body>
 
