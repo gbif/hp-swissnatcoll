@@ -83,32 +83,32 @@ graph TD;
 
 **Transcribe** the content of the specimen label concerning the location in the field [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}.
 
-> [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}
+> - [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}
 
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
-> [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
+> - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
 ## 1.2) Transcribe verbatim coordinates data
 
 **Transcribe** the coordinates present on the specimen label in the field [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"} and associated fields.
 
-> [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"}
-> [verbatimLatitude](https://dwc.tdwg.org/terms/#dwc:verbatimLatitude){:target="_blank"}
-> [verbatimLongitude](https://dwc.tdwg.org/terms/#dwc:verbatimLongitude){:target="_blank"}
-> [verbatimCoordinateSystem](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinateSystem){:target="_blank"}
-> [verbatimSRS](https://dwc.tdwg.org/terms/#dwc:verbatimSRS){:target="_blank"}
+> - [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"}
+> - [verbatimLatitude](https://dwc.tdwg.org/terms/#dwc:verbatimLatitude){:target="_blank"}
+> - [verbatimLongitude](https://dwc.tdwg.org/terms/#dwc:verbatimLongitude){:target="_blank"}
+> - [verbatimCoordinateSystem](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinateSystem){:target="_blank"}
+> - [verbatimSRS](https://dwc.tdwg.org/terms/#dwc:verbatimSRS){:target="_blank"}
 
 **Convert** the verbatim coordinates into their corresponding modern coordinate system in the coordinate fields
 
-> [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target="_blank"}
-> [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target="_blank"}
-> [coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters){:target="_blank"}
-> [geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum){:target="_blank"}
+> - [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target="_blank"}
+> - [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target="_blank"}
+> - [coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters){:target="_blank"}
+> - [geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum){:target="_blank"}
 
 **Document** information about the method used or difficulty encountered in the field [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}.
 
-> [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
+> - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
 # 2) Standardized data entry
 
@@ -116,17 +116,17 @@ graph TD;
 
 **Enrich** the corresponding information based on the verbatimLocality in a standardised and controlled way.
 
-> [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
-> [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target="_blank"}
-> [county](https://dwc.tdwg.org/terms/#dwc:county){:target="_blank"}
-> [municipality](https://dwc.tdwg.org/terms/#dwc:municipality){:target="_blank"}
-> [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"}
-> [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
-> [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
+> - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
+> - [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target="_blank"}
+> - [county](https://dwc.tdwg.org/terms/#dwc:county){:target="_blank"}
+> - [municipality](https://dwc.tdwg.org/terms/#dwc:municipality){:target="_blank"}
+> - [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"}
+> - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
+> - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
 
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
-> [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
+> - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
 ## 2.2) Enrich standardised coordinates data
 
