@@ -10,8 +10,17 @@ features:
     **21.06.2024 - 30.03.2025**<br>
     The exhibition puts in perspective the values of the scientific collections and their 3 main missions: remember, study and transmit.<br>
     **Naturéum** [Palais de Rumine](https://maps.app.goo.gl/Ry3mM9bkkLxjPYsG9){:target="_blank"} & [Jardin botanique cantonal](https://maps.app.goo.gl/qV9zeZnUDeHoPxYVA){:target="_blank"}
-  background: "https://zoologie.vd.ch/fileadmin/_processed_/3/b/csm_240516-SPECIMENS-banner-1200x557_8c03bded50.png"
+  background: "https://stadt.winterthur.ch/naturmuseum/ausstellungen/aktuelle-ausstellung/@@images/23d58601-c72d-4f8f-9503-ea8613571626.jpeg"
   href: https://zoologie.vd.ch/expositions/specimens-24/
+
+- title: "Mauswiesel und Hermelin - Kleine Tiere, grosse Jäger"
+  categories: ["Nature"]
+  description: |
+    **24.11.2024 - 04.05.2025**<br>
+    This exhibition is dedicated to two fascinating small carnivores that are native to Switzerland but are rarely seen.<br>
+    **Naturmuseum Winterthur** [Museumstrasse](https://maps.app.goo.gl/e8VawGbsugRmHWKY7){:target="_blank"}   
+  background: "https://www.nmbe.ch/sites/default/files/styles/default_landscape__sizes_1600/public/2023-10/nmbe_insektensterben_bg_0.jpg?h=77ec47b7&itok=J-FBnY7W"
+  href: https://stadt.winterthur.ch/naturmuseum/ausstellungen#:~:text=Das%20Naturmuseum%20Winterthur%20er%C3%B6ffnet%20am,sind%2C%20aber%20selten%20gesehen%20werden
 
 - title: "Insect Decline — It’s Going to be All Right"
   categories: ["Nature"]
@@ -22,6 +31,15 @@ features:
   background: "https://www.nmbe.ch/sites/default/files/styles/default_landscape__sizes_1600/public/2023-10/nmbe_insektensterben_bg_0.jpg?h=77ec47b7&itok=J-FBnY7W"
   href: https://www.nmbe.ch/en/node/1364
 
+- title: "Dialogues insolites entre le Muséum d'histoire naturelle de Genève et le Conservatoire botanique de Genève"
+  categories: ["Collections"]
+  description: |
+    **21.03.2024 - 29.06.2025**<br>
+    Discover the historical links between the two institutions in the library's exhibition area. You will see remarkable objects that trace the biotic interactions between plants and animals.<br>
+    **Conservatoire et Jardin botaniques de Genève** [Chemin de l’Impératrice](https://maps.app.goo.gl/rzZDUGcZ9ksDwmUa8){:target="_blank"}   
+  background: "https://www.cjbg.ch/sites/default/files/styles/vdg_teaser/public/2024-03/1920x1080%20DIACJBG.jpg.webp"
+  href: https://www.cjbg.ch/voir/exposition
+
 - title: "tick tack - der Countdown des Lebens"
   categories: ["Nature"]
   description: |
@@ -30,4 +48,13 @@ features:
     **Naturmuseum Olten** [Haus der Museen](https://maps.app.goo.gl/X9sUovTLdPuS9AVJ9){:target="_blank"}   
   background: "https://hausdermuseen.ch/images/nmo/home/teaser/sonderausstellung_2024.gif"
   href: https://hausdermuseen.ch/sonderausstellung
+
+  - title: "La mano del clima e la mano dell’uomo"
+  categories: ["Nature"]
+  description: |
+    **01.03.2025 - 21.02.2026**<br>
+    The exhibition traces in chronological order the climate changes of the last 200 thousand years through the fossils of the large mammals that lived in the Canton of Ticino and Lombardy<br>
+    **Museo cantonale di storia naturale** [Lugano](https://maps.app.goo.gl/CWFhZZ5pRP8LkS4w9){:target="_blank"}   
+  background: "https://www4.ti.ch/fileadmin/_processed_/e/c/csm_Expo_ClimaUomo2025-2026_Mammuthus-primigenius_c857b53b80.jpg"
+  href: https://www4.ti.ch/dt/da/mcsn/temi/mcsn/mostre/mostre-temporanee/la-mano-del-clima-e-la-mano-delluomo
 
