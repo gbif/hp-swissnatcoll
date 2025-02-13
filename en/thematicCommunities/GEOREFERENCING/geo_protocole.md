@@ -38,7 +38,7 @@ This protocole aims to provide the best practices in using the DAGI for geograph
 
 <div class="mermaid">
 graph TD;
-    Start[Specimen label Location data] --> |Step 1| Step1[1.1. Transcribe verbatim Location data];
+    Start((📜📍 Specimen label Location data)) --> |Step 1| Step1[1.1. Transcribe verbatim Location data];
     Step1 --> |Step 2| Step2[2.1. Enrich standardized textual Location data];
 
     %% Decision Graph in Step 3
