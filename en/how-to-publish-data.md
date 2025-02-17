@@ -201,8 +201,13 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
     - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take contact with [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
-5. The pop-up window closes itself and places you now on the page of the dataset you just added.
-6. You newly added dataset is now visible in the Datasets view.
+5. The pop-up window closes itself and you are now on the page of the dataset you just added.
+
+<div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of this step:</strong></p>
+  <p>✅ A new dataset in the <strong>Datasets view</strong> of your institution</p>
+</div>
+
 
 ## Import my data
 
@@ -308,6 +313,11 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - Your data content is separated by commas.
   - ⚠️ some special symbols (e.g. ä, ü, á, ...) may not be supported by the export and can be replaced by other symbols. We advise to remove all special symbols from your data before import, or you may need to clean your exported files.
 
+<div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
+  <p>✅ A <strong>ZIP file containing a csv file</strong> with all your exported records on your computer.</p>
+</div>
+
 
 ## Upload images
 
@@ -341,6 +351,11 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 Now, in the Records tab of your Collection, the records with an image have a green camera icon, and you can see the image when opening the side-panel of a record (only the first image is displayed if multiple images have been mapped to the same record). The link to the DAGI Media Store has been added in the attribute *[associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}*. When publishing your data, the image will also be displayed on the GBIF occurrence page of your specimen.
 
+<div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
+  <p>✅ A green camera icon on the left side of your records in the <strong>Records tab</strong>of your dataset</p>
+  <p>✅ An image displayed in the <strong>top half of the side-pane</strong> of a selected record</p>
+</div>
 
 
 ## Publish my data
@@ -379,6 +394,11 @@ We thank you for your patience and understanding.
 5. By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes/for all the occurrences to appear.
    - ⚠️Do not delete a dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
+<div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
+  <p>✅ A <strong>purple hyperlink "Show on GBIF ↗️"</strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF</strong></p>
+</div>
+
 ## Approve my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
@@ -392,6 +412,7 @@ We thank you for your patience and understanding.
   - A progression bar appears during the approval process and disappears when launched.
   - This process might take some time, but we currently can't say how long.
 3. Check the Approval status of your records on your Collection page.
+
 
 
 <br>
