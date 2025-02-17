@@ -257,14 +257,16 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
-  <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Importing step:</strong></p>
   <p>✅ Your imported records shown in the <strong>Records</strong> tab of your dataset page.</p>
 </div>
 
 ## Encode my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ **Encoding is not mandatory, though highly recommended** to benefit from the enrichment offered by DAGI. Despite not needed for publication or approval, supplementary mandatory attributes must be imported, because GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center. Here are the supplementary mandatory attributes: <i>kingdom</i> and <i>country</i> (if coordinates are provided with the record).
+<p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong> to benefit from the enrichment offered by DAGI.</p>
+<p>Despite not needed for publication or approval, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
+<p>Here are the supplementary mandatory attributes: <i>kingdom</i> and <i>country</i> (if coordinates are provided with the record).</p>
 </div>
 
 1. If you want to encode only a certain set of your data, use the **available filters**.
@@ -281,6 +283,12 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
   - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when clicking on the yellow **⚠️Incomplete** icon. It opens the side-pane in the **Encodings tab**.
 
+<div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
+  <p>✅ A <strong>percentage of <i>Not encoded / Incomplete</i> records lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
+  <p style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ If some of your records do not have the necessary information for the APIs queries, then the Encoding status will remain <i>Incomplete</i>. <strong>This does not prevent you from publishing or sending your records for validation</strong>.</p>
+</div>
 
 ## Export my data
 
