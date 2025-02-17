@@ -186,22 +186,23 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - You can order the dataset list by clicking on the **columns title** (e.g. _Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_). By clicking twice or more, you can order it in an ascending or descending order.
-  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a dataset is on "🕒Ready", no action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
-2. If your Datasets view is empty, click either on the **+ New datasest** button in the center of the page or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
+  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_, see the [Datasets view](#datasets-view){:target="_blank"} hparagraph for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
+  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the page or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
 3. If your Datasets page already has datasets, click on the **🪟New dataset** button in the top right corner of the page.
 
---- A pop-up window has opened. ---
+--- A pop-up window _New Dataset_ has opened. ---
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
     - Available types: Zoology, Botany, Geology, Paleontology
 2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
-    - If the GRSciColl collection has already been added on DAGI, it is not present anymore on the drop-down list of this pop-up window. You can find it on the Datasets view.
+    - If the GRSciColl collection has already been added on DAGI, it is not present anymore in the drop-down list of this pop-up window. You can find it on the Datasets view.
 3. Add a description of the dataset. 💡optional💡
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
     - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take contact with [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
-5. You newly added dataset is now visible in the Datasets view.
+5. The pop-up window closes itself and places you now on the page of the dataset you just added.
+6. You newly added dataset is now visible in the Datasets view.
 
 ## Import my data
 
@@ -215,13 +216,13 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
   - The tab **Records** displays the imported **records** available in your dataset.
   - The tab **Imports** displays all the **files** you have imported.
   - The tab **Exports** displays all the **files** you have exported.
-  - The tab **Publications and Approvals** displays all the **files** you have published on GBIF.org and/or sent for approval to the InfoSpecies data centers.
+  - The tab **Publications and Approvals** displays all the **files** you have published on GBIF.org or sent for approval to the InfoSpecies data centers.
   - The tab **Image Upload** displays all the **files** with images you have imported.
   - The tab **Published Records** displays all the **records** that have been already published.
 3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
 4. If your dataset already has records and you want to add new records or update the existing ones, click on the **📤Import data** button in the top-right corner of the window.
 
---- A three-steps pop-up window has opened. ---
+--- A three-steps pop-up window _Import records_ has opened. ---
 
 1. (Step 1️⃣ of 3️⃣) Click on **Choose a file** to select your prepared .csv/.txt file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
