@@ -232,46 +232,52 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 - *Quick Start*: if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button **🔄️Load existing mapping** can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
-- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. At the moment, only two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-- *Additional columns*: the other attributes present in your dataset. The number depends on the number of columns in your imported file. After selecting the required attributes, the button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them.
+- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. Two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
+- *Additional columns*: the other columns present in your import file. The button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them. You can also click directly on the **grey area with the column name** to add them one by one on top of the list of already mapped columns.
 
-1. If your field names are 100% the same as the Data Aggregator's attribute, click on **✨Try auto-mapping**.
+1. If your field names are 100% the same as the DAGI's attribute, click on **✨Try auto-mapping**.
 2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
 3. If it is your first mapping and your field names are different than the DAGI attributes, select first the Required attributes by clicking on the drop-down menu **Select a column** of both attributes. You can then select the corresponding field in your imported file.
   - By typing the beginning of your field names in the search bar, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description).
-5. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the DAGI attributes.
+  - If unsure of the correspondence between the attributes and your field names, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
+4. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the DAGI attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
-6. Repeat these steps until all of the fields you want to import are mapped.
+5. Repeat these steps until all of the fields you want to import are mapped.
   - If you can't find a DAGI attribute corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Approval/Validation process)
 <br>
-7. When satisfied with your mapping, click on **Update mapping**.
+6. When satisfied with your mapping, click on **Update mapping**.
 <br>
-8. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
-9. When satisfied, click on **Run import**.
-  - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times.
+7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
+  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keept track of the correspondance between your database field names and the Darwin Core attributes of DAGI.
+8. When satisfied, click on **Run import**.
+  - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
-10. Click on **Records** to see your imported records.
+9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ A certain amount of imported records shown in the <strong>Records</strong> tab of your dataset page. If it was your first import in this dataset, then the <strong>Not encoded</strong> percentage is 100%.</p>
+  <p>✅ Your imported records shown in the <strong>Records</strong> tab of your dataset page.</p>
 </div>
 
 ## Encode my data
 
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+ℹ️ **Encoding is not mandatory, though highly recommended** to benefit from the enrichment offered by DAGI. Despite not needed for publication or approval, supplementary mandatory attributes must be imported, because GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center. Here are the supplementary mandatory attributes: <i>kingdom</i> and <i>country</i> (if coordinates are provided with the record).
+</div>
+
 1. If you want to encode only a certain set of your data, use the **available filters**.
-  - **Quick-filters**: Below the grey tab band with Records - Imports - Exports - Publication and Approvals, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-approved records (**Not approved**). By selecting one, you can set a first level of filters.
-  - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : 
-3. Click on **Encode**.
-  - A window opens with a short summary of what the encoding does. Briefly said, it uses some fields as query values to available dictionaries of data (like GBIF API) to encode the provided values and enrich attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc.
+  - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-approved records (**Not approved**). By selecting one, you can set a first level of filters.
+  - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : cataloNumber, scientificName and occurrenceID.
+  - **🎚️Filters**: Next to the search bar, there is this button which opens a pop-up window with available filters for your dataset. Currently, you can filter only the IUCN Red List categories, the MIDS levels, the Taxonomy of the ranks species, kingdom and phylum and the Location at the level of the continents. An improvement of the filters is planned soon.
+2. Click on **Encode**.
+  - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some fields as query values sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [the section on the encoding in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for more details about what it does)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
 3. Click on **Encode**.
   - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
   - During the encoding, no other action can be started.
-4. Check the percentage of encoded data on your Collection page (see the second box called **Not encoded / Incomplete**).
+4. Check the percentage of encoded data on your Dataset page (see the second box called **Not encoded / Incomplete**) in the Quick-filters.
   - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
   - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when clicking on the yellow **⚠️Incomplete** icon. It opens the side-pane in the **Encodings tab**.
 
