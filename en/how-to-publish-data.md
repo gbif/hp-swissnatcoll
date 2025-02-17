@@ -28,9 +28,9 @@ toc: true
 ℹ️ A new version has been recently released on DAGI 🎉 This page is in the work to be updated to the new features of this update. We hope you understand if something has not yet been corrected.
 </div>
 
-**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"}** (⚠️-currently on the Testing platform of GBIF-⚠️) **and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with it (see [Prepare my data](#prepare-my-data) here below).
+**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"}** (⚠️-currently on the Testing platform of GBIF-⚠️) **and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
 
-After this important step, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org will be effective-⚠️).
+After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org will be effective-⚠️).
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
@@ -53,7 +53,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-<br>✅ My collection is **registered on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
+<br>✅ My collection is **registered in my institution on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
 > Example: [Herbarium – De Candolle's Prodromus](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
@@ -82,7 +82,7 @@ A feature currently in development will also allow you to [send your swiss data 
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<strong>👌 You can do as many data imports as you want</strong>. The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remains unchanged, each new import will update the corresponding existing data</strong>.
+<strong>👌 You can do as many data imports as you want</strong>.<br> The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remains unchanged, each new import will update the corresponding existing data</strong>.
 </div>
 
 <br>
@@ -92,13 +92,13 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Prepare my data
 
-1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting.
-   - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management.<br>
+1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting to be made publicly available.
+   - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management. <br>
 2. Make sure the [fields which require special values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
    - catalogNumber duplicates
-   - empty scientificName cells
-   - duplicated headers (field names)
+   - empty scientificName or catalogNumber cells
+   - duplicated headers (field names) or un-titled columns
    - an unwanted space after a header
 
 
@@ -165,17 +165,17 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
-2. Insert your login details in the corresponding field.
-  - After signing in, you arrive on your institution page, which can be seen only the users registered in your institution.
+2. Insert your login details in the corresponding fields.
+  - After signing in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
 
 There are two different views on your institution page:
 
   - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
   - **[Administration](#administration-view)**: ⚠️visible only to _Collection Digitizers_ ⚠️, displays all **users** already added to your institution.
 
-Additionnally, there are two icons opening the pages on the SwissNatColl portal with this guide and tutorial material to help you using DAGI.
+Additionnally, there are two icons opening the pages on the SwissNatColl portal with support material to help you using DAGI.
 
-  - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal
+  - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal (this page)
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
 ## Add a new dataset
