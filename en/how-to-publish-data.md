@@ -100,6 +100,8 @@ A feature currently in development will also allow you to [send your swiss data 
    - empty scientificName or catalogNumber cells
    - duplicated headers (field names) or un-titled columns
    - an unwanted space after a header
+  
+⚠️ There are fields that you don't need to have in your import file because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are fixed by GRSciColl and GBIF.
 
 
 Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on preparing your data for import into DAGI.
