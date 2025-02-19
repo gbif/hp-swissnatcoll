@@ -297,6 +297,11 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
       <td style="border: 1px solid black; padding: 5px;">NISM-BRYO-537533</td>
     </tr>
     <tr>
+      <td style="border: 1px solid black; padding: 5px;"><em>organismID</em></td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em></td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH000014</em></td>
+    </tr>
+    <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>gbifCHID ⚠️available soon</em></td>
       <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em></td>
       <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH000014</em></td>
