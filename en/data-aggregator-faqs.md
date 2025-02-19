@@ -293,7 +293,7 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>occurrenceID</em></td>
-      <td style="border: 1px solid black; padding: 5px;">Info Species data center unique ID for a specimen</td>
+      <td style="border: 1px solid black; padding: 5px;">Info Species data center unique ID for a specimen already published on GBIF before 2025</td>
       <td style="border: 1px solid black; padding: 5px;">NISM-BRYO-537533</td>
     </tr>
     <tr>
