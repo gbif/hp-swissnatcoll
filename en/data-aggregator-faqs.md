@@ -339,7 +339,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 | MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
-| 0 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | ... | BERN<br> G<br> MHNN |
+| 0 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'}<br> _not needed for import in DAGI_ | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | ... | BERN<br> G<br> MHNN |
 
 | MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
@@ -350,8 +350,8 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 | MIDS | DAGI Attribute | Definition | Corresponding terms found in datasets | Examples |
 | ---- | --------------- | ---------- | ------------------------------------- | -------- |
 | 2 | _yearCollectionEntrance_ | The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event). | ... | ... |
-| 2 | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target='_blank'} | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | ... | ... |
-| 2 | [collectionID](https://dwc.tdwg.org/terms/#dwc:collectionID){:target='_blank'} | An identifier for the collection or dataset from which the record was derived. | ...    | ... |
+| 2 | [collectionCode](https://dwc.tdwg.org/terms/#dwc:collectionCode){:target='_blank'}<br> _not needed for import in DAGI_ | The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived. | ... | ... |
+| 2 | [collectionID](https://dwc.tdwg.org/terms/#dwc:collectionID){:target='_blank'}<br> _not needed for import in DAGI_ | An identifier for the collection or dataset from which the record was derived. | ...    | ... |
 | 2 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | date of collect<br> collection date<br> date de récolte<br> Funddatum<br> date<br> Datum | August 1903<br> 01.04.85<br> 15 VII 1867 |
 | 2 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. | leg.<br> collecteur<br> Sammler<br> collector  | ... |
 | 2 | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target='_blank'} | A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject. | type | ... |
