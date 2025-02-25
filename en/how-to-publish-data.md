@@ -271,9 +271,9 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 ## Encode my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong> to benefit from the enrichment offered by DAGI.</p>
+<p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong>, so that you can benefit from the enrichment offered by DAGI.</p>
 <p>Despite not needed for publication or approval, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
-<p>Here are the supplementary mandatory attributes: <i>kingdom</i> and <i>country</i> (if coordinates are provided with the record).</p>
+<p>The supplementary mandatory attributes are <i>kingdom</i> and <i>country</i>.</p>
 </div>
 
 1. If you want to encode only a certain set of your data, use the **available filters**.
@@ -457,6 +457,8 @@ The page of a dataset has 5 available tabs.
 - The **Publications and Approvals tab** :<br> View on all published or sent for approval **files** of the dataset with a selection of important metadata (*State of the publication/approval*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for approval files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
 - The **Image Upload tab**:<br> View on all uploaded zip **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also details such as the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table). The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
+
+
 
 ## Administration view
 
