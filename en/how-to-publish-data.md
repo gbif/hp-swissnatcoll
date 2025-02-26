@@ -238,9 +238,23 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 ### Map my data
 
 The mappings window (Step 2️⃣ of 3️⃣) has three parts:
-- *Quick Start*: if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by **✨Try auto-mapping**. The second button **🔄️Load existing mapping** can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).
-- *Required attributes*: mandatory attributes that have to be mapped in order to go to the next step. Two attributes are mandatory in DAGI ([scientificName](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"} and [catalogNumber](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"}).
-- *Additional columns*: the other columns present in your import file. The button **➕Add all** is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them. You can also click directly on the **grey area with the column name** to add them one by one on top of the list of already mapped columns.
+<div>
+  <table style="border-collapse: collapse; border: 1px white">
+      <tr>
+          <td style="text-align: left; vertical-align: top"><i>Quick Start</i></td>
+          <td>if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by <strong>✨Try auto-mapping</strong>. The second button <strong>🔄️Load existing mapping</strong> can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left; vertical-align: top"><i>Required attributes</i></td>
+          <td>mandatory attributes that have to be mapped in order to go to the next step. Two attributes are mandatory in DAGI <a href="https://dwc.tdwg.org/terms/#dwc:scientificName">scientificName</a> and <a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber">catalogNumber</a>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left; vertical-align: top"><i>Additional columns</i></td>
+          <td>the other columns present in your import file. The button <strong>➕Add all</strong> is available for clicking. It adds all of your columns at once. Then you can select the corresponding DAGI attribute for each of them. You can also click directly on the <strong>grey area with the column name</strong> to add them one by one on top of the list of already mapped columns.</td>
+      </tr>
+  </table>
+</div>
+
 
 1. If your field names are 100% the same as the DAGI's attribute, click on **✨Try auto-mapping**.
 2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
