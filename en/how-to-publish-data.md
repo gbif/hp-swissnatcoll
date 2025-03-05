@@ -385,43 +385,44 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 </div>
 -->
 
-### Checklist -to do before publishing your data
-
-<br>✅ The **authors of my dataset** are correct.
-
-> Either individual names or the name of the institution can be used as authors. To verify your authors, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then click on **Contacts**. The contacts that will appear as authors are the ones whose **Position** details are *DAGI - Technical support*, *creator* and *metadataProvider*. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
-
-⚠️ These details have to be provided **in all of the datasets you want to publish**, or else the citation won't be built properly.
-
-<br>✅ The **description of my dataset** is correct
-
-> The description of your dataset is in a box on top of the dataset page, just below the title. To verify the description, go to the **page of your collection** on the [GBIF Registry](https://registry.gbif.org/collection/search?country=CH){:target="_blank"}, then go to the **Notes** section in the Collection details. The text written there will appear as such on your dataset page. If you can't do the changes yourself, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
-
-⚠️ These details have to be provided **in all of the datasets you want to publish**, or else the description won't be accurate.
-
-<br>
-
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on the Testing platform of GBIF</strong>, where you can have a preview of how your dataset page will look like on GBIF.org<br>
 We thank you for your patience and understanding.
 </div>
 
-- By filtering your records in a Collection, you can select a certain set of records to be published.
+1. Choose if you want to publish your data from the Import layer (select **📤Import Layer** in the filters) or from the Encoded layer (select **📤Encoded Layer** in the filters)
+2. Click on **🌐Publish**.
 
-1. Click on **🌐Publish**.
-   - A window opens with a short summary of what the publication entitles.
-   - Note that the data published comes from the Encoded layer of the Data Aggregator. Encoding your data is mandatory to publish it on GBIF.
-2. Tick the check box to agree with our [terms and conditions](/en/terms/){:target="_blank"} and accept full responsibility for the publication.
-   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.
-3. Click on **Publish**
-   - A progression bar appears during the publishing process and disappears when launched.
-4. Check the Publication status of your records on your Collection page.
-5. By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes/for all the occurrences to appear.
-   - ⚠️Do not delete a dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
+--- A three-steps pop-up window _Publication of Records_ has opened. ---
+
+1. (Step 1️⃣ of 3️⃣) Publication of Records
+- The text informs you of the number of records you are about to publish and if you need to create a new dataset.
+   - For the first publication of your DAGI dataset, the option to **Create new dataset** is automatically set.
+   - For the following publications of your DAGI dataset, the hyperlink to the existing dataset is provided.<br>
+2. Click on **Next**.
+3. (Step 2️⃣ of 3️⃣) Target Dataset
+- The text informs you on the metadata information of your GBIF dataset.
+   - The first part _Dataset_ is about the title of your dataset, the Publisher and the Authors.
+   - The second part _Institution_ is about your institution name, code and address, as well as the official contacts registered on GRSciColl.
+   - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br>
+4. Click on **Next**.
+5. (Step 3️⃣ of 3️⃣) Publication summary
+- The last step is a summary window on which you can check the settings of Step 1️⃣, as well as the application of the publication rules.
+   - The publication rules are applied to specimens collected in Switzerland and of taxa treated by the data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
+   - The publication on GBIF is irreversible from DAGI.<br>
+6. Tick the box to confirm that you accept the [terms of use](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and full responsibility for the publication.
+   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br>
+7. Click on **Publish**.
+- A progression bar appears during the publishing process and disappears when launched.
+- The Publication status of your records have changed to 🌐In Publication.<br>
+
+- By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes for all the occurrences to appear.
+   - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
-  <p>✅ A <strong>purple hyperlink "Show on GBIF ↗️"</strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF</strong></p>
+  <p>✅ A <strong>purple hyperlink "Show on GBIF ↗️"</strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
+  <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
 ## Approve my data
