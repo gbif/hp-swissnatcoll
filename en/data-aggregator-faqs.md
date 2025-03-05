@@ -1,7 +1,7 @@
 ---
 layout: documentation
 permalink: /en/data-aggregator-faqs
-title: DAGI
+title: DAGI FAQs
 toc: true
 sideNavigation: sideNavigation.tutorials
 ---
