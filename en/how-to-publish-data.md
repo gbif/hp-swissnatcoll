@@ -352,7 +352,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 2. Click on **Image Upload** in the grey tab band of your dataset, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
 
---- A three-steps pop-up window has opened. ---
+--- A three-steps pop-up window _Upload Images_ has opened. ---
 
 1. (Step 1️⃣ of 3️⃣) Click on **Choose a file** to select your prepared ZIP file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
@@ -360,10 +360,12 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 4. (Step 2️⃣ of 3️⃣) Select in the drop-down menu **Mapping Identifier** the corresponding attribute to your file names.
 5. Click on **Update mapping**
 6. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of invalid files, and the mapped identifier.
-9. When satisfied, click on **Run Mapping**.
-10. You can check the status of your Image Upload
+7. Click on **Run Mapping**.
+<br>  - ⚠️ The State of your Image Upload is currently on ⚙️Extracting. This means that the Mapping can't be run yet, even by clicking on it. As soon as the extraction is finished, you will need to come bakc and click (again) on **Run Mapping**. You can close your DAGI page in the meantime, or start the upload of another ZIP file.
+9. You can check the status of your Image Upload
 - Incomplete : All or a part of your images remained unmapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. By clicking on the yellow **Incomplete** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
 - Finished : All of your images could be mapped with a record in your dataset. By clicking on the green **✅Finished** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
+- Mapping failed : none of your images could be mapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. If the problem persists after multiple changes, do not hesitate to contact us.
 
 Now, in the Records tab of your Collection, the records with an image have a green camera icon, and you can see the image when opening the side-panel of a record (only the first image is displayed if multiple images have been mapped to the same record). The link to the DAGI Media Store has been added in the attribute *[associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}*. When publishing your data, the image will also be displayed on the GBIF occurrence page of your specimen.
 
