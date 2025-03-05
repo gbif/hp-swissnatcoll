@@ -398,23 +398,24 @@ We thank you for your patience and understanding.
 1. (Step 1️⃣ of 3️⃣) Publication of Records
 - The text informs you of the number of records you are about to publish and if you need to create a new dataset.
    - For the first publication of your DAGI dataset, the option to **Create new dataset** is automatically set.
-   - For the following publications of your DAGI dataset, the hyperlink to the existing dataset is provided.<br>
+   - For the following publications of your DAGI dataset, the hyperlink to the existing dataset is provided.<br><br>
 2. Click on **Next**.
 3. (Step 2️⃣ of 3️⃣) Target Dataset
 - The text informs you on the metadata information of your GBIF dataset.
    - The first part _Dataset_ is about the title of your dataset, the Publisher and the Authors.
    - The second part _Institution_ is about your institution name, code and address, as well as the official contacts registered on GRSciColl.
-   - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br>
+   - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br><br>
 4. Click on **Next**.
 5. (Step 3️⃣ of 3️⃣) Publication summary
 - The last step is a summary window on which you can check the settings of Step 1️⃣, as well as the application of the publication rules.
    - The publication rules are applied to specimens collected in Switzerland and of taxa treated by the data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
-   - The publication on GBIF is irreversible from DAGI.<br>
-6. Tick the box to confirm that you accept the [terms of use](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and full responsibility for the publication.
-   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br>
+   - The publication on GBIF is irreversible from DAGI.<br><br>
+6. **Tick the box** to confirm that you accept the [terms of use](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and full responsibility for the publication.
+   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br><br>
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
-- The Publication status of your records have changed to 🌐In Publication.<br>
+- The Publication status of your records have changed to 🌐In Publication.
+- You can access the DarwinCore-Archive generated for the publication in the **Publications and Approvals** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 - By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes for all the occurrences to appear.
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
@@ -436,8 +437,8 @@ We thank you for your patience and understanding.
   - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
 2. Click on **Approve**.
   - A progression bar appears during the approval process and disappears when launched.
-  - This process might take some time, but we currently can't say how long.
-3. Check the Approval status of your records on your Collection page.
+  - The Validation status of your records have changed to 🌐In Validation.
+  - You can access the DarwinCore-Archive generated for the validation in the **Publications and Approvals** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 
 
