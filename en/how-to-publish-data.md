@@ -1,7 +1,7 @@
 ---
 layout: documentation
 permalink: /en/how-to-publish-data
-title: How to publish data with the Data Aggregator DAGI
+title: DAGI Guide
 description: For Swiss Natural History institutions
 sideNavigation: sideNavigation.tutorials
 toc: true
