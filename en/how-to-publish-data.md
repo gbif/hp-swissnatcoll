@@ -379,6 +379,12 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Publish my data
 
+<!--
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+❌ Only the <i>Collection Administrator</i> role can publish records on GBIForg. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
+</div>
+-->
+
 ### Checklist -to do before publishing your data
 
 <br>✅ The **authors of my dataset** are correct.
