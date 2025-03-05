@@ -481,18 +481,8 @@ Here is a table with those fields and their definition:
 ## Can I upload images in the Data Aggregator?
 
 There are two ways to have images associated to your records in DAGI.
-1. Insert the URL of your image (when deposited in a public repository) in the attribute _associatedMedia_ --> see [here below](#my-images-are-already-publicly-available-on-a-website-do-i-have-to-upload-them-too)
-2. Upload your pictures in ZIP files in the DAGI Media Store
-
-### How do I upload image in the Data Aggregator?
-
-1. Reduce the size of your images to a **size lower than 5 Mb** and make sure their **format is JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**.
-2. Name your image files so that the unique number associated to them corresponds to one of the DAGI's attributes (e.g. _catalogNumber_ = G12346579 and image name = G12346579.jpg)<br>
-⚠️ It is possible to use another attribute than the catalogNumber, however this other attribute has to be one available on DAGI (it can't be a Custom Attribute nor _associatedMedia_)
-3. Compress your images (or a part of it) into a **zip file** with a **size smaller than 200 Mb**
-4. You are now ready to upload your ZIP file(s) in the Image Upload tab of your DAGI's dataset.
-
-During the Image Upload, the image file is stored in a Cloud and the link to the Cloud is added in the attribute *associatedMedia*. Many images can be mapped to the same record if the first part is the same (e.g. *catalogNumber*) and the last element is "_1" or "_2" or "_3" etc.
+1. Insert the URL of your image (when deposited in a public repository) in the attribute _associatedMedia_ --> see [here below](#my-images-are-already-publicly-available-on-a-website-do-i-have-to-upload-them-too).
+2. Upload your pictures in ZIP files in the DAGI Media Store.
 
 ### My images are already publicly available on a website, do I have to upload them too?
 
