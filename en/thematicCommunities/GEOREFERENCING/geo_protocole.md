@@ -15,10 +15,11 @@ composition:
 
 # Context
 
-Georeferencing is the enrichment of the geographical information of a collection specimen with modern coordinates and a margin of error. Nowadays, this can usually be done directly in the field with a GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of standardised terms such as the Darwin Core terms implies strict rules and definitions for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
+**Georeferencing** is the **enrichment of the geographical information of a collection specimen with modern coordinates and a margin of error**. Nowadays, this can usually be done directly in the field with a GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of **standardised terms** such as the Darwin Core terms implies **strict rules and definitions** for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
 
-In the process of database standardisation and cleaning, the use of controlled vocabulary is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. Countries that don't exist anymore are still being recorded in the attribute dwc:country, while the recommendation of this term is to use the ISO 3166-1-alpha-2 country standard.
+In the process of database standardisation and cleaning, the use of **controlled vocabulary** is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. Countries that don't exist anymore are still being recorded in the attribute dwc:country, while the recommendation of this term is to use the ISO 3166-1-alpha-2 country standard.
 
+{: .box}
 The Data Aggregator DAGI uses the OpenCage Geocoding API of OpenCage GmbH ([https://opencagedata.com/](https://opencagedata.com/){:target="_blank"}) to encode and enrich specific attributes of the institution's records. For the encoding to be successfull, the values of the source attributes must be following the definitions of the attributes, or else inconsistencies and "wrong" data might be inserted.
 
 This protocole aims to provide the best practices in using the DAGI for geographical encoding of natural history collection specimens.
@@ -131,16 +132,38 @@ graph TD;
 ## 2.2) Enrich standardised coordinates data
 
 **Enrich**
+> - [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target="_blank"}
+> - [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target="_blank"}
+> - [geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum){:target="_blank"}
+> - swissCoordinatesLv95_E = swiss longitude coordinates of the [CH1903+/LV95 system](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system){:target="_blank"}
+> - swissCoordinatesLv95_N = swiss latitude coordinates of the [CH1903+/LV95 system](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system){:target="_blank"}
+> - swissCoordinatesLv03_E = swiss longitude coordinates of the [CH1903/LV03 system](https://www.swisstopo.admin.ch/en/national-triangulation-network-lv03){:target="_blank"}
+> - swissCoordinatesLv03_N = swiss latitude coordinates of the [CH1903/LV03 system](https://www.swisstopo.admin.ch/en/national-triangulation-network-lv03){:target="_blank"}
+> - [coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters){:target="_blank"}
+> - [coordinatePrecision](https://dwc.tdwg.org/terms/#dwc:coordinatePrecision){:target="_blank"}
+
 
 **Document**
+> - [georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeferencedBy){:target="_blank"}
+> - [georeferencedDate](https://dwc.tdwg.org/terms/#dwc:georeferencedDate){:target="_blank"}
+> - [georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol){:target="_blank"}
+> - [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources){:target="_blank"}
+> - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
 # 3) Georeferencing approach
 
-## 3.1) Historical maps and reference material
+## 3.1) Pertinent
 
-## 3.2) Coordinate assignment
+Defining the pertinence of georeferencing historical localities is prior to any step of the procedure in terms of:
+- Human ressources
+- Time ressources
+- Basic data (readable, completeness, univocity)
 
-## 3.3) Geographical encoding
+## 3.2) Historical maps and reference material
+
+## 3.3) Coordinate assignment
+
+## 3.4) Geographical encoding
 
 Geographical encoding allows to standardise and enrich the geographical data associated to a specimen. In DAGI, the geographical encoding is composed of two parts. One is the **Geo Forward** (based on the imported information in the attributes _country_ and _continent_) and the other one is the **Geo Reverse** (based on the imported information in the coordinates attributes (_decimalLatitude_ and _decimalLongitude_, _swissCoordinates_lv95_x_ and _swissCoordinates_lv95_y_, _swissCoordinates_lv03_x_ and _swissCoordinates_lv03_y_).
 
