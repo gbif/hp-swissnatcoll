@@ -163,7 +163,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 
 ## 3.3) Coordinate assignment
 
-## 3.4) Geographical encoding
+## 3.4) DAGI Geographical encoding
 
 Geographical encoding allows to standardise and enrich the geographical data associated to a specimen. In DAGI, the geographical encoding is composed of two parts. One is the **Geo Forward** (based on the imported information in the attributes _country_ and _continent_) and the other one is the **Geo Reverse** (based on the imported information in the coordinates attributes (_decimalLatitude_ and _decimalLongitude_, _swissCoordinates_lv95_x_ and _swissCoordinates_lv95_y_, _swissCoordinates_lv03_x_ and _swissCoordinates_lv03_y_).
 
