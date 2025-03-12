@@ -43,10 +43,10 @@ graph TD;
     HasCoord[Coordinates present?] -->|no| GeoPoss[Georeferencing possible?];
     HasCoord -->|yes| TransVerbCoo[Transcribe/convert/document/enrich];
     GeoPoss --> |no| NoGeoref[Don't georeference];
-    GeoPoss -->|⬇️ click here ⬇️| Link3[3.1 Possible];
+    GeoPoss -->|⬇️ click here ⬇️| Link3[3.1 Possible?];
     GeoPoss --> |yes| GeorefPert[Pertinent?];
     GeorefPert --> |no| NoGeoref;
-    GeorefPert -->|⬇️ click here ⬇️| Link4[3.2 Pertinent];
+    GeorefPert -->|⬇️ click here ⬇️| Link4[3.2 Pertinent?];
     GeorefPert --> |yes| GeorefDoable[Do-able?];
     GeorefDoable --> |no| NoGeoref;
     GeorefDoable --> |yes| Georef[Georeference/document/enrich];
@@ -118,15 +118,19 @@ graph TD;
 
 ## 2.1) Enrich standardised textual Location data
 
-**Enrich** the corresponding information based on the verbatimLocality in a standardised and controlled way.
+**Enrich** the corresponding information based on the verbatimLocality (and the coordinates if present) in a standardised and controlled way.
 
+> - [continent](https://dwc.tdwg.org/terms/#dwc:continent){:target="_blank"}
+> - [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"}
+> - [waterBody](https://dwc.tdwg.org/terms/#dwc:waterBody){:target="_blank"}
+> - [islandGroup](https://dwc.tdwg.org/terms/#dwc:islandGroup){:target="_blank"}
+> - [island](https://dwc.tdwg.org/terms/#dwc:island){:target="_blank"}
 > - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
+> - [countryCode](https://dwc.tdwg.org/terms/#dwc:countryCode){:target="_blank"}
 > - [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target="_blank"}
 > - [county](https://dwc.tdwg.org/terms/#dwc:county){:target="_blank"}
 > - [municipality](https://dwc.tdwg.org/terms/#dwc:municipality){:target="_blank"}
-> - [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target="_blank"}
-> - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
-> - [country](https://dwc.tdwg.org/terms/#dwc:country){:target="_blank"}
+> - [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target="_blank"}
 
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
@@ -157,7 +161,7 @@ graph TD;
 
 ## 3.1) Possible
 
-- Does the georeferencing 
+- Does the georeferencing provide more information to the specimen that the already existing textual information ?
 
 ## 3.2) Pertinent
 
@@ -167,6 +171,8 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 - Basic data (readable, completeness, univocity)
 
 ## 3.2) Historical maps and reference material
+
+--> slide 10
 
 ## 3.3) Coordinate assignment
 
@@ -359,12 +365,25 @@ Currently the geographical encoding in DAGI does not take the uncertainty radius
 
 ## 5.1) Cross checking
 
+# 6) Do not georeference
+
+In cases where georeferencing does not provide the plus-value desired, there are solutions to express it in the data, specifically in the *countryCode* attribute, and leaving all other lower textual location attributes and coordinates attributes empty:
+
+- **Supranational entity** (precision grouping several countries) : countryCode = AA
+- **International entity** (precision overlapping several countries) : countryCode = ZZ
+- **Unknown location** : countryCode = XX
+
 # Documentation
 
 ## Reference protocols
 - Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853){:target="_blank"}. Available online : [https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf](https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf){:target="_blank"}
 
 - Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. [https://doi.org/10.35035/e09p-h128](https://doi.org/10.35035/e09p-h128){:target="_blank"}. Available online: [https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf){:target="_blank"}
+
+## Online coordinates conversion
+
+- [NAVREF (Swisstopo)](https://www.swisstopo.admin.ch/fr/conversion-coordonnees-navref){:target="_blank"} --> Swiss national coordinates systems (MN03, MN95), Global coordinates (WGS84 decimal, WGS84 DMS)
+- [The World Coordinate Converter (TWCC)](https://twcc.fr/){:target="_blank"} --> all coordinates systems
 
 ## Helpful files
 
