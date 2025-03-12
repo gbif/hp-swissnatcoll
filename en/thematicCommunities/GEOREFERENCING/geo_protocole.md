@@ -148,7 +148,11 @@ graph TD;
 
 # 3) Georeferencing approach
 
-## 3.1) Pertinent
+## 3.1) Possible
+
+- Does the georeferencing 
+
+## 3.2) Pertinent
 
 Defining the pertinence of georeferencing historical localities is prior to any step of the procedure in terms of:
 - Human ressources
@@ -167,7 +171,7 @@ Geographical encoding allows to standardise and enrich the geographical data ass
 
 In addition to these two parts, coordinates in one or two of the available swiss systems attributes are being converted into WGS84 (_decimalLatitude_ and _decimalLongitude_) and the other available swiss system if it was previously empty.
 
-## Geo Forward
+### Geo Forward
 
 {: .box }
 **Attributes needed** : _continent_ OR _country_ <br>
@@ -226,16 +230,16 @@ In addition to these two parts, coordinates in one or two of the available swiss
 </table>
 
 
-## Geo Reverse
+### Geo Reverse
 
 {: .box }
 **Attributes needed** : _decimalLatitude_ and _decimalLongitude_ <br>
 **Attributes encoded** : _continent_, _country_, _countryCode_, _stateProvince_ and _municipality_ (if _countryCode_ = CH, then also _swissCoordinatesLv95_x_, _swissCoordinatesLv95_y_, _swissCoordinatesLv03_x_ and _swissCoordinatesLv03_y_
 
-The first step of Geo Reverse is to **do the conversion of the coordinates in Switzerland**, afterwards, the WGS84 coordinates are used in the query to the website [OpenCage data](https://opencagedata.com/){:target="_blank"}.
+The first step of Geo Reverse is to **the conversion of the coordinates in Switzerland**, afterwards, the WGS84 coordinates are used in the query to the website [OpenCage data](https://opencagedata.com/){:target="_blank"}.
 
 
-### Coordinates conversion
+#### Coordinates conversion
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ When importing multiple coordinate systems for the same record, ensure that they all correspond to the same location. DAGI does not compare attributes to detect inconsistencies.
@@ -327,6 +331,18 @@ When importing coordinates, it is better practice to import one set of coordinat
     </tr>
   </table>
 </div>
+
+### Risks with the geographical encoding of DAGI
+
+#### Attributing coordinates to an unprecise location
+
+As the whole set of textual information, from continent to municipality, is encoded through the coordinates without an uncertainty radius, it leads to erroneous data by attributing wrong values to smaller elements than the degree of precision of the specimen location.
+
+{: .box}
+**What can be done to avoid this:**<br>
+- Compare the imported and encoded data in DAGI
+- Target and correct the errors of capture in the original database
+- Remove the coordinates of the records less precise or import them and publish them without encoding
 
 # 4) Uncertainty estimation
 
