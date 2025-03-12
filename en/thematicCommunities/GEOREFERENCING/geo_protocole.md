@@ -7,6 +7,8 @@ toc: true
 sideNavigation: sideNavigation.georeferencing
 ---
 
+<h1 style="padding: 10px; color: black; text-align:center">DAGI Georeferencing protocole</h1>
+
 # Context
 
 **Georeferencing** is the **enrichment of the geographical information of a collection specimen with modern coordinates and a margin of error**. Nowadays, this can usually be done directly in the field with a GPS. However for most of older specimen, the geographical description is only textual (e.g. _right side of the road between this place and this place_) and often scarce (e.g. _this country_). Concepts have also evolved with time as well as country names and borders. On the other side, the development of **standardised terms** such as the Darwin Core terms implies **strict rules and definitions** for each data term. For instance, the value _Pays de Vaud_ could never be written in the attribute _country_ of Darwin Core.
