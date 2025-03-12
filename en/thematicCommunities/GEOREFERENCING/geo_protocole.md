@@ -39,38 +39,45 @@ graph TD;
     Step1 --> |Step 2| Step2[2.1. Enrich standardized textual Location data];
 
     %% Decision Graph in Step 3
-    Step2 --> |Step 3| A[Coordinates present?];
-    A[Coordinates present?] -->|no| B[Georeferencing possible?];
-    A -->|yes| C[Transcribe/convert/document/enrich];
-    B --> |no| D[Don't georeference!];
-    B --> |yes| E[Pertinent?];
-    E --> |no| D;
-    E --> |yes| F[Do-able?];
-    F --> |no| D;
-    F --> |yes| G[Georeference/document/enrich];
-    C -->|⬇️ ️click here ⬇️| H[1.2. Transcribe verbatim coordinates data];
-    G -->|⬇️ ️click here ⬇️| I[2.2. Enrich standardised coordinates data];
-    D -->|⬇️ ️click here ⬇️| J[X. to define];
+    Step2 --> |Step 3| HasCoord[Coordinates present?];
+    HasCoord[Coordinates present?] -->|no| GeoPoss[Georeferencing possible?];
+    HasCoord -->|yes| TransVerbCoo[Transcribe/convert/document/enrich];
+    GeoPoss --> |no| NoGeoref[Don't georeference];
+    GeoPoss -->|⬇️ click here ⬇️| Link3[3.1 Possible];
+    GeoPoss --> |yes| GeorefPert[Pertinent?];
+    GeorefPert --> |no| NoGeoref;
+    GeorefPert -->|⬇️ click here ⬇️| Link4[3.2 Pertinent];
+    GeorefPert --> |yes| GeorefDoable[Do-able?];
+    GeorefDoable --> |no| NoGeoref;
+    GeorefDoable --> |yes| Georef[Georeference/document/enrich];
+    TransVerbCoo -->|⬇️ click here ⬇️| Link1[1.2. Transcribe verbatim coordinates data];
+    Georef -->|⬇️ click here ⬇️| Link2[2.2. Enrich standardised coordinates data];
+    NoGeoref -->|⬇️ click here ⬇️| Link5[X. to define];
 
     %% Apply Colors
     style Start fill:#FFFFFF,stroke:#333,stroke-width:4px,font-weight:bold,font-size:50px;;
-    style A fill:#ffcc00,stroke:#333,stroke-width:2px;
-    style B fill:#ff6666,stroke:#333,stroke-width:2px;
-    style C fill:#66ccff,stroke:#333,stroke-width:2px;
-    style D fill:#ff3333,stroke:#000,stroke-width:2px,color:white;
-    style E fill:#ff9900,stroke:#333,stroke-width:2px;
-    style F fill:#66cc99,stroke:#333,stroke-width:2px;
-    style G fill:#33cc33,stroke:#333,stroke-width:2px;
-    style H fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style I fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style J fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style HasCoord fill:#ffcc00,stroke:#333,stroke-width:2px;
+    style GeoPoss fill:#ff6666,stroke:#333,stroke-width:2px;
+    style TransVerbCoo fill:#66ccff,stroke:#333,stroke-width:2px;
+    style NoGeoref fill:#ff3333,stroke:#000,stroke-width:2px,color:white;
+    style GeorefPert fill:#ff9900,stroke:#333,stroke-width:2px;
+    style GeorefDoable fill:#66cc99,stroke:#333,stroke-width:2px;
+    style Georef fill:#33cc33,stroke:#333,stroke-width:2px;
+    style Link1 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link2 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link3 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link4 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link5 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
     style Step1 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
     style Step2 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
 
     
     %% Define the hyperlink
-    click H "/en/geo-protocole#12-transcribe-verbatim-coordinates-data"
-    click I "/en/geo-protocole#22-enrich-standardised-coordinates-data"
+    click Link1 "/en/geo-protocole#12-transcribe-verbatim-coordinates-data"
+    click Link2 "/en/geo-protocole#22-enrich-standardised-coordinates-data"
+    click Link3 "/en/geo-protocole#31-possible"
+    click Link4 "/en/geo-protocole#31-pertinent"
+    click Link5 "/en/geo-protocole"
     click Step1 "/en/geo-protocole#11-step-1-transcribe-verbatim-location-data"
     click Step2 "/en/geo-protocole#21-enrich-standardised-textual-location-data"
 </div>
