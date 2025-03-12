@@ -177,14 +177,14 @@ In addition to these two parts, coordinates in one or two of the available swiss
   <thead>
     <tr>
         <th rowspan="2" style="text-align: center; border: 3px solid black; padding: 10px;">Import examples</th>
-        <th colspan="2" style="text-align: center; vertical-align: middle; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">Imported values</th>
-        <th colspan="2" style="text-align: center; vertical-align: middle; border:3px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }};">Encoded values</th>
+        <th colspan="2" style="text-align: center; vertical-align: middle; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.background }};">Imported values</th>
+        <th colspan="2" style="text-align: center; vertical-align: middle; border:3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.background }};">Encoded values</th>
     </tr>
     <tr>
-        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: #CDEFA3;">Value</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: #A0CBE8;">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: #A0CBE8;">Value</th>
+        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency}};">Attribute</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency}};">Value</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency}};">Attribute</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency}}8;">Value</th>
     </tr>
   </thead>
   <tbody>
@@ -232,8 +232,10 @@ In addition to these two parts, coordinates in one or two of the available swiss
 **Attributes needed** : _decimalLatitude_ and _decimalLongitude_ <br>
 **Attributes encoded** : _continent_, _country_, _countryCode_, _stateProvince_ and _municipality_ (if _countryCode_ = CH, then also _swissCoordinatesLv95_x_, _swissCoordinatesLv95_y_, _swissCoordinatesLv03_x_ and _swissCoordinatesLv03_y_
 
+The first step of Geo Reverse is to **do the conversion of the coordinates in Switzerland**, afterwards, the WGS84 coordinates are used in the query to the website [OpenCage data](https://opencagedata.com/){:target="_blank"}.
 
-## Coordinates conversion
+
+### Coordinates conversion
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ When importing multiple coordinate systems for the same record, ensure that they all correspond to the same location. DAGI does not compare attributes to detect inconsistencies.
@@ -249,17 +251,17 @@ When importing coordinates, it is better practice to import one set of coordinat
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="3">IMPORTED</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="3">ENCODED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.importedValues.background }};" colspan="3">IMPORTED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.encodedValues.background }};" colspan="3">ENCODED</th>
       <th style="text-align: left; text-align: center; vertical-align: middle; border: 1px solid black; padding: 5px;" rowspan="2">Consequence</th>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da;">LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #9de7da">LV03</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">WGS84</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">LV95</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: #BEE1EE;">LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.importedValues.transparency}};">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.importedValues.transparency}};">LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.importedValues.transparency}}">LV03</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.encodedValues.transparency}};">WGS84</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.encodedValues.transparency}};">LV95</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: center; background-color: {{ site.data.colors.encodedValues.transparency}};">LV03</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: center;">X</td>
