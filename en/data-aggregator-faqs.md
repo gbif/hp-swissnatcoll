@@ -714,7 +714,7 @@ Here is the **safest method to open any csv file**:
 2. Click on **Data** in the Quick Access Toolbar (File  Home  Insert  Page Layout  Formulas **Data** Review ...).
 3. Click on **Get Data** in the Ribbon (First element on the left of the Data ribbon).
 4. Choose **From File** and then **From Text/CSV**.
-- A pop-up window opens, displaying the content of your CSV file, the corresponding encoding and the separation used. Make sure that the encoding format is "UTF-8" for the DAGI exported files.
+- A pop-up window opens, displaying the content of your CSV file, the corresponding encoding and the separation used. Make sure that the encoding format is "65001: Unicode (UTF-8)" for the File Origin.
 5. Click on **Load** at the bottom of the pop-up window
 - Your data is now being loaded in your excel workbook and is now correctly displayed as a table.
 
