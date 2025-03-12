@@ -173,6 +173,76 @@ In addition to these two parts, coordinates in one or two of the available swiss
 **Attributes needed** : _continent_ OR _country_ <br>
 **Attributes encoded** : _continent_, _country_, _countryCode_
 
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+        <th rowspan="2" style="padding: 10px;">Import</th>
+        <th colspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">Imported values</th>
+        <th colspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }};">Encoded values</th>
+    </tr>
+    <tr>
+        <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Attribute</th>
+        <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Value</th>
+        <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #A0CBE8;">Attribute</th>
+        <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #A0CBE8;">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td rowspan="3" style="text-align: center; border: 1px solid black; padding: 10px;">Case 1</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europa</td>
+        
+    </tr>
+    <tr>
+        <td rowspan="2" style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td rowspan="2" style="text-align: left; border: 1px solid black; padding: 10px;">Suisse</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">CH</td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; border: 1px solid black; padding: 10px;">Case 2</td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;">Schweiz</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
+    </tr>  
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    </tr>  
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">CH</td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; border: 1px solid black; padding: 10px;">Case 3</td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
+    </tr>  
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    </tr>  
+    <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">CH</td>
+    </tr>
+  </tbody>
+</table>
+
 ## Geo Reverse
 
 {: .box }
