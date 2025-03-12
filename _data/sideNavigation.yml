@@ -33,6 +33,7 @@ tutorials:
     path: https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZXOu0yq6a9FrrsEjru11PMBuYh-4vS5VWbyD5xoWUWdNw?e=zlTXjn
 
 georeferencing:
+content:
 - title: Main page
   path: /en/georeferencing
 - title: Protocole
