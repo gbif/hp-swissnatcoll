@@ -1,16 +1,10 @@
 ---
-layout: compose
+layout: documentation
 permalink: /en/geo-protocole
-title: Georeferencing protocole
+title: DAGI Georeferencing protocole
 description: Protocole on historical geographical data and how to prepare for the import on DAGI
-background: "{{ site.data.images.georeferencing‎.src }}"
-imageLicense: "{{ site.data.images.georeferencing‎.caption }}"
-height: 50vh
 toc: true
 sideNavigation: sideNavigation.georeferencing
-composition:
-- type: heroImage
-- type: pageMarkdown # This block will render the markdown in this file so no data property needed
 ---
 
 # Context
@@ -19,9 +13,9 @@ composition:
 
 In the process of database standardisation and cleaning, the use of **controlled vocabulary** is essential but often an important constraint compared to day-to-day habits of an institution, as well as the usual treatment of historical specimens. Countries that don't exist anymore are still being recorded in the attribute dwc:country, while the recommendation of this term is to use the ISO 3166-1-alpha-2 country standard.
 
-{: .box}
 The Data Aggregator DAGI uses the OpenCage Geocoding API of OpenCage GmbH ([https://opencagedata.com/](https://opencagedata.com/){:target="_blank"}) to encode and enrich specific attributes of the institution's records. For the encoding to be successfull, the values of the source attributes must be following the definitions of the attributes, or else inconsistencies and "wrong" data might be inserted.
 
+{: .box}
 This protocole aims to provide the best practices in using the DAGI for geographical encoding of natural history collection specimens.
 
 # 1) Preliminary assessment
