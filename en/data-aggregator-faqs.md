@@ -710,18 +710,20 @@ Here are the Thesaurii available in DAGI:
 CSV files are quite tricky to open with Excel because the encoding of the file is forced by the system (usually ANSII), even if the file itself is UTF-8 encoded.
 
 Here is the **safest method to open any csv file**:
-1. Open a new empty excel workbook
-2. Click on **Data** in the Quick Access Toolbar (File  Home  Insert  Page Layout  Formulas **Data** Review ...)
-3. Click on **Get Data** in the Ribbon (First element on the left of the Data ribbon)
-4. Choose **From File** and then **From Text/CSV**
+1. Open a new empty excel workbook.
+2. Click on **Data** in the Quick Access Toolbar (File  Home  Insert  Page Layout  Formulas **Data** Review ...).
+3. Click on **Get Data** in the Ribbon (First element on the left of the Data ribbon).
+4. Choose **From File** and then **From Text/CSV**.
 - A pop-up window opens, displaying the content of your CSV file, the corresponding encoding and the separation used. Make sure that the encoding format is "UTF-8" for the DAGI exported files.
 5. Click on **Load** at the bottom of the pop-up window
-- Your data is now being loaded in your excel workbook and is now correctly displayed as a table
+- Your data is now being loaded in your excel workbook and is now correctly displayed as a table.
 
 ## How do I change the table format of my opened CSV file?
 
-1. Click on **Table** in the Quick Access Toolbar
-2. Click on **Set as range** in the Ribbon
+1. Select your whole dataset (Cnrtl + A).
+2. Click on **Table Design** in the Quick Access Toolbar ( ... Automate  Help  **Table Design** Query).
+3. Click on **Conver to range** in the Ribbon (Second element, bottom line, on the left of the Table Design ribbon).
+- Your data is now a usual excel sheet.
 
 <h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
 
