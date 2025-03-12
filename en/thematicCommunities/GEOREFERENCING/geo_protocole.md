@@ -181,10 +181,10 @@ In addition to these two parts, coordinates in one or two of the available swiss
         <th colspan="2" style="text-align: center; vertical-align: middle; border:3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.background }};">Encoded values</th>
     </tr>
     <tr>
-        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency}};">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency}};">Value</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency}};">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency}}8;">Value</th>
+        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency }};">Attribute</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency }};">Value</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency }};">Attribute</th>
+        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency }};">Value</th>
     </tr>
   </thead>
   <tbody>
@@ -329,6 +329,8 @@ When importing coordinates, it is better practice to import one set of coordinat
 </div>
 
 # 4) Uncertainty estimation
+
+Currently the geographical encoding in DAGI does not take the uncertainty radius in consideration
 
 # 5) Validation and Quality control
 
