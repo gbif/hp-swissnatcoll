@@ -176,12 +176,12 @@ In addition to these two parts, coordinates in one or two of the available swiss
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
     <tr>
-        <th rowspan="2" style="padding: 10px;">Import</th>
+        <th rowspan="2" style="text-align: center; border: 1px solid black; padding: 10px;">Import</th>
         <th colspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">Imported values</th>
         <th colspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }};">Encoded values</th>
     </tr>
     <tr>
-        <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Attribute</th>
+        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Attribute</th>
         <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #CDEFA3;">Value</th>
         <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #A0CBE8;">Attribute</th>
         <th style="text-align: left; border: 1px solid black; padding: 10px; background-color: #A0CBE8;">Value</th>
