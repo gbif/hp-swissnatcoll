@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /en/geo_examples
+permalink: /en/geo-examples
 title: Examples for georeferencing
 toc: true
 sideNavigation: sideNavigation.georeferencing
@@ -8,4 +8,5 @@ sideNavigation: sideNavigation.georeferencing
 
 # Examples for georeferencing
 
-## ...
+## Location with coordinates
+
