@@ -94,16 +94,16 @@ sideNavigation: sideNavigation.georeferencing
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
     <tr>
-        <th style="text-align: center; vertical-align: middle; padding: 10px;">Protocole</th>
-        <th style="text-align: center; vertical-align: middle; padding: 10px; background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
-        <th style="text-align: center; vertical-align: middle; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Protocole</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
         <td rowspan="2" style="text-align: center; border: 1px solid black; padding: 10px;">Step 1<br> Transcribe<br> verbatim Location data</td>
-        <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
-        <td style="text-align: left; padding: 10px;">MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil.</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimLocality</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil.</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>locationRemarks</i></td>
