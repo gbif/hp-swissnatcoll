@@ -48,7 +48,7 @@ sideNavigation: sideNavigation.georeferencing
 </div>
 
 <!-- Legend -->
-<div id="legend">G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki</div>
+<div id="legend"><a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=610730&lang=fr">G00341664</a>, <i>Benstonea serpentinica</i> Callm. & Buerki</div>
 
 <!-- OpenSeadragon Configuration -->
 <script>
@@ -83,6 +83,8 @@ sideNavigation: sideNavigation.georeferencing
     });
 </script>
 
+<br>
+<br>
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
