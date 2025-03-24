@@ -88,6 +88,7 @@ graph TD;
 **Transcribe** the content of the specimen label concerning the location in the field [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}.
 
 > - [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}
+> - [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"}
 
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
