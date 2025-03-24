@@ -90,3 +90,49 @@ sideNavigation: sideNavigation.georeferencing
 | verbatimLocality | MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil. |
 | verbatimCoordinate | 04°58'14''N 118°10'44''E |
 | verbatimElevation | 365 m |
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+        <th style="text-align: center; border: 3px solid black; padding: 10px;">Protocole</th>
+        <th style="text-align: center; vertical-align: middle; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.geoStep1.background }};">Attribute</th>
+        <th style="text-align: center; vertical-align: middle; border:3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.background }};">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-left: 3px solid black; border-right: 3px solid black; border-top: 3px solid black">
+        <td rowspan="2" style="text-align: center; border: 1px solid black; padding: 10px;">Step 1<br> verbatim Location data</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>verbatimLocality</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil.</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"></td>
+    </tr>
+    <tr style="border-left: 3px solid black; border-right: 3px solid black;">
+        <td rowspan="2" style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td rowspan="2" style="text-align: left; border: 1px solid black; padding: 10px;">Suisse</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    </tr>
+    <tr style="border-left: 3px solid black; border-right: 3px solid black; border-bottom: 3px solid black">
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">CH</td>
+    </tr>
+    <tr style="border-left: 3px solid black; border-right: 3px solid black;">
+        <td rowspan="4" style="text-align: center; border: 1px solid black; padding: 10px;">Example 2</td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td rowspan="4" style="text-align: left; border: 1px solid black; padding: 10px;">Schweiz</td>
+    </tr>
+    <tr style="border-left: 3px solid black; border-right: 3px solid black;">
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
+    </tr>  
+    <tr style="border-left: 3px solid black; border-right: 3px solid black;">
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
+    </tr>  
+    <tr style="border-left: 3px solid black; border-right: 3px solid black; border-bottom: 3px solid black">
+        <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">CH</td>
+    </tr>
+  </tbody>
+</table>
