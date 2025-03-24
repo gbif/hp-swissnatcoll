@@ -7,45 +7,40 @@ sideNavigation: sideNavigation.georeferencing
 ---
 
 <head>
-  <!-- Lightbox2 CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-  
-  <!-- Lightbox2 JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-
-  <!-- Zoom.js CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
-
-  <!-- Zoom.js JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
-
+    <script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
+    <style>
+        #openseadragon {
+            width: 800px;
+            height: 600px;
+            margin: auto;
+        }
+    </style>
 </head>
 
 # Examples for georeferencing
 
 ## Location with coordinates
 
-<style>
-  .focus-image img {
-    transition: transform 0.3s ease;
-  }
+<body>
+    <div id="openseadragon"></div>
 
-  .focus-image:active img {
-    transform: scale(2) translate(-50%, -50%);
-    transform-origin: center center;
-  }
-</style>
-
-<figure class="has-text-centered focus-image">
-  <a href="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" 
-     data-lightbox="G00341664" 
-     data-title='<a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=610730&lang=fr" target="_blank">G00341664 - Conservatoire et Jardin botaniques de Genève</a>' 
-     data-action="zoom">
-    <img src="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" 
-         alt="G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki" />
-  </a>
-  <figcaption>G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki</figcaption>
-</figure>
+    <script>
+        OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+            tileSources: {
+                type: "image",
+                url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg",
+                buildPyramid: false
+            },
+            defaultZoomLevel: 1,  // Initial zoom level
+            panHorizontal: true,
+            panVertical: true,
+            minZoomLevel: 0.5,
+            maxZoomLevel: 5
+        });
+    </script>
+</body>
 
 
 | Attribute | Value |
