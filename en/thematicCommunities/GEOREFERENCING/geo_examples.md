@@ -84,13 +84,6 @@ sideNavigation: sideNavigation.georeferencing
 </script>
 
 
-
-| Attribute | Value |
-| --------- | ----- |
-| verbatimLocality | MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil. |
-| verbatimCoordinate | 04°58'14''N 118°10'44''E |
-| verbatimElevation | 365 m |
-
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
     <tr>
@@ -101,13 +94,34 @@ sideNavigation: sideNavigation.georeferencing
   </thead>
   <tbody>
     <tr>
-        <td rowspan="2" style="text-align: center; border: 1px solid black; padding: 10px;">Step 1<br> Transcribe<br> verbatim Location data</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1<br> Transcribe<br> verbatim Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimLocality</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil.</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>locationRemarks</i></td>
         <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 2<br> Transcribe<br> verbatim Coordinates data</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">04°58’14’‘N 118°10’44’‘E</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>verbatimLatitude</i></td>
+        <td style="text-align: left; padding: 10px;">04°58’14’‘N</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>verbatimLongitude</i></td>
+        <td style="text-align: left; padding: 10px;">118°10’44’‘E</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>verbatimCoordinateSystem</i></td>
+        <td style="text-align: left; padding: 10px;">degrees minutes seconds</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>verbatimSRS</i></td>
+        <td style="text-align: left; padding: 10px;">unknown</td>
     </tr>
   </tbody>
 </table>
