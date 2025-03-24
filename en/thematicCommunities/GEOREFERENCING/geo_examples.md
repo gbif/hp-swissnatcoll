@@ -25,9 +25,24 @@ sideNavigation: sideNavigation.georeferencing
 
 ## Location with coordinates
 
-<figure class="has-text-centered">
-  <a href="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" data-lightbox="G00341664" data-title='<a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=610730&lang=fr" target="_blank">G00341664 -Conservatoire et Jardin botaniques de Genève</a>' data-action="zoom">
-    <img src="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" alt="G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki" />
+<style>
+  .focus-image img {
+    transition: transform 0.3s ease;
+  }
+
+  .focus-image:active img {
+    transform: scale(2) translate(-50%, -50%);
+    transform-origin: center center;
+  }
+</style>
+
+<figure class="has-text-centered focus-image">
+  <a href="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" 
+     data-lightbox="G00341664" 
+     data-title='<a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=610730&lang=fr" target="_blank">G00341664 - Conservatoire et Jardin botaniques de Genève</a>' 
+     data-action="zoom">
+    <img src="https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb100/img_220/G00341664.ptif&cvt=jpeg" 
+         alt="G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki" />
   </a>
   <figcaption>G00341664, <i>Benstonea serpentinica</i> Callm. & Buerki</figcaption>
 </figure>
