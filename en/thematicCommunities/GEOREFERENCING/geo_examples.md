@@ -127,8 +127,8 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;">degrees minutes seconds</td>
     </tr>
     <tr>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimSRS</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">unknown</td>
+        <td style="text-align: left; padding: 10px;"><i>verbatimSRS</i></td>
+        <td style="text-align: left; padding: 10px;">unknown</td>
     </tr>
     <tr>
         <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2b</a><br> <strong>Convert</strong><br> verbatim Coordinates data</td>
@@ -151,6 +151,23 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2c</a><br> <strong>Document</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>georeferenceRemarks</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
+        <td style="text-align: left; padding: 10px;"><i>att</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>att</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>att</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>att</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
   </tbody>
 </table>
