@@ -193,15 +193,9 @@ In addition to these two parts, coordinates in one or two of the available swiss
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
     <tr>
-        <th rowspan="2" style="text-align: center; border: 3px solid black; padding: 10px;">Import examples</th>
+        <th style="text-align: center; border: 3px solid black; padding: 10px;">Import examples</th>
         <th colspan="2" style="text-align: center; vertical-align: middle; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.background }};">Imported values</th>
         <th colspan="2" style="text-align: center; vertical-align: middle; border:3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.background }};">Encoded values</th>
-    </tr>
-    <tr>
-        <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency }};">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.importedValues.transparency }};">Value</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency }};">Attribute</th>
-        <th style="text-align: left; border: 3px solid black; padding: 10px; background-color: {{ site.data.colors.encodedValues.transparency }};">Value</th>
     </tr>
   </thead>
   <tbody>
