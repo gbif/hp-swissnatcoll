@@ -12,7 +12,7 @@ sideNavigation: sideNavigation.tutorials
 
 A data aggregator is a tool that combines data from different sources in order to build a coherent dataset that can be used for data processing, data publishing, etc. In our case, DAGI is a data aggregator platform to upload and enrich data. It's goal is to facilitate the visibility and publication of the data, specifically on GBIF.org. With the use of a versioning system and a changelog, the data can easily be updated and re-published in an up-to-date state. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many processes.
 
-<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Data preparation</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Data preparation</h1>
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
@@ -476,7 +476,7 @@ Here is a table with those fields and their definition:
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
 
-<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Data Aggregator functionalities</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
 ## Can I upload images in the Data Aggregator?
 
@@ -725,7 +725,7 @@ Here is the **safest method to open any csv file**:
 3. Click on **Conver to range** in the Ribbon (Second element, bottom line, on the left of the Table Design ribbon).
 - Your data is now a usual excel sheet.
 
-<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Special cases</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Special cases</h1>
 
 ## My institution already has data on GBIF.org, how is this dealt with?
 
