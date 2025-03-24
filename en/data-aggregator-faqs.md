@@ -12,7 +12,7 @@ sideNavigation: sideNavigation.tutorials
 
 A data aggregator is a tool that combines data from different sources in order to build a coherent dataset that can be used for data processing, data publishing, etc. In our case, DAGI is a data aggregator platform to upload and enrich data. It's goal is to facilitate the visibility and publication of the data, specifically on GBIF.org. With the use of a versioning system and a changelog, the data can easily be updated and re-published in an up-to-date state. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many processes.
 
-<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data preparation</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Data preparation</h1>
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
@@ -282,9 +282,9 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
       <col style="width: 30%;">   <!-- Examples -->
     </colgroup>
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;">DAGI Attribute</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;">Value required</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;">Examples</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">DAGI Attribute</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Value required</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Examples</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>catalogNumber</em></td>
@@ -476,7 +476,7 @@ Here is a table with those fields and their definition:
 * Save your file with the "Save as" option and change the encoding to UTF-8.
 
 
-<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Data Aggregator functionalities</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
 ## Can I upload images in the Data Aggregator?
 
@@ -577,15 +577,15 @@ Here are the Thesaurii available in DAGI:
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #E9956D;"  rowspan="2">API Category</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #59B1A3;" colspan="2">Source Data</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #77CDEE;" colspan="2">Output Data = ENCODED</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};"  rowspan="2">API Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};" colspan="2">Source Data</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};" colspan="2">Output Data = ENCODED</th>
     </tr>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Attribute</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #9de7da;">Value (example)</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Attribute</th>
-      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: #BEE1EE;">Value (example)</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.value.transparency }};">Attribute</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.value.transparency }};">Value (example)</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.exampleValues.transparency }};">Attribute</th>
+      <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.exampleValues.transparency }};">Value (example)</th>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">GBIF Taxonomy</td>
@@ -725,7 +725,7 @@ Here is the **safest method to open any csv file**:
 3. Click on **Conver to range** in the Ribbon (Second element, bottom line, on the left of the Table Design ribbon).
 - Your data is now a usual excel sheet.
 
-<h1 style="background-color: #D3F7FF; padding: 10px; color: black;">Special cases</h1>
+<h1 style="background-color: {{ site.data.colors.lightblue.background }}; padding: 10px; color: black;">Special cases</h1>
 
 ## My institution already has data on GBIF.org, how is this dealt with?
 
@@ -755,7 +755,7 @@ The inclusion of the geological data of Switzerland is still in discussion, and 
       bottom: 40px;
       right: 120px;
       display: none;
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
       color: white;
       text-align: center;
       padding: 5px;
@@ -769,7 +769,7 @@ The inclusion of the geological data of Switzerland is still in discussion, and 
     }
 
     #back-to-top:hover {
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
     }
   </style>
 </head>
