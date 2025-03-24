@@ -94,7 +94,7 @@ sideNavigation: sideNavigation.georeferencing
   </thead>
   <tbody>
     <tr>
-        <td rowspan="3" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1<br> Transcribe<br> verbatim Location data</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1.1a<br> <strong>Transcribe</strong><br> verbatim Location data</td>
         <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
         <td style="text-align: left; padding: 10px;">MALAYSIA<br> Sabah<br> Borneo. Lahad Datu District.<br> Gunung Silam Ultramafic soil.</td>
     </tr>
@@ -103,11 +103,12 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;">365 m</td>
     </tr>
     <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1.1b<br> <strong>Document</strong><br> verbatim Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
     <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 2<br> Transcribe<br> verbatim Coordinates data</td>
+        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1.2a<br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>verbatimCoordinates</i></td>
         <td style="text-align: left; padding: 10px;">04°58’14’‘N 118°10’44’‘E</td>
     </tr>
@@ -128,7 +129,7 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">unknown</td>
     </tr>
     <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 3<br> Convert<br> verbatim Coordinates data</td>
+        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1.2b<br> <strong>Convert</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
@@ -145,6 +146,7 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">Step 1.2c<br> <strong>Document</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>georeferenceRemarks</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
