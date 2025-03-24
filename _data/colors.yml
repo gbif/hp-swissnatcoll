@@ -16,8 +16,23 @@ lightgreen:
 # ==============================================
 importedValues:
   background: "rgba(89, 177, 163)"
-  transparency: rgba(157, 231, 218)"
+  transparency: "rgba(157, 231, 218)"
 
 encodedValues:
   background: "rgba(119, 205, 238)"
-  transparency: rgba(190, 225, 238)"
+  transparency: "rgba(190, 225, 238)"
+
+exampleValues:
+  background: "rgba(119, 205, 238)"
+  transparency: "rgba(190, 225, 238)"
+  
+# ==============================================
+# ATTRIBUTE / VALUE tables
+# ==============================================
+attribute:
+  background: "rgba(233, 149, 109)"
+  transparency: "rgba(255, 232, 188)"
+
+value:
+  background: "rgba(89, 177, 163)"
+  transparency: "rgba(157, 231, 218)"
