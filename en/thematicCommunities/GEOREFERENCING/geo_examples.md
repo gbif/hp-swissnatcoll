@@ -174,6 +174,7 @@ sideNavigation: sideNavigation.georeferencing
   </tbody>
 </table>
 
+---
 
 ## Location without coordinates
 
