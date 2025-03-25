@@ -496,7 +496,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>locality</i></td>
-        <td style="text-align: left; padding: 10px;">Champel</td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
@@ -527,11 +527,11 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Anouk Mentha</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">2025-02-01/2025-02-28</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
@@ -539,7 +539,8 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Google Maps (february 2025)
+</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
