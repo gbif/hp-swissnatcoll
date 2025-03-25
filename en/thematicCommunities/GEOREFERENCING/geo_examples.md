@@ -74,7 +74,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer1.addHandler("open", function() {
-        viewer1.viewport.panTo(new OpenSeadragon.Point(0.75, 1.25));
+        viewer1.viewport.panTo(new OpenSeadragon.Point(0.76, 1.23));
         viewer1.viewport.zoomTo(2.0);
     });
 </script>
@@ -345,7 +345,7 @@ sideNavigation: sideNavigation.georeferencing
 
     viewer3.addHandler("open", function() {
         viewer3.viewport.panTo(new OpenSeadragon.Point(0.43, 0.97));
-        viewer3.viewport.zoomTo(1.9);
+        viewer3.viewport.zoomTo(1.95);
     });
 </script>
 
