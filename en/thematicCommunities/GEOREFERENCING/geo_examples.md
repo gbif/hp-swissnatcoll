@@ -74,7 +74,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer1.addHandler("open", function() {
-        viewer1.viewport.panTo(new OpenSeadragon.Point(0.76, 1.23));
+        viewer1.viewport.panTo(new OpenSeadragon.Point(0.74, 1.21));
         viewer1.viewport.zoomTo(2.0);
     });
 </script>
@@ -236,7 +236,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer2.addHandler("open", function() {
-        viewer2.viewport.panTo(new OpenSeadragon.Point(0.8, 1.25));
+        viewer2.viewport.panTo(new OpenSeadragon.Point(0.795, 1.245));
         viewer2.viewport.zoomTo(2.5);
     });
 </script>
@@ -268,8 +268,8 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>verbatimCoordinates</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
+        <td style="text-align: left border-bottom: 1px solid black;; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>none</i></td>
     </tr>
     <tr>
         <td rowspan="11" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised textual Location data</td>
@@ -323,8 +323,8 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
@@ -355,13 +355,13 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>coordinatePrecision</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>georeferencedBy</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
@@ -446,31 +446,65 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1b</a><br> <strong>Document</strong><br> verbatim Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
+        <td style="text-align: left border-bottom: 1px solid black;; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>none</i></td>
+    </tr>
+    <tr>
+        <td rowspan="11" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised textual Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; padding: 10px;">Asia</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>waterBody</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>islandGroup</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>island</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; padding: 10px;">Georgia</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; padding: 10px;">CH</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
+        <td style="text-align: left; padding: 10px;">Samegrelo-Zemo Svaneti</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>county</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>municipality</i></td>
+        <td style="text-align: left; padding: 10px;">Chkhorotsqu</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>locality</i></td>
+        <td style="text-align: left; padding: 10px;">Champel</td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">Municipality inferred from label translation</td>
     </tr>
     <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2a</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>verbatimCoordinates</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>verbatimLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>verbatimLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>verbatimCoordinateSystem</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>verbatimSRS</i></td>
-        <td style="text-align: left; padding: 10px;"><i>none</i></td>
-    </tr>
-    <tr>
-        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2b</a><br> <strong>Convert</strong><br> verbatim Coordinates data</td>
+        <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
         <td style="text-align: left; padding: 10px;">42.52373</td>
     </tr>
@@ -479,43 +513,37 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;">42.12743</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;">10000</td>
-    </tr>
-    <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
         <td style="text-align: left; padding: 10px;">EPSG:4326 (=WGS84)</td>
     </tr>
     <tr>
-        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2c</a><br> <strong>Document</strong><br> verbatim Coordinates data</td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>georeferenceRemarks</i></td>
+        <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
+        <td style="text-align: left; padding: 10px;">10000</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>coordinatePrecision</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
     <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
-        <td style="text-align: left; padding: 10px;">Asia</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>country</i></td>
-        <td style="text-align: left; padding: 10px;">Georgia</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
-        <td style="text-align: left; padding: 10px;">Samegrelo-Zemo Svaneti</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>municipality</i></td>
-        <td style="text-align: left; padding: 10px;">Chkhorotsqu</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>locality</i></td>
+        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
+        <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td rowspan="1" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
+        <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
         <td style="text-align: left; padding: 10px;">point-radius method</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
   </tbody>
 </table>
