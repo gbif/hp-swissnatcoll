@@ -268,7 +268,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
-        <td style="text-align: left border-bottom: 1px solid black;; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimCoordinates</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>none</i></td>
     </tr>
     <tr>
@@ -450,7 +450,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
-        <td style="text-align: left border-bottom: 1px solid black;; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimCoordinates</i></td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>none</i></td>
     </tr>
     <tr>
