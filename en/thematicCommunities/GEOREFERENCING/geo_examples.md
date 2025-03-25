@@ -228,7 +228,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1a</a><br> <strong>Transcribe</strong><br> verbatim Location data</td>
         <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Murs à Champel, Genève</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>verbatimElevation</i></td>
