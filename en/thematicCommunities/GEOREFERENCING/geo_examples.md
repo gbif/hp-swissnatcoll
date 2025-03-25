@@ -1,3 +1,11 @@
+---
+layout: documentation
+permalink: /en/geo-examples
+title: Examples for georeferencing
+toc: true
+sideNavigation: sideNavigation.georeferencing
+---
+
 <head>
     <!-- OpenSeadragon CSS and JS -->
     <script src="https://openseadragon.github.io/openseadragon/openseadragon.min.js"></script>
