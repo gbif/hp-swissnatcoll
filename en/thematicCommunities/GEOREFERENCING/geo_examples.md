@@ -132,15 +132,15 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2b</a><br> <strong>Convert</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">4.97056</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">118.17889</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">49</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
@@ -149,24 +149,32 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2c</a><br> <strong>Document</strong><br> verbatim Coordinates data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">uncertainty calculating using the Wieczorek C, J Wieczorek (2021) Georeferencing Calculator</td>
     </tr>
     <tr>
         <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>att</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; padding: 10px;">Asia</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>att</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; padding: 10px;">Malaysia</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>att</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
+        <td style="text-align: left; padding: 10px;">Sabah</td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>att</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;"><i>island</i></td>
+        <td style="text-align: left; padding: 10px;">Borneo</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>county</i></td>
+        <td style="text-align: left; padding: 10px;">Lahad Datu District</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>locality</i></td>
+        <td style="text-align: left; padding: 10px;">Gunung Silam</td>
     </tr>
   </tbody>
 </table>
