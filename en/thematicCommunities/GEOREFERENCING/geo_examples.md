@@ -74,6 +74,19 @@ sideNavigation: sideNavigation.georeferencing
         var zoom = viewer1.viewport.getZoom().toFixed(2);
         document.getElementById("zoom-level1").innerText = "Zoom: " + zoom;
     });
+    
+    // Set the initial position to the bottom right corner
+    viewer1.addHandler("open", function() {
+        var viewport = viewer1.viewport;
+        viewport.panTo(new OpenSeadragon.Point(0.75, 1.25)); // Bottom right corner
+        viewport.zoomTo(2.0); // Maintain initial zoom level
+    });
+
+    // Update Zoom Level Display
+    viewer1.addHandler("zoom", function(event) {
+        var zoom = viewer1.viewport.getZoom().toFixed(2);
+        document.getElementById("zoom-level").innerText = "Zoom: " + zoom;
+    });
 </script>
 
 <br>
@@ -207,6 +220,19 @@ sideNavigation: sideNavigation.georeferencing
     viewer2.addHandler("zoom", function(event) {
         var zoom = viewer2.viewport.getZoom().toFixed(2);
         document.getElementById("zoom-level2").innerText = "Zoom: " + zoom;
+    });
+    
+    // Set the initial position to the bottom right corner
+    viewer2.addHandler("open", function() {
+        var viewport = viewer2.viewport;
+        viewport.panTo(new OpenSeadragon.Point(0.75, 1.25)); // Bottom right corner
+        viewport.zoomTo(2.0); // Maintain initial zoom level
+    });
+
+    // Update Zoom Level Display
+    viewer2.addHandler("zoom", function(event) {
+        var zoom = viewer2.viewport.getZoom().toFixed(2);
+        document.getElementById("zoom-level").innerText = "Zoom: " + zoom;
     });
 </script>
 
