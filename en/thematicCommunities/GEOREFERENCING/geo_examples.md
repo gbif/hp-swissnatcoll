@@ -525,7 +525,7 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
     <tr>
-        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
+        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
         <td style="text-align: left; padding: 10px;">Anouk Mentha</td>
     </tr>
@@ -539,8 +539,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;">Google Maps (february 2025)
-</td>
+        <td style="text-align: left; padding: 10px;">Google Maps (february 2025)</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
