@@ -152,7 +152,7 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">uncertainty calculating using the Wieczorek C, J Wieczorek (2021) Georeferencing Calculator</td>
     </tr>
     <tr>
-        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
+        <td rowspan="6" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised Coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>continent</i></td>
         <td style="text-align: left; padding: 10px;">Asia</td>
     </tr>
