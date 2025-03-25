@@ -84,7 +84,6 @@ sideNavigation: sideNavigation.georeferencing
 </script>
 
 <br>
-<br>
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
