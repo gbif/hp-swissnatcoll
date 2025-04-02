@@ -10,7 +10,9 @@ sideNavigation: sideNavigation.tutorials
 
 ## What is a data aggregator?
 
-A data aggregator is a **tool that combines data from different sources in order to build a coherent dataset** that can be used for data processing, data publishing, etc. **DAGI is a swiss data aggregator application to upload and enrich data from the natural history institutions and collections of Switzerland**. It's goal is to facilitate the visibility and publication of the data on [GBIF.org](https://www.gbif.org/){:target="_blank"}. With the use of a **versioning system** and a **changelog**, the data can **easily be updated** and **re-published in an up-to-date state**. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many time-consuming processes.
+A data aggregator is a **tool that combines data from different sources in order to build a coherent dataset** that can be used for data processing, data publishing, etc. 
+
+**DAGI is a swiss data aggregator application to upload and enrich data from the natural history institutions and collections of Switzerland**. It's goal is to facilitate the visibility and publication of the data on [GBIF.org](https://www.gbif.org/){:target="_blank"}. With the use of a **versioning system** and a **changelog**, the data can **easily be updated** and **re-published in an up-to-date state**. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many time-consuming processes.
 
 ## Who is in charge of DAGI?
 
@@ -23,6 +25,10 @@ For questions regarding DAGI, please send an email to [contact-swissnatcoll@info
 ![DAGI, global overview](/assets/images/GraphsDiagrams/DAGI_largeOverview.png "DAGI, global overview")
 
 <br>
+
+## Who is DAGI for?
+
+DAGI's main users are the swiss natural history institution's staff in charge of managing and working with the natural history collections (e.g. curators, scientific collaborators, people appointed by the institution). The institutions concerned are the ones registered in the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"})
 
 <h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Data preparation</h1>
 
