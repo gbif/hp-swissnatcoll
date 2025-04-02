@@ -12,11 +12,11 @@ sideNavigation: sideNavigation.tutorials
 
 A data aggregator is a **tool that combines data from different sources in order to build a coherent dataset** that can be used for data processing, data publishing, etc. 
 
-**DAGI is a swiss data aggregator application to upload and enrich data from the natural history institutions and collections of Switzerland**. It's goal is to facilitate the visibility and publication of the data on [GBIF.org](https://www.gbif.org/){:target="_blank"}. With the use of a **versioning system** and a **changelog**, the data can **easily be updated** and **re-published in an up-to-date state**. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many time-consuming processes.
+**DAGI is a swiss data aggregator application to upload and enrich data from the natural history institutions and collections of Switzerland**. Its goal is to facilitate the visibility and publication of the data on [GBIF.org](https://www.gbif.org/){:target="_blank"}. With the use of a **versioning system** and a **changelog**, the data can **easily be updated** and **re-published in an up-to-date state**. The development of this tool provides the opportunity to homogenize data across the Swiss institutions and automatise many time-consuming processes.
 
 ## Who is in charge of DAGI?
 
-DAGI is currently under the management of the GBIF Swiss Node ([GBIFch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
+DAGI is currently under the management of the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
 
 For questions regarding DAGI, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch). We will be happy to provide you answers and support or adress you to the correct person.
 
@@ -34,7 +34,7 @@ DAGI's main users are the swiss natural history institution's staff in charge of
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-There is no need to upload all of your database into the Data Aggregator DAGI. You can choose to upload only the most important fields for a selected set of records. The key element in the aggregator is the [catalogNumber field](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your DAGI Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the DAGI Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
+There is no need to upload all of your database into the Data Aggregator DAGI. You can choose to upload only the most important fields for a selected set of records. Keep in mind that the data you import in DAGI The key element in the aggregator is the [catalogNumber field](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your DAGI Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the DAGI Collection, then its attributes (other fields) are simply **updated** when importing a dataset.
 
 To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into DAGI.
 
