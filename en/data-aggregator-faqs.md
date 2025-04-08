@@ -1038,10 +1038,10 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid #ccc; padding: 8px;">"Rubiaceae Coffea liberica"</td>
       <td style="border: 1px solid #ccc; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
     </tr>
-    <!--tr-->
-      <!--td style="border: 1px solid #ccc; padding: 8px;"></td-->
-      <!--td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td-->
-    <!--/tr-->
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;">"<i>example coming soon</i>"</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+    </tr>
     <tr>
       <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid #ccc; padding: 8px;">"01.01.2025"</td>
