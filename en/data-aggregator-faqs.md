@@ -1074,8 +1074,8 @@ Here is the **safest method to open any csv file**:
 
 ## How do I change the table format of my opened CSV file?
 
-1. Select your whole dataset (Cnrtl + A).
-2. Click on **Table Design** in the Quick Access Toolbar ( ... Automate  Help  **Table Design** Query).
+1. Select your whole dataset (Crtl + A).
+2. Click on **Table Design** in the Quick Access Toolbar ( ... Automate - Help - **Table Design** - Query).
 3. Click on **Conver to range** in the Ribbon (Second element, bottom line, on the left of the Table Design ribbon).
 - Your data is now a usual excel sheet.
 
