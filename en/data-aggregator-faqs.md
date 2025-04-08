@@ -1020,6 +1020,8 @@ Here are the Thesaurii available in DAGI:
   </table>
 </div>
 
+<br>
+
 #### Examples of data that can't be encoded
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -1033,12 +1035,21 @@ Here are the Thesaurii available in DAGI:
   <tbody>
     <tr>
       <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">scientificName</td>
-      <td style="border: 1px solid #ccc; padding: 8px;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px;">words corresponding to another rank than the scientific name (Genus + specific epithet + author)</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">"Rubiaceae Coffea liberica"</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
+    </tr>
+    <!--tr-->
+      <!--td style="border: 1px solid #ccc; padding: 8px;"></td-->
+      <!--td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td-->
+    <!--/tr-->
+    <tr>
+      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">"01.01.2025"</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;"></td>
-      <td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">"2025-1-1"</td>
+      <td style="border: 1px solid #ccc; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
     </tr>
   </tbody>
 </table>
@@ -1050,12 +1061,16 @@ CSV files are quite tricky to open with Excel because the encoding of the file i
 
 Here is the **safest method to open any csv file**:
 1. Open a new empty excel workbook.
-2. Click on **Data** in the Quick Access Toolbar (File  Home  Insert  Page Layout  Formulas **Data** Review ...).
+2. Click on **Data** in the Quick Access Toolbar (File - Home - Insert - Page Layout - Formulas - **Data** - Review ...).
 3. Click on **Get Data** in the Ribbon (First element on the left of the Data ribbon).
 4. Choose **From File** and then **From Text/CSV**.
 - A pop-up window opens, displaying the content of your CSV file, the corresponding encoding and the separation used. Make sure that the encoding format is "65001: Unicode (UTF-8)" for the File Origin.
 5. Click on **Load** at the bottom of the pop-up window
 - Your data is now being loaded in your excel workbook and is now correctly displayed as a table.
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: #d1b3eb; margin-bottom: 20px; border-radius: 4px; color: #6a1b9a; background-color: #e6d3f2;">
+📝 Be careful that the decimal separator (comma or period) can be changed by Excel itself depending if you have a french or english software.
+</div>
 
 ## How do I change the table format of my opened CSV file?
 
