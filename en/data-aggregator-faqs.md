@@ -398,7 +398,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 ## Are there attributes in DAGI that are not part of Darwin Core?
 
-Some of the attributes in DAGI have been borrowed from other sources (e.g. [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"}, GBIF Swiss Node) or have been homemade to answer specific needs of our swiss institutions (e.g. our swiss coordinate systems). These attributes can't be yet published on GBIF (because GBIF does not have the structure for them). However some are used in DAGI during the encoding, and can ben sent to the Info Species data centers through the Validation
+**Some of the attributes in DAGI have been borrowed from other sources** (e.g. [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"}, GBIF Swiss Node) **or have been homemade to answer specific needs** of our swiss institutions (e.g. our swiss coordinate systems). **These attributes can't be yet published on GBIF** (because GBIF does not have the structure for them). However some are used in DAGI during the encoding, and **can ben sent to the Info Species data centers through the Validation**.
 
 Here is a table with these attributes and their definition:
 
@@ -594,7 +594,11 @@ Here is a table with these attributes and their definition:
       </tr>
       <tr>
         <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">gbifDOI</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIF DOI generated for a specimen</td>
+        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIF DOI generated for a published dataset</td>
+        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+      </tr>      <tr>
+        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">gbifCHID</td>
+        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIFCH unique identifier</td>
         <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
@@ -756,8 +760,6 @@ Here is a table with these attributes and their definition:
   </table>
 </div>
 
-
-
 ## How can I check if my import file is encoded in UTF-8?
 
 * Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" style="vertical-align:middle" height="15" width="15"> Notepad app.
@@ -767,48 +769,63 @@ Here is a table with these attributes and their definition:
 
 <img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" alt="TXT file in UTF-8 encoding (Unicode Transformation Format – 8-bit)" width="451" height="204" style="vertical-align:middle;margin:0px 100px">
 
-* Save your file with the "Save as" option and change the encoding to UTF-8.
+* Save your file with the _Save as_ option and change the encoding to UTF-8.
 
 
 <h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
 ## Can I upload images in the Data Aggregator?
 
-There are two ways to have images associated to your records in DAGI.
+There are **two ways to have images associated to your records** in DAGI.
 1. Insert the URL of your image (when deposited in a public repository) in the attribute _associatedMedia_ --> see [here below](#my-images-are-already-publicly-available-on-a-website-do-i-have-to-upload-them-too).
-2. Upload your pictures in ZIP files in the DAGI Media Store.
+2. Upload your pictures in ZIP files in the DAGI Media Store --> See the Guide section about Image Upload (available to DAGI users)
 
 ### My images are already publicly available on a website, do I have to upload them too?
 
-No, you don't need the Media Store of DAGI if your images are already available publicly. What you can do is write down the **link to your images** in the field [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}.
+No, you don't need the Media Store of DAGI if your images are already publicly available. What you can do is import the **link to your images** in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'}.
 
-> Example 1: associatedMedia = [https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg](https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg)<br>
+| associatedMedia |
+| --------------- |
+| https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg |
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ Make sure to import the URL to the file itself (must end with the extension for it to be displayed on GBIF)
+</div>
 
 ## I made a mistake when importing my data into the Data Aggregator, what do I do?
 
-DAGI has a structure in three different layers (imported data, encoded data and approved data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
+**You can simply import a new file** with the correct values and the same _catalogNumber_. The values in DAGI will be replaced. If you import empty values for an attribute in DAGI, then the attribute is emptied.
+
+DAGI has a structure in three different layers (imported data, encoded data and validated data). For each of them, the history of all imported data is kept continuously. Therefore you can simply re-upload your correct dataset, do the correct mapping and encode it again. As long as your catalogNumber data is consistent, the rest is simply updated when importing a dataset with known catalogNumber values.
 
 ## What are the different roles of the user profile on the Data Aggregator?
 
 There are two different roles for user profile in DAGI:
-- **Data Administrator**
-  - can view the collections of their institution
-  - can upload, map, encode, export and publish the records in the collections of their institution
-<br>
-- **Collection Digitizer**
+- **Collection Administrator**
   - can view, add, edit and remove users of their institution
-  - can view, add and edit collections of their institution
+  - can view, add and edit datasets of their institution
+  - can publish datasets on GBIF.org
+
+- **Data Digitizer**
+  - can view the datasets of their institution
+  - can import, encode, export and send records for Validation in the datasets of their institution
+<br>
  
 <br>
 
-| Tasks | Data Administrator | Collection Digitizer |
+| Tasks | Collection Administrator | Data Digitizer |
 | ----- | ------------------ | -------------------- |
-| **Users** -view/add/edit/remove | ❌ | ✅ own institution |
-| **Collections** -view | ✅ own institution | ✅ own institution |
-| **Collections** -add/edit | ❌ | ✅ own institution |
-| **Records** -upload/mapping/encode/export/publish | ✅ | ❌ |
+| **Users** -view/add/edit/remove | ✅ | ❌ |
+| **Datasets** -view | ✅ | ✅ |
+| **Datasets** -add/edit | ✅ | ❌ |
+| **Records** -import/encode/export/send for validation | ❌ | ✅ |
+| **Records** -publish | ✅ | ❌ |
 
-<br><br>
+<br>
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
+</div>
+<br>
 
 {: .box }
 For all users and roles, the following rules apply:
@@ -817,24 +834,26 @@ For all users and roles, the following rules apply:
 <br>🔸One **user** can have **more than one role**
 <br>🔸**A user profile is specific to an individual and must not be shared with others**
 
+<br>
+
 ### My institution does not have a Collection Digitizer yet, what can I do?
 
 Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
 
 ### How can I have more users in my institution?
 
-Only Collection Digitizers can add/edit/remove and assign roles to other users for their institution. To do this, go to the Administration page on DAGI (icon on the left of your DAGI's page) and click on **👤➕ Add user**.
+**Only Collection Administrators can add/edit/remove and assign roles to other users for their institution**. To do this, go to the Administration page on DAGI (icon on the left side of your DAGI's page) and click on **👤➕ Add user**.
 
-We consider that the Collection Digitizer is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
+We consider that the Collection Administrator is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
 
 ## What are the different data layers of the Data Aggregator?
 
-The data inside DAGI is organised in a table, with **entities** in lines (= specimens with a unique catalogNumber value associated) and **attributes** in columns. The **value** is the information stored in a given attribute for a given entity. 
+The data inside DAGI is organised in a table, with **entities** (records) in lines (= specimens with a unique catalogNumber value associated) and **attributes** in columns. The **value** is the information stored in a given attribute for a given record. 
 
 The values of a given entity can be added and updated in three different layers:
-  1. The **Raw layer**: this layer contains the verbatim attributes and the interpreted attributes (encoded and enriched) imported in the import files. The import files come from the Museum, are uploaded by the museums, are updated if a new import file contains entities (records) already present in the Raw layer.
-  2. The **Encoded layer**: this layer is in two parts, the encode part and the enrich part. For each encoded and enriched attribute, DAGI uses reference attributes (e.g. scientificName, locality, country, decimalLatitude/decimalLongitude, etc...) to fetch the corresponding values found in a set of thesaurii. The acquired values are then added to the corresponding entities' attribute of that layer.
-  3. The **Approval layer**: this layer concerns the validation of the data by the swiss Infospecies data centers, specifically in cases where sensitive data must be hidden or replaced by a less precise information (e.g. the coordinates of a rare and threatened species are replaced by their corresponding 10 km-square).
+  1. The **Raw layer**: this layer contains the verbatim attributes and the interpreted attributes (encoded and enriched) imported in the import files. The import files come from the institutions, are uploaded by the institutions, are updated if a new import file contains entities (records) already present in the Raw layer.
+  2. The **Encoded layer**: this layer is in two parts, the encoded part and the enriched part. For each encoded and enriched attribute, DAGI uses reference attributes (e.g. _scientificName_, _locality_, _country_, _decimalLatitude/decimalLongitude_, etc...) to fetch the corresponding values found in a set of thesaurii. The acquired values are then added to the corresponding entities' attribute of that layer.
+  3. The **Validation layer**: this layer concerns the validation of the data by the swiss Infospecies data centers, specifically in cases where sensitive data must be hidden or replaced by a less precise information (e.g. the coordinates of a rare and threatened species are replaced by their corresponding 10 km-square).
 
 <figure class="has-text-centered">
   <a href="/assets/images/GraphsDiagrams/Dagi_dataLayers.png" data-lightbox="image-1" 
