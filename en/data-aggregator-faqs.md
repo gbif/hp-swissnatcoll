@@ -867,25 +867,27 @@ The values of a given entity can be added and updated in three different layers:
 
 ### What does the Encoding do?
 
-The Encoding process standardises important values of your data, and enriches your specimen with new standard information it did not have.
+The Encoding process **standardises important values** of your data, and **enriches your record with new standard information** it did not have.
 
 Here are the Thesaurii available in DAGI:
 
 | Category | Resource | Field(s) used for query | Information encoded |
 | -------- | -------- | ----------------------- | ------------------- |
-| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | scientificName | taxonID, kingdom, phylum, order, class, family, genus, specificEpithet, scientificNameAuthorship, scientificName |
-| Swiss Species | PICTIS | taxonID | taxonIdCH, acceptedNameUsage |
-| Geo Reverse | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | decimalLatitude, decimalLongitude* | continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95_x,_y and swissCoordinatesLv03_x,_y) |
-| Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | country, continent | continent, country, countryCode |
-| GBIF IUCN Redlist | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | taxonID | iucn_redlist_category |
+| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | _scientificName_ | _taxonID_, _kingdom_, _phylum_, _order_, _class_, _family_, _genus_, _specificEpithet_, _scientificNameAuthorship_, _scientificName_ |
+| Swiss Species | PICTIS | _taxonID_ | _taxonIdCH_, _acceptedNameUsage_ |
+| Geo Reverse | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | _decimalLatitude_, _decimalLongitude_* | _continent_, _country_, _countryCode_, _stateProvince_, _municipality_, (if in CH: _swissCoordinatesLv95_E/N_ and _swissCoordinatesLv03_E/N_) |
+| Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | _country_, _continent_ | _continent_, _country_, _countryCode_ |
+| GBIF IUCN Redlist | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | _taxonID_ | _iucn_redlist_category_ |
 | Add Institution Code | [GBIF Registry API](https://techdocs.gbif.org/en/openapi/v1/registry){:target='_blank'} ([GRSciColl](https://scientific-collections.gbif.org/){:target='_blank'}) | (Collection where encoding is done in DAGI) | institutionCode, institutionID |
-| Relate Images** | DAGI Media Store | Attribute selected during Image Upload | associatedMedia |
+| Relate Images | DAGI Media Store | Attribute selected during Image Upload | associatedMedia |
+| Date Conversion** | DAGI internal code | a. _eventDate_ <br> b. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ |  a. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ <br> b. _eventDate_
 
-*If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_x, swissCoordinatesLv95_y (=CH1903+/LV95) or swissCoordinatesLv03_x, swissCoordinatesLv03_y (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
+*If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_E, swissCoordinatesLv95_N (=CH1903+/LV95) or swissCoordinatesLv03_E, swissCoordinatesLv03_N (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
 
-**The Image Upload is not yet available, changes to this line might occur.
+** _eventDate_ value must be exactly ISO 8601-1:2019 standard YYYY-MM-DD
 
-#### Example of encoded data
+
+#### Examples of encoded data
 
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
@@ -978,19 +980,19 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">Benken (ZH)</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_E</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">2692331.25671</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_N</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">1279034.48212</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_x</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_E</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">692331.25671</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_y</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_N</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">279034.48212</td>
     </tr>
     <tr>
@@ -1017,6 +1019,30 @@ Here are the Thesaurii available in DAGI:
     </tr>
   </table>
 </div>
+
+#### Examples of data that can't be encoded
+
+<table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+  <thead>
+    <tr>
+      <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }}">DAGI Attribute</th>
+      <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value that can't be encoded</th>
+      <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.exampleValues.background }};">Cause</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">scientificName</td>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px;">words corresponding to another rank than the scientific name (Genus + specific epithet + author)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 8px;"></td>
+      <td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## How do I most effectively open a csv file?
 
