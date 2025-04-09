@@ -66,9 +66,9 @@ var siteConfig = {
     },
     mapSettings: {
       enabled: true,
-      lat: 0,
-      lng: 0,
-      zoom: 15
+      lat: 46.54547556985693,
+      lng: 8.092451942260254,
+      zoom: 7
     },
   },
   literature: {
