@@ -66,8 +66,8 @@ var siteConfig = {
     },
     mapSettings: {
       enabled: true,
-      lat: 46.54547556985693,
-      lng: 8.092451942260254,
+      lat: 0,
+      lng: 0,
       zoom: 15
     },
   },
