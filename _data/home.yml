@@ -17,11 +17,11 @@ stats:
       imageLicense: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
       href: "/collection/search"
       
-    - title: "907'950"
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?limit=0&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7"></span>
       description: "Published specimens"
       background: /assets/images/swissMuseumsImages/DSC_5509.jpg
       imageLicense: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
-      #href: "/occurrence/search"
+      href: "/occurrence/search"
 
 # ============================================================================================================================
 # THEMATIC COMMUNITIES
