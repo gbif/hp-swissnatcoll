@@ -10,18 +10,16 @@ permalink: /en/navigating_in_the_data
 ---
 
 # What data can be found on the SwissNatColl portal?
-The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](/institution/search)** and is **hosted on [GBIF.org](https://www.gbif.org/)**.
+The data accessible on this hosted portal has been **provided by the [swiss natural history institutions](/institution/search){:target="_blank"}** and **published on [GBIF.org](https://www.gbif.org/){:target="_blank"}** by the **swiss data aggregator [DAGI](/en/data-aggregator-about/){:target="_blank"}**.
 
 There are currently 3 entry points to the data:
-1. 📍[Occurrences](/occurrence/search), each element of the table is a specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=) but shows only specimens held in the swiss natural history institutions.
+1. 📍[Occurrences](/occurrence/search){:target="_blank"}, each element of the table is a specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=){:target="_blank"} but shows only specimens held in the swiss natural history institutions.
 
 2. 🗃️[Collections](/collection/search), each element of the table is a collection of a natural history institution. This view is based on the [GBIF Registry - GRSciColl collections](https://registry.gbif.org/collection/search).
 
 3. 🏛️[Institutions](/institution/search), each element of the table is a swiss natural history institution who is part of the SwissCollNet project network. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed.
 
-4. 🔖 [Typus](/occurrence/search?typeStatus=TYPE&typeStatus=TYPE_SPECIES&typeStatus=TYPE_GENUS&typeStatus=ALLOLECTOTYPE&typeStatus=ALLONEOTYPE&typeStatus=ALLOTYPE&typeStatus=COTYPE&typeStatus=EPITYPE&typeStatus=EXEPITYPE&typeStatus=EXHOLOTYPE&typeStatus=EXISOTYPE&typeStatus=EXLECTOTYPE&typeStatus=EXNEOTYPE&typeStatus=EXPARATYPE&typeStatus=EXSYNTYPE&typeStatus=EXTYPE&typeStatus=HAPANTOTYPE&typeStatus=HOLOTYPE&typeStatus=ICONOTYPE&typeStatus=ISOLECTOTYPE&typeStatus=ISOPARATYPE&typeStatus=ISONEOTYPE&typeStatus=ISOSYNTYPE&typeStatus=ISOTYPE&typeStatus=LECTOTYPE&typeStatus=NEOTYPE&typeStatus=PARALECTOTYPE&typeStatus=PARANEOTYPE&typeStatus=PARATYPE&typeStatus=PLASTOHOLOTYPE&typeStatus=PLASTOISOTYPE&typeStatus=PLASTOLECTOTYPE&typeStatus=PLASTONEOTYPE&typeStatus=PLASTOPARATYPE&typeStatus=PLASTOSYNTYPE&typeStatus=PLASTOTYPE&typeStatus=SECONDARYTYPE&typeStatus=SUPPLEMENTARYTYPE&typeStatus=SYNTYPE&typeStatus=TOPOTYPE&typeStatus=ORIGINALMATERIAL), each element of the table is a filtered typus specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=) but shows only typus specimens held in the swiss natural history institutions.
-
-5. 🔬 [3D models](/en/threeDmodels), a model viewer displays a selected 3D model of a specimen held in a swiss institution. The model can be viewed from different angles and zoomed in and out. If the specimen data is also available on GBIF, the link and a few basic information is provided.
+4. 🔬 [3D models](/en/threeDmodels), a model viewer displays a selected 3D model of a specimen held in a swiss institution. The model can be viewed from different angles and zoomed in and out. If the specimen data is also available on GBIF, the link and a few basic information is provided.
 
 
 <br>
