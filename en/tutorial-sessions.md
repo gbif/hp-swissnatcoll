@@ -53,71 +53,47 @@ _TBA_
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🥾 Step-by-step description
+      🥾 Guide
+    </button>
+  </a>
+  <a href="/en/data-dwc" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='#FA5E97';"
+            onmouseout="this.style.color='#333';">
+      📊 FAQs data preparation, functionalities
     </button>
   </a>
   <a href="/en/data-aggregator-faqs" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      📊 Data preparation FAQs
+      🗂️ FAQs Darwin Core
     </button>
   </a>
 </div>
 
-### Video material
-
-#### Lesson 1 Uploading and Mapping
+### Use Case material
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/ERUY8dF1l15PlmktTwK-avMBtfSAOKdgDotw9_MaUz3BqA?e=vAKPLb" style="text-decoration: none;">
+  <a href="/en/label-herbarium" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🎥 Session 1 Lesson 1
+      🌷 Herbarium labels
     </button>
   </a>
-</div>
-
-<br> 
-
-#### Lesson 2 Uploading and Mapping
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EavJo6LRQUFEroTlCA_VT84BQz8-5QCojjGAsAudqBJChw?e=Q5fVgy" style="text-decoration: none;">
+  <a href="/en/label-mollusca" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🎥 Session 1 Lesson 2 MONDAY
+      🐚 Mollusca labels
     </button>
   </a>
-  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EVA3h3J0vj1Hlt0cmdwy4qkBQWTeEpMBowOUSJ1MeVJXkg?e=HrAlYs" style="text-decoration: none;">
+  <a href="/en/label-ornithology" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🎥 Session 2 Lesson 2 THURSDAY
-    </button>
-  </a>
-</div>
-
-<br> 
-
-#### Lesson 3 Conclusions and open-questions
-
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EQs9OC2Sy-tNuRtY-4cvA3IBV9-XDzyesSb_ZckwLlPAow?e=RLhtzt" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
-            onmouseover="this.style.color='#FA5E97';"
-            onmouseout="this.style.color='#333';">
-      🎥 Session 1 Lesson 3 MONDAY
-    </button>
-  </a>
-  <a href="https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/EdqeO6Dw19lDnWMw7hiLMecB9qQxOugbYZASy0CSh8OEtg?e=XaPcLE" style="text-decoration: none;">
-    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
-            onmouseover="this.style.color='#FA5E97';"
-            onmouseout="this.style.color='#333';">
-      🎥 Session 2 Lesson 3 THURSDAY
+      🦉 Ornithology labels
     </button>
   </a>
 </div>
