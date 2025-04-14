@@ -345,7 +345,14 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
 </div>
 
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
-The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (1, 2, 3, 4) have been implemented in DAGI in order to provide a **visualisation of the degree of information associated to a record**. The levels are interconnected: all attributes of a certain level have to be informed in order to reach the next level.
+The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) have been implemented in DAGI in order to provide a **visualisation of the degree of information associated to a record**. The levels are interconnected: all attributes of a certain level have to be informed in order to reach the next level.
+
+{: .box}
+MIDS 0 : Bare - A bare or skeletal record making the association between an identifier of a physical specimen and its digital representation, allowing for unambiguous attachment of all other information.<br>
+MIDS 1 : Basic - A basic record of specimen information enabling basic discoverability as well as how the user is permitted to use the data.<br>
+MIDS 2 : Intermediate - A regular level of information including data that have been agreed over time as essential for most scientific purposes.<br>
+MIDS 3 : Extended - An extended level of information about a specimen including identifiers enabling connections to be made to other data present or known about the specimen.
+<br><br>
 
 <div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -359,13 +366,13 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">1</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">0</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:institutionCode" target="_blank">institutionCode</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the <a href="https://scientific-collections.gbif.org/institution/search?country=CH" target="_blank">GrSciColl official institution codes</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import</td>
       </tr>
       <tr>
-        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">2</td>
+        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">1</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
@@ -376,7 +383,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
       </tr>
       <tr>
-        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids3.transparency }};">3</td>
+        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids3.transparency }};">2</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</td>
         <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"> The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10</td>
@@ -457,7 +464,12 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
       </tr>
       <tr>
-        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">4</td>
+        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
         <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
