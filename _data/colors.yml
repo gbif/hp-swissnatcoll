@@ -50,17 +50,17 @@ mids:
   transparency: "rgba(202, 117, 223, 0.2)"
 
 mids1:
-  background: "rgba(255, 0, 0)"
-  transparency: "rgba(255, 0, 0, 0.1)"
+  background: "rgba(202, 117, 223)"
+  transparency: "rgba(202, 117, 223, 0.8)"
 
 mids2:
-  background: "rgba(255, 183, 0)"
-  transparency: "rgba(255, 183, 0, 0.1)"
+  background: "rgba(202, 117, 223)"
+  transparency: "rgba(202, 117, 223, 0.6)"
 
 mids3:
-  background: "rgba(0, 183, 255)"
-  transparency: "rgba(0, 183, 255, 0.1)"
+  background: "rgba(202, 117, 223)"
+  transparency: "rgba(202, 117, 223, 0.4)"
 
 mids4:
-  background: "rgba(0, 168, 22)"
-  transparency: "rgba(0, 168, 22, 0.1)"
+  background: "rgba(202, 117, 223)"
+  transparency: "rgba(202, 117, 223, 0.2)""
