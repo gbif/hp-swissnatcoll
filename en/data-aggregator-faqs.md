@@ -356,6 +356,12 @@ MIDS 3 : Extended - An extended level of information about a specimen including 
 
 <div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+    <colgroup>
+      <col style="width: 10%;">   <!-- MIDS -->
+      <col style="width: 25%;">   <!-- DAGI Attribute -->
+      <col style="width: 25%;">   <!-- Definition -->
+      <col style="width: 25%;">   <!-- Comment -->
+    </colgroup>
     <thead>
       <tr>
         <th style="position: sticky; top: 0; background-color: {{ site.data.colors.mids.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">MIDS</th>
