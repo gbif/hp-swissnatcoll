@@ -25,13 +25,6 @@ tutorials:
     - title: Ornithology
       path: /en/label-ornithology
 
-- grouptitle: Powerpoint Presentations
-  content:
-  - title: General introduction
-    path: https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/Eed7bEMkv3RBpx14t2UfftIBbm1S54-sq0H95fI5MABmFg?e=MF40A0
-  - title: Data Import
-    path: https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZXOu0yq6a9FrrsEjru11PMBuYh-4vS5VWbyD5xoWUWdNw?e=zlTXjn
-
 georeferencing:
 - grouptitle: Content
   content:
