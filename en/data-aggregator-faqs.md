@@ -347,15 +347,37 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
 ### Additional fields increasing data quality in the Data Aggregator (MIDS)
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (1, 2, 3, 4) have been implemented in DAGI in order to provide a **visualisation of the degree of information associated to a record**. The levels are interconnected: all attributes of a certain level have to be informed in order to reach the next level.
 
-| MIDS | DAGI Attribute | Definition | Comment |
-| ---- | -------------- | ---------- | ------- |
-| 1 | [institutionCode](https://dwc.tdwg.org/terms/#dwc:institutionCode){:target='_blank'} | The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the [GrSciColl official institution codes](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} | This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import |
-
-| MIDS | DAGI Attribute | Definition | Comment |
-| ---- | -------------- | ---------- | ------- |
-| 2 | _partOfOrganism_ | Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue. | This is not a Darwin Core term, but it is available in DAGI |
-| 2 | [taxonID](https://dwc.tdwg.org/terms/#dwc:taxonID){:target='_blank'} | An identifier for the set of dwc:Taxon information. May be a global unique identifier or an identifier specific to the data set. | By encoding your records, you obtain the taxonID of GBIF |
-
+<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
+  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+    <thead>
+      <tr>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.mids.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">MIDS</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">DAGI Attribute</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Definition</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">1</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:institutionCode" target="_blank">institutionCode</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the <a href="https://scientific-collections.gbif.org/institution/search?country=CH" target="_blank">GrSciColl official institution codes</a></td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import</td>
+      </tr>
+      <tr>
+        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: middle; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">2</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:taxonID" target="_blank">taxonID</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An identifier for the set of dwc:Taxon information. May be a global unique identifier or an identifier specific to the data set.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 | MIDS | DAGI Attribute | Definition | Comment |
 | ---- | -------------- | ---------- | ------- |
@@ -402,359 +424,359 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
 
 Here is a table with these attributes and their definition:
 
-<div style="height: 500px; overflow-y: auto; border: 1px solid #ccc; padding: 5px;">
+<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <thead>
       <tr>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid #ccc; padding: 8px; text-align: left;">DAGI Attribute</th>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid #ccc; padding: 8px; text-align: left;">Description</th>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid #ccc; padding: 8px; text-align: left;">Examples</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">DAGI Attribute</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Description</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Examples</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">endOfPeriodDay</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The integer day of a date marking the end of an interval in which the Event occurred.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">2, 30</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">endOfPeriodDay</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The integer day of a date marking the end of an interval in which the Event occurred.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">2, 30</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">endOfPeriodMonth</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The ordinal month of a date marking the end of an interval in which the Event occurred.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">2 (February), 11 (November)</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">endOfPeriodMonth</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The ordinal month of a date marking the end of an interval in which the Event occurred.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">2 (February), 11 (November)</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">endOfPeriodYear</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The four-digit year of a date marking the end of an interval in which the Event occurred, according to the Common Era Calendar.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">endOfPeriodYear</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The four-digit year of a date marking the end of an interval in which the Event occurred, according to the Common Era Calendar.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">generalEnvironment</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: General Environment</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">generalEnvironment</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: General Environment</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">habitatCode</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Habitat Code</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">6.-2.1</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">habitatCode</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Habitat Code</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">6.-2.1</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">habitatContact</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Contact</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">habitatContact</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Contact</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">habitatInclusion</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Inclusion</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">habitatInclusion</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Inclusion</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">habitatRef</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Habitat Coding Reference</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">habitatRef</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Habitat Coding Reference</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">influence</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Influence</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">influence</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Influence</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">landscapeStructure</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Landscape Structure</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">landscapeStructure</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Landscape Structure</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">microStructure</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Microstructure</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">microStructure</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Microstructure</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">substratum</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: Substratum</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">substratum</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: Substratum</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">substratumState</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Delarze et al. 2015: State of substratum</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">substratumState</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Delarze et al. 2015: State of substratum</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">placeOfOrigin</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The place of origin for material that has been transported during its history e.g. glacial erratics and meteorites.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">placeOfOrigin</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The place of origin for material that has been transported during its history e.g. glacial erratics and meteorites.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">evidenceType</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Type of evidence or validation criterion considered (preferably according to a controlled vocabulary).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">identified by genitalia</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">evidenceType</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Type of evidence or validation criterion considered (preferably according to a controlled vocabulary).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">identified by genitalia</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">lastVerifiedBy</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Person confirming the identification (usually a specialist of the corresponding systematic family).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Huber C.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">lastVerifiedBy</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Person confirming the identification (usually a specialist of the corresponding systematic family).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Huber C.</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">lastVerifiedByID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Globally Unique Identifier of the person confirming the identification (usually a specialist of the coresponding systematic family).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">https://orcid.org/0000-0003-3283-7764</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">lastVerifiedByID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Globally Unique Identifier of the person confirming the identification (usually a specialist of the coresponding systematic family).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">https://orcid.org/0000-0003-3283-7764</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">swissCoordinatesLv03_E</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903/LV03, value towards the East (6 digits, https://epsg.io/21781).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">574175.61</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">swissCoordinatesLv03_E</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903/LV03, value towards the East (6 digits, https://epsg.io/21781).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">574175.61</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">swissCoordinatesLv03_N</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903/LV03, value towards the Nord (6 digits, https://epsg.io/21781).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">103975.67</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">swissCoordinatesLv03_N</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903/LV03, value towards the Nord (6 digits, https://epsg.io/21781).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">103975.67</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">swissCoordinatesLv95_E</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903+/LV95, value towards the East (7 digits, https://epsg.io/2056).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">574175.61</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">swissCoordinatesLv95_E</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903+/LV95, value towards the East (7 digits, https://epsg.io/2056).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">574175.61</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">swissCoordinatesLv95_N</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903+/LV95, value towards the Nord (7 digits, https://epsg.io/2056).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">103975.67</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">swissCoordinatesLv95_N</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Swiss Coordinates CH1903+/LV95, value towards the Nord (7 digits, https://epsg.io/2056).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">103975.67</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">waterbodyID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The ID of the water body in which the Location occurs (according to a registry such as GEWISS).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">CH0000180000 (for Walibach, Bennwil BL)</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">waterbodyID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The ID of the water body in which the Location occurs (according to a registry such as GEWISS).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">CH0000180000 (for Walibach, Bennwil BL)</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">anatomicalDescription</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Free text description of the preserved part of organism.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Mand. Dext. Mit Winkel und Ramus ascendens M3-P3</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">anatomicalDescription</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Free text description of the preserved part of organism.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Mand. Dext. Mit Winkel und Ramus ascendens M3-P3</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">articulation</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Articulation in the preserved specimen - applies to invertebrate shells and exoskeletons as well as vertebrate skeletons.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">articulated, dis-articulated, single valves</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">articulation</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Articulation in the preserved specimen - applies to invertebrate shells and exoskeletons as well as vertebrate skeletons.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">articulated, dis-articulated, single valves</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">assemblageOrigin</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The mode of origin of the assemblage.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">unknown, allochthonous, autochthonous, paraautochthonous</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">assemblageOrigin</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The mode of origin of the assemblage.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">unknown, allochthonous, autochthonous, paraautochthonous</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">barcodeLabel</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Unique Specimen Identifier (Barcode Tag)</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIFCH00376402, NMLU-ENT000115</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">barcodeLabel</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Unique Specimen Identifier (Barcode Tag)</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">GBIFCH00376402, NMLU-ENT000115</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">bioerosion</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Damage due to biological action.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">boring worms, sponges</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">bioerosion</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Damage due to biological action.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">boring worms, sponges</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">completeness</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Degree of completeness of the specimen; may describe completeness of a part.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">complete, cephalon only, complete skull</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">completeness</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Degree of completeness of the specimen; may describe completeness of a part.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">complete, cephalon only, complete skull</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">depositionalEnvironmentText</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Original environment in which the rock was deposited or the mineral formed.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">hypersaline lagoon, lacustrine, intertidal</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">depositionalEnvironmentText</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Original environment in which the rock was deposited or the mineral formed.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">hypersaline lagoon, lacustrine, intertidal</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">depositionalEnvironmentType</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Keywords from enumerated list for indexing of depositional environments</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">depositionalEnvironmentType</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Keywords from enumerated list for indexing of depositional environments</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dnaBankID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Internal identifier assigned by the institution currently storing the DNA sample.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dnaBankID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Internal identifier assigned by the institution currently storing the DNA sample.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dnaStableID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIFCH identifier assigned by the Biobank to the DNA sample.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dnaStableID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">GBIFCH identifier assigned by the Biobank to the DNA sample.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">encrustation</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Biological encrustations.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">oysters and tube worms</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">encrustation</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Biological encrustations.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">oysters and tube worms</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">extractionTemporaryID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Identifier assigned by the lab, temporarily ensuring links between genetic information.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">extractionTemporaryID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Identifier assigned by the lab, temporarily ensuring links between genetic information.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">feedingPredationTraces</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Aspects of feeding and predation.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">ammonite with bite mark from plesiosaur, shell drilled by predatory gastropod</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">feedingPredationTraces</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Aspects of feeding and predation.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">ammonite with bite mark from plesiosaur, shell drilled by predatory gastropod</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">form</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The original or a mold, cast etc. of the specimen.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">form</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The original or a mold, cast etc. of the specimen.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">gbifDOI</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIF DOI generated for a published dataset</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">gbifDOI</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">GBIF DOI generated for a published dataset</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>      <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">gbifCHID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIFCH unique identifier</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">gbifCHID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">GBIFCH unique identifier</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">matrix</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The sediment or mineral matrix enclosing the fossil.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">matrix</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The sediment or mineral matrix enclosing the fossil.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">mineralization</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The form of mineralization.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">mineralization</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The form of mineralization.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">organismQuantityMethod</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Count type. Without indication, a number expressed in organismQuantity is interpreted as exact count.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">exact count, estimation, minimum number</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">organismQuantityMethod</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Count type. Without indication, a number expressed in organismQuantity is interpreted as exact count.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">exact count, estimation, minimum number</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">orientation</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Orientation of the fossil remains in the host rock.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">unknown, life position, topped</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">orientation</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Orientation of the fossil remains in the host rock.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">unknown, life position, topped</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">origColAuthor</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Originator of a physical collection (“LEG”), possibly differing from the collector in the field (recordedBy). Information relevant for validation/plausibilisation of specimen occurrence records (cf. Monnerat et al. 2015).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">origColAuthor</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Originator of a physical collection (“LEG”), possibly differing from the collector in the field (recordedBy). Information relevant for validation/plausibilisation of specimen occurrence records (cf. Monnerat et al. 2015).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">originalBiominerals</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Origins of biomaterial preserved in the specimen.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">originalBiominerals</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Origins of biomaterial preserved in the specimen.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">paleoCompleteness</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">An indication of the completeness of the representation of an organism.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">disarticulated, complete</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">paleoCompleteness</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An indication of the completeness of the representation of an organism.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">disarticulated, complete</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">partOfOrganism</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">shell, skeleton, skull, soft tissue</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">partOfOrganism</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">shell, skeleton, skull, soft tissue</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">postBurialTransportation</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Any post burial transport of fossil material.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">river transport, scree slope</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">postBurialTransportation</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Any post burial transport of fossil material.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">river transport, scree slope</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">replacementMinerals</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">List of replacement minerals in the specimen.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">silica</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">replacementMinerals</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">List of replacement minerals in the specimen.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">silica</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">taphonomy</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The life position, allochthonous death assemblage, post mortem history details etc.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">taphonomy</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The life position, allochthonous death assemblage, post mortem history details etc.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">tissueBankID</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">GBIFCH identifier assigned by the Biobank to the tissue sample.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">tissueBankID</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">GBIFCH identifier assigned by the Biobank to the tissue sample.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">yearCollectionEntrance</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event).</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">1897</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">yearCollectionEntrance</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">1897</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dnaBankInstitution</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Biobank for long-term storage of DNA samples.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dnaBankInstitution</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Biobank for long-term storage of DNA samples.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dnaInstitution</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Institution that still has the DNA.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dnaInstitution</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Institution that still has the DNA.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dnaStorageCode</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Information on the place of storage of the DNA - Identifier, Location</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dnaStorageCode</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Information on the place of storage of the DNA - Identifier, Location</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationAlterationText</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Mineralogical changes in preserved specimens.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">original shell material preserved, replacement minerals, re-crystallisation, silicification</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationAlterationText</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Mineralogical changes in preserved specimens.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">original shell material preserved, replacement minerals, re-crystallisation, silicification</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationMethod</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Preservation method for a specimen.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">ethanol 70%, dried</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationMethod</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Preservation method for a specimen.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">ethanol 70%, dried</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationModeKeywords</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Keywords for how fossil material has been preserved.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">body, cast, mold, trace fossil, soft parts mineralised</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationModeKeywords</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Keywords for how fossil material has been preserved.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">body, cast, mold, trace fossil, soft parts mineralised</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationModeText</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Mode of preservation.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">is the specimen a cast or mold, are soft parts preserved or mineralised</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationModeText</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Mode of preservation.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">is the specimen a cast or mold, are soft parts preserved or mineralised</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationQuality</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Preservation quality; includes preservation of anatomical detail and softparts.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">poor, medium, good, excellent</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationQuality</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Preservation quality; includes preservation of anatomical detail and softparts.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">poor, medium, good, excellent</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preservationSpecialMode</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Keywords for any special mode of preservation.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">preserved in amber or frozen in tundra, tar pit</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preservationSpecialMode</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Keywords for any special mode of preservation.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">preserved in amber or frozen in tundra, tar pit</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">storageCode</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The verbatim code of a storage or container unit; as it is mentioned or stated by the institution providing the resource.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">storageCode</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim code of a storage or container unit; as it is mentioned or stated by the institution providing the resource.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">storageName</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">The type of storage that applies to entry. Usually refers to a vocabulary provided by the institution, e.g. “container”, “compactus”.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">storageName</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The type of storage that applies to entry. Usually refers to a vocabulary provided by the institution, e.g. “container”, “compactus”.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">tissueBankInstitution</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Biobank for long-term storage of tissue samples.</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">tissueBankInstitution</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Biobank for long-term storage of tissue samples.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">dateAvailable</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Earliest release date conveined</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">dateAvailable</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Earliest release date conveined</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">specificAuthorOfRecord</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Author(s) to be cited for this record</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">specificAuthorOfRecord</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Author(s) to be cited for this record</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">specifyEvent</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Flag regulating the release of temporal data</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">specifyEvent</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Flag regulating the release of temporal data</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">specifyLocality</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Flag regulating the release of spatial data</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">specifyLocality</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Flag regulating the release of spatial data</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">specifyOrganismName</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Flag regulating the release of identification data</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">specifyOrganismName</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Flag regulating the release of identification data</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">specifyPerson</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">Flag regulating the release of person data</td>
-        <td style="border: 1px solid #ccc; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">specifyPerson</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Flag regulating the release of person data</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
     </tbody>
   </table>
@@ -1034,22 +1056,22 @@ Here are the Thesaurii available in DAGI:
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">scientificName</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">"Rubiaceae Coffea liberica"</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">scientificName</td>
+      <td style="border: 1px solid black; padding: 8px;">"Rubiaceae Coffea liberica"</td>
+      <td style="border: 1px solid black; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">"<i>example coming soon</i>"</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+      <td style="border: 1px solid black; padding: 8px;">"<i>example coming soon</i>"</td>
+      <td style="border: 1px solid black; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
     </tr>
     <tr>
-      <td rowspan="2" style="border: 1px solid #ccc; padding: 8px; vertical-align: top;">eventDate</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">"01.01.2025"</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid black; padding: 8px;">"01.01.2025"</td>
+      <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #ccc; padding: 8px;">"2025-1-1"</td>
-      <td style="border: 1px solid #ccc; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
+      <td style="border: 1px solid black; padding: 8px;">"2025-1-1"</td>
+      <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
     </tr>
   </tbody>
 </table>
