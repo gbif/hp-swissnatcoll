@@ -25,8 +25,8 @@ composition:
 **In-house training goal**: provide DAGI users with personalised support tailored to the specific needs of their respective databases and management systems
 
 **Target audience**:
-1. Data Administrator for the technical aspects of the training (how to use the different features of DAGI)
-2. Collection Digitizer for the context and global understanding of the system (plus-value of DAGI, what is and can be done with the imported data)
+1. Data Digitizer for the technical aspects of the training (how to use the different features of DAGI)
+2. Collection Administrator for the context and global understanding of the system (plus-value of DAGI, what is and can be done with the imported data)
 
 <br>
 <br>
