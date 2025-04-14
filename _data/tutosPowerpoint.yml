@@ -2,6 +2,28 @@ lessons:
   title: "Powerpoint presentations"
   description: "How to use the Data Aggregator functionalities"
   features:
+    - title: "Lesson 1" # required
+      description: |      # required
+        remastered version coming soon
+      href:
+      background: "/assets/images/categories/tuto_lesson1.png"
+
+    - title: "Lesson 2"
+      description: |      # required
+        remastered version coming soon
+      href:
+      background: "/assets/images/categories/tuto_lesson2.png"
+
+    - title: "Lesson 3"
+      description: |      # required
+        remastered version coming soon
+      href:
+      background: "/assets/images/categories/tuto_lesson3.png"
+
+lessons2:
+  title: "Powerpoint presentations"
+  description: "How to use the Data Aggregator functionalities"
+  features:
     - title: "Lesson 1 ✨NEW" # required
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
