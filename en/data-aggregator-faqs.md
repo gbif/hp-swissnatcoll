@@ -348,10 +348,11 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
 The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M**inimum **I**nformation about a **D**igital **S**pecimen. The four levels of MIDS (0, 1, 2, 3) have been implemented in DAGI in order to provide a **visualisation of the degree of information associated to a record**. The levels are interconnected: all attributes of a certain level have to be informed in order to reach the next level.
 
 {: .box}
-MIDS 0 : Bare - A bare or skeletal record making the association between an identifier of a physical specimen and its digital representation, allowing for unambiguous attachment of all other information.<br>
-MIDS 1 : Basic - A basic record of specimen information enabling basic discoverability as well as how the user is permitted to use the data.<br>
-MIDS 2 : Intermediate - A regular level of information including data that have been agreed over time as essential for most scientific purposes.<br>
-MIDS 3 : Extended - An extended level of information about a specimen including identifiers enabling connections to be made to other data present or known about the specimen.
+**MIDS 0** : _Bare_ - A bare or skeletal record making the association between an identifier of a physical specimen and its digital representation, allowing for unambiguous attachment of all other information.<br>
+**MIDS 1** : _Basic_ - A basic record of specimen information enabling basic discoverability as well as how the user is permitted to use the data.<br>
+**MIDS 2** : _Intermediate_ - A regular level of information including data that have been agreed over time as essential for most scientific purposes.<br>
+**MIDS 3** : _Extended_ - An extended level of information about a specimen including identifiers enabling connections to be made to other data present or known about the specimen.
+
 <br><br>
 
 <div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
