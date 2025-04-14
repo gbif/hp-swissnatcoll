@@ -60,12 +60,12 @@ A feature currently in development will also allow you to [send your swiss data 
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
 
 
-<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}**, with the Collection Digitizer role, registered in DAGI.
+<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}**, with the Collection Administrator role, registered in DAGI.
 
-> - Collection Digitizer ⚠️mandatory
-> - Data Administrator 💡optional
+> - Collection Administrator ⚠️mandatory
+> - Data Digitizer 💡optional
 
-⚠️ If your institution does not yet have a Collection Digitizer, please send a request by email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Administrator, please send a request by email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
 <br>✅ My dataset has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
@@ -173,7 +173,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 There are two different views on your institution page:
 
   - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
-  - **[Administration](#administration-view)**: ⚠️visible only to _Collection Digitizers_ ⚠️, displays all **users** already added to your institution.
+  - **[Administration](#administration-view)**: ⚠️visible only to _Collection Administrators_ ⚠️, displays all **users** already added to your institution.
 
 Additionnally, there are two icons opening the pages on the SwissNatColl portal with support material to help you using DAGI.
 
@@ -183,7 +183,7 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 ## Add a new dataset
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Collection Digitizer</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Administrator</i> role.
+❌ Only the <i>Collection Administrator</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
@@ -214,7 +214,7 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 ## Import my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Data Administrator</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable to users with only the <i>Collection Digitizer</i> role.
+❌ Only the <i>Data Digitizer</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable to users with only the <i>Collection Administrator</i> role.
 </div>
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
@@ -456,7 +456,7 @@ In the top-right corner of the page, you can see your login name, the button to 
 
 ## Datasets view
 
-The datasets displayed here are the ones that have been added by a Collection Digitizer of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
+The datasets displayed here are the ones that have been added by a Collection Administrator of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
 - *Code*: code of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
 - *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
@@ -466,7 +466,7 @@ The datasets displayed here are the ones that have been added by a Collection Di
 - *Records count / est.*: numerical display of the progress, with first the number of records currently present in the dataset on DAGI and second the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
 - *Updated At*: timestamp of the last action executed on the dataset)
 
-Only the Collection Digitizers can add (🪟New dataset), edit (📝) and delete (🗑️) datasets in the Datasets page.
+Only the Collection Administrators can add (🪟New dataset), edit (📝) and delete (🗑️) datasets in the Datasets page.
 
 
 ### Dataset page
@@ -488,22 +488,22 @@ The page of a dataset has 5 available tabs.
 ## Administration view
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Collection Digitizer</i> role can access this view.
+❌ Only the <i>Collection Administrator</i> role can access this view.
 </div>
 
 The Administration view displays **all users already added to your institution**. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
 
 The *Roles* column informs you on the role/s attributed to each user:
-- **Data Administrator** (execution role)
+- **Data Digitizer** (execution role)
   - can view the datasets of their institution
   - can [upload](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the datasets of their institution
-- **Collection Digitizer** (management role)
+- **Collection Administrator** (management role)
   - can view, add, edit and remove users of their institution
   - can view, add and edit datasets of their institution
  
 <br>
 
-| Tasks | Data Administrator | Collection Digitizer |
+| Tasks | Data Digitizer | Collection Administrator |
 | ----- | ------------------ | -------------------- |
 | **Users** -view/add/edit/remove | ❌ | ✅ own institution |
 | **Datasets** -view | ✅ own institution | ✅ own institution |
