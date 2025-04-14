@@ -28,7 +28,7 @@ toc: true
 ℹ️ A new version has been recently released on DAGI 🎉 This page is in the work to be updated to the new features of this update. We hope you understand if something has not yet been corrected.
 </div>
 
-**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"}** (⚠️-currently on the Testing platform of GBIF-⚠️) **and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
+**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
 
 After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org will be effective-⚠️).
 
@@ -384,11 +384,6 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 ❌ Only the <i>Collection Administrator</i> role can publish records on GBIForg. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 -->
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ For technical reasons, the publication of your records on GBIF.org is currently unavailable. In the meantime, <strong>your published data are on the Testing platform of GBIF</strong>, where you can have a preview of how your dataset page will look like on GBIF.org<br>
-We thank you for your patience and understanding.
-</div>
 
 1. Choose if you want to publish your data from the Import layer (select **📤Import Layer** in the filters) or from the Encoded layer (select **📤Encoded Layer** in the filters)
 2. Click on **🌐Publish**.
