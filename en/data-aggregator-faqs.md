@@ -380,99 +380,174 @@ MIDS 3 : Extended - An extended level of information about a specimen including 
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:taxonID" target="_blank">taxonID</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An identifier for the set of dwc:Taxon information. May be a global unique identifier or an identifier specific to the data set.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
+        <td style="border: 1px solid black;  padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
       </tr>
       <tr>
         <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids3.transparency }};">2</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"> The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"> The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:recordedBy" target="_blank">recordedBy</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:typeStatus" target="_blank">typeStatus</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">Good practice on GBIF is to leave it <i>empty</i> if it is not a Typus.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Good practice on GBIF is to leave it <i>empty</i> if it is not a Typus.</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:originalNameUsage" target="_blank">originalNameUsage</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated dwc:nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the dwc:scientificName or the senior/earlier homonym for replaced names.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:continent" target="_blank">continent</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the continent in which the Location occurs.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:country" target="_blank">country</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the country or major administrative unit in which the Location occurs.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">Best practice is to use current existing country names and not historical countries.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Best practice is to use current existing country names and not historical countries.</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:stateProvince" target="_blank">stateProvince</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:county" target="_blank">county</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:higherGeography" target="_blank">higherGeography</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:locality" target="_blank">locality</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The specific description of the place.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:decimalLatitude" target="_blank">decimalLatitude</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"> The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLatitude by encoding.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLatitude by encoding.</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:decimalLongitude" target="_blank">decimalLongitude</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLongitude by encoding.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLongitude by encoding.</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimDepth" target="_blank">verbatimDepth</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The original description of the depth below the local surface.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimElevation" target="_blank">verbatimElevation</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"> The original description of the elevation (altitude, usually above sea level) of the Location.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>yearCollectionEntrance</i></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event).</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI.</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:occurrenceID" target="_blank">occurrenceID</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An identifier for the dwc:Occurrence (as opposed to a particular digital record of the dwc:Occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the dwc:occurrenceID globally unique.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
       </tr>
       <tr>
         <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimEventDate" target="_blank">verbatimEventDate</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original representation of the date and time information for a dwc:Event.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:identifiedBy" target="_blank">identifiedBy</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of names of people, groups, or organizations who assigned the dwc:Taxon to the subject.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:identificationQualifier" target="_blank">identificationQualifier</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A brief phrase or a standard term ("cf.", "aff.") to express the determiner's doubts about the dwc:Identification.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:identificationVerificationStatus" target="_blank">identificationVerificationStatus</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A categorical indicator of the extent to which the taxonomic identification has been verified to be correct.<br> E.g. 0 (= "unverified" in HISPID/ABCD).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>lastVerifiedBy</i></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Person confirming the identification (usually a specialist of the corresponding systematic family).</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimIdentification" target="_blank">verbatimIdentification</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A string representing the taxonomic identification as it appeared in the original record.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:georeferencedBy" target="_blank">georeferencedBy</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the dcterms:Location.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus" target="_blank">georeferenceVerificationStatus</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description for the dcterms:Location of the dwc:Occurrence.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates" target="_blank">verbatimCoordinates</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original spatial coordinates of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLatitude" target="_blank">verbatimLatitude</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original latitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
     </tbody>
   </table>
@@ -480,16 +555,6 @@ MIDS 3 : Extended - An extended level of information about a specimen including 
 
 | MIDS | DAGI Attribute | Definition | Comment |
 | ---- | -------------- | ---------- | ------- |
-| 4 | [verbatimEventDate](https://dwc.tdwg.org/terms/#dwc:verbatimEventDate){:target='_blank'} | The verbatim original representation of the date and time information for a dwc:Event.| |
-| 4 | [identifiedBy](https://dwc.tdwg.org/terms/#dwc:identifiedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations who assigned the dwc:Taxon to the subject. | |
-| 4 | [identificationQualifier](https://dwc.tdwg.org/terms/#dwc:identificationQualifier){:target='_blank'} | A brief phrase or a standard term ("cf.", "aff.") to express the determiner's doubts about the dwc:Identification. |  |
-| 4 | [identificationVerificationStatus](https://dwc.tdwg.org/terms/#dwc:identificationVerificationStatus){:target='_blank'} | A categorical indicator of the extent to which the taxonomic identification has been verified to be correct.<br> E.g. 0 (= "unverified" in HISPID/ABCD). |  |
-| 4 | _lastVerifiedBy_ | Person confirming the identification (usually a specialist of the corresponding systematic family). | This is not a Darwin Core term, but it is available in DAGI |
-| 4 | [verbatimIdentification](https://dwc.tdwg.org/terms/#dwc:verbatimIdentification){:target='_blank'} | A string representing the taxonomic identification as it appeared in the original record. |  |
-| 4 | [georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeferencedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the dcterms:Location. |  |
-| 4 | [georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#dwc:georeferenceVerificationStatus){:target='_blank'} | A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description for the dcterms:Location of the dwc:Occurrence. |  |
-| 4 | [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target='_blank'} | The verbatim original spatial coordinates of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem. |  |
-| 4 | [verbatimLatitude](https://dwc.tdwg.org/terms/#dwc:verbatimLatitude){:target='_blank'} | The verbatim original latitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem. |  |
 | 4 | [verbatimLongitude](https://dwc.tdwg.org/terms/#dwc:verbatimLongitude){:target='_blank'} | The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem. |  |
 | 4 | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target='_blank'} | 	The original textual description of the place. |  |
 | 4 | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'} | _URL to the original image deposited in a public access deposit_ | The URL can either be of the institution's public image deposit or of the DAGI Media Store (Image Upload on DAGI). |
