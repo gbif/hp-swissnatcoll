@@ -400,10 +400,10 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
    - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br><br>
 
 {: .box }
-- CC0 : No copyright, the work is placed in the public domain.
-<br>- CC BY : users may distribute, adapt, translate, build upon the work as long as they credit the authors for the original creation.
-<br>- CC BY-NC : users may reuse and adapt the work as long as it is not for commercial purposes. Credit to the authors is mandatory.
-
+**CC0** : No copyright, the work is placed in the public domain.<br>
+**CC BY** : users may distribute, adapt, translate, build upon the work as long as they credit the authors for the original creation.<br>
+**CC BY-NC** : users may reuse and adapt the work as long as it is not for commercial purposes. Credit to the authors is mandatory.
+<br>
 
 4. Click on **Next**.
 5. (Step 3️⃣ of 3️⃣) Publication summary
