@@ -40,3 +40,11 @@ attribute:
 value:
   background: "rgba(89, 177, 163)"
   transparency: "rgba(89, 177, 163, 0.2)"
+
+# ==============================================
+# OTHERS
+# ==============================================
+
+mids:
+  background: "rgba(255, 233, 38)"
+  transparency: "rgba(255, 233, 38, 0.2)"
