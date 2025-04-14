@@ -30,7 +30,7 @@ toc: true
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
 
-After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the Occurrence data section (⚠️-available when publishing on GBIF.org will be effective-⚠️).
+After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
 A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
 
