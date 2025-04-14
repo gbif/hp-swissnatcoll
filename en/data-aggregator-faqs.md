@@ -359,44 +359,112 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">1</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">1</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:institutionCode" target="_blank">institutionCode</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the <a href="https://scientific-collections.gbif.org/institution/search?country=CH" target="_blank">GrSciColl official institution codes</a></td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import</td>
       </tr>
       <tr>
-        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: middle; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">2</td>
+        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">2</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
-        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:taxonID" target="_blank">taxonID</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An identifier for the set of dwc:Taxon information. May be a global unique identifier or an identifier specific to the data set.</td>
         <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
       </tr>
+      <tr>
+        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids3.transparency }};">3</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"> The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:recordedBy" target="_blank">recordedBy</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:typeStatus" target="_blank">typeStatus</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">Good practice on GBIF is to leave it <i>empty</i> if it is not a Typus.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:originalNameUsage" target="_blank">originalNameUsage</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated dwc:nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the dwc:scientificName or the senior/earlier homonym for replaced names.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:continent" target="_blank">continent</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the continent in which the Location occurs.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:country" target="_blank">country</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the country or major administrative unit in which the Location occurs.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">Best practice is to use current existing country names and not historical countries.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:stateProvince" target="_blank">stateProvince</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:county" target="_blank">county</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:higherGeography" target="_blank">higherGeography</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:locality" target="_blank">locality</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The specific description of the place.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:decimalLatitude" target="_blank">decimalLatitude</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"> The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLatitude by encoding.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:decimalLongitude" target="_blank">decimalLongitude</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLongitude by encoding.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimDepth" target="_blank">verbatimDepth</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The original description of the depth below the local surface.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimElevation" target="_blank">verbatimElevation</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"> The original description of the elevation (altitude, usually above sea level) of the Location.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>yearCollectionEntrance</i></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event).</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:occurrenceID" target="_blank">occurrenceID</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">An identifier for the dwc:Occurrence (as opposed to a particular digital record of the dwc:Occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the dwc:occurrenceID globally unique.</td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
+      </tr>
+      <tr>
+        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">4</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; border-bottom: 2px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
     </tbody>
   </table>
 </div>
-
-| MIDS | DAGI Attribute | Definition | Comment |
-| ---- | -------------- | ---------- | ------- |
-| 3 | [eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate){:target='_blank'} | The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context. | The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10 |
-| 3 | [recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy){:target='_blank'} | A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first. |  |
-| 3 | [typeStatus](https://dwc.tdwg.org/terms/#dwc:typeStatus){:target='_blank'} | A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject. | Good practice on GBIF is to leave it _empty_ if it is not a Typus. |
-| 3 | [originalNameUsage](https://dwc.tdwg.org/terms/#dwc:originalNameUsage){:target='_blank'} | The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated dwc:nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the dwc:scientificName or the senior/earlier homonym for replaced names. |  |
-| 3 | [continent](https://dwc.tdwg.org/terms/#dwc:continent){:target='_blank'} | The name of the continent in which the Location occurs. |  |
-| 3 | [country](https://dwc.tdwg.org/terms/#dwc:country){:target='_blank'} | The name of the country or major administrative unit in which the Location occurs.| Best practice is to use current existing country names and not historical countries. |
-| 3 | [stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince){:target='_blank'} | The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs. |  |
-| 3 | [county](https://dwc.tdwg.org/terms/#dwc:county){:target='_blank'} | The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs. |  |
-| 3 | [higherGeography](https://dwc.tdwg.org/terms/#dwc:higherGeography){:target='_blank'} | A list (concatenated and separated) of geographic names less specific than the information captured in the locality term. |  |
-| 3 | [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target='_blank'} | The specific description of the place. |  |
-| 3 | [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target='_blank'} | The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive. | A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLatitude by encoding. |
-| 3 | [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target='_blank'} | The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive. | A coordinate conversion in DAGI allows to import the swiss coordinates and obtain the decimalLongitude by encoding. |
-| 3 | [verbatimDepth](https://dwc.tdwg.org/terms/#dwc:verbatimDepth){:target='_blank'} | The original description of the depth below the local surface. |  |
-| 3 | [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target='_blank'} | The original description of the elevation (altitude, usually above sea level) of the Location. |
-| 3 | _yearCollectionEntrance_ | The four-digit year of collection entrance of a specimen (earliest year of occurrence in absence of a documented collection event). | This is not a Darwin Core term, but it is available in DAGI. |
-| 3 | [occurrenceID](https://dwc.tdwg.org/terms/#dwc:occurrenceID){:target='_blank'} | An identifier for the dwc:Occurrence (as opposed to a particular digital record of the dwc:Occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the dwc:occurrenceID globally unique. | If not informed during import, this attribute is automatically copied from the _catalogNumber_. |
 
 | MIDS | DAGI Attribute | Definition | Comment |
 | ---- | -------------- | ---------- | ------- |
