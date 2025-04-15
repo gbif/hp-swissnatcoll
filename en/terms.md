@@ -5,29 +5,27 @@ description: Agreements and disclaimers relating to access and use of the Data A
 background: "{{ site.data.images.helpdesk.src }}"
 imageLicense: "{{ site.data.images.helpdesk.caption }}"
 height: 50vh
-toc: true
 composition:
 - type: heroImage
 - type: pageMarkdown
 ---
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ The DAGI Administrator reserves the right to modify and/or update the terms of use established on this website as well as its contents.<br> <i>Last update: February 
-2025</i>
+⚠️ Document under revision<br> <i>Last update: 15.04.2025</i>
 </div>
 
 # TERMS OF USE
 
 ## 1. Introduction
 
-The DAGI is the Data Aggregator conceived in the context of the mobilisation of biodiversity Information,  and was developed to assure that Data are compliant with international standards and are organised into recognised formats. The DAGI is hosted and deployed by info fauna ([infofauna.ch](https://www.infofauna.ch/){:target="_blank"}) and maintained under the technical environment of the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}). The DAGI has as main missions the centralisation of Data from different sources of truth, the harmonisation and enrichment of the Information, and the publication into GBIF. User control and administration of the DAGI are performed by GBIF.ch staff (“DAGI Administrator”). 
-
-These Terms of Use ("Terms") concern the conditions that govern the access and use of the DAGI. By using the DAGI, the Users are required to expressly agree to comply with these Terms at the moment of their accreditation, by clicking on an automatic pop-up that appears when they first log in. If they do not agree, the access to the DAGI will not be granted.
+DAGI is a data aggregation software developed as part of the [SwissCollNet initiative](https://swisscollnet.scnat.ch/en){:target="_blank"} in collaboration with the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}) and [info fauna](https://www.infofauna.ch/){:target="_blank"}). It enables institutions with scientific collections to upload their biodiversity data into a cloud infrastructure, which is hosted and deployed by GBIF.ch/info fauna. Once the data is stored in the cloud infrastructure it is transmitted via an API interface to [GBIF.org](https://www.gbif.org/){:target="_blank"}, where it is published and made globally accessible. These Terms of Use define the conditions for accessing and using DAGI. Users must explicitly agree to these terms upon first use before being granted access.
 
 ## 2. Definitions
 
 - “GBIF.ch” or “GBIF Swiss Node” refers to the organization mandated by the Confederation to respond to Switzerland's commitment to participate in the GBIF network and coordinate the in-country activities related to GBIF.
 - “GBIF” or “Global Biodiversity Information Facility” refers to the international network and data infrastructure funded by the world's governments and aims at providing anyone, anywhere, open access to data about all types of life on Earth.
+- “GBIF secretariat” refers to the GBIF employees who coordinate, operationalise, maintain and develop the activities of GBIF.
+- “Administrator” refers to the info fauna employees who operationalise the DAGI
 - “User” refers to a person or machine that uses the Internet to access DAGI content and services.
 - “Provider” refers to any individual accessing and using the DAGI to upload and publish Data. Data are owned by the organization to which the individual is affiliated.
 - “Publisher” refers to a custodian of Data making it technically available on GBIF. In this context it does not correspond to the owner of the Data being mobilised.
@@ -35,60 +33,68 @@ These Terms of Use ("Terms") concern the conditions that govern the access and u
 - “Data” refers to any Information, Metadata, or other Content made available on the DAGI.
 - “Information” refers to the knowledge that gives the context to the Data.
 - “Metadata” refers to the description and contact details for a Dataset, especially the definition of authors, administrative contacts, and licence.
-- “Content” refers to all forms of Information in text, numbers, images made available through the DAGI. The Content of the Metadata is automatically retrieved from the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}). The rest of the Content is imported either from i) specific files created for this purpose by the User, or ii) from external sources made available through the DAGI.
+- “Content” refers to all forms of Information in text, numbers, images made available through the DAGI. The Content of the Metadata is automatically retrieved from the Global Registry of Scientific Collections (GRSciColl). The rest of the Content is imported either from i) specific files created for this purpose by the User, or ii) from external sources made available through the DAGI.
 - “Digital Licence” refers to the machine-readable Creative Commons licence, supported by GBIF, which defines appropriate uses of the Datasets.
 
-## 3. International framework within GBIF
+## 3. Data Publication on GBIF and Applicable Agreements
 
-The Providers must be aware that the action of publishing a Dataset will send Data to GBIF, making them publicly available. The Publisher on GBIF is [SwissNatColl](https://www.gbif.org/publisher/9661d20d-86b6-4485-8948-f3c86b022fa7){:target="_blank"}, whose endorsement was agreed under the conditions laid down by the [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}.
+The Providers must be aware that the action of publishing a Dataset will send Data to GBIF, making them publicly available. The Publisher on GBIF is [SwissNatColl](https://www.gbif.org/publisher/9661d20d-86b6-4485-8948-f3c86b022fa7){:target="_blank"}, operating under the endorsement and conditions established in the [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}.
+The provisions for the use of Data from the portal and web services offered by GBIF are set out in the [Data User Agreement](https://www.gbif.org/terms/data-user){:target="_blank"}.
 
-Provisions for the use of Data from the portal and web services offered by GBIF are regulated by policies and terms laid down by the [Data User Agreement](https://www.gbif.org/terms/data-user){:target="_blank"}.
+## 4. Eligibility, Obligations and Provider Responsibilities
 
-## 4. Eligibility, Obligations and Responsibilities
+The Providers must be collaborators within a Swiss institution and the first person to be registered within the institution is registered by the DAGI Administrator. The Providers agree to comply with all applicable laws and regulations while using the DAGI and cannot engage on illegal or unauthorized activities related to the infrastructure or the Data inside the system. The DAGI Administrator reserves the right to terminate or suspend access for any Provider who violates these Terms or engages in unlawful behaviour.
 
-The Providers must be recognised collaborators within a Swiss institution and the first person to be registered within the institution must be accredited by the DAGI Administrator. The Providers agree to comply with all applicable laws and regulations while using the DAGI and cannot engage on illegal or unauthorized activities related to the infrastructure or the Data inside the system. The DAGI Administrator reserves the right to terminate or suspend access for any Provider who violates these Terms or engages in unlawful behaviour.
-
-The Providers are required to register an account to access the features and they are responsible for the accuracy of their personal information, and for all the activities carried out under their account. The Providers have necessarily one of the two roles in the DAGI, but one Provider can also fulfil both of them. Registration of the Providers implies that the DAGI Administrator attributes a personal login for the first person that is registered within a given institution. According to the role of the Provider, the rights to different actions vary, but every action will always be within the scope of the institution to which the Provider is affiliated. The two possible roles and respective rights are:
-- Collection Digitizer, who can visualise, add and edit the datasets, as well as add, edit and remove Data Administrators and Collection Digitizers
-- Data Administrator, who can visualise the datasets, as well as upload, map, encode, export and publish datasets
+Providers must open an account with DAGI to access the functions. They are responsible for the accuracy of their personal data and for all the activities that take place via their account. Providers have one of the two roles  in DAGI, described below. However, it is also possible for a provider to take on both roles. When the provider registers, the DAGI administrator assigns a personal login to the first person registered at a particular institution.. Depending on the role of the Provider, the rights for various actions vary, but each action always falls within the jurisdiction of the institution to which the provider belongs. The two possible roles and respective rights are:
+- _Collection Administrator_, who can visualise, add and edit the Datasets, publish Records in a Dataset, as well as add, edit and remove Data Digitizers and Collection Administrators of their own institution.
+- _Data Digitizer_, who can visualise the Datasets, as well as import, map, encode, and export Records in a Dataset.
 
 <br>
 The Providers are the owners of their Data and are responsible for the quality, accuracy, completeness and lawfulness of the Content provided and published in GBIF. The Providers can withdraw uploaded Data from the DAGI at any time. This action will not have a direct influence on the Data already available on GBIF, and assistance from the DAGI Administrator is needed for any revision of a Dataset after publication. The Providers are committed to avoid such situation and manual interventions in a Dataset publicly available should remain an exception.
 
 ## 5. Publication permission and Data licencing
 
-In the context of the DAGI, publishing a Dataset implies making biodiversity Data (Information, Metadata and other Content) openly and universally available on the GBIF portal. The Publisher of these Data is the SwissNatColl, who is the entity that observes the provisions of the GBIF [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}. 
+In the context of the DAGI, the publication of a Dataset means that biodiversity Data (Information, Metadata and other Content) is made openly and universally available on the GBIF.org. The Publisher of these Data is the SwissNatColl, who is the entity that observes the provisions of the GBIF [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}.
 
-Within the DAGI’s constellation, the Providers must be aware that when publishing Data, they implicitly accept the conditions of the [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}. We emphasise that, according to this document, the Providers agree to hold the GBIF Secretariat harmless from any consequence of the decision to publish a certain Dataset and that they are responsible for:
+The provider acknowledges that by publishing data, they also agree to the terms of the [Data Publisher Agreement](https://www.gbif.org/terms/data-publisher){:target="_blank"}. Furthermore, the Providers agree that the GBIF Secretariat cannot be held liable for any consequences that may arise from the decision to publish a certain Dataset. The providers are responsible for: 
 - the accuracy of the Data provided – the GBIF Secretariat reserves the right to refuse or retract from publication a Dataset that provides misleading or inaccurate information.
-- •	the restriction access to sensitive Data (according to [Chapman, AD (2020)](https://docs.gbif.org/sensitive-species-best-practices/master/en/){:target="_blank"}) – the GBIF Secretariat reserves the right to refuse or retract from publication a Dataset that causes harm or danger.
+- the restriction access to sensitive Data (according to [Chapman, AD (2020)](https://docs.gbif.org/sensitive-species-best-practices/master/en/){:target="_blank"}) – the GBIF Secretariat reserves the right to refuse or retract from publication a Dataset that causes harm or danger.
 
 <br>
-GBIF ensures that all Datasets (Information, Metadata and other Content) are associated to Digital Licences and three options Creative Commons are supported: CC0, CC BY and CC BY-NC. The standard practice promoted by the DAGI and GBIF is the attribution of the Licence CC BY, but the Provider will be able to specify another available Licence if desired at the moment they publish the Dataset.
+GBIF ensures that all Datasets (Information, Metadata and other Content) are associated to Digital Licences and three options Creative Commons are supported: CC0, CC BY and CC BY-NC ([New approaches to data licensing and endorsement](https://www.gbif.org/news/82363/new-approaches-to-data-licensing-and-endorsement){:target="_blank"}). The standard practice promoted by the DAGI and GBIF is the attribution of the Licence CC BY, but the Provider will be able to specify another available Licence if desired at the moment they publish the Dataset.
 
 The Data concerning Swiss specimens of specific taxonomic groups submitted for publication are regulated by the [general guidelines of InfoSpecies](https://www.infospecies.ch/fr/donnees/deontologie.html){:target="_blank"}. The Providers must be aware that these specific Data will eventually undergo a process of validation by the national data centres and that the validated Data will be part of the Data used as reference by the Swiss Confederation for species conservation purposes.
 
-## 6. Rights, Clauses and Legal issues
+## 6. Rights, Legal Clauses, and Liability
 
-The whole DAGI infrastructure is protected by Swiss intellectual property laws. The DAGI is provided "as is" without warranties of any kind.
+The whole DAGI infrastructure is protected by Swiss intellectual property laws. The Providers retain full ownership and control over the data they upload. The act of uploading data does not transfer any ownership rights to info fauna or GBIF. However the Providers grant the DAGI host organization (GBIF.ch/info fauna) a non-exclusive, worldwide right to store, process and publish their data on GBIF.org. DAGI is provided "as is" without warranties of any kind. DAGI is provided without any express or implied warranties regarding continuous availability or the accuracy of data processing. The DAGI host organization strives to maintain a high-quality and error-free data environment but cannot be held liable for errors, incomplete data, or technical failures. Neither DAGI nor its operators assume responsibility for any damages resulting from the use, publication, or third-party claims related to data shared trough the DAGI Software. Providers bear the sole responsibility for ensuring that their uploaded data comply with all applicable legal and ethical requirements.
 
-The DAGI host organizations (info fauna and GBIF Swiss Node) are committed to ensure transparency at all levels and strive to maintain high quality treatment through validation and regular updates of the thesaurus and verification layers.
+To the maximum extent permitted by law, the DAGI host organization disclaim any liability for direct, indirect, incidental, or consequential damages arising from the use or unavailability of the platform or from errors in the provided data. In particular, DAGI and its operators shall not be liable for:
+- technical malfunctions, interruptions, or data loss,
+- incomplete, inaccurate, or outdated data,
+- damages resulting from the publication or use of data by third parties,
+- violations of data protection or copyright laws by data providers.
 
-The DAGI host organizations endeavour to ensure the smooth operation of the platform 24 hours a day, but does not guarantee uninterrupted use or accessibility and are not liable for technical transmission failures or interruptions. If operational reasons make it necessary, the DAGI host organizations reserve the right to modify or interrupt functionalities without prior notice.
+<br>
+Liability shall only be assumed where it cannot be excluded or limited under mandatory law.
 
-The DAGI host organizations have the right to assign operational, development or support services to third parties, in part or in full, at any time, with or without giving reasons.
+The DAGI host organization is committed to ensure transparency at all levels and strives to maintain high quality treatment through validation and regular updates of the thesaurus and verification layers. They endeavour to ensure continuous platform availability, yet uninterrupted service cannot be guaranteed. Temporary downtimes may occur due to maintenance or unforeseen technical issues. The host organizations reserve the right to modify, suspend, or terminate parts of the platform at any time, providing prior notice. Additionally, the DAGI host organizations have the right to assign operational, development or support services to third parties, in part or in full, at any time, with or without giving reasons.
+In the case of significant modifications, data providers will be informed in advance, allowing them to adapt to changes accordingly.
 
-The DAGI host organizations are not liable or responsible, nor are their collaborators or contractors, for the Data or their use; or for any errors, inaccuracies, loss or inability to use the entire infrastructure or part of it.
+## 7. Governing law and Jurisdiction
 
-The DAGI collects the minimum amount of personal information needed to fulfil the purpose of attribution of roles and rights. We do not process the information collected, nor sell or transfer this information to third parties, and the same standard of privacy protection is applied to all DAGI Users. As Users of GBIF, the Providers must however be aware of the [Privacy Policy](https://www.gbif.org/terms/privacy-policy){:target="_blank"} employed to collect, use and disclose personal information.
+These Terms of Use shall be governed and construed in accordance with the internal law of Switzerland (excluding Swiss Private International Law and international treaties).  All disputes arising out of or in connection with this Agreement, including disputes on its conclusion, binding effect, amendment, and termination shall be exclusively resolved by the ordinary courts at Bern.
 
-These Terms are governed by the laws of Switzerland. Any disputes arising will be resolved through arbitration in Switzerland.
+## 8. Modifications and Contact
 
-## 7. Modifications and Contact
-
-The DAGI host organizations (info fauna and GBIF Swiss Node) have the right to update and change these Terms from time to time. Any changes will be posted on this page, and your continued use of the DAGI after such changes constitutes acceptance of the new Terms.
+The DAGI host organization (info fauna and GBIF Swiss Node) reserves the right to amend these Terms of Use from time to time. Any changes will be posted on this page, and your continued use of the DAGI after such changes constitutes acceptance of the new Terms.
 
 For any questions or concerns about these Terms, please email [contact@gbif.ch](mailto:contact@gbif.ch).
+
+
+---
+References:
+- Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-5jp4-5g10](https://doi.org/10.15468/doc-5jp4-5g10){:target="_blank"}.
 
 
 <html lang="en">
