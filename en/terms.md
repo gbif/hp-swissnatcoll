@@ -10,10 +10,6 @@ composition:
 - type: pageMarkdown
 ---
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ Document under revision<br> <i>Last update: 15.04.2025</i>
-</div>
-
 # TERMS OF USE
 
 ## 1. Introduction
@@ -99,6 +95,13 @@ For any questions or concerns about these Terms, please email [contact@gbif.ch](
 
 References:
 - Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-5jp4-5g10](https://doi.org/10.15468/doc-5jp4-5g10){:target="_blank"}.
+
+<br>
+<br>
+
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ <i>Last update: 15.04.2025</i>
+</div>
 
 
 <html lang="en">
