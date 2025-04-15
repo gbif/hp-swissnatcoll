@@ -18,7 +18,7 @@ composition:
 
 ## 1. Introduction
 
-DAGI is a data aggregation software developed as part of the [SwissCollNet initiative](https://swisscollnet.scnat.ch/en){:target="_blank"} in collaboration with the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}) and [info fauna](https://www.infofauna.ch/){:target="_blank"}). It enables institutions with scientific collections to upload their biodiversity data into a cloud infrastructure, which is hosted and deployed by GBIF.ch/info fauna. Once the data is stored in the cloud infrastructure it is transmitted via an API interface to [GBIF.org](https://www.gbif.org/){:target="_blank"}, where it is published and made globally accessible. These Terms of Use define the conditions for accessing and using DAGI. Users must explicitly agree to these terms upon first use before being granted access.
+DAGI is a data aggregation software developed as part of the [SwissCollNet initiative](https://swisscollnet.scnat.ch/en){:target="_blank"} in collaboration with the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}) and [info fauna](https://www.infofauna.ch/){:target="_blank"}. It enables institutions with scientific collections to upload their biodiversity data into a cloud infrastructure, which is hosted and deployed by GBIF.ch/info fauna. Once the data is stored in the cloud infrastructure it is transmitted via an API interface to [GBIF.org](https://www.gbif.org/){:target="_blank"}, where it is published and made globally accessible. These Terms of Use define the conditions for accessing and using DAGI. Users must explicitly agree to these terms upon first use before being granted access.
 
 ## 2. Definitions
 
@@ -91,8 +91,12 @@ The DAGI host organization (info fauna and GBIF Swiss Node) reserves the right t
 
 For any questions or concerns about these Terms, please email [contact@gbif.ch](mailto:contact@gbif.ch).
 
+<br>
+<br>
+<br>
 
 ---
+
 References:
 - Chapman AD (2020) Current Best Practices for Generalizing Sensitive Species Occurrence Data. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-5jp4-5g10](https://doi.org/10.15468/doc-5jp4-5g10){:target="_blank"}.
 
