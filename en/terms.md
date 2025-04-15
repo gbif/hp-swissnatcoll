@@ -12,8 +12,8 @@ composition:
 ---
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ These terms are still under revision. Please keep in mind they should soon be updated and adapted.<br>
-<i>Last update: 17.02.2025</i>
+⚠️ The DAGI Administrator reserves the right to modify and/or update the terms of use established on this website as well as its contents.<br> <i>Last update: February 
+2025</i>
 </div>
 
 # TERMS OF USE
