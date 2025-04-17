@@ -420,7 +420,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer3.addHandler("open", function() {
-        viewer3.viewport.panTo(new OpenSeadragon.Point(0.5, 5));
+        viewer3.viewport.panTo(new OpenSeadragon.Point(0, 0));
         viewer3.viewport.zoomTo(0.5);
     });
 </script>
