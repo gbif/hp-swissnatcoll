@@ -239,7 +239,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer2.addHandler("open", function() {
-        viewer2.viewport.panTo(new OpenSeadragon.Point(0.25, 1.1));    <!-- 0.43, 0.97 -->
+        viewer2.viewport.panTo(new OpenSeadragon.Point(0.25, 1.1));
         viewer2.viewport.zoomTo(3.5);
     });
 </script>
@@ -394,8 +394,8 @@ sideNavigation: sideNavigation.georeferencing
 </div>
 
 <div class="legend">
-    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=467248&lang=fr">G00694252</a>,
-    <i>Actinodaphne molochina</i> Nees
+    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/search.php?lang=fr"><i>unknown specimen</i></a>,
+    <i>Coryza thapsoides</i>. Caucase. Dr Hoefft 1830.
 </div>
 
 <script>
@@ -404,7 +404,7 @@ sideNavigation: sideNavigation.georeferencing
         prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
         tileSources: {
             type: "image",
-            url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb75/img_20170629/GDC045175_01.ptif&cvt=jpeg",
+            url: "https://www.cjbg.ch/themes/custom/cjb/assets/header/logo.svg",
             buildPyramid: false
         },
         defaultZoomLevel: 1,
@@ -420,8 +420,8 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer3.addHandler("open", function() {
-        viewer3.viewport.panTo(new OpenSeadragon.Point(0.25, 1.1));    <!-- 0.43, 0.97 -->
-        viewer3.viewport.zoomTo(3.5);
+        viewer3.viewport.panTo(new OpenSeadragon.Point(0.5, 5));
+        viewer3.viewport.zoomTo(1);
     });
 </script>
 
@@ -439,7 +439,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1a</a><br> <strong>Transcribe</strong><br> verbatim Location data</td>
         <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Caucase</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>verbatimElevation</i></td>
@@ -462,7 +462,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">World | Caucasus</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>waterBody</i></td>
@@ -503,7 +503,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">Getty Thesaurus of Geographic Names (TGN) : <a href="https://www.getty.edu/vow/TGNFullDisplay?find=caucase&place=&nation=&prev_page=1&english=Y&subjectid=7016642" target="_blank" >https://www.getty.edu/vow/TGNFullDisplay?find=caucase&place=&nation=&prev_page=1&english=Y&subjectid=7016642</a> : « Area between the Black and Caspian Seas, […] comprising roughly the modern nations of Georgia, Armenia, Azerbaijan, southern parts of Russia, and northeastern Turkey. […] the Caucasus mountains have traditionally been the boundary separating Europe from Asia; however, the area is more subject to Asian influence and so is more often grouped with Asia in modern scholarship. »</td>
     </tr>
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
