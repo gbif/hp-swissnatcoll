@@ -26,7 +26,7 @@ georeferencingPages:
     - title: Georeferencing protocole
       description: |
         Procedure to georeference a natural history collection specimen.
-      href: /en/georeferencing
+      href: /en/geo-protocole
       background: "{{ site.data.images.georeferencingProtocole‎.src }}"
       imageLicense: "{{ site.data.images.georeferencing‎Protocole.caption }}"
       categories: [protocole]
