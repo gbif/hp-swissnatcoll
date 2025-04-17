@@ -503,16 +503,16 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">Getty Thesaurus of Geographic Names (TGN) : <a href="https://www.getty.edu/vow/TGNFullDisplay?find=caucase&place=&nation=&prev_page=1&english=Y&subjectid=7016642" target="_blank" >https://www.getty.edu/vow/TGNFullDisplay?find=caucase&place=&nation=&prev_page=1&english=Y&subjectid=7016642</a> : « Area between the Black and Caspian Seas, […] comprising roughly the modern nations of Georgia, Armenia, Azerbaijan, southern parts of Russia, and northeastern Turkey. […] the Caucasus mountains have traditionally been the boundary separating Europe from Asia; however, the area is more subject to Asian influence and so is more often grouped with Asia in modern scholarship. »</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><a href="https://www.getty.edu/vow/TGNFullDisplay?find=caucase&place=&nation=&prev_page=1&english=Y&subjectid=7016642" target="_blank" >Getty Thesaurus of Geographic Names (TGN)</a> : « Area between the Black and Caspian Seas, […] comprising roughly the modern nations of Georgia, Armenia, Azerbaijan, southern parts of Russia, and northeastern Turkey. […] the Caucasus mountains have traditionally been the boundary separating Europe from Asia; however, the area is more subject to Asian influence and so is more often grouped with Asia in modern scholarship. »</td>
     </tr>
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">42</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">45</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
@@ -536,11 +536,11 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">600'000</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">0</td>
     </tr>
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
@@ -549,15 +549,15 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">2025-02-01/2025-02-28</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">point-radius method</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Getty Thesaurus of Geographic Names (TGN) | Google Maps (feb. 2025)</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
