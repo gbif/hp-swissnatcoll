@@ -36,8 +36,8 @@ composition:
 Tutorial sessions are independent. You can choose to come to one whose subject interest you.
 
 {: .box }
-- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
-<br>- ~~TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF
+~~- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
+<br>- TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF
 <br>- THURSDAY - **24-04-2025** - **15H-16H** - Review : data preparation & import
 <br>- MONDAY - **28-04-2025** - **15H-16H** - Review : encoding & publishing
 <br>- WEDNESDAY - **07-05-2025** - **15H-16H** - Open questions session
