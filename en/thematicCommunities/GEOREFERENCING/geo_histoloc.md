@@ -213,8 +213,8 @@ sideNavigation: sideNavigation.georeferencing
 </div>
 
 <div class="legend">
-    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=235446&lang=fr">G00304771</a>,
-    <i>Tragopogon colchicus</i> Albov
+    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=467248&lang=fr">G00694252</a>,
+    <i>Actinodaphne molochina</i> Nees
 </div>
 
 <script>
@@ -389,13 +389,13 @@ sideNavigation: sideNavigation.georeferencing
 ## Inter-state-level description
 
 <!-- OpenSeadragon Viewer -->
-<div id="openseadragon2" class="openseadragon-viewer">
-    <div id="zoom-level2" class="zoom-level">Zoom: 1.00</div>
+<div id="openseadragon3" class="openseadragon-viewer">
+    <div id="zoom-level3" class="zoom-level">Zoom: 1.00</div>
 </div>
 
 <div class="legend">
-    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=235446&lang=fr">G00304771</a>,
-    <i>Tragopogon colchicus</i> Albov
+    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=467248&lang=fr">G00694252</a>,
+    <i>Actinodaphne molochina</i> Nees
 </div>
 
 <script>
