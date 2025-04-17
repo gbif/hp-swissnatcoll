@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /en/geo-locwithcoord
+permalink: /en/geo-loc-with-coord
 title: Examples for georeferencing
 toc: true
 sideNavigation: sideNavigation.georeferencing
