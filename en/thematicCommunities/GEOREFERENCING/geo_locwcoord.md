@@ -200,39 +200,39 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">✅</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">✅</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
+        <td style="text-align: left; padding: 10px;">✅</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv95_E</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv95_N</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_N</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv03_E</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_N</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv03_N</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">✅</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">0.00001</td>
     </tr>
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
@@ -253,7 +253,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">✅</td>
     </tr>
   </tbody>
 </table>
