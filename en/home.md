@@ -31,7 +31,7 @@ cta:
 composition:
   - type: heroImage
   - type: stats
-    data: home.stats  #file with the stats: _data/examples.yml
+    data: home.stats  #file with the stats: _data/features.yml
   - type: split
     data: home.vision
 #  - type: features
