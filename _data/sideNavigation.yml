@@ -35,11 +35,11 @@ georeferencing:
   - sectiontitle: Examples
     section:
     - title: Location with coordinates
-      path: /en/geo_locwcoord
+      path: /en/geo-loc-with-coord
     - title: Location without coordinates
-      path: /en/geo_locwtcoord
+      path: /en/geo-loc-without-coord
     - title: Location without coordinates
-      path: /en/geo_histoloc
+      path: /en/geo-histo-loc
 
 terms:
 - grouptitle: Group name
