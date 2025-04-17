@@ -256,7 +256,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer2.addHandler("open", function() {
-        viewer2.viewport.panTo(new OpenSeadragon.Point(0.795, 0.5));
+        viewer2.viewport.panTo(new OpenSeadragon.Point(0.3, 1));
         viewer2.viewport.zoomTo(3);
     });
 </script>
