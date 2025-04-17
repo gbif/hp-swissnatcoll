@@ -162,39 +162,39 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">46.19212</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">6.15747</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">EPSG:4326 (=WGS84)</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">2501095.10</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">1116438.10</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">501095.67</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">116437.90</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">1000</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">0.00001</td>
     </tr>
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
@@ -215,7 +215,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Approximated coordinates and uncertainty from legacy institutional database. | Conversion into swiss systems using map.geo.admnin.ch (search and right click).</td>
     </tr>
   </tbody>
 </table>
