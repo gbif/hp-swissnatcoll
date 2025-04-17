@@ -183,6 +183,47 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 
 ## 3.3) Coordinate assignment
 
+### Cross-border entities
+
+{: .box}
+**Recommendation**
+<br> Fill in the relevant fields as accurately as possible before proceeding with georeferencing. Do not submit the coordinates if you do not want any of the countries involved to be returned by the encoding.
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }}">Protocole</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1</a>verbatim Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
+        <td style="text-align: left; padding: 10px;">Lac Léman</td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1</a><br>standardised textual Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; padding: 10px;">Europe</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
+        <td style="text-align: left; padding: 10px;">Europe | Lake Geneva</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>waterBody</i></td>
+        <td style="text-align: left; padding: 10px;">Lake Geneva</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; padding: 10px;"><i>none</i></td>
+    </tr>
+  </tbody>
+</table>
+
+
 ## 3.4) DAGI Geographical encoding
 
 Geographical encoding allows to standardise and enrich the geographical data associated to a specimen. In DAGI, the geographical encoding is composed of two parts. One is the **Geo Forward** (based on the imported information in the attributes _country_ and _continent_) and the other one is the **Geo Reverse** (based on the imported information in the coordinates attributes (_decimalLatitude_ and _decimalLongitude_, _swissCoordinates_lv95_x_ and _swissCoordinates_lv95_y_, _swissCoordinates_lv03_x_ and _swissCoordinates_lv03_y_).
