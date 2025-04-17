@@ -280,11 +280,11 @@ Defining the pertinence of georeferencing historical localities is prior to any 
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>country</i></td>
-        <td style="text-align: left; padding: 10px;"><i>Germany</i></td>
+        <td style="text-align: left; padding: 10px;">Germany</td>
     </tr>
       <tr>
         <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
-        <td style="text-align: left; padding: 10px;"><i>Baden-Wuerttemberg</i></td>
+        <td style="text-align: left; padding: 10px;">Baden-Wuerttemberg</td>
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data</td>
@@ -319,11 +319,11 @@ Defining the pertinence of georeferencing historical localities is prior to any 
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>country</i></td>
-        <td style="text-align: left; padding: 10px;"><i>France</i></td>
+        <td style="text-align: left; padding: 10px;">France</td>
     </tr>
       <tr>
         <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
-        <td style="text-align: left; padding: 10px;"><i>Baden-Wuerttemberg</i></td>
+        <td style="text-align: left; padding: 10px;">Baden-Wuerttemberg</td>
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data</td>
