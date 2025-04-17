@@ -339,7 +339,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>locality</i></td>
-        <td style="text-align: left; padding: 10px;">Tibet</td>
+        <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
@@ -348,61 +348,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td colspan="2" style="text-align: left; vertical-align: middle; padding: 10px;">This location can't be georeferenced with the point-radius method.</td>
     </tr>
   </tbody>
 </table>
