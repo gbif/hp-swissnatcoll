@@ -38,7 +38,7 @@ georeferencing:
       path: /en/geo-loc-with-coord
     - title: Location without coordinates
       path: /en/geo-loc-without-coord
-    - title: Location without coordinates
+    - title: Historical location
       path: /en/geo-histo-loc
 
 terms:
