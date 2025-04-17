@@ -32,8 +32,14 @@ georeferencing:
     path: /en/georeferencing
   - title: Protocole
     path: /en/geo-protocole
-  - title: Examples
-    path: /en/geo-examples
+  - sectiontitle: Examples
+    section:
+    - title: Location with coordinates
+      path: /en/geo_locwcoord
+    - title: Location without coordinates
+      path: /en/geo_locwtcoord
+    - title: Location without coordinates
+      path: /en/geo_histoloc
 
 terms:
 - grouptitle: Group name
