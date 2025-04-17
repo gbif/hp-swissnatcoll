@@ -163,7 +163,7 @@ graph TD;
 ## 3.1) Possible
 
 - Does the georeferencing provide more information to the specimen that the already existing textual information?
-- Are the coordinates provided by georeferencing useful in practice when they are accompanied by an uncertainty of several hundred kilometres? (See example [G00304771](https://swissnatcoll.hp.gbif-staging.org/en/geo-histo-loc#state-level-description){:target="_blank"}
+- Are the coordinates provided by georeferencing useful in practice when they are accompanied by an uncertainty of several hundred kilometres? (See example [G00304771](/en/geo-histo-loc#state-level-description){:target="_blank"}
 
 {: .box}
 **Recommendation**
