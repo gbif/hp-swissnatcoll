@@ -174,7 +174,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;">10000</td>
+        <td style="text-align: left; padding: 10px;">10'000</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
@@ -226,7 +226,7 @@ sideNavigation: sideNavigation.georeferencing
             url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb75/img_20170629/GDC045175_01.ptif&cvt=jpeg",
             buildPyramid: false
         },
-        defaultZoomLevel: 3.5,
+        defaultZoomLevel: 1,
         minZoomLevel: 0.5,
         maxZoomLevel: 5,
         showNavigator: true,
@@ -239,8 +239,8 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer2.addHandler("open", function() {
-        viewer2.viewport.panTo(new OpenSeadragon.Point(0.30, 1.1));    <!-- 0.43, 0.97 -->
-        viewer2.viewport.zoomTo(1.95);
+        viewer2.viewport.panTo(new OpenSeadragon.Point(0.25, 1.1));    <!-- 0.43, 0.97 -->
+        viewer2.viewport.zoomTo(3.5);
     });
 </script>
 
@@ -327,39 +327,39 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">7.86814</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">80.30689</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
+        <td style="text-align: left; padding: 10px;">EPSG:4326 (=WGS84)</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv95_E</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv95_N</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_N</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv03_E</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_N</i></td>
+        <td style="text-align: left; padding: 10px;"><s><i>swissCoordinatesLv03_N</i></s></td>
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">241'237</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">0.00001</td>
     </tr>
     <tr>
         <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
@@ -372,11 +372,11 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Georeferencing Quick Reference Guide (Zermoglio et al. 2020, <a href="https://doi.org/10.35035/e09p-h128" target="_blank">https://doi.org/10.35035/e09p-h128)</a></td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">GeoPick v.2.1.0 </td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
@@ -478,7 +478,7 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">EPSG:4326 (=WGS84)</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
