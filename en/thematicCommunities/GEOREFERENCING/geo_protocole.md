@@ -288,7 +288,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data</td>
-        <td colspan="2" style="text-align: left; padding: 10px;"><i>none</i></td>
+        <td colspan="2" style="text-align: center; padding: 10px;"><i>none</i></td>
     </tr>
   </tbody>
 </table>
@@ -327,7 +327,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
     </tr>
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data</td>
-        <td colspan="2" style="text-align: left; padding: 10px;"><i>none</i></td>
+        <td colspan="2" style="text-align: center; padding: 10px;"><i>none</i></td>
     </tr>
   </tbody>
 </table>
