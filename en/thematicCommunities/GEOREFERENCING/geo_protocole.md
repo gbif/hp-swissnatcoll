@@ -223,7 +223,6 @@ Defining the pertinence of georeferencing historical localities is prior to any 
   </tbody>
 </table>
 
-<br>
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
@@ -240,7 +239,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
         <td style="text-align: left; padding: 10px;">Mont Blanc</td>
     </tr>
     <tr>
-        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1</a><br>standardised textual Location data</td>
+        <td rowspan="3" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1</a><br>standardised textual Location data</td>
         <td style="text-align: left; padding: 10px;"><i>continent</i></td>
         <td style="text-align: left; padding: 10px;">Europe</td>
     </tr>
@@ -255,6 +254,44 @@ Defining the pertinence of georeferencing historical localities is prior to any 
   </tbody>
 </table>
 
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }}">Protocole</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1</a><br>verbatim Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
+        <td style="text-align: left; padding: 10px;">Forêt Noire</td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1</a><br>standardised textual Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; padding: 10px;">Europe</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
+        <td style="text-align: left; padding: 10px;">Europe | Germany | Baden-Wuerttemberg | Schwarzwald</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; padding: 10px;"><i>Germany</i></td>
+    </tr>
+      <tr>
+        <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
+        <td style="text-align: left; padding: 10px;"><i>Baden-Wuerttemberg</i></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data</td>
+        <td colspan="2 style="text-align: left; padding: 10px;">_none_</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3.4) DAGI Geographical encoding
 
