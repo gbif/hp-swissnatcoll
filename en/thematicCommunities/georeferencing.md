@@ -25,10 +25,10 @@ composition:
 - type: pageMarkdown # This block will render the markdown in this file so no data property needed
 
 - type: features # The block type "features" shows a list of cards
-  data: examples.couldBeAnyName # We also need some data for those cards. In this case we refer to a yaml file in the _data folder.
+  data: features.couldBeAnyName # We also need some data for those cards. In this case we refer to a yaml file in the _data folder.
 
 - type: split
-  data: examples.someOtherNameForSomeData
+  data: features.someOtherNameForSomeData
 
 ---
 
