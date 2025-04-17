@@ -264,6 +264,11 @@ sideNavigation: sideNavigation.georeferencing
 <br>
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <colgroup>
+    <col style="width: 30%;">   <!-- DAGI Attribute -->
+    <col style="width: 30%;">   <!-- Value required -->
+    <col style="width: 30%;">   <!-- Examples -->
+  </colgroup>
   <thead>
     <tr>
         <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }}">Protocole</th>
