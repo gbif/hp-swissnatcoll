@@ -277,7 +277,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="11" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised textual Location data</td>
         <td style="text-align: left; padding: 10px;"><i>continent</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Asia</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
@@ -293,11 +293,11 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>island</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Ceylan</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>country</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Sri Lanka</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>countryCode</i></td>
@@ -322,7 +322,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;">Wikipedia : <a href="https://fr.wikipedia.org/wiki/Sri_Lanka" target="_blank">https://fr.wikipedia.org/wiki/Sri_Lanka</a> : « Le pays était auparavant nommé Tambapanni par ses premiers habitants, Taprobane par les Grecs de l'Antiquité, Serendip (ou Serendib) par les Arabes, puis Ceylan jusqu'en 1972. »</td>
     </tr>
     <tr>
         <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
