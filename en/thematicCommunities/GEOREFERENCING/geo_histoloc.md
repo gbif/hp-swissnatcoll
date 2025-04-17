@@ -226,7 +226,7 @@ sideNavigation: sideNavigation.georeferencing
             url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb75/img_20170629/GDC045175_01.ptif&cvt=jpeg",
             buildPyramid: false
         },
-        defaultZoomLevel: 1,
+        defaultZoomLevel: 3.5,
         minZoomLevel: 0.5,
         maxZoomLevel: 5,
         showNavigator: true,
@@ -239,7 +239,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer2.addHandler("open", function() {
-        viewer2.viewport.panTo(new OpenSeadragon.Point(0.43, 0.97));
+        viewer2.viewport.panTo(new OpenSeadragon.Point(0.6, 0.5));    <!-- 0.43, 0.97 -->
         viewer2.viewport.zoomTo(1.95);
     });
 </script>
