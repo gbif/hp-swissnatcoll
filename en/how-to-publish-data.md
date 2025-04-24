@@ -426,7 +426,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
-## validate my data
+## Validate my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
@@ -459,29 +459,29 @@ In the top-right corner of the page, you can see your login name, the button to 
 The datasets displayed here are the ones that have been added by a Collection Administrator of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
 - *Code*: code of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
-- *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅validate](#validate-my-data)).
+- *State*: is green (🕒Ready) when the previous action launched is finished and a new one can be started (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅validate](#validate-my-data)).
 - *Institution Code*: code of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institutionCode)
 - *Institution*: name of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institution name)
 - *Progress*: progress bar linked to the number of records already imported and the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
 - *Records count / est.*: numerical display of the progress, with first the number of records currently present in the dataset on DAGI and second the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
-- *Updated At*: timestamp of the last action executed on the dataset)
+- *Updated At*: timestamp of the last action executed on the dataset
 
-Only the Collection Administrators can add (🪟New dataset), edit (📝) and delete (🗑️) datasets in the Datasets page.
+Only the Collection Administrators can add (🪟New dataset), edit (📝) and delete (🗑️) datasets in the Datasets view.
 
 
 ### Dataset page
 
 The page of a dataset has 5 available tabs.
 
-- The **Records tab** :<br> View on all imported **records** of the dataset with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Validation status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
+- The **Records tab** :<br> View on all imported **records** of the dataset with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Validation status*), the registration status in an Info Species data center (*Swiss Registry*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br><br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected Layer*, *Value filters*) and the **table of records** below. The number of records displayed on one page of the table can be selected at the bottom of the page.<br><br>
 
-- The **Imports tab** :<br> View on all imported **files** of the dataset with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Imports tab** :<br> View on all imported **files** of the dataset with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*).<br><br> The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Exports tab** :<br> View on all exported **files** of the dataset with a selection of important metadata (*State of the export*, *File name*, *Size*, *timestamp of the export*, and *number of records exported in the file*). The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Exports tab** :<br> View on all exported **files** of the dataset with a selection of important metadata (*State of the export*, *File name*, *Size*, *timestamp of the export*, and *number of records exported in the file*).<br><br> The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Publications and Validations tab** :<br> View on all published or sent for validation **files** of the dataset with a selection of important metadata (*State of the publication/validation*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for validation files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Publications and Validations tab** :<br> View on all published or sent for validation **files** of the dataset with a selection of important metadata (*State of the publication/validation*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*).<br><br> The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for validation files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Image Upload tab**:<br> View on all uploaded zip **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also details such as the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table). The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
+- The **Image Upload tab**:<br> View on all uploaded ZIP **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table).<br><br> The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br> 🔸When the state is Incomplete, by clicking on the yellow ℹ️*Incomplete* icon, a side-pane opens on the right of the window and provides results information on how many images where mapped, unmapped or invalid. By clicking on the blue icon of the size (📥*xyz.x Mbyte*) of the Logfile section (bottom of the side-pane), a csv file is downloaded with the list of all images in the ZIP file and their matched attribute values.<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
 
 
@@ -495,45 +495,58 @@ The Administration view displays **all users already added to your institution**
 
 The *Roles* column informs you on the role/s attributed to each user:
 - **Data Digitizer** (execution role)
-  - can view the datasets of their institution
-  - can [upload](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [publish](#export-my-data){:target="_blank"} the records in the datasets of their institution
+  - can view and access the datasets of their institution
+  - can [jmport](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [send for validation](#validate-my-data){:target="_blank"} the records in the datasets of their institution
 - **Collection Administrator** (management role)
   - can view, add, edit and remove users of their institution
   - can view, add and edit datasets of their institution
+  - can publish datasets on GBIF.org
  
 <br>
 
-| Tasks | Data Digitizer | Collection Administrator |
+| Tasks | Collection Administrator | Data Digitizer |
 | ----- | ------------------ | -------------------- |
-| **Users** -view/add/edit/remove | ❌ | ✅ own institution |
-| **Datasets** -view | ✅ own institution | ✅ own institution |
-| **Datasets** -add/edit | ❌ | ✅ own institution |
-| **Records** -upload/mapping/encode/export/publish | ✅ | ❌ |
+| **Users** -view/add/edit/remove | ✅ | ❌ |
+| **Datasets** -view | ✅ | ✅ |
+| **Datasets** -add/edit | ✅ | ❌ |
+| **Records** -import/encode/export/send for validation | ❌ | ✅ |
+| **Records** -publish | ✅ | ❌ |
+
+<br>
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
+</div>
+<br>
 
 For each user, it is possible to edit their profile (📝) and delete them (🗑️).
 
 ### Add a new user
 
 1. Click on **👤➕ Add User**
-2. Enter the corresponding data in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
+2. Enter the corresponding information in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
 3. Enter a customed password or click on **Generate Password**.<br>
    ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
 4. Click on **Next**
 5. Click on the toggle switch/es corresponding to the role you want to attribute to the new user (see here above for the definitions).
 6. Click on **Next**
-7. Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list.
+7. Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list and is moved at the bottom of the list when refreshing the page.
 
 ## External links
 
 ### Guide
 
-By clicking on **📖Guide**, a new tab is opened on the step-by-step tutorial to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swissnatcoll@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
+By clicking on **📖Guide**, a new tab is opened on the step-by-step page on how to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swissnatcoll@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
 
 ### Tutorials
 
 By clicking on **📹Tutorials**, a new tab is opened on the [tutorial sessions page](https://swissnatcoll.hp.gbif-staging.org/en/tutorial-sessions){:target="_blank"} of the SwissNatColl hosted portal. This is where we inform you of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person, who is acting as a bridge between you and the development team of DAGI.
 
-On this page are also listed all the text material, video material and Powerpoint presentations, prepared to help you in your use of DAGI and also related subjects, such as data preparation and Darwin Core.
+On this page are also listed all the text material, use-case material and Powerpoint presentations, prepared to help you in your use of DAGI and also related subjects, such as data preparation and Darwin Core.
+
+### Terms & Conditions
+
+By clicking on **📄Terms&Conditions**, a new tab is opened on the [terms of use page](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} of the SwissNatColl hosted portal. This page sets the agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland. By accessing the Data Aggregator DAGI, each user was requested to accept to comply to the terms. This acceptation is renewed everytime a Collection Administrator publishes a dataset on GBIF.org.
+
 
 <html lang="en">
 <head>
