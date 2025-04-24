@@ -355,7 +355,7 @@ sideNavigation: sideNavigation.georeferencing
 
 <br><br><br>
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+<!-- table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
   <thead>
     <tr>
         <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }}">Protocole</th>
@@ -530,4 +530,4 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; padding: 10px;"></td>
     </tr>
   </tbody>
-</table>
+</table -->
