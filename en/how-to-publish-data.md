@@ -32,7 +32,7 @@ toc: true
 
 After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
-A feature currently in development will also allow you to [send your swiss data for validation](#approve-my-data) to the Infospecies data centers experts.
+A feature currently in development will also allow you to [send your swiss data for validation](#validate-my-data) to the Infospecies data centers experts.
 
 <figure class="has-text-centered">
   <a href="/assets/images/GraphsDiagrams/DAGI_dataflow.png" data-lightbox="image-1" 
@@ -219,11 +219,11 @@ Additionnally, there are two icons opening the pages on the SwissNatColl portal 
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
 2. Click on the dataset name in which you want to import your data.
-  - For each dataset in DAGI, you have 6 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Approvals_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
+  - For each dataset in DAGI, you have 6 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Validations_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
   - The tab **Records** displays the imported **records** available in your dataset.
   - The tab **Imports** displays all the **files** you have imported.
   - The tab **Exports** displays all the **files** you have exported.
-  - The tab **Publications and Approvals** displays all the **files** you have published on GBIF.org or sent for approval to the InfoSpecies data centers.
+  - The tab **Publications and Validations** displays all the **files** you have published on GBIF.org or sent for validation to the InfoSpecies data centers.
   - The tab **Image Upload** displays all the **files** with images you have imported.
   - The tab **Published Records** displays all the **records** that have been already published.
 3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
@@ -265,7 +265,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
 5. Repeat these steps until all of the fields you want to import are mapped.
-  - If you can't find a DAGI attribute corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Approval/Validation process)
+  - If you can't find a DAGI attribute corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Validation process)
 <br>
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
@@ -286,12 +286,12 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 <p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong>, so that you can benefit from the enrichment offered by DAGI.</p>
-<p>Despite not needed for publication or approval, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
+<p>Despite not needed for publication or validation, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
 <p>The supplementary mandatory attributes are <i>kingdom</i> and <i>country</i>.</p>
 </div>
 
 1. If you want to encode only a certain set of your data, use the **available filters**.
-  - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-approved records (**Not approved**). By selecting one, you can set a first level of filters.
+  - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-validated records (**Not validated**). By selecting one, you can set a first level of filters.
   - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : cataloNumber, scientificName and occurrenceID.
   - **🎚️Filters**: Next to the search bar, there is this button which opens a pop-up window with available filters for your dataset. Currently, you can filter only the IUCN Red List categories, the MIDS levels, the Taxonomy of the ranks species, kingdom and phylum and the Location at the level of the continents. An improvement of the filters is planned soon.
 2. Click on **🧩Encode**.
@@ -415,7 +415,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
 - The Publication status of your records have changed to 🌐In Publication.
-- You can access the DarwinCore-Archive generated for the publication in the **Publications and Approvals** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
+- You can access the DarwinCore-Archive generated for the publication in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 - By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes for all the occurrences to appear.
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
@@ -426,19 +426,19 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
-## Approve my data
+## validate my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
 </div>
 
-1. Click on **☑️Approve**.
-  - A window opens with a short summary of what the approval entitles.
+1. Click on **☑️validate**.
+  - A window opens with a short summary of what the validation entitles.
   - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
-2. Click on **Approve**.
-  - A progression bar appears during the approval process and disappears when launched.
+2. Click on **validate**.
+  - A progression bar appears during the validation process and disappears when launched.
   - The Validation status of your records have changed to 🌐In Validation.
-  - You can access the DarwinCore-Archive generated for the validation in the **Publications and Approvals** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
+  - You can access the DarwinCore-Archive generated for the validation in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 
 
@@ -459,7 +459,7 @@ In the top-right corner of the page, you can see your login name, the button to 
 The datasets displayed here are the ones that have been added by a Collection Administrator of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name)
 - *Code*: code of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode)
-- *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅approve](#approve-my-data)).
+- *State*: is green (🕒Ready) when the previous action requested is finished and a new one can be done (Actions : [📤import a dataset](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅validate](#validate-my-data)).
 - *Institution Code*: code of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institutionCode)
 - *Institution*: name of your institution as stated on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"} (institution name)
 - *Progress*: progress bar linked to the number of records already imported and the total number of specimens stated on your collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}
@@ -473,13 +473,13 @@ Only the Collection Administrators can add (🪟New dataset), edit (📝) and de
 
 The page of a dataset has 5 available tabs.
 
-- The **Records tab** :<br> View on all imported **records** of the dataset with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Approval status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
+- The **Records tab** :<br> View on all imported **records** of the dataset with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Validation status*), the *MIDS quality level* and the *timestamp of the last update of the record*. <br>The tab is separated in two parts: The **filters** on top (*Quick filters*, *Search bar*, *selected layer*, *value filters*) and the **table of records** below. The number of records displayed in the table can be selected at the bottom of the page. The table of records is automatically set in different pages if the total number of records exceeds the displayed number selected.<br><br>
 
 - The **Imports tab** :<br> View on all imported **files** of the dataset with a selection of important metadata (*State of the import*, *File name*, *Size*, *timestamp of the import*, and *number of records imported from the file*). The State is either blue (⚙️*In progress*), green (✅*Imported*) or red (❌*Failed*).<br> 🔸When the state is Imported, by clicking on the green ✅*Imported* icon, a side-pane opens on the right of the window and provides information about the file itself, the mapping saved and the unmapped columns.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure. The red text informs on the number of rows with invalid data and the number of elements with a detected error. By clicking on the blue eye icon (👁️‍🗨️ = *Preview error log*) in the Error log section, a pop-up window opens with the catalog number and scientific name of the records concerned by the invalid data, the field containing the invalid data, the value that is invalid and an error message describing why it is invalid. The required changes have to be done in the import file. A new import attempt must be done to proceed further.<br><br> **All imported files, even the failed ones, are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Imports tab does not delete it from the server, but only from the tab view.<br><br>
 
 - The **Exports tab** :<br> View on all exported **files** of the dataset with a selection of important metadata (*State of the export*, *File name*, *Size*, *timestamp of the export*, and *number of records exported in the file*). The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
-- The **Publications and Approvals tab** :<br> View on all published or sent for approval **files** of the dataset with a selection of important metadata (*State of the publication/approval*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for approval files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
+- The **Publications and Validations tab** :<br> View on all published or sent for validation **files** of the dataset with a selection of important metadata (*State of the publication/validation*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*). The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for validation files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*). Deleting a file in the Exports tab does not delete it from the server, but only from the tab view.<br><br>
 
 - The **Image Upload tab**:<br> View on all uploaded zip **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also details such as the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table). The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
