@@ -2,42 +2,26 @@ lessons:
   title: "Powerpoint presentations"
   description: "How to use the Data Aggregator functionalities"
   features:
-    - title: "Lesson 1" # required
-      description: |      # required
-        remastered version coming soon
-      href:
-      background: "/assets/images/categories/tuto_lesson1.png"
-
-    - title: "Lesson 2"
-      description: |      # required
-        remastered version coming soon
-      href:
-      background: "/assets/images/categories/tuto_lesson2.png"
-
-    - title: "Lesson 3"
-      description: |      # required
-        remastered version coming soon
-      href:
-      background: "/assets/images/categories/tuto_lesson3.png"
-
-lessons2:
-  title: "Powerpoint presentations"
-  description: "How to use the Data Aggregator functionalities"
-  features:
     - title: "Lesson 1 ✨NEW" # required
       description: |      # required
-        General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth upload of the institutions datasets.
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/Eed7bEMkv3RBpx14t2UfftIBbm1S54-sq0H95fI5MABmFg?e=MF40A0"
+        General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth import of the institutions data.
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZ03tXOTg7tIsTmg4oBwxNcBNbjc6sDOuLOTGmpmRscGMQ?e=LBpfDs"
       background: "/assets/images/categories/tuto_lesson1.png"
 
     - title: "Lesson 2 ✨NEW"
       description: |
-        Focus on adding a collection, importing a dataset file and do the mapping. Additional examples with possible error messages are also provided
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZXOu0yq6a9FrrsEjru11PMBuYh-4vS5VWbyD5xoWUWdNw?e=zlTXjn"
+        Focus on adding a dataset, importing data and do the mapping. Additional examples with possible error messages are also provided
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EbyKQbq_E5ZMnMbMeDfc0M8BRHv_5SLm9rT-RuJa7ImwIw?e=vT6yWx"
       background: "/assets/images/categories/tuto_lesson2.png"
 
     - title: "Lesson 3 ✨NEW"
       description: |
-        Summary of the previous lessons and of what comes next
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EQZYBI30ATpFrN4U7Wffb34BYoGAEYSeV8ClGd9v-LRbdA?e=SRv0Ja"
+        Focus on exporting a dataset and send data for validation
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
       background: "/assets/images/categories/tuto_lesson3.png"
+
+    - title: "Lesson 4 ✨NEW"
+      description: |
+        Focus on publishing a dataset on GBIF.org
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
+      background: "/assets/images/categories/tuto_lesson4.png"
