@@ -410,7 +410,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 - The last step is a summary window on which you can check the settings of Step 1️⃣, as well as the application of the publication rules.
    - The publication rules are applied to specimens collected in Switzerland and of taxa treated by the data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
    - The publication on GBIF is irreversible from DAGI.<br><br>
-6. **Tick the box** to confirm that you accept the [terms of use](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} and full responsibility for the publication.
+6. **Tick the box** to confirm that you accept the [terms of use](/en/terms/){:target="_blank"} and full responsibility for the publication.
    - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br><br>
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
@@ -539,13 +539,13 @@ By clicking on **📖Guide**, a new tab is opened on the step-by-step page on ho
 
 ### Tutorials
 
-By clicking on **📹Tutorials**, a new tab is opened on the [tutorial sessions page](https://swissnatcoll.hp.gbif-staging.org/en/tutorial-sessions){:target="_blank"} of the SwissNatColl hosted portal. This is where we inform you of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person, who is acting as a bridge between you and the development team of DAGI.
+By clicking on **📹Tutorials**, a new tab is opened on the [tutorial sessions page](/en/tutorial-sessions){:target="_blank"} of the SwissNatColl hosted portal. This is where we inform you of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person, who is acting as a bridge between you and the development team of DAGI.
 
 On this page are also listed all the text material, use-case material and Powerpoint presentations, prepared to help you in your use of DAGI and also related subjects, such as data preparation and Darwin Core.
 
 ### Terms & Conditions
 
-By clicking on **📄Terms&Conditions**, a new tab is opened on the [terms of use page](https://swissnatcoll.hp.gbif-staging.org/en/terms/){:target="_blank"} of the SwissNatColl hosted portal. This page sets the agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland. By accessing the Data Aggregator DAGI, each user was requested to accept to comply to the terms. This acceptation is renewed everytime a Collection Administrator publishes a dataset on GBIF.org.
+By clicking on **📄Terms&Conditions**, a new tab is opened on the [terms of use page](/en/terms/){:target="_blank"} of the SwissNatColl hosted portal. This page sets the agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland. By accessing the Data Aggregator DAGI, each user was requested to accept to comply to the terms. This acceptation is renewed everytime a Collection Administrator publishes a dataset on GBIF.org.
 
 
 <html lang="en">
