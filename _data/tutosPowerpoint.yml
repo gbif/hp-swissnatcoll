@@ -25,3 +25,15 @@ lessons:
         Focus on publishing a dataset on GBIF.org
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
       background: "/assets/images/categories/tuto_lesson4.png"
+
+    - title: "Lesson 5 🔜"
+      description: |
+        Upcoming development of DAGI to be defined. To be continued.
+      href: 
+      background: "/assets/images/placeholders/blocks2.png"
+      
+      - title: "Summary mind maps 🔜"
+      description: |
+        Mind maps and graphs summarising all lessons. Coming soon.
+      href: 
+      background: "/assets/images/placeholders/blocks2.png"
