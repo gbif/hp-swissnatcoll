@@ -6,29 +6,29 @@ lessons:
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth import of the institutions data.
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EZ03tXOTg7tIsTmg4oBwxNcBNbjc6sDOuLOTGmpmRscGMQ?e=LBpfDs"
-      background: "/assets/images/categories/tuto_lesson1.png"
+      background: "/assets/images/categories/tuto_lesson_1.png"
 
     - title: "Lesson 2 ✨NEW"
       description: |
         Focus on adding a dataset, importing data and do the mapping. Additional examples with possible error messages are also provided
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EbyKQbq_E5ZMnMbMeDfc0M8BRHv_5SLm9rT-RuJa7ImwIw?e=vT6yWx"
-      background: "/assets/images/categories/tuto_lesson2.png"
+      background: "/assets/images/categories/tuto_lesson_2.png"
 
     - title: "Lesson 3 ✨NEW"
       description: |
         Focus on exporting a dataset and send data for validation
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
-      background: "/assets/images/categories/tuto_lesson3.png"
+      background: "/assets/images/categories/tuto_lesson_3.png"
 
     - title: "Lesson 4 ✨NEW"
       description: |
         Focus on publishing a dataset on GBIF.org
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
-      background: "/assets/images/categories/tuto_lesson4.png"
+      background: "/assets/images/categories/tuto_lesson_4.png"
 
     - title: "Lesson 5 🔜"
       description: |
-        Upcoming development of DAGI to be defined. To be continued.
+        Upcoming development of DAGI to be defined. Coming soon.
       href: 
       background: "/assets/images/placeholders/blocks2.png"
       
