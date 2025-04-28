@@ -193,8 +193,8 @@ Defining the pertinence of georeferencing historical localities is prior to any 
   <table style="border-collapse: collapse; width: 100%;">
     <thead>
       <tr>
-        <th style="position: sticky; left: 0; width: 100px; min-width: 100px; max-width: 100px; background: {{ site.data.colors.lightblue.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Protocole</th>
-        <th style="position: sticky; left: 100px; width: 110px; min-width: 110px; max-width: 110px; background: {{ site.data.colors.attribute.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Attribute</th>
+        <th style="background: {{ site.data.colors.lightblue.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Protocole</th>
+        <th style="background: {{ site.data.colors.attribute.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Attribute</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Lakes</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain massifs</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain ranges</th>
@@ -203,58 +203,58 @@ Defining the pertinence of georeferencing historical localities is prior to any 
     </thead>
     <tbody>
       <tr>
-        <td rowspan="1" style="position: sticky; left: 0; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
+        <td rowspan="1" style="background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
           <a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1</a><br>verbatim Location data
         </td>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>verbatimLocality</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>verbatimLocality</i></td>
         <td style="border: 1px solid black; padding: 10px;">Lac Léman</td>
         <td style="border: 1px solid black; padding: 10px;">Mont Blanc</td>
         <td style="border: 1px solid black; padding: 10px;">Forêt Noire</td>
         <td style="border: 1px solid black; padding: 10px;">Parc national des Écrins</td>
       </tr>
       <tr>
-        <td rowspan="5" style="position: sticky; left: 0; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
+        <td rowspan="5" style="background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
           <a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1</a><br>standardised textual Location data
         </td>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>continent</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>continent</i></td>
         <td style="border: 1px solid black; padding: 10px;">Europe</td>
         <td style="border: 1px solid black; padding: 10px;">Europe</td>
         <td style="border: 1px solid black; padding: 10px;">Europe</td>
         <td style="border: 1px solid black; padding: 10px;">Europe</td>
       </tr>
       <tr>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>higherGeography</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>higherGeography</i></td>
         <td style="border: 1px solid black; padding: 10px;">Europe | Lake Geneva</td>
         <td style="border: 1px solid black; padding: 10px;">Europe | Mont Blanc</td>
         <td style="border: 1px solid black; padding: 10px;">Europe | Germany | Baden-Wuerttemberg | Schwarzwald</td>
         <td style="border: 1px solid black; padding: 10px;">Europe | France | Parc National des Ecrins</td>
       </tr>
       <tr>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>waterBody</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>waterBody</i></td>
         <td style="border: 1px solid black; padding: 10px;">Lake Geneva</td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
       </tr>
       <tr>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>country</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>country</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;">Germany</td>
         <td style="border: 1px solid black; padding: 10px;">France</td>
       </tr>
       <tr>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>stateProvince</i></td>
+        <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>stateProvince</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
         <td style="border: 1px solid black; padding: 10px;">Baden-Wuerttemberg</td>
         <td style="border: 1px solid black; padding: 10px;">Baden-Wuerttemberg</td>
       </tr>
       <tr>
-        <td rowspan="1" style="position: sticky; left: 0; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
+        <td rowspan="1" style="background: white; text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; z-index: 1;">
           <a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br>standardised coordinates data
         </td>
-        <td style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: white; text-align: center; border: 1px solid black; padding: 10px; z-index: 1;">—</td>
+        <td style="background: white; text-align: center; border: 1px solid black; padding: 10px; z-index: 1;">—</td>
         <td colspan="4" style="border: 1px solid black; padding: 10px; text-align: center;">Standardised coordinates data should be left empty or else the "official" administrative entity might be attributed during encoding.</td>
       </tr>
     </tbody>
