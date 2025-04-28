@@ -232,21 +232,21 @@ Defining the pertinence of georeferencing historical localities is prior to any 
       <tr>
         <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>waterBody</i></td>
         <td style="border: 1px solid black; padding: 10px;">Lake Geneva</td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
       </tr>
       <tr>
         <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>country</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
         <td style="border: 1px solid black; padding: 10px;">Germany</td>
         <td style="border: 1px solid black; padding: 10px;">France</td>
       </tr>
       <tr>
         <td style="background: white; text-align: left; border: 1px solid black; padding: 10px; z-index: 1;"><i>stateProvince</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
-        <td style="border: 1px solid black; padding: 10px;"><i>none</i></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
+        <td style="border: 1px solid black; padding: 10px;"></td>
         <td style="border: 1px solid black; padding: 10px;">Baden-Wuerttemberg</td>
         <td style="border: 1px solid black; padding: 10px;">Baden-Wuerttemberg</td>
       </tr>
