@@ -572,7 +572,7 @@ sideNavigation: sideNavigation.georeferencing
 
 <!-- OpenSeadragon Viewer -->
 <div id="openseadragon4" class="openseadragon-viewer">
-    <div id="zoom-level3" class="zoom-level">Zoom: 1.00</div>
+    <div id="zoom-level4" class="zoom-level">Zoom: 1.00</div>
 </div>
 
 <div class="legend">
