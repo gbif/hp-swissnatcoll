@@ -686,12 +686,12 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
-        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><a href="https://www.getty.edu/vow/AATFullDisplay?find=Kashmir&logic=AND&note=&english=N&prev_page=1&subjectid=300018817" target="_blank">Getty Thesaurus of Geographic Names (TGN)</a> : « Kashmir, the northwestern region of the Indian subcontinent. »</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><a href="https://www.getty.edu/vow/TGNFullDisplay?find=kashmir&place=&nation=&prev_page=1&english=Y&subjectid=7029388" target="_blank">Getty Thesaurus of Geographic Names (TGN)</a> : « Ancient state and region of the northwestern Indian subcontinent, comprising circa 85,800 square miles [...] It is has been the subject of dispute between India and Pakistan since the partition of the Indian subcontinent in 1947. »</td>
     </tr>
     <tr>
-        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br> Standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; padding: 10px;">Standardised coordinates data should be left empty or else the "official" administrative entity might be attributed during encoding.</td>
+        <td style="text-align: left; padding: 10px;">Standardised coordinates data should be left empty, or else the "official" administrative entity might be attributed during encoding.</td>
     </tr>
   </tbody>
 </table>
@@ -732,7 +732,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer5.addHandler("open", function() {
-        viewer5.viewport.panTo(new OpenSeadragon.Point(0.75, 1.3));
+        viewer5.viewport.panTo(new OpenSeadragon.Point(0.75, 1.4));
         viewer5.viewport.zoomTo(2);
     });
 </script>
@@ -751,7 +751,7 @@ sideNavigation: sideNavigation.georeferencing
     <tr>
         <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1a</a><br> <strong>Transcribe</strong><br> verbatim Location data</td>
         <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Île de France et Bourbon au Pouce</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>verbatimElevation</i></td>
@@ -774,7 +774,136 @@ sideNavigation: sideNavigation.georeferencing
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
+        <td style="text-align: left; padding: 10px;">Indian Ocean | Mascarene</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>waterBody</i></td>
         <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>islandGroup</i></td>
+        <td style="text-align: left; padding: 10px;">Mascarene</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>island</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>country</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>countryCode</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>stateProvince</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>county</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>municipality</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>locality</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1b</a><br> <strong>Document</strong><br> standardised textual Location data</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><a href="https://www.getty.edu/vow/TGNFullDisplay?find=mascarene&place=&nation=&prev_page=1&english=Y&subjectid=1010139" target="_blank">Getty Thesaurus of Geographic Names (TGN)</a>: Group of islands in the Indian Ocean east of Madagascar.</td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br> Standardised coordinates data</td>
+        <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
+        <td style="text-align: left; padding: 10px;">Centroid method of georeferencing could be used here (see <a href="https://geopick.gbif.org/?locationid=geopick-v2.1.0-2025-01-13T11-05-40.825Z-138" target="_blank">example here</a>), however geocoding APIs may not be able to deal with multiple countries results (here: Mauritia MU and Reunion RE).</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+## Changes in borders delimitation
+
+<!-- OpenSeadragon Viewer -->
+<div id="openseadragon6" class="openseadragon-viewer">
+    <div id="zoom-level6" class="zoom-level">Zoom: 1.00</div>
+</div>
+
+<div class="legend">
+    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=166481&lang=fr">G00191977</a>,
+    <i>Triticum obtusidlorum</i> DC.
+</div>
+
+<script>
+    var viewer6 = OpenSeadragon({
+        id: "openseadragon6",
+        prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
+        tileSources: {
+            type: "image",
+            url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb8/img_43/G00191977.ptif&cvt=jpeg",
+            buildPyramid: false
+        },
+        defaultZoomLevel: 1,
+        minZoomLevel: 0.5,
+        maxZoomLevel: 5,
+        showNavigator: true,
+        navigatorPosition: "BOTTOM_LEFT"
+    });
+
+    viewer6.addHandler("zoom", function(event) {
+        var zoom = viewer6.viewport.getZoom().toFixed(2);
+        document.getElementById("zoom-level6").innerText = "Zoom: " + zoom;
+    });
+
+    viewer6.addHandler("open", function() {
+        viewer6.viewport.panTo(new OpenSeadragon.Point(0.75, 1.4));
+        viewer6.viewport.zoomTo(2);
+    });
+</script>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightblue.background }}">Protocole</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+        <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1a</a><br> <strong>Transcribe</strong><br> verbatim Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>verbatimLocality</i></td>
+        <td style="text-align: left; padding: 10px;">Macedonia</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>verbatimElevation</i></td>
+        <td style="text-align: left; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#11-step-1-transcribe-verbatim-location-data">Step 1.1b</a><br> <strong>Document</strong><br> verbatim Location data</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>locationRemarks</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#12-transcribe-verbatim-coordinates-data">Step 1.2</a><br> <strong>Transcribe</strong><br> verbatim Coordinates data</td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>verbatimCoordinates</i></td>
+        <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"><i>none</i></td>
+    </tr>
+    <tr>
+        <td rowspan="11" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#21-enrich-standardised-textual-location-data">Step 2.1a</a><br> <strong>Enrich</strong><br> standardised textual Location data</td>
+        <td style="text-align: left; padding: 10px;"><i>continent</i></td>
+        <td style="text-align: left; padding: 10px;">Europe</td>
+    </tr>
+    <tr>
+        <td style="text-align: left; padding: 10px;"><i>higherGeography</i></td>
+        <td style="text-align: left; padding: 10px;">Europe | Macedonia</td>
     </tr>
     <tr>
         <td style="text-align: left; padding: 10px;"><i>waterBody</i></td>
@@ -818,62 +947,9 @@ sideNavigation: sideNavigation.georeferencing
         <td style="text-align: left; border-bottom: 1px solid black; padding: 10px;"></td>
     </tr>
     <tr>
-        <td rowspan="9" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2a</a><br> <strong>Enrich</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>decimalLatitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>decimalLongitude</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>geodeticDatum</i></td>
-        <td style="text-align: left; padding: 10px;">EPSG:4326 (=WGS84)</td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv95_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_E</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>swissCoordinatesLv03_N</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinateUncertaintyInMeters</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>coordinatePrecision</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td rowspan="5" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2b</a><br> <strong>Document</strong><br> standardised coordinates data</td>
-        <td style="text-align: left; padding: 10px;"><i>georeferencedBy</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferencedDate</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferenceProtocol</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
-        <td style="text-align: left; padding: 10px;"><i>georeferenceSources</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
-    </tr>
-    <tr>
+        <td style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;"><a href="/en/geo-protocole#22-enrich-standardised-coordinates-data">Step 2.2</a><br> Standardised coordinates data</td>
         <td style="text-align: left; padding: 10px;"><i>georeferenceRemarks</i></td>
-        <td style="text-align: left; padding: 10px;"></td>
+        <td style="text-align: left; padding: 10px;">Standardised coordinates data should be left empty or else the "official" administrative entity might be attributed during encoding.</td>
     </tr>
   </tbody>
 </table>
