@@ -158,6 +158,18 @@ graph TD;
 > - [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources){:target="_blank"}
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
+## In-house practices among Swiss natural history collections
+
+### pseudo ISO Codes
+
+In order to deal with unfitting historical locations, the in-house use of self-made codes help filtering data in databases before publishing them and/or sharing them outside of the institution. Here are some example, that would facilitate the collaboration between swiss institutions:
+
+| Pseudo-ISO codes | Definition                    | Example    |
+| ---------------- | ----------------------------- | ---------- |
+| AA               | Covering several countries    | Yugoslavia |
+| ZZ               | Overlapping several countries | Prussia    |
+| XX               | Unknown, Whole world          | _empty_    |
+
 # 3) Georeferencing approach
 
 ## 3.1) Possible
