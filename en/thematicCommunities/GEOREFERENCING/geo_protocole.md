@@ -193,12 +193,12 @@ Defining the pertinence of georeferencing historical localities is prior to any 
   <table style="border-collapse: collapse; width: 100%;">
     <thead>
       <tr>
-        <th style="position: sticky; left: 0; width: 200px; min-width: 200px; max-width: 200px; background: {{ site.data.colors.lightblue.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Protocole</th>
-        <th style="position: sticky; left: 200px; width: 200px; min-width: 200px; max-width: 200px; background: {{ site.data.colors.attribute.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Attribute</th>
-        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Value 1</th>
-        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Value 2</th>
-        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Value 3</th>
-        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Value 4</th>
+        <th style="position: sticky; left: 0; width: 150px; min-width: 150px; max-width: 150px; background: {{ site.data.colors.lightblue.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Protocole</th>
+        <th style="position: sticky; left: 200px; width: 150px; min-width: 150px; max-width: 150px; background: {{ site.data.colors.attribute.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Attribute</th>
+        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Lakes</th>
+        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain massifs</th>
+        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain ranges</th>
+        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">National parks</th>
       </tr>
     </thead>
     <tbody>
