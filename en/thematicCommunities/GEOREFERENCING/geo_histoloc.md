@@ -732,7 +732,7 @@ sideNavigation: sideNavigation.georeferencing
     });
 
     viewer5.addHandler("open", function() {
-        viewer5.viewport.panTo(new OpenSeadragon.Point(0.7, 1));
+        viewer5.viewport.panTo(new OpenSeadragon.Point(0.75, 1.3));
         viewer5.viewport.zoomTo(2);
     });
 </script>
