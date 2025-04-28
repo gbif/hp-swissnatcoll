@@ -1196,7 +1196,7 @@ Here are the Thesaurii available in DAGI:
 
 <br>
 
-#### Examples of data that can't be encoded
+#### Examples of data that can't be correctly encoded
 
 <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
   <thead>
@@ -1204,6 +1204,7 @@ Here are the Thesaurii available in DAGI:
       <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.attribute.background }}">DAGI Attribute</th>
       <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.value.background }};">Value that can't be encoded</th>
       <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.exampleValues.background }};">Cause</th>
+      <th style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.exampleValues.background }};">Recommendation</th>
     </tr>
   </thead>
   <tbody>
@@ -1211,15 +1212,23 @@ Here are the Thesaurii available in DAGI:
       <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">scientificName</td>
       <td style="border: 1px solid black; padding: 8px;">"Rubiaceae Coffea liberica"</td>
       <td style="border: 1px solid black; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
+      <td style="border: 1px solid black; padding: 8px;">Either import "Rubiaceae" or "Coffea liberica"</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">"<i>example coming soon</i>"</td>
       <td style="border: 1px solid black; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+      <td style="border: 1px solid black; padding: 8px;">Add the author</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">"Indet. ohne Angaben"</td>
+      <td style="border: 1px solid black; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+      <td style="border: 1px solid black; padding: 8px;">Either don't import these specimens with incomplete identification or choose a higher taxon rank (e.g. <i>kingdom</i>, <i>phylum</i>)</td>
     </tr>
     <tr>
       <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid black; padding: 8px;">"01.01.2025"</td>
       <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
+      <td rowspan="2" style="border: 1px solid black; padding: 8px;">Separate your <i>eventDate</i> into <i>day</i>, <i>month</i>, <i>year</i> and use the encoding of DAGI<br> or change the format to ISO 8601-1:2019</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">"2025-1-1"</td>
