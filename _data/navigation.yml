@@ -3,6 +3,11 @@
 
 - text: About
   href: /en/about
+  menu:
+  - text: Organisation
+    href: /en/about-org
+  - text: Partners
+    href: /en/about-part
 - text: Data
   menu: 
   - text: Navigating in the data
