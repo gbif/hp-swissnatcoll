@@ -7,9 +7,14 @@ const institutionKey = ["8d572607-d32c-4477-8834-c9dbe76c57f9", "e772c6d6-bbc8-4
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
+    // mapDensityColors: ['#edf8e9', '#bae4b3', '#bae4b3', '#31a354', '#006d2c'],  // green2
+    mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
+    // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
+    // mapDensityColors: ['#71934c', '#608942', '#4d7b36', '#3e702b', '#2e621f'],  // darker green
     borderRadius: isSquared? 0 : 3
   }});
 }
+
 var siteConfig = {
   apiKeys: {
    "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow",
