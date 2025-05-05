@@ -15,9 +15,9 @@ The data accessible on this hosted portal has been **provided by the [swiss natu
 There are currently 3 entry points to the data:
 1. 📍[Occurrences](/occurrence/search){:target="_blank"}, each element of the table is a specimen of a natural history institution. This view is based on the [GBIF.org occurrence table](https://www.gbif.org/occurrence/search?occurrence_status=present&q=){:target="_blank"} but shows only specimens held in the swiss natural history institutions.
 
-2. 🗃️[Collections](/collection/search), each element of the table is a collection of a natural history institution. This view is based on the [GBIF Registry - GRSciColl collections](https://registry.gbif.org/collection/search).
+2. 🗃️[Collections](/collection/search), each element of the page is a collection of a natural history institution. This view is based on the [GBIF Registry - GRSciColl collections](https://registry.gbif.org/collection/search). The elements are ordered by size of the collection (number of specimens).
 
-3. 🏛️[Institutions](/institution/search), each element of the table is a swiss natural history institution who is part of the SwissCollNet project network. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). A map of Switzerland with all registered natural history instutions is also displayed.
+3. 🏛️[Institutions](/institution/search), each element of the page is a swiss natural history institution who is part of the SwissCollNet project network. This view is based on the [GBIF Registry - GRSciColl institutions](https://registry.gbif.org/institution/search). The elements are ordered by size of the institution (number of specimens). A map of Switzerland with all registered natural history instutions is also displayed.
 
 4. 🔬 [3D models](/en/threeDmodels), a model viewer displays a selected 3D model of a specimen held in a swiss institution. The model can be viewed from different angles and zoomed in and out. If the specimen data is also available on GBIF, the link and a few basic information is provided.
 
