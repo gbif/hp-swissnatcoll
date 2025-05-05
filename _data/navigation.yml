@@ -33,6 +33,10 @@
 #    href: /en/data-aggregator-about
   - text: DAGI -🔗 Direct link
     href: https://dagi.gbif.ch/sign-in
+- text: Ressources
+  menu:
+  - text: Georeferencing protocole
+    href: /en/geo-protocole
 #- text: Visit us
 #  href: /en/visit_us
 #- text: 🔗 Links
