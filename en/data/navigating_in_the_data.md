@@ -24,7 +24,7 @@ There are currently 3 entry points to the data:
 
 <br>
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ For reasons of confidentiality and security, the precision of certain data, for example geographical data, has been reduced. Untransformed data can only be obtained from the owner institution.
+⚠️ For reasons of confidentiality and security, the precision of certain data, for example geographical data, has been reduced.
 </div>
 <br>
 
