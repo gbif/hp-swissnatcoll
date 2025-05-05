@@ -17,15 +17,15 @@
     href: /en/data-aggregator-faqs
 - text: Data
   menu: 
-  - text: 📍 Occurrences
+  - text: Occurrences
     href: /occurrence/search
-  - text: 🗃️ Collections
+  - text: Collections
     href: /collection/search
-  - text: 🏛️ Institutions
+  - text: Institutions
     href: /institution/search
- # - text: 🔖 Typus
+ # - text: Typus
  #   href: /occurrence/search?typeStatus=TYPE&typeStatus=TYPE_SPECIES&typeStatus=TYPE_GENUS&typeStatus=ALLOLECTOTYPE&typeStatus=ALLONEOTYPE&typeStatus=ALLOTYPE&typeStatus=COTYPE&typeStatus=EPITYPE&typeStatus=EXEPITYPE&typeStatus=EXHOLOTYPE&typeStatus=EXISOTYPE&typeStatus=EXLECTOTYPE&typeStatus=EXNEOTYPE&typeStatus=EXPARATYPE&typeStatus=EXSYNTYPE&typeStatus=EXTYPE&typeStatus=HAPANTOTYPE&typeStatus=HOLOTYPE&typeStatus=ICONOTYPE&typeStatus=ISOLECTOTYPE&typeStatus=ISOPARATYPE&typeStatus=ISONEOTYPE&typeStatus=ISOSYNTYPE&typeStatus=ISOTYPE&typeStatus=LECTOTYPE&typeStatus=NEOTYPE&typeStatus=PARALECTOTYPE&typeStatus=PARANEOTYPE&typeStatus=PARATYPE&typeStatus=PLASTOHOLOTYPE&typeStatus=PLASTOISOTYPE&typeStatus=PLASTOLECTOTYPE&typeStatus=PLASTONEOTYPE&typeStatus=PLASTOPARATYPE&typeStatus=PLASTOSYNTYPE&typeStatus=PLASTOTYPE&typeStatus=SECONDARYTYPE&typeStatus=SUPPLEMENTARYTYPE&typeStatus=SYNTYPE&typeStatus=TOPOTYPE&typeStatus=ORIGINALMATERIAL
-  - text: 🔬 3D Models
+  - text: 3D Models
     href: /en/threeDmodels
 - text: Tools
   menu:
