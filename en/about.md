@@ -1,24 +1,17 @@
 ---
 lang-ref: about
-layout: post
+layout: compose
 title: About
-description: SwissNatColl
+description: This hosted portal presents the digitised specimens held in the natural history institutions of Switzerland
 background: /assets/images/GraphsDiagrams/SwissDataFlows.png
 imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 height: 50vh
 toc: true
 ---
 
-# Swiss Natural History Collection, a SwissCollNet project
-The ‘**Swiss Natural History Collection Network**’ ([SwissCollNet](https://swisscollnet.scnat.ch/de)) is an initiative committed to improving the accessibility of natural history collections for research, education and  society. During the funding period 2021–24, SwissCollNet has identified, prioritized and digitized as many collections as possible and built an online portal, the Swiss Natural History Collection (hereafter SwissNatColl), which provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
+# Swiss Natural History Collection
+The Swiss Natural History Collection (SwissNatColl) provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
 
-<br>
-_Source: [Petrus, A., Wildi, T. and Müller, S. Preproject ‘Swiss Virtual Natural History Collection’. Database (2023) Vol. 2023: article ID baad072.](https://academic.oup.com/database/article/doi/10.1093/database/baad072/7335478?login=true){:target="_blank}_
-<br>
-<figure class="has-text-centered">
-	<img src="{{ site.data.images.swisscollnet.src }}" />
-	<figcaption caption="{{ site.data.images.swisscollnet.caption }}" />
-</figure>
 
 <html lang="en">
 <head>
