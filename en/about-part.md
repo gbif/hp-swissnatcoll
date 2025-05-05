@@ -8,6 +8,16 @@ height: 50vh
 toc: true
 ---
 
-# Network
+# Institutions of natural history
 
-...
+* [Institutions](/institution/search){:target="_blank"}
+
+# Associations and Societies
+
+* GBIF Swiss Node official page ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"})
+* Swiss Association of Natural History Museums ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
+* Swiss Systematics Society ([SSS](https://swiss-systematics.ch/en){:target="_blank"})
+* Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
+* Swiss natural history collections network ([SwissCollNet](https://swisscollnet.scnat.ch/en){:target="_blank"})
+* Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
+* Association Swiss Barcode of Life ([SwissBOL](http://www.swissbol.ch/){:target="_blank"})
