@@ -14,11 +14,11 @@ composition:
 
 # Institutions of natural history
 
-* [Institutions](/institution/search){:target="_blank"}
+* Swiss institutions registered in GRSciColl ([Institutions](/institution/search){:target="_blank"})
 
 # Data infrastructure and mobilisation
 
-* GBIF Swiss Node official page ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"})
+* GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"})
 * Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
 
 # Associations and Societies
