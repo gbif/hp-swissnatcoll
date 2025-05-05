@@ -2,8 +2,9 @@
 # Dropdown menu (one level deep only)
 
 - text: About
-  href: /en/about
   menu:
+  - text: About
+    href: /en/about
   - text: Organisation
     href: /en/about-org
   - text: Partners
