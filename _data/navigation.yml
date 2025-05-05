@@ -9,10 +9,14 @@
     href: /en/about-org
   - text: Partners
     href: /en/about-part
-- text: Data
-  menu: 
+- text: How-to
+  menu:
   - text: Navigating in the data
     href: /en/navigating_in_the_data
+  - text: Providing the data
+    href: /en/data-aggregator-faqs
+- text: Data
+  menu: 
   - text: 📍 Occurrences
     href: /occurrence/search
   - text: 🗃️ Collections
@@ -25,10 +29,8 @@
     href: /en/threeDmodels
 - text: Tools
   menu:
-  - text: DAGI -about
-    href: /en/data-aggregator-about
-  - text: DAGI -FAQs
-    href: /en/data-aggregator-faqs
+#  - text: DAGI -about
+#    href: /en/data-aggregator-about
   - text: DAGI -🔗 Direct link
     href: https://dagi.gbif.ch/sign-in
 #- text: Visit us
