@@ -32,12 +32,12 @@ composition:
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
-  - type: split
-    data: home.vision
+#  - type: split
+#    data: home.vision
 #  - type: features
 #    data: home.thematicCommunities
-  - type: split
-    data: home.fileDownload
+#  - type: split
+#    data: home.fileDownload
 #  - type: split
 #    data: home.video-swisscollnet
 ---
