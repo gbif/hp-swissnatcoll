@@ -382,7 +382,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">1</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI. It is possible to concatenate multiple values with the use of the vertical bar " | ".</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:taxonID" target="_blank">taxonID</a></td>
