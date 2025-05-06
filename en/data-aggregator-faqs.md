@@ -471,14 +471,9 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
       </tr>
       <tr>
-        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
+        <td rowspan = "10" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimEventDate" target="_blank">verbatimEventDate</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original representation of the date and time information for a dwc:Event.</td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
@@ -507,11 +502,6 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-      </tr>
-      <tr>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:georeferencedBy" target="_blank">georeferencedBy</a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the dcterms:Location.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
@@ -532,6 +522,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
+        <td rowspan = "5" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
