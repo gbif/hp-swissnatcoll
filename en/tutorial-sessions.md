@@ -55,7 +55,7 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      🥾 Guide
+      🥾 Step-by-step Guide
     </button>
   </a>
   <a href="/en/how-to-publish-data#how-to-navigate-in-dagi" style="text-decoration: none;">
@@ -65,11 +65,14 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
       🧭 How to navigate in DAGI
     </button>
   </a>
+
+  ### FAQs
+  
   <a href="/en/data-dwc" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
-      📊 FAQs data preparation, functionalities
+      📊 FAQs DAGI
     </button>
   </a>
   <a href="/en/data-aggregator-faqs" style="text-decoration: none;">
