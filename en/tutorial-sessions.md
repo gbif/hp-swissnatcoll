@@ -44,12 +44,6 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
 <br>- THURSDAY - **08-05-2025** - **10H30-11H30** - Open questions session
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
-<br>
-
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ <strong>To select the next sessions time slots and fit them better to your availabilities</strong>, you can fill out this <a href='https://www.when2meet.com/?26382542-qnMyB' target="_blank" rel="noopener noreferrer">When2meet form</a>. Simply enter a name (it can be fake) and click on "Se connecter", then you can select the time slots between 9am and 5pm that usually best suit you.<br>
-</div>
-
 <br><br>
 
 ## Available material
