@@ -65,9 +65,11 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
       🧭 How to navigate in DAGI
     </button>
   </a>
+</div>
 
-  ### FAQs
-  
+### FAQs
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="/en/data-aggregator-faqs" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
