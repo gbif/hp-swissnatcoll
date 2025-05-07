@@ -1190,7 +1190,7 @@ Here are the Thesaurii available in DAGI:
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">scientificName</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 8px; vertical-align: top;">scientificName</td>
       <td style="border: 1px solid black; padding: 8px;">"Rubiaceae Coffea liberica"</td>
       <td style="border: 1px solid black; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
       <td style="border: 1px solid black; padding: 8px;">Either import "Rubiaceae" or "Coffea liberica"</td>
@@ -1260,6 +1260,7 @@ If some data in your database has already been sent to an Infospecies data cente
 Currently, DAGI and SwissNatColl hosted portal are mainly oriented for biological data (including fossils and paleontology). On the other side, GBIF.org does not support geological data.
 
 The inclusion of the geological data of Switzerland is still in discussion, and no planning can be determined at the point where we stand at the moment.
+
 
 <html lang="en">
 <head>
