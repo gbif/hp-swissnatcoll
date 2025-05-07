@@ -99,7 +99,7 @@ the digital specimen are stored in the data aggregator to allow reconstruction o
       bottom: 40px;
       right: 120px;
       display: none;
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
       color: white;
       text-align: center;
       padding: 5px;
@@ -113,7 +113,7 @@ the digital specimen are stored in the data aggregator to allow reconstruction o
     }
 
     #back-to-top:hover {
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
     }
   </style>
 </head>
