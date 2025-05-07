@@ -373,13 +373,13 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
     </thead>
     <tbody>
       <tr>
-        <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids1.transparency }};">0</td>
+        <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids0 }};">0</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:institutionCode" target="_blank">institutionCode</a></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record. <br> See the <a href="https://scientific-collections.gbif.org/institution/search?country=CH" target="_blank">GrSciColl official institution codes</a></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">This attribute is automatically added to each record upon import in DAGI. Therefore it is not available for mapping during import</td>
       </tr>
       <tr>
-        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids2.transparency }};">1</td>
+        <td rowspan = "2" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids1 }};">1</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI. It is possible to concatenate multiple values with the use of the vertical bar " | ".</td>
@@ -390,7 +390,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style=" word-wrap:break-word; border: 1px solid black;  padding: 8px; vertical-align: top;">By encoding your records, you automatically obtain the taxonID of GBIF</td>
       </tr>
       <tr>
-        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids3.transparency }};">2</td>
+        <td rowspan = "16" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids2 }};">2</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:eventDate" target="_blank">eventDate</a></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The date-time or interval during which a dwc:Event occurred. For occurrences, this is the date-time when the dwc:Event was recorded. Not suitable for a time in a geological context.</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"> The structure must follow the ISO 8601-1:2019 standard. <br> 2025-04-08 <br> 2025-04-08/2025-04-10</td>
@@ -471,7 +471,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">If not informed during import, this attribute is automatically copied from the <i>catalogNumber</i>.</td>
       </tr>
       <tr>
-        <td rowspan = "10" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
+        <td rowspan = "10" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids3 }};">3</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimEventDate" target="_blank">verbatimEventDate</a></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original representation of the date and time information for a dwc:Event.</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"></td>
@@ -522,7 +522,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td rowspan = "6" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">4</td>
+        <td rowspan = "6" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids4 }};">4</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLongitude" target="_blank">verbatimLongitude</a></td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
         <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"></td>
