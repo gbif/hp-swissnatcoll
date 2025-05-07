@@ -930,19 +930,19 @@ Here are some DAGI attributes that can be published on GBIF and would be a very 
     </colgroup>
     <thead>
       <tr>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">DAGI Attribute</th>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Definition</th>
-        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Controlled vocabulary values<br> examples</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: center; vertical-align: middle;">DAGI Attribute</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: center; vertical-align: middle;">Definition</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: center; vertical-align: middle;">Controlled vocabulary values<br> examples</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; "><i>partOfOrganism</i></td>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><i>partOfOrganism</i></td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved</td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">shell<br> skeleton<br> skull<br> soft tissue<br> whole plant<br> leaf</td>
       </tr>
       <tr>
-        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; "><a href="https://dwc.tdwg.org/terms/#dwc:degreeOfEstablishment" target="_blank">degreeOfEstablishment</a></td>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><a href="https://dwc.tdwg.org/terms/#dwc:degreeOfEstablishment" target="_blank">degreeOfEstablishment</a></td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The degree to which a dwc:Organism survives, reproduces, and expands its range at the given place and time.</td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">native<br> captive<br> cultivated<br> released<br> failing<br> casual<br> reproducing<br> established<br> colonising<br> invasive<br> widespreadInvasive</td>
       </tr>
