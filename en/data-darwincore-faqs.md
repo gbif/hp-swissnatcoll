@@ -174,7 +174,7 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
       bottom: 40px;
       right: 120px;
       display: none;
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
       color: white;
       text-align: center;
       padding: 5px;
@@ -188,7 +188,7 @@ A controlled vocabulary is a **standardized set of terms and phrases used to ens
     }
 
     #back-to-top:hover {
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
     }
   </style>
 </head>
