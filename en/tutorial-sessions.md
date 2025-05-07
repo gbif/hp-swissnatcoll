@@ -40,7 +40,7 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
 ~~<br>- TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF~~
 ~~<br>- THURSDAY - **24-04-2025** - **15H-16H** - Review : data preparation & import~~
 ~~<br>- MONDAY - **28-04-2025** - **15H-15H45** - Review : encoding & publishing~~
-<br>- WEDNESDAY - **07-05-2025** - **15H-16H** - Open questions session
+~~<br>- WEDNESDAY - **07-05-2025** - **15H-16H** - Open questions session~~
 <br>- THURSDAY - **08-05-2025** - **10H30-11H30** - Open questions session
 <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 
