@@ -952,7 +952,7 @@ Here are some DAGI attributes that can be a very good addition to your import fi
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">https://orcid.org/0000-0002-1825-0097 | https://orcid.org/0000-0002-1825-0098</td>
       </tr>
       <tr>
-        <td style="text-align: left; border: 1px solid black; padding: 5px;" colspan="2"><i>Adding a unique identifier to a name in a database is the best way to avoid confusions between homonymes. People registered on <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a> or <a href="https://orcid.org/" target="_blank">Orcid</a> already have a unique identifier that can be used.</td>
+        <td style="text-align: left; border: 1px solid black; padding: 5px;" colspan="3"><i>Adding a unique identifier to a name in a database is the best way to avoid confusions between homonymes. People registered on <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a> or <a href="https://orcid.org/" target="_blank">Orcid</a> already have a unique identifier that can be used.</td>
       </tr>
     </tbody>
   </table>
