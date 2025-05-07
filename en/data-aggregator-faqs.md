@@ -522,43 +522,39 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td rowspan = "5" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">3</td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td rowspan = "6" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">4</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLongitude" target="_blank">verbatimLongitude</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
-      </tr>
-      <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLocality" target="_blank">verbatimLocality</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The original textual description of the place.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="" target="_blank"></a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:associatedMedia" target="_blank">associatedMedia</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">URL to the original image deposited in a public access deposit</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The URL can either be the URL to the institution's public image deposit or to the DAGI Media Store (Image Upload on DAGI). In order to be displayed on GBIF, the URL must be to the image itself and end with the extension .jpg/.jpeg/.png/etc.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><i>completeness</i></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">Degree of completeness of the specimen; may describe completeness of a part. <br> e.g. complete, cephalon only, complete skull</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers" target="_blank">otherCatalogNumbers</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same dwc:Occurrence, whether in the current or any other data set or collection.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLabel" target="_blank">verbatimLabel</a></td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The content of this term should include no embellishments, prefixes, headers or other additions made to the text. Abbreviations must not be expanded and supposed misspellings must not be corrected. Lines or breakpoints between blocks of text that could be verified by seeing the original labels or images of them may be used. Examples of material entities include preserved specimens, fossil specimens, and material samples. Best practice is to use UTF-8 for all characters. Best practice is to add comment “verbatimLabel derived from human transcription” in dwc:occurrenceRemarks.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
     </tbody>
   </table>
 </div>
-
-| MIDS | DAGI Attribute | Definition | Comment |
-| ---- | -------------- | ---------- | ------- |
-| 4 | [verbatimLongitude](https://dwc.tdwg.org/terms/#dwc:verbatimLongitude){:target='_blank'} | The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem. |  |
-| 4 | [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target='_blank'} | 	The original textual description of the place. |  |
-| 4 | [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target='_blank'} | _URL to the original image deposited in a public access deposit_ | The URL can either be of the institution's public image deposit or of the DAGI Media Store (Image Upload on DAGI). |
-| 4 | _completeness_ | Degree of completeness of the specimen; may describe completeness of a part. <br> e.g. complete, cephalon only, complete skull | This is not a Darwin Core term, but it is available in DAGI |
-| 4 | [otherCatalogNumbers](https://dwc.tdwg.org/terms/#dwc:otherCatalogNumbers){:target='_blank'} | A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same dwc:Occurrence, whether in the current or any other data set or collection. |  |
-| 4 | [verbatimLabel](https://dwc.tdwg.org/terms/#dwc:verbatimLabel){:target='_blank'} | The content of this term should include no embellishments, prefixes, headers or other additions made to the text. Abbreviations must not be expanded and supposed misspellings must not be corrected. Lines or breakpoints between blocks of text that could be verified by seeing the original labels or images of them may be used. Examples of material entities include preserved specimens, fossil specimens, and material samples. Best practice is to use UTF-8 for all characters. Best practice is to add comment “verbatimLabel derived from human transcription” in dwc:occurrenceRemarks. |  |
 
 
 ## Are there attributes in DAGI that are not part of Darwin Core?
