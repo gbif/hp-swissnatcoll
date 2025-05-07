@@ -68,14 +68,14 @@ Tutorial sessions are independent. You can choose to come to one whose subject i
 
   ### FAQs
   
-  <a href="/en/data-dwc" style="text-decoration: none;">
+  <a href="/en/data-aggregator-faqs" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
       📊 FAQs DAGI
     </button>
   </a>
-  <a href="/en/data-aggregator-faqs" style="text-decoration: none;">
+  <a href="/en/data-dwc" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid #FA5E97; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='#FA5E97';"
             onmouseout="this.style.color='#333';">
