@@ -524,7 +524,7 @@ The [MIDS](https://www.tdwg.org/community/cd/mids/){:target="_blank"} is the **M
       <tr>
         <td rowspan = "6" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids4.transparency }};">4</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: middle;"><a href="https://dwc.tdwg.org/terms/#dwc:verbatimLongitude" target="_blank">verbatimLongitude</a></td>
-        <td style="border: 1px solid black; padding: 8px; vertical-align: top;">The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
+        <td style="border: 1px solid black; padding: 8px; vertical-align: top; word-wrap:break-word;">The verbatim original longitude of the dcterms:Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in dwc:verbatimSRS and the coordinate system should be stored in dwc:verbatimCoordinateSystem.</td>
         <td style="border: 1px solid black; padding: 8px; vertical-align: top;"></td>
       </tr>
       <tr>
