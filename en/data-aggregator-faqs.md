@@ -915,6 +915,38 @@ Here is a table with these attributes and their definition:
   </table>
 </div>
 
+## Are there useful attributes that I never use in my database?
+
+Sharing data can require information that have never been taken into consideration in a museum database simply because it is too obvious to specify. For instance, why have a partOfOrganism field in a collection database specialised in animal skulls or in fish fossils ? Well, from a FAIR perspective, this kind of information is important because it facilitates the filtering of data on one side and the analyses of a dataset on another side.
+
+Here are some DAGI attributes that can be published on GBIF and would be a very good addition to your import files or even your database:
+
+<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
+  <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
+    <colgroup>
+      <col style="width: 25%;">   <!-- DAGI Attribute -->
+      <col style="width: 25%;">   <!-- Definition -->
+      <col style="width: 25%;">   <!-- Comment -->
+    </colgroup>
+    <thead>
+      <tr>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.attribute.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">DAGI Attribute</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.value.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Definition</th>
+        <th style="position: sticky; top: 0; background-color: {{ site.data.colors.exampleValues.background }}; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Comment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan = "1" style="border: 1px solid black; padding: 8px; vertical-align: top; text-align: center; background-color: {{ site.data.colors.mids.mids0 }};">0</td>
+        <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: middle;"><i>partOfOrganism</i></td>
+        <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">Part or parts of the organism that have been preserved, <br>e.g. shell, skeleton, skull, soft tissue.</td>
+        <td style=" word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">This is not a Darwin Core term, but it is available in DAGI. It is possible to concatenate multiple values with the use of the vertical bar " | ".</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 ## How can I check if my import file is encoded in UTF-8?
 
 * Open your file with the <img src="https://static.wikia.nocookie.net/logopedia/images/0/07/Notepad_Win11.svg" style="vertical-align:middle" height="15" width="15"> Notepad app.
@@ -925,7 +957,6 @@ Here is a table with these attributes and their definition:
 <img src="/assets/images/inline_Illustrations/FileEncoding-NotepadWindowsUTF8.png" alt="TXT file in UTF-8 encoding (Unicode Transformation Format – 8-bit)" width="451" height="204" style="vertical-align:middle;margin:0px 100px">
 
 * Save your file with the _Save as_ option and change the encoding to UTF-8.
-
 
 <h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Data Aggregator functionalities</h1>
 
