@@ -122,7 +122,7 @@ Source: [National significance of natural history collections in Switzerland](ht
       bottom: 40px;
       right: 120px;
       display: none;
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
       color: white;
       text-align: center;
       padding: 5px;
@@ -136,7 +136,7 @@ Source: [National significance of natural history collections in Switzerland](ht
     }
 
     #back-to-top:hover {
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
     }
   </style>
 </head>
