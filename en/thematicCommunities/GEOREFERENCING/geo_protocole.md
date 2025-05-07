@@ -63,13 +63,13 @@ graph TD;
     style GeorefPert fill:#ff9900,stroke:#333,stroke-width:2px;
     style GeorefDoable fill:#66cc99,stroke:#333,stroke-width:2px;
     style Georef fill:#33cc33,stroke:#333,stroke-width:2px;
-    style Link1 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link2 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link3 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link4 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link5 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Step1 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Step2 fill:#FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link1 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link2 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link3 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link4 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Link5 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Step1 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+    style Step2 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
 
     
     %% Define the hyperlink
