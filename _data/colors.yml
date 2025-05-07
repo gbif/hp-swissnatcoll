@@ -47,20 +47,9 @@ value:
 
 mids:
   background: "rgba(202, 117, 223)"
-  transparency: "rgba(202, 117, 223, 0.2)"
-
-mids1:
-  background: "rgba(202, 117, 223)"
-  transparency: "rgba(202, 117, 223, 0.8)"
-
-mids2:
-  background: "rgba(202, 117, 223)"
-  transparency: "rgba(202, 117, 223, 0.6)"
-
-mids3:
-  background: "rgba(202, 117, 223)"
-  transparency: "rgba(202, 117, 223, 0.4)"
-
-mids4:
-  background: "rgba(202, 117, 223)"
+  mids0: "rgba(111, 117, 125, 0.6)"
+  mids1: "rgba(255, 88, 97, 0.6)"
+  mids2: "rgba(255, 190, 0, 0.6)"
+  mids3: "rgba(0, 181, 255, 0.6)"
+  mids4: "rgba(0, 169, 110, 0.6)"
   transparency: "rgba(202, 117, 223, 0.2)"
