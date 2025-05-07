@@ -25,7 +25,7 @@ composition:
           bottom: 40px;
           right: 120px;
           display: none;
-          background-color: #fa5e97;
+          background-color: {{ site.data.colors.siteColor.background }};
           color: white;
           text-align: center;
           padding: 5px;
@@ -39,7 +39,7 @@ composition:
         }
     
         #back-to-top:hover {
-          background-color: #fa5e97;
+          background-color: {{ site.data.colors.siteColor.background }};
         }
 
         body {
@@ -77,7 +77,7 @@ composition:
             margin: 0 0 10px;
         }
         .event {
-            background-color: #fa5e97;
+            background-color: {{ site.data.colors.siteColor.background }};
             margin: 5px 0;
             padding: 5px;
             cursor: pointer;
@@ -96,7 +96,7 @@ composition:
             margin-bottom: 0px;
         }
         .current-day {
-          background-color: #fa5e97 !important; /* Color for the current day */
+          background-color: {{ site.data.colors.siteColor.background }} !important; /* Color for the current day */
         }
     </style>
 </head>
