@@ -919,7 +919,7 @@ Here is a table with these attributes and their definition:
 
 Sharing data can require information that have never been taken into consideration in a museum database simply because it is too obvious to specify. For instance, why have a partOfOrganism field in a collection database specialised in animal skulls or in fish fossils ? Well, from a FAIR perspective, this kind of information is important because it facilitates the filtering of data on one side and the analyses of a dataset on another side.
 
-Here are some DAGI attributes that can be published on GBIF and would be a very good addition to your import files or even your database:
+Here are some DAGI attributes that can be a very good addition to your import files or even your database:
 
 <div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -945,6 +945,14 @@ Here are some DAGI attributes that can be published on GBIF and would be a very 
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><a href="https://dwc.tdwg.org/terms/#dwc:degreeOfEstablishment" target="_blank">degreeOfEstablishment</a></td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">The degree to which a dwc:Organism survives, reproduces, and expands its range at the given place and time.</td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">native<br> captive<br> cultivated<br> released<br> failing<br> casual<br> reproducing<br> established<br> colonising<br> invasive<br> widespreadInvasive</td>
+      </tr>
+      <tr>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><a href="https://dwc.tdwg.org/terms/#dwc:recordedByID" target="_blank">recordedByID</a></td>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">A list (concatenated and separated) of the globally unique identifier for the person, people, groups, or organizations responsible for recording the original dwc:Occurrence. (= <a href="https://dwc.tdwg.org/terms/#dwc:recordedBy" target="_blank">recordedBy</a>)</td>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">https://orcid.org/0000-0002-1825-0097 | https://orcid.org/0000-0002-1825-0098</td>
+      </tr>
+      <tr>
+        <td style="text-align: left; border: 1px solid black; padding: 5px;" colspan="2"><i>Adding a unique identifier to a name in a database is the best way to avoid confusions between homonymes. People registered on <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a> or <a href="https://orcid.org/" target="_blank">Orcid</a> already have a unique identifier that can be used.</td>
       </tr>
     </tbody>
   </table>
