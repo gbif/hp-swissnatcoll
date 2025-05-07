@@ -73,7 +73,7 @@ No, the data published on GBIF by the swiss Data Aggregator and displayed here h
       bottom: 40px;
       right: 120px;
       display: none;
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
       color: white;
       text-align: center;
       padding: 5px;
@@ -87,7 +87,7 @@ No, the data published on GBIF by the swiss Data Aggregator and displayed here h
     }
 
     #back-to-top:hover {
-      background-color: #fa5e97;
+      background-color: {{ site.data.colors.siteColor.background }};
     }
   </style>
 </head>
