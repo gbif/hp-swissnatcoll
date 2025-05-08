@@ -54,8 +54,14 @@ graph TD;
     Georef -->|⬇️ click here ⬇️| Link2[2.2. Enrich standardised coordinates data];
     NoGeoref -->|⬇️ click here ⬇️| Link5[X. to define];
 
+    %% Define a "common style" for several blocks
+    classDef bgColor fill: #FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
+
+    %% Apply le style à tous les blocs qui doivent avoir la même couleur
+    class Step1,Step2,Link1,Link2,Link3,Link4,Link5 bgColor;
+
     %% Apply Colors
-    style Start fill:#FFFFFF,stroke:#333,stroke-width:4px,font-weight:bold,font-size:50px;;
+    style Start fill:#FFFFFF,stroke:#333,stroke-width:4px,font-weight:bold,font-size:50px;
     style HasCoord fill:#ffcc00,stroke:#333,stroke-width:2px;
     style GeoPoss fill:#ff6666,stroke:#333,stroke-width:2px;
     style TransVerbCoo fill:#66ccff,stroke:#333,stroke-width:2px;
@@ -63,14 +69,6 @@ graph TD;
     style GeorefPert fill:#ff9900,stroke:#333,stroke-width:2px;
     style GeorefDoable fill:#66cc99,stroke:#333,stroke-width:2px;
     style Georef fill:#33cc33,stroke:#333,stroke-width:2px;
-    style Link1 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link2 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link3 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link4 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Link5 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Step1 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    style Step2 fill:{{ site.data.colors.siteColor.background }},stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-
     
     %% Define the hyperlink
     click Link1 "/en/geo-protocole#12-transcribe-verbatim-coordinates-data"
