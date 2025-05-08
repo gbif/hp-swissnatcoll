@@ -5,6 +5,8 @@ tutorials:
     path: /en/data-aggregator-about
   - title: FAQs
     path: /en/data-aggregator-faqs
+  - title: Tutorial sessions
+    path: /en/tutorial-sessions
   - title: 🔗Direct Link
     path: https://dagi.gbif.ch/sign-in
 
@@ -16,8 +18,8 @@ tutorials:
     section:
     #- title: Entomology
     #  path: /en/label-entomology
-    #- title: Geology
-    #  path: /en/label-geology
+    #- title: Paleontology
+    #  path: /en/label-paleontology
     - title: Herbarium
       path: /en/label-herbarium
     - title: Mollusca
