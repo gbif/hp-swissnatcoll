@@ -52,7 +52,7 @@ graph TD;
     GeorefDoable --> |yes| Georef[Georeference/document/enrich];
     TransVerbCoo -->|⬇️ click here ⬇️| Link1[1.2. Transcribe verbatim coordinates data];
     Georef -->|⬇️ click here ⬇️| Link2[2.2. Enrich standardised coordinates data];
-    NoGeoref -->|⬇️ click here ⬇️| Link5[X. to define];
+    NoGeoref -->|⬇️ click here ⬇️| Link5[5. Do not georeference];
 
     %% Define a "common style" for several blocks
     classDef bgColor fill: #FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
@@ -75,7 +75,7 @@ graph TD;
     click Link2 "/en/geo-protocole#22-enrich-standardised-coordinates-data"
     click Link3 "/en/geo-protocole#31-possible"
     click Link4 "/en/geo-protocole#31-pertinent"
-    click Link5 "/en/geo-protocole"
+    click Link5 "/en/geo-protocole#4-do-not-georeference"
     click Step1 "/en/geo-protocole#11-step-1-transcribe-verbatim-location-data"
     click Step2 "/en/geo-protocole#21-enrich-standardised-textual-location-data"
 </div>
@@ -91,6 +91,8 @@ graph TD;
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
+
+<br>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
@@ -137,6 +139,8 @@ graph TD;
 
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
+<br>
+
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
@@ -168,6 +172,8 @@ graph TD;
 **Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
+
+<br>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
@@ -213,6 +219,8 @@ graph TD;
 > - [georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol){:target="_blank"}
 > - [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources){:target="_blank"}
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
+
+<br>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
@@ -522,15 +530,11 @@ As the whole set of textual information, from continent to municipality, is enco
 - Target and correct the errors of capture in the original database
 - Remove the coordinates of the records less precise or import them and publish them without encoding
 
-# 4) Uncertainty estimation
+#### Uncertainty estimation
 
 Currently the geographical encoding in DAGI does not take the uncertainty radius in consideration
 
-# 5) Validation and Quality control
-
-## 5.1) Cross checking
-
-# 6) Do not georeference
+# 4) Do not georeference
 
 In cases where georeferencing does not provide the plus-value desired, there are solutions to express it in the data, specifically in the *countryCode* attribute, and leaving all other lower textual location attributes and coordinates attributes empty:
 
