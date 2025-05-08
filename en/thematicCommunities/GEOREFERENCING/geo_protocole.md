@@ -52,7 +52,7 @@ graph TD;
     GeorefDoable --> |yes| Georef[Georeference/document/enrich];
     TransVerbCoo -->|⬇️ click here ⬇️| Link1[1.2. Transcribe verbatim coordinates data];
     Georef -->|⬇️ click here ⬇️| Link2[2.2. Enrich standardised coordinates data];
-    NoGeoref -->|⬇️ click here ⬇️| Link5[5. Do not georeference];
+    NoGeoref -->|⬇️ click here ⬇️| Link5[4. Do not georeference];
 
     %% Define a "common style" for several blocks
     classDef bgColor fill: #FA5E97,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
