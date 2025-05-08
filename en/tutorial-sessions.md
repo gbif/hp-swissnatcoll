@@ -36,9 +36,11 @@ composition:
 {: .box }
 No tutorial session is planned at the moment. Please send us an email at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch)) to request live tutorial sessions.
 
-// ~~- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
-// <br>- TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF
-// <br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
+<!---
+~~- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
+<br>- TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF
+<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
+--->
 
 <br><br>
 
