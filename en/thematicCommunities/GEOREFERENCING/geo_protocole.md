@@ -236,6 +236,17 @@ In order to deal with unfitting historical locations, the in-house use of self-m
 | ZZ               | Overlapping several countries | Prussia    |
 | XX               | Unknown, Whole world          | _empty_    |
 
+### Notation: added elements in verbatim fields
+
+In order to remove ambiguity and make a distinction between original and added/interpreted elements, a clear symbole can be used, such as the **square brackets [ ]**
+
+| verbatimLocality | Comment |
+| ---------------- | ------- |
+| [_a word_]       | This word was difficult to read on the label. The content of the square brackets is the interpretation of what may have been written. |
+| [...]            | illegible word present |
+| Pte Grave [La Petite Grave] | Repetition of the verbatim text with disambiguation of the abbreviation. |
+| O'stmdg [Ostermundigen] | _ibid._ |
+
 # 3) Georeferencing approach
 
 ## 3.1) Possible
