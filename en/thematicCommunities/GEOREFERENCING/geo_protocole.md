@@ -18,7 +18,7 @@ In the process of database standardisation and cleaning, the use of **controlled
 The Data Aggregator DAGI uses the OpenCage Geocoding API of OpenCage GmbH ([https://opencagedata.com/](https://opencagedata.com/){:target="_blank"}) to encode and enrich specific attributes of the institution's records. For the encoding to be successfull, the values of the source attributes must be following the definitions of the attributes, or else inconsistencies and "wrong" data might be inserted.
 
 {: .box}
-This protocole aims to provide the best practices in using the DAGI for geographical encoding of natural history collection specimens.
+This protocole aims to provide the best practices in georeferencing natural history collection data, with the perspective of being compatible to the DAGI geographical encoding.
 
 # 1) Preliminary assessment
 
@@ -92,6 +92,30 @@ graph TD;
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      📍 Examples With Coordinates
+    </button>
+  </a>
+  <a href="/en/geo-loc-without-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      🗺️ Examples Without Coordinates
+    </button>
+  </a>
+  <a href="/en/geo-histo-loc" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      ⌛ Examples Historical Locations
+    </button>
+  </a>
+</div>
+
 ## 1.2) Transcribe verbatim coordinates data
 
 **Transcribe** the coordinates present on the specimen label in the field [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"} and associated fields.
@@ -112,6 +136,16 @@ graph TD;
 **Document** information about the method used or difficulty encountered in the field [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}.
 
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      📍 Examples With Coordinates
+    </button>
+  </a>
+</div>
 
 # 2) Standardized data entry
 
@@ -135,6 +169,30 @@ graph TD;
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      📍 Examples With Coordinates
+    </button>
+  </a>
+  <a href="/en/geo-loc-without-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      🗺️ Examples Without Coordinates
+    </button>
+  </a>
+  <a href="/en/geo-histo-loc" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      ⌛ Examples Historical Locations
+    </button>
+  </a>
+</div>
+
 ## 2.2) Enrich standardised coordinates data
 
 **Enrich**
@@ -156,6 +214,16 @@ graph TD;
 > - [georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources){:target="_blank"}
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="/en/geo-loc-with-coord" style="text-decoration: none;">
+    <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+            onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+            onmouseout="this.style.color='#333';">
+      📍 Examples With Coordinates
+    </button>
+  </a>
+</div>
+
 ## In-house practices among Swiss natural history collections
 
 ### pseudo ISO Codes
@@ -173,7 +241,7 @@ In order to deal with unfitting historical locations, the in-house use of self-m
 ## 3.1) Possible
 
 - Does the georeferencing provide more information to the specimen that the already existing textual information?
-- Are the coordinates provided by georeferencing useful in practice when they are accompanied by an uncertainty of several hundred kilometres? (See example [G00304771](/en/geo-histo-loc#state-level-description){:target="_blank"}
+- Are the coordinates provided by georeferencing useful in practice when they are accompanied by an uncertainty of several hundred kilometres? (See example [G00304771](/en/geo-histo-loc#state-level-description){:target="_blank"})
 
 {: .box}
 **Recommendation**
@@ -463,7 +531,9 @@ In cases where georeferencing does not provide the plus-value desired, there are
 - **International entity** (precision overlapping several countries) : countryCode = ZZ
 - **Unknown location** : countryCode = XX
 
+
 # Documentation
+
 
 ## Reference protocols
 - Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853){:target="_blank"}. Available online : [https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf](https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf){:target="_blank"}
