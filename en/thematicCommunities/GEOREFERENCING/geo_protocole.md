@@ -255,10 +255,6 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 - Time ressources
 - Basic data (readable, completeness, univocity)
 
-## 3.2) Historical maps and reference material
-
---> slide 10
-
 ## 3.3) Coordinate assignment
 
 ### Cross-border entities
@@ -368,7 +364,7 @@ In addition to these two parts, coordinates in one or two of the available swiss
         <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
         <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
         <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>continent</i></td>
-        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europa</td>
+        <td style="text-align: left; border: 1px solid black; padding: 10px;">Europe</td>
     </tr>
     <tr style="border-left: 3px solid black; border-right: 3px solid black;">
         <td rowspan="2" style="text-align: left; border: 1px solid black; padding: 10px;"><i>country</i></td>
@@ -510,7 +506,7 @@ When importing coordinates, it is better practice to import one set of coordinat
 As the whole set of textual information, from continent to municipality, is encoded through the coordinates without an uncertainty radius, it leads to erroneous data by attributing wrong values to smaller elements than the degree of precision of the specimen location.
 
 {: .box}
-**What can be done to avoid this:**<br>
+**What can be done to avoid this:**
 - Compare the imported and encoded data in DAGI
 - Target and correct the errors of capture in the original database
 - Remove the coordinates of the records less precise or import them and publish them without encoding
@@ -539,6 +535,19 @@ In cases where georeferencing does not provide the plus-value desired, there are
 - Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. [https://doi.org/10.15468/doc-gg7h-s853](https://doi.org/10.15468/doc-gg7h-s853){:target="_blank"}. Available online : [https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf](https://docs.gbif.org/georeferencing-best-practices/1.0/en/georeferencing-best-practices.en.pdf){:target="_blank"}
 
 - Zermoglio PF, Chapman AD, Wieczorek JR, Luna MC & Bloom DA (2020) Georeferencing Quick Reference Guide. Copenhagen: GBIF Secretariat. [https://doi.org/10.35035/e09p-h128](https://doi.org/10.35035/e09p-h128){:target="_blank"}. Available online: [https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf](https://docs.gbif.org/georeferencing-quick-reference-guide/1.0/en/georeferencing-quick-reference-guide.en.pdf){:target="_blank"}
+
+## Historical maps and reference material
+
+- [map.geo.admin.ch](https://map.geo.admin.ch/){:target="_blank"}
+- [the Getty Thesaurus of Geographic Names (TGN)](https://www.getty.edu/research/tools/vocabularies/tgn/){:target="_blank"}
+- [Wikipedia](https://www.wikipedia.org/){:target="_blank"} et [WikiData](https://www.wikidata.org/){:target="_blank"}
+- [OpenStreetMap](https://www.openstreetmap.org/){:target="_blank"} et [Nominatim](https://nominatim.openstreetmap.org/ui/search.html){:target="_blank"}
+- [GeoNames.org](https://www.geonames.org/){:target="_blank"}
+- [Marine Regions](https://marineregions.org/){:target="_blank"}
+- [World Historical Gazetteer](https://whgazetteer.org/search/){:target="_blank"}
+- [Natural Earth Data](https://www.naturalearthdata.com/){:target="_blank"}
+- [World Geographical Scheme for Recording Plant Distributions (WGSRPD)](https://www.tdwg.org/standards/){:target="_blank"}
+
 
 ## Online coordinates conversion
 
