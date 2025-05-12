@@ -417,7 +417,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 - The Publication status of your records have changed to 🌐In Publication.
 - You can access the DarwinCore-Archive generated for the publication in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
-- By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take a few minutes for all the occurrences to appear.
+- By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
@@ -432,6 +432,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 ⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
 </div>
 
+<!--
 1. Click on **☑️validate**.
   - A window opens with a short summary of what the validation entitles.
   - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
@@ -439,7 +440,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
   - A progression bar appears during the validation process and disappears when launched.
   - The Validation status of your records have changed to 🌐In Validation.
   - You can access the DarwinCore-Archive generated for the validation in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
-
+-->
 
 
 <br>
