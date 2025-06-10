@@ -41,7 +41,7 @@ The provisions for the use of Data from the portal and web services offered by G
 
 The Providers must be collaborators within a Swiss institution and the first person to be registered within the institution is registered by the DAGI Administrator. The Providers agree to comply with all applicable laws and regulations while using the DAGI and cannot engage on illegal or unauthorized activities related to the infrastructure or the Data inside the system. The DAGI Administrator reserves the right to terminate or suspend access for any Provider who violates these Terms or engages in unlawful behaviour.
 
-Providers must open an account with DAGI to access the functions. They are responsible for the accuracy of their personal data and for all the activities that take place via their account. Providers have one of the two roles  in DAGI, described below. However, it is also possible for a provider to take on both roles. When the provider registers, the DAGI administrator assigns a personal login to the first person registered at a particular institution.. Depending on the role of the Provider, the rights for various actions vary, but each action always falls within the jurisdiction of the institution to which the provider belongs. The two possible roles and respective rights are:
+Providers must open an account with DAGI to access the functions. They are responsible for the accuracy of their personal data and for all the activities that take place via their account. Providers have one of the two roles in DAGI, described below. However, it is also possible for a provider to take on both roles. When the provider registers, the DAGI administrator assigns a personal login to the first person registered at a particular institution. Depending on the role of the Provider, the rights for various actions vary, but each action always falls within the jurisdiction of the institution to which the provider belongs. The two possible roles and respective rights are:
 - _Collection Administrator_, who can visualise, add and edit the Datasets, publish Records in a Dataset, as well as add, edit and remove Data Digitizers and Collection Administrators of their own institution.
 - _Data Digitizer_, who can visualise the Datasets, as well as import, map, encode, and export Records in a Dataset.
 
@@ -65,7 +65,7 @@ The Data concerning Swiss specimens of specific taxonomic groups submitted for p
 
 The whole DAGI infrastructure is protected by Swiss intellectual property laws. The Providers retain full ownership and control over the data they upload. The act of uploading data does not transfer any ownership rights to info fauna or GBIF. However the Providers grant the DAGI host organization (GBIF.ch/info fauna) a non-exclusive, worldwide right to store, process and publish their data on GBIF.org. DAGI is provided "as is" without warranties of any kind. DAGI is provided without any express or implied warranties regarding continuous availability or the accuracy of data processing. The DAGI host organization strives to maintain a high-quality and error-free data environment but cannot be held liable for errors, incomplete data, or technical failures. Neither DAGI nor its operators assume responsibility for any damages resulting from the use, publication, or third-party claims related to data shared trough the DAGI Software. Providers bear the sole responsibility for ensuring that their uploaded data comply with all applicable legal and ethical requirements.
 
-To the maximum extent permitted by law, the DAGI host organization disclaim any liability for direct, indirect, incidental, or consequential damages arising from the use or unavailability of the platform or from errors in the provided data. In particular, DAGI and its operators shall not be liable for:
+To the maximum extent permitted by law, the DAGI host organization disclaim any liability for:
 - technical malfunctions, interruptions, or data loss,
 - incomplete, inaccurate, or outdated data,
 - damages resulting from the publication or use of data by third parties,
@@ -100,68 +100,5 @@ References:
 <br>
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ <i>Last update: 15.04.2025</i>
+⚠️ <i>Last update: 03.06.2025</i>
 </div>
-
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Back to Top Button</title>
-  <style>
-    /* Style for the Back to Top Button */
-    #back-to-top {
-      position: fixed;
-      bottom: 40px;
-      right: 120px;
-      display: none;
-      background-color: {{ site.data.colors.siteColor.background }};
-      color: white;
-      text-align: center;
-      padding: 5px;
-      border-radius: 5px;
-      font-size: 18px;
-      cursor: pointer;
-      z-index: 1000;
-      width: 70px; /* Width for the rectangle */
-      height: 50px; /* Height for the rectangle */
-      line-height: 40px;
-    }
-
-    #back-to-top:hover {
-      background-color: {{ site.data.colors.siteColor.background }};
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- Back to Top Button -->
-  <a id="back-to-top" href="#" title="Back to top">Up</a>
-
-  <script>
-    // Show or hide the button when scrolling
-    window.onscroll = function() {
-      scrollFunction();
-    };
-
-    function scrollFunction() {
-      var backToTopButton = document.getElementById("back-to-top");
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        backToTopButton.style.display = "block";
-      } else {
-        backToTopButton.style.display = "none";
-      }
-    }
-
-    // Scroll to the top when the button is clicked
-    document.getElementById("back-to-top").addEventListener("click", function(event) {
-      event.preventDefault();
-      document.body.scrollTop = 0; // For Safari
-      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-    });
-  </script>
-
-</body>
-</html>
