@@ -103,7 +103,7 @@ References:
 ⚠️ <i>Last update: 03.06.2025</i>
 </div>
 
-<html lang="en">Add commentMore actions
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
