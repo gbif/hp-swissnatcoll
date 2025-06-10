@@ -43,7 +43,7 @@ The Providers must be collaborators within a Swiss institution and the first per
 
 Providers must open an account with DAGI to access the functions. They are responsible for the accuracy of their personal data and for all the activities that take place via their account. Providers have one of the two roles in DAGI, described below. However, it is also possible for a provider to take on both roles. When the provider registers, the DAGI administrator assigns a personal login to the first person registered at a particular institution. Depending on the role of the Provider, the rights for various actions vary, but each action always falls within the jurisdiction of the institution to which the provider belongs. The two possible roles and respective rights are:
 - _Collection Administrator_, who can visualise, add and edit the Datasets, publish Records in a Dataset, as well as add, edit and remove Data Digitizers and Collection Administrators of their own institution.
-- _Data Digitizer_, who can visualise the Datasets, as well as import, map, encode, and export Records in a Dataset.
+- _Data Digitizer_, who can visualise the Datasets, as well as upload, map, encode, and export Records in a Dataset.
 
 <br>
 The Providers are the owners of their Data and are responsible for the quality, accuracy, completeness and lawfulness of the Content provided and published in GBIF. The Providers can withdraw uploaded Data from the DAGI at any time. This action will not have a direct influence on the Data already available on GBIF, and assistance from the DAGI Administrator is needed for any revision of a Dataset after publication. The Providers are committed to avoid such situation and manual interventions in a Dataset publicly available should remain an exception.
