@@ -18,16 +18,14 @@ columns:
     links:
     - text: E-mail
       href: mailto:contact-swissnatcoll@infofauna.ch
-    - text: Phone
-      href: tel:+41325603756
   
   - name: Contact
     description: | # Can be Markdown
-      * Info Fauna
+      * GBIF Swiss Node
+      * c/o info fauna
       * Avenue de Bellevaux 51
       * 2000 Neuchâtel
       * Switzerland
-      * +41 32 560 31 10 (secrétariat)
     #connectIcons: true
 
   # EXAMPLE
