@@ -1,7 +1,6 @@
 ---
 layout: post
 title: DAGI
-description: Swiss Data Aggregator
 background: "assets/images/placeholders/acalypha_gillespieae_1258001892.jpg"
 imageLicense: "GBIF placeholders"
 height: 50vh
