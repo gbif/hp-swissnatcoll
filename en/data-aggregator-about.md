@@ -5,6 +5,9 @@ background: "assets/images/placeholders/acalypha_gillespieae_1258001892.jpg"
 imageLicense: "GBIF placeholders"
 height: 50vh
 toc: true
+composition:
+  - type: heroImage
+  - type: pageMarkdown
 ---
 
 ## What is a data aggregator?
