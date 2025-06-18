@@ -28,7 +28,7 @@
   menu:
   - text: Log in to DAGI
     href: https://dagi.gbif.ch/sign-in
-  - text: What is DAGI
+  - text: What is DAGI ?
     href: /en/data-aggregator-about
 
 #- text: Ressources
