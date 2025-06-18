@@ -2,8 +2,8 @@
 layout: post
 title: DAGI
 description: Swiss Data Aggregator
-background: "assets/images/GraphsDiagrams/netzwerk_SwissCollNet_Call1-2.jpg"
-imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
+background: "assets/images/placeholders/acalypha_gillespieae_1258001892.jpg"
+imageLicense: "GBIF placeholders"
 height: 50vh
 toc: true
 ---
