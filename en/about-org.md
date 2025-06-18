@@ -1,7 +1,6 @@
 ---
 layout: compose
 title: Organisation
-description: Governance and Backoffice
 permalink: /en/about-org
 background: /assets/images/GraphsDiagrams/SwissDataFlows.png
 imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
