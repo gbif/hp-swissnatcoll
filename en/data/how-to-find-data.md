@@ -1,12 +1,11 @@
 ---
 layout: heroImage
 title: Data
-description: How to search, find, download, cite the data
 background: "{{ site.data.images.data.src }}"
 imageLicense: "{{ site.data.images.data.caption }}"
 height: 50vh
 toc: true
-permalink: /en/navigating_in_the_data
+permalink: /en/how-to-find-data
 ---
 
 # What data can be found on the SwissNatColl portal?
