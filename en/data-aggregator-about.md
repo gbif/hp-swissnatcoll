@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: compose
 title: DAGI
 background: "assets/images/placeholders/acalypha_gillespieae_1258001892.jpg"
 imageLicense: "GBIF placeholders"
