@@ -6,20 +6,12 @@ permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
-title: "Swiss Natural History Collection"
+title: "Swiss Natural History Collections"
 description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
 parallax: true
-cta:
-  - text: 🏛️ Institutions
-    href: /institution/search
-  - text: 🏷️ Specimens
-    href: /occurrence/search
-    isPrimary: true
-  - text: About
-    href: /about
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
