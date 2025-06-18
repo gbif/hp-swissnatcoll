@@ -2,7 +2,6 @@
 layout: compose
 title: Partners
 permalink: /en/about-part
-description: Governance and Backoffice
 background: /assets/images/GraphsDiagrams/SwissDataFlows.png
 imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
 height: 50vh
