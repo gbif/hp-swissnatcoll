@@ -12,9 +12,11 @@ composition:
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
 ---
 
-# Swiss Natural History Collection
-The Swiss Natural History Collection (SwissNatColl) provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
+# Description
+The Swiss Natural History Collections (SwissNatColl) provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
 
+# History
+...
 
 <html lang="en">
 <head>
