@@ -13,7 +13,7 @@ composition:
 
 # Institutions of natural history
 
-* Swiss institutions registered in GRSciColl ([Institutions](/institution/search){:target="_blank"})
+...
 
 # Data infrastructure and mobilisation
 
