@@ -1,7 +1,7 @@
 ---
 lang-ref: about
 layout: compose
-title: About
+title: Scope
 description: This hosted portal presents the digitised specimens held in the natural history institutions of Switzerland
 background: /assets/images/GraphsDiagrams/SwissDataFlows.png
 imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
