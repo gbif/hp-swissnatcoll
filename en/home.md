@@ -6,8 +6,8 @@ permalink: /
 # ====================================================================================
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
-title: "SwissNatColl"
-description: "Swiss Natural History Collections"
+title: "Swiss Natural History Collections"
+description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
