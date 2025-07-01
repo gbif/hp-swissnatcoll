@@ -76,7 +76,7 @@ graph TD;
     click Link3 "/en/geo-protocole#31-possible"
     click Link4 "/en/geo-protocole#31-pertinent"
     click Link5 "/en/geo-protocole#4-do-not-georeference"
-    click Step1 "/en/geo-protocole#11-step-1-transcribe-verbatim-location-data"
+    click Step1 "/en/geo-protocole#11-transcribe-verbatim-location-data"
     click Step2 "/en/geo-protocole#21-enrich-standardised-textual-location-data"
 </div>
 </body>
