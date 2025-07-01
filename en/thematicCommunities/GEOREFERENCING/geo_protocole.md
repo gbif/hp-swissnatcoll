@@ -83,12 +83,12 @@ graph TD;
 
 ## 1.1) Transcribe verbatim Location data
 
-**Transcribe** the content of the specimen label concerning the location in the field [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}.
+**Transcribe** the content of the specimen label concerning the location in the attribute [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}.
 
 > - [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}
 > - [verbatimElevation](https://dwc.tdwg.org/terms/#dwc:verbatimElevation){:target="_blank"}
 
-**Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
+**Document** information about the method used or difficulty encountered in the attribute [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
@@ -120,7 +120,7 @@ graph TD;
 
 ## 1.2) Transcribe verbatim coordinates data
 
-**Transcribe** the coordinates present on the specimen label in the field [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"} and associated fields.
+**Transcribe** the coordinates present on the specimen label in the attribute [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"} and associated attributes.
 
 > - [verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates){:target="_blank"}
 > - [verbatimLatitude](https://dwc.tdwg.org/terms/#dwc:verbatimLatitude){:target="_blank"}
@@ -128,14 +128,14 @@ graph TD;
 > - [verbatimCoordinateSystem](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinateSystem){:target="_blank"}
 > - [verbatimSRS](https://dwc.tdwg.org/terms/#dwc:verbatimSRS){:target="_blank"}
 
-**Convert** the verbatim coordinates into their corresponding modern coordinate system in the coordinate fields
+**Convert** the verbatim coordinates into their corresponding modern coordinate system in the coordinate attributes
 
 > - [decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude){:target="_blank"}
 > - [decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude){:target="_blank"}
 > - [coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters){:target="_blank"}
 > - [geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum){:target="_blank"}
 
-**Document** information about the method used or difficulty encountered in the field [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}.
+**Document** information about the method used or difficulty encountered in the attribute [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}.
 
 > - [georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks){:target="_blank"}
 
@@ -169,7 +169,7 @@ graph TD;
 > - [municipality](https://dwc.tdwg.org/terms/#dwc:municipality){:target="_blank"}
 > - [locality](https://dwc.tdwg.org/terms/#dwc:locality){:target="_blank"}
 
-**Document** information about the method used or difficulty encountered in the field [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
+**Document** information about the method used or difficulty encountered in the attribute [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}.
 
 > - [locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks){:target="_blank"}
 
@@ -244,7 +244,7 @@ In order to deal with unfitting historical locations, the in-house use of self-m
 | ZZ               | Overlapping several countries | Prussia    |
 | XX               | Unknown, Whole world          | _empty_    |
 
-### Notation: added elements in verbatim fields
+### Notation: added elements in verbatim attributes
 
 In order to remove ambiguity and make a distinction between original and added/interpreted elements, a clear symbole can be used, such as the **square brackets [ ]**
 
@@ -264,7 +264,7 @@ In order to remove ambiguity and make a distinction between original and added/i
 
 {: .box}
 **Recommendation**
-<br> Only georeference ‘large’ historical localities (e.g. countries, regions) when georeferencing provides greater accuracy than the information provided in the ad hoc fields (_country_, _stateProvince_).
+<br> Only georeference ‘large’ historical localities (e.g. countries, regions) when georeferencing provides greater accuracy than the information provided in the ad hoc attributes (_country_, _stateProvince_).
 
 
 ## 3.2) Pertinent
@@ -280,7 +280,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 
 {: .box}
 **Recommendation**
-<br> Fill in the relevant fields as accurately as possible before proceeding with georeferencing. Do not submit the coordinates if you do not want any of the countries involved to be returned by the encoding.
+<br> Fill in the relevant attributes as accurately as possible before proceeding with georeferencing. Do not submit the coordinates if you do not want any of the countries involved to be returned by the encoding.
 
 <div style="overflow-x: auto;">
   <table style="border-collapse: collapse; width: 100%;">
