@@ -81,7 +81,7 @@ graph TD;
 </div>
 </body>
 
-## 1.1) Step 1: Transcribe verbatim Location data
+## 1.1) Transcribe verbatim Location data
 
 **Transcribe** the content of the specimen label concerning the location in the field [verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality){:target="_blank"}.
 
