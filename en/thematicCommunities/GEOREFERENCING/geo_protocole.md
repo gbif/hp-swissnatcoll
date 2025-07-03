@@ -257,6 +257,11 @@ In order to remove ambiguity and make a distinction between original and added/i
 
 # 3) Georeferencing approach
 
+## 3.1) Do-able
+
+- Are there enough location information on the label ?
+- Does the location correspond to one place or are there homonyms ?
+
 ## 3.1) Possible
 
 - Does the georeferencing provide more information to the specimen that the already existing textual information?
