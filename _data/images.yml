@@ -5,42 +5,42 @@
 # PAGES HEROIMAGE BACKGROUND
 # ==================================================================================================================
 home:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_19_30.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_19_30.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 aboutScope:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_21_18.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_21_18.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
   
 aboutOrg:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_27.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_27.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 aboutPartners:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_26_34.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_26_34.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 findData:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_54.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_54.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 DAGIAbout:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_22_39.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_22_39.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
 # ==================================================================================================================
 institutions:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_21_44.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_21_44.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
   
 collections:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_26_01.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_26_01.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
   
 specimens:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg #/assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_25_36.png
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_25_36.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
   
 # ==================================================================================================================
