@@ -11,7 +11,6 @@ description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 height: 70vh
-parallax: true
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
