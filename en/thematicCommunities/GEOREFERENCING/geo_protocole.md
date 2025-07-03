@@ -275,6 +275,7 @@ Defining the pertinence of georeferencing historical localities is prior to any 
 - Basic data (readable, completeness, univocity)
 
 ## 3.3) Coordinate assignment
+💡 describe the procedure (find location online, find coordinates on swisstopo/getty..., add uncertainty radius)
 
 ### Cross-border entities
 
