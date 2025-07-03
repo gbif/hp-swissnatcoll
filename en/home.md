@@ -10,7 +10,9 @@ title: "Swiss Natural History Collections"
 description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
-height: 70vh
+overlayColor: "transparent" # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
+
+height: 100vh
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
