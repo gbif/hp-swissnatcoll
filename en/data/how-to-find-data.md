@@ -1,8 +1,8 @@
 ---
 layout: heroImage
 title: Data
-background: "{{ site.data.images.data.src }}"
-imageLicense: "{{ site.data.images.data.caption }}"
+background: "{{ site.data.images.findData.src }}"
+imageLicense: "{{ site.data.images.findData.caption }}"
 height: 50vh
 toc: true
 permalink: /en/how-to-find-data
