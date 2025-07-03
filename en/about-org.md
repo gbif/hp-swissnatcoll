@@ -5,6 +5,7 @@ permalink: /en/about-org
 background:  "{{ site.data.images.aboutOrg.src }}"
 imageLicense: "{{ site.data.images.aboutOrg.caption }}"
 overlayColor: transparent
+hasBlackText: true
 height: 50vh
 composition:
   - type: heroImage
