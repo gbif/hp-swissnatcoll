@@ -7,7 +7,7 @@
 home:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_19_30.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: "transparent"
+  transparent: "#ff000055"
   colorText: true
 
 aboutScope:
