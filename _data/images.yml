@@ -7,33 +7,26 @@
 home:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_19_30.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: transparent
-  colorText: true
 
 aboutScope:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_21_18.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: transparent
   
 aboutOrg:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_27.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: "transparent"
 
 aboutPartners:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_26_34.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: "transparent"
 
 findData:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_54.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: "transparent"
 
 DAGIAbout:
   src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_22_39.png
   caption: "Film SwissCollNet (to be released)"
-  transparent: "transparent"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
