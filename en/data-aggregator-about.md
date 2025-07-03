@@ -1,8 +1,8 @@
 ---
 layout: compose
 title: DAGI
-background: "assets/images/placeholders/acalypha_gillespieae_1258001892.jpg"
-imageLicense: "GBIF placeholders"
+background:  "{{ site.data.images.DAGIAbout.src }}"
+imageLicense: "{{ site.data.images.DAGIAbout.caption }}"
 height: 50vh
 toc: true
 composition:
