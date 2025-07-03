@@ -3,6 +3,8 @@ layout: heroImage
 title: Data
 background: "{{ site.data.images.findData.src }}"
 imageLicense: "{{ site.data.images.findData.caption }}"
+overlayColor: transparent
+hasBlackText: true
 height: 50vh
 toc: true
 permalink: /en/how-to-find-data
