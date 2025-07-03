@@ -294,8 +294,8 @@ Defining the pertinence of georeferencing historical localities is prior to any 
       <tr>
         <th style="background: {{ site.data.colors.lightblue.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Protocole</th>
         <th style="background: {{ site.data.colors.attribute.background }}; border: 1px solid black; padding: 10px; z-index: 2;">Attribute</th>
-        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Lakes</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain massifs</th>
+        <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Lakes</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">National parks</th>
         <th style="background: {{ site.data.colors.value.background }}; border: 1px solid black; padding: 10px;">Mountain ranges</th>
       </tr>
