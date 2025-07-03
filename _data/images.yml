@@ -21,11 +21,11 @@ aboutPartners:
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 findData:
-  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_22_39.png #/assets/images/background/carousel.1949378046.jpg 
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_54.png #/assets/images/background/carousel.1949378046.jpg 
   caption: "(ETH Zürich / Sammlungen und Archive)[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2023/12/globe-ein-blick-in-die-schatzkiste]{:target=\"_blank\"}"
 
 DAGIAbout:
-  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_23_54.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
+  src: /assets/images/filmSCN/Capture_d_ecran_2025-06-24_a_15_22_39.png #/assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
   caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)" #"Film SwissCollNet (to be released)"
 
 # ==================================================================================================================
