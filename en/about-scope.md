@@ -5,6 +5,7 @@ title: Scope
 background:  "{{ site.data.images.aboutScope.src }}"
 imageLicense: "{{ site.data.images.aboutScope.caption }}"
 overlayColor: "{{ site.data.images.aboutScope.transparent }}"
+hasBlackText: "{{ site.data.images.aboutScope.colorText }}"
 height: 50vh
 toc: true
 composition:
