@@ -2,8 +2,8 @@
 lang-ref: about
 layout: compose
 title: Scope
-background: /assets/images/GraphsDiagrams/SwissDataFlows.png
-imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
+background:  "{{ site.data.images.aboutScope.src }}"
+imageLicense: "{{ site.data.images.aboutScope.caption }}"
 height: 50vh
 toc: true
 composition:
