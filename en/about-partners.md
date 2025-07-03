@@ -1,9 +1,9 @@
 ---
 layout: compose
 title: Partners
-permalink: /en/about-part
-background: /assets/images/GraphsDiagrams/SwissDataFlows.png
-imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
+permalink: /en/about-partners
+background:  "{{ site.data.images.aboutPartners.src }}"
+imageLicense: "{{ site.data.images.aboutPartners.caption }}"
 height: 50vh
 toc: true
 composition:
