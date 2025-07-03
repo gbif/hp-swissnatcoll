@@ -3,6 +3,8 @@ layout: compose
 title: DAGI
 background:  "{{ site.data.images.DAGIAbout.src }}"
 imageLicense: "{{ site.data.images.DAGIAbout.caption }}"
+overlayColor: transparent
+hasBlackText: true
 height: 50vh
 toc: true
 composition:
