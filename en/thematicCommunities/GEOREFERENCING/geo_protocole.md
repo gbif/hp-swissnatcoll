@@ -240,7 +240,6 @@ In order to deal with unfitting historical locations, the in-house use of self-m
 
 | Pseudo-ISO codes | Definition                    | Example    |
 | ---------------- | ----------------------------- | ---------- |
-| AA               | Covering several countries    | Yugoslavia |
 | ZZ               | Overlapping several countries | Prussia    |
 | XX               | Unknown, Whole world          | _empty_    |
 
