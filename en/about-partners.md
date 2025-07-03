@@ -5,6 +5,7 @@ permalink: /en/about-partners
 background:  "{{ site.data.images.aboutPartners.src }}"
 imageLicense: "{{ site.data.images.aboutPartners.caption }}"
 overlayColor: transparent
+hasBlackText: true
 height: 50vh
 toc: true
 composition:
