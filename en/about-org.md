@@ -2,8 +2,8 @@
 layout: compose
 title: Organisation
 permalink: /en/about-org
-background: /assets/images/GraphsDiagrams/SwissDataFlows.png
-imageLicense: "modified from DatenGroup_20231205.pptx (Presentation of Nils Arrigo, 2023)"
+background:  "{{ site.data.images.aboutOrg.src }}"
+imageLicense: "{{ site.data.images.aboutOrg.caption }}"
 height: 50vh
 composition:
   - type: heroImage
