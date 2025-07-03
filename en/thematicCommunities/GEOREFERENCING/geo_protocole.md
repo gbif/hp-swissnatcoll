@@ -579,6 +579,11 @@ In cases where georeferencing does not provide the plus-value desired, there are
 
 - [ISO3166-1_allCountries.xlsx](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FmorelanneIF%2Fswissnatcoll-sharingportal%2Frefs%2Fheads%2Fmain%2FLocation-files%2FISO3166-1_allCountries.xlsx&wdOrigin=BROWSELINK){:target="_blank"}
 
+## Definitions used in this protocole
+
+- Geocoding = _The process (verb) or product (noun) of determining the coordinates for a street address. It is also sometimes used as a synonym for georeference._ (source : [Georeferencing Best Practices](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#glossary){:target="_blank"})
+- Georeferencing = _The process (verb) or product (noun) of interpreting a locality description into a spatially mappable representation using a georeferencing method. Compare with geocode. The usage here is distinct from the concept of georeferencing satellite and other imagery (known as georectification)._ (source : [Georeferencing Best Practices](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#glossary){:target="_blank"})
+
 ## Source for this page
 - Tschudin P., Burckhardt D., Monnerat C., Sanchez A., Burri F., Jutzi M. & Gonseth Y. 2014. Recommandations pour la saisie  de données de spécimens en collections, Ver. 2.0. Neuchâtel : GBIF Swiss Node, 12 pp. (available upon request)
 
