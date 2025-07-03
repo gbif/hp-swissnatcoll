@@ -10,7 +10,7 @@ title: "Swiss Natural History Collections"
 description: "Discover the treasures of the Swiss natural history institutions"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
-overlayColor: "{{ site.data.images.home.transparent }}" # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
+overlayColor: transparent # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
 hasBlackText: "{{ site.data.images.home.colorText }}"   # OPTIONAL - default is black. Depending on your background image is can be useful to change text color
 
 height: 100vh
