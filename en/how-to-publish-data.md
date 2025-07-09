@@ -47,37 +47,39 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Checklist -to do before logging in the Data Aggregator DAGI
 
-<br>✅ My institution is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
+<br>✅ My **institution** is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
 > Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
 ⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
-<br>✅ My collection is **registered in my institution on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
+<br>✅ My **collection** is **registered in my institution on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
 > Example: [Herbarium – De Candolle's Prodromus](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please do the appropriate changes and suggestions of change on [your GRSciColl collection page](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
+⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
 
-<br>✅ My institution has **at least [one user](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}**, with the Collection Administrator role, registered in DAGI.
+<br>✅ **At least [one Collection Administrator of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
 
 > - Collection Administrator ⚠️mandatory
 > - Data Digitizer 💡optional
 
-⚠️ If your institution does not yet have a Collection Administrator, please send a request by email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Administrator, please send a request by email at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
 
-<br>✅ My dataset has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
+<br>✅ My import file has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-<br>✅ My ready-for-import dataset file is an **UTF-8 encoded csv or text file with tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 > catalogNumber     scientificName     eventDate     recordedBy     ...<br>
 > XXX-123456789     Poa annua L.     2024-10-09     Weber Morgan     ...<br>
 > ...      ...     ...      ...     ...<br>
 > XXX-234567890     Poa annua L.     2024-10-08     Weber Morgan     ...
 
-<br>✅ My ready-for-import dataset file has a **maximum size of 800 Mbyte (= 800 Mo)**.
+⚠️ Darwin Core headers are not mandatory, but it allows you to benefit from the auto-mapping, or else you will have to do the mapping manually for each field in your import file.
+
+<br>✅ My import file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
 <br>
 
@@ -92,7 +94,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 ## Prepare my data
 
-1. Focus on the most important fields first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are important/interesting to be made publicly available.
+1. Focus on the **most important fields** first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management. <br>
 2. Make sure the [fields which require special values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
@@ -168,6 +170,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding fields.
+  - After signing in, you will be requested to accept DAGI's terms of use
   - After signing in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
 
 There are two different views on your institution page:
