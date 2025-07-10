@@ -1,7 +1,7 @@
 ---
 layout: documentation
 permalink: /en/attribute-values-paleo
-title: Paleontology : values examples for DAGI attribute
+title: Paleontology - values examples for DAGI attribute
 description: Examples of values for the DAGI attributes, as they are used for Paleontology specimens
 sideNavigation: sideNavigation.tutorials
 toc: true
