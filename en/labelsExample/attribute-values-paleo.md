@@ -9,7 +9,7 @@ toc: true
 
 | Attribute | Source | Definition | Example | Counter-example |
 | --------- | ------ | ---------- | ------- | --------------- |
-| associatedTaxa | dwc | A list (concatenated and separated) of identifiers or names of dwc:Taxon records and the associations of this dwc:Occurrence to each of them. | **Fossils** : "occurred with" : "Cheirolepis trailli" |  |
+| associatedTaxa | dwc | A list (concatenated and separated) of identifiers or names of dwc:Taxon records and the associations of this dwc:Occurrence to each of them. | "occurred with" : "Cheirolepis trailli" |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
