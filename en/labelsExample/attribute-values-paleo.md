@@ -7,11 +7,11 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 
-| Attribute | Source | Definition | Example | Counter-example |
-| --------- | ------ | ---------- | ------- | --------------- |
-| associatedTaxa | dwc | A list (concatenated and separated) of identifiers or names of dwc:Taxon records and the associations of this dwc:Occurrence to each of them. | "occurred with" : "Cheirolepis trailli" |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| Attribute | Source | Definition | Example |
+| --------- | ------ | ---------- | ------- |
+| associatedTaxa | dwc | A list (concatenated and separated) of identifiers or names of dwc:Taxon records and the associations of this dwc:Occurrence to each of them. | "occurred with" : "Cheirolepis trailli" | 
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
