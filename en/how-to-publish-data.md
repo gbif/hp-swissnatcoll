@@ -37,7 +37,7 @@ A feature currently in development will also allow you to [send your swiss data 
 <figure class="has-text-centered">
   <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v2.png" data-lightbox="image-1" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow.png" 
+    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v2.png" 
          alt="DAGI Data Flow" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
@@ -62,10 +62,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 <br>✅ **At least [one Collection Administrator of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
 
-> - Collection Administrator ⚠️mandatory
-> - Data Digitizer 💡optional
-
-⚠️ If your institution does not yet have a Collection Administrator, please send a request by email at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution role, institution email and institution name.
 
 <br>✅ My import file has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
@@ -77,7 +74,7 @@ A feature currently in development will also allow you to [send your swiss data 
 > ...      ...     ...      ...     ...<br>
 > XXX-234567890     Poa annua L.     2024-10-08     Weber Morgan     ...
 
-⚠️ Darwin Core headers are not mandatory, but it allows you to benefit from the auto-mapping, or else you will have to do the mapping manually for each field in your import file.
+⚠️ Darwin Core headers are not mandatory in the import file, but it allows you to benefit from the auto-mapping, or else you will have to do the mapping manually for each field in your import file.
 
 <br>✅ My import file has a **maximum size of 800 Mbyte (= 800 Mo)**.
 
@@ -170,15 +167,15 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding fields.
-  - After signing in, you will be requested to accept DAGI's terms of use
-  - After signing in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
+  - Right after signing in, you will be requested to accept [DAGI's terms of use](https://infofauna-support.atlassian.net/wiki/spaces/II/pages/18972887/Relancer+le+script+de+transfert+des+donn+es+InfoSpecies+sur+le+bucket){:target="_blank"}
+  - When signed in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
 
 There are two different views on your institution page:
 
   - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
   - **[Administration](#administration-view)**: ⚠️visible only to _Collection Administrators_ ⚠️, displays all **users** already added to your institution.
 
-Additionnally, there are two icons opening the pages on the SwissNatColl portal with support material to help you using DAGI.
+There are also two icons opening pages on the SwissNatColl portal with support material to help you using DAGI.
 
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal (this page)
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
