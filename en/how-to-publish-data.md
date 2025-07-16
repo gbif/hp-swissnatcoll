@@ -35,9 +35,9 @@ After preparing it, you are ready to [log in](#log-in) and [import your data](#i
 A feature currently in development will also allow you to [send your swiss data for validation](#validate-my-data) to the Infospecies data centers experts.
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v2.png" data-lightbox="image-1" 
+  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v3.png" data-lightbox="image-1" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v2.png" 
+    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v3.png" 
          alt="DAGI Data Flow" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
