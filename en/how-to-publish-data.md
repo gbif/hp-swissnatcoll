@@ -196,13 +196,14 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 --- A pop-up window _New Dataset_ has opened. ---
 
 1. Select the type of your data. ⚠️**Mandatory**⚠️
-    - Available types: Zoology, Botany, Geology, Paleontology
+    - Available types: Zoology, Botany, Paleontology
 2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
     - If the GRSciColl collection has already been added on DAGI, it is not present anymore in the drop-down list of this pop-up window. You can find it on the Datasets view.
 3. Add a description of the dataset. 💡optional💡
 4. Click on **Create dataset**
-    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
-    - If you want to delete a dataset, please take contact with us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
+    - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
+    - If you want to edit a dataset, click on the Edit icon of the dataset (far right-side of dataset line in the Datasets view)
+    - If you want to delete a dataset, please take contact with us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you accordingly.
 5. The pop-up window closes itself and you are now on the page of the dataset you just added.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
@@ -214,7 +215,7 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 ## Import my data
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Data Digitizer</i> can do the following steps, from the import to the publication on GBIForg. The steps described from here on are unavailable to users with only the <i>Collection Administrator</i> role.
+❌ Only the <i>Data Digitizer</i> can do the following steps, from the import to the image upload. The steps described from here on are unavailable to users with only the <i>Collection Administrator</i> role.
 </div>
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
