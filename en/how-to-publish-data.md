@@ -188,10 +188,10 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Progress_, _Records count / est._ and _Updated At_, see the [Datasets view](#datasets-view){:target="_blank"} hparagraph for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
-  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Deleting_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
-2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the page or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
-3. If your Datasets page already has datasets, click on the **🪟New dataset** button in the top right corner of the page.
+  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view](#datasets-view){:target="_blank"} paragraph for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
+  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the window or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
+3. If your Datasets view already has datasets, click on the **🪟New dataset** button in the top right corner of the window.
 
 --- A pop-up window _New Dataset_ has opened. ---
 
@@ -202,7 +202,7 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 3. Add a description of the dataset. 💡optional💡
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**, or edit the dataset afterwards.
-    - ⚠️Avoid deleting a dataset after creating it, especially after publishing on GBIF or it might create unwanted duplicates⚠️. Please take contact with [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
+    - If you want to delete a dataset, please take contact with us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you correctly.
 5. The pop-up window closes itself and you are now on the page of the dataset you just added.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
