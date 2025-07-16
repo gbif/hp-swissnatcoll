@@ -97,7 +97,7 @@ A feature currently in development will also allow you to [send your swiss data 
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName or catalogNumber cells
-   - duplicated headers (field names) or un-titled columns
+   - duplicated headers (file headers) or un-titled columns
    - an unwanted space after a header
   
 ⚠️ There are fields that you don't need to have in your import file because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are fixed by GRSciColl and GBIF.
@@ -220,14 +220,15 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
 2. Click on the dataset name in which you want to import your data.
-  - For each dataset in DAGI, you have 6 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications and Validations_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
-  - The tab **Records** displays the imported **records** available in your dataset.
-  - The tab **Imports** displays all the **files** you have imported.
-  - The tab **Exports** displays all the **files** you have exported.
-  - The tab **Publications and Validations** displays all the **files** you have published on GBIF.org or sent for validation to the InfoSpecies data centers.
-  - The tab **Image Upload** displays all the **files** with images you have imported.
+  - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
+  - The tab **Records** displays the imported **records** available in the dataset.
+  - The tab **Imports** displays all the **files** that have been imported.
+  - The tab **Exports** displays all the **files** that have been exported.
+  - The tab **Publications** displays all the **files** that have been published on GBIF.org
+  - The tab **Validations** is still to be developped ⚠️
+  - The tab **Image Upload** displays all the **files** with images that have been uploaded.
   - The tab **Published Records** displays all the **records** that have been already published.
-3. If your dataset is empty, click either on the **+ Import** button in the center of the page, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
+3. If your dataset is empty, click either on the **+ Import** button in the center of the window, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
 4. If your dataset already has records and you want to add new records or update the existing ones, click on the **📤Import data** button in the top-right corner of the window.
 
 --- A three-steps pop-up window _Import records_ has opened. ---
@@ -243,11 +244,11 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   <table style="border-collapse: collapse; border: 1px white">
       <tr>
           <td style="text-align: left; vertical-align: top"><i>Quick Start</i></td>
-          <td>if your field names are exactly the same as the DAGI attributes, the mapping can be automatically performed by <strong>✨Try auto-mapping</strong>. The second button <strong>🔄️Load existing mapping</strong> can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your field names do not change).</td>
+          <td>if your file headers are exactly the same as the DAGI attributes, the mapping can be automatically performed by <strong>✨Try auto-mapping</strong>. The second button <strong>🔄️Load existing mapping</strong> can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your file headers do not change).</td>
       </tr>
       <tr>
           <td style="text-align: left; vertical-align: top"><i>Required attributes</i></td>
-          <td>mandatory attributes that have to be mapped in order to go to the next step. Two attributes are mandatory in DAGI <a href="https://dwc.tdwg.org/terms/#dwc:scientificName">scientificName</a> and <a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber">catalogNumber</a>.</td>
+          <td>mandatory attributes that have to be mapped in order to go to the next step. Two attributes are mandatory in DAGI: <a href="https://dwc.tdwg.org/terms/#dwc:scientificName">scientificName</a> and <a href="https://dwc.tdwg.org/terms/#dwc:catalogNumber">catalogNumber</a>.</td>
       </tr>
       <tr>
           <td style="text-align: left; vertical-align: top"><i>Additional columns</i></td>
@@ -257,21 +258,21 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 </div>
 
 
-1. If your field names are 100% the same as the DAGI's attribute, click on **✨Try auto-mapping**.
-2. If you already did a mapping, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
-3. If it is your first mapping and your field names are different than the DAGI attributes, select first the Required attributes by clicking on the drop-down menu **Select a column** of both attributes. You can then select the corresponding field in your imported file.
-  - By typing the beginning of your field names in the search bar, you can find them more easily.
-  - If unsure of the correspondence between the attributes and your field names, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
-4. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your fields with the DAGI attributes.
+1. If your file headers are 100% the same as the DAGI's attribute, click on **✨Try auto-mapping**.
+2. If you already did a mapping of a previous file, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
+3. If it is your first mapping and your file headers are different than the DAGI attributes, do first the _Required attributes_ by clicking on the drop-down menu **Select a column** on the right side of the attribute names. You can then select the corresponding header in your imported file.
+  - By typing the beginning of your file header in the search bar, you can find it more easily.
+  - If unsure of the correspondence between the attributes and your file headers, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
+4. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your headers with the DAGI attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
-  - The unmapped fields of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file fields.
-5. Repeat these steps until all of the fields you want to import are mapped.
-  - If you can't find a DAGI attribute corresponding to one or more of your fields, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Validation process)
+  - The unmapped headers of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file headers.
+5. Repeat these steps until all of the headers you want to import are mapped.
+  - If you can't find a DAGI attribute corresponding to one or more of your headers, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Validation process)
 <br>
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
-7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped fields.
-  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keept track of the correspondance between your database field names and the Darwin Core attributes of DAGI.
+7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped headers.
+  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keept track of the correspondance between your database file headers and the Darwin Core attributes of DAGI.
 8. When satisfied, click on **Run import**.
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
