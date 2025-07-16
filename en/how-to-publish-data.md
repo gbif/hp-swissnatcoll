@@ -272,7 +272,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
 7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped headers.
-  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keept track of the correspondance between your database file headers and the Darwin Core attributes of DAGI.
+  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keep track of the correspondance between your database file headers and the attributes of DAGI.
 8. When satisfied, click on **Run import**.
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
