@@ -962,7 +962,7 @@ No, you don't need the Media Store of DAGI if your images are already publicly a
 
 > associatedMedia : https://www.digitalis.uzh.ch/media/specimen/293/Z-000293332.jpg
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ Make sure to import the URL to the file itself (must end with the extension for it to be displayed on GBIF)
 </div>
 
@@ -996,7 +996,7 @@ There are two different roles for user profile in DAGI:
 | **Records** -publish | ✅ | ❌ |
 
 <br>
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
 </div>
 <br>
@@ -1269,7 +1269,7 @@ Here is the **safest method to open any csv file**:
 If some data in your database has already been sent to an Infospecies data center and/or GBIF Swiss Node and/or GBIF.org, please **get in contact with [GBIF Swiss Node](mailto:contact@gbif.ch)** before uploading this data in DAGI.
 
 <br>
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
 ✅ If you already know which specimens of your collection have been sent to or obtained from an Infospecies data center, please inform the data center identifier in the field <strong>occurrenceID</strong> of your dataset.
 </div>
 <br>
