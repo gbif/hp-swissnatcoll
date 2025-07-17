@@ -39,6 +39,21 @@ toc: true
 | _catalogNumber_ | Free text | Prefix-123456 | ⚠️unique value⚠️ |
 | _scientificName_ | Free text | Abies alba <br> Pinguicula <br> Orchidaceae | |
 
+# JSON attributes
+
+| Attribute | Format | Examples | Special condition |
+| --------- | ------ | -------- | ----------------- |
+| _amplification_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _assertions_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _chronometric_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _dynamicProperties_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _ext_references_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _permit_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _resourceRelationship_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _speciesDistribution_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _speciesProfile_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+| _vernacularNames_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+
 # Event
 
 | Attribute | Format | Examples | Special condition |
