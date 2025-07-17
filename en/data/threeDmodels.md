@@ -66,7 +66,7 @@ Explore high-quality 3D models of various insect specimens. Use the drop-down me
 
 Below are the details of the currently selected specimen
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ The details currently displayed are an example, these are not the corresponding data, except for the source of the model.
 </div>
 
