@@ -1,51 +1,29 @@
-/* ================================
-   [1] General containers
-   ================================ */
+// ==============================
+// Variables globales
+// ==============================
 
-.info-box {
-  padding: 15px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  border: 1px solid #bce8f1;
-  background-color: #d9edf7;
-  color: #31708f;
-}
+$color-info-bg: #d9edf7;
+$color-info-border: #bce8f1;
+$color-info-text: #31708f;
 
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-  margin: 20px 0;
-}
+$color-warning: #ff6600;
 
-/* ================================
-   [2] Table styling
-   ================================ */
+$bg-attribute: #f7f9fc;
+$bg-value: #f5fef5;
+$bg-condition: #fff8e1;
 
-.table-dagi {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  border: 1px solid black;
-}
+$border-color-default: black;
+$font-size-base: 16px;
+$font-size-table: 0.95rem;
+$padding-cell: 5px;
 
-.table-dagi colgroup col:nth-child(1) {
-  width: 35%;
-}
-.table-dagi colgroup col:nth-child(2) {
-  width: 20%;
-}
-.table-dagi colgroup col:nth-child(3) {
-  width: 45%;
-}
+// ==============================
+// Mixins
+// ==============================
 
-/* ================================
-   [3] Cell styling
-   ================================ */
-
-.table-dagi th,
-.table-dagi td {
-  border: 1px solid black;
-  padding: 5px;
+@mixin table-cell {
+  border: 1px solid $border-color-default;
+  padding: $padding-cell;
   vertical-align: middle;
   text-align: left;
   word-wrap: break-word;
@@ -53,33 +31,77 @@
   white-space: normal;
 }
 
-/* Headings bold by default */
-.table-dagi th {
-  font-weight: bold;
+// ==============================
+// [1] Boîtes d'information
+// ==============================
+
+.info-box {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid $color-info-border;
+  background-color: $color-info-bg;
+  color: $color-info-text;
 }
 
-/* ================================
-   [4] Background-color overrides (dynamic)
-   ================================ */
+// ==============================
+// [2] Conteneur pour les tableaux
+// ==============================
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+// ==============================
+// [3] Tableaux de type DAGI
+// ==============================
+
+.table-dagi {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid $border-color-default;
+
+  colgroup {
+    col:nth-child(1) { width: 35%; }
+    col:nth-child(2) { width: 20%; }
+    col:nth-child(3) { width: 45%; }
+  }
+
+  th {
+    @include table-cell;
+    font-weight: bold;
+  }
+
+  td {
+    @include table-cell;
+  }
+}
+
+// ==============================
+// [4] Couleurs de fond dynamiques
+// ==============================
 
 .bg-attribute {
-  background-color: #f7f9fc; /* ou valeur par défaut si Liquid non dispo */
+  background-color: $bg-attribute;
 }
 
 .bg-value {
-  background-color: #f5fef5;
+  background-color: $bg-value;
 }
 
 .bg-condition {
-  background-color: #fff8e1;
+  background-color: $bg-condition;
 }
 
-/* ================================
-   [5] Warnings and visual emphasis
-   ================================ */
+// ==============================
+// [5] Mise en valeur
+// ==============================
 
 .warning {
-  color: #ff6600;
+  color: $color-warning;
   font-weight: bold;
 }
 
@@ -88,23 +110,23 @@
   margin-right: 5px;
 }
 
-/* Pour une meilleure lisibilité dans les <em> */
+// Style pour les <em> dans les cellules
 td em {
   font-style: italic;
   font-family: inherit;
 }
 
-/* ================================
-   [6] Typography & readability
-   ================================ */
+// ==============================
+// [6] Typographie
+// ==============================
 
 body {
   font-family: system-ui, sans-serif;
-  font-size: 16px;
+  font-size: $font-size-base;
   line-height: 1.5;
 }
 
-.table-dagi td,
-.table-dagi th {
-  font-size: 0.95rem;
+.table-dagi th,
+.table-dagi td {
+  font-size: $font-size-table;
 }
