@@ -26,7 +26,12 @@ tutorials:
       path: /en/label-mollusca
     - title: Ornithology
       path: /en/label-ornithology
-  - sectiontitle: Attributes examples
+
+- grouptitle: HELP
+  content:
+  - title: Error messages
+    path: /en/dagi-error-messages
+  - sectiontitle: Attributes
     section:
     - title: Paleontology
       path: /en/attribute-values-paleo
