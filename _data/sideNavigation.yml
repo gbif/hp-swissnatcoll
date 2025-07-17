@@ -31,7 +31,9 @@ tutorials:
   content:
   - title: Error messages
     path: /en/dagi-error-messages
-  - sectiontitle: Attributes
+  - title: Attributes format
+    path: /en/dagi-attributes-format
+  - sectiontitle: Attributes examples
     section:
     - title: Paleontology
       path: /en/attribute-values-paleo
