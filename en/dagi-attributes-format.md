@@ -439,7 +439,6 @@ toc: true
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">copied from <em>catalogNumber</em> if empty during import</td>
         </tr>
-
     </table>
 </div>
 
