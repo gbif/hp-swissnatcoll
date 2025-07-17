@@ -239,73 +239,73 @@ toc: true
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>acceptedNameUsage</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Abies alba Mill.</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>kingdom</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Plantae</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>phylum</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Tracheophyta</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>class</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Pinopsida</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>order</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Pinales</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>family</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Pinaceae</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>genus</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Abies</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>specificEpithet</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">alba</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>scientificNameAuthorship</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Miller</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonID</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Integer</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">123465789</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonIdCH</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Integer</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">132465789</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonRank</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Species</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>vernacularName</em></td>
@@ -334,31 +334,31 @@ toc: true
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>continent</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Europe</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>country</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Suisse</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>countryCode</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">CH</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>stateProvince</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Solothurn</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>municipality</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Grenchen</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>locality</em></td>
@@ -382,37 +382,37 @@ toc: true
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>decimalLatitude</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">47.1849</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if swissCoordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if swissCoordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>decimalLongitude</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">7.34</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if swissCoordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if swissCoordinates attributes informed</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv03_E</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">500000.1</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv03_N</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">200000.1</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv95_E</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">2500000.1</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv95_N</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">1200000.1</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">overwritten by Encoding if coordinates attributes informed</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
             </tr>
             <tr>
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>coordinateUncertaintyInMeters</em></td>
@@ -453,7 +453,7 @@ toc: true
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>associatedMedia</em></td>
                 <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
                 <td style="border: 1px solid #ddd; padding: 8px;">https://(path to a file).jpg</td>
-                <td style="border: 1px solid #ddd; padding: 8px;">public URL to an image file <br> overwritten by Image Upload</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">public URL to an image file <br> enriched by Image Upload</td>
             </tr>
             <tr style="background-color: #f9f9f9;">
                 <td style="border: 1px solid #ddd; padding: 8px;"><em>otherCatalogNumbers</em></td>
