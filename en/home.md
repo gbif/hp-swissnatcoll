@@ -35,3 +35,5 @@ composition:
 #  - type: split
 #    data: home.video-swisscollnet
 ---
+
+{% include back-to-top.html %}
