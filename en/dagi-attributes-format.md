@@ -34,11 +34,34 @@ toc: true
 
 # Mandatory attributes
 
-| Attribute | Format | Examples | Special condition |
-| --------- | ------ | -------- | ----------------- |
-| _catalogNumber_ | Free text | Prefix-123456 | ⚠️unique value⚠️ |
-| _scientificName_ | Free text | Abies alba <br> Pinguicula <br> Orchidaceae | |
-
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+        <tr>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Attribute</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Format</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Examples</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>catalogNumber</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Prefix-123456</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><span style="color: #ff6600; font-weight: bold;">⚠️unique value⚠️</span></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>scientificName</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Abies alba<br>Pinguicula<br>Orchidaceae</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+        </tr>
+    </table>
+</div>
 # JSON attributes
 
 | Attribute | Format | Examples | Special condition |
