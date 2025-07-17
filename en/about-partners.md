@@ -27,3 +27,5 @@ composition:
 * Swiss Association of Natural History Museums ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
 * Swiss natural history collections network ([SwissCollNet](https://swisscollnet.scnat.ch/en){:target="_blank"})
 * Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
+
+{% include back-to-top.html %}
