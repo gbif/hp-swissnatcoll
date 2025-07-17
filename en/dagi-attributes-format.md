@@ -19,8 +19,8 @@ toc: true
 
 # Mandatory attributes
 
-<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
-    <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
+<div class="table-wrapper">
+  <table class="table-format">
         <colgroup>
           <col style="width: 35%;">
           <col style="width: 20%;">
