@@ -31,7 +31,7 @@ exampleValues:
   transparency: "rgba(119, 205, 238, 0.2)"
   
 # ==============================================
-# ATTRIBUTE / VALUE tables
+# ATTRIBUTE / VALUE / SPECIAL CONDITIONS tables
 # ==============================================
 attribute:
   background: "rgba(233, 149, 109)"
@@ -40,6 +40,10 @@ attribute:
 value:
   background: "rgba(89, 177, 163)"
   transparency: "rgba(89, 177, 163, 0.2)"
+
+value:
+  background: "rgba(208, 149, 220)"
+  transparency: "rgba(208, 149, 220, 0.2)"
 
 # ==============================================
 # MIDS
