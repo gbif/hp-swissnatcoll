@@ -7,21 +7,6 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 
-<head>
-  <!-- Lightbox2 CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-  
-  <!-- Lightbox2 JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-
-  <!-- Zoom.js CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
-
-  <!-- Zoom.js JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
-
-</head>
-
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 ℹ️ This page covers the formats of the attributes in DAGI, clarifying how to write the data in the import file.
 </div>
