@@ -24,7 +24,7 @@ toc: true
 
 # How to publish data with the Data Aggregator DAGI
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 ℹ️ A new version has been recently released on DAGI 🎉 This page is in the work to be updated to the new features of this update. We hope you understand if something has not yet been corrected. [09.07.2025]
 </div>
 
@@ -80,7 +80,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 <br>
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 <strong>👌 You can do as many data imports as you want</strong>.<br> The Data Aggregator tracks all imported files, even if they contain the same data. <strong>If your catalogNumber remains unchanged, each new import will update the corresponding existing data</strong>.
 </div>
 
@@ -182,7 +182,7 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 
 ## Add a new dataset
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Collection Administrator</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
@@ -214,7 +214,7 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 
 ## Import my data
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Data Digitizer</i> can do the following steps, from the import to the image upload. The steps described from here on are unavailable to users with only the <i>Collection Administrator</i> role.
 </div>
 
@@ -287,7 +287,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 ## Encode my data
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
 <p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong>, so that you can benefit from the enrichment offered by DAGI.</p>
 <p>Despite not needed for publication or validation, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
 <p>The supplementary mandatory attributes are <i>kingdom</i> and <i>country</i>.</p>
@@ -310,7 +310,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
   <p>✅ A <strong>percentage of <i>Not encoded / Incomplete</i> records lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
-  <p style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+  <p style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ If some of your records do not have the necessary information for the APIs queries, then the Encoding status will remain <i>Incomplete</i>. <strong>This does not prevent you from publishing or sending your records for validation</strong>.</p>
 </div>
 
@@ -382,7 +382,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Publish my data
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Collection Administrator</i> role can publish records on GBIForg. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
@@ -431,7 +431,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Validate my data
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
 </div>
 
@@ -501,7 +501,7 @@ The page of a dataset has 5 available tabs.
 
 ## Administration view
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Collection Administrator</i> role can access this view.
 </div>
 
@@ -527,7 +527,7 @@ The *Roles* column informs you on the role/s attributed to each user:
 | **Records** -publish | ✅ | ❌ |
 
 <br>
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
 </div>
 <br>
