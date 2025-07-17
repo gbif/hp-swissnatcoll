@@ -1,0 +1,110 @@
+/* ================================
+   [1] General containers
+   ================================ */
+
+.info-box {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #bce8f1;
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+/* ================================
+   [2] Table styling
+   ================================ */
+
+.table-dagi {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  border: 1px solid black;
+}
+
+.table-dagi colgroup col:nth-child(1) {
+  width: 35%;
+}
+.table-dagi colgroup col:nth-child(2) {
+  width: 20%;
+}
+.table-dagi colgroup col:nth-child(3) {
+  width: 45%;
+}
+
+/* ================================
+   [3] Cell styling
+   ================================ */
+
+.table-dagi th,
+.table-dagi td {
+  border: 1px solid black;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+/* Headings bold by default */
+.table-dagi th {
+  font-weight: bold;
+}
+
+/* ================================
+   [4] Background-color overrides (dynamic)
+   ================================ */
+
+.bg-attribute {
+  background-color: #f7f9fc; /* ou valeur par défaut si Liquid non dispo */
+}
+
+.bg-value {
+  background-color: #f5fef5;
+}
+
+.bg-condition {
+  background-color: #fff8e1;
+}
+
+/* ================================
+   [5] Warnings and visual emphasis
+   ================================ */
+
+.warning {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.icon-info {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+/* Pour une meilleure lisibilité dans les <em> */
+td em {
+  font-style: italic;
+  font-family: inherit;
+}
+
+/* ================================
+   [6] Typography & readability
+   ================================ */
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.table-dagi td,
+.table-dagi th {
+  font-size: 0.95rem;
+}
