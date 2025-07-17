@@ -62,74 +62,202 @@ toc: true
         </tr>
     </table>
 </div>
+
 # JSON attributes
 
-| Attribute | Format | Examples | Special condition |
-| --------- | ------ | -------- | ----------------- |
-| _amplification_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _assertions_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _chronometric_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _dynamicProperties_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _ext_references_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _permit_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _resourceRelationship_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _speciesDistribution_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _speciesProfile_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
-| _vernacularNames_ | JSON | { "key" : "value" } | only this writing of the value can be accepted |
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+        <tr>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Attribute</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Format</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Examples</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>amplification</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>assertions</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>chronometric</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>dynamicProperties</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>ext_references</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>permit</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>resourceRelationship</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>speciesDistribution</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>speciesProfile</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>vernacularNames</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">JSON</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">{ "key" : "value" }</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">only this writing of the value can be accepted</td>
+        </tr>
+    </table>
+</div>
 
 # Event
 
-| Attribute | Format | Examples | Special condition |
-| --------- | ------ | -------- | ----------------- |
-| _day_ | Integer | 20 | overwritten by Encoding if _eventDate_ in ISO 8601-1:2019 |
-| _month_ | Integer | 5 | overwritten by Encoding if _eventDate_ in ISO 8601-1:2019 |
-| _year_ | Integer | 2025 | overwritten by Encoding if _eventDate_ in ISO 8601-1:2019 |
-| _eventDate_ | Free text | 2025-05-20 (recommended) | overwritten by Encoding if _day_, _month_, _year_ informed |
-| _eventRemarks_ | Free text | (any remarks related to the event) | |
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+        <tr>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Attribute</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Format</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Examples</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>day</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Integer</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">20</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if <em>eventDate</em> in ISO 8601-1:2019</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>month</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Integer</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">5</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if <em>eventDate</em> in ISO 8601-1:2019</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>year</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Integer</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">2025</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if <em>eventDate</em> in ISO 8601-1:2019</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>eventDate</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">2025-05-20 (recommended)</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if <em>day</em>, <em>month</em>, <em>year</em> informed</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>eventRemarks</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">(any remarks related to the event)</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+        </tr>
+    </table>
+</div>
 
 # Identification
 
-| Attribute | Format | Examples | Special condition |
-| --------- | ------ | -------- | ----------------- |
-| _typeStatus_ | Free text | Holotype <br> not a type <br> Type material | controlled vocabulary recommended |
-| _verbatimIdentification_ | Free text | (any remarks related to the identification) | |
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+    <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
+        <colgroup>
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+            <col style="width: 25%;">
+        </colgroup>
+        <tr>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Attribute</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Format</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Examples</th>
+            <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>typeStatus</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Holotype<br>not a type<br>Type material</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">controlled vocabulary recommended</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>verbatimIdentification</em></td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">(any remarks related to the identification)</td>
+            <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+        </tr>
+    </table>
+</div>
 
 # Taxon
 
 | Attribute | Format | Examples | Special condition |
 | --------- | ------ | -------- | ----------------- |
-| _acceptedNameUsage_ | Free text | Abies alba Mill. | overwritten by Encoding |
-| _kingdom_ | Free text | Plantae | overwritten by Encoding |
-| _phylum_ | Free text | Tracheophyta | overwritten by Encoding |
-| _class_ | Free text | Pinopsida | overwritten by Encoding |
-| _order_ | Free text | Pinales | overwritten by Encoding |
-| _family_ | Free text | Pinaceae | overwritten by Encoding |
-| _genus_ | Free text | Abies | overwritten by Encoding |
-| _specificEpithet_ | Free text | alba | overwritten by Encoding |
-| _scientificNameAuthorship_ | Free text | Miller | overwritten by Encoding |
-| _taxonID_ | Integer | 123465789 | overwritten by Encoding |
-| _taxonIdCH_ | Integer | 132465789 | overwritten by Encoding |
-| _taxonRank_ | Free text | Species | overwritten by Encoding |
+| _acceptedNameUsage_ | Free text | Abies alba Mill. | enriched by Encoding |
+| _kingdom_ | Free text | Plantae | enriched by Encoding |
+| _phylum_ | Free text | Tracheophyta | enriched by Encoding |
+| _class_ | Free text | Pinopsida | enriched by Encoding |
+| _order_ | Free text | Pinales | enriched by Encoding |
+| _family_ | Free text | Pinaceae | enriched by Encoding |
+| _genus_ | Free text | Abies | enriched by Encoding |
+| _specificEpithet_ | Free text | alba | enriched by Encoding |
+| _scientificNameAuthorship_ | Free text | Miller | enriched by Encoding |
+| _taxonID_ | Integer | 123465789 | enriched by Encoding |
+| _taxonIdCH_ | Integer | 132465789 | enriched by Encoding |
+| _taxonRank_ | Free text | Species | enriched by Encoding |
 | _vernacularName_ | Free text | Tanne | |
 
 # Location
 
 | Attribute | Format | Examples | Special condition |
 | --------- | ------ | -------- | ----------------- |
-| _continent_ | Free text | Europe | overwritten by Encoding if coordinates attributes informed |
-| _country_ | Free text | Suisse | overwritten by Encoding if coordinates attributes informed |
-| _countryCode_ | Free text | CH | overwritten by Encoding if coordinates attributes informed |
-| _stateProvince_ | Free text | Solothurn | overwritten by Encoding if coordinates attributes informed |
-| _municipality_ | Free text | Grenchen | overwritten by Encoding if coordinates attributes informed |
+| _continent_ | Free text | Europe | enriched by Encoding if coordinates attributes informed |
+| _country_ | Free text | Suisse | enriched by Encoding if coordinates attributes informed |
+| _countryCode_ | Free text | CH | enriched by Encoding if coordinates attributes informed |
+| _stateProvince_ | Free text | Solothurn | enriched by Encoding if coordinates attributes informed |
+| _municipality_ | Free text | Grenchen | enriched by Encoding if coordinates attributes informed |
 | _locality_ | Free text | Plaine de Plainpalais, skate park | |
 | _minimumElevationInMeters_ | Float | 300.0 | |
 | _maximumElevationInMeters_ | Float | 500.0 | |
-| _decimalLatitude_ | Float | 47.1849 | overwritten by Encoding if swissCoordinates attributes informed |
-| _decimalLongitude_ | Float | 7.34 | overwritten by Encoding if swissCoordinates attributes informed |
-| _swissCoordinatesLv03_E_ | Float | 500000.1 | overwritten by Encoding if coordinates attributes informed |
-| _swissCoordinatesLv03_N_ | Float | 200000.1 | overwritten by Encoding if coordinates attributes informed |
-| _swissCoordinatesLv95_E_ | Float | 2500000.1 | overwritten by Encoding if coordinates attributes informed |
-| _swissCoordinatesLv95_N_ | Float | 1200000.1 | overwritten by Encoding if coordinates attributes informed |
+| _decimalLatitude_ | Float | 47.1849 | enriched by Encoding if swissCoordinates attributes informed |
+| _decimalLongitude_ | Float | 7.34 | enriched by Encoding if swissCoordinates attributes informed |
+| _swissCoordinatesLv03_E_ | Float | 500000.1 | enriched by Encoding if coordinates attributes informed |
+| _swissCoordinatesLv03_N_ | Float | 200000.1 | enriched by Encoding if coordinates attributes informed |
+| _swissCoordinatesLv95_E_ | Float | 2500000.1 | enriched by Encoding if coordinates attributes informed |
+| _swissCoordinatesLv95_N_ | Float | 1200000.1 | enriched by Encoding if coordinates attributes informed |
 | _coordinateUncertaintyInMeters_ | Float | 300.0 | |
 | _geodeticDatum_ | Free text | WGS84 | |
 | _georeferenceVerificationStatus_ | Free text | verified by administrator | controlled vocabulary recommended |
@@ -138,7 +266,7 @@ toc: true
 
 | Attribute | Format | Examples | Special condition |
 | --------- | ------ | -------- | ----------------- |
-| _associatedMedia_ | Free text | https://(path to a file).jpg | public URL to an image file <br> overwritten by Image Upload |
+| _associatedMedia_ | Free text | https://(path to a file).jpg | public URL to an image file <br> enriched by Image Upload |
 | _otherCatalogNumbers_ | Free text | 7400 | |
 | _partOfOrganism_ | Free text | whole animal | controlled vocabulary recommended |
 | _preparations_ | Free text | mounted | controlled vocabulary recommended |
