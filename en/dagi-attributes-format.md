@@ -38,9 +38,8 @@ toc: true
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
           <col style="width: 35%;">
-          <col style="width: 15%;">
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+          <col style="width: 20%;">
+          <col style="width: 45%;">
         </colgroup>
         <tr>
             <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Attribute</th>
