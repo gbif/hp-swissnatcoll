@@ -20,3 +20,5 @@ composition:
 # Backoffice
 
 ...
+
+{% include back-to-top.html %}
