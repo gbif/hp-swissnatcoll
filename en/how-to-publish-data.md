@@ -277,6 +277,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
+  - If the import did not work, the State is **❌ Failed**, [here is the description of what to do](/en/dagi-error-messages#the-import-failed){:target="_blank"}.
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
