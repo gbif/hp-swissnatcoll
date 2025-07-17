@@ -37,8 +37,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -67,9 +67,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -146,9 +146,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -195,9 +195,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -226,9 +226,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -239,82 +239,82 @@ toc: true
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>acceptedNameUsage</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Abies alba Mill.</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>acceptedNameUsage</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Abies alba Mill.</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>kingdom</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Plantae</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>kingdom</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Plantae</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>phylum</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Tracheophyta</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>phylum</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Tracheophyta</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>class</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Pinopsida</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>class</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Pinopsida</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>order</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Pinales</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>order</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Pinales</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>family</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Pinaceae</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>family</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Pinaceae</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>genus</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Abies</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>genus</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Abies</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>specificEpithet</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">alba</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>specificEpithet</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">alba</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>scientificNameAuthorship</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Miller</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>scientificNameAuthorship</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Miller</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Integer</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">123465789</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>taxonID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Integer</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">123465789</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonIdCH</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Integer</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">132465789</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>taxonIdCH</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Integer</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">132465789</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>taxonRank</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Species</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>taxonRank</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Species</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>vernacularName</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Tanne</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>vernacularName</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Tanne</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
     </table>
 </div>
@@ -323,9 +323,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -336,106 +336,106 @@ toc: true
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>continent</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Europe</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>continent</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Europe</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>country</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Suisse</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>country</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Suisse</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>countryCode</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">CH</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>countryCode</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">CH</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>stateProvince</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Solothurn</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>stateProvince</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Solothurn</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>municipality</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Grenchen</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>municipality</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Grenchen</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>locality</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Plaine de Plainpalais, skate park</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>locality</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Plaine de Plainpalais, skate park</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>minimumElevationInMeters</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">300.0</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>minimumElevationInMeters</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">300.0</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>maximumElevationInMeters</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">500.0</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>maximumElevationInMeters</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">500.0</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>decimalLatitude</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">47.1849</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if swissCoordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>decimalLatitude</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">47.1849</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if swissCoordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>decimalLongitude</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">7.34</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if swissCoordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>decimalLongitude</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">7.34</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if swissCoordinates attributes informed</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv03_E</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">500000.1</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissCoordinatesLv03_E</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">500000.1</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv03_N</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">200000.1</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissCoordinatesLv03_N</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">200000.1</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv95_E</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">2500000.1</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissCoordinatesLv95_E</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">2500000.1</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissCoordinatesLv95_N</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">1200000.1</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">enriched by Encoding if coordinates attributes informed</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissCoordinatesLv95_N</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">1200000.1</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">enriched by Encoding if coordinates attributes informed</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>coordinateUncertaintyInMeters</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Float</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">300.0</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>coordinateUncertaintyInMeters</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Float</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">300.0</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>geodeticDatum</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">WGS84</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>geodeticDatum</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">WGS84</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>georeferenceVerificationStatus</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">verified by administrator</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">controlled vocabulary recommended</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>georeferenceVerificationStatus</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">verified by administrator</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">controlled vocabulary recommended</td>
         </tr>
     </table>
 </div>
@@ -444,9 +444,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -457,34 +457,34 @@ toc: true
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>associatedMedia</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">https://(path to a file).jpg</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">public URL to an image file <br> enriched by Image Upload</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>associatedMedia</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">https://(path to a file).jpg</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">public URL to an image file <br> enriched by Image Upload</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>otherCatalogNumbers</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">7400</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>otherCatalogNumbers</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">7400</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>partOfOrganism</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">whole animal</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">controlled vocabulary recommended</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>partOfOrganism</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">whole animal</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">controlled vocabulary recommended</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>preparations</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">mounted</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">controlled vocabulary recommended</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>preparations</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">mounted</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">controlled vocabulary recommended</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>recordedBy</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Max Welten</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">standardised name writing recommended (Full name, first name then last name)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>recordedBy</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Max Welten</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">standardised name writing recommended (Full name, first name then last name)</td>
         </tr>
     </table>
 </div>
@@ -493,9 +493,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -506,10 +506,10 @@ toc: true
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>occurrenceID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Prefix-123456</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">copied from <em>catalogNumber</em> if empty during import</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>occurrenceID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Prefix-123456</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">copied from <em>catalogNumber</em> if empty during import</td>
         </tr>
 
     </table>
@@ -519,9 +519,9 @@ toc: true
 
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
-          <colgroup>
-          <col style="width: 25%;">
-          <col style="width: 25%;">
+        <colgroup>
+          <col style="width: 35%;">
+          <col style="width: 15%;">
           <col style="width: 25%;">
           <col style="width: 25%;">
         </colgroup>
@@ -532,88 +532,88 @@ toc: true
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #e6f3ff; font-weight: bold;">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>basisOfRecord</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">PreservedSpecimen</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed if empty during import</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>basisOfRecord</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">PreservedSpecimen</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed if empty during import</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>collectionCode</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after import (Source : GRSciColl)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>collectionCode</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after import (Source : GRSciColl)</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>collectionID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after import (Source : GRSciColl)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>collectionID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after import (Source : GRSciColl)</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>datasetID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after publication (Source : GBIF)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>datasetID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after publication (Source : GBIF)</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>datasetName</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">https://doi.org/(GBIF metadata-only dataset DOI)</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Recommended to be used for GBIF metadata-only dataset DOI</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>datasetName</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">https://doi.org/(GBIF metadata-only dataset DOI)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Recommended to be used for GBIF metadata-only dataset DOI</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>gbifDOI</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after publication (Source : GBIF)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>gbifDOI</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after publication (Source : GBIF)</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>gbifID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after publication (Source : GBIF)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>gbifID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after publication (Source : GBIF)</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>institutionCode</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after publication (Source : GBIF)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>institutionCode</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after publication (Source : GBIF)</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>institutionID</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after publication (Source : GBIF)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>institutionID</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after publication (Source : GBIF)</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>modified</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">01.05.2025</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">date format recommended</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>modified</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">01.05.2025</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">date format recommended</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>rightsHolder</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">Free text</td>
-          <td style="border: 1px solid #ddd; padding: 8px;">(name of the data owner)</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>rightsHolder</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">(name of the data owner)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissSpeciesCenter</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after encoding (Source : InfoSpecies)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissSpeciesCenter</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after encoding (Source : InfoSpecies)</td>
         </tr>
         <tr>
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissSpeciesRegistered</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after encoding (Source : InfoSpecies)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissSpeciesRegistered</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after encoding (Source : InfoSpecies)</td>
         </tr>
         <tr style="background-color: #f9f9f9;">
-          <td style="border: 1px solid #ddd; padding: 8px;"><em>swissSpeciesRegisteredAt</em></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">⚠️ Not available for mapping</td>
-          <td style="border: 1px solid #ddd; padding: 8px;"></td>
-          <td style="border: 1px solid #ddd; padding: 8px;">automatically informed after encoding (Source : InfoSpecies)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissSpeciesRegisteredAt</em></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">⚠️ Not available for mapping</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">automatically informed after encoding (Source : InfoSpecies)</td>
         </tr>
     </table>
 </div>
