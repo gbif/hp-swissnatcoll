@@ -41,7 +41,7 @@ value:
   background: "rgba(89, 177, 163)"
   transparency: "rgba(89, 177, 163, 0.2)"
 
-value:
+condition:
   background: "rgba(208, 149, 220)"
   transparency: "rgba(208, 149, 220, 0.2)"
 
