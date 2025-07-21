@@ -22,9 +22,9 @@ toc: true
 <div class="table-wrapper">
   <table class="table-format">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
-          <col style="width: 45%;">
+          <col style="width: 35%;">   <!-- Attribute -->
+          <col style="width: 20%;">   <!-- Format -->
+          <col style="width: 45%;">   <!-- Special condition -->
         </colgroup>
         <tr>
           <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }}; font-weight: bold;">Attribute</th>
