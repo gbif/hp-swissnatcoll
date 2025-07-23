@@ -27,14 +27,14 @@ toc: true
           <col style="width: 45%;">   <!-- Special condition -->
         </colgroup>
         <tr>
-          <th class="table-format" style="background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
-          <th class="table-format" style="background-color: {{ site.data.colors.value.background }};">Format</th>
-          <th class="table-format" style="background-color: {{ site.data.colors.condition.background }};">Special condition</th>
+          <th class="table-format bg-attribute">Attribute</th>
+          <th class="table-format bg-value">Format</th>
+          <th class="table-format bg-condition">Special condition</th>
         </tr>
         <tr>
           <td class="table-format"><em>catalogNumber</em></td>
           <td class="table-format">Free text</td>
-          <td class="table-warning">⚠️unique value mandatory</td>
+          <td class="warning">⚠️unique value mandatory</td>
         </tr>
         <tr>
          <td class="table-format"><em>scientificName</em></td>
