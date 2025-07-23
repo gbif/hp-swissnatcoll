@@ -105,10 +105,12 @@ $padding-cell: 5px;
 
 .table-format th {
   font-weight: bold;
+  border: 1px solid black;
 }
 
 .table-format td {
   padding: 5px;
+  border: 1px solid black;
 }
 
 // ==============================
