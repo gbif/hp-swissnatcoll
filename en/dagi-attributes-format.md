@@ -27,9 +27,9 @@ toc: true
           <col style="width: 45%;">   <!-- Special condition -->
         </colgroup>
         <tr>
-          <th class="table-format"; style="background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
-          <th class="table-format"; style="background-color: {{ site.data.colors.value.background }};">Format</th>
-          <th class="table-format"; style="background-color: {{ site.data.colors.condition.background }};">Special condition</th>
+          <th class="table-format" style="background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+          <th class="table-format" style="background-color: {{ site.data.colors.value.background }};">Format</th>
+          <th class="table-format" style="background-color: {{ site.data.colors.condition.background }};">Special condition</th>
         </tr>
         <tr>
           <td class="table-format"><em>catalogNumber</em></td>
