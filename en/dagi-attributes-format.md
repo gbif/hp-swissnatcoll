@@ -7,7 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
+<div class="info-box">
 ℹ️ This page covers the formats of the attributes in DAGI, clarifying how to write the data in the import file.
 </div>
 
@@ -19,7 +19,7 @@ toc: true
 
 # Mandatory attributes
 
-<div class="table-wrapper">
+<div class="table-wrapper-standard">
   <table class="table-format">
         <colgroup>
           <col style="width: 35%;">   <!-- Attribute -->
@@ -27,19 +27,19 @@ toc: true
           <col style="width: 45%;">   <!-- Special condition -->
         </colgroup>
         <tr>
-          <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }}; font-weight: bold;">Attribute</th>
-          <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }}; font-weight: bold;">Format</th>
-          <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.condition.background }}; font-weight: bold;">Special condition</th>
+          <th class="table-format th"; style="background-color: {{ site.data.colors.attribute.background }};">Attribute</th>
+          <th class="table-format th"; style="background-color: {{ site.data.colors.value.background }};">Format</th>
+          <th class="table-format th"; style="background-color: {{ site.data.colors.condition.background }};">Special condition</th>
         </tr>
         <tr>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>catalogNumber</em></td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal; color: #ff6600; font-weight: bold;">⚠️unique value mandatory</td>
+          <td class="table-format td"><em>catalogNumber</em></td>
+          <td class="table-format td">Free text</td>
+          <td class="table-warning">⚠️unique value mandatory</td>
         </tr>
         <tr>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>scientificName</em></td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"></td>
+         <td class="table-format td"><em>scientificName</em></td>
+         <td class="table-format td">Free text</td>
+         <td class="table-format td"></td>
         </tr>
     </table>
 </div>
