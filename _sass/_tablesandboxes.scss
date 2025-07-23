@@ -92,30 +92,14 @@ $padding-cell: 5px;
 }
 
 .table-format th {
-  border: 1px solid black;
-  padding: 5px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
-  text-align: left;
-  vertical-align: middle;
   font-weight: bold;
 }
 
 .table-format td {
-  border: 1px solid black;
   padding: 5px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
 }
 
 .table-warning {
-  border: 1px solid black;
-  padding: 5px;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
   color: #ff6600;
   font-weight: bold;
 }
