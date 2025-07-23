@@ -45,7 +45,7 @@ $padding-cell: 5px;
 }
 
 // ==============================
-// [2] Conteneur pour les tableaux
+// [2] Tables container
 // ==============================
 
 .table-wrapper-standard {
@@ -56,7 +56,7 @@ $padding-cell: 5px;
   white-space: normal;
 }
 
-.table-wrapper-large {
+.table-wrapper-2large {
   width: 100%;
   overflow-x: auto;
   margin: 20px 0;
@@ -74,6 +74,11 @@ $padding-cell: 5px;
   overflow-wrap: break-word;
   white-space: normal;
 }
+
+// ==============================
+// [2] Tables format
+// ==============================
+
 
 .table-format {
   width: 100%;
