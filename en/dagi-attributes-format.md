@@ -21,27 +21,31 @@ toc: true
 
 <div class="table-wrapper-standard">
   <table class="table-format">
-        <colgroup>
-          <col style="width: 35%;">   <!-- Attribute -->
-          <col style="width: 20%;">   <!-- Format -->
-          <col style="width: 45%;">   <!-- Special condition -->
-        </colgroup>
-        <tr>
-          <th class="table-format bg-attribute">Attribute</th>
-          <th class="table-format bg-value">Format</th>
-          <th class="table-format bg-condition">Special condition</th>
-        </tr>
-        <tr>
-          <td class="table-format"><em>catalogNumber</em></td>
-          <td class="table-format">Free text</td>
-          <td class="warning">⚠️unique value mandatory</td>
-        </tr>
-        <tr>
-         <td class="table-format"><em>scientificName</em></td>
-         <td class="table-format">Free text</td>
-         <td class="table-format"></td>
-        </tr>
-    </table>
+    <colgroup>
+      <col>
+      <col>
+      <col>
+    </colgroup>
+    <thead>
+      <tr>
+        <th class="bg-attribute">Attribute</th>
+        <th class="bg-value">Format</th>
+        <th class="bg-condition">Special condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><em>catalogNumber</em></td>
+        <td>Free text</td>
+        <td class="warning">⚠️ unique value mandatory</td>
+      </tr>
+      <tr>
+        <td><em>scientificName</em></td>
+        <td>Free text</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 # JSON attributes
