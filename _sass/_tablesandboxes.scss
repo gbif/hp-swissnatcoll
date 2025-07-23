@@ -89,6 +89,18 @@ $padding-cell: 5px;
   border: 1px solid black;
   table-layout: fixed;
   margin: 20px 0;
+
+  col:nth-child(1) {
+    width: 35%;
+  }
+
+  col:nth-child(2) {
+    width: 20%;
+  }
+
+  col:nth-child(3) {
+    width: 45%;
+  }
 }
 
 .table-format th {
