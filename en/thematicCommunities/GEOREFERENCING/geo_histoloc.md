@@ -396,8 +396,8 @@ sideNavigation: sideNavigation.georeferencing
 </div>
 
 <div class="legend">
-    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/search.php?lang=fr"><i>unknown specimen</i></a>,
-    <i>Coryza thapsoides</i>. Caucase. Dr Hoefft 1830.
+    <a href="https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=310698&base=img&lang=fr">G00452348</a>,
+    <i>Inula thapsoides</i> var. biebersteinii DC.
 </div>
 
 <script>
@@ -406,7 +406,7 @@ sideNavigation: sideNavigation.georeferencing
         prefixUrl: "https://openseadragon.github.io/openseadragon/images/",
         tileSources: {
             type: "image",
-            url: "https://www.cjbg.ch/themes/custom/cjb/assets/header/logo.svg",
+            url: "https://www.ville-ge.ch/imagezoom/?fif=cjbiip/cjb41/img_190/GDC024722_3.ptif&cvt=jpeg",
             buildPyramid: false
         },
         defaultZoomLevel: 1,
