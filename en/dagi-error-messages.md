@@ -66,4 +66,16 @@ When selecting a set of records to publish, it can happen that the number of sel
 | --------------------------- | ----------- |
 | _scientificName_ = "Gen. sp." | This value means that the specimen can't be identified. Therefore, the GBIF API can't be completed, leaving the _kingdom_ attribute empty. In this state, this record can't be published |
 
+
+## The publication failed
+
+You can see if a publication failed in the **Records tab of a dataset page**. The Publication status icon of a record line is red and displays **❌Failed**
+
+- Publication failure might be caused by the unavailability of the services on the GBIF side. The partial outage can last for a few minutes to a few days.
+
+1. Please kindly wait for a few hours or days.
+2. Check the Publication status of your records
+3. If after a few days, the status is still **❌Failed**, you can attempt a new publication and click on **Publish**.
+4. If after a few hours, the status is still **❌Failed**, please contact us so we can help you identify where the issue is.
+
 {% include back-to-top.html %}
