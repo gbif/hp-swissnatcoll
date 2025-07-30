@@ -282,7 +282,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take a few hours to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
   - If the import did not work, the State is **❌ Failed**, you can check our [Error messages page](/en/dagi-error-messages#the-import-failed){:target="_blank"} for a precise description on what to do.
-9. Click on **Records** to see your imported records.
+9. Click on the **Records** tab to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Importing step:</strong></p>
@@ -299,21 +299,22 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 1. If you want to encode only a certain set of your data, use the **available filters**.
   - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-validated records (**Not validated**). By selecting one, you can set a first level of filters.
-  - **🔍Search**: Below the Quick-filters, there is a search bar which allows you to look for specific values in the following attributes : cataloNumber, scientificName and occurrenceID.
-  - **🎚️Filters**: Next to the search bar, there is the Filters button which opens a pop-up window with available filters for your dataset. Please check the [Filters paragraph](#filters){:target="_blank"} for a precise description.
+  - **🔍Search**: Below the Quick-filters, there is a search bar which allows you to look for specific values in the following attributes : _cataloNumber_, _scientificName_ and _occurrenceID_.
+  - **🎚️Filters**: Next to the search bar, there is the Filters button which opens a pop-up window with available filters grouped in four categories: Taxonomy, Date, Location and Other. Please check the [Filters paragraph](#filters){:target="_blank"} for a precise description.
 2. Click on **🧩Encode**.
-  - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some fields as query values sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [the section on the encoding in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for more details about what it does)
+  - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some attributes as query values that are sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich specific attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [What does the Encoding do? in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for a precise description)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
-3. Click on **Encode**.
+3. When satisfied with the set of records you want to encode, click on **Encode**.
   - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
   - During the encoding, no other action can be started.
 4. Check the percentage of encoded data on your Dataset page (see the second box called **Not encoded / Incomplete**) in the Quick-filters.
   - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
-  - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when clicking on the yellow **⚠️Incomplete** icon. It opens the side-pane in the **Encodings tab**.
+  - If the status is "Incomplete", the record is "Not encoded". The reason is displayed when placing the mouse on the yellow **⚠️Incomplete** icon in the Encodings tab of the side-pane.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
-  <p>✅ A <strong>percentage of <i>Not encoded / Incomplete</i> records lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
+  <p>✅ A <strong>percentage of <i>Not encoded / Incomplete</i> records that is lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
+  <p> if the percentage is still 100%, then it simply means that all of your records have an <i>Incomplete</i> Encoding status.</p>
   <p style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ If some of your records do not have the necessary information for the APIs queries, then the Encoding status will remain <i>Incomplete</i>. <strong>This does not prevent you from publishing or sending your records for validation</strong>.</p>
 </div>
@@ -327,29 +328,33 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 3. **Select the data layer** allows you to determine which data values you want to export. You can choose between your imported data (Raw), as imported in the [Import my data](#import-my-data) part, or the encoded data (Encoded), as encoded in the [Encode my data](#encode-my-data) part.
    - You can select only one at a time. If you want both types, export the records twice.<br>
 6. Click on **Start export**.
-  - The page view changes from "Records" to "Exports" where all of your exported files are listed.
+  - The page view changes from the Records tab to the Exports tab where all of your exported files are listed.
   - A progression bar appears during the export process and disappears when finished.<br>
 3. Click on the **blue icon** (📥xyz.x Mbyte) of your export file in the _Size_ column.
-  - The file is now saved as a .zip file on your computer (usually in the Dowloads folder or on your Desktop).<br>
+  - The file is now saved as a .zip file on your computer (usually in the Downloads folder or on your Desktop).<br>
 4. Go to the zip file on your computer and extract the CSV file it contains.
-  - A unique file name for this CSV file has been generated by the Data Aggregator.
+  - A unique file name for this CSV file has been generated by DAGI.
   - Your data content is separated by commas.
   - The file is encoded in UTF-8. To facilitate the opening of the file, we recommend you use the _Get Data from a CSV file_ method directly in Excel. This way the UTF-8 format is set properly.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Exporting step:</strong></p>
-  <p>✅ A <strong>ZIP file containing a csv file</strong> with all your exported records.</p>
+  <p>✅ A <strong>ZIP file containing a CSV file</strong> with all your exported records.</p>
 </div>
 
 
 ## Upload images
 
-{: .box }
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ Only images that can be linked to an **existing record** in your DAGI dataset can be uploaded.<br>
-⚠️ This feature **is NOT for high definition images**, but for enhancing the visibility of collections who don't have a publicly available image deposit.<br><br>
+  ⚠️ This feature <strong>is NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit webpage.
+</div>
+
+<br> 
+{: .box }
 **If your images are already available online, simply add the url links to your images in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}.**
 
-<br><br>
+<br>
 
 1. Prepare a ZIP file containing your specimen images.
 - file name = your chosen attribute for mapping (recommended: **catalogNumber**)
@@ -510,8 +515,8 @@ The available filters are grouped into 4 categories. It is possible to select as
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed;">
     <colgroup>
       <col style="width: 15%;">   <!-- Category -->
-      <col style="width: 25%;">   <!-- Title -->
-      <col style="width: 30%;">   <!-- Type -->
+      <col style="width: 28%;">   <!-- Title -->
+      <col style="width: 27%;">   <!-- Type -->
       <col style="width: 30%;">   <!-- Source attribute -->
     </colgroup>
     <tr>
