@@ -192,7 +192,7 @@ The terms of use you just accepted are at all times available by clicking on the
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on the **🪟Datasets** icon on the left side of the window.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view](#datasets-view){:target="_blank"} paragraph for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
+  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view paragraph](#datasets-view){:target="_blank"} for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the window or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
 3. If your Datasets view already has datasets, click on the **🪟New dataset** button in the top right corner of the window.
@@ -224,7 +224,7 @@ The terms of use you just accepted are at all times available by clicking on the
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
 2. Click on the dataset name in which you want to import your data.
-  - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page](#dataset-page) paragraph for a precise description).
+  - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page paragraph](#dataset-page) for a precise description).
   - The tab **Records** displays the imported **records** available in the dataset.
   - The tab **Imports** displays all the **files** that have been imported.
   - The tab **Exports** displays all the **files** that have been exported.
@@ -281,7 +281,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take a few hours to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
-  - If the import did not work, the State is **❌ Failed**, you can check our [Error messages](/en/dagi-error-messages#the-import-failed){:target="_blank"} page for a precise description on what to do.
+  - If the import did not work, the State is **❌ Failed**, you can check our [Error messages page](/en/dagi-error-messages#the-import-failed){:target="_blank"} for a precise description on what to do.
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
@@ -299,8 +299,8 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 1. If you want to encode only a certain set of your data, use the **available filters**.
   - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-validated records (**Not validated**). By selecting one, you can set a first level of filters.
-  - **Search bar**: Below the Quick-filters, there is a search bar (🔍Search) which allows you to look for specific values in the following attributes : cataloNumber, scientificName and occurrenceID.
-  - **🎚️Filters**: Next to the search bar, there is this button which opens a pop-up window with available filters for your dataset. Currently, you can filter only the IUCN Red List categories, the MIDS levels, the Taxonomy of the ranks species, kingdom and phylum and the Location at the level of the continents. An improvement of the filters is planned soon.
+  - **🔍Search**: Below the Quick-filters, there is a search bar which allows you to look for specific values in the following attributes : cataloNumber, scientificName and occurrenceID.
+  - **🎚️Filters**: Next to the search bar, there is the Filters button which opens a pop-up window with available filters for your dataset. Please check the [Filters paragraph](#filters){:target="_blank"} for a precise description.
 2. Click on **🧩Encode**.
   - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some fields as query values sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [the section on the encoding in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for more details about what it does)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
@@ -501,6 +501,20 @@ The page of a dataset has 5 available tabs.
 
 - The **Image Upload tab**:<br> View on all uploaded ZIP **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table).<br><br> The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br> 🔸When the state is Incomplete, by clicking on the yellow ℹ️*Incomplete* icon, a side-pane opens on the right of the window and provides results information on how many images where mapped, unmapped or invalid. By clicking on the blue icon of the size (📥*xyz.x Mbyte*) of the Logfile section (bottom of the side-pane), a csv file is downloaded with the list of all images in the ZIP file and their matched attribute values.<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
+
+#### Filters
+
+The available filters are grouped into 4 categories. It is possible to select as many as you want. The total number of filtered records is displayed live in the purple **Show ... records** button at the bottom of the pop-up window.
+
+| Category | Title | Type | Source attribute |
+| -------- | ----- | ---- | ---------------- |
+| Taxonomy | Scientific Name | search bar, no auto-complete, partial entry recognition | _scientificName_ |
+|  | Kingdom | check boxes | _kingdom_ (unique values) |
+|  | Phylum | drop-down menu | _phylum_ (unique values) |
+|  | Family | drop-down menu | _family_ (unique values) |
+| Date | Last modified | date interval selection | _Updated At_ |
+|  | Year of event | year interval selection | _year_ |
+|  | Event Date | boxes | _eventDate_ |
 
 
 ## Administration view
