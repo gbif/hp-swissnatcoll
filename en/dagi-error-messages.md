@@ -50,6 +50,20 @@ You can see if an import failed in the **Imports tab of a dataset page**. The St
 | _attribute tax_scientific_name is required_ | The _scientificName_ is missing in one of the import file lines. |
 | _attribute mte_catalog_number is required_ | The _catalogNumber_ is missing in one of the import file lines. |
 
+# Publications
 
+## Unpublished records
+
+When selecting a set of records to publish, it can happen that the number of selected records displayed in the Step 1️⃣ of 3️⃣ of the Publication of Records pop-up window **is smaller than the set of records previously selected**.
+
+1. Publish you dataset
+2. After two hours, when the published status of the records are set on "Published*, click on the Quick-filter box **Not Published**.
+   - This displays the remaining unpublished records that were missing when you clicked on "Publish".
+3. By checking the records, you might find out why they were not published.
+   - Is the Encoding status **Incomplete**? Is the GBIF Taxonomy Encoding step **Incomplete**? Then, check the value of _scientificName_.
+  
+| Example of an error message | Explanation |
+| --------------------------- | ----------- |
+| _scientificName_ = "Gen. sp." | This value means that the specimen can't be identified. Therefore, the GBIF API can't be completed, leaving the _kingdom_ attribute empty. In this state, this record can't be published |
 
 {% include back-to-top.html %}
