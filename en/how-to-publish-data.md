@@ -350,7 +350,8 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   ⚠️ This feature <strong>is NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit webpage.
 </div>
 
-<br> 
+<br>
+
 {: .box }
 **If your images are already available online, simply add the url links to your images in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}.**
 
