@@ -396,15 +396,18 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 ❌ Only the <i>Collection Administrator</i> role can publish records on GBIForg. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
-1. Choose if you want to publish your data from the Import layer (select **📤Import Layer** in the filters) or from the Encoded layer (select **📤Encoded Layer** in the filters)
-2. Click on **🌐Publish**.
+1. If you want to publish the Import layer version of your data, select **📤Import Layer** in the Layers setting.
+2. If you want to publish the Encoded layer version of your data, select **📤Encoded Layer** in the Layers setting.
+3. If you want to publish a selected set of your data, select the **Filters** you want to apply.
+4. If you want to publish your entire dataset, clear all filters in the **🎚️Filters** and click on the **All records** box of the Quick-filters
+5. When ready with the set of records you want to publish, click on **🌐Publish**.
 
 --- A three-steps pop-up window _Publication of Records_ has opened. ---
 
 1. (Step 1️⃣ of 3️⃣) Publication of Records
-- The text informs you of the number of records you are about to publish and if you need to create a new dataset.
-   - For the first publication of your DAGI dataset, the option to **Create new dataset** is automatically set.
-   - For the following publications of your DAGI dataset, the hyperlink to the existing dataset is provided.<br><br>
+- The text informs you of the number of records you are about to publish and if you need to create a new dataset. ⚠️If you selected more records than the number displayed in this part, please check the [Error messages page](/en/dagi-error-messages#unpublished-records){:target="_blank"} for a precise description on why.
+- For the first publication of your DAGI dataset, the option to **Create new dataset** is automatically set.
+- For the following publications of your DAGI dataset, the hyperlink to the existing dataset is provided.<br><br>
 2. Click on **Next**.
 3. (Step 2️⃣ of 3️⃣) Target Dataset
 - The text informs you on the metadata information of your GBIF dataset.
@@ -421,14 +424,14 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 4. Click on **Next**.
 5. (Step 3️⃣ of 3️⃣) Publication summary
 - The last step is a summary window on which you can check the settings of Step 1️⃣, as well as the application of the publication rules.
-   - The publication rules are applied to specimens collected in Switzerland and of taxa treated by the data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
+   - The publication rules are applied to specimens collected in Switzerland whose taxa are registered in the InfoSpecies data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
    - The publication on GBIF is irreversible from DAGI.<br><br>
 6. **Tick the box** to confirm that you accept the [terms of use](/en/terms/){:target="_blank"} and full responsibility for the publication.
    - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br><br>
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
-- The Publication status of your records have changed to 🌐In Publication.
-- You can access the DarwinCore-Archive generated for the publication in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
+- The Publication status of your records have changed to 🌐In Publication. It will be set to ✅Published after two hours. If the status turns to ❌Failed, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
+- You can access the DarwinCore-Archive generated for the publication in the **Publications** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 - By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
