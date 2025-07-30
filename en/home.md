@@ -13,7 +13,7 @@ imageLicense: "{{ site.data.images.home.caption }}"
 overlayColor: transparent # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
 #hasBlackText: "{{ site.data.images.home.colorText }}"   # OPTIONAL - default is black. Depending on your background image is can be useful to change text color
 
-height: 100vh
+height: 80vh
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
