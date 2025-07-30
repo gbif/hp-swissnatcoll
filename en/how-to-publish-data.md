@@ -508,13 +508,26 @@ The available filters are grouped into 4 categories. It is possible to select as
 
 | Category | Title | Type | Source attribute |
 | -------- | ----- | ---- | ---------------- |
-| Taxonomy | Scientific Name | search bar, no auto-complete, partial entry recognition | _scientificName_ |
-|  | Kingdom | check boxes | _kingdom_ (unique values) |
-|  | Phylum | drop-down menu | _phylum_ (unique values) |
-|  | Family | drop-down menu | _family_ (unique values) |
-| Date | Last modified | date interval selection | _Updated At_ |
-|  | Year of event | year interval selection | _year_ |
-|  | Event Date | boxes | _eventDate_ |
+| Taxonomy | **Scientific Name** | search bar, no auto-complete, partial entry recognition | _scientificName_ |
+|  | **Kingdom** | check boxes | _kingdom_ (unique values) |
+|  | **Phylum** | drop-down menu | _phylum_ (unique values) |
+|  | **Family** | drop-down menu | _family_ (unique values) |
+| Date | **Last modified** | date interval selection | _Updated At_ |
+|  | **ear of event** | year interval selection | _year_ |
+|  | **Event Date** | selection boxes | _eventDate_ |
+| Location | **Continent** | check boxes | _continent_ (unique values) |
+|  | **Country** | drop-down menu | _country_ (unique values) |
+|  | **State Province** | drop-down menu | _stateProvince_ (unique values) |
+|  | **Locality** | search bar, no auto-complete, partial entry recognition | _locality_ |
+|  | **Decimal Coordinates** | selection boxes | _decimalLatitude/Longitude_ |
+|  | **Swiss 95 Coordinates** | selection boxes | _swissCoordinatesLv95_E/_N_ |
+|  | **Swiss 03 Coordinates** | selection boxes | _swissCoordinatesLv03_E/_N_ |
+| Other | **IUCN Red List** | selection boxes | _iucn_redlist_category_ |
+|  | **Mids Level** | selection boxes | [MIDS attributes](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"} |
+|  | **Recorded by** | search bar, no auto-complete, partial entry recognition | _recordedBy_ |
+|  | **Type status** | check boxes | _typeStatus_ (unique values) |
+|  | **Material Sample Type** | check boxes | _materialSampleType_ (unique values) |
+|  | **Preparations** | check boxes | _preparations_ (unique values) |
 
 
 ## Administration view
