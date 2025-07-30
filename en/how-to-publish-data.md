@@ -506,29 +506,126 @@ The page of a dataset has 5 available tabs.
 
 The available filters are grouped into 4 categories. It is possible to select as many as you want. The total number of filtered records is displayed live in the purple **Show ... records** button at the bottom of the pop-up window.
 
-| Category | Title | Type | Source attribute |
-| -------- | ----- | ---- | ---------------- |
-| Taxonomy | **Scientific Name** | search bar, no auto-complete, partial entry recognition | _scientificName_ |
-|  | **Kingdom** | check boxes | _kingdom_ (unique values) |
-|  | **Phylum** | drop-down menu | _phylum_ (unique values) |
-|  | **Family** | drop-down menu | _family_ (unique values) |
-| Date | **Last modified** | date interval selection | _Updated At_ |
-|  | **ear of event** | year interval selection | _year_ |
-|  | **Event Date** | selection boxes | _eventDate_ |
-| Location | **Continent** | check boxes | _continent_ (unique values) |
-|  | **Country** | drop-down menu | _country_ (unique values) |
-|  | **State Province** | drop-down menu | _stateProvince_ (unique values) |
-|  | **Locality** | search bar, no auto-complete, partial entry recognition | _locality_ |
-|  | **Decimal Coordinates** | selection boxes | _decimalLatitude/Longitude_ |
-|  | **Swiss 95 Coordinates** | selection boxes | _swissCoordinatesLv95_E/_N_ |
-|  | **Swiss 03 Coordinates** | selection boxes | _swissCoordinatesLv03_E/_N_ |
-| Other | **IUCN Red List** | selection boxes | _iucn_redlist_category_ |
-|  | **Mids Level** | selection boxes | [MIDS attributes](https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"} |
-|  | **Recorded by** | search bar, no auto-complete, partial entry recognition | _recordedBy_ |
-|  | **Type status** | check boxes | _typeStatus_ (unique values) |
-|  | **Material Sample Type** | check boxes | _materialSampleType_ (unique values) |
-|  | **Preparations** | check boxes | _preparations_ (unique values) |
-
+<div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed;">
+    <colgroup>
+      <col style="width: 15%;">   <!-- Category -->
+      <col style="width: 25%;">   <!-- Title -->
+      <col style="width: 30%;">   <!-- Type -->
+      <col style="width: 30%;">   <!-- Source attribute -->
+    </colgroup>
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #B1940E;">Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Title</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Type</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">Source attribute</th>
+    </tr>
+    <tr>
+      <td rowspan="4" style="border: 1px solid black; padding: 5px; vertical-align: top;">Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Scientific Name</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>scientificName</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Kingdom</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>kingdom</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Phylum</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>phylum</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Family</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>family</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="border: 1px solid black; padding: 5px; vertical-align: top;">Date</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Last modified</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">date interval selection</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>Updated At</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Year of event</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">year interval selection</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>year</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Event Date</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>eventDate</em></td>
+    </tr>
+    <tr>
+      <td rowspan="7" style="border: 1px solid black; padding: 5px; vertical-align: top;">Location</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Continent</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>continent</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Country</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>country</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>State Province</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>stateProvince</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Locality</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>locality</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Decimal Coordinates</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>decimalLatitude</em><br><em>decimalLongitude</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Swiss 95 Coordinates</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>swissCoordinatesLv95_E</em><br><em>swissCoordinatesLv95_N</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Swiss 03 Coordinates</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>swissCoordinatesLv03_E</em><br><em>swissCoordinatesLv03_N</em></td>
+    </tr>
+    <tr>
+      <td rowspan="6" style="border: 1px solid black; padding: 5px; vertical-align: top;">Other</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>IUCN Red List</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>iucnredlistcategory</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Mids Level</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><a href="en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids" target="_blank">MIDS attributes</a></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Recorded by</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>recordedBy</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Type status</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>typeStatus</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Material Sample Type</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>materialSampleType</em> (unique values)</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Preparations</strong></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>preparations</em> (unique values)</td>
+    </tr>
+  </table>
+</div>
 
 ## Administration view
 
