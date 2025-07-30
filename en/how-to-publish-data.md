@@ -97,10 +97,10 @@ A feature currently in development will also allow you to [send your swiss data 
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName or catalogNumber cells
-   - duplicated headers (file headers) or un-titled columns
+   - duplicated headers or un-titled columns
    - an unwanted space after a header
   
-⚠️ There are fields that you don't need to have in your import file because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are fixed by GRSciColl and GBIF.
+⚠️ There are fields that are not available for mapping because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are based on GRSciColl and GBIF.
 
 
 Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on preparing your data for import into DAGI.
@@ -180,13 +180,17 @@ There are also two icons opening pages on the SwissNatColl portal with support m
   - **[Guide](#guide)**: opens the *How to publish data with the Data Aggregator* **page** on the SwissNatColl hosted portal (this page)
   - **[Tutorials](#tutorials)**: opens the *Tutorial sessions for the Data Aggregator users* **page** on the SwissNatColl hosted portal
 
+The terms of use you just accepted are at all times available by clicking on the last icon.
+
+  - **[Terms&Conditions](#terms--conditions)**: opens the *Terms of use* **page** on the SwissNatColl hosted portal
+
 ## Add a new dataset
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
 ❌ Only the <i>Collection Administrator</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
-1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
+1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on the **🪟Datasets** icon on the left side of the window.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
   - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view](#datasets-view){:target="_blank"} paragraph for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
@@ -202,7 +206,7 @@ There are also two icons opening pages on the SwissNatColl portal with support m
 3. Add a description of the dataset. 💡optional💡
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
-    - If you want to edit a dataset, click on the Edit icon of the dataset (far right-side of dataset line in the Datasets view)
+    - If you want to edit a dataset, click on the 📝Edit icon of the dataset (far right-side of dataset line in the Datasets view)
     - If you want to delete a dataset, please take contact with us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you accordingly.
 5. The pop-up window closes itself and you are now on the page of the dataset you just added.
 
