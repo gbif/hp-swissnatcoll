@@ -248,7 +248,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   <table style="border-collapse: collapse; border: 1px white">
       <tr>
           <td style="text-align: left; vertical-align: top"><i>Quick Start</i></td>
-          <td>if your file headers are exactly the same as the DAGI attributes, the mapping can be automatically performed by <strong>✨Try auto-mapping</strong>. The second button <strong>🔄️Load existing mapping</strong> can be used after the first mapping. It mapps your fields the same way you mapped them previously (as long as your file headers do not change).</td>
+          <td>if your file headers are exactly the same as the DAGI attributes, the mapping can be automatically performed by <strong>✨Try auto-mapping</strong>. The second button <strong>🔄️Load existing mapping</strong> can be used after the first mapping. It maps your fields the same way you mapped them previously (as long as your file headers do not change).</td>
       </tr>
       <tr>
           <td style="text-align: left; vertical-align: top"><i>Required attributes</i></td>
@@ -275,13 +275,13 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 <br>
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
-7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped headers.
+7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped columns.
   - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keep track of the correspondance between your database file headers and the attributes of DAGI.
 8. When satisfied, click on **Run import**.
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
-  - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the import state.
+  - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take a few hours to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
-  - If the import did not work, the State is **❌ Failed**, [here is the description of what to do](/en/dagi-error-messages#the-import-failed){:target="_blank"}.
+  - If the import did not work, the State is **❌ Failed**, you can check our [Error messages](/en/dagi-error-messages#the-import-failed){:target="_blank"} page for a precise description on what to do.
 9. Click on **Records** to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
