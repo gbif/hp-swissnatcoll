@@ -346,25 +346,25 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 ## Upload images
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ Only images that can be linked to an **existing record** in your DAGI dataset can be uploaded.<br>
-  ⚠️ This feature <strong>is NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit webpage.
+⚠️ Only images that can be linked to an <strong>existing record</strong> in your DAGI dataset can be uploaded.<br>
+  ⚠️ This feature is <strong>NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit webpage.
 </div>
 
 <br>
 
 {: .box }
-**If your images are already available online, simply add the url links to your images in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}.**
+**If your images are already available online, simply add the url in the attribute [associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}.**
 
 <br>
 
 1. Prepare a ZIP file containing your specimen images.
 - file name = your chosen attribute for mapping (recommended: **catalogNumber**)
-- for records with several images, use the same file name but with an additionnal "_1" or "_2" or "_3" etc.
+- for records with several images, use the same file name but with an additionnal "_1", "_2", "_3", etc.
 - file format = **JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**
 - maximal file size = **5 Mb** (Mo)
 - maximale ZIP file size = **200 Mb** (Mo)
 
-2. Click on **Image Upload** in the grey tab band of your dataset, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
+2. Click on the **Image Upload** tab in the grey tab band of your dataset, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
 
 --- A three-steps pop-up window _Upload Images_ has opened. ---
 
@@ -374,12 +374,12 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 4. (Step 2️⃣ of 3️⃣) Select in the drop-down menu **Mapping Identifier** the corresponding attribute to your file names.
 5. Click on **Update mapping**
 6. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of invalid files, and the mapped identifier.
-7. Click on **Run Mapping**.
-<br>  - ⚠️ The State of your Image Upload is currently on ⚙️Extracting. This means that the Mapping can't be run yet, even by clicking on it. As soon as the extraction is finished, you will need to come back and click (again) on **Run Mapping**. You can close your DAGI page in the meantime, or start the upload of another ZIP file.
+7. Click on **Run Mapping** (if available).
+<br>  - ⚠️ The State of your Image Upload might be currently on ⚙️Extracting. This means that the Mapping can't be run yet, even by clicking on it. As soon as the extraction is finished, you will need to come back and click (again) on **Run Mapping**. You can close your DAGI page in the meantime, or start the upload of another ZIP file.
 9. You can check the status of your Image Upload
-- Incomplete : All or a part of your images remained unmapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. By clicking on the yellow **⚠️Incomplete** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
-- Finished : All of your images could be mapped with a record in your dataset. By clicking on the green **✅Finished** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
-- Mapping failed : None of your images could be mapped. By clicking on the red **❌Mapping failed** icon, a side-panel opens with the details of your Image Upload. However there is no logfile. The failure could be due to the name of the files and the values of the attribute you selected for the mapping. If the problem persists after multiple trials, do not hesitate to contact us.
+- **Finished** : All of your images could be mapped with a record in your dataset. By clicking on the green **✅Finished** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
+- **Incomplete** : All or a part of your images remained unmapped. This could be due to the name of the files and the values of the attribute you selected for the mapping. By clicking on the yellow **⚠️Incomplete** icon, a side-panel opens with the details of your Image Upload. In the Logfile section, you can click on the **📥 icon** which downloads a csv with the list of all the pictures of your ZIP file and the mapping status and attribute.
+- **Mapping failed** : None of your images could be mapped. By clicking on the red **❌Mapping failed** icon, a side-panel opens with the details of your Image Upload. However there is no logfile. The failure could be due to the name of the files and the values of the attribute you selected for the mapping. If the problem persists after multiple trials, do not hesitate to contact us.
 
 Now, in the **Records tab** of your Dataset, the records with an image have a green camera icon, and you can see the image when opening the side-panel of a record (only the first image is displayed if multiple images have been mapped to the same record). The link to the DAGI Media Store has been added in the attribute *[associatedMedia](https://dwc.tdwg.org/terms/#dwc:associatedMedia){:target="_blank"}*. When publishing your data, the image will also be displayed on the GBIF occurrence page of your specimen.
 
