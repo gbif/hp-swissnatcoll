@@ -979,10 +979,12 @@ There are two different roles for user profile in DAGI:
   - can view, add, edit and remove users of their institution
   - can view, add and edit datasets of their institution
   - can publish datasets on GBIF.org
+  - **responsibility role, recommended for people in charge of a collection**
 
 - **Data Digitizer**
   - can view the datasets of their institution
   - can import, encode, export and send records for Validation in the datasets of their institution
+  - **technical role**
 <br>
  
 <br>
@@ -997,7 +999,7 @@ There are two different roles for user profile in DAGI:
 
 <br>
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
+⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the <strong>Collection Administrator</strong> (curators, institution staff member responsible of a collection) can do this important step.
 </div>
 <br>
 
