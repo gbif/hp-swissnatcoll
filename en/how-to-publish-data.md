@@ -396,11 +396,12 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 ❌ Only the <i>Collection Administrator</i> role can publish records on GBIForg. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
-1. If you want to publish the Import layer version of your data, select **📤Import Layer** in the Layers setting.
-2. If you want to publish the Encoded layer version of your data, select **📤Encoded Layer** in the Layers setting.
-3. If you want to publish a selected set of your data, select the **Filters** you want to apply.
-4. If you want to publish your entire dataset, clear all filters in the **🎚️Filters** and click on the **All records** box of the Quick-filters
-5. When ready with the set of records you want to publish, click on **🌐Publish**.
+🔸 If you want to publish the Import layer version of your data, select **📤Import Layer** in the Layers setting.
+🔸 If you want to publish the Encoded layer version of your data, select **📤Encoded Layer** in the Layers setting.
+🔸 If you want to publish a selected set of your data, select the **Filters** you want to apply.
+🔸 If you want to publish your entire dataset, clear all filters in the **🎚️Filters** and click on the **All records** box of the Quick-filters. The Encoded layer is set by default.
+
+1. Click on **🌐Publish**.
 
 --- A three-steps pop-up window _Publication of Records_ has opened. ---
 
@@ -430,7 +431,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
    - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br><br>
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
-- The Publication status of your records have changed to 🌐In Publication. It will be set to ✅Published after two hours. If the status turns to ❌Failed, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
+- The Publication status of your records have changed to _🌐In Publication_. It will be set to _✅Published_ after two hours. If the status turns to _❌Failed_, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
 - You can access the DarwinCore-Archive generated for the publication in the **Publications** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 - By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
@@ -438,7 +439,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
-  <p>✅ A <strong>purple hyperlink "Show on GBIF ↗️"</strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
+  <p>✅ A <strong>purple hyperlink <em>Show on GBIF &#8599;<em></strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
