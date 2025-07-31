@@ -524,7 +524,7 @@ The available filters are grouped into 4 categories. It is possible to select as
       <col style="width: 30%;">   <!-- Source attribute -->
     </colgroup>
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: #B1940E;">Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.condition.background }};">Category</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Title</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Type</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">Source attribute</th>
