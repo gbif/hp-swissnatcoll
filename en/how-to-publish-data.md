@@ -434,12 +434,12 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 - The Publication status of your records have changed to _🌐In Publication_. It will be set to _✅Published_ after two hours. If the status turns to _❌Failed_, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
 - You can access the DarwinCore-Archive generated for the publication in the **Publications** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
-- By clicking on **Show on GBIF** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
+- By clicking on **Show on GBIF ↗️** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
-  <p>✅ A <strong>purple hyperlink <em>Show on GBIF &#8599;</em></strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
+  <p>✅ A <strong>purple hyperlink <em>Show on GBIF ↗️</em></strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
