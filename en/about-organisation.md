@@ -1,9 +1,9 @@
 ---
 layout: compose
 title: Organisation
-permalink: /en/about-org
-background:  "{{ site.data.images.aboutOrg.src }}"
-imageLicense: "{{ site.data.images.aboutOrg.caption }}"
+permalink: /en/about-organisation
+background:  "{{ site.data.images.aboutOrganisation.src }}"
+imageLicense: "{{ site.data.images.aboutOrganisation.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
