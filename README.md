@@ -9,3 +9,16 @@ This Jekyll website, **[swissnatcoll (Staging)](https://swissnatcoll.hp.gbif-sta
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
 > Powered by [GBIF](https://www.gbif.org/)
+
+## Run the app locally
+
+You can use docker to run the app locally:
+
+```shell
+docker compose up
+```
+
+When saving a change, the app is automatically rebuild.
+
+> **WARNING** some images are not served correctly.
+
