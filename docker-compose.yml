@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  jekyll:
+    image: docker.gbif.org/fast-jekyll:4.1.0
+    container_name: jekyll_site
+    environment:
+      JEKYLL_ENV: development
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+    command: jekyll serve --port 4000 --host 0.0.0.0
+    # Automatically remove container on stop (like --rm in docker run)
+    restart: "no"
