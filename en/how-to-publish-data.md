@@ -347,7 +347,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ Only images that can be linked to an <strong>existing record</strong> in your DAGI dataset can be uploaded.<br>
-  ⚠️ This feature is <strong>NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit webpage.
+  ⚠️ This feature is <strong>NOT for high definition images</strong>, but for enhancing the visibility of collections who don't have a publicly available image deposit website.
 </div>
 
 <br>
@@ -358,7 +358,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 <br>
 
 1. Prepare a ZIP file containing your specimen images.
-- file name = your chosen attribute for mapping (recommended: **catalogNumber**)
+- file name = **catalogNumber**
 - for records with several images, use the same file name but with an additionnal "_1", "_2", "_3", etc.
 - file format = **JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**
 - maximal file size = **5 Mb** (Mo)
@@ -371,7 +371,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 1. (Step 1️⃣ of 3️⃣) Click on **Choose a file** to select your prepared ZIP file or drag and drop it if you have a folder window opened on your screen.
 2. Wait until the purple bar is full.
 3. Click on **Next**
-4. (Step 2️⃣ of 3️⃣) Select in the drop-down menu **Mapping Identifier** the corresponding attribute to your file names.
+4. (Step 2️⃣ of 3️⃣) The *catalogNumber* is automatically selected as a **Mapping Identifier**.
 5. Click on **Update mapping**
 6. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of invalid files, and the mapped identifier.
 7. Click on **Run Mapping** (if available).
