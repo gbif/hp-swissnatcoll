@@ -46,7 +46,7 @@ You can see if an import failed in the **Imports tab of a dataset page**. The St
 
 | Example of an error message | Explanation |
 | --------------------------- | ----------- |
-| _Invalid value provided for [...]_ | The value format of this attribute does not match what was imported in the import file. Check the [Attributes format page](/en/attributes-format){:target="_blank"} for a list of all attributes and their format in DAGI. |
+| _Invalid value provided for [...]_ | The value format of this attribute does not match what was imported in the import file. Check the [Attributes format page](/en/dagi-attributes-format){:target="_blank"} for a list of all attributes and their format in DAGI. |
 | _attribute tax_scientific_name is required_ | The _scientificName_ is missing in one of the import file lines. |
 | _attribute mte_catalog_number is required_ | The _catalogNumber_ is missing in one of the import file lines. |
 
