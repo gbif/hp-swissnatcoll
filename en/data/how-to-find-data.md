@@ -71,8 +71,9 @@ There are currently 3 entry points to the data:
         <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
-        Specimens<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
+        Specimens
       </button>
+      <br><div style="font-size: 12px; color: #333;">The elements are ordered by year</div>
     </a>
     <a href="/collection/search" style="text-decoration: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
@@ -83,8 +84,9 @@ There are currently 3 entry points to the data:
         <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
-        Collections<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
+        Collections
       </button>
+      <br><div style="font-size: 12px; color: #333;">The elements are ordered by size of the collection</div>
     </a>
     <a href="/institution/search" style="text-decoration: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
@@ -95,8 +97,9 @@ There are currently 3 entry points to the data:
         <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
-        Institutions<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
+        Institutions
       </button>
+      <br><div style="font-size: 12px; color: #333;">The elements are ordered by size of the institution</div>
     </a>
 </div>
 
