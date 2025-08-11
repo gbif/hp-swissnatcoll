@@ -190,7 +190,7 @@ The terms of use you just accepted are at all times available by clicking on the
 ❌ Only the <i>Collection Administrator</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
-1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on the **🪟Datasets** icon on the left side of the window.
+1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on the **🪟Datasets** icon on the left side of the page.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
   - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view paragraph](#datasets-view){:target="_blank"} for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
   - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
@@ -222,7 +222,7 @@ The terms of use you just accepted are at all times available by clicking on the
 ❌ Only the <i>Data Digitizer</i> can do the following steps, from the import to the image upload. The steps described from here on are unavailable to users with only the <i>Collection Administrator</i> role.
 </div>
 
-1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the window.
+1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the page.
 2. Click on the dataset name in which you want to import your data.
   - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page paragraph](#dataset-page) for a precise description).
   - The tab **Records** displays the imported **records** available in the dataset.
@@ -648,14 +648,16 @@ The available filters are grouped into 4 categories. It is possible to select as
 
 The Administration view displays **all users already added to your institution**. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
 
+### Roles and tasks
+
 The *Roles* column informs you on the role/s attributed to each user:
 - **Data Digitizer** (executor role)
   - can view and access the datasets of their institution
-  - can [jmport](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [send for validation](#validate-my-data){:target="_blank"} the records in the datasets of their institution
+  - can [import](#import-my-data), [map](#map-my-data), [encode](#encode-my-data), [export](#export-my-data), [upload images](#upload-images) and [send for validation](#validate-my-data) the records in the datasets of their institution
 - **Collection Administrator** (manager role)
   - can view, add, edit and remove users of their institution
-  - can view, add and edit datasets of their institution
-  - can publish datasets on GBIF.org
+  - can view, [add](#add-a-new-dataset] and edit datasets of their institution
+  - can [publish](#publish-my-data) datasets on GBIF.org
  
 <br>
 
@@ -664,8 +666,10 @@ The *Roles* column informs you on the role/s attributed to each user:
 | **Users** -view/add/edit/remove | ✅ | ❌ |
 | **Datasets** -view | ✅ | ✅ |
 | **Datasets** -add/edit | ✅ | ❌ |
-| **Records** -import/encode/export/send for validation | ❌ | ✅ |
+| **Records** -import/encode/export/upload images/send for validation | ❌ | ✅ |
+| **Records** -filter | ✅ | ✅ |
 | **Records** -publish | ✅ | ❌ |
+| **Records** -download files | ✅ | ✅ |
 
 <br>
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
@@ -673,18 +677,19 @@ The *Roles* column informs you on the role/s attributed to each user:
 </div>
 <br>
 
-For each user, it is possible to edit their profile (📝) and delete them (🗑️).
+For each user, it is possible to edit the profile (📝) and delete it (🗑️).
 
 ### Add a new user
 
-1. Click on **👤➕ Add User**
-2. Enter the corresponding information in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
-3. Enter a customed password or click on **Generate Password**.<br>
-   ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
-4. Click on **Next**
-5. Click on the toggle switch/es corresponding to the role you want to attribute to the new user (see here above for the definitions).
-6. Click on **Next**
-7. Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list and is moved at the bottom of the list when refreshing the page.
+1. Go to the **Administration view** of your institution page by clicking on **🛠️Administration** on the left side of the page.
+2. Click on **👤➕ Add User** (top-right corner of the page).
+3. Enter the corresponding information in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
+4. Enter a customed password or click on **Generate Password**.<br>
+       ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
+5. Click on **Next**.
+6. Click on the toggle switch/es corresponding to the role/s you want to attribute to the new user (see the [Roles and tasks](#roles-and-tasks) section for the definitions).
+7. Click on **Next**.
+8. Check the Summary step and if satisfied, click on **Create user**. The new user is added on top of the list and is moved at the bottom of the list when refreshing the page.
 
 ## External links
 
