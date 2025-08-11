@@ -22,6 +22,47 @@ There are currently 3 entry points to the data:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     <a href="/occurrence/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Specimens
+      </button>
+    </a>
+    <a href="/collection/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Collections
+      </button>
+    </a>
+    <a href="/institution/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Institutions
+      </button>
+    </a>
+</div>
+
+<br><br>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+    <a href="/occurrence/search" style="text-decoration: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
