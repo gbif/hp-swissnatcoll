@@ -73,7 +73,7 @@ There are currently 3 entry points to the data:
         </button>
       </a>
     </td>
-    <td style="border: none; vertical-align: top; text-align: left;">each element displayed is a specimen of a natural history institution. The main view is based on the [GBIF.org occurrence map](https://www.gbif.org/occurrence/map?occurrence_status=present){:target="_blank"}.</td>
+    <td style="border: none; vertical-align: top; text-align: left;">each element displayed is a specimen of a natural history institution. The main view is based on the <a href="https://www.gbif.org/occurrence/map?occurrence_status=present">GBIF.org occurrence map</a>.</td>
 </tr>
 <tr>
     <td style="border: none;">
