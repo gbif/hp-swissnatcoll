@@ -12,91 +12,10 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-**There is no need to upload all of your database into the Data Aggregator DAGI.** You can choose to upload **only the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is the [catalogNumber attribute](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator), which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your DAGI Collection, then it is **created when importing** a dataset. If a given **catalogNumber value already exists** in the DAGI Dataset, then its attributes (other fields) are simply **updated** when importing a new file.
+**There is no need to upload all of your database into the Data Aggregator DAGI.** You can choose to upload **only the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is the **catalogNumber attribute**, which has to be unique for all of your records. If a given **catalogNumber value does not yet exist** in your DAGI Dataset, then it is **created when importing** a file with data. If a given **catalogNumber value already exists** in the DAGI Dataset, then its attributes (other fields) are simply **updated** when importing a new file.
 
-To help you select your fields, **here is a table with the most important Darwin Core terms** and an example line. You can use it to organise your dataset for the upload into DAGI.
-
-<div style="overflow-x: auto;">
-  <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
-    <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">scientificName</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">acceptedNameUsage</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">family</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">basisOfRecord</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">partOfOrganism</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordedByID</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">recordNumber</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimEventDate</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">day</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">month</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">year</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">end_of_period_day</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">end_of_period_month</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">end_of_period_year</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">eventDate</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">continent</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">higherGeography</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">country</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">countryCode</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">stateProvince</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">county</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">locality</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLatitude</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">decimalLongitude</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">geodeticDatum</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">coordinateUncertaintyInMeters</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">verbatimElevation</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedBy</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">identifiedByID</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">rightsHolder</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">preparations</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">typeStatus</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.lightgreen.background }};">yearCollectionEntrance</th>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Pinus picea</i> L.</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Abies alba</i> Mill.</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Pinaceae</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">preservedSpecimen</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">plant tissue</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">inventory-1234</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Weber Morgan</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">0000-0002-1043-7587</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">MW-54</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">6/2024</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">01</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">06</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2024</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">30</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">06</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2024</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2024-06-01/2024-06-30</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europa</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Alpen</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Bern</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Interlaken-Oberhasli (administrative district)</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Luuswald</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">46.701815</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">7.971722</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">WGS84</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">500</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">1050-1120 m</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Weber Morgan</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">0009-0000-0012-XXXX</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Herbarium X</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">dried plant</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2015</td>
-    </tr>
-  </table>
-</div>
-
+To help you select your fields, we recommend you focus first on the ones that are [mandatory](#minimal-mandatory-fields-of-the-data-aggregator) and those used by the [Encoding](#what-does-the-encoding-do) step. You can then proceed further with the [MIDS attributes](#additional-fields-increasing-data-quality-in-the-data-aggregator-mids). **Please keep in mind that some attributes require a [special value in DAGI](#fields-in-the-data-aggregator-with-special-values-required)**
 <br><br>
-The Darwin Core Github repository also offers files with all or a selection of the Darwin Core terms : [Github tdwg/dwc/dist](https://github.com/tdwg/dwc/tree/master/dist){:target="_blank"}
 
 ### How does the update of my data in the Data Aggregator work?
 
@@ -1055,7 +974,7 @@ Here are the Thesaurii available in DAGI:
 | Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | _country_, _continent_ | _continent_, _country_, _countryCode_ |
 | GBIF IUCN Redlist | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | _taxonID_ | _iucn_redlist_category_ |
 | Add Institution Code | [GBIF Registry API](https://techdocs.gbif.org/en/openapi/v1/registry){:target='_blank'} ([GRSciColl](https://scientific-collections.gbif.org/){:target='_blank'}) | (Collection where encoding is done in DAGI) | institutionCode, institutionID |
-| Relate Images | DAGI Media Store | Attribute selected during Image Upload | associatedMedia |
+| Relate Images | DAGI Media Store | _catalogNumber_ | associatedMedia |
 | Date Conversion** | DAGI internal code | a. _eventDate_ <br> b. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ |  a. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ <br> b. _eventDate_
 
 *If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_E, swissCoordinatesLv95_N (=CH1903+/LV95) or swissCoordinatesLv03_E, swissCoordinatesLv03_N (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
