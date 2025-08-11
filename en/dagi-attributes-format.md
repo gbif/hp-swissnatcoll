@@ -22,8 +22,8 @@ toc: true
 <div class="table-wrapper">
   <table class="table-format">
         <colgroup>
-          <col style="width: 35%;">   <!-- Attribute -->
-          <col style="width: 20%;">   <!-- Format -->
+          <col style="width: 38%;">   <!-- Attribute -->
+          <col style="width: 23%;">   <!-- Format -->
           <col style="width: 45%;">   <!-- Special condition -->
         </colgroup>
         <tr>
@@ -49,8 +49,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -116,8 +116,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -158,8 +158,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -185,8 +185,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -267,8 +267,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -369,8 +369,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -411,8 +411,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -433,8 +433,8 @@ toc: true
 <div style="word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">
     <table style="width: 100%; border-collapse: collapse; border: 1px solid black; table-layout: fixed; margin: 20px 0;">
         <colgroup>
-          <col style="width: 35%;">
-          <col style="width: 20%;">
+          <col style="width: 38%;">
+          <col style="width: 23%;">
           <col style="width: 45%;">
         </colgroup>
         <tr>
@@ -490,12 +490,12 @@ toc: true
         <tr>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>modified</em></td>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">date format recommended</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">date format recommended (YYYY-MM-DD)</td>
         </tr>
         <tr>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>rightsHolder</em></td>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Free text</td>
-          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">(name of the data owner)</td>
+          <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;">Name of the data owner (institution name or person)</td>
         </tr>
         <tr>
           <td style="border: 1px solid black; padding: 5px; word-wrap: break-word; overflow-wrap: break-word; white-space: normal;"><em>swissSpeciesCenter</em></td>
