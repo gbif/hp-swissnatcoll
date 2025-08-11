@@ -472,13 +472,13 @@ In the top-right corner of the page, you can see your login name, the button to 
 ## Datasets view
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/DAGI_datasetsView.png" data-lightbox="image-2" 
+  <a href="/assets/images/GraphsDiagrams/DAGI_ViewDatasetsCJBG.png" data-lightbox="image-2" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_datasetsView.png" 
+    <img src="/assets/images/GraphsDiagrams/DAGI_ViewDatasetsCJBG.png" 
          alt="DAGI Datasets view with datasets" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
-  <figcaption>DAGI Datasets view with datasets (from a platform admin perspective)</figcaption>
+  <figcaption>DAGI Datasets view with datasets</figcaption>
 </figure>
 
 The datasets displayed here are the ones that have been added by a Collection Administrator of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
