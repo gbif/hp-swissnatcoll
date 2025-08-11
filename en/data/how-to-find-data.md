@@ -27,7 +27,7 @@ There are currently 3 entry points to the data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/La_Maison_carr%C3%A9e%2C_les_ar%C3%A8nes_et_la_tour_Magne_%C3%A0_N%C3%AEmes_-_Hubert_Robert_-_Mus%C3%A9e_du_Louvre_Peintures_INV_7648.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
         Specimens
@@ -39,7 +39,7 @@ There are currently 3 entry points to the data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://www.vershinin.biz/pictures/xl/black-sands-opera.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
         Collections
@@ -51,7 +51,7 @@ There are currently 3 entry points to the data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://www.naturephotographie.com/wp-content/uploads/2015/04/Something-Big.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
         Institutions
@@ -68,7 +68,7 @@ There are currently 3 entry points to the data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
         Specimens<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
@@ -80,7 +80,7 @@ There are currently 3 entry points to the data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+        <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
         Collections<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
