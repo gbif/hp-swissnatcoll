@@ -701,7 +701,7 @@ By clicking on **📖Guide**, a new tab is opened on the step-by-step page on ho
 
 By clicking on **📹Tutorials**, a new tab is opened on the [tutorial sessions page](/en/tutorial-sessions){:target="_blank"} of the SwissNatColl hosted portal. This is where we inform you of the next live tutorial ZOOM sessions, in which you can ask your questions directly to Anne Morel, your contact person, who is acting as a bridge between you and the development team of DAGI.
 
-On this page are also listed all the text material, use-case material and Powerpoint presentations, prepared to help you in your use of DAGI and also related subjects, such as data preparation and Darwin Core.
+On this page are also listed all the text material, use-case material and Powerpoint presentations, prepared to help you in your use of DAGI and other related subjects, such as data preparation and Darwin Core.
 
 ### Terms & Conditions
 
