@@ -73,16 +73,9 @@ There are currently 3 entry points to the data:
         </button>
       </a>
     </td>
-    <td style="border: none;">
-      <a href="/collection/search" style="text-decoration: none;">
-        <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
-                onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
-                onmouseout="this.style.color='#333';">
-          <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
-          Collections
-        </button>
-      </a>
-    </td>
+    <td style="border: none; vertical-align: middle; text-align: center;">each element displayed is a specimen of a natural history institution. The main view is based on the [GBIF.org occurrence map](https://www.gbif.org/occurrence/map?occurrence_status=present){:target="_blank"}.</td>
+</tr>
+<tr>
     <td style="border: none;">
       <a href="/institution/search" style="text-decoration: none;">
         <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
@@ -93,10 +86,19 @@ There are currently 3 entry points to the data:
         </button>
       </a>
     </td>
+    <td style="border: none; vertical-align: middle; text-align: center;">each element of the page is a collection of a natural history institution. This view is based on the [Global REgistry of Scientific Collections (GRSciColl collections)](https://scientific-collections.gbif.org/collection/search). The elements are ordered by size of the collection (number of specimens).</td>
   </tr>
   <tr>
-    <td style="border: none; vertical-align: middle; text-align: center;">each element displayed is a specimen of a natural history institution. The main view is based on the [GBIF.org occurrence map](https://www.gbif.org/occurrence/map?occurrence_status=present){:target="_blank"}.</td>
-    <td style="border: none; vertical-align: middle; text-align: center;">each element of the page is a collection of a natural history institution. This view is based on the [Global REgistry of Scientific Collections (GRSciColl collections)](https://scientific-collections.gbif.org/collection/search). The elements are ordered by size of the collection (number of specimens).</td>
+    <td style="border: none;">
+      <a href="/collection/search" style="text-decoration: none;">
+        <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+                onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+                onmouseout="this.style.color='#333';">
+          <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+          Collections
+        </button>
+      </a>
+    </td>
     <td style="border: none; vertical-align: middle; text-align: center;">each element of the page is a swiss natural history institution who took part of the SwissCollNet initiative network. This view is based on the [Global REgistry of Scientific Collections (GRSciColl institutions)](https://scientific-collections.gbif.org/institution/search). The elements are ordered by size of the institution (number of specimens). A map of Switzerland with all registered natural history instutions is also displayed.</td>
   </tr>
 </table>
