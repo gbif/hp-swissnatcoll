@@ -11,15 +11,15 @@ title: Testing page
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      width: 200%;
+      height: 200%;
       background: rgba(0, 0, 0, 0.5);
     }
 
     .modal-content {
       margin: 15% auto;
       display: block;
-      max-width: 600px;
+      max-width: 1000px;
     }
   </style>
 </head>
