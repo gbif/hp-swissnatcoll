@@ -496,7 +496,7 @@ Only the Collection Administrators can add (🪟New dataset) and edit (📝) dat
 
 ### Dataset page
 
-By clicking on the Name of a dataset (in purple in the Datasets view) the Dataset page opens. There are seven available tabs in a grey bar on top of the page, below the title of the dataset.
+By clicking on the Name of a dataset (in purple in the Datasets view) the Dataset page opens on the Records tab. There are currently seven available tabs in a grey bar on top of the page, below the title of the dataset.
 
 - The **Records tab** :<br> View on all imported **records** of the dataset with a selection of important attributes (*Picture availability*, *IUCN tag*, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *identifiedBy*, *eventDate*, *stateProvince & countryCode*, *verbatimElevation*, *decimalLatitude & decimalLongitude*), the current state of the available actions (*Encoding*, *Publication status*, *Validation status*), the registration status in an Info Species data center (*Swiss Registry*), the *MIDS level* and the *timestamp of the last update of the record*. <br><br>- The tab is divided into two main sections: The **filters** on top (*Quick filters*, *Search bar*, *selected Layer*, *Value filters*) and the **table of records** below.<br><br>- The table of records displays a default set of 15 records  at a time. You can scroll through the records and adjust the number of entries displayed using the navigation tools at the bottom.<br><br>- A summary also appears at the bottom, indicating the current view. For example: _Showing 1 to 15 of 2503 entries_ —meaning that 15 records are currently displayed, starting from the first entry, out of a total of 2503 selected records.<br><br>
 
@@ -504,15 +504,15 @@ By clicking on the Name of a dataset (in purple in the Datasets view) the Datase
 
 - The **Exports tab** :<br> View on all exported **files** of the dataset with a selection of important metadata (*State*, *File*, *Size*, *Started at*, *Started by* and *Records*).<br><br> - The State is either blue (⚙️*In progress*), green (✅*Exported*) or red (❌*Failed*).<br>🔸When the state is Exported, by clicking on the green ✅*Exported* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All exported files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
-- The **Publications tab** :<br> View on all published **files** of the dataset with a selection of important metadata (*State*, *File*, *Size*, *Started at*, *Started by* and *Records*).<br><br> The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All publishedfiles are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
+- The **Publications tab** :<br> View on all published **files** of the dataset with a selection of important metadata (*State*, *File*, *Size*, *Started at*, *Started by* and *Records*).<br><br> The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
-- The **Validations tab** :<br> View on all of the sent for validation **files** of the dataset. ⚠️ This feature is not yet active nor fully developed.
+- The **Validations tab** :<br> View on all of the **files** of the dataset that were sent for validation. ⚠️ This feature is not yet active nor fully developed.
 
 <!-- with a selection of important metadata (*State of the publication/validation*, *Channel concerned*, *File name*, *Size*, *timestamp of the publication*, and *number of records exported in the file*).<br><br> The State is either blue (⚙️*In Publication*), green (✅*Done*) or red (❌*Failed*).<br>🔸When the state is Done, by clicking on the green ✅*Done* icon, a side-pane opens on the right of the window and provides information about the file.<br> 🔸When the state is Failed, by clicking on the red ❌*Failed* icon, a side-pane opens on the right of the window and provides analyses information on the cause of failure.<br><br> **All published/sent for validation files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br> -->
 
-- The **Image Upload tab**:<br> View on all uploaded ZIP **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State of the upload*, *File name*, *Size*, and *Timestamps of creation and start*, but also the **number of mapped**, **unmapped**, and **invalid images** associated with each file. The *Mapping identifier* is also displayed and can be changed by clicking on the **Edit** action (last element in the far right side of the table).<br><br> The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br> 🔸When the state is Incomplete, by clicking on the yellow ℹ️*Incomplete* icon, a side-pane opens on the right of the window and provides results information on how many images where mapped, unmapped or invalid. By clicking on the blue icon of the size (📥*xyz.x Mbyte*) of the Logfile section (bottom of the side-pane), a csv file is downloaded with the list of all images in the ZIP file and their matched attribute values.<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
+- The **Image Upload tab**:<br> View on all uploaded ZIP **files** with images. The metadata provided in this tab is more comprehensive compared to the others, as it includes not only the *State*, *File*, *Created at*, *Created by*, *Started at* and *Started by*, but also the **number of mapped**, **unmapped**, and **invalid images** associated with each file, as well as the *Mapping identifier*.<br><br> The State is either blue (⚙️In progress), green (✅Finished) or yellow (ℹ️Incomplete).<br> 🔸When the state is Incomplete, by clicking on the yellow ℹ️*Incomplete* icon, a side-pane opens on the right of the window and provides results information on how many images where mapped, unmapped or invalid. By clicking on the blue icon of the size (📥*xyz.x Mbyte*) of the Logfile section (bottom of the side-pane), a csv file is downloaded with the list of all images in the ZIP file and their matched attribute values.<br><br> **All uploaded files are kept at all times in the DAGI server**. They are available for download by clicking on the blue icon of the size (📥*xyz.x Mbyte*).<br><br>
 
-- The **Published Records tab**:<br> View on all published records.
+- The **Published Records tab**:<br> View on all published **records**. This tab has no action or feature other than displaying the full list of the published records at the time of their last publication. A selection of attributes, *Typus*, *scientificName*, *verbatimIdentification*, *occurrenceID*, *catalogNumber*, *recordedBy*, *IdentifiedBy*, *eventDate*, *stateProvince*, *countryCode*, *verbatimElevation*, *decimalLatitude/decimalLongitude*, as well as some publication metadata, *Updated at*, *Published by*, *Publication Id*, are displayed to provide an overview on the published records.
 
 
 #### Filters
@@ -536,105 +536,105 @@ The available filters are grouped into 4 categories. It is possible to select as
     <tr>
       <td rowspan="4" style="border: 1px solid black; padding: 5px; vertical-align: top;">Taxonomy</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Scientific Name</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔍search bar<br>no auto-complete<br>partial entry recognition</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>scientificName</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Kingdom</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">☑️check boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>kingdom</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Phylum</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔽drop-down menu</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>phylum</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Family</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔽drop-down menu</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>family</em> (unique values)</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid black; padding: 5px; vertical-align: top;">Date</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Last modified</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">date interval selection</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">📅date interval selection</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>Updated At</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Year of event</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">year interval selection</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">📅year interval selection</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>year</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Event Date</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>eventDate</em></td>
     </tr>
     <tr>
       <td rowspan="7" style="border: 1px solid black; padding: 5px; vertical-align: top;">Location</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Continent</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">☑️check boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>continent</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Country</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔽drop-down menu</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>country</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>State Province</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">drop-down menu</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔽drop-down menu</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>stateProvince</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Locality</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔍search bar<br>no auto-complete<br>partial entry recognition</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>locality</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Decimal Coordinates</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>decimalLatitude</em><br><em>decimalLongitude</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Swiss 95 Coordinates</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>swissCoordinatesLv95_E</em><br><em>swissCoordinatesLv95_N</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Swiss 03 Coordinates</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>swissCoordinatesLv03_E</em><br><em>swissCoordinatesLv03_N</em></td>
     </tr>
     <tr>
       <td rowspan="6" style="border: 1px solid black; padding: 5px; vertical-align: top;">Other</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>IUCN Red List</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>iucnredlistcategory</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Mids Level</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">selection boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><a href="en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids" target="_blank">MIDS attributes</a></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Recorded by</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">search bar<br>no auto-complete<br>partial entry recognition</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">🔍search bar<br>no auto-complete<br>partial entry recognition</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>recordedBy</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Type status</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">☑️check boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>typeStatus</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Material Sample Type</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">☑️check boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>materialSampleType</em> (unique values)</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Preparations</strong></td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">check boxes</td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;">☑️check boxes</td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><em>preparations</em> (unique values)</td>
     </tr>
   </table>
@@ -649,10 +649,10 @@ The available filters are grouped into 4 categories. It is possible to select as
 The Administration view displays **all users already added to your institution**. You can only see the users of your institution. The users are organised by default by order of creation. If you wish to order them differently, you can click on the *Email*, *First name*, *Last name* and *Phone* headers and order them in an ascending or descending order.
 
 The *Roles* column informs you on the role/s attributed to each user:
-- **Data Digitizer** (execution role)
+- **Data Digitizer** (executor role)
   - can view and access the datasets of their institution
   - can [jmport](#import-my-data){:target="_blank"}, [map](#map-my-data){:target="_blank"}, [encode](#encode-my-data){:target="_blank"}, [export](#export-my-data){:target="_blank"} and [send for validation](#validate-my-data){:target="_blank"} the records in the datasets of their institution
-- **Collection Administrator** (management role)
+- **Collection Administrator** (manager role)
   - can view, add, edit and remove users of their institution
   - can view, add and edit datasets of their institution
   - can publish datasets on GBIF.org
