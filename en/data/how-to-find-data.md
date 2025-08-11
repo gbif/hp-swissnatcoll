@@ -54,7 +54,7 @@ There are currently 3 entry points to the data:
         <img src="https://www.naturephotographie.com/wp-content/uploads/2015/04/Something-Big.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
         
         <!-- Text below -->
-        Institutions
+        Institutions<br><div style="font-size: 12px">The elements are ordered by size of the institution</div>
       </button>
     </a>
 </div>
