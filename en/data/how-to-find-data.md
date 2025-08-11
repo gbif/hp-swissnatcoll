@@ -20,6 +20,46 @@ There are currently 3 entry points to the data:
 
 3. 🏛️[Institutions](/institution/search), each element of the page is a swiss natural history institution who took part of the SwissCollNet initiative network. This view is based on the [Global REgistry of Scientific Collections (GRSciColl institutions)](https://scientific-collections.gbif.org/institution/search). The elements are ordered by size of the institution (number of specimens). A map of Switzerland with all registered natural history instutions is also displayed.
 
+<div>
+    <a href="/occurrence/search" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 40px; height: 40px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Specimens
+      </button>
+    </a>
+    <a href="/collection/search" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 40px; height: 40px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Collections
+      </button>
+    </a>
+    <a href="/institution/search" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 40px; height: 40px; border-radius: 50%;">
+        
+        <!-- Text below -->
+        Institutions
+      </button>
+    </a>
+</div>
+
+
 # How is the data displayed?
 The data present on the SwissNatColl portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen and each column corresponds to **the data that has been published about a given specimen**.
