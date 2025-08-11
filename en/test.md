@@ -1,5 +1,5 @@
-<!--https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-about/-->
 ---
+# https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-about/
 layout: compose
 title: DAGI
 background:  "{{ site.data.images.DAGIAbout.src }}"
