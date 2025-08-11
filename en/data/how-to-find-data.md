@@ -22,7 +22,7 @@ There are currently 3 entry points to the data:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     <a href="/occurrence/search" style="text-decoration: none;">
-      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         
@@ -34,7 +34,7 @@ There are currently 3 entry points to the data:
       </button>
     </a>
     <a href="/collection/search" style="text-decoration: none;">
-      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         
@@ -46,7 +46,7 @@ There are currently 3 entry points to the data:
       </button>
     </a>
     <a href="/institution/search" style="text-decoration: none;">
-      <button style="padding: 10px 40px; font-size: 24px; background-color: transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         
