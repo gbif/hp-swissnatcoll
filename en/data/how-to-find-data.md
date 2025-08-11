@@ -144,6 +144,73 @@ There are currently 3 entry points to the data:
   </tr>
 </table>
 
+<br><br>
+
+Only biological and paleontological specimen data is available. A dedicated national data node for geological specimens is planned for the coming years.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
+    <a href="/occurrence/search" style="text-decoration: none;">
+      <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="https://www.peta.org.uk/wp-content/uploads/2016/02/Meerkat-CC0-770x328.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Zoology
+      </button>
+    </a>
+    <a href="/collection/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="https://sparrowhawknativeplants.com/cdn/shop/files/Carex.mertensii-inflorescenseclose_KDB-square_1024x1024@2x.jpg?v=1718810800" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Botany
+      </button>
+    </a>
+    <a href="/institution/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="https://cdn.pixabay.com/photo/2023/07/05/07/38/mushrooms-8107688_1280.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Mycology
+      </button>
+    </a>
+    <a href="/institution/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="https://www.mnhn.fr/system/files/styles/16_10_highest/private/2021-08/Anthropologie_2048x975.jpg.webp?itok=3EYbugoy" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Anthropology
+      </button>
+    </a>
+    <a href="/institution/search" style="text-decoration: none;">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="https://images.squarespace-cdn.com/content/v1/5c9f919e94d71a2bab6d18d8/1578582397990-36GMKAVQHNCJCXIIUVZ9/TrilobiteTeachingCollection.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Paleontology
+      </button>
+    </a>
+</div>
+
 # How is the data displayed?
 The data present on the SwissNatColl portal can be displayed as such:
 - a **table** where each line corresponds to a museum specimen and each column corresponds to **the data that has been published about a given specimen**.
