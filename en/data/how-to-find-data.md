@@ -103,6 +103,47 @@ There are currently 3 entry points to the data:
     </a>
 </div>
 
+<br><br>
+
+<table style="border-collapse: collapse; width: 100%; text-align: center;">
+  <tr>
+    <td style="border: none;">
+      <a href="/occurrence/search" style="text-decoration: none;">
+        <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+                onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+                onmouseout="this.style.color='#333';">
+          <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+          Specimens
+        </button>
+      </a>
+    </td>
+    <td style="border: none;">
+      <a href="/collection/search" style="text-decoration: none;">
+        <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+                onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+                onmouseout="this.style.color='#333';">
+          <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+          Collections
+        </button>
+      </a>
+    </td>
+    <td style="border: none;">
+      <a href="/institution/search" style="text-decoration: none;">
+        <button style="padding: 10px 40px; font-size: 24px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+                onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+                onmouseout="this.style.color='#333';">
+          <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%;">
+          Institutions
+        </button>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td style="border: none; vertical-align: middle; text-align: center;">Second row text 1</td>
+    <td style="border: none; vertical-align: middle; text-align: center;">Second row text 2</td>
+    <td style="border: none; vertical-align: middle; text-align: center;">Second row text 3</td>
+  </tr>
+</table>
 
 # How is the data displayed?
 The data present on the SwissNatColl portal can be displayed as such:
