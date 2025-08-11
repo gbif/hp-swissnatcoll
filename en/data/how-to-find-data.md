@@ -86,7 +86,7 @@ There are currently 3 entry points to the data:
         </button>
       </a>
     </td>
-    <td style="border: none; vertical-align: top; text-align: left;">each element of the page is a collection of a natural history institution. This view is based on the Global REgistry of Scientific Collections (<a href="https://scientific-collections.gbif.org/collection/search">GRSciColl collections</a>. The elements are ordered by size of the collection (number of specimens).</td>
+    <td style="border: none; vertical-align: top; text-align: left;">each element of the page is a collection of a natural history institution. This view is based on the Global REgistry of Scientific Collections (<a href="https://scientific-collections.gbif.org/collection/search">GRSciColl collections</a>). The elements are ordered by size of the collection (number of specimens).</td>
   </tr>
   <tr>
     <td style="border: none;">
@@ -99,7 +99,7 @@ There are currently 3 entry points to the data:
         </button>
       </a>
     </td>
-    <td style="border: none; vertical-align: top; text-align: left;">each element of the page is a swiss natural history institution who took part of the SwissCollNet initiative network. This view is based on the Global REgistry of Scientific Collections (<a href="https://scientific-collections.gbif.org/institution/search">GRSciColl institutions</a>. The elements are ordered by size of the institution (number of specimens). A map of Switzerland with all registered natural history instutions is also displayed.</td>
+    <td style="border: none; vertical-align: top; text-align: left;">each element of the page is a swiss natural history institution who took part of the SwissCollNet initiative network. This view is based on the Global REgistry of Scientific Collections (<a href="https://scientific-collections.gbif.org/institution/search">GRSciColl institutions</a>). The elements are ordered by size of the institution (number of specimens). A map of Switzerland with all registered natural history instutions is also displayed.</td>
   </tr>
 </table>
 
