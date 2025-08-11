@@ -16,6 +16,7 @@ toc: true
 - **Free text** : any character of your keyboard, it can be letters, numbers, spaces, punctuation marks, and symbols.
 - **Integer** : only whole numbers, no decimals.
 - **Float** : any number, can be a whole number or a decimal number.
+- **JSON** : JavaScript Object Notation, text-based format for exchanging data, consisting of key/value pairs separated by colons { "key1": "value1, "key2": "value2", "key3" : etc... }.
 
 # Mandatory attributes
 
