@@ -850,62 +850,62 @@ Here are the Thesaurii available in DAGI:
 <div style="overflow-x: auto;">
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.condition.background }};">Category</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Resource</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">Attribute(s) used for query</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Information encoded</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF Taxonomy</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>scientificName</em></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, kingdom, phylum, order, class, family, genus, specificEpithet, scientificNameAuthorship, scientificName</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Swiss Species</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">PICTIS</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>taxonID</em></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonIdCH, acceptedNameUsage, swissSpeciesCenter, swissSpeciesRegistered, swissSpeciesRegisteredAt</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Reverse</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://opencagedata.com/" target="blank">OpenCage Geocoding API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>decimalLatitude, decimalLongitude*</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95_E/N and swissCoordinatesLv03_E/N)</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95E/N and swissCoordinatesLv03E/N)</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Geo Forward</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Forward</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://opencagedata.com/" target="blank">OpenCage Geocoding API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>country, continent</em></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF IUCN Redlist</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF IUCN Redlist</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>taxonID</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>iucn_redlist_category</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>iucnredlistcategory</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Add Institution Code</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Add Institution Code</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/registry" target="blank">GBIF Registry API</a> (<a href="https://scientific-collections.gbif.org/" target="blank">GRSciColl</a>)</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">(Collection where encoding is done in DAGI)</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">institutionCode, institutionID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>institutionCode, institutionID</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Relate Images</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Relate Images</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">DAGI Media Store</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>catalogNumber</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">associatedMedia</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>associatedMedia</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Date Conversion**</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="2">Date Conversion**</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">DAGI internal code</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>_eventDate_</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>_day_, _month_, _year_, _endOfPeriodDay/Month/Year_</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>eventDate</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>day, month, year, endOfPeriodDay/Month/Year</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>_day_, _month_, _year_, _endOfPeriodDay/Month/Year_</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>_eventDate_</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>day, month, year, endOfPeriodDay/Month/Year</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>eventDate</em></td>
     </tr>
   </table>
 </div>
