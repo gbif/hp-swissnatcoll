@@ -847,16 +847,68 @@ The Encoding process **standardises important values** of your data, and **enric
 
 Here are the Thesaurii available in DAGI:
 
-| Category | Resource | Field(s) used for query | Information encoded |
-| -------- | -------- | ----------------------- | ------------------- |
-| GBIF Taxonomy | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | _scientificName_ | _taxonID_, _kingdom_, _phylum_, _order_, _class_, _family_, _genus_, _specificEpithet_, _scientificNameAuthorship_, _scientificName_ |
-| Swiss Species | PICTIS | _taxonID_ | _taxonIdCH_, _acceptedNameUsage_ |
-| Geo Reverse | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | _decimalLatitude_, _decimalLongitude_* | _continent_, _country_, _countryCode_, _stateProvince_, _municipality_, (if in CH: _swissCoordinatesLv95_E/N_ and _swissCoordinatesLv03_E/N_) |
-| Geo Forward | [OpenCage Geocoding API](https://opencagedata.com/){:target='_blank'} | _country_, _continent_ | _continent_, _country_, _countryCode_ |
-| GBIF IUCN Redlist | [GBIF Species API](https://techdocs.gbif.org/en/openapi/v1/species){:target='_blank'} | _taxonID_ | _iucn_redlist_category_ |
-| Add Institution Code | [GBIF Registry API](https://techdocs.gbif.org/en/openapi/v1/registry){:target='_blank'} ([GRSciColl](https://scientific-collections.gbif.org/){:target='_blank'}) | (Collection where encoding is done in DAGI) | institutionCode, institutionID |
-| Relate Images | DAGI Media Store | _catalogNumber_ | associatedMedia |
-| Date Conversion** | DAGI internal code | a. _eventDate_ <br> b. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ |  a. _day_, _month_, _year_, _endOfPeriodDay/Month/Year_ <br> b. _eventDate_
+<div style="overflow-x: auto;">
+  <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+    <tr>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Category</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Resource</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">Attribute(s) used for query</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Information encoded</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>scientificName</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, kingdom, phylum, order, class, family, genus, specificEpithet, scientificNameAuthorship, scientificName</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Swiss Species</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">PICTIS</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>taxonID</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonIdCH, acceptedNameUsage, swissSpeciesCenter, swissSpeciesRegistered, swissSpeciesRegisteredAt</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://opencagedata.com/" target="blank">OpenCage Geocoding API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>decimalLatitude, decimalLongitude*</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95_E/N and swissCoordinatesLv03_E/N)</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Geo Forward</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://opencagedata.com/" target="blank">OpenCage Geocoding API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>country, continent</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF IUCN Redlist</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>taxonID</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>iucn_redlist_category</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Add Institution Code</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/registry" target="blank">GBIF Registry API</a> (<a href="https://scientific-collections.gbif.org/" target="blank">GRSciColl</a>)</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">(Collection where encoding is done in DAGI)</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">institutionCode, institutionID</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Relate Images</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">DAGI Media Store</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>catalogNumber</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">associatedMedia</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Date Conversion**</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">DAGI internal code</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>_eventDate_</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>_day_, _month_, _year_, _endOfPeriodDay/Month/Year_</em></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>_day_, _month_, _year_, _endOfPeriodDay/Month/Year_</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>_eventDate_</em></td>
+    </tr>
+  </table>
+</div>
 
 *If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_E, swissCoordinatesLv95_N (=CH1903+/LV95) or swissCoordinatesLv03_E, swissCoordinatesLv03_N (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
 
