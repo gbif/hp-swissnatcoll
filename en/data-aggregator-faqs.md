@@ -1048,6 +1048,19 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">iucn_redlist_category</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">EN</td>
     </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Date Conversion</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">day<br>month<br>year</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">1<br>5<br>2025</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025-05-01</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">day<br>month<br>year<br>endOfPeriodDay<br>endOfPeriodMonth<br>endOfPeriodYear</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">1<br>5<br>2025<br>30<br>6<br>2025</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025-05-01/2025-30-06</td>
+    </tr>
   </table>
 </div>
 
