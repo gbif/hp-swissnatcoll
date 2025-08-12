@@ -16,7 +16,9 @@ sideNavigation: sideNavigation.tutorials
 
 
 To help you select your fields, we recommend you focus first on the ones that are [mandatory](#minimal-mandatory-fields-of-the-data-aggregator) and those used by the [Encoding](#what-does-the-encoding-do) step. You can then proceed further with the [MIDS attributes](#additional-fields-increasing-data-quality-in-the-data-aggregator-mids). **Please keep in mind that some attributes require a [special value in DAGI](#fields-in-the-data-aggregator-with-special-values-required)**
-<br><br>
+<br>
+<div style="text-align: center";><br>🔸<br></div>
+<br>
 
 ### How does the update of my data in the Data Aggregator work?
 
