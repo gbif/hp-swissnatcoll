@@ -12,12 +12,12 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-**There is no need to upload all of your database into the Data Aggregator DAGI.** You can choose to upload **only the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is the **catalogNumber attribute**, which has to be unique for all of your records.
+**There is no need to upload your entire database into the Data Aggregator DAGI.** You can choose to upload **first the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is the **catalogNumber attribute**, which has to be unique for all of your records.
 
 
-To help you select your fields, we recommend you focus first on the ones that are [mandatory](#minimal-mandatory-fields-of-the-data-aggregator) and those used by the [Encoding](#what-does-the-encoding-do) step. You can then proceed further with the [MIDS attributes](#additional-fields-increasing-data-quality-in-the-data-aggregator-mids). **Please keep in mind that some attributes require a [special value in DAGI](#fields-in-the-data-aggregator-with-special-values-required)**
+To help you select your fields, we recommend you focus first on the ones that are [mandatory](#minimal-mandatory-fields-of-the-data-aggregator) and those used by the [Encoding](#what-does-the-encoding-do) step. You can then proceed further with the [MIDS attributes](#additional-fields-increasing-data-quality-in-the-data-aggregator-mids). **Please keep in mind that some attributes require a [special value in DAGI](#fields-in-the-data-aggregator-with-special-values-required)**.
 <br>
-<div style="text-align: center";><br>🔸<br></div>
+<div style="text-align: center;"><br>🔸<br></div>
 <br>
 
 ### How does the update of my data in the Data Aggregator work?
