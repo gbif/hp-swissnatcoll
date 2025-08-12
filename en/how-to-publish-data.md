@@ -679,6 +679,8 @@ The *Roles* column informs you on the role/s attributed to each user:
 
 For each user, it is possible to edit the profile (📝) and delete it (🗑️).
 
+We consider that the Collection Administrator is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
+
 ### Add a new user
 
 1. Go to the **Administration view** of your institution page by clicking on **🛠️Administration** on the left side of the page.
