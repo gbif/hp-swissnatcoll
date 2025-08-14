@@ -185,7 +185,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
         Mycology
       </button>
     </a>
-    <a href="/institution/search" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&collectionCode=UZH:IEM-General_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-HistSlides&collectionCode=UZH:IEM-WetSpec&collectionCode=UZH:NMZ-IEA&collectionCode=UZH:IEM-Med_Hist_Coll&collectionCode=UZH:IEM-Galler_Coll&collectionCode=UZH:IEM-Swiss_Army_Coll&collectionCode=KMDMZ-Mensch&collectionCode=UNIBAS:IPNA-ARCHANTH_IAG&collectionCode=UZH:IEM-Refrig&collectionCode=UZH:IEM-DrySpecFor&collectionCode=UZH:IEM-Mummies&collectionCode=UZH:IEM-Dahlheim_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-Teaching_Coll" style="text-decoration: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
