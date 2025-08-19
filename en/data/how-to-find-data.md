@@ -101,7 +101,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://www.mnhn.fr/system/files/styles/16_10_highest/private/2021-08/Anthropologie_2048x975.jpg.webp?itok=3EYbugoy" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="https://media.istockphoto.com/id/1411052373/photo/prehistoric-wall-painting-in-cave-magura-bulgaria.jpg?s=612x612&w=0&k=20&c=esx9s3SASgTBV4g-RD-_i-tdaRs532QNzp4vrMf4XlI=" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Anthropology
