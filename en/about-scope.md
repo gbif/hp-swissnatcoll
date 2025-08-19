@@ -10,13 +10,39 @@ height: 50vh
 toc: true
 composition:
   - type: heroImage
-  - type: pageMarkdown # This block will render the markdown in this file so no data property needed
+  - type: pageMarkdown
 ---
 
-# Description
-The Swiss Natural History Collections (SwissNatColl) provides **open access to harmonized specimen data from the Swiss collections** for researchers, data providers, curators, collection-holding institutions and customers from the cantons and the federal administration in Switzerland, as well as citizen scientists. As a result, it is hoped the collections will gain increased public visibility.
+[Switzerland’s natural history collections](/collection/search) hold more than 60 million specimens, spanning a wide range of disciplines (zoology, botany, mycology, paleontology, geology, and anthropology). About one third of these specimens originate from Switzerland, while the remaining two-thirds come from around the world. This shared heritage, built over more than 300 years, preserves a unique record of biological and geological diversity, serving as an invaluable resource for science and society.
+<br><br>
+
+The SwissNatColl portal provides open access to data on biological and paleontological specimens housed in Swiss institutions. It also offers information about the collections themselves and the institutions where these specimens are preserved.
+<br><br>
+
+[How to find data?](/how-to-find-data). 
+
 
 # History
-...
+
+The SwissNatColl portal was developed within the [SwissCollNet](https://swisscollnet.scnat.ch/en){:target="_blank"} initiative (2021-2026), a national effort led by the Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}), dedicated to mobilising and providing open access to specimen data from Swiss natural history collections–housed in more than 30 institutions across 21 cantons.
+
+<br><br>
+
+SwissCollNet supported 68 large-scale inter-institutional and inter-cantonal projects that modernised and digitised over one million specimens. It brought together a wide network of people and institutions, strengthening connections and fostering knowledge sharing. A major outcome of this initiative, carried out in collaboration with several key stakeholders, was the creation of a data platform comprising two components.
+- First, a **[data aggregator coined DAGI](data-aggregator-about/)**, which gathers, standardises, and enriches data from Swiss collections. DAGI is now integrated into the Swiss GBIF node, managed by [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}.
+- Second, the **SwissNatColl web portal**, which provides easy and free access to the aggregated specimen data via a single, user‑friendly interface.
+Together, the DAGI aggregator and the SwissNatColl portal constitute a national data platform that enhances the visibility, collaboration and research on Swiss collections.
+
+<br><br>
+
+Watch a 5-min film to discover the SwissCollNet initiative:
+
+<br>
+
+![Swiss Collections Go Digital movie](/assets/images/background/Capture3_film.png "Swiss Collections Go Digital movie")
+
+<br>
+
+Also available in German, French, and Italian.
 
 {% include back-to-top.html %}
