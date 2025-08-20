@@ -14,18 +14,15 @@ columns:
 #    - text: SwissCollNet
 #      href: https://swisscollnet.scnat.ch/
 
-  - name: Helpline
-    links:
-    - text: E-mail
-      href: mailto:contact-swissnatcoll@infofauna.ch
+#  - name: Helpline
+#    links:
+#    - text: E-mail
+#      href: mailto:contact-swissnatcoll@infofauna.ch
   
   - name: Contact
     description: | # Can be Markdown
-      * GBIF Swiss Node
-      * c/o info fauna
-      * Avenue de Bellevaux 51
-      * 2000 Neuchâtel
-      * Switzerland
+      * GBIF Swiss Node / info fauna
+      * [E-mail](mailto:contact-swissnatcoll@infofauna.ch)
     #connectIcons: true
 
   # EXAMPLE
