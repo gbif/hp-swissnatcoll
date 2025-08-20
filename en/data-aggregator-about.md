@@ -6,7 +6,6 @@ imageLicense: "{{ site.data.images.DAGIAbout.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
-toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
