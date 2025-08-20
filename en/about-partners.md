@@ -49,7 +49,7 @@ The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}).
 
 
 # Data Management and Coordination Associations
-<br>
+
 **mustnatcoll.ch**
 
 The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums, vis-à-vis the Association of Swiss Museums, the Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as part of national and international cultural heritage. Starting in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
