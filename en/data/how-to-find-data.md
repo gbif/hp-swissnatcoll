@@ -152,6 +152,8 @@ On the [specimens page](/occurrence/search), the last tab at the top is [**Downl
 
 # Original vs. Published Data
 
-The data published on this portal has been going through various encodings, enrichments and validation processes. For most of it, it may have not changed much, but for threatened and sensitive species, some data accuracy have been reduced to a grid-cell level or a higher taxonomy rank before publishing.
+The data published on this portal has undergone various encodings, enrichments and validation processes. 
+In most cases, the information has not changed significantly. However, for threatened and sensitive species, 
+the accuracy of certain data has been deliberately reduced—for example, by generalizing coordinates to a grid-cell level or by publishing at a higher taxonomic rank—to ensure protection before release.
 
 {% include back-to-top.html %}
