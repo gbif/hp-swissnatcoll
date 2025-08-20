@@ -16,7 +16,7 @@ permalink: /en/how-to-find-data
 You can search three types of data:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search" style="text-decoration: none;">
+    <a href="/occurrence/search" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -28,7 +28,7 @@ You can search three types of data:
         Specimens
       </button>
     </a>
-    <a href="/collection/search" style="text-decoration: none;">
+    <a href="/collection/search" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -40,7 +40,7 @@ You can search three types of data:
         Collections
       </button>
     </a>
-    <a href="/institution/search" style="text-decoration: none;">
+    <a href="/institution/search" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -59,7 +59,7 @@ You can search three types of data:
 Only biological and paleontological specimen data is available. A dedicated national data node for geological specimens is planned for the coming years.
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -71,7 +71,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
         Zoology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=6" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -83,7 +83,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
         Botany
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=5" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -95,7 +95,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
         Mycology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&collectionCode=UZH:IEM-General_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-HistSlides&collectionCode=UZH:IEM-WetSpec&collectionCode=UZH:NMZ-IEA&collectionCode=UZH:IEM-Med_Hist_Coll&collectionCode=UZH:IEM-Galler_Coll&collectionCode=UZH:IEM-Swiss_Army_Coll&collectionCode=KMDMZ-Mensch&collectionCode=UNIBAS:IPNA-ARCHANTH_IAG&collectionCode=UZH:IEM-Refrig&collectionCode=UZH:IEM-DrySpecFor&collectionCode=UZH:IEM-Mummies&collectionCode=UZH:IEM-Dahlheim_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-Teaching_Coll" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&collectionCode=UZH:IEM-General_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-HistSlides&collectionCode=UZH:IEM-WetSpec&collectionCode=UZH:NMZ-IEA&collectionCode=UZH:IEM-Med_Hist_Coll&collectionCode=UZH:IEM-Galler_Coll&collectionCode=UZH:IEM-Swiss_Army_Coll&collectionCode=KMDMZ-Mensch&collectionCode=UNIBAS:IPNA-ARCHANTH_IAG&collectionCode=UZH:IEM-Refrig&collectionCode=UZH:IEM-DrySpecFor&collectionCode=UZH:IEM-Mummies&collectionCode=UZH:IEM-Dahlheim_Coll&collectionCode=NMB-ANTHR&collectionCode=UZH:IEM-Teaching_Coll" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -107,7 +107,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
         Anthropology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;">
+    <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -147,7 +147,7 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 
 # Downloading data
 
-On the [specimens page](/occurrence/search), the last tab at the top is [**Download**](/occurrence/search?view=DOWNLOAD). Clicking on it redirects you to the GBIF.org download page. Note that any filters applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
+On the [specimens page](/occurrence/search), the last tab at the top is [**Download**](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
 
 
 # Original vs. Published Data
