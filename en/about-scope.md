@@ -7,7 +7,6 @@ imageLicense: "{{ site.data.images.aboutScope.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
-toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
