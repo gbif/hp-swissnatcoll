@@ -26,7 +26,7 @@ The SwissNatColl portal was developed within the [SwissCollNet](https://swisscol
 <br>
 
 SwissCollNet supported 68 large-scale inter-institutional and inter-cantonal projects that modernised and digitised over one million specimens. It brought together a wide network of people and institutions, strengthening connections and fostering knowledge sharing. A major outcome of this initiative, carried out in collaboration with several key stakeholders, was the creation of a data platform comprising two components.
-- First, a **data aggregator called [DAGI](data-aggregator-about/){:target="_blank"}**, which gathers, standardises, and enriches data from Swiss collections. DAGI is now integrated into the Swiss GBIF node, managed by [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}.
+- First, a **data aggregator called [DAGI](/en/data-aggregator-about/){:target="_blank"}**, which gathers, standardises, and enriches data from Swiss collections. DAGI is now integrated into the Swiss GBIF node, managed by [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}.
 - Second, the **SwissNatColl web portal**, which provides easy and free access to the aggregated specimen data via a single, user‑friendly interface.
 
 Together, the DAGI aggregator and the SwissNatColl portal constitute a national data platform that enhances the visibility, collaboration and research on Swiss collections.
