@@ -20,7 +20,7 @@ Unlike many countries, Switzerland does not have a single centralised natural hi
 Building upon this foundational layer, three key associations contribute to data management and coordination, at both national and international levels:
 The Association of Natural History Museums and Collections of Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
 The Swiss Information Center for Species ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}) 
-The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"})
+The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}).
 
 # Data Providers
 
