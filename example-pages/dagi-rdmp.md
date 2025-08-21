@@ -1,5 +1,5 @@
 ---
-layout: post # try to remoce this line (add # in the beginning of the line to make it a comment) - then the layout will change, but the content remain the same
+layout: post
 permalink: /en/dagi-rdmp
 title: Repository Roadmap & Structure Guide
 description: Darwin Core Data Aggregator
@@ -109,9 +109,9 @@ Based on standard Phoenix/Elixir conventions and the project description:
 ## For New Contributors
 
 1. **Start Here:**
-   - [`README.md`](https://github.com/zebbra/data_aggregator/blob/develop/README.md) - Project overview and setup instructions
-   - [`CONTRIBUTING.md`](https://github.com/zebbra/data_aggregator/blob/develop/CONTRIBUTING.md) - How to contribute
-   - [`CODE_OF_CONDUCT.md`](https://github.com/zebbra/data_aggregator/blob/develop/CODE_OF_CONDUCT.md) - Community guidelines
+   - [`README.md`](https://github.com/zebbra/data_aggregator/blob/develop/README.md){:target="_blank"} - Project overview and setup instructions
+   - [`CONTRIBUTING.md`](https://github.com/zebbra/data_aggregator/blob/develop/CONTRIBUTING.md){:target="_blank"} - How to contribute
+   - [`CODE_OF_CONDUCT.md`](https://github.com/zebbra/data_aggregator/blob/develop/CODE_OF_CONDUCT.md){:target="_blank"} - Community guidelines
 
 2. **Setup Requirements:**
    - `.tool-versions` - Check Elixir/Erlang version requirements
@@ -133,7 +133,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
 ## For Data Managers and Scientists
 
 1. **Data Model:**
-   - [Database Diagram](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f) - Visual data model
+   - [Database Diagram](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f.md){:target="_blank"} - Visual data model
    - Darwin Core mapping modules in `lib/data_aggregator/darwin_core/`
 
 2. **Integration Points:**
@@ -149,7 +149,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
    - Docker/deployment files (if present in root)
 
 2. **Security:**
-   - [`SECURITY.md`](https://github.com/zebbra/data_aggregator/blob/develop/SECURITY.md) - Security policy
+   - [`SECURITY.md`](https://github.com/zebbra/data_aggregator/blob/develop/SECURITY.md){:target="_blank"} - Security policy
    - Authentication modules in `lib/data_aggregator/accounts/`
 
 
@@ -217,13 +217,13 @@ Based on standard Phoenix/Elixir conventions and the project description:
 # 🌐 External Resources
 
 ## Development Resources
-- **Miro Board:** [Development Notes](https://miro.com/app/board/uXjVMBLi0fk=/) - Project planning and design
+- **Miro Board:** [Development Notes](https://miro.com/app/board/uXjVMBLi0fk=/.md){:target="_blank"} - Project planning and design
 - **Database Model:** [Visual Schema](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f)
-- **Issues:** [GitHub Issues](https://github.com/zebbra/data_aggregator/issues) - Bug reports and feature requests
-- **Pull Requests:** [GitHub PRs](https://github.com/zebbra/data_aggregator/pulls) - Code contributions
+- **Issues:** [GitHub Issues](https://github.com/zebbra/data_aggregator/issues.md){:target="_blank"} - Bug reports and feature requests
+- **Pull Requests:** [GitHub PRs](https://github.com/zebbra/data_aggregator/pulls.md){:target="_blank"} - Code contributions
 
 ## Standards and Documentation
-- **Darwin Core:** [TDWG Standards](https://dwc.tdwg.org/) - Data standard specification
+- **Darwin Core:** [TDWG Standards](https://dwc.tdwg.org/.md){:target="_blank"} - Data standard specification
 - **GBIF:** [Global Biodiversity Information Facility](https://www.gbif.org/)
 - **Phoenix Framework:** [Official Documentation](https://hexdocs.pm/phoenix/)
 - **Ash Framework:** [Ash Documentation](https://ash-hq.org/)
