@@ -14,7 +14,7 @@ height: 50vh
 
 The Darwin Core Data Aggregator is an Elixir/Phoenix application designed to integrate biodiversity data into Darwin Core compatible formats. This guide helps you navigate the repository structure, understand the codebase organization, and quickly find the information you need.
 
-**Repository URL:** [https://github.com/zebbra/data_aggregator](https://github.com/zebbra/data_aggregator){:target="_blank"}  
+**Repository URL:** https://github.com/zebbra/data_aggregator  
 **Primary Language:** Elixir  
 **Framework:** Phoenix Framework with Ash Framework  
 **Database:** PostgreSQL  
@@ -114,16 +114,16 @@ Based on standard Phoenix/Elixir conventions and the project description:
    - [`CODE_OF_CONDUCT.md`](https://github.com/zebbra/data_aggregator/blob/develop/CODE_OF_CONDUCT.md){:target="_blank"} - Community guidelines
 
 2. **Setup Requirements:**
-   - `.tool-versions` - Check Elixir/Erlang version requirements
-   - `mix.exs` - Review project dependencies
-   - `config/dev.exs.example` - Configuration template
+   - [`.tool-versions`](https://github.com/zebbra/data_aggregator/blob/develop/.tool-versions){:target="_blank"} - Check Elixir/Erlang version requirements
+   - [`mix.exs`](https://github.com/zebbra/data_aggregator/blob/develop/mix.exs){:target="_blank"} - Review project dependencies
+   - [`config/dev.exs`](https://github.com/zebbra/data_aggregator/blob/develop/config/dev.exs){:target="_blank"} - Configuration template
 
 ## For Developers
 
 1. **Core Business Logic:**
-   - `lib/data_aggregator/` - Main application logic
-   - `lib/data_aggregator_web/` - Web interface components
-   - `priv/repo/migrations/` - Database schema evolution
+   - [`lib/data_aggregator/`](https://github.com/zebbra/data_aggregator/tree/develop/lib/data_aggregator){:target="_blank"} - Main application logic
+   - [`lib/data_aggregator_web/`](https://github.com/zebbra/data_aggregator/tree/develop/lib/data_aggregator_web){:target="_blank"} - Web interface components
+   - [`priv/repo/migrations/`](https://github.com/zebbra/data_aggregator/tree/develop/priv/repo/migrations){:target="_blank"} - Database schema evolution
 
 2. **API Documentation:**
    - http://localhost:4000/api/json/swagger - Interactive API documentation (dev)
@@ -133,12 +133,12 @@ Based on standard Phoenix/Elixir conventions and the project description:
 ## For Data Managers and Scientists
 
 1. **Data Model:**
-   - [Database Diagram](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f.md){:target="_blank"} - Visual data model
-   - Darwin Core mapping modules in `lib/data_aggregator/darwin_core/`
+   - [Database Diagram](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f){:target="_blank"} - Visual data model
+   - Darwin Core mapping modules in [`lib/data_aggregator/darwin_core/`](https://github.com/zebbra/data_aggregator/tree/develop/lib/data_aggregator/darwin_core){:target="_blank"}
 
 2. **Integration Points:**
-   - GBIF integration: `lib/data_aggregator/gbif/`
-   - Taxonomic services: `lib/data_aggregator/enrichment/taxonomy/`
+   - GBIF integration: [`lib/data_aggregator/gbif/`](https://github.com/zebbra/data_aggregator/tree/develop/lib/data_aggregator/gbif){:target="_blank"}
+   - Taxonomic services: [`lib/data_aggregator/taxonomy/`](https://github.com/zebbra/data_aggregator/tree/develop/lib/data_aggregator/taxonomy){:target="_blank"}
    - Geographic services: `lib/data_aggregator/enrichment/geography/`
 
 ## For System Administrators
@@ -217,13 +217,13 @@ Based on standard Phoenix/Elixir conventions and the project description:
 # 🌐 External Resources
 
 ## Development Resources
-- **Miro Board:** [Development Notes](https://miro.com/app/board/uXjVMBLi0fk=/.md){:target="_blank"} - Project planning and design
+- **Miro Board:** [Development Notes](https://miro.com/app/board/uXjVMBLi0fk=/){:target="_blank"} - Project planning and design
 - **Database Model:** [Visual Schema](https://dbdiagram.io/d/data-aggregator-basic-65393c35ffbf5169f071ed3f)
-- **Issues:** [GitHub Issues](https://github.com/zebbra/data_aggregator/issues.md){:target="_blank"} - Bug reports and feature requests
-- **Pull Requests:** [GitHub PRs](https://github.com/zebbra/data_aggregator/pulls.md){:target="_blank"} - Code contributions
+- **Issues:** [GitHub Issues](https://github.com/zebbra/data_aggregator/issues){:target="_blank"} - Bug reports and feature requests
+- **Pull Requests:** [GitHub PRs](https://github.com/zebbra/data_aggregator/pulls){:target="_blank"} - Code contributions
 
 ## Standards and Documentation
-- **Darwin Core:** [TDWG Standards](https://dwc.tdwg.org/.md){:target="_blank"} - Data standard specification
+- **Darwin Core:** [TDWG Standards](https://dwc.tdwg.org/){:target="_blank"} - Data standard specification
 - **GBIF:** [Global Biodiversity Information Facility](https://www.gbif.org/)
 - **Phoenix Framework:** [Official Documentation](https://hexdocs.pm/phoenix/)
 - **Ash Framework:** [Ash Documentation](https://ash-hq.org/)
