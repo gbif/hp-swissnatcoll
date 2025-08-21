@@ -14,13 +14,13 @@ height: 50vh
 
 The Darwin Core Data Aggregator is an Elixir/Phoenix application designed to integrate biodiversity data into Darwin Core compatible formats. This guide helps you navigate the repository structure, understand the codebase organization, and quickly find the information you need.
 
-**Repository URL:** https://github.com/zebbra/data_aggregator  
+**Repository URL:** [https://github.com/zebbra/data_aggregator](https://github.com/zebbra/data_aggregator){:target="_blank"}  
 **Primary Language:** Elixir  
 **Framework:** Phoenix Framework with Ash Framework  
 **Database:** PostgreSQL  
 **License:** GNU AGPLv3
 
----
+
 
 # 📂 Repository Structure
 
@@ -102,7 +102,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
     └── [other documentation files]
 ```
 
----
+
 
 # 🚀 Quick Start Navigation
 
@@ -152,7 +152,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
    - [`SECURITY.md`](https://github.com/zebbra/data_aggregator/blob/develop/SECURITY.md) - Security policy
    - Authentication modules in `lib/data_aggregator/accounts/`
 
----
+
 
 # 🔧 Key Functional Areas
 
@@ -212,7 +212,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
 - Submission to taxonomic authorities
 - Feedback and correction workflows
 
----
+
 
 # 🌐 External Resources
 
@@ -228,7 +228,7 @@ Based on standard Phoenix/Elixir conventions and the project description:
 - **Phoenix Framework:** [Official Documentation](https://hexdocs.pm/phoenix/)
 - **Ash Framework:** [Ash Documentation](https://ash-hq.org/)
 
----
+
 
 # 📋 Development Workflow
 
@@ -275,7 +275,7 @@ iex -S mix phx.server
 5. Submit a pull request with detailed description
 6. Participate in code review process
 
----
+
 
 # 🔍 Finding Specific Information
 
@@ -299,7 +299,7 @@ iex -S mix phx.server
 - **Test Configuration:** `config/test.exs`
 - **Code Quality:** Follow Elixir and Phoenix conventions
 
----
+
 
 # 📞 Getting Help
 
@@ -313,6 +313,8 @@ iex -S mix phx.server
 - **Setup Problems:** Review configuration examples and documentation
 - **Integration Help:** Consult external service documentation (GBIF, taxonomic databases)
 
----
+
 
 This roadmap provides a comprehensive overview of the Darwin Core Data Aggregator repository. Use it as your guide to navigate the codebase, understand the architecture, and contribute effectively to this important biodiversity data management platform.
+
+{% include back-to-top.html %}
