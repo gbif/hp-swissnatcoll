@@ -10,9 +10,7 @@ toc: true
 height: 50vh
 ---
 
-# Darwin Core Biodiversity Data Aggregator - 
-
-## Executive Summary
+# Executive Summary
 
 **Project Title:** Darwin Core Biodiversity Data Aggregator Development and Implementation  
 **Organization:** [Your Organization Name]  
@@ -23,7 +21,7 @@ height: 50vh
 
 We are seeking qualified vendors to develop and implement a comprehensive biodiversity data aggregation solution based on the Darwin Core standard. The system will integrate biodiversity data from multiple sources into a standardized format, supporting research, conservation efforts, and data sharing with global biodiversity initiatives like GBIF.
 
-## Background and Context
+# Background and Context
 
 Our organization requires a robust biodiversity data management platform that can standardize and consolidate various biodiversity data sources according to Darwin Core specifications. This system will serve scientists, researchers, and biodiversity data managers who need to:
 
@@ -33,27 +31,27 @@ Our organization requires a robust biodiversity data management platform that ca
 - Provide enriched taxonomic and geographic information
 - Support conservation and research initiatives
 
-## Project Objectives
+# Project Objectives
 
-### Primary Objectives
+## Primary Objectives
 - Develop a web-based biodiversity data aggregation platform compliant with Darwin Core standards
 - Implement data import, validation, and mapping capabilities for various biodiversity data formats
 - Integrate with taxonomic databases, geolocation services, and species registries
 - Provide data export and API access for sharing with GBIF and other platforms
 - Create user-friendly interfaces for data management and collection administration
 
-### Secondary Objectives
+## Secondary Objectives
 - Implement image management and association with specimen/observation records
 - Develop data validation workflows for species identification centers
 - Create reporting and analytics capabilities for biodiversity insights
 - Ensure GDPR compliance and data security for sensitive location data
 - Provide comprehensive documentation and training materials
 
-## Technical Requirements
+# Technical Requirements
 
 Based on the reference implementation at https://github.com/zebbra/data_aggregator, the system should include:
 
-### Core Functionality
+## Core Functionality
 
 1. **Collection Data Management**
    - Web interface for managing GrSciColl (Global Registry of Scientific Collections) data
@@ -109,7 +107,7 @@ Based on the reference implementation at https://github.com/zebbra/data_aggregat
    - Metadata synchronization
    - DOI assignment for published datasets
 
-### Technology Stack Requirements
+## Technology Stack Requirements
 
 Based on the reference implementation:
 
@@ -136,7 +134,7 @@ Based on the reference implementation:
 - Database migrations and seeds
 - Comprehensive test suites
 
-### Performance Requirements
+## Performance Requirements
 - Handle concurrent uploads of files up to 100MB
 - Process datasets with 100,000+ records efficiently
 - Support 100+ concurrent users
@@ -144,7 +142,7 @@ Based on the reference implementation:
 - 99.5% system availability during business hours
 - Daily automated backups with point-in-time recovery
 
-### Darwin Core Compliance Requirements
+## Darwin Core Compliance Requirements
 
 **Mandatory Darwin Core Support:**
 - Core terms: occurrenceID, basisOfRecord, catalogNumber
@@ -160,7 +158,7 @@ Based on the reference implementation:
 - Measurement or Facts extension
 - Resource Relationship extension
 
-### Integration Requirements
+## Integration Requirements
 
 **External Services:**
 - GBIF API for data publishing and retrieval
@@ -175,9 +173,9 @@ Based on the reference implementation:
 - Dublin Core for basic metadata
 - ABCD (Access to Biological Collection Data) schema compatibility
 
-## Data Sources and Formats
+# Data Sources and Formats
 
-### Expected Input Formats
+## Expected Input Formats
 1. **Structured Data**
    - CSV files with biodiversity records
    - Excel spreadsheets (.xlsx, .xls)
@@ -196,16 +194,16 @@ Based on the reference implementation:
    - Audio recordings (MP3, WAV)
    - Document attachments (PDF)
 
-### Data Types Supported
+## Data Types Supported
 - **Specimen Records**: Physical specimens in collections
 - **Observation Records**: Field observations and surveys
 - **Living Specimen Records**: Zoo, aquarium, botanical garden records
 - **Fossil Records**: Paleontological specimens
 - **Environmental DNA Records**: eDNA sampling results
 
-## Security and Compliance
+# Security and Compliance
 
-### Data Security Requirements
+## Data Security Requirements
 - Encryption of sensitive location data for endangered species
 - User authentication and authorization
 - Role-based access control (RBAC)
@@ -213,23 +211,23 @@ Based on the reference implementation:
 - Secure file upload with virus scanning
 - HTTPS/TLS encryption for all communications
 
-### Biodiversity Data Compliance
+## Biodiversity Data Compliance
 - Compliance with Nagoya Protocol on Access and Benefit-sharing
 - CITES permit tracking for protected species
 - Sensitive species data protection protocols
 - Indigenous data sovereignty considerations
 - Research ethics and permit compliance
 
-### GDPR and Privacy Compliance
+## GDPR and Privacy Compliance
 - Personal data protection for collectors and researchers
 - Right to be forgotten implementation
 - Data processing consent management
 - Privacy impact assessments
 - Data retention and deletion policies
 
-## Deliverables
+# Deliverables
 
-### Software Components
+## Software Components
 
 1. **Core Application**
    - Darwin Core data aggregation engine
@@ -252,7 +250,7 @@ Based on the reference implementation:
    - Darwin Core mapping guidelines
    - Deployment and maintenance guides
 
-### Services and Support
+## Services and Support
 
 1. **Implementation Services**
    - System installation and configuration
@@ -268,9 +266,9 @@ Based on the reference implementation:
    - User support and training
    - Feature enhancements
 
-## Proposal Requirements
+# Proposal Requirements
 
-### Technical Proposal
+## Technical Proposal
 
 1. **Architecture and Design**
    - System architecture based on Elixir/Phoenix framework
@@ -300,7 +298,7 @@ Based on the reference implementation:
    - Documentation and knowledge transfer approach
    - Risk management and mitigation strategies
 
-### Team and Experience
+## Team and Experience
 
 1. **Technical Expertise Required**
    - Elixir/Phoenix development experience
@@ -316,7 +314,7 @@ Based on the reference implementation:
    - Familiarity with GBIF and biodiversity networks
    - Conservation data sensitivity awareness
 
-### Cost and Timeline
+## Cost and Timeline
 
 1. **Development Phases**
    - Phase 1: Core platform development (data import, Darwin Core mapping)
@@ -331,7 +329,7 @@ Based on the reference implementation:
    - Training and support costs
    - Ongoing maintenance estimates
 
-## Evaluation Criteria
+# Evaluation Criteria
 
 1. **Technical Excellence (35%)**
    - Darwin Core compliance and implementation quality
@@ -361,7 +359,7 @@ Based on the reference implementation:
    - Competitive pricing analysis
    - Long-term maintenance costs
 
-## References and Standards
+# References and Standards
 
 - **Darwin Core Standard**: https://dwc.tdwg.org/
 - **GBIF Data Portal**: https://www.gbif.org/
@@ -370,29 +368,29 @@ Based on the reference implementation:
 - **Darwin Core Quick Reference Guide**: https://dwc.tdwg.org/terms/
 - **GBIF IPT User Manual**: https://ipt.gbif.org/manual/en/ipt/latest/
 
-## Submission Guidelines
+# Submission Guidelines
 
-### Proposal Format
+## Proposal Format
 - Technical proposal: Maximum 25 pages
 - Commercial proposal: Maximum 10 pages
 - Include executive summary (maximum 2 pages)
 - Provide project timeline with milestones
 - Include team CVs and project references
 
-### Required Demonstrations
+## Required Demonstrations
 - Working prototype or similar system demonstration
 - Darwin Core mapping interface mockup
 - GBIF integration proof of concept
 - Data quality validation examples
 - API documentation samples
 
-### Submission Requirements
+## Submission Requirements
 - **Deadline**: [Date and Time]
 - **Contact**: [Project Manager Details]
 - **Format**: PDF documents via email or secure portal
 - **Questions**: Submit by [Date] to ensure responses before deadline
 
-## Next Steps
+# Next Steps
 
 1. **Vendor Briefing Session**: [Date] - Optional Q&A session
 2. **Proposal Submission**: [Date]
@@ -403,7 +401,7 @@ Based on the reference implementation:
 7. **Contract Negotiation**: [Date Range]
 8. **Project Kickoff**: [Date]
 
-## Contact Information
+# Contact Information
 
 **Project Manager**: [Name]  
 **Email**: [Email]  
