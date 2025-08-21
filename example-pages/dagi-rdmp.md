@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /en/dagi-rdmp
-title: Repository Roadmap & Structure Guide
+title: Repository Roadmap and Structure Guide
 description: Darwin Core Data Aggregator
 background: /assets/images/placeholders/moss.jpg
 imageLicense: |
