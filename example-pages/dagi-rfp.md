@@ -1,8 +1,8 @@
 ---
 layout: post # try to remoce this line (add # in the beginning of the line to make it a comment) - then the layout will change, but the content remain the same
 permalink: /en/dagi-rfp
-title: Darwin Core Biodiversity Data Aggregator
-description: Request for Proposal (RFP)
+title: Request for Proposal (RFP)
+description: Darwin Core Biodiversity Data Aggregator
 background: /assets/images/placeholders/moss.jpg
 imageLicense: |
   None for this image, but it would normally go here. Markdown is allowed.
