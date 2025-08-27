@@ -34,7 +34,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_collections2_revAM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_collections2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Collections
@@ -77,7 +77,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_botany1_revAM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_botany1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Botany
