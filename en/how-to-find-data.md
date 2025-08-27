@@ -22,7 +22,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_styleSolid.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_specimen1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Specimens
@@ -46,7 +46,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_institution.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_institution2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Institutions
