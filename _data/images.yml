@@ -60,17 +60,30 @@ DAGIAbout1:
 # SMALL ILLUSTRATIONS
 # ==================================================================================================================
 institutions:
-  src: /assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg 
+  src: /assets/images/SNCIllus/sketch-icones_institution.png
   caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/){:target=\"_blank\"}"
 
 collections:
-  src: /assets/images/swissMuseumsImages/DSCN3320.JPG 
+  src: /assets/images/SNCIllus/sketch-icones_collections2.png
   caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
     
 specimens:
+  src: /assets/images/SNCIllus/sketch-icones_specimen1.png
+  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
+
+
+institutions1:
+  src: /assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg
+  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/){:target=\"_blank\"}"
+
+collections1:
+  src: /assets/images/swissMuseumsImages/DSCN3320.JPG
+  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
+    
+specimens1:
   src: /assets/images/swissMuseumsImages/DSC_5509.jpg
   caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
-  
+
 # ==================================================================================================================
 # THEMATIC ILLUSTRATIONS
 # ==================================================================================================================
