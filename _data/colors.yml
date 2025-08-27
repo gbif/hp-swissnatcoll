@@ -1,6 +1,6 @@
 siteColor:
-  background: "rgba(117, 151, 233)"
-  transparency: "rgba(117, 151, 233, 0.2)"
+  background: "rgba(87, 112, 192)"
+  transparency: "rgba(87, 112, 192, 0.2)"
 
 lightpink:
   background: "rgba(255, 199, 212)"
