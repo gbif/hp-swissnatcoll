@@ -6,15 +6,15 @@
 # ==================================================================================================================
 home:
   src: /assets/images/SNCIllus/sketch-bandeaux-Homepage2.png
-  caption: "SCN movie (2025)"
+  caption: "SCN movie (2025) inspired"
 
 aboutPartners:
   src: /assets/images/SNCIllus/sketch-bandeaux-partners1.png
-  caption: "SCN movie (2025)"
+  caption: "SCN movie (2025) inspired"
 
 aboutScope:
   src: /assets/images/SNCIllus/sketch-bandeaux-scope.png
-  caption: ""
+  caption: "SCN movie (2025) inspired"
 
 #aboutOrganisation:
 #  src: /assets/images/background/HG_1920x1080_all.jpeg
@@ -22,11 +22,11 @@ aboutScope:
 
 findData:
   src: /assets/images/SNCIllus/sketch-bandeaux-finddata1.png
-  caption: ""
+  caption: "SCN movie (2025) inspired"
 
 DAGIAbout:
   src: /assets/images/SNCIllus/sketch-bandeaux-dagi.png
-  caption: ""
+  caption: "SCN movie (2025) inspired"
 
 # ==================================================================================================================
 # PAGES HEROIMAGE BACKGROUND assets/images/background/HG_1920x1080_all.jpeg
