@@ -5,7 +5,7 @@
 # PAGES HEROIMAGE BACKGROUND
 # ==================================================================================================================
 home:
-  src: /assets/images/SNCIllus/sketch-bandeaux-Homepage2.png
+  src: /assets/images/SNCIllus/sketch-bandeaux-Homepage.png
   caption: "SCN movie (2025) inspired"
 
 aboutPartners:
@@ -13,7 +13,7 @@ aboutPartners:
   caption: "SCN movie (2025) inspired"
 
 aboutScope:
-  src: /assets/images/SNCIllus/sketch-bandeaux-scope.png
+  src: /assets/images/SNCIllus/sketch-bandeaux-general05.png
   caption: "SCN movie (2025) inspired"
 
 #aboutOrganisation:
@@ -25,7 +25,7 @@ findData:
   caption: "SCN movie (2025) inspired"
 
 DAGIAbout:
-  src: /assets/images/SNCIllus/sketch-bandeaux-dagi.png
+  src: /assets/images/SNCIllus/sketch-bandeaux-general06.png
   caption: "SCN movie (2025) inspired"
 
 # ==================================================================================================================
