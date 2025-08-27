@@ -17,7 +17,7 @@ composition:
 
 The SwissNatColl portal provides open access to data on biological and paleontological specimens housed in Swiss institutions. It also offers information about the collections themselves and the institutions where these specimens are preserved.
 
-To help you navigate the portal, take a look atour short tutorial: [How to find data?](/en/how-to-find-data){:target="_blank"}
+To help you navigate the portal, take a look at our short tutorial: [How to find data?](/en/how-to-find-data){:target="_blank"}
 
 
 # History
