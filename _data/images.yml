@@ -6,15 +6,15 @@
 # ==================================================================================================================
 home:
   src: /assets/images/SNCIllus/sketch-bandeaux-Homepage.png
-  caption: "SCN movie (2025) inspired"
+  caption: ""
 
 aboutPartners:
   src: /assets/images/SNCIllus/sketch-bandeaux-partners1.png
-  caption: "SCN movie (2025) inspired"
+  caption: ""
 
 aboutScope:
   src: /assets/images/SNCIllus/sketch-bandeaux-general05.png
-  caption: "SCN movie (2025) inspired"
+  caption: ""
 
 #aboutOrganisation:
 #  src: /assets/images/background/HG_1920x1080_all.jpeg
@@ -22,67 +22,27 @@ aboutScope:
 
 findData:
   src: /assets/images/SNCIllus/sketch-bandeaux-finddata1.png
-  caption: "SCN movie (2025) inspired"
+  caption: ""
 
 DAGIAbout:
   src: /assets/images/SNCIllus/sketch-bandeaux-general06.png
-  caption: "SCN movie (2025) inspired"
-
-# ==================================================================================================================
-# PAGES HEROIMAGE BACKGROUND assets/images/background/HG_1920x1080_all.jpeg
-# ==================================================================================================================
-home1:
-  src: /assets/images/swissMuseumsImages/DSC_6289_05348.jpg
-  caption: "Philippe Wagneur / [Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
-
-aboutPartners1:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
-  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)"
-
-aboutScope1:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
-  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)"
-
-aboutOrganisation1:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg
-  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)"
-
-findData1:
-  src: /assets/images/background/carousel.1949378046.jpg 
-  caption: "(ETH Zürich / Sammlungen und Archive)[https://ethz.ch/de/news-und-veranstaltungen/eth-news/news/2023/12/globe-ein-blick-in-die-schatzkiste]{:target=\"_blank\"}"
-
-DAGIAbout1:
-  src: /assets/images/placeholders/acalypha_gillespieae_1258001892.jpg 
-  caption: "[Holotype of _Acalypha gillespieae_ G.A.Levin & I.Montero, 2020](https://www.gbif.org/occurrence/1258001892) from [Missouri Botanical Garden](/institution/1be3aa67-8f90-4309-92f4-bd55426a8c09)"
-
+  caption: ""
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
 # ==================================================================================================================
 institutions:
-  src: /assets/images/SNCIllus/sketch-icones_institution.png
-  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/){:target=\"_blank\"}"
+  src: /assets/images/SNCIllus/sketch-icones_institution2.png
+  caption: ""
 
 collections:
   src: /assets/images/SNCIllus/sketch-icones_collections2.png
-  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
+  caption: ""
     
 specimens:
   src: /assets/images/SNCIllus/sketch-icones_specimen1.png
-  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
+  caption: ""
 
-
-institutions1:
-  src: /assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg
-  caption: "Gregor Brändli / [Naturhistorisches Museum Basel](https://www.nmbs.ch/){:target=\"_blank\"}"
-
-collections1:
-  src: /assets/images/swissMuseumsImages/DSCN3320.JPG
-  caption: "Andreas Schäfer / [Naturmuseum Solothurn](https://naturmuseum-so.ch/){:target=\"_blank\"}"
-    
-specimens1:
-  src: /assets/images/swissMuseumsImages/DSC_5509.jpg
-  caption: "[Muséum Genève](http://institutions.ville-geneve.ch/fr/mhn/){:target=\"_blank\"}"
 
 # ==================================================================================================================
 # THEMATIC ILLUSTRATIONS
