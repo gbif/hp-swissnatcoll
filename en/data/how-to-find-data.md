@@ -22,7 +22,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/swissMuseumsImages/DSC_5509.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_specimen1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Specimens
@@ -34,7 +34,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/swissMuseumsImages/DSCN3320.JPG" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_collections2_revAM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Collections
@@ -46,7 +46,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/swissMuseumsImages/NHM_Basel_onlineimage.jpeg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_institution.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Institutions
@@ -65,7 +65,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://www.peta.org.uk/wp-content/uploads/2016/02/Meerkat-CC0-770x328.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_zoology1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Zoology
@@ -77,7 +77,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://sparrowhawknativeplants.com/cdn/shop/files/Carex.mertensii-inflorescenseclose_KDB-square_1024x1024@2x.jpg?v=1718810800" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_botany1_revAM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Botany
@@ -89,7 +89,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://cdn.pixabay.com/photo/2023/07/05/07/38/mushrooms-8107688_1280.jpg" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_mycology3.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Mycology
@@ -101,7 +101,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://media.istockphoto.com/id/1411052373/photo/prehistoric-wall-painting-in-cave-magura-bulgaria.jpg?s=612x612&w=0&k=20&c=esx9s3SASgTBV4g-RD-_i-tdaRs532QNzp4vrMf4XlI=" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_anthropology2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Anthropology
@@ -113,7 +113,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="https://images.squarespace-cdn.com/content/v1/5c9f919e94d71a2bab6d18d8/1578582397990-36GMKAVQHNCJCXIIUVZ9/TrilobiteTeachingCollection.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/SNCIllus/sketch-icones_paleontology2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Paleontology
