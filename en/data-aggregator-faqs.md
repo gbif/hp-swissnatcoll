@@ -859,7 +859,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF Taxonomy</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>scientificName</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, kingdom, phylum, order, class, family, genus, specificEpithet, scientificNameAuthorship, scientificName</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, kingdom, phylum, order, class, family, genus, scientificName</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
