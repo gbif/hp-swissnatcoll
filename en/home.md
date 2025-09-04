@@ -26,7 +26,7 @@ height: 80vh
 composition:
   - type: floatingText
     inlineData:
-      title: ⚠️ Site under construction ⚠️
+      title: ⚠️ This website is currently under development 🏗️
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
