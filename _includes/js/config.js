@@ -37,7 +37,7 @@ var siteConfig = {
 	{
           "type": "in",
           "key": "publishingOrg",
-          "values": "9661d20d-86b6-4485-8948-f3c86b022fa7"
+          "values": ["9661d20d-86b6-4485-8948-f3c86b022fa7", "605e7170-1123-11d9-8433-b8a03c50a862"]
         },
         {
           "type": "in",
@@ -46,7 +46,7 @@ var siteConfig = {
         }
       ]
     },
-    highlightedFilters: ['taxonKey', 'institutionKey', 'typeStatus', 'gadmGid', 'stateProvince', 'elevation', 'year', 'basisOfRecord', 'occurrenceIssue'],
+    highlightedFilters: ['taxonKey', 'institutionKey', 'publisher', 'typeStatus', 'gadmGid', 'stateProvince', 'year', 'basisOfRecord', 'occurrenceIssue'],
     occurrenceSearchTabs: ['TABLE', 'MAP', 'GALLERY', 'DATASETS', 'DASHBOARD'], // what tabs should be shown
     availableTableColumns: ['scientificName', 'features', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
