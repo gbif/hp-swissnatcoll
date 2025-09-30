@@ -1,6 +1,6 @@
 ---
 layout: compose
-title: How to access Data
+title: How is data made accessible?
 background:  "{{ site.data.images.accessData.src }}"
 imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
