@@ -6,13 +6,7 @@ columns:
 #  - description: |
 #      [<img src="/assets/images/logos/logoGBIF.jpg" alt="Logo" style="width: 700px; height: 100px"/>](https://www.gbif.org/)
 #      [<img src="/assets/images/logos/logoSCNAT.png" alt="Logo" style="width: 700px; height: 80px"/>](https://scnat.ch/en)
-
-  - name: Illustrations
-    description: |
-      * by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}
       
-  - description: |
-      * Illustrations by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}
 #  - name: Partners
 #    links:
 #    - text: GBIF Swiss Node
@@ -30,6 +24,10 @@ columns:
       * GBIF Swiss Node / info fauna
       * [E-mail](mailto:contact-swissnatcoll@infofauna.ch)
     #connectIcons: true
+
+  - name: Illustrations
+    description: |
+      * by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}
 
   # EXAMPLE
   #- name: Group name
