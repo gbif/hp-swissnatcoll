@@ -9,7 +9,8 @@ home:
   caption: ""
 
 aboutPartners:
-  src: /assets/images/SNCIllus/sketch-bandeaux-partners1.png
+  src: /assets/images/SNCIllus/Test_Partners.png
+  #/assets/images/SNCIllus/sketch-bandeaux-partners1.png
   caption: ""
 
 aboutScope:
