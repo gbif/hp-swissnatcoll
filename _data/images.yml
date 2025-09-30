@@ -6,16 +6,16 @@
 # ==================================================================================================================
 home:
   src: /assets/images/SNCIllus/sketch-bandeaux-Homepage.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutPartners:
   src: /assets/images/SNCIllus/Test_Partners.png
   #/assets/images/SNCIllus/sketch-bandeaux-partners1.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutScope:
   src: /assets/images/SNCIllus/sketch-bandeaux-general05.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 #aboutOrganisation:
 #  src: /assets/images/background/HG_1920x1080_all.jpeg
@@ -23,26 +23,26 @@ aboutScope:
 
 findData:
   src: /assets/images/SNCIllus/sketch-bandeaux-finddata1.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 accessData:
   src: /assets/images/SNCIllus/sketch-bandeaux-general06.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
 # ==================================================================================================================
 institutions:
   src: /assets/images/SNCIllus/sketch-icones_institution2.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 collections:
   src: /assets/images/SNCIllus/sketch-icones_collections2.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
     
 specimens:
   src: /assets/images/SNCIllus/sketch-icones_specimen1.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}, 2025"
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 
 # ==================================================================================================================
