@@ -28,8 +28,8 @@
   menu:
   - text: Log in to DAGI
     href: https://dagi.gbif.ch/sign-in
-  - text: What is DAGI ?
-    href: /en/data-aggregator-about
+  - text: How to make data accessible
+    href: /en/accessData
 
 #- text: Ressources
 #  menu:
