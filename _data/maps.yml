@@ -1,4 +1,4 @@
 homeMap:
   klass: iframe-box
   markdownContent: |
-    <iframe seamless frameborder="150" src="/occurrence/search" height = '790' width="1370" scrolling='yes' ></iframe> 
+    <iframe seamless frameborder="150" src="/occurrence/search?view=map" height = '790' width="1370" scrolling='yes' ></iframe> 
