@@ -1,8 +1,8 @@
 ---
 layout: compose
-title: DAGI
-background:  "{{ site.data.images.DAGIAbout.src }}"
-imageLicense: "{{ site.data.images.DAGIAbout.caption }}"
+title: How to access Data
+background:  "{{ site.data.images.accessData.src }}"
+imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
