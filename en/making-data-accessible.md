@@ -1,7 +1,7 @@
 ---
 # https://swissnatcoll.hp.gbif-staging.org/en/accessData/
 layout: compose
-title: How Is Data Made Accessible?
+title: Making Data Accessible
 background:  "{{ site.data.images.accessData.src }}"
 imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
