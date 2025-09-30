@@ -7,6 +7,7 @@ imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
+toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
