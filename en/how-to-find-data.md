@@ -1,7 +1,7 @@
 ---
 # https://swissnatcoll.hp.gbif-staging.org/en/how-to-find-data
 layout: heroImage
-title: How to find data?
+title: How To Find Data?
 background: "{{ site.data.images.findData.src }}"
 imageLicense: "{{ site.data.images.findData.caption }}"
 overlayColor: transparent
@@ -11,7 +11,7 @@ toc: true
 permalink: /en/how-to-find-data
 ---
 
-# Searching data
+# Searching Data
 
 You can search three types of data:
 
@@ -121,7 +121,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
     </a>
 </div>
 
-# Displaying data
+# Displaying Data
 
 You can explore the data in different ways:
 
@@ -134,7 +134,7 @@ You can explore the data in different ways:
 | _Dashboard_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 
-# Filtering data
+# Filtering Data
 
 You can apply filters to narrow your search. A core set of filters is displayed by default. Clicking the **More** button reveals additional options.
 
@@ -145,7 +145,7 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 | _Institutions_ | Code ; Number of specimens ; Specimens in GBIF |
 
 
-# Downloading data
+# Downloading Data
 
 On the [specimens page](/occurrence/search), the last tab at the top is [**Download**](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
 
