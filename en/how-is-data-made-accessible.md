@@ -1,6 +1,7 @@
 ---
+# https://swissnatcoll.hp.gbif-staging.org/en/accessData/
 layout: compose
-title: How is data made accessible?
+title: How Are Data Made Accessible?
 background:  "{{ site.data.images.accessData.src }}"
 imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
@@ -11,25 +12,28 @@ composition:
   - type: pageMarkdown
 ---
 
-A data aggregator is a tool that collects data from multiple sources and integrates it into a coherent dataset, which can then be used for processing, publishing, and ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}.
-<br>
+The SwissCollNet initiative has established a common framework to mobilise specimen data  from local institutions to global platforms. The process unfolds in four stages:
 
-DAGI is a Swiss data aggregator for biological and paleontological specimen data. It aggregates, standardizes and enriches data supplied by natural history institutions, and publishes them on [GBIF.org](https://www.gbif.org/){:target="_blank"}. By automating the time-consuming processes of encoding and validation, DAGI makes it easier to publish and update data, enhancing the use and visibility of Swiss collections.
+# 1. Curation and Digitization of Collections
 
-## Target audience
+Swiss natural history institutions preserve collections, ensure their accessibility and promote their use for science and society. Most of them have adopted the Strategy for natural history collections in Switzerland 2025-2035 to unlock the full potential of collections.
 
-DAGI’s main users are curators and scientific collaborators from Swiss natural history institutions registered in the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}).
+To make data accessible, the first step is digitisation — the systematic recording of specimen information in a database. This process ranges from cataloguing basic metadata (collector, location, date) to creating high-resolution images or 3D models, and linking external data such as genetic sequences. Digitisation is a continuous process, as taxonomic classifications change over time and as additional information, such as genetic sequence data, are linked to the original specimen data ([Frick & Greeff, 2021](https://swisscollnet.scnat.ch/en/news_and_publications/publications/uuid/i/c911ed14-87ec-5d12-afb0-a34438f414a9-Handbook_on_natural_history_collections_management){:target="_blank"}).
 
-## Managing team
+# 2. Aggregation and Enrichment with DAGI
 
-DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
+Once digitised, specimen records are transferred from local institutions (museums, botanical gardens, universities) to national data nodes. DAGI (Data Aggregator for Natural History Collections) is the Swiss aggregator for biological and paleontological specimen data. It aggregates, standardizes and enriches data supplied by natural history institutions. By automating the time-consuming processes of encoding and validation, DAGI makes it easier to publish and update data, while ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"} (Findable, Accessible, Interoperable, Reusable).
 
-For questions regarding DAGI, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch). We will be happy to provide you answers and support or address you to the correct person.
-<br>
+Data harmonization with common standards (for example Darwin Core) is a crucial step, because records from different institutions can be combined and compared consistently.
 
-## Open-source application
+# 3. Integration into the SwissNatColl Portal
 
-One of the project’s main goals was to make the entire application open-source. Since July 2025, anyone can view the code on the [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"} and suggests changes or improvements. Another key goal was to ensure a modular design, allowing new features to be added easily without disrupting the existing functionality already in use.
-This project is licensed under the GNU Affero General Public License v3.0. The details can be found on the GitHub repository.
+Validated data are made available in open access through the SwissNatColl portal, the central entry point for natural history data in Switzerland. Published specimen data can be corrected, re-identified or enriched over time.
+
+Users can search across institutions, visualise records, filter datasets, and download information through a user-friendly interface.
+
+# 4. Global Accessibility
+
+Swiss specimen data are simultaneously shared with the international platform [GBIF.org](https://www.gbif.org/){:target="_blank"} (Global Biodiversity Information Facility). This ensures worlwide access, supporting research, conservation, education, and policy making, while increasing the global visibility of Swiss collections.
 
 {% include back-to-top.html %}
