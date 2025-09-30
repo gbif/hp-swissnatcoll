@@ -30,6 +30,8 @@ composition:
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
+  - type: blank
+    data: maps.homeMap
 #  - type: split
 #    data: home.vision
 #  - type: features
