@@ -1,4 +1,4 @@
 homeMap:
   klass: iframe-box
   markdownContent: |
-    <iframe src="https://tile.gbif.org/4326/omt/{z}/{x}/{y}@1x.png?style=gbif-classic" style="width:100%; height:600px; border:0;"></iframe> 
+    <iframe src="map.html" style="width:100%; height:600px; border:0;"></iframe> 
