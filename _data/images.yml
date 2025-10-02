@@ -9,7 +9,7 @@ home:
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutPartners:
-  src: /assets/images/SNCIllus/Test_Partners.png
+  src: /assets/images/SNCIllus/Test_Partners2.png
   #/assets/images/SNCIllus/sketch-bandeaux-partners1.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
@@ -20,6 +20,10 @@ aboutScope:
 #aboutOrganisation:
 #  src: /assets/images/background/HG_1920x1080_all.jpeg
 #  caption: ""
+
+aboutDAGI:
+  src: /assets/images/SNCIllus/sketch-bandeaux-partners1.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 findData:
   src: /assets/images/SNCIllus/sketch-bandeaux-finddata1.png
