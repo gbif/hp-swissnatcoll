@@ -1,4 +1,4 @@
 homeMap:
   klass: iframe-box
   markdownContent: |
-    <iframe src="map.html" style="width:100%; height:600px; border:0;"></iframe> 
+    <iframe src="/HTML_files/map.html" style="width:100%; height:600px; border:0;"></iframe> 
