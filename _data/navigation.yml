@@ -26,8 +26,8 @@
 
 - text: Publish data
   menu:
-  - text: Log in to DAGI
-    href: https://dagi.gbif.ch/sign-in
+  - text: Using DAGI to Publish Data
+    href: /en/data-aggregator-about/
   - text: How is data made accessible?
     href: /en/making-data-accessible
 
