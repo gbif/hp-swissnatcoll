@@ -62,7 +62,7 @@ A feature currently in development will also allow you to [send your swiss data 
 
 <br>✅ **At least [one Collection Administrator of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
 
-⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name, institution role, institution email and institution name.
+⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name, institution role, institution email and institution name.
 
 <br>✅ My import file has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
@@ -207,7 +207,7 @@ The terms of use you just accepted are at all times available by clicking on the
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
     - If you want to edit a dataset, click on the 📝Edit icon of the dataset (far right-side of dataset line in the Datasets view)
-    - If you want to delete a dataset, please take contact with us at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch), so we can advise you accordingly.
+    - If you want to delete a dataset, please take contact with us at [dagi@gbif.ch](mailto:dagi@gbif.ch), so we can advise you accordingly.
 5. The pop-up window closes itself and you are now on the page of the dataset you just added.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
@@ -697,7 +697,7 @@ We consider that the Collection Administrator is fully responsible for the manag
 
 ### Guide
 
-By clicking on **📖Guide**, a new tab is opened on the step-by-step page on how to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:contact-swissnatcoll@infofauna.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
+By clicking on **📖Guide**, a new tab is opened on the step-by-step page on how to publish data with DAGI (this page) of the SwissNatColl hosted portal. In order to facilitate the experience of our users, we check regularly the accuracy of the information given here, and update it with the new functionalities added by the development team. **Do not hesitate to [contact us](mailto:dagi@gbif.ch) if you see anything that is missing or unclear.** The purpose of this support material is to serve the users' needs.
 
 ### Tutorials
 
