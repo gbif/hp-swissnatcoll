@@ -806,7 +806,7 @@ DAGI has a structure in three different layers (imported data, encoded data and 
 
 ### My institution does not have a DAGI user yet, what can I do?
 
-Please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
+Please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
 
 <br>
 <div style="text-align: center;"><br>🔸<br></div>
