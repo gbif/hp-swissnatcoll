@@ -18,7 +18,7 @@ composition:
 ## ✨NEW In-house training
 
 {: .box }
-**To request for a DAGI individual support in your institution**, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch) with your date of preference, institution name and location and the number of people attending.
+**To request for a DAGI individual support in your institution**, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your date of preference, institution name and location and the number of people attending.
 
 <br>
 
@@ -34,7 +34,7 @@ composition:
 ## Next live tutorial sessions
 
 {: .box }
-No tutorial session is planned at the moment. Please send us an email at [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch)) to request live tutorial sessions.
+No tutorial session is planned at the moment. Please send us an email at [dagi@gbif.ch](mailto:dagi@gbif.ch)) to request live tutorial sessions.
 
 <!---
 ~~- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
