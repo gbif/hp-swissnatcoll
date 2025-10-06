@@ -16,14 +16,16 @@ composition:
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="https://dagi.gbif.ch/sign-in" style="text-decoration: none;">
     <button
-      style="display: flex; align-items: center; gap: 8px; padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+      style="display: flex; align-items: center; gap: 8px; padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: #E2EBFF; color: #333; cursor: pointer;"
       onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
       onmouseout="this.style.color='#333';">
-      <img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 20px; width: auto;">
-      Log-in to DAGI
+      <img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 20px; width: auto;"><br>
+      🔒 Log-in to DAGI
     </button>
   </a>
 </div>
+
+<br><br>
 
 To publish data, Swiss natural history institutions use a data aggregator called DAGI. A data aggregator is a tool that collects data from multiple sources and integrates them into a coherent dataset, which can then be used for processing, publishing, and ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}.
 
