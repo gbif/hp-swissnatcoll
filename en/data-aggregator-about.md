@@ -42,7 +42,13 @@ composition:
 
 <br><br>
 
-DAGI is the Swiss data aggregator for biological and paleontological specimen data. Designed as a collaborative tool for Swiss natural history institutions, it facilitates dataflows between collections by aggregating, standardising, and enriching the specimen data they supply and host. Through a process of controlled standardisation, DAGI ensures data consistency and interoperability across institutions, thereby improving data quality and usability. By supporting facilitated publication of datasets on [GBIF.org](https://www.gbif.org/){:target="_blank"}, DAGI contributes to increased visibility of Swiss natural history collections on an international scale. Moreover, by providing a shared infrastructure and common data framework, DAGI promotes increased collaboration among institutions, enabling them to collectively advance research, curation, and public access to biodiversity information.
+DAGI is the Swiss data aggregator for biological and paleontological specimen data. Designed as a collaborative tool for Swiss natural history institutions, it facilitates dataflows between collections by aggregating, standardising, and enriching the specimen data they supply and host.
+
+Through a process of controlled standardisation, DAGI ensures data consistency and interoperability across institutions, thereby improving data quality and usability.
+
+By supporting facilitated publication of datasets on [GBIF.org](https://www.gbif.org/){:target="_blank"}, DAGI contributes to increased visibility of Swiss natural history collections on an international scale.
+
+Moreover, by providing a shared infrastructure and common data framework, DAGI promotes increased collaboration among institutions, enabling them to collectively advance research, curation, and public access to biodiversity information.
 
 ## What is a data aggregator?
 
