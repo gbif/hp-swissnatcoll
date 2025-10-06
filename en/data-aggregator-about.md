@@ -13,3 +13,35 @@ composition:
   - type: pageMarkdown
 ---
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+  <a href="https://dagi.gbif.ch/sign-in" style="text-decoration: none;">
+    <button
+      style="display: flex; align-items: center; gap: 8px; padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
+      onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+      onmouseout="this.style.color='#333';">
+      <img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 20px; width: auto;">
+      Log-in to DAGI
+    </button>
+  </a>
+</div>
+
+To publish data, Swiss natural history institutions use a data aggregator called DAGI. A data aggregator is a tool that collects data from multiple sources and integrates them into a coherent dataset, which can then be used for processing, publishing, and ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}.
+
+
+DAGI is the Swiss data aggregator for biological and paleontological specimen data. It aggregates, standardizes and enriches data supplied by natural history institutions, and publishes them on [GBIF.org](https://www.gbif.org/){:target="_blank"}.
+
+# Target Audience
+
+DAGI’s main users are curators and scientific collaborators from Swiss natural history institutions registered in the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}).
+
+# Managing Team
+DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
+For questions regarding DAGI, please send an email to [contact-swissnatcoll@infofauna.ch](mailto:contact-swissnatcoll@infofauna.ch). We will be happy to provide you answers and support or address you to the correct person.
+
+# Open-source Application
+
+One of the project’s main goals was to make the entire application open-source. Since July 2025, anyone can view the code on the [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"} and suggests changes or improvements. Another key goal was to ensure a modular design, allowing new features to be added easily without disrupting the existing functionality already in use.
+This project is licensed under the GNU Affero General Public License v3.0. The details can be found on the GitHub repository.
+
+{% include back-to-top.html %}
+
