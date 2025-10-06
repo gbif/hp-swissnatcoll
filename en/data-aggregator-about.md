@@ -50,7 +50,7 @@ By supporting facilitated publication of datasets on [GBIF.org](https://www.gbif
 
 Moreover, by providing a shared infrastructure and common data framework, DAGI promotes increased collaboration among institutions, enabling them to collectively advance research, curation, and public access to biodiversity information.
 
-## What is a data aggregator?
+# What is a data aggregator?
 
 A data aggregator is a tool that collects data from multiple and heterogeneous sources and integrates them into a coherent aggregated dataset, which can then be used for research, processing, publishing. Aggregation ensures compliance with the "Interoperability" aspect of the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}.
 
