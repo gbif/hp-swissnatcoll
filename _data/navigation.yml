@@ -28,8 +28,8 @@
   menu:
   - text: Making Data accessible
     href: /en/making-data-accessible
-  - text: Using DAGI to Publish Data
-    href: /en/data-aggregator-about/
+  - text: Aggregating Data
+    href: /en/aggregating-data/
 
 #- text: Ressources
 #  menu:
