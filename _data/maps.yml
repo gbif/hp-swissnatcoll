@@ -1,4 +1,11 @@
 homeMap:
+  klass: floating_text_and_image
+  markdownContent: |
+    Welcome on the new hosted portal of all swiss natural history institutions. Dedicated to share the treasures of our collections, the SwissNatColl is the epitome of decades of mobilisation and collaboration among our community and one of the results of the SwissCollNet Initiative.<br>
+    [<img src="/assets/images/inline_Illustrations/SwissNatColl_map_published20251007.png" alt="Logo" style="height:70px; width:auto;"/>](//occurrence/search?view=map)
+
+
+iframe-box:
   klass: iframe-box
   markdownContent: |
     <iframe seamless frameborder="150" src="/occurrence/search?view=map" style="display:block;margin:0 auto;width:min(100%,1200px);aspect-ratio:16/9;height:auto;min-height:400px;border:0;"></iframe>
