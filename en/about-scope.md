@@ -31,6 +31,8 @@ SwissCollNet supported 68 large-scale inter-institutional and inter-cantonal pro
 
 - First, a **data aggregator** called [DAGI](/en/aggregating-data/){:target="_blank"}, which gathers, standardises, and enriches data from Swiss collections.
 - Second, the **SwissNatColl portal**, which provides easy and free access to the aggregated specimen data via a single, user‑friendly interface.
+
+
 Together, the DAGI aggregator and the SwissNatColl portal constitute a national data platform that enhances the visibility, collaboration and research on Swiss collections.
 <br><br>
 
