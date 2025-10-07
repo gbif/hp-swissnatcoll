@@ -1,9 +1,9 @@
 ---
-# https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-about/
+# https://swissnatcoll.hp.gbif-staging.org/en/aggregating-data/
 layout: compose
-title: Using DAGI to Publish Data 
-background:  "{{ site.data.images.aboutDAGI.src }}"
-imageLicense: "{{ site.data.images.aboutDAGI.caption }}"
+title: Aggregating Data 
+background:  "{{ site.data.images.aggregatingData.src }}"
+imageLicense: "{{ site.data.images.aggregatingData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
