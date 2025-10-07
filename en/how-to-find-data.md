@@ -22,7 +22,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_specimen1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-specimens.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Specimens
@@ -34,7 +34,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_collections2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-collections.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Collections
@@ -46,7 +46,7 @@ You can search three types of data:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_institution2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-institutions.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Institutions
@@ -65,7 +65,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_zoology1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-zoology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Zoology
@@ -77,7 +77,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_botany1.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-botany.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Botany
@@ -89,7 +89,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_mycology3.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-mycology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Mycology
@@ -101,7 +101,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_anthropology2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-anthropology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Anthropology
@@ -113,7 +113,7 @@ Only biological and paleontological specimen data is available. A dedicated nati
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/SNCIllus/sketch-icones_paleontology2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-paleonthology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Paleontology
