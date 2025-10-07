@@ -24,6 +24,20 @@ stats:
       href: "/occurrence/search"
 
 # ============================================================================================================================
+# SPECIAL REQUESTS
+# ============================================================================================================================
+
+homeMap:
+  klass: text_and_image
+  markdownContent: |
+    <div style="font-size: 14px; text-align: center;">
+      <p class="floating-text">Welcome on the new hosted portal of all swiss natural history institutions. Dedicated to share the treasures of our collections, the SwissNatColl is the epitome of decades of mobilisation and collaboration among our community and one of the results of the SwissCollNet Initiative.<br><br>
+</p>
+      [<img src="/assets/images/inline_Illustrations/SwissNatColl_map_published20251007.png" alt="Logo" style="height:700px; width:auto;"/>](/occurrence/search?view=map)
+    </div>
+    
+
+# ============================================================================================================================
 # THEMATIC COMMUNITIES
 # ============================================================================================================================
 thematicCommunities:
