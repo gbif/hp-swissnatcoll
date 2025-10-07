@@ -26,10 +26,10 @@
 
 - text: Publish Data
   menu:
-  - text: Using DAGI to Publish Data
-    href: /en/data-aggregator-about/
   - text: Making Data accessible
     href: /en/making-data-accessible
+  - text: Using DAGI to Publish Data
+    href: /en/data-aggregator-about/
 
 #- text: Ressources
 #  menu:
