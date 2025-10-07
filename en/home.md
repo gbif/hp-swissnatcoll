@@ -27,12 +27,12 @@ height: 80vh
 composition:
   - type: floatingText
     inlineData:
-      title: This website is currently under development 🏗️
+      title: ⚠️ This website is currently under development 🏗️
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
   - type: blank
-    data: maps.homeMap
+    data: home.homeMap
 #  - type: split
 #    data: home.vision
 #  - type: features
