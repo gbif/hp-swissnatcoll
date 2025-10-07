@@ -1,4 +1,6 @@
 ---
+# https://swissnatcoll.hp.gbif-staging.org/en/about-partners
+# https://github.com/gbif/hp-swissnatcoll/blob/13b4d4595acf6824d0e4a3369ca7c2205ba4f989/en/about-partners.md
 layout: compose
 title: Partners
 permalink: /en/about-partners
@@ -16,13 +18,14 @@ Unlike many countries, Switzerland does not have a single centralised natural hi
 <br>
 
 Building upon this foundational layer, three key associations contribute to data management and coordination, at both national and international levels:
-The Association of Natural History Museums and Collections of Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
-The Swiss Information Center for Species ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}) 
-The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en)/en/how-to-find-data).
+
+- The Swiss Information Center for Species ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
+- The Association of Natural History Museums and Collections of Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
+- The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en)).
 
 # Data Providers
 
-| Cantons | Institutions |
+| Canton | Institutions |
 | ------- | ------------ |
 | _AG_ | Naturama Aargau ([NAAG](/institution/a4e8fc5e-fb6c-4c08-b9f1-ef8724870e89){:target="_blank"}) |
 | _BE_ | Herbarium of the Botanical Garden of the University of Bern ([BERN](/institution/f6abc948-1068-4d23-b165-701e8734c07e){:target="_blank"}) ; Naturhistorisches Museum der Burgergemeinde Bern ([NMBE](/institution/08ccd767-4afc-4023-ab55-7a7c34295e93){:target="_blank"}) |
@@ -45,21 +48,18 @@ The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en)/en/how-to-find-data)
 | _UR_ | Naturkundliche Sammlung Uri ([NSUR](/institution/2c521b92-4c8d-4fe6-990c-50d426708847){:target="_blank"}) |
 | _ZH_ | Eawag aquatic research ([EAWAG](/institution/722c63ef-2ebe-4008-951f-62221ff15917){:target="_blank"}) ; Eidgenössische Technische Hochschule Zürich ([ETHZ](/institution/adee7883-8290-4050-b643-8e2816f92e9a){:target="_blank"}) ; Kulturama Museum des Menschen Zürich ([KMDMZ](/institution/b576469b-3679-4588-8505-c62c90ce8e8f){:target="_blank"}) ; Universität Zürich, Naturhistorisches Museum ([UZH:NMZ](/institution/d34bd63f-0472-419a-a13c-2c5430eb875d){:target="_blank"}) ; Naturmuseum Winterthur ([NMWIN](/institution/3ab4b761-c62f-4996-a6d8-ed1283fc161e){:target="_blank"}) ; Swiss Federal Institute for Forest, Snow and Landscape Research ([WSL](/institution/4863fe5a-e375-4770-978c-226201546980){:target="_blank"}) ; Universität Zürich, Herbarium ([UZH:Z](/institution/5b487a79-76ef-4615-93d9-f4ea25a40c33){:target="_blank"}) ; Universität Zürich, Institute of Evolutionary Medicine ([UZH:IEM](/institution/6bc72849-0b52-481b-a64f-4d7778469cdf){:target="_blank"}) |
 
-
-# Data Management and Coordination Associations
-
-**mustnatcoll.ch**
-
-The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums, vis-à-vis the Association of Swiss Museums, the Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as part of national and international cultural heritage. Starting in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
-
+# Data Management  and Coordination Associations
 
 **InfoSpecies**
 
 The Swiss Information Center for Species  ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}) serves as an umbrella organization for national data and information centers and coordination centers in species conservation, focused on collecting, validating, and publishing information on animal, fungal, plant, moss, and lichen species. Supported by the Federal Office for the Environment (OFEV), InfoSpecies coordinates these various centers and supports public authorities, private clients, research institutes, and natural history institutions.
 
+**mustnatcoll.ch**
+
+The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums vis-à-vis the Association of Swiss Museums, the Swiss Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as an integral part of national and international cultural heritage. Beginning in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
 
 **Swiss Academy of Sciences**
 
-The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}) works at regional, national, and international level for the future of science and society. It strengthens the awareness for the sciences as a central pillar of cultural and economic development. The breadth of its support makes it a representative partner for politics. The SCNAT links the sciences, provides expertise, promotes the dialogue between science and society, identifies and evaluates scientific developments and lays the foundation for the next generation of natural scientists. It is part of the association of the Swiss Academies of Arts and Sciences.
+The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}) works at regional, national, and international level for the future of science and society. It strengthens the awareness for the sciences as a central pillar of cultural and economic development. The breadth of its support makes it a representative partner for politics. SCNAT links the sciences, provides expertise, promotes the dialogue between science and society, identifies and evaluates scientific developments. It is part of the association of the Swiss Academies of Arts and Sciences.
 
 {% include back-to-top.html %}
