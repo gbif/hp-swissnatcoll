@@ -6,7 +6,6 @@ columns:
   - description: |
       [<img src="/assets/images/logos/musnatcoll_logo.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://musnatcoll.ch/en){:target="_blank"}
       [<img src="/assets/images/logos/a+_logo_SCNAT_EN_RGB.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://scnat.ch/en){:target="_blank"}
-      [<img src="/assets/images/logos/infospecies_logoWeb.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://www.infospecies.ch/fr/){:target="_blank"}
   # [<img src="/assets/images/logos/gbif-nodes-logo-vf-01.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://www.gbif.org/country/CH/summary){:target="_blank"}
   
   - name: Contact
@@ -18,6 +17,9 @@ columns:
   - name: Illustrations
     description: |
       * by [Amélie Cochet](https://ameliecochet.ch/){:target="_blank"}
+
+  - description: |
+    [<img src="/assets/images/logos/infospecies_logoWeb.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://www.infospecies.ch/fr/){:target="_blank"}
   
   # EXAMPLE
   #- name: Group name
