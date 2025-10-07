@@ -61,7 +61,7 @@ DAGI’s main users are curators and scientific collaborators from Swiss natural
 # Managing Team
 DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
 
-_For questions regarding DAGI, please send an email to [contact@gbif.ch](mailto:contact@gbif.ch). We will be happy to provide you answers and support or address you to the correct person._
+_For questions regarding DAGI, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch). We will be happy to provide you answers and support or address you to the correct person._
 
 # Open-source Application
 
