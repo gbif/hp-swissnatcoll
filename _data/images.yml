@@ -5,16 +5,15 @@
 # PAGES HEROIMAGE BACKGROUND
 # ==================================================================================================================
 home:
-  src: /assets/images/SNCIllus/sketch-bandeaux-Homepage.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-homepage.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutPartners:
-  src: /assets/images/SNCIllus/Test_Partners2.png
-  #/assets/images/SNCIllus/sketch-bandeaux-partners1.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-2-institutions.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutScope:
-  src: /assets/images/SNCIllus/sketch-bandeaux-general05.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 #aboutOrganisation:
@@ -22,30 +21,30 @@ aboutScope:
 #  caption: ""
 
 aboutDAGI:
-  src: /assets/images/SNCIllus/sketch-bandeaux-partners1.png
+  src: /assets/images/Illustrations_CochetA/SKETCH-v03-action-microscope.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 findData:
-  src: /assets/images/SNCIllus/sketch-bandeaux-finddata1.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-1-finddata.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 accessData:
-  src: /assets/images/SNCIllus/sketch-bandeaux-general06.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-10-1-spotlight.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 # ==================================================================================================================
 # SMALL ILLUSTRATIONS
 # ==================================================================================================================
 institutions:
-  src: /assets/images/SNCIllus/sketch-icones_institution2.png
+  src: /assets/images/Illustrations_CochetA/SCN-icones-institutions.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 collections:
-  src: /assets/images/SNCIllus/sketch-icones_collections2.png
+  src: /assets/images/Illustrations_CochetA/SCN-icones-collections.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
     
 specimens:
-  src: /assets/images/SNCIllus/sketch-icones_specimen1.png
+  src: /assets/images/Illustrations_CochetA/SCN-icones-specimens.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 
