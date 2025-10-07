@@ -20,7 +20,7 @@ aboutScope:
 #  src: /assets/images/background/HG_1920x1080_all.jpeg
 #  caption: ""
 
-aboutDAGI:
+aggregatingData:
   src: /assets/images/Illustrations_CochetA/SKETCH-v03-action-microscope.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
