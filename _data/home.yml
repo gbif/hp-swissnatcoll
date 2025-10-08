@@ -33,8 +33,7 @@ homeMap:
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
       <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
         <p>
-          Welcome on the new hosted portal of all Swiss natural history institutions. <br>
-          Dedicated to share the treasures of our collections, the SwissNatColl is the epitome of decades of mobilisation and collaboration among our community and one of the results of the SwissCollNet Initiative.
+          Open access to Switzerland’s natural heritage. Swiss collections open a window to the planet‘s biodiversity.
         </p>
       </div>
     <a href="/occurrence/search?view=map" 
