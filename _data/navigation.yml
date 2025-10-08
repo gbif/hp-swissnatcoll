@@ -26,7 +26,7 @@
 
 - text: Publish Data
   menu:
-  - text: Making Data accessible
+  - text: Making Data Accessible
     href: /en/making-data-accessible
   - text: Aggregating Data
     href: /en/aggregating-data/
