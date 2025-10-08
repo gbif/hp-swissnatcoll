@@ -61,6 +61,6 @@ DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org
 
 # Open-source
 
-The DAGI application is open-source, licensed under the GNU Affero General Public License v3.0.. The code is published on [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"}, where changes and improvements can be suggested. 
+The DAGI application is open-source, licensed under the GNU Affero General Public License v3.0. The code is published on [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"}, where changes and improvements can be suggested. 
 
 {% include back-to-top.html %}
