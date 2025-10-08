@@ -22,7 +22,6 @@ A data aggregator is a tool that collects data from multiple, heterogeneous sour
 
 DAGI is the Swiss data aggregator for biological and paleontological specimen data. Designed as a collaborative tool for Swiss natural history institutions, it facilitates dataflows between collections by aggregating, standardising, and enriching the specimen data they supply and host.
 
-<br><br>
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
   <a href="https://dagi.gbif.ch/sign-in" style="text-decoration: none;">
     <button
