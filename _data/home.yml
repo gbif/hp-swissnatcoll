@@ -18,7 +18,7 @@ stats:
       href: "/collection/search"
 
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?limit=0&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7"></span>
-      description: "Published specimens"
+      description: "Published Specimens"
       background:  "{{ site.data.images.specimens.src }}"
       imageLicense: "{{ site.data.images.specimens.caption }}"
       href: "/occurrence/search"
