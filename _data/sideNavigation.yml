@@ -5,6 +5,16 @@ tutorials:
     path: /en/data-aggregator-about
   - title: FAQs
     path: /en/data-aggregator-faqs
+  - sectiontitle: Specific topics
+    section:
+    - title: Import
+      path: /en/data-aggregator-faqs#do-i-have-to-upload-my-entire-database-into-the-data-aggregator
+    - title: Important attributes
+      path: https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory
+    - title: Images
+      path: /en/data-aggregator-faqs#can-i-upload-images-in-the-data-aggregator
+    - title: Encoding
+      path: /en/data-aggregator-faqs#what-does-the-encoding-do
   - title: Tutorial sessions
     path: /en/tutorial-sessions
   - title: 🔗Direct Link
