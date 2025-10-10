@@ -2,10 +2,10 @@ tutorials:
 - grouptitle: Data Aggregator
   content:
   - title: About
-    path: /en/data-aggregator-about
+    path: /en/aggregating-data
   - title: FAQs
     path: /en/data-aggregator-faqs
-  - sectiontitle: Specific topics
+  - sectiontitle: FAQS -specific topics
     section:
     - title: Import
       path: /en/data-aggregator-faqs#do-i-have-to-upload-my-entire-database-into-the-data-aggregator
