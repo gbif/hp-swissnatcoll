@@ -54,7 +54,7 @@ Building upon this foundational layer, three key associations contribute to data
 
 The Swiss Information Center for Species  ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}) serves as an umbrella organization for national data and information centers and coordination centers in species conservation, focused on collecting, validating, and publishing information on animal, fungal, plant, moss, and lichen species. Supported by the Federal Office for the Environment (OFEV), InfoSpecies coordinates these various centers and supports public authorities, private clients, research institutes, and natural history institutions.
 
-**mustnatcoll.ch**
+**musnatcoll.ch**
 
 The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums vis-à-vis the Association of Swiss Museums, the Swiss Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as an integral part of national and international cultural heritage. Beginning in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
 
