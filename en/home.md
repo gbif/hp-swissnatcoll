@@ -74,17 +74,16 @@ graph TD;
     
 
     %% Define a "common style" for several blocks
-    classDef navigation fill: #F5E6CD,stroke:#333,stroke-width:2px,rx:10px,ry:20px;
-    classDef content fill: #7D9FF4,stroke:#333,stroke-width:2px;
-    classDef data fill: #D1E4FF,stroke:#333,stroke-width:2px;
+    classDef homepage fill:#FBFBF3,stroke:#333,stroke-width:2px,font-weight:bold,font-size:200px;
+    classDef navigation fill: #F5E6CD,stroke:#333,stroke-width:2px,rx:10px,ry:20px,font-size:200px;
+    classDef content fill: #7D9FF4,stroke:#333,stroke-width:2px,font-size:200px;
+    classDef data fill: #D1E4FF,stroke:#333,stroke-width:2px,font-size:200px;
 
     %% Apply le style à tous les blocs qui doivent avoir la même couleur
+    class Home homepage;
     class About,Find_data,Publish_data navigation;
     class Scope,Partners,How_find_data,Accessible,Aggregating content;
     class Specimens,Collections,Institutions data;
-
-    %% Apply Colors
-    style Home fill:#FBFBF3,stroke:#333,stroke-width:2px,font-weight:bold,font-size:50px;
     
     %% Define the hyperlink
     click Home "/"
