@@ -67,10 +67,10 @@ graph TD;
     %% Decision Graph in Step 3
     About --- Scope;
     About --- Partners;
-    Find_data --- Specimens{{Specimens}};
-    Find_data --- Collections{{Collections}};
-    Find_data --- Institutions{{Institutions}};
     Find_data --- How_find_data[How to find data];
+    Find_data --- Specimens{{Specimens}};
+    Specimens --- Collections{{Collections}};
+    Collections --- Institutions{{Institutions}};
     Publish_data --- Accessible[Making Data Accessible];
     Publish_data --- Aggregating[Aggregating Data];
     
