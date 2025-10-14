@@ -173,6 +173,12 @@ graph LR;
 <br><br>
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <colgroup>
+    <col style="width: 15%;">   <!-- Home -->
+    <col style="width: 20%;">   <!-- Navigation -->
+    <col style="width: 25%;">   <!-- Content -->
+    <col style="width: 40%;">   <!-- Description -->
+  </colgroup>
   <tbody>
     <tr>
         <td rowspan="8" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;  background-color: #F5E6CD;">🏛️Home</td>
