@@ -124,7 +124,7 @@ graph LR;
         <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/en/how-to-find-data">How To Find Data</a></td>
     </tr>
     <tr>
-        <td rowspan="2" style="text-align: center; vertical-align: middle; border-top: 1px solid black; padding: 10px;">Publish Data</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border-top: 1px solid black; border-bottom: 1px solid black; padding: 10px;">Publish Data</td>
         <td style="text-align: left; vertical-align: middle; border-top: 1px solid black; padding: 10px;"><a href="/en/making-data-accessible/">Making Data Accessible</a></td>
     </tr>
     <tr>
@@ -159,7 +159,7 @@ graph LR;
         <td style="text-align: left; vertical-align: middle; padding: 10px; background-color: #D1E4FF;"><a href="/en/how-to-find-data">How To Find Data</a></td>
     </tr>
     <tr>
-        <td rowspan="2" style="text-align: center; vertical-align: middle; border-top: 1px solid black; padding: 10px; background-color: #7D9FF4;">Publish Data</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border-top: 1px solid black; border-bottom: 1px solid black; padding: 10px; background-color: #7D9FF4;">Publish Data</td>
         <td style="text-align: left; vertical-align: middle; border-top: 1px solid black; padding: 10px; background-color: #D1E4FF;"><a href="/en/making-data-accessible/">Making Data Accessible</a></td>
     </tr>
     <tr>
