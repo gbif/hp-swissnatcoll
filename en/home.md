@@ -57,7 +57,7 @@ composition:
 <body>
 
 <div class="mermaid">
-graph TD;
+graph LR;
     Home["🏛️Home"] --- About;
     Home --- Find_data[Find data];
     Home --- Publish_data[Publish data];
