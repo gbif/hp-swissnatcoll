@@ -98,4 +98,39 @@ graph LR;
 </div>
 </body>
 
+<br><br>
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <tbody>
+    <tr>
+        <td rowspan="8" style="text-align: center; vertical-align: middle; border: 1px solid black; padding: 10px;">🏛️Home</td>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; padding: 10px;">About</td>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/en/about-scope/">Scope</a></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/en/about-partners">Partners</a></td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="text-align: center; vertical-align: middle; border-top: 1px solid black; padding: 10px;">Find Data</td>
+        <td style="text-align: left; vertical-align: middle; border-top: 1px solid black; padding: 10px;"><a href="/occurrence/search">Specimens</a></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/collection/search">Collections</a></td>
+    </tr>
+        <tr>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/institution/search">Institutions</a></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/en/how-to-find-data">How To Find Data</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="text-align: center; vertical-align: middle; border-top: 1px solid black; padding: 10px;">Publish Data</td>
+        <td style="text-align: left; vertical-align: middle; border-top: 1px solid black; padding: 10px;"><a href="/en/making-data-accessible/">Making Data Accessible</a></td>
+    </tr>
+    <tr>
+        <td style="text-align: left; vertical-align: middle; padding: 10px;"><a href="/en/aggregating-data/">Aggregating Data</a></td>
+    </tr>
+  </tbody>
+</table>
+
 {% include back-to-top.html %}
