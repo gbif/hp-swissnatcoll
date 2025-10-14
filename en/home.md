@@ -34,9 +34,8 @@ composition:
     data: home.stats  #file with the stats: _data/features.yml
   - type: blank
     data: home.homeMap
-  - type: pageMarkdown
-#  - type: split
-#    data: home.vision
+  - type: split
+    data: home.movie
 #  - type: features
 #    data: home.thematicCommunities
 #  - type: split
@@ -46,58 +45,5 @@ composition:
 ---
 
 # Navigation
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SwissNatColl website tree</title>
-    <script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-</head>
-<body>
-
-<div class="mermaid">
-graph TD;
-    Home["🏛️Home"] --- About;
-    Home --- Find_data[Find data];
-    Home --- Publish_data[Publish data];
-
-    %% Decision Graph in Step 3
-    About --- Scope;
-    About --- Partners;
-    Find_data --- How_find_data[How to find data];
-    Find_data --- Specimens{{Specimens}};
-    Specimens --- Collections{{Collections}};
-    Collections --- Institutions{{Institutions}};
-    Publish_data --- Accessible[Making Data Accessible];
-    Publish_data --- Aggregating[Aggregating Data];
-    
-
-    %% Define a "common style" for several blocks
-    classDef homepage fill:#FBFBF3,stroke:#333,stroke-width:2px,font-weight:bold,font-size:200px;
-    classDef navigation fill: #F5E6CD,stroke:#333,stroke-width:2px,rx:10px,ry:20px,font-size:200px;
-    classDef content fill: #7D9FF4,stroke:#333,stroke-width:2px,font-size:200px;
-    classDef data fill: #D1E4FF,stroke:#333,stroke-width:2px,font-size:200px;
-
-    %% Apply le style à tous les blocs qui doivent avoir la même couleur
-    class Home homepage;
-    class About,Find_data,Publish_data navigation;
-    class Scope,Partners,How_find_data,Accessible,Aggregating content;
-    class Specimens,Collections,Institutions data;
-    
-    %% Define the hyperlink
-    click Home "/"
-    click Scope "/en/about-scope/"
-    click Partners "/en/about-partners"
-    click How_find_data "/en/how-to-find-data"
-    click Accessible "/en/making-data-accessible/"
-    click Aggregating "/en/aggregating-data/"
-    click Specimens "/occurrence/search"
-    click Collections "/collection/search"
-    click Institutions "/institution/search"
-</div>
-</body>
 
 {% include back-to-top.html %}
