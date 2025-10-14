@@ -25,7 +25,7 @@ Building upon this foundational layer, three key associations contribute to data
 
 # Data Providers
 
-<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px;">
+<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px; box-shadow: 0 2px 3px rgba(0,0,0,0.05);">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <colgroup>
       <col style="width: 15%;">
