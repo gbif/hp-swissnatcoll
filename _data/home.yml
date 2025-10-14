@@ -90,13 +90,15 @@ thematicCommunities:
 # ============================================================================================================================
 # VISION
 # ============================================================================================================================
-vision:
+movie:
   reverse: true
-  title: "Vision"
+  title: "Swiss Collections Go Digital movie"
   description: >
-     Our platform offers open access to standardized data from natural history collections housed in Swiss institutions, as well as information on specimens collected in Switzerland and curated abroad. Allowing easy access to discover detailed presentations of institutions and their natural history collections across Switzerland, the portal serves as a hub for publishing news and information related to natural history collections in the country.
-  background: "{{ site.data.images.vision.src }}"
-  imageLicense: "{{ site.data.images.vision.caption }}"
+     Watch a 5-min film to discover the SwissCollNet initiative (coming soon)
+     
+     Also available in German, French, and Italian (coming soon).
+  background: "/assets/images/background/Capture3_film.png"
+  imageLicense: "SwissCollNet"
   
 # ============================================================================================================================
 # VIDEO
