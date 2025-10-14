@@ -34,7 +34,7 @@ composition:
     data: home.stats  #file with the stats: _data/features.yml
   - type: blank
     data: home.homeMap
-  - type: markdown
+  - type: pageMarkdown
 #  - type: split
 #    data: home.vision
 #  - type: features
