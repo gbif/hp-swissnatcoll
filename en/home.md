@@ -59,7 +59,7 @@ composition:
 <body>
 
 <div class="mermaid">
-graph LR;
+graph TD;
     Home["🏛️Home"] --- About;
     Home --- Find_data[Find data];
     Home --- Publish_data[Publish data];
