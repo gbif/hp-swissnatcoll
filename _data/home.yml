@@ -94,9 +94,10 @@ movie:
   reverse: true
   title: "Swiss Collections Go Digital movie"
   description: >
-     Watch a 5-min film to discover the SwissCollNet initiative (coming soon)
-     
+     Watch a 5-min film to discover the SwissCollNet initiative (coming soon).
+     <br><br>
      Also available in German, French, and Italian (coming soon).
+     <br><br><br><br><br>
   background: "/assets/images/background/Capture3_film.png"
   imageLicense: "SwissCollNet"
   
