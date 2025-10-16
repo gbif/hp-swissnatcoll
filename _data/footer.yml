@@ -6,7 +6,14 @@ columns:
 
   - name: Partners Associations
     description: |
-      <img src="/assets/images/logos/all_3_logos_MuSNG.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      <img src="/assets/images/logos/all_3_logos_Mu.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      
+  - description: |
+      <img src="/assets/images/logos/all_3_logos_scnat.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+
+    - description: |
+      <img src="/assets/images/logos/all_3_logos_IS.jpg" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      
   
   - name: Contact
     description: |
