@@ -26,9 +26,8 @@ height: 80vh
 # 2-columns splitted part
 # ====================================================================================
 composition:
-  - type: floatingText
-    inlineData:
-      title: ⚠️ This website is currently under development 🏗️
+  - type: blank
+    data: home.homeTopMessage
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
