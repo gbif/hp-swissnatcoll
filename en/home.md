@@ -8,7 +8,7 @@ permalink: /
 # ====================================================================================
 title: "Swiss Natural History Collections"
 description: "_Discover the Treasures Curated in Switzerland_"
-background:  <img src="/assets/images/Illustrations_CochetA/SCN-bandeau-homepage-hr.png" style="width: 100%; height: 100%; object-fit: cover;"/>
+background:  "<img src="/assets/images/Illustrations_CochetA/SCN-bandeau-homepage-hr.png" style="width: 100%; height: 100%; object-fit: cover;"/>"
 imageLicense: "{{ site.data.images.home.caption }}"
 #parallax: true
 overlayColor: transparent # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
