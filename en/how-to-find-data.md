@@ -126,8 +126,20 @@ Only biological and paleontological specimen data are available:
 
 Some specimens also have their picture available:
 
-[![Gallery of published specimens](/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png "Gallery of published specimens")](/occurrence/search?view=gallery)
-
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
+    <a href="/occurrence/search?view=gallery" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Round image -->
+        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        
+        <!-- Text below -->
+        Gallery
+      </button>
+    </a>
+</div>
 
 # Displaying Data
 
