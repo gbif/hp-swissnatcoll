@@ -147,11 +147,24 @@ You can explore the data in different ways:
 
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. |
+| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. The column feature displays an image icon if an image is associated to the specimen. |
 | _[Map view](/occurrence/search?view=map)_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
 | _[Gallery view](/occurrence/search?view=gallery)_  | Browse pictures of specimens. |
 | _[Datasets](/occurrence/search?view=datasets)_  | Show collection datasets. |
 | _[Dashboard](/occurrence/search?view=dashboard&layout=W1t7ImlkIjoiNDF5d3giLCJwIjp7fSwidCI6ImJhc2lzT2ZSZWNvcmQifSx7ImlkIjoiODU3d2QiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLm9jY3VycmVuY2VDb3VudHJ5Lm5hbWUiLCJ0IjoiY291bnRyeSJ9LHsiaWQiOiIwc3EycSIsInAiOnt9LCJ0IjoidHlwZVN0YXR1cyJ9XSxbeyJpZCI6InczNTZoIiwicCI6e30sInQiOiJ5ZWFyIn0seyJpZCI6IjZ4bjFnIiwicCI6e30sInQiOiJwcmVwYXJhdGlvbnMifV1d)_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
+    <a href="/occurrence/search?view=gallery" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        
+        <!-- Image -->
+        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016_v3.png" alt="icon" style="width: 500px; height: 120px; border-radius: 10%; object-fit: cover; object-position: center;">
+
+      </button>
+    </a>
+</div>
 
 # Filtering Data
 
