@@ -10,7 +10,7 @@ columns:
   
   - name: Contact
     description: |
-      * SCNAT / SwissCollNet
+      * SwissCollNet / SCNAT
       * [E-mail](mailto:swisscollnet@scnat.ch)
   
   - name: Technical Contact
