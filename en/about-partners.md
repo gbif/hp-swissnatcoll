@@ -9,21 +9,14 @@ imageLicense: "{{ site.data.images.aboutPartners.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
+toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
 ---
-
-Unlike many countries, Switzerland does not have a single centralised natural history collection. Owing to its federal system, collections are instead distributed across [natural history institutions](/institution/search){:target="_blank"} throughout the country, including natural history museums, botanical gardens, universities and cantonal departments. These institutions curate, manage and database their collections and regularly upload specimen data to national data nodes. They are the data providers.
-<br>
-
-Building upon this foundational layer, three key associations contribute to data management and coordination, at both national and international levels:
-
-- The Swiss Information Center for Species ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
-- The Association of Natural History Museums and Collections of Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
-- The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en)).
-
 # Data Providers
+
+Owing to its federal system, Swiss natural history collections are distributed across [natural history institutions](/institution/search){:target="_blank"} throughout the country, including museums, botanical gardens, universities and cantonal departments. Switzerland does not have a single centralised natural history collection, and it is up to the institutions to curate, manage and database their collections and regularly upload specimen data to national data nodes. They are the data providers.
 
 <div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px; box-shadow: 0 2px 3px rgba(0,0,0,0.05);">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
@@ -122,18 +115,33 @@ Building upon this foundational layer, three key associations contribute to data
   </table>
 </div>
 
-# Data Management  and Coordination Associations
+# Data Managers and Coordination Associations
+
+Three key associations contribute to data management and coordination, at both national and international levels:
+
 
 **InfoSpecies**
 
 The Swiss Information Center for Species  ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}) serves as an umbrella organization for national data and information centers and coordination centers in species conservation, focused on collecting, validating, and publishing information on animal, fungal, plant, moss, and lichen species. Supported by the Federal Office for the Environment (OFEV), InfoSpecies coordinates these various centers and supports public authorities, private clients, research institutes, and natural history institutions.
 
+
 **musnatcoll.ch**
 
-The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums vis-à-vis the Association of Swiss Museums, the Swiss Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as an integral part of national and international cultural heritage. Beginning in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
+The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums towards the Association of Swiss Museums, the Swiss Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as an integral part of national and international cultural heritage. Beginning in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
+
 
 **Swiss Academy of Sciences**
 
 The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}) works at regional, national, and international level for the future of science and society. It strengthens the awareness for the sciences as a central pillar of cultural and economic development. The breadth of its support makes it a representative partner for politics. SCNAT links the sciences, provides expertise, promotes the dialogue between science and society, identifies and evaluates scientific developments. It is part of the association of the Swiss Academies of Arts and Sciences.
+
+
+# Technical point of contact
+
+Maintenance infrastructure and technical support are provided by the Swiss Node of GBIF ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"})
+
+
+**GBIF Swiss Node**
+
+The Swiss Node of GBIF ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"}) coordinates the mobilisation, integration and publication of biodiversity data from across Switzerland within the international GBIF network. Operated by the Swiss Data and Information Centre on Swiss Fauna ([info fauna](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"})), it brings together museums, research institutions, public authorities, and information centers to ensure that data on species and ecosystems are openly accessible. Acting as a bridge between national and global infrastructures, it provides services for data management and publication, and delivers high-resolution validated data to Swiss authorities.
 
 {% include back-to-top.html %}
