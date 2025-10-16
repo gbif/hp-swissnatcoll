@@ -160,8 +160,7 @@ You can explore the data in different ways:
               onmouseout="this.style.color='#333';">
         
         <!-- Image -->
-        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016_v3.png" alt="icon" style="width: 500px; height: 120px; border-radius: 10%; object-fit: cover; object-position: center;">
-
+        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016_v3.png" alt="icon" style="width: 100%; height: 120px; border-radius: 10%; object-fit: cover; object-position: center;">
       </button>
     </a>
 </div>
