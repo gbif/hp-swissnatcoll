@@ -122,6 +122,13 @@ Only biological and paleontological specimen data are available:
     </a>
 </div>
 
+<br><br>
+
+Some specimens also have their picture available:
+
+[![Gallery of published specimens](/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png "Gallery of published specimens")](https://swissnatcoll.hp.gbif-staging.org/occurrence/search?view=gallery)
+
+
 # Displaying Data
 
 You can explore the data in different ways:
