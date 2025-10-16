@@ -43,7 +43,12 @@ homeMap:
           alt="Map of published records"
           style="width: 100%; height: 100%; object-fit: cover; object-position: center;"/>
     </a>
-    </div>   
+    </div>
+
+homeTopMessage:
+  klass: test
+  markdownContent: |
+    ⚠️ This website is currently under development 🏗️
 
 # ============================================================================================================================
 # THEMATIC COMMUNITIES
