@@ -133,7 +133,7 @@ Some specimens also have their picture available:
               onmouseout="this.style.color='#333';">
         
         <!-- Round image -->
-        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_publishedSpecimens_20251016_v2.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         
         <!-- Text below -->
         Gallery
