@@ -1,5 +1,5 @@
 ---
-# https://swissnatcoll.hp.gbif-staging.org/en/how-to-find-data
+# /en/how-to-find-data
 # https://github.com/gbif/hp-swissnatcoll/blob/0d40438628db0538f23740e02c50051f2faf1dcc/en/how-to-find-data.md
 layout: heroImage
 title: How to Find Data?
@@ -126,7 +126,7 @@ Only biological and paleontological specimen data are available:
 
 Some specimens also have their picture available:
 
-[![Gallery of published specimens](/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png "Gallery of published specimens")](https://swissnatcoll.hp.gbif-staging.org/occurrence/search?view=gallery)
+[![Gallery of published specimens](/assets/images/inline_Illustrations/SwissNatColl_gallery_published20251016.png "Gallery of published specimens")](/occurrence/search?view=gallery)
 
 
 # Displaying Data
@@ -135,11 +135,11 @@ You can explore the data in different ways:
 
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _Table view_  | See a list of specimens, with each column showing different details about them. |
-| _Map view_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
-| _Gallery view_  | Browse pictures of specimens. |
-| _Datasets_  | Show collection datasets. |
-| _Dashboard_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
+| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. |
+| _[Map view](/occurrence/search?view=map)_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
+| _[Gallery view](/occurrence/search?view=gallery)_  | Browse pictures of specimens. |
+| _[Datasets](/occurrence/search?view=datasets)_  | Show collection datasets. |
+| _[Dashboard](/occurrence/search?view=dashboard&layout=W1t7ImlkIjoiNDF5d3giLCJwIjp7fSwidCI6ImJhc2lzT2ZSZWNvcmQifSx7ImlkIjoiODU3d2QiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLm9jY3VycmVuY2VDb3VudHJ5Lm5hbWUiLCJ0IjoiY291bnRyeSJ9LHsiaWQiOiIwc3EycSIsInAiOnt9LCJ0IjoidHlwZVN0YXR1cyJ9XSxbeyJpZCI6InczNTZoIiwicCI6e30sInQiOiJ5ZWFyIn0seyJpZCI6IjZ4bjFnIiwicCI6e30sInQiOiJwcmVwYXJhdGlvbnMifV1d)_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 # Filtering Data
 
