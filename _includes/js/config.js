@@ -53,7 +53,7 @@ var siteConfig = {
     availableTableColumns: ['scientificName', 'features', 'coordinates', 'eventDate', 'basisOfRecord', 'publisher', 'catalogNumber', 
                             'recordedBy', 'identifiedBy', 'recordNumber', 'typeStatus', 'preparations', 'collectionCode', 'institutionCode', 'institutionKey', 
                             'collectionKey', 'country', 'locality', 'stateProvince', 'year', 'establishmentMeans', 'iucnRedListCategory', 'dataset', 'datasetName'], // all the columns that are available to the user. This array defines the order they appear in.
-    defaultTableColumns: ['scientificName', 'country', 'year', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'recordedBy', 'dataset', 'typeStatus'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
+    defaultTableColumns: ['features', 'scientificName', 'country', 'year', 'iucnRedListCategory', 'catalogNumber', 'institutionKey', 'recordedBy', 'dataset', 'typeStatus'] // the columns showed by default. The order is not relevant, as it is defined in the list of available columns. The user can change what columns to show in the UI.
       // see https://hp-theme.gbif-staging.org/data-exploration-config for more options
   },
   collection: {
