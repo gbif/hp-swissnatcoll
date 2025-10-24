@@ -16,7 +16,7 @@ hasBlackText: true
 hasTextShadow: true
 #hasBlackText: "{{ site.data.images.home.colorText }}"   # OPTIONAL - default is black. Depending on your background image is can be useful to change text color
 
-height: 80vh
+height: 90vh
 
 # ====================================================================================
 # WHOLE STRUCTURE OF THE HOMEPAGE
