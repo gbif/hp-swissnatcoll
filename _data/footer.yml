@@ -6,13 +6,13 @@ columns:
 
   - name: Partners Associations
     description: |
-      <img src="/assets/images/logos/all_3_logos_Mu_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      [<img src="/assets/images/logos/all_3_logos_Mu_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://musnatcoll.ch/en){:target="_blank"}
       
   - description: |
-      <img src="/assets/images/logos/all_3_logos_scnat_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      <img src="/assets/images/logos/all_3_logos_scnat_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://scnat.ch/en){:target="_blank"}
 
   - description: |
-      <img src="/assets/images/logos/all_3_logos_IS_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>
+      <img src="/assets/images/logos/all_3_logos_IS_v2.png" alt="Logo" style="width: 100%; height: 100%; object-fit: cover;"/>](https://www.infospecies.ch/fr/){:target="_blank"}
       
   
   - name: Contact
