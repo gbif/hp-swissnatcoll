@@ -18,7 +18,27 @@ composition:
 
 Owing to its federal system, Swiss natural history collections are distributed across [natural history institutions](/institution/search){:target="_blank"} throughout the country, including museums, botanical gardens, universities and cantonal departments. Switzerland does not have a single centralised natural history collection, and it is up to the institutions to curate, manage and database their collections and regularly upload specimen data to national data nodes. They are the data providers.
 
-<div style="height: 500px; overflow-y: auto; border: 1px solid black; padding: 5px; box-shadow: 0 2px 3px rgba(0,0,0,0.05);">
+<style>
+.scrollable-table {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid black;
+  padding: 5px;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.05);
+  cursor: grab; /* indique qu'on peut "faire glisser" pour scroller */
+}
+
+.scrollable-table:active {
+  cursor: grabbing; /* effet quand on clique pour scroller */
+}
+
+/* Important : on garde le curseur normal sur les liens */
+.scrollable-table a {
+  cursor: pointer;
+}
+</style>
+
+<div class="scrollable-table">
   <table style="width: 100%; border-collapse: collapse; table-layout: fixed;">
     <colgroup>
       <col style="width: 15%;">
