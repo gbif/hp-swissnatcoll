@@ -26,8 +26,8 @@ Owing to its federal system, Swiss natural history collections are distributed a
     </colgroup>
     <thead>
       <tr>
-        <th style="position: sticky; top: 0; background-color: #FFFFFF; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Canton</th>
-        <th style="position: sticky; top: 0; background-color: #FFFFFF; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Institutions</th>
+        <th style="position: sticky; top: 0; background-color: #7D9FEE; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Canton</th>
+        <th style="position: sticky; top: 0; background-color: #7D9FEE; z-index: 1; border: 1px solid black; padding: 8px; text-align: left;">Institutions</th>
       </tr>
     </thead>
     <tbody>
