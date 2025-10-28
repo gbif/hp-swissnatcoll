@@ -147,7 +147,7 @@ You can explore the data in different ways:
 
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. The column feature displays an image icon if an image is associated to the specimen. |
+| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. The column _Features_ displays an image icon if an image is associated to the specimen. |
 | _[Map view](/occurrence/search?view=map)_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
 | _[Gallery view](/occurrence/search?view=gallery)_  | Browse pictures of specimens. |
 | _[Datasets](/occurrence/search?view=datasets)_  | Show collection datasets. |
