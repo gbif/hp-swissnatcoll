@@ -8,7 +8,6 @@ imageLicense: "{{ site.data.images.aggregatingData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
-toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
@@ -51,15 +50,15 @@ DAGI is the Swiss data aggregator for biological and paleontological specimen da
 
 _For questions regarding DAGI, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch). We will be happy to provide you answers and support or address you to the correct person._
 
-# Target Audience
+## Target Audience
 
 DAGI’s main users are curators and scientific collaborators from Swiss natural history institutions registered in the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}).
 
-# Managing Team
+## Managing Team
 
 DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
 
-# Open-source
+## Open-source
 
 The DAGI application is open-source, licensed under the GNU Affero General Public License v3.0. The code is published on [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"}, where changes and improvements can be suggested. 
 
