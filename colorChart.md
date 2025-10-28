@@ -2,7 +2,6 @@
 layout: compose
 title: Color chart SwissNatColl
 description: definition of the colours and other graphic elements of the hosted portal
-imageLicense: "Blue-Gray / Dark Cyan"
 height: 50vh
 toc: true
 ---
