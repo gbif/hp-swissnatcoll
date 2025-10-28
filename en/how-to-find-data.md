@@ -122,6 +122,8 @@ Only biological and paleontological specimen data are available:
     </a>
 </div>
 
+<br>
+
 # Displaying Data
 
 You can explore the data in different ways:
