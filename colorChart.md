@@ -1,5 +1,5 @@
 ---
-layout: compose
+layout: default
 title: Color chart SwissNatColl
 description: definition of the colours and other graphic elements of the hosted portal
 height: 50vh
