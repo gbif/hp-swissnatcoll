@@ -154,7 +154,7 @@ You can explore the data in different ways:
 | _[Dashboard](/occurrence/search?view=dashboard&layout=W1t7ImlkIjoiNDF5d3giLCJwIjp7fSwidCI6ImJhc2lzT2ZSZWNvcmQifSx7ImlkIjoiODU3d2QiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLm9jY3VycmVuY2VDb3VudHJ5Lm5hbWUiLCJ0IjoiY291bnRyeSJ9LHsiaWQiOiIwc3EycSIsInAiOnt9LCJ0IjoidHlwZVN0YXR1cyJ9XSxbeyJpZCI6InczNTZoIiwicCI6e30sInQiOiJ5ZWFyIn0seyJpZCI6IjZ4bjFnIiwicCI6e30sInQiOiJwcmVwYXJhdGlvbnMifV1d)_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
-  <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
+  <div style="width: 100%; font-size: 22px; line-height: 1.6; color: #333;">
     <p>Visit the Gallery of our collections</p>
   </div>
 
