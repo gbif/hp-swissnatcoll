@@ -6,9 +6,6 @@ height: 50vh
 toc: true
 ---
 
-<div style="background:#5770C0; height:50vh;">
-</div>
-
 # Color chart SwissNatColl
 
 ## Bases elements of the hosted portals
