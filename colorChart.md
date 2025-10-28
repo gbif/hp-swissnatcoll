@@ -77,8 +77,8 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FF97CD</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FF97CD; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#8FA3F9</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#8FA3F9; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -86,8 +86,8 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#BD1D64</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#BD1D64; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#16418A</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#16418A; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -95,8 +95,8 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA4587</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA4587; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#4461C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#4461C0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -104,8 +104,8 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA77A7</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA77A7; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#6A7FC0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#6A7FC0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -127,29 +127,16 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#007DC2</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#007DC2; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#DC6DCF</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#DC6DCF; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-      </table>
-    </td>
-    <td style="border:1px solid #ccc; padding:5px;">
-      <table style="border-collapse:collapse; margin:auto;">
-        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#78A429</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#78A429; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#00AAF9</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00AAF9; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#945FAA</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#945FAA; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -157,12 +144,29 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#5EFAC1</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5EFAC1; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#B15C3A</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#B15C3A; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#008662</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#008662; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#C0A757</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#C0A757; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -182,37 +186,16 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#00B0CF</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00B0CF; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#44823B</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#44823B; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#02AD5C</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#02AD5C; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-      </table>
-    </td>
-    <td style="border:1px solid #ccc; padding:5px;">
-      <table style="border-collapse:collapse; margin:auto;">
-        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#B1940E</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#B1940E; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#00B196</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00B196; border:1px solid #00000022; margin:auto;"></div></td>
-        </tr>
-        <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#009CFF</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#009CFF; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#976C21</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#976C21; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
@@ -220,20 +203,41 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
       <table style="border-collapse:collapse; margin:auto;">
         <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#FA5E97</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#FA5E97; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#E9763E</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#E9763E; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#BD505E</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#BD505E; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#00B196</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00B196; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#737921</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#737921; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
         <tr>
-          <td style="border:1px solid #ccc; padding:5px;">#00ADEE</td>
-          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00ADEE; border:1px solid #00000022; margin:auto;"></div></td>
+          <td style="border:1px solid #ccc; padding:5px;">#00878B</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#00878B; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#5770C0</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5770C0; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#AC5593</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#AC5593; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#737921</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#737921; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#008554</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#008554; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
       </table>
     </td>
