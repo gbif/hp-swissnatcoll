@@ -2,15 +2,17 @@
 layout: compose
 title: Color chart SwissNatColl
 description: definition of the colours and other graphic elements of the hosted portal
-background: "#5770C0"
 imageLicense: "Blue-Gray / Dark Cyan"
 height: 50vh
 toc: true
-composition:
-  - type: heroImage
-  - type: pageMarkdown
 ---
-# Bases elements of the hosted portals
+
+<div style="background:#5770C0; height:50vh;">
+</div>
+
+# Color chart SwissNatColl
+
+## Bases elements of the hosted portals
 [_config.yml](https://github.com/gbif/hp-swissnatcoll/blob/master/_config.yml)
 <div style="width: 100px; height: 100px; background-color: #5770C0;"></div>
 - primary = "#5770C0"
@@ -22,7 +24,7 @@ In order to maintain a consistency in colors and hues, a yml file ([_data/colors
 
 Sources: [Converting Colors](https://convertingcolors.com/hex-color-5770C0.html)
 
-# Color Details
+## Color Details
 
 **Color name**:  Blue-Gray / Dark Cyan
 
@@ -114,7 +116,7 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-5770C0.html)
 
 <br><br>
 
-## Color harmonies
+### Color harmonies
 
 <table style="border-collapse:collapse; margin:auto; text-align:center;">
   <tr>
