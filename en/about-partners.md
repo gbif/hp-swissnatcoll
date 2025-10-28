@@ -25,11 +25,11 @@ Owing to its federal system, Swiss natural history collections are distributed a
   border: 1px solid black;
   padding: 5px;
   box-shadow: 0 2px 3px rgba(0,0,0,0.05);
-  cursor: grab; /* indique qu'on peut "faire glisser" pour scroller */
+  cursor: ns-resize; /* indique qu'on peut "faire glisser" pour scroller */
 }
 
 .scrollable-table:active {
-  cursor: grabbing; /* effet quand on clique pour scroller */
+  cursor: text; /* effet quand on clique pour scroller */
 }
 
 /* Important : on garde le curseur normal sur les liens */
