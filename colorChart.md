@@ -2,12 +2,12 @@
 layout: compose
 title: Color chart SwissNatColl
 description: definition of the colours and other graphic elements of the hosted portal
-background: "{{ site.data.images.frullania.src }}"
-imageLicense: "{{ site.data.images.frullania.caption }}"
+imageLicense: "Blue-Gray / Dark Cyan"
 height: 50vh
 toc: true
 composition:
   - type: heroImage
+    background: "#5770C0"
   - type: pageMarkdown
 ---
 # Bases elements of the hosted portals
@@ -243,6 +243,3 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-FA5E97.html?
     </td>
   </tr>
 </table>
-
-
---> checker le contraste des couleurs 
