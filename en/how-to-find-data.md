@@ -153,15 +153,12 @@ You can explore the data in different ways:
 | _[Datasets](/occurrence/search?view=datasets)_  | Show collection datasets. |
 | _[Dashboard](/occurrence/search?view=dashboard&layout=W1t7ImlkIjoiNDF5d3giLCJwIjp7fSwidCI6ImJhc2lzT2ZSZWNvcmQifSx7ImlkIjoiODU3d2QiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLm9jY3VycmVuY2VDb3VudHJ5Lm5hbWUiLCJ0IjoiY291bnRyeSJ9LHsiaWQiOiIwc3EycSIsInAiOnt9LCJ0IjoidHlwZVN0YXR1cyJ9XSxbeyJpZCI6InczNTZoIiwicCI6e30sInQiOiJ5ZWFyIn0seyJpZCI6IjZ4bjFnIiwicCI6e30sInQiOiJwcmVwYXJhdGlvbnMifV1d)_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search?view=gallery" style="text-decoration: none;" target="_blank">
-      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
-              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
-              onmouseout="this.style.color='#333';">
-        
-        <!-- Image -->
-        <img src="/assets/images/inline_Illustrations/SwissNatColl_gallery_publishedSpecimens_20251016_v3.png" alt="icon" style="width: 100%; height: 120px; border-radius: 10%; object-fit: cover; object-position: center;">
-      </button>
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
+    <a href="/occurrence/search?view=gallery" style="margin-top: 40px; display: block; width: 80%; max-width: 1200px; aspect-ratio: 297 / 210; overflow: hidden; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 3px solid #eee;" target="_blank">
+        <img 
+          src="/assets/images/inline_Illustrations/SwissNatColl_gallery_publishedSpecimens_20251016_v3.png" 
+          alt="Gallery view"
+          style="width: 100%; height: 100%; border-radius: 10%; object-fit: cover; object-position: center;"/>
     </a>
 </div>
 
