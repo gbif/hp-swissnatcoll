@@ -97,7 +97,6 @@ Sources: [Converting Colors](https://convertingcolors.com/hex-color-5770C0.html)
           <td style="border:1px solid #ccc; padding:5px;">#6C8CD8</td>
           <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#6C8CD8; border:1px solid #00000022; margin:auto;"></div></td>
         </tr>
-
       </table>
     </td>
     <td style="border:1px solid #ccc; padding:5px;">
