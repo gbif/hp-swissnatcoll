@@ -23,6 +23,107 @@ In order to maintain a consistency in colors and hues, a yml file ([_data/colors
 
 Sources: [Converting Colors](https://convertingcolors.com/hex-color-5770C0.html)
 
+## Homepage image breakdown
+
+![Homepage](/assets/images/Illustrations_CochetA/SCN-bandeau-homepage-tiny.png "Homepage")
+
+<table style="border-collapse:collapse; margin:auto; text-align:center;">
+  <tr>
+    <th style="border:1px solid #ccc; padding:5px;">Main color</th>
+    <th style="border:1px solid #ccc; padding:5px;">3 Color palette</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#F0E2CB</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#F0E2CB; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#E1DACF</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#E1DACF; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#29324E</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#29324E; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#746C64</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#746C64; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<br><br>
+
+<table style="border-collapse:collapse; margin:auto; text-align:center;">
+  <tr>
+    <th colspan = "3" style="border:1px solid #ccc; padding:5px;">9 Color palette</th>
+  </tr>
+  <tr>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#F0E2CB</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#F0E2CB; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#111215</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#111215; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#7D9FEE</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#7D9FEE; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#5D78CB</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#5D78CB; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#6C8CD8</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#6C8CD8; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+
+      </table>
+    </td>
+    <td style="border:1px solid #ccc; padding:5px;">
+      <table style="border-collapse:collapse; margin:auto;">
+        <tr><th style="border:1px solid #ccc; padding:5px;">Code</th><th style="border:1px solid #ccc; padding:5px;">Color</th></tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#77746C</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#77746C; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#746C64</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#746C64; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#B8AE9C</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#B8AE9C; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+        <tr>
+          <td style="border:1px solid #ccc; padding:5px;">#B4A494</td>
+          <td style="border:1px solid #ccc; padding:5px;"><div style="width:20px; height:20px; background-color:#B4A494; border:1px solid #00000022; margin:auto;"></div></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
 ## Color Details
 
 **Color name**:  Blue-Gray / Dark Cyan
