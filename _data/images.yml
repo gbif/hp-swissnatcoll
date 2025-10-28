@@ -9,11 +9,11 @@ home:
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutPartners:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-2-institutions.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-2-institutions-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 aboutScope:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 #aboutOrganisation:
@@ -21,15 +21,15 @@ aboutScope:
 #  caption: ""
 
 aggregatingData:
-  src: /assets/images/Illustrations_CochetA/SKETCH-v03-action-microscope.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-microscope-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 findData:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-1-finddata.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-1-finddata-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 accessData:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-10-1-spotlight.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-10-1-spotlight-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 # ==================================================================================================================
