@@ -8,6 +8,7 @@ imageLicense: "{{ site.data.images.aggregatingData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
+toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
@@ -16,6 +17,8 @@ composition:
 # What is a Data Aggregator?
 
 A data aggregator is a tool that collects data from multiple, heterogeneous sources and integrates them into a coherent, aggregated dataset, which can then be used for processing, publishing, and ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}.
+
+Aggregating and publishing specimen data offers museums significant advantages, especially as global data resources continue to grow. By sharing their records in a unified system, museums can collaborate more effectively and benefit from access to large, diverse datasets. This broader perspective helps researchers identify patterns, connections, and trends that might remain hidden in isolated collections. For museums, aggregated data also supports curatorial work—such as tracking specimens, improving documentation and cleaning databases, as well as planning exhibitions—and can even enhance visitor engagement through more personalized and data-informed experiences.
 
 # DAGI
 
@@ -31,7 +34,7 @@ DAGI is the Swiss data aggregator for biological and paleontological specimen da
         justify-content: center;
         gap: 8px;
         padding: 12px 24px;
-        font-size: 24px;
+        font-size: 18px;
         border: 2px solid {{ site.data.colors.siteColor.background }};
         border-radius: 4px;
         background-color: #E2EBFF;
@@ -42,7 +45,7 @@ DAGI is the Swiss data aggregator for biological and paleontological specimen da
       onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
       onmouseout="this.style.color='#333';"
     >
-      <img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 50px; width: auto;">
+      <img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 35px; width: auto;">
       🔒 Log-in to DAGI
     </button>
   </a>
@@ -50,16 +53,12 @@ DAGI is the Swiss data aggregator for biological and paleontological specimen da
 
 _For questions regarding DAGI, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch). We will be happy to provide you answers and support or address you to the correct person._
 
-## Target Audience
-
-DAGI’s main users are curators and scientific collaborators from Swiss natural history institutions registered in the Global Registry of Scientific Collections ([GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}).
-
 ## Managing Team
 
 DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies data center Info fauna ([infofauna.ch](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}).
 
 ## Open-source
 
-The DAGI application is open-source, licensed under the GNU Affero General Public License v3.0. The code is published on [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"}, where changes and improvements can be suggested. 
+The DAGI application is open-source, licensed under the GNU Affero General Public License v3.0. The code is published on [GitHub repository of DAGI](https://github.com/zebbra/data_aggregator/tree/develop){:target="_blank"}, where changes and improvements can be suggested.
 
 {% include back-to-top.html %}
