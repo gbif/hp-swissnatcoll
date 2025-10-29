@@ -33,8 +33,6 @@ composition:
     data: home.stats  #file with the stats: _data/features.yml
   - type: blank
     data: home.homeMap
-  - type: split
-    data: home.movie
 #  - type: features
 #    data: home.thematicCommunities
 #  - type: split
