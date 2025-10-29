@@ -1,5 +1,5 @@
 ---
-# /en/how-to-find-data
+# https://swissnatcoll.hp.gbif-staging.org/en/how-to-find-data
 # https://github.com/gbif/hp-swissnatcoll/blob/0d40438628db0538f23740e02c50051f2faf1dcc/en/how-to-find-data.md
 layout: heroImage
 title: How to Find Data?
@@ -14,7 +14,7 @@ permalink: /en/how-to-find-data
 
 # Searching Data
 
-You can search three types of data:
+Three levels of information are available:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
     <a href="/occurrence/search" style="text-decoration: none;" target="_blank">
@@ -57,7 +57,7 @@ You can search three types of data:
 
 <br><br>
 
-Only biological and paleontological specimen data are available:
+You can search biological and paleontological specimen data across different domains:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
     <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
@@ -127,18 +127,17 @@ Only biological and paleontological specimen data are available:
 # Displaying Data
 
 You can explore the data in different ways:
-
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _[Table view](/occurrence/search)_  | See a list of specimens, with each column showing different details about them. The column _Features_ displays an image icon if an image is associated to the specimen. |
-| _[Map view](/occurrence/search?view=map)_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
-| _[Gallery view](/occurrence/search?view=gallery)_  | Browse pictures of specimens. |
-| _[Datasets](/occurrence/search?view=datasets)_  | Show collection datasets. |
-| _[Dashboard](/occurrence/search?view=dashboard&layout=W1t7ImlkIjoiNDF5d3giLCJwIjp7fSwidCI6ImJhc2lzT2ZSZWNvcmQifSx7ImlkIjoiODU3d2QiLCJwIjp7fSwidHJhbnNsYXRpb24iOiJmaWx0ZXJzLm9jY3VycmVuY2VDb3VudHJ5Lm5hbWUiLCJ0IjoiY291bnRyeSJ9LHsiaWQiOiIwc3EycSIsInAiOnt9LCJ0IjoidHlwZVN0YXR1cyJ9XSxbeyJpZCI6InczNTZoIiwicCI6e30sInQiOiJ5ZWFyIn0seyJpZCI6IjZ4bjFnIiwicCI6e30sInQiOiJwcmVwYXJhdGlvbnMifV1d)_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
+| _Table view_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
+| _Map view_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
+| _Gallery view_  | Browse pictures of specimens. |
+| _Datasets_  | See a list of collection datasets. |
+| _Dashboard_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 0px;">
   <div style="width: 100%; font-size: 22px; line-height: 1.6; color: #333;">
-    <p>Visit the Gallery of our collections</p>
+    <p>Explore the gallery view</p>
   </div>
 
   <a href="/occurrence/search?view=gallery"
@@ -157,18 +156,19 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 
 | Type of data | Default filters |
 | ------------ | --------------- |
-| _Specimens_ | Institution ; Dataset ; Scientific name ; Recorded by ; Administrative area ; Year |
+| _Specimens_ | Institution ; Features; Dataset ; Scientific name ; Recorded by ; Administrative area ; Year |
 | _Collections_ | Code ; Number of specimens ; Specimens in GBIF ; Scientific name ; Country or area of coverage |
 | _Institutions_ | Code ; Number of specimens ; Specimens in GBIF |
 
 # Downloading Data
 
-On the [specimens page](/occurrence/search), the last tab at the top is [Download](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
+Only users with a GBIF account can download data (easily created for free). On the [specimens page](/occurrence/search), the tab on the right at the top is [Download](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
+
+For more information, see the page on [GBIF data processing](https://www.gbif.org/data-processing)
 
 # Original vs. Published Data
 
-The data published on this portal has undergone various encodings, enrichments and validation processes. 
-In most cases, the information has not changed significantly. However, for threatened and sensitive species, 
-the accuracy of certain data has been deliberately reduced—for example, by generalising coordinates to a grid-cell level or by publishing at a higher taxonomic rank—to ensure protection before release.
+The data published on this portal has undergone various encodings, enrichments and validation processes.
+In most cases, the information has not changed significantly compared to the original data of the data providers. However, for threatened and sensitive swiss species, the accuracy of data has been deliberately reduced by blurring coordinates to a grid-cell level. These changes apply to species under the scope of [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"} in order to implement its [deontology](https://www.infospecies.ch/fr/assets/content/documents/flyer-infospecies-de-fr.pdf){:target="_blank"}.
 
 {% include back-to-top.html %}
