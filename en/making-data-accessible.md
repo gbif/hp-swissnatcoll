@@ -2,7 +2,7 @@
 # https://swissnatcoll.hp.gbif-staging.org/en/making-data-accessible/
 # https://github.com/gbif/hp-swissnatcoll/blob/d3b20530d56554034de4553bb57fd54e5b67cff4/en/making-data-accessible.md
 layout: compose
-title: Making Data Accessible
+title: How to Publish Your Data?
 background:  "{{ site.data.images.accessData.src }}"
 imageLicense: "{{ site.data.images.accessData.caption }}"
 overlayColor: transparent
@@ -13,28 +13,24 @@ composition:
   - type: pageMarkdown
 ---
 
-The SwissCollNet initiative has established a common framework to mobilise specimen data from local institutions to global platforms. The process unfolds in four stages:
+If you are a Swiss non-profit organisation that holds natural history collections, you can contribute by sharing your digital records of specimens with national and international data infrastructures.
 
-# 1. Curation and Digitisation of Collections
+# 1. Digitising Specimens
 
-Swiss natural history institutions preserve collections, ensure their accessibility and promote their use for science and society. Most of them have adopted the Strategy for natural history collections in Switzerland 2025-2035 to unlock the full potential of collections.
+The initial phase involves creating digital records of the information associated with the specimens in your collection. There are several approaches to digitisation. In most cases, data are manually entered from specimen labels into a database or spreadsheet. Large-scale digitisation, on the other hand, relies on advanced technology and efficient workflows to enhance data capture efficiency. Different methods and best practices can be found in the Handbook on Natural History Collections ([Frick & Greeff, 2021](https://swisscollnet.scnat.ch/en/news_and_publications/publications/uuid/i/c911ed14-87ec-5d12-afb0-a34438f414a9-Handbook_on_natural_history_collections_management){:target="_blank"}).
+ 
+## Data FAIR Principles
 
-To make data accessible, the first step is digitisation — the systematic recording of specimen information in a database. This process ranges from cataloguing basic metadata (collector, location, date) to creating high-resolution images or 3D models, and linking external data such as genetic sequences. Digitisation is a continuous process, as taxonomic classifications change over time and as additional information, such as genetic sequence data, are linked to the original specimen data ([Frick & Greeff, 2021](https://swisscollnet.scnat.ch/en/news_and_publications/publications/uuid/i/c911ed14-87ec-5d12-afb0-a34438f414a9-Handbook_on_natural_history_collections_management){:target="_blank"}).
+Data management should follow key principles that meet the standards of findability, accessibility, interoperability, and reusability, known as the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"}. These principles are intentionally broad, designed to be flexible and widely applicable across different contexts.
+ 
+## Data Exchange Standards
 
-# 2. Aggregation and Enrichment with DAGI
+Standards for data exchange establish rules for describing, recording and exchanging natural history data. These standards, such as Darwin Core, play a crucial role in enabling the unambiguously exchange of collection data within the scientific community and to the public globally. They also facilitate data retrieval and better communication among different database systems. More information about data standards can be found on the [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/){:target="_blank"} website.
 
-Once digitised, specimen records are transferred from local institutions (museums, botanical gardens, universities) to national data nodes. DAGI (Data Aggregator for Natural History Collections) is the Swiss aggregator for biological and paleontological specimen data. It aggregates, standardizes and enriches data supplied by natural history institutions. By automating the time-consuming processes of encoding and validation, DAGI makes it easier to publish and update data, while ensuring compliance with the [FAIR principles](https://www.go-fair.org/fair-principles/){:target="_blank"} (Findable, Accessible, Interoperable, Reusable).
+# 2. Publishing Specimen Data
 
-Data harmonisation with common standards (for example [Darwin Core](https://dwc.tdwg.org/){:target="_blank"} is a crucial step, because records from different institutions can be combined and compared consistently.
-
-# 3. Integration into the SwissNatColl Portal
-
-Standardised data are openly available through the SwissNatColl portal, the central entry point for natural history data in Switzerland. Published specimen data can be corrected, re-identified, or enriched over time.
-
-Users can search across institutions, visualise records, filter datasets, and download information through a user-friendly interface.
-
-# 4. Global Accessibility
-
-Swiss specimen data are simultaneously shared with the international platform [GBIF.org](https://www.gbif.org/){:target="_blank"} (Global Biodiversity Information Facility). This ensures worlwide access, supporting research, conservation, education, and policy making, while increasing the global visibility of Swiss collections.
+Once digitised, you can transfer your specimen data to DAGI, the national data aggregator for Natural History Collections. By automating the time-consuming processes of encoding and validating your data, and by providing a straight gate to publish data in GBIF, DAGI makes it easier to publish and update data, while ensuring compliance with the FAIR principles. More information about DAGI can be found here: [Aggregating Data](https://swissnatcoll.hp.gbif-staging.org/en/aggregating-data{:target="_blank"}.
+ 
+Standardised data are then published simultaneously, both nationally via the SwissNatColl portal and internationally through GBIF. Your institution’s records will be presented  alongside those of other Swiss collections, accessible for search and download by users around the world.
 
 {% include back-to-top.html %}
