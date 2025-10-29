@@ -127,6 +127,7 @@ You can search biological and paleontological specimen data across different dom
 # Displaying Data
 
 You can explore the data in different ways:
+
 | Display mode | Definition  |
 | ------------- | ------------- |
 | _Table view_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
@@ -142,7 +143,7 @@ You can explore the data in different ways:
 
   <a href="/occurrence/search?view=gallery"
      target="_blank"
-     style="margin-top: 40px; display: block; width: 100%; aspect-ratio: 16 / 4; overflow: hidden; border-radius: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 3px solid #eee;">
+     style="margin-top: 20px; display: block; width: 100%; aspect-ratio: 16 / 4; overflow: hidden; border-radius: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 3px solid #eee;">
     <img 
       src="/assets/images/inline_Illustrations/SwissNatColl_gallery_publishedSpecimens_20251016_v3.png"
       alt="Gallery view"
