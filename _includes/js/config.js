@@ -5,6 +5,7 @@ const institutionKey = ["8d572607-d32c-4477-8834-c9dbe76c57f9", "e772c6d6-bbc8-4
 const publishingOrg = ["9661d20d-86b6-4485-8948-f3c86b022fa7", "605e7170-1123-11d9-8433-b8a03c50a862"]
 const basisOfRecord = ["PRESERVED_SPECIMEN", "FOSSIL_SPECIMEN"]
 
+// lignes ci-dessous à enlever quand on fera nos propres couleurs
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
