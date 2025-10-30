@@ -804,7 +804,7 @@ DAGI has a structure in three different layers (imported data, encoded data and 
 <div style="text-align: center;"><br>🔸<br></div>
 <br>
 
-### My institution does not have a DAGI user yet, what can I do?
+## My institution does not have a DAGI user yet, what can I do?
 
 Please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
 
@@ -1108,6 +1108,18 @@ Here are the Thesaurii available in DAGI:
     </tr>
   </tbody>
 </table>
+
+<br>
+<div style="text-align: center;"><br>🔸<br></div>
+<br>
+
+## Why is the publication on GBIF not working?
+
+Publishing on GBIF can take some time, because their systems need to ingest the data sent by DAGI. Before considering that the publication has failed, please check the following page:
+
+- **[GBIF System health](https://www.gbif.org/system-health){:target="_blank"}**: are monitored elements green (operational)? how many ingestions are queued?
+
+If there are systems down, and/or too many ingestions queued, it is best to wait a few hours to a few days and check this page again to see the current state of GBIF.
 
 <br>
 <div style="text-align: center;"><br>🔸<br></div>
