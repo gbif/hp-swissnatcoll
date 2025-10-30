@@ -49,14 +49,14 @@ No tutorial session is planned at the moment. Please send us an email at [dagi@g
 ### Text material
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
-  <a href="/en/how-to-publish-data" style="text-decoration: none;">
+  <a href="/en/publishing-with-dagi" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
             onmouseout="this.style.color='#333';">
       🥾 Step-by-step Guide
     </button>
   </a>
-  <a href="/en/how-to-publish-data#how-to-navigate-in-dagi" style="text-decoration: none;">
+  <a href="/en/publishing-with-dagi#how-to-navigate-in-dagi" style="text-decoration: none;">
     <button style="padding: 10px 20px; font-size: 16px; border: 2px solid {{ site.data.colors.siteColor.background }}; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer;"
             onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
             onmouseout="this.style.color='#333';">
