@@ -26,8 +26,8 @@
 
 - text: Publish Data
   menu:
-  - text: How to Publish Data ?
-    href: /en/making-data-accessible
+  - text: How to Publish Your Data ?
+    href: /en/how-to-publish-data
   - text: Aggregating Data
     href: /en/aggregating-data/
 
