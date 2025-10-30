@@ -1,10 +1,10 @@
 ---
-# https://swissnatcoll.hp.gbif-staging.org/en/how-to-publish-data/
-# https://github.com/gbif/hp-swissnatcoll/blob/d3b20530d56554034de4553bb57fd54e5b67cff4/en/how-to-publish-data.md
+# https://swissnatcoll.hp.gbif-staging.org/en/how-to-publish-your-data/
+# https://github.com/gbif/hp-swissnatcoll/blob/d3b20530d56554034de4553bb57fd54e5b67cff4/en/how-to-publish-your-data.md
 layout: compose
 title: How to Publish Your Data?
-background:  "{{ site.data.images.accessData.src }}"
-imageLicense: "{{ site.data.images.accessData.caption }}"
+background:  "{{ site.data.images.publishData.src }}"
+imageLicense: "{{ site.data.images.publishData.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
