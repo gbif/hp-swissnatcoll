@@ -13,7 +13,9 @@ composition:
   - type: pageMarkdown
 ---
 
-If you are a Swiss non-profit organisation that holds natural history collections, you can contribute by sharing your digital records of specimens with national and international data infrastructures.
+<div style="padding: 15px; border: 1px solid transparent; border-color: #5770C0; margin-bottom: 20px; border-radius: 4px; background-color: #C8DAFF;">
+📝 If you are a Swiss non-profit organisation that holds natural history collections, you can contribute by sharing your digital records of specimens with national and international data infrastructures.
+</div>
 
 # 1. Digitising Specimens
 
