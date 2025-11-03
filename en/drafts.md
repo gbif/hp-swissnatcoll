@@ -5,7 +5,7 @@ layout: compose
 composition:
   - type: blank
     data: video.scn-movie
-  - type: markdownContent
+  - type: markdown
 ---
 
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
