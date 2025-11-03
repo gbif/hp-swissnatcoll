@@ -17,9 +17,10 @@ composition:
 #    data: exhibitions
 #  - type: features
 #    data: outofthebox
+# real link : https://youtu.be/KgHyJqWjLvo
 ---
 
-<iframe width="560" height="315" src="https://youtu.be/KgHyJqWjLvo" title="Swiss Collections Go Digital (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Tk1kOTXXujc" title="Swiss Collections Go Digital (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Discover the treasures of our collections
