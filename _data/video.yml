@@ -6,12 +6,12 @@ scn-movie:
         <p>
           Watch a 5-min film to discover the SwissCollNet initiative.<br></p>
         <p style="font-size: 18px;">
-          <br><i>Languages available:</i>
+          <i>Languages available:</i>
         </p>
       </div>
     
       <!-- Sélecteur de langue -->
-      <div id="language-selector" style="margin-bottom: 20px; font-size: 14px;">
+      <div id="language-selector" style="margin-bottom: 20px; font-size: 14px; align-items: center;">
         <label style="margin: 0 10px; cursor: pointer;">
           <input type="radio" name="lang" value="EN" checked> English
         </label>
