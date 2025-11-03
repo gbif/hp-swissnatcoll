@@ -20,9 +20,7 @@ composition:
 # real link : https://youtu.be/KgHyJqWjLvo
 ---
 
-<div class="video-container"><iframe width="670" height="480" src="https://www.youtube.com/embed/GR-dSHKJ67Y" title="Sensibilisation sur les donnees de la biodiversite au Togo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-<br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Tk1kOTXXujc?si=yWzjZ_hqaVqzPpmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe width="670" height="480" src="https://www.youtube.com/embed/Tk1kOTXXujc?si=yWzjZ_hqaVqzPpmq" title="Swiss Collections Go Digital movie (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 ## Discover the treasures of our collections
