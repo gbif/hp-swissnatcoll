@@ -9,12 +9,17 @@ height: 50vh
 composition:
   - type: heroImage
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
-  - type: features
-    data: exhibitions
-  - type: features
-    data: outofthebox
+  - type: blank
+    data: video.scn-movie
+  - type: split
+    data: video.scn-movie2
+#  - type: features
+#    data: exhibitions
+#  - type: features
+#    data: outofthebox
 ---
 
+<iframe width="560" height="315" src="https://youtu.be/KgHyJqWjLvo" title="Swiss Collections Go Digital (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Discover the treasures of our collections
