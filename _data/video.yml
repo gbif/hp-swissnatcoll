@@ -37,18 +37,18 @@ scn-movie:
         </p>
       </div>
 
-      <div id="language-selector" style="margin-top: 10px; margin-bottom: 20px; font-size: 14px; align-items: center;">
+      <div id="language-selector" style="margin-top: 10px; margin-bottom: 20px; font-size: 18px; align-items: center;">
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="EN" checked> <img src="https://hatscripts.github.io/circle-flags/flags/uk.svg" width="10" height="10"> English
+          <input type="radio" name="lang" value="EN" checked> <img src="https://hatscripts.github.io/circle-flags/flags/uk.svg" width="13" height="13"> English
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="DE"> <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="10" height="10"> Deutsch
+          <input type="radio" name="lang" value="DE"> <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="13" height="13"> Deutsch
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="FR"> <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="10" height="10"> Français
+          <input type="radio" name="lang" value="FR"> <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="13" height="13"> Français
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="IT"> <img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="10" height="10"> Italiano
+          <input type="radio" name="lang" value="IT"> <img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="13" height="13"> Italiano
         </label>
       </div>
     
