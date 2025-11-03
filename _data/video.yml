@@ -4,24 +4,25 @@ scn-movie:
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
       <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
         <p>
-          Watch a 5-min film to discover the SwissCollNet initiative.<br>
+          Watch a 5-min film to discover the SwissCollNet initiative.<br></p>
+        <p style="font-size: 18px;">
           <i>Also available in German, French, and Italian.</i>
         </p>
       </div>
     
       <!-- Sélecteur de langue -->
-      <div id="language-selector" style="margin-bottom: 20px;">
+      <div id="language-selector" style="margin-bottom: 20px; font-size: 14px;">
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="EN" checked>English
+          <input type="radio" name="lang" value="EN" checked> English
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="DE">Deutsch
+          <input type="radio" name="lang" value="DE"> Deutsch
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="FR">Français
+          <input type="radio" name="lang" value="FR"> Français
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="IT">Italiano
+          <input type="radio" name="lang" value="IT"> Italiano
         </label>
       </div>
     
