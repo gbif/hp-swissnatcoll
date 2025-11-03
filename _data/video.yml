@@ -28,8 +28,8 @@ scn-movie:
       <!-- Iframe de la vidéo -->
       <iframe
         id="video-frame"
-        width=100%
-        height=100%
+        width="560"
+        height="315"
         src="https://www.youtube.com/embed/KgHyJqWjLvo"
         title="SwissCollNet film"
         frameborder="0"
