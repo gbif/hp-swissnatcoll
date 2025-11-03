@@ -1,12 +1,12 @@
 scn-movie:
   klass: iframe-box
   markdownContent: |
-    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
       <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
         <p>
           Watch a 5-min film to discover the SwissCollNet initiative.<br></p>
         <p style="font-size: 18px;">
-          <i>Also available in German, French, and Italian.</i>
+          <br><i>Languages available:</i>
         </p>
       </div>
     
