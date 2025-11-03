@@ -4,32 +4,32 @@ scn-movie:
     <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
       <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
         <p>
-          Watch a 5-min film to discover the SwissCollNet initiative.<br>
-          <i>Also available in German, French, and Italian.</i>
+          Watch a 5-min film to discover the SwissCollNet initiative.<br></p>
+        <p style="font-size: 16px;"><i>Also available in German, French, and Italian.</i>
         </p>
       </div>
 
       <!-- Sélecteur de langue -->
-      <div id="language-selector" style="margin-bottom: 20px;">
+      <div id="language-selector" style="margin-bottom: 20px; font-size: 16px;">
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="EN" checked> 🇬🇧 English
+          <input type="radio" name="lang" value="EN" checked> English
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="DE"> 🇩🇪 Deutsch
+          <input type="radio" name="lang" value="DE"> Deutsch
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="FR"> 🇫🇷 Français
+          <input type="radio" name="lang" value="FR"> Français
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="IT"> 🇮🇹 Italiano
+          <input type="radio" name="lang" value="IT"> Italiano
         </label>
       </div>
 
       <!-- Iframe de la vidéo -->
       <iframe
         id="video-frame"
-        width="560"
-        height="315"
+        width=100%
+        height=100%
         src="https://www.youtube.com/embed/KgHyJqWjLvo"
         title="SwissCollNet film"
         frameborder="0"
@@ -53,18 +53,4 @@ scn-movie:
           });
         });
       </script>
-    </div>
-
-2scn-movie:
-  klass: iframe-box
-  markdownContent: |
-    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px;">
-      <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
-        <p>
-          Watch a 5-min film to discover the SwissCollNet initiative.<br>
-          <i>Also available in German, French, and Italian.</i>
-        </p>
-      </div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Tk1kOTXXujc?si=yWzjZ_hqaVqzPpmq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe>
     </div>
