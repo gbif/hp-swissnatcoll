@@ -36,20 +36,19 @@ scn-movie:
           <i>Languages available:</i>
         </p>
       </div>
-    
-      <!-- Sélecteur de langue -->
-      <div id="language-selector" style="margin-bottom: 20px; font-size: 14px; align-items: center;">
+
+      <div id="language-selector" style="margin-top: 10px; margin-bottom: 20px; font-size: 14px; align-items: center;">
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="EN" checked> English
+          <input type="radio" name="lang" value="EN" checked> <img src="https://hatscripts.github.io/circle-flags/flags/uk.svg" width="10" height="10"> English
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="DE"> Deutsch
+          <input type="radio" name="lang" value="DE"> <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="10" height="10"> Deutsch
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="FR"> Français
+          <input type="radio" name="lang" value="FR"> <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="10" height="10"> Français
         </label>
         <label style="margin: 0 10px; cursor: pointer;">
-          <input type="radio" name="lang" value="IT"> Italiano
+          <input type="radio" name="lang" value="IT"> <img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="10" height="10"> Italiano
         </label>
       </div>
     
