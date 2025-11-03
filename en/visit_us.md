@@ -11,8 +11,8 @@ composition:
   - type: pageMarkdown # This block will render the markdown in this file so no data property needed
   - type: blank
     data: video.scn-movie
-  - type: split
-    data: video.scn-movie2
+#  - type: split
+#    data: video.scn-movie2
 #  - type: features
 #    data: exhibitions
 #  - type: features
