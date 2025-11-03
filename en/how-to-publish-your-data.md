@@ -32,7 +32,8 @@ Standards for data exchange establish rules for describing, recording and exchan
 # 2. Publishing Specimen Data
 
 Once digitised, you can transfer your specimen data to DAGI, the national data aggregator for Natural History Collections. By automating the time-consuming processes of encoding and validating your data, and by providing a straight gate to publish data in GBIF, DAGI makes it easier to publish and update data, while ensuring compliance with the FAIR principles. More information about DAGI can be found here: [Aggregating Data](https://swissnatcoll.hp.gbif-staging.org/en/aggregating-data){:target="_blank"}.
- 
+
+
 Standardised data are then published simultaneously, both nationally via the SwissNatColl portal and internationally through GBIF. Your institution’s records will be presented  alongside those of other Swiss collections, accessible for search and download by users around the world.
 
 {% include back-to-top.html %}
