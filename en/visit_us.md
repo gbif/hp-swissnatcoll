@@ -20,7 +20,10 @@ composition:
 # real link : https://youtu.be/KgHyJqWjLvo
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Tk1kOTXXujc" title="Swiss Collections Go Digital (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/watch?v=Tk1kOTXXujc" title="Swiss Collections Go Digital (2025)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<br>
+
+<div class="video-container"><iframe src="https://www.youtube.com/watch?v=Tk1kOTXXujc" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
 
 
 ## Discover the treasures of our collections
