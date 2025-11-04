@@ -7,7 +7,7 @@ permalink: /en/drafts
 # ====================================================================================
 title: "Swiss Natural<br>History Collections"
 description: "_Discover the Treasures Curated in Switzerland_"
-background:  "{{ site.data.images.home.src }}"
+background:  "/assets/images/Illustrations_CochetA/SCN-bandeau-3-paon-compressed.png"
 imageLicense: "{{ site.data.images.home.caption }}"
 #parallax: true
 overlayColor: transparent # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
