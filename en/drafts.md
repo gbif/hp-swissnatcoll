@@ -1,12 +1,39 @@
 ---
-title: Test page for features
-description: 🏗️ test in progress
 layout: compose
+permalink: /en/drafts
+
+# ====================================================================================
+# TITLE PART OF THE HOMEPAGE
+# ====================================================================================
+title: "Swiss Natural History Collections"
+description: "_Discover the Treasures Curated in Switzerland_"
+background:  "{{ site.data.images.home.src }}"
+imageLicense: "{{ site.data.images.home.caption }}"
+#parallax: true
+overlayColor: transparent # OPTIONAL: The default it to slightly darken the image. Set to "transparent" to disable filter. Example value: #00000055
+hasBlackText: true
+hasTextShadow: true
+#hasBlackText: "{{ site.data.images.home.colorText }}"   # OPTIONAL - default is black. Depending on your background image is can be useful to change text color
+
+height: 90vh
+
+# ====================================================================================
+# WHOLE STRUCTURE OF THE HOMEPAGE
+# top banner (with title)
+# stats part
+# thematic feature coded in a yml file
+# 2-columns splitted part
+# ====================================================================================
 composition:
   - type: blank
     data: video.scn-movie
   - type: markdown
 ---
+
+# Navigation
+
+{% include back-to-top.html %}
+
 
 # Swiss Collections Go Digital
 
