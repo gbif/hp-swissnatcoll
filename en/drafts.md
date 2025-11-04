@@ -6,7 +6,7 @@ permalink: /en/drafts
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
 title: "Swiss Natural<br>History Collections"
-description: "_Discover the Treasures Curated in Switzerland_"
+description: " "
 background:  "/assets/images/Illustrations_CochetA/sketch-bandeaux-general04.png"
 imageLicense: "{{ site.data.images.home.caption }}"
 #parallax: true
