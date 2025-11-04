@@ -25,6 +25,7 @@ height: 90vh
 # 2-columns splitted part
 # ====================================================================================
 composition:
+  - type: heroImage
   - type: blank
     data: video.scn-movie
   - type: markdown
