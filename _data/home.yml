@@ -5,7 +5,7 @@
 stats:
   klass: contentTypesStat
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?limit=0&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7&publishingOrg=605e7170-1123-11d9-8433-b8a03c50a862&basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=FOSSIL_SPECIMEN"></span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?limit=0&publishingOrg=9661d20d-86b6-4485-8948-f3c86b022fa7&publishingOrg=605e7170-1123-11d9-8433-b8a03c50a862"></span>
       description: "Published Specimens"
       background:  "{{ site.data.images.specimens.src }}"
       imageLicense: "{{ site.data.images.specimens.caption }}"
