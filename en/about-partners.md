@@ -155,10 +155,10 @@ The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}) w
 
 # Technical point of contact
 
-Infrastructure maintenance and technical support are provided by the Swiss Node of GBIF ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"})
+Maintenance infrastructure and technical support are provided by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"})
 
 **GBIF Swiss Node**
 
-The Swiss Node of GBIF ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"}) coordinates the mobilisation, integration and publication of biodiversity data from across Switzerland within the international GBIF network. Operated by the Swiss Data and Information Centre on Swiss Fauna ([info fauna](https://www.infofauna.ch/fr#gsc.tab=0){:target="_blank"}), it brings together museums, research institutions, public authorities, and information centers to ensure that data on species and ecosystems are openly accessible. Acting as a bridge between national and global infrastructures, it provides services for data management and publication, and delivers high-resolution validated data to Swiss authorities.
+The GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/participation){:target="_blank"}) coordinates the mobilisation, integration and publication of biodiversity data from across Switzerland within the international GBIF network. It brings together museums, national biodiversity data centers, research institutions, agencies for conservation, administrations of protected areas. Bridging national and global infrastructures, it provides services for data management and publication, and delivers high-resolution validated data to Swiss authorities.
 
 {% include back-to-top.html %}
