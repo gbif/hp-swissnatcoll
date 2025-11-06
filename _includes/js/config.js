@@ -42,11 +42,9 @@ var siteConfig = {
   ],
   "disableInlineTableFilterButtons": false,
   "availableCatalogues": [
-    "OCCURRENCE",
-    "INSTITUTION",
+    "SPECIMEN",
     "COLLECTION",
-    "DATASET",
-    "LITERATURE",
+    "INSTITUTION"
   ],
   "dataHeader": {
     "enableApiPopup": false,
