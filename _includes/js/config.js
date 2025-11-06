@@ -42,7 +42,7 @@ var siteConfig = {
   ],
   "disableInlineTableFilterButtons": false,
   "availableCatalogues": [
-    "SPECIMEN",
+    "OCCURRENCE",
     "COLLECTION",
     "INSTITUTION"
   ],
