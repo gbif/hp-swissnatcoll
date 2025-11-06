@@ -40,15 +40,15 @@ var siteConfig = {
       "id": "literatureSearch"
     }
   ],
-  "disableInlineTableFilterButtons": false,
+  "disableInlineTableFilterButtons": true,
   "availableCatalogues": [
     "OCCURRENCE",
     "COLLECTION",
     "INSTITUTION"
   ],
   "dataHeader": {
-    "enableApiPopup": false,
-    "enableInfoPopup": false
+    "enableApiPopup": true,
+    "enableInfoPopup": true
   },
   // "theme": {
     // "primary": primaryColor,
@@ -200,7 +200,8 @@ var siteConfig = {
       "establishmentMeans",
       "iucnRedListCategory",
       "dataset",
-      "datasetName"
+      "datasetName",
+      "identificationValidationStatus"
     ],
     "tabs": [
       "table",
