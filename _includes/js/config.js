@@ -189,7 +189,6 @@ var siteConfig = {
       "recordNumber",
       "typeStatus",
       "preparations",
-      "collectionCode",
       "institutionCode",
       "institutionKey",
       "collectionKey",
