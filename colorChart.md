@@ -18,6 +18,8 @@ toc: true
 
 <div style="width: 100px; height: 100px; background-color: {{ config.algae.style.colors.primary }};"></div>
 
+<div style="width: 100px; height: 100px; background-color: {{ site.data.colors.siteColor.background }};"></div>
+
 In order to maintain a consistency in colors and hues, a yml file ([_data/colors.yml](https://github.com/gbif/hp-swissnatcoll/blob/master/_data/colors.yml)) has been created and contains the colors information used in the hosted portal)
 
 Sources: [Converting Colors](https://convertingcolors.com/hex-color-5770C0.html)
