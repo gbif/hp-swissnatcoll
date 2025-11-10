@@ -1,6 +1,6 @@
-siteColor:
-  background: "rgba(87, 112, 192)"
-  transparency: "rgba(87, 112, 192, 0.2)"
+siteColor: # Check the config.yml file in case the primary site color changed
+  background: "rgba(87, 107, 192)"
+  transparency: "rgba(87, 107, 192, 0.2)"
 
 lightpink:
   background: "rgba(255, 199, 212)"
