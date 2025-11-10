@@ -16,7 +16,7 @@ toc: true
     - links
 - links = default (same as primary)
 
-<div style="width: 100px; height: 100px; background-color: {{ site.config.algae.style.colors.primary }};"></div>
+<div style="width: 100px; height: 100px; background-color: {{ config.algae.style.colors.primary }};"></div>
 
 In order to maintain a consistency in colors and hues, a yml file ([_data/colors.yml](https://github.com/gbif/hp-swissnatcoll/blob/master/_data/colors.yml)) has been created and contains the colors information used in the hosted portal)
 
