@@ -54,10 +54,8 @@ var siteConfig = {
     "primary": primaryColor,
     "borderRadius": isSquared,
     "stickyOffset": "0px",
-    mapDensityColors: ['#8FA3F9', '#758BE0', '#5770C0', '#3E56A0', '#263C80'],  // green2
-    // mapDensityColors: ['#31a354', '#006d2c', '#006d2c', '#006d2c', '#006d2c'],  // all dark green
-    // mapDensityColors: ['#216d40', '#216d40', '#0e4725', '#0e4725', '#00260f'],  // darker green2
-    // mapDensityColors: ['#71934c', '#608942', '#4d7b36', '#3e702b', '#2e621f'],  // darker green
+    // mapDensityColors: ['#8FA3F9', '#758BE0', '#5770C0', '#3E56A0', '#263C80'],  // midpurple
+    mapDensityColors: ['#8FA3F9', '#758BE0', '#5770C0', '#263C80', '#00134E'],  // darker purple
   },
   "apiKeys": {
     "mapbox": "pk.eyJ1IjoiaW5mb2ZhdW5hIiwiYSI6ImNsdzljY3JpODAxaXEycXBleGJsNTBqcHcifQ.DgU-N8lHtOSS0ogNiBnmow"
