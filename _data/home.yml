@@ -39,7 +39,7 @@ homeMap:
     <a href="/occurrence/search?view=map" 
          style="margin-top: 40px; display: block; width: 80%; max-width: 1200px; aspect-ratio: 297 / 210; overflow: hidden; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 3px solid #eee;">
         <img 
-          src="/assets/images/inline_Illustrations/SwissNatColl_map_published20251007.png" 
+          src="/assets/images/inline_Illustrations/SwissNatColl_map_published20251110.png" 
           alt="Map of published records"
           style="width: 100%; height: 100%; object-fit: cover; object-position: center;"/>
     </a>
