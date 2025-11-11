@@ -24,7 +24,7 @@ Aggregating and publishing specimen data offers museums significant advantages, 
 DAGI is the Swiss data aggregator for biological and paleontological specimen data. Designed as a collaborative tool for Swiss natural history institutions, it facilitates dataflows between collections by aggregating, standardising, and enriching the specimen data they supply and host.
 
 <br>
-<img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 12px; width: auto;"><a href="https://dagi.gbif.ch/sign-in" style="text-decoration: none;">Log-in to DAGI 🔒</a>
+<img src="https://dagi.gbif.ch/images/logo-light.png" alt="DAGI logo" style="height: 18px; width: auto;"><a href="https://dagi.gbif.ch/sign-in" style="text-decoration: none;">Log-in to DAGI 🔒</a>
 
 _For questions regarding DAGI, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch). We will be happy to provide you answers and support or address you to the correct person._
 
