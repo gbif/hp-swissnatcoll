@@ -91,10 +91,14 @@ var siteConfig = {
           labelKey: 'Swisstopo', // the label in the select. Use a translation key
           mapConfig: {
             basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json`,
-            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575,
-            latitude: 46.801111,
-            longitude: 8.626667,
-            zoom: 15
+            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
+            }
+          "mapSettings": {
+            "enabled": true,
+            "lat": 46.801111,
+            "lng": 8.626667,
+            "zoom": 3,
+            "userLocationEnabled": true
             }
           }
         }
