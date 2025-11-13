@@ -54,8 +54,6 @@ var siteConfig = {
     "primary": primaryColor,
     "borderRadius": isSquared,
     "stickyOffset": "0px",
-    // mapDensityColors: ['#8FA3F9', '#758BE0', '#5770C0', '#3E56A0', '#263C80'],  // midpurple
-    // mapDensityColors: ['#8FA3F9', '#758BE0', '#5770C0', '#263C80', '#00134E'],  // darker purple
     mapDensityColors: ['#C5C8F9', '#8FA3F9', '#5770C0', '#3A3C9B', '#1B1363'] // based on same constrasts as original ('#fed976', '#fd8d3c', '#F7642E', '#f03b20', '#bd0026')
   },
   "apiKeys": {
@@ -65,18 +63,24 @@ var siteConfig = {
     "locale": "en",
     "mapStyles": {
       "defaultProjection": "MERCATOR",
-      "defaultMapStyle": "NATURAL",
+      "defaultMapStyle": "BRIGHT",
       "options": {
         "MERCATOR": [
           "BRIGHT",
           "NATURAL",
+          "SATELLITE",
           "DARK"
-        ]
+        ],
+        "PLATE_CAREE": [
+          "BRIGHT",
+          "NATURAL",
+          "SATELLITE",
+          "DARK"
       }
     },
     "styleLookup": {
       "MERCATOR": {
-        "BRIGHT": "SWISSTOPO"
+        "DARK": "SWISSTOPO"
       }
     },
     addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
