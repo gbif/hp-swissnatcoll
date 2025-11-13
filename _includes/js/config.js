@@ -93,13 +93,6 @@ var siteConfig = {
             basemapStyle: `https://vectortiles.geo.admin.ch/styles/ch.swisstopo.basemap.vt/style.json`,
             projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
             }
-          "mapSettings": {
-            "enabled": true,
-            "lat": 46.801111,
-            "lng": 8.626667,
-            "zoom": 3,
-            "userLocationEnabled": true
-            }
           }
         }
       }
