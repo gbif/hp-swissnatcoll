@@ -76,6 +76,7 @@ var siteConfig = {
           "NATURAL",
           "SATELLITE",
           "DARK"
+        ]
       }
     },
     "styleLookup": {
