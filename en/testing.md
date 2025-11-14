@@ -4,7 +4,7 @@ permalink: /testing
 title: Testing page
 ---
 
-<head>
+<!-- head>
   <style>
     .modal {
       display: none;
@@ -30,4 +30,4 @@ title: Testing page
   <div id="myModal" class="modal" onclick="this.style.display='none'">
     <img class="modal-content" src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EbjpkjzO0bVImDEL6wYRcWABE9NPxXXO_H_VzFhazBc8wA?e=1xMnV8">
   </div>
-</body>
+</body -->
