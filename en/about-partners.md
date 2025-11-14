@@ -149,6 +149,7 @@ The Swiss Center for Species Information  ([InfoSpecies](https://www.infospecies
 The Association of Natural Science Museums and Collections in Switzerland and Liechtenstein ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"}) represents the interests of natural history museums towards the Association of Swiss Museums, the Swiss Academy of Natural Sciences, the Swiss Confederation, politicians, and the general public. Its objective is to promote the importance of scientific collections and museums as an integral part of national and international cultural heritage. Beginning in 2026, a dedicated office will support the network through publications, events, fundraising, and cultural policy activities.
 
 **Swiss Academy of Sciences**
+
 The Swiss Academy of Sciences ([SCNAT](https://scnat.ch/en){:target="_blank"}) works at regional, national, and international level for the future of science and society. It strengthens the awareness for the sciences as a central pillar of cultural and economic development. The breadth of its support makes it a representative partner for politics. SCNAT links the sciences, provides expertise, promotes the dialogue between science and society, identifies and evaluates scientific developments. It is part of the association of the Swiss Academies of Arts and Sciences.
 
 # Technical Point of Contact
