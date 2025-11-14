@@ -10,7 +10,7 @@ tutorials:
     - title: Import
       path: /en/data-aggregator-faqs#do-i-have-to-upload-my-entire-database-into-the-data-aggregator
     - title: Important attributes
-      path: https://swissnatcoll.hp.gbif-staging.org/en/data-aggregator-faqs#which-fields-are-requiredmandatory
+      path: /en/data-aggregator-faqs#which-fields-are-requiredmandatory
     - title: Images
       path: /en/data-aggregator-faqs#can-i-upload-images-in-the-data-aggregator
     - title: Encoding
