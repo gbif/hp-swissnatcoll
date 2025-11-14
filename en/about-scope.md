@@ -30,32 +30,72 @@ SwissCollNet supported 68 large-scale inter-institutional and inter-cantonal pro
 Together, the DAGI aggregator and the SwissNatColl portal constitute a national data infrastructure that enhances the visibility, collaboration and research on Swiss collections.
 <br><br>
 
-<head>
-  <style>
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 200%;
-      height: 200%;
-      background: rgba(0, 0, 0, 0.5);
-    }
-
-    .modal-content {
-      margin: 15% auto;
-      display: block;
-      max-width: 1000px;
-    }
-  </style>
-</head>
-<body>
-  <!-- Button to open the modal -->
-  <button onclick="document.getElementById('myModal').style.display='block'">View GIF</button>
-  <!-- The Modal -->
-  <div id="myModal" class="modal" onclick="this.style.display='none'">
-    <img class="modal-content" src="https://cscfetkarch.sharepoint.com/:i:/s/infofauna_extern/EbjpkjzO0bVImDEL6wYRcWABE9NPxXXO_H_VzFhazBc8wA?e=1xMnV8">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
+  <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
+    <p>
+      Watch a 5-min film to discover the SwissCollNet initiative.<br>
+    </p>
   </div>
-</body>
+
+  <!-- Conteneur de la vidéo -->
+  <div style="
+      margin-top: 10px;
+      display: block;
+      width: 80%;
+      max-width: 900px;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      border: 3px solid #eee;
+    ">
+    <iframe
+      id="video-frame"
+      src="https://www.youtube.com/embed/KgHyJqWjLvo"
+      title="SwissCollNet film"
+      style="width: 100%; height: 100%; border: 0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div>
+    <p style="font-size: 18px;">
+      <i>Languages available:</i>
+    </p>
+  </div>
+
+  <div id="language-selector" style="margin-top: 10px; margin-bottom: 20px; font-size: 18px; align-items: center;">
+    <label style="margin: 0 10px; cursor: pointer;">
+      <input type="radio" name="lang" value="EN" checked> <img src="https://hatscripts.github.io/circle-flags/flags/uk.svg" width="13" height="13"> English
+    </label>
+    <label style="margin: 0 10px; cursor: pointer;">
+      <input type="radio" name="lang" value="DE"> <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="13" height="13"> Deutsch
+    </label>
+    <label style="margin: 0 10px; cursor: pointer;">
+      <input type="radio" name="lang" value="FR"> <img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="13" height="13"> Français
+    </label>
+    <label style="margin: 0 10px; cursor: pointer;">
+      <input type="radio" name="lang" value="IT"> <img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="13" height="13"> Italiano
+    </label>
+  </div>
+
+  <script>
+    const videoLinks = {
+      EN: "https://www.youtube.com/embed/KgHyJqWjLvo",
+      DE: "https://www.youtube.com/embed/4WfiPhRb_K4",
+      FR: "https://www.youtube.com/embed/_ZlxmIIvjWw",
+      IT: "https://www.youtube.com/embed/ubRLuPSKwR0"
+    };
+
+    document.querySelectorAll('input[name="lang"]').forEach(radio => {
+      radio.addEventListener('change', e => {
+        const iframe = document.getElementById('video-frame');
+        iframe.src = videoLinks[e.target.value];
+      });
+    });
+  </script>
+</div>
 
 {% include back-to-top.html %}
