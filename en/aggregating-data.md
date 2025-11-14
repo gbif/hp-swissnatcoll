@@ -29,7 +29,7 @@ _For questions regarding DAGI, please send an email to [dagi@gbif.ch](mailto:dag
 
 ## Managing Team
 
-DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the InfoSpecies.
+DAGI is currently managed by the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}), affiliated to the [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"}.
 
 ## Open-source
 
