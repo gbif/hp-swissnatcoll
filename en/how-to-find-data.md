@@ -133,7 +133,7 @@ You can explore the data in different ways:
 | _Table view_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
 | _Map view_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
 | _Gallery view_  | Browse pictures of specimens. |
-| _Datasets_  | See a list of collection datasets. |
+| _Datasets_  | See a list of collection datasets, corresponding to the collections registered in [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}. |
 | _Dashboard_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 0px;">
@@ -157,19 +157,17 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 
 | Type of data | Default filters |
 | ------------ | --------------- |
-| _Specimens_ | Institution ; Features; Dataset ; Scientific name ; Recorded by ; Administrative area ; Year |
+| _Specimens_ | Institution ; Features ; Dataset ; Scientific name ; Recorded by ; Administrative area ; Year |
 | _Collections_ | Code ; Number of specimens ; Specimens in GBIF ; Scientific name ; Country or area of coverage |
 | _Institutions_ | Code ; Number of specimens ; Specimens in GBIF |
 
 # Downloading Data
 
 Only users with a GBIF account can download data (easily created for free). On the [specimens page](/occurrence/search), the tab on the right at the top is [Download](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
-
-For more information, see the page on [GBIF data processing](https://www.gbif.org/data-processing).
+For more information, see the page on [GBIF data processing](https://www.gbif.org/data-processing)
 
 # Original vs. Published Data
 
-The data published on this portal has undergone various encodings, enrichments and validation processes.
-In most cases, the information has not changed significantly compared to the original data of the data providers. However, for threatened and sensitive swiss species, the accuracy of data has been deliberately reduced by blurring coordinates to a grid-cell level. These changes apply to species under the scope of [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"} in order to implement its [deontology](https://www.infospecies.ch/fr/assets/content/documents/flyer-infospecies-de-fr.pdf){:target="_blank"}.
+The data published on this portal has undergone various processes of encoding, enrichment and validation. In most cases, the information has not changed significantly compared to the original data of the data providers. However, there are Swiss species, for which the accuracy of data has been deliberately reduced by blurring coordinates to a grid-cell level. These changes apply to species under the scope of [InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"} in order to implement its [deontology](https://www.infospecies.ch/fr/assets/content/documents/flyer-infospecies-de-fr.pdf){:target="_blank"}.
 
 {% include back-to-top.html %}
