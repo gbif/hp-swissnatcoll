@@ -107,7 +107,6 @@ var siteConfig = {
             projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
           }
         }
-        
       }
     }
   },
