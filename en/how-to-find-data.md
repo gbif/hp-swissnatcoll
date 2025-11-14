@@ -1,5 +1,5 @@
 ---
-# https://swissnatcoll.hp.gbif-staging.org/en/how-to-find-data
+# /en/how-to-find-data
 # https://github.com/gbif/hp-swissnatcoll/blob/0d40438628db0538f23740e02c50051f2faf1dcc/en/how-to-find-data.md
 layout: heroImage
 title: How to Find Data?
@@ -130,11 +130,11 @@ You can explore the data in different ways:
 
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _Table view_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
-| _Map view_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
-| _Gallery view_  | Browse pictures of specimens. |
-| _Datasets_  | See a list of collection datasets, corresponding to the collections registered in [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}. |
-| _Dashboard_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
+| _[Table view](/occurrence/search){:target="_blank"}_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
+| _[Map view](/occurrence/search?view=map){:target="_blank"}_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
+| _[Gallery view](/occurrence/search?view=gallery){:target="_blank"}_  | Browse pictures of specimens. |
+| _[Datasets](/occurrence/search?view=datasets){:target="_blank"}_  | See a list of collection datasets, corresponding to the collections registered in [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}. |
+| _[Dashboard](/occurrence/search?view=dashboard){:target="_blank"}_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 0px;">
   <div style="width: 100%; font-size: 22px; line-height: 1.6; color: #333;">
