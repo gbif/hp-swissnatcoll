@@ -1,0 +1,42 @@
+{
+  "version": 8,
+  "name": "macrostrat_modified",
+  "sources": {
+    "openmaptiles": {
+      "type": "vector",
+      "tiles": ["https://tile.gbif.org/3857/omt/{z}/{x}/{y}.pbf"],
+      "projection": "EPSG:3857",
+      "wrapX": true,
+      "maxZoom": 17,
+      "tileSize": 512
+    },
+    "hillshade": {
+      "type": "raster",
+      "tiles": ["https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}"],
+      "maxzoom": 13,
+      "tileSize": 256
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {"background-color": "#E5E9CD"}
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "openmaptiles",
+      "source-layer": "water",
+      "paint": {"fill-color": "#CFDEED"}
+    },
+    {
+      "id": "admin_country",
+      "type": "line",
+      "source": "openmaptiles",
+      "source-layer": "boundary",
+      "filter": ["all", ["<=", "admin_level", 2], ["==", "$type", "LineString"]],
+      "paint": {"line-color": "#CFDEED", "line-width": 1.3}
+    }
+  ]
+}
