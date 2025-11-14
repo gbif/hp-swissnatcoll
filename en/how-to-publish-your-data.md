@@ -25,13 +25,12 @@ Data management should follow key principles that meet the standards of findabil
  
 ## Data Exchange Standards
 
-Standards for data exchange establish rules for describing, recording and exchanging natural history data. These standards, such as Darwin Core, play a crucial role in enabling the unambiguously exchange of collection data within the scientific community and to the public globally. They also facilitate data retrieval and better communication among different database systems. More information about data standards can be found on the [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/){:target="_blank"} website.
+Standards for data exchange establish rules for describing, recording and sharing natural history data. These standards, such as [Darwin Core](https://dwc.tdwg.org/){:target="_blank"}, play a crucial role in enabling the unambiguous exchange of collection data within the scientific community and to the public globally. They also facilitate data retrieval and better communication among different database systems. More information about data standards can be found on the [Biodiversity Information Standards (TDWG)](https://www.tdwg.org/){:target="_blank"} website.
 
 # 2. Publishing Specimen Data
 
-Once digitised, you can transfer your specimen data to DAGI, the national data aggregator for Natural History Collections. By automating the time-consuming processes of encoding and validating your data, and by providing a straight gate to publish data in GBIF, DAGI makes it easier to publish and update data, while ensuring compliance with the FAIR principles. More information about DAGI can be found here: [Aggregating Data](https://swissnatcoll.hp.gbif-staging.org/en/aggregating-data){:target="_blank"}.
-
-
+Once digitised, you can upload your specimen data in DAGI, the national data aggregator for Natural History Collections, and benefit from all available features. By automating the time-consuming processes of encoding and validating your data, and by providing a straight gate to publish data in GBIF, DAGI makes it easier to standardise, enrich, publish and update data, while ensuring compliance with the FAIR principles. More information about DAGI can be found here: [Aggregating Data](https://swissnatcoll.hp.gbif-staging.org/en/aggregating-data){:target="_blank"}.
+<br>
 Standardised data are then published simultaneously, both nationally via the SwissNatColl portal and internationally through GBIF. Your institution’s records will be presented  alongside those of other Swiss collections, accessible for search and download by users around the world.
 
 {% include back-to-top.html %}
