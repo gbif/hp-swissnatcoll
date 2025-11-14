@@ -69,14 +69,16 @@ var siteConfig = {
           "NATURAL",
           "BRIGHT",
           "SWISSTOPO",
-          "COLORCHART"
+          "COLORCHART",
+          "BLUELIGHT"
         ]
       }
     },
     "styleLookup": {
       "MERCATOR": {
         "SWISSTOPO": "SWISSTOPO",
-        "COLORCHART": "COLORCHART"
+        "COLORCHART": "COLORCHART",
+        "BLUELIGHT": "BLUELIGHT"
       }
     },
     addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
@@ -96,7 +98,16 @@ var siteConfig = {
             basemapStyle: '/assets/mapsFiles/map_colorChartv1.json',
             projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
           }
+        },
+        BLUELIGHT: { // the name of your style
+          component: mapComponents.OpenlayersMapbox, // what map component to use OpenlayersMap | OpenlayersMapbox
+          labelKey: 'Bluelight', // the label in the select. Use a translation key
+          mapConfig: {
+            basemapStyle: '/assets/mapsFiles/mapBluelight.json',
+            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
+          }
         }
+        
       }
     }
   },
