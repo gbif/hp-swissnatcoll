@@ -31,7 +31,7 @@ Together, the DAGI aggregator and the SwissNatColl portal constitute a national 
 <br><br>
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
-  <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
+  <div style="max-width: 1000px; font-size: 22px; line-height: 1.6; color: #333;">
     <p>
       Watch a 5-min film to discover the SwissCollNet initiative.<br>
     </p>
