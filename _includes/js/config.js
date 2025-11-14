@@ -89,6 +89,18 @@ var siteConfig = {
         }
       }
     },
+    addMapStyles: function ({ mapStyleServer, language, pixelRatio, apiKeys, mapComponents }) {
+      return {
+        COLORCHART: { // the name of your style
+          component: mapComponents.OpenlayersMapbox, // what map component to use OpenlayersMap | OpenlayersMapbox
+          labelKey: 'Beige', // the label in the select. Use a translation key
+          mapConfig: {
+            basemapStyle: '/assets/mapsFiles/map_colorChartv1.json',
+            projection: 'EPSG_3857'// one of 4326 | 3031 | 3857 | 3575
+          }
+        }
+      }
+    }
   },
   "languages": [
     {
