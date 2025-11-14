@@ -41,8 +41,7 @@ Together, the DAGI aggregator and the SwissNatColl portal constitute a national 
   <div style="
       margin-top: 10px;
       display: block;
-      width: 80%;
-      max-width: 1000px;
+      width: 100%;
       aspect-ratio: 16 / 9;
       overflow: hidden;
       border-radius: 16px;
