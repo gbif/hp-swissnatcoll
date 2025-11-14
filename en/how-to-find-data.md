@@ -164,6 +164,7 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 # Downloading Data
 
 Only users with a GBIF account can download data (easily created for free). On the [specimens page](/occurrence/search), the tab on the right at the top is [Download](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
+
 For more information, see the page on [GBIF data processing](https://www.gbif.org/data-processing)
 
 # Original vs. Published Data
