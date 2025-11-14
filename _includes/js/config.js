@@ -63,18 +63,11 @@ var siteConfig = {
     "locale": "en",
     "mapStyles": {
       "defaultProjection": "MERCATOR",
-      "defaultMapStyle": "BRIGHT",
+      "defaultMapStyle": "NATURAL",
       "options": {
         "MERCATOR": [
           "BRIGHT",
           "NATURAL",
-          "SATELLITE",
-          "DARK"
-        ],
-        "PLATE_CAREE": [
-          "BRIGHT",
-          "NATURAL",
-          "SATELLITE",
           "DARK"
         ]
       }
