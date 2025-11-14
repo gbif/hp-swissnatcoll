@@ -38,15 +38,16 @@ composition:
 
 # Swiss Collections Go Digital
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
+<!--
+<!--div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 10px;">
   <div style="max-width: 900px; font-size: 22px; line-height: 1.6; color: #333;">
     <p>
       Watch a 5-min film to discover the SwissCollNet initiative.<br>
     </p>
-  </div>
+  </div-->
 
   <!-- Conteneur de la vidéo -->
-  <div style="
+  <!--div style="
       margin-top: 10px;
       display: block;
       width: 80%;
@@ -104,4 +105,5 @@ composition:
       });
     });
   </script>
-</div>
+</div -->
+-->
