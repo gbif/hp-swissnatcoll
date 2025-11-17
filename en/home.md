@@ -26,8 +26,6 @@ height: 90vh
 # 2-columns splitted part
 # ====================================================================================
 composition:
-  - type: blank
-    data: home.homeTopMessage
   - type: heroImage
   - type: stats
     data: home.stats  #file with the stats: _data/features.yml
