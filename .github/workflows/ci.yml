@@ -1,0 +1,34 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # --- Checker typographique (Markdown) ---
+      - name: Lint Markdown
+        run: |
+          sudo npm install -g markdownlint-cli
+          markdownlint "**/*.md" || true
+
+      # --- Checker de liens (Lychee) ---
+      - name: Check links with Lychee
+        uses: lycheeverse/lychee-action@v1.8.0
+        with:
+          args: --verbose --no-progress .
+
+      # --- Build Jekyll (ton étape existante) ---
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
