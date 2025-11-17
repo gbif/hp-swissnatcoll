@@ -38,16 +38,16 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: Info Fauna
-  domain: https://www.infofauna.ch/fr#gsc.tab=0
-  contactEmail: contact-swissnatcoll@infofauna.ch
-  helpdeskEmail: contact-swissnatcoll@infofauna.ch
+  name: GBIF Swiss Node
+  domain: https://www.gbif.org/country/CH/participation
+  contactEmail: contact@gbif.ch
+  helpdeskEmail: contact@gbif.ch
 
 # The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
 siteMeasurements:
   enable: true # When enabled there will be a popup asking the user for their consent. If they accept then the function "attachMeasurements" will be called. You can overwrite this function by adding a file `/_includes/js/measure.js` and replace the function.
   GA_ID: "G-XXXXXXXX" # Your Google analytics ID. Sometimes they start with UA-XXXXX-X other times with G-XXXXXXXX depending on how you set it up
-  termsVersion: "2021-07-06" # A version number for your terms. If you change this, then the users will see the popup again asking them to confirm/reject anew.
+  termsVersion: "2025-11-17" # A version number for your terms. If you change this, then the users will see the popup again asking them to confirm/reject anew.
 
 
 algae:
