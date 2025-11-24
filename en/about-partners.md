@@ -26,8 +26,7 @@ Owing to its federal system, Swiss natural history collections are distributed a
   border: 1px solid black;
   padding: 5px;
   box-shadow: 0 2px 3px rgba(0,0,0,0.05);
-  scrollbar-width: thin;
-  scrollbar-color: {{ site.data.colors.siteColor.background }} #e0e0e0;
+  scrollbar-color: {{ site.data.colors.siteColor.background }} transparent;
   cursor: ns-resize; /* indique qu'on peut "faire glisser" pour scroller */
 }
 
