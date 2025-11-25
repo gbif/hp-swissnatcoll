@@ -7,7 +7,7 @@ permalink: /
 # TITLE PART OF THE HOMEPAGE
 # ====================================================================================
 title: "Swiss Natural History Collections"
-description: "_Discover the Treasures Curated in Switzerland_"
+description: "<em>Discover the Treasures Curated in Switzerland</em>"
 background:  "{{ site.data.images.home.src }}"
 imageLicense: "{{ site.data.images.home.caption }}"
 #parallax: true
