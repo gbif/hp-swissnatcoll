@@ -44,7 +44,7 @@ tutorials:
   - title: Attributes format
     path: /en/dagi-attributes-format
   - title: Special attributes
-    path: /en/attribute-values
+    path: /en/dagi-attributes-values
 
 georeferencing:
 - grouptitle: Content
