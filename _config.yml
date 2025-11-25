@@ -22,7 +22,7 @@
 title: SwissNatColl # the title of your site should go here
 email: contact@gbif.ch #your-email@example.com
 description: >
-  Virtual museum of Switzerland, open window on centuries of knowledge
+  Discover the Treasures Curated in Switzerland
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://swissnatcoll.ch" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: yourname # if you have an account you want to link to. Else comment this line out
