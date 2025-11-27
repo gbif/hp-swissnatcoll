@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /en/attribute-values
+permalink: /en/dagi-attributes-values
 title: Values examples for DAGI attributes
 description: Examples of values for the DAGI attributes
 sideNavigation: sideNavigation.tutorials
