@@ -25,7 +25,7 @@ toc: true
 # How to publish data with the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ A new version has been recently released on DAGI 🎉 The validation is now available for use. [15.12.2025]
+ℹ️ A new version has been recently released on DAGI 🎉 The **[validation](#validate-my-data)** is now available for users. [updated on 15.12.2025]
 </div>
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
@@ -445,19 +445,26 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Validate my data
 
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ This feature is not yet active nor fully developed. Clicking on it in DAGI does not do anything.
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
+✅ This is a brand new module available on DAGI. To know more about the background and context of this topic, please refer to our support material.
 </div>
 
-<!--
 1. Click on **☑️Validate**.
-  - A window opens with a short summary of what the validation entitles.
-  - Note that only the swiss specimens will be reviewed. Records coming from other countries will be ignored.
-2. Click on **validate**.
-  - A progression bar appears during the validation process and disappears when launched.
-  - The Validation status of your records have changed to 🌐In Validation.
-  - You can access the DarwinCore-Archive generated for the validation in the **Publications and Validations** tab and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
--->
+  - A pop-up window _Validation summary_ opens with a short summary of what the validation entails.
+  - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or species will be ignored, as well as fossil specimens.
+  - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent in a single file. Each sent file is available in the **Validations tab**.
+2. Click on **Validate**.
+  - A progression bar appears during the initiation of the validation process and disappears when launched. It might take some time for the validation file to be compiled. You can check their state in the **Validations tab**.
+  - When all validation files have been compiled and sent, the Validation status of your records change to ⚙️Requested.
+  - You can access the CSV generated for the validation in the **Validations tab** and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
+
+### Get validation feedback
+
+<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ This part is still under development and might not 
+</div>
+
+After the 
 
 
 <br>
