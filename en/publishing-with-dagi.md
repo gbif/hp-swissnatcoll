@@ -451,7 +451,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 1. Click on **☑️Validate**.
   - A pop-up window _Validation summary_ opens with a short summary of what the validation entails.
-  - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or species will be ignored, as well as fossil specimens.
+  - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
   - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent per e-mail in a single file.
 2. Click on **Validate**.
   - A progression bar appears during the initiation of the validation process and disappears when launched. It might take some time for the validation file to be compiled. You can check their state in the **Validations tab**.
