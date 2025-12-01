@@ -452,19 +452,25 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 1. Click on **☑️Validate**.
   - A pop-up window _Validation summary_ opens with a short summary of what the validation entails.
   - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or species will be ignored, as well as fossil specimens.
-  - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent in a single file. Each sent file is available in the **Validations tab**.
+  - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent per e-mail in a single file.
 2. Click on **Validate**.
   - A progression bar appears during the initiation of the validation process and disappears when launched. It might take some time for the validation file to be compiled. You can check their state in the **Validations tab**.
   - When all validation files have been compiled and sent, the Validation status of your records change to ⚙️Requested.
-  - You can access the CSV generated for the validation in the **Validations tab** and download it by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
+  - You can access the CSVs generated for the validation in the **Validations tab** and download them by clicking on the blue icon of the size (📥*xyz.x kbyte*)<br>
 
 ### Get validation feedback
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ This part is still under development and might not 
+⚠️ This part is still under development and might not be available before the first quarter of 2026. You will be informed officially when everything is ready.
 </div>
 
-After the 
+After the validation process done on the data centers side, the records on DAGI are enriched on the _Validation layer_ with the validated data coming from the Info Species data centers. The _Collection Administrator_ of a dataset with validated records is informed by e-mail. In the case of not-validated records, a similar e-mail is sent and the feedback is displayed in the side-pane of the records.
+1. Click on a record to open the side-pane on the right side of your browser window.
+   - If the record is **Not Validated**, the feedback is displayed in the top part of the side-pane (**Info Species Feedback**).
+   - If the record is **Validated**, the validated values are displayed with each attributes in the bottom part of the side-pane.
+2. If you want to publish the validated values, first [export](/export-my-data) the records and do the necessary changes directly in your database. After then only can you import these new data into DAGI and publish them.
+
+> The validation process does not prevent the publication on GBIF, and it is not planned to publish the validated values as is. The source of truth is and remain the institution database.
 
 
 <br>
