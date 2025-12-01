@@ -438,7 +438,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
    - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
-  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
+  <p style="font-size: 20px;"><strong>What you expect to have at the end of the Publishing step:</strong></p>
   <p>✅ A <strong>purple hyperlink <em>Show on GBIF ↗️</em></strong> below the dataset title of the Dataset view <strong>linking to the published dataset on GBIF with your published records</strong></p>
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
