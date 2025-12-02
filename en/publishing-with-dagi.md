@@ -25,7 +25,8 @@ toc: true
 # How to publish data with the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ A new version has recently been released on DAGI 🎉 providing corrections of bugs and fixes of features [updated on 04.12.2025]. Happy holidays 🎄
+  <p>ℹ️ A new version has recently been released on DAGI 🎉 providing corrections of bugs and fixes of features. Happy holidays 🎄</p>
+  <p align="right">[updated on 04.12.2025]</p>
 </div>
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
