@@ -61,7 +61,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
 
-<br>✅ **At least [one Collection Administrator of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
+<br>✅ **At least [one _Collection Administrator_ of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
 
 ⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name, institution role, institution email and institution name.
 
@@ -92,13 +92,13 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 
 ## Prepare my data
 
-1. Focus on the **most important fields** first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
+1. Focus on **the most important fields** first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management. <br>
-2. Make sure the [fields which require special values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
+2. Make sure the [fields that require specific predefined values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName or catalogNumber cells
-   - duplicated headers or un-titled columns
+   - duplicate headers or unnamed columns
    - any unwanted space after a header
   
 ⚠️ There are fields that are not available for mapping because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are based on GRSciColl and GBIF.
@@ -108,7 +108,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 MB (= 800 Mo), containing your data arranged as <strong>each line represents one occurrence/specimen, each column represents one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
+  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 MB (= 800 Mo), containing your data arranged as <strong>each line is one catalogNumber of an occurrence/specimen, each column is one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
@@ -124,7 +124,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
     <td style="text-align: left; border: 1px solid black; padding: 10px;"><i>Cyclamen hederifolium</i> Aiton</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">Switzerland</td>
-    <td style="text-align: left; border: 1px solid black; padding: 10px;">Geneve</td>
+    <td style="text-align: left; border: 1px solid black; padding: 10px;">Geneva</td>
     <td style="text-align: left; border: 1px solid black; padding: 10px;">...</td>
   </tr>
   <tr>
@@ -161,20 +161,20 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
   </tr>
 
   </table>
-  <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", "indet.", etc. values from your file or you may receive an error message during import. ⚠️</p>
+  <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", "indet.", etc. values from your file or you may receive an error message during import.</p>
 </div>
 
 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding fields.
-  - Right after signing in, you will be requested to accept [DAGI's terms of use](https://infofauna-support.atlassian.net/wiki/spaces/II/pages/18972887/Relancer+le+script+de+transfert+des+donn+es+InfoSpecies+sur+le+bucket){:target="_blank"}
+  - Immediately after signing in, you will be requested to accept [DAGI's terms of use](https://infofauna-support.atlassian.net/wiki/spaces/II/pages/18972887/Relancer+le+script+de+transfert+des+donn+es+InfoSpecies+sur+le+bucket){:target="_blank"}
   - When signed in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
 
 There are two different views on your institution page:
 
   - **[Datasets](#datasets-view)**: displays all the **datasets** of your institution already added in DAGI.
-  - **[Administration](#administration-view)**: ⚠️visible only to _Collection Administrators_ ⚠️, displays all **users** already added to your institution.
+  - **[Administration](#administration-view)**: ⚠️visible only to _Collection Administrators_⚠️, displays all **users** already added to your institution.
 
 There are also two icons opening pages on the SwissNatColl portal with support material to help you using DAGI.
 
@@ -198,13 +198,13 @@ The terms of use you just accepted are at all times available by clicking on the
 2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the window or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
 3. If your Datasets view already has datasets, click on the **🪟New dataset** button in the top right corner of the window.
 
---- A pop-up window _New Dataset_ has opened. ---
+--- A pop-up window titled _New Dataset_ has opened. ---
 
-1. Select the type of your data. ⚠️**Mandatory**⚠️
+1. Select the type of your data. ⚠️**Mandatory**
     - Available types: Zoology, Botany, Paleontology
-2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**⚠️
+2. Select the corresponding GRSciColl Collection of your institution. ⚠️**Mandatory**
     - If the GRSciColl collection has already been added on DAGI, it is not present anymore in the drop-down list of this pop-up window. You can find it on the Datasets view.
-3. Add a description of the dataset. 💡optional💡
+3. Add a description of the dataset. ℹ️optional
 4. Click on **Create dataset**
     - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
     - If you want to edit a dataset, click on the 📝Edit icon of the dataset (far right-side of dataset line in the Datasets view)
@@ -229,8 +229,8 @@ The terms of use you just accepted are at all times available by clicking on the
   - The tab **Records** displays the imported **records** available in the dataset.
   - The tab **Imports** displays all the **files** that have been imported.
   - The tab **Exports** displays all the **files** that have been exported.
-  - The tab **Publications** displays all the **files** that have been published on GBIF.org
-  - The tab **Validations** is still to be developed ⚠️
+  - The tab **Publications** displays all the **files** that have been published on GBIF.org.
+  - The tab **Validations** displays all the **files** that have been sent for validation to an Info Species data center.
   - The tab **Image Upload** displays all the **files** with images that have been uploaded.
   - The tab **Published Records** displays all the **records** that have been already published.
 3. If your dataset is empty, click either on the **+ Import** button in the center of the window, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
@@ -292,18 +292,9 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 ## Encode my data
 
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-<p>ℹ️ <strong>Encoding is not mandatory, though highly recommended</strong>, so that you can benefit from the enrichment offered by DAGI.</p>
-<p>Despite not needed for publication or validation, supplementary mandatory attributes must be imported, because <strong>GBIF accepts new occurrences under certain conditions and some attributes are important for the correct attribution of a record to a Data Center</strong>.</p>
-<p>The supplementary mandatory attributes are <i>kingdom</i> and <i>country</i>.</p>
-</div>
-
-1. If you want to encode only a certain set of your data, use the **available filters**.
-  - **Quick-filters**: Below the grey tab band, there are four boxes displaying from left to right: the total number of records (**All records**), the percentage and number of not-encoded records (**Not encoded / Incomplete**), the percentage and number of not-published records (**Not published**) and the percentage and number of not-validated records (**Not validated**). By selecting one, you can set a first level of filters.
-  - **🔍Search**: Below the Quick-filters, there is a search bar which allows you to look for specific values in the following attributes : _cataloNumber_, _scientificName_ and _occurrenceID_.
-  - **🎚️Filters**: Next to the search bar, there is the Filters button which opens a pop-up window with available filters grouped in four categories: Taxonomy, Date, Location and Other. Please check the [Filters paragraph](#filters){:target="_blank"} for a precise description.
+1. If you want to encode only a certain set of your data, use the **[available filters](#filters)**.
 2. Click on **🧩Encode**.
-  - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some attributes as query values that are sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich specific attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [What does the Encoding do? in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for a precise description)
+  - A pop-up window titled _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some attributes as query values that are sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich specific attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [What does the Encoding do? in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for a precise description)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
 3. When satisfied with the set of records you want to encode, click on **Encode**.
   - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the encoding state.
@@ -323,17 +314,17 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 ## Export my data
 
 1. Click on **📥Export**.
-  - A pop-up window _Export Records_ opens and is composed of two parts: Data headers and Data layer.
+  - A pop-up window titled _Export Records_ opens and is composed of two parts: Data headers and Data layer.
 2. **Select your data headers** allows you to determine the column names of your export file. You can choose between your original headers, as imported in the [Import my data](#import-my-data) part, or the Darwin Core (DWC) Attributes, which includes all available attributes in DAGI.
   - You can select only one at a time. If you want both types, export the records twice.<br>
 3. **Select the data layer** allows you to determine which data values you want to export. You can choose between your imported data (Raw), as imported in the [Import my data](#import-my-data) part, or the encoded data (Encoded), as encoded in the [Encode my data](#encode-my-data) part.
    - You can select only one at a time. If you want both types, export the records twice.<br>
-6. Click on **Start export**.
+4. Click on **Start export**.
   - The page view changes from the Records tab to the Exports tab where all of your exported files are listed.
   - A progression bar appears during the export process and disappears when finished.<br>
-3. Click on the **blue icon** (📥*xyz.x Mbyte*) of your export file in the _Size_ column.
+5. Click on the **blue icon** (📥*xyz.x Mbyte*) of your export file in the _Size_ column.
   - The file is now saved as a .zip file on your computer (usually in the Downloads folder or on your Desktop).<br>
-4. Go to the zip file on your computer and extract the CSV file it contains.
+6. Go to the zip file on your computer and extract the CSV file it contains.
   - A unique file name for this CSV file has been generated by DAGI.
   - Your data content is separated by commas.
   - The file is encoded in UTF-8. To facilitate the opening of the file, we recommend you use the _Get Data from a CSV file_ method directly in Excel. This way the UTF-8 format is set properly.
@@ -451,7 +442,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 </div>
 
 1. Click on **☑️Validate**.
-  - A pop-up window _Validation summary_ opens with a short summary of what the validation entails.
+  - A pop-up window titled _Validation summary_ opens with a short summary of what the validation entails.
   - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
   - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent per e-mail in a single file.
 2. Click on **Validate**.
@@ -495,7 +486,7 @@ In the top-right corner of the page, you can see your login name, the button to 
   <figcaption>DAGI Datasets view with datasets</figcaption>
 </figure>
 
-The datasets displayed here are the ones that have been added by a Collection Administrator of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
+The datasets displayed here are the ones that have been added by a _Collection Administrator_ of your institution. You can only see the datasets of the institution you have been registered to upon creation of your user's profile. The datasets are organised by default by order of creation. If you wish to order them differently, you can click on any of the available headers and order them in an ascending or descending order:
 - *Name*: name of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collection name).
 - *Code*: code of your dataset as stated on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"} (collectionCode).
 - *State*: is green (🕒Ready) when the previous action launched is finished and a new one can be started (Actions : [📤import](#import-my-data), [📥export](#export-my-data),  [🧩encode](#encode-my-data), [🌐publish](#publish-my-data) and [✅validate](#validate-my-data)).
@@ -505,7 +496,7 @@ The datasets displayed here are the ones that have been added by a Collection Ad
 - *Records count / est.*: numerical display of the _Progress_, with first the number of records currently present in the dataset on DAGI and second the total number of specimens stated on the collection page on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}.
 - *Updated At*: timestamp of the last action executed on the dataset.
 
-Only the Collection Administrators can add (🪟New dataset) and edit (📝) datasets in the Datasets view. The deletion of datasets is available only for the platform admins.
+Only the _Collection Administrators_ can add (🪟New dataset) and edit (📝) datasets in the Datasets view. The deletion of datasets is available only for the platform admins.
 
 
 ### Dataset page
@@ -665,17 +656,17 @@ The Administration view displays **all users already added to your institution**
 ### Roles and tasks
 
 The *Roles* column informs you on the role/s attributed to each user:
-- **Data Digitizer** (executor role)
+- **_Data Digitizer_** (executor role)
   - can view and access the datasets of their institution
   - can [import](#import-my-data), [map](#map-my-data), [encode](#encode-my-data), [export](#export-my-data), [upload images](#upload-images) and [send for validation](#validate-my-data) the records in the datasets of their institution
-- **Collection Administrator** (manager role)
+- **_Collection Administrator_** (manager role)
   - can view, add, edit and remove users of their institution
   - can view, [add](#add-a-new-dataset] and edit datasets of their institution
   - can [publish](#publish-my-data) datasets on GBIF.org
  
 <br>
 
-| Tasks | Collection Administrator | Data Digitizer |
+| Tasks | _Collection Administrator_ | _Data Digitizer_ |
 | ----- | ------------------ | -------------------- |
 | **Users** -view/add/edit/remove | ✅ | ❌ |
 | **Datasets** -view | ✅ | ✅ |
@@ -687,13 +678,13 @@ The *Roles* column informs you on the role/s attributed to each user:
 
 <br>
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the Collection Administrator (curators, institution staff member responsible of a collection) can do this important step.
+⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the _Collection Administrator_ (curators, institution staff member responsible of a collection) can do this important step.
 </div>
 <br>
 
 For each user, it is possible to edit the profile (📝) and delete it (🗑️).
 
-We consider that the Collection Administrator is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
+We consider that the _Collection Administrator_ is fully responsible for the management of their institution page on DAGI. There is no need to ask for permission to add new users.
 
 ### Add a new user
 
@@ -721,7 +712,7 @@ On this page are also listed all the text material, use-case material and Powerp
 
 ### Terms & Conditions
 
-By clicking on **📄Terms&Conditions**, a new tab is opened on the [terms of use page](/en/terms/){:target="_blank"} of the SwissNatColl hosted portal. This page sets the agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland. By accessing the Data Aggregator DAGI, each user was requested to accept to comply to the terms. This acceptation is renewed everytime a Collection Administrator publishes a dataset on GBIF.org.
+By clicking on **📄Terms&Conditions**, a new tab is opened on the [terms of use page](/en/terms/){:target="_blank"} of the SwissNatColl hosted portal. This page sets the agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland. By accessing the Data Aggregator DAGI, each user was requested to accept to comply to the terms. This acceptation is renewed everytime a _Collection Administrator_ publishes a dataset on GBIF.org.
 
 
 {% include back-to-top.html %}
