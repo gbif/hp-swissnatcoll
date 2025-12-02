@@ -25,12 +25,12 @@ toc: true
 # How to publish data with the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-ℹ️ A new version has been recently released on DAGI 🎉 The **[validation](#validate-my-data)** is now available for users. [updated on 15.12.2025]
+ℹ️ A new version has recently been released on DAGI 🎉 providing corrections of bugs and fixes of features [updated on 04.12.2025]. Happy holidays 🎄
 </div>
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
 
-After preparing it, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) web app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
+After this preparation, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) web app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
 In parallel, you may benefit from the Infospecies data centers experts by [sending them your swiss data for validation](#validate-my-data). Each record sent will be carefully reviewed by the staff of the center concerned and a feedback will be available on DAGI after this process.
 
@@ -98,7 +98,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
    - catalogNumber duplicates
    - empty scientificName or catalogNumber cells
    - duplicated headers or un-titled columns
-   - an unwanted space after a header
+   - any unwanted space after a header
   
 ⚠️ There are fields that are not available for mapping because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are based on GRSciColl and GBIF.
 
