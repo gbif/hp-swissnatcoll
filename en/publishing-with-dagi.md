@@ -2,7 +2,7 @@
 layout: documentation
 permalink: /en/publishing-with-dagi
 title: DAGI Guide
-description: For Swiss Natural History institutions
+description: Guide for publishing data through the Swiss Data Aggregator (DAGI)
 sideNavigation: sideNavigation.tutorials
 toc: true
 ---
@@ -22,16 +22,16 @@ toc: true
 
 </head>
 
-# How to publish data with the Data Aggregator DAGI
+# How to publish data using the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-  <p>ℹ️ A new version has recently been released on DAGI 🎉 providing corrections of bugs and fixes of features. Happy holidays 🎄</p>
-  <p align="right">[updated on 04.12.2025]</p>
+  <p>ℹ️ A new version of DAGI has recently been released, providing bug fixes and feature improvements.</p>
+  <p align="right">Last update: 04.12.2025</p>
 </div>
 
-**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you need to first prepare an import file with all the data you want to publish (see [Prepare my data](#prepare-my-data) here below).
+**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you first need to prepare an import file containing all data you intend to publish (see [Prepare my data](#prepare-my-data) here below).
 
-After this preparation, you are ready to [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) web app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
+Once your file is prepared, you can [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) web app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
 In parallel, you may benefit from the Infospecies data centers experts by [sending them your swiss data for validation](#validate-my-data). Each record sent will be carefully reviewed by the staff of the center concerned and a feedback will be available on DAGI after this process.
 
@@ -46,7 +46,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 </figure>
 
 
-## Checklist -to do before logging in the Data Aggregator DAGI
+## Checklist - to do before logging in the Data Aggregator DAGI
 
 <br>✅ My **institution** is **registered on [GRSciColl](https://scientific-collections.gbif.org/institution/search?country=CH){:target="_blank"}**.
 
@@ -65,7 +65,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 
 ⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name, institution role, institution email and institution name.
 
-<br>✅ My import file has all **mandatory fields** (attributes) **correctly informed** to ensure successfull import in DAGI.
+<br>✅ My import file has all **mandatory fields** (attributes) **correctly filled** to ensure successful import in DAGI.
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
@@ -77,7 +77,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 
 ⚠️ Darwin Core headers are not mandatory in the import file, but it allows you to benefit from the auto-mapping, or else you will have to do the mapping manually for each field in your import file.
 
-<br>✅ My import file has a **maximum size of 800 Mbyte (= 800 Mo)**.
+<br>✅ My import file has a **maximum size of 800 MB (= 800 Mo)**.
 
 <br>
 
@@ -108,7 +108,7 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 Mbyte (= 800 Mo), containing your data arranged as <strong>each line represents one occurrence/specimen, each column represents one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
+  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 MB (= 800 Mo), containing your data arranged as <strong>each line represents one occurrence/specimen, each column represents one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
@@ -230,7 +230,7 @@ The terms of use you just accepted are at all times available by clicking on the
   - The tab **Imports** displays all the **files** that have been imported.
   - The tab **Exports** displays all the **files** that have been exported.
   - The tab **Publications** displays all the **files** that have been published on GBIF.org
-  - The tab **Validations** is still to be developped ⚠️
+  - The tab **Validations** is still to be developed ⚠️
   - The tab **Image Upload** displays all the **files** with images that have been uploaded.
   - The tab **Published Records** displays all the **records** that have been already published.
 3. If your dataset is empty, click either on the **+ Import** button in the center of the window, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
@@ -277,9 +277,9 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
 7. (Step 3️⃣ of 3️⃣) The last step is a summary window on which you can check your file name and size, creation date, the number of rows, and the mapped and unmapped columns.
-  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keep track of the correspondance between your database file headers and the attributes of DAGI.
+  - If you want to keep a trace of your mapping, you can select the whole summary window and copy-paste it on your computer. This might also help you keep track of the correspondence between your database file headers and the attributes of DAGI.
 8. When satisfied, click on **Run import**.
-  - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥xyz.x Mbyte), you can download your imported file.
+  - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon of the size (📥*xyz.x Mbyte*), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take a few hours to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
   - If the import did not work, the State is **❌ Failed**, you can check our [Error messages page](/en/dagi-error-messages#the-import-failed){:target="_blank"} for a precise description on what to do.
@@ -306,7 +306,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - A pop-up window _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some attributes as query values that are sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich specific attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [What does the Encoding do? in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for a precise description)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
 3. When satisfied with the set of records you want to encode, click on **Encode**.
-  - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has not impact on the process, you can come back later to check the encoding state.
+  - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your navigator has no impact on the process, you can come back later to check the encoding state.
   - During the encoding, no other action can be started.
 4. Check the percentage of encoded data on your Dataset page (see the second box called **Not encoded / Incomplete**) in the Quick-filters.
   - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
@@ -331,7 +331,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 6. Click on **Start export**.
   - The page view changes from the Records tab to the Exports tab where all of your exported files are listed.
   - A progression bar appears during the export process and disappears when finished.<br>
-3. Click on the **blue icon** (📥xyz.x Mbyte) of your export file in the _Size_ column.
+3. Click on the **blue icon** (📥*xyz.x Mbyte*) of your export file in the _Size_ column.
   - The file is now saved as a .zip file on your computer (usually in the Downloads folder or on your Desktop).<br>
 4. Go to the zip file on your computer and extract the CSV file it contains.
   - A unique file name for this CSV file has been generated by DAGI.
@@ -363,7 +363,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 - for records with several images, use the same file name but with an additionnal "_1", "_2", "_3", etc.
 - file format = **JPG, JPEG, PNG, BMP, TIFF, SVG or WEBP**
 - maximal file size = **5 Mb** (Mo)
-- maximale ZIP file size = **200 Mb** (Mo)
+- maximum ZIP file size = **200 Mb** (Mo)
 
 2. Click on the **Image Upload** tab in the grey tab band of your dataset, then on **➕ Upload Images** in the middle of the page or on **📤Upload Images** in the top-right corner of the page.
 
@@ -700,7 +700,7 @@ We consider that the Collection Administrator is fully responsible for the manag
 1. Go to the **Administration view** of your institution page by clicking on **🛠️Administration** on the left side of the page.
 2. Click on **👤➕ Add User** (top-right corner of the page).
 3. Enter the corresponding information in the *First name*, *Last name*, *E-Mail* (⚠️Mandatory⚠️) and *Phone* (💡optional💡) fields. The institution is automatically set and can't be changed
-4. Enter a customed password or click on **Generate Password**.<br>
+4. Enter a custom password or click on **Generate Password**.<br>
        ⚠️*Currently there are no user management, so do not forget to copy the password (by clicking on the 👁️‍🗨️ icon) and send it manually to the person concerned. The password of a user is available for display only during the creation steps. It is hidden afterwards.*
 5. Click on **Next**.
 6. Click on the toggle switch/es corresponding to the role/s you want to attribute to the new user (see the [Roles and tasks](#roles-and-tasks) section for the definitions).
