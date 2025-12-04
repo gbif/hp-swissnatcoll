@@ -61,7 +61,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 ⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
 
 
-<br>✅ **At least [one _Collection Administrator_ of my institution](/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
+<br>✅ **At least [one _Collection Administrator_ of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
 
 ⚠️ If your institution does not yet have a Collection Administrator, please send a request email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name, institution role, institution email and institution name.
 
@@ -69,7 +69,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-<br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 > catalogNumber     scientificName     eventDate     recordedBy     ...<br>
 > XXX-123456789     Poa annua L.     2024-10-09     Weber Morgan     ...<br>
 > ...      ...     ...      ...     ...<br>
@@ -92,7 +92,7 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 
 ## Prepare my data
 
-1. Focus on **the most important fields** first ([Mandatory fields](/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
+1. Focus on **the most important fields** first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management. <br>
 2. Make sure the [fields that require specific predefined values in DAGI](/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
@@ -267,7 +267,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 2. If you already did a mapping of a previous file, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
 3. If it is your first mapping and your file headers are different than the DAGI attributes, do first the _Required attributes_ by clicking on the drop-down menu **Select a column** on the right side of the attribute names. You can then select the corresponding header in your imported file.
   - By typing the beginning of your file header in the search bar, you can find it more easily.
-  - If unsure of the correspondence between the attributes and your file headers, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
+  - If unsure of the correspondence between the attributes and your file headers, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
 4. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your headers with the DAGI attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped headers of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file headers.
@@ -282,7 +282,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - The page displayed is now the Imports tab, where you can see all your imported files for a given dataset at all times. By clicking on the blue icon (📥*xyz.x Mbyte*), you can download your imported file.
   - A progression bar appears during the import process and disappears when finished. ⚠️ Depending on the size of your imported dataset, this step can take a few hours to be completed ⚠️ Closing your browser has no impact on the process, you can come back later to check the import state.
   - If the import worked, the State is **✅ Imported**
-  - If the import did not work, the State is **❌ Failed**, you can check our [Error messages page](/dagi-error-messages#the-import-failed){:target="_blank"} for a precise description on what to do.
+  - If the import did not work, the State is **❌ Failed**, you can check our [Error messages page](/en/dagi-error-messages#the-import-failed){:target="_blank"} for a precise description on what to do.
 9. Click on the **Records** tab to see your imported records.
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
@@ -466,10 +466,10 @@ After the validation process done on the data centers side, the records on DAGI 
 {: .box }
 **The source of truth of the records on DAGI is and remains the institution database**. Validated values can't be published directly on GBIF, but should first be reinjected in the institutional database and then re-imported in DAGI.
 
-1. [Export](/export-my-data) the records.
+1. [Export](#export-my-data) the records.
 2. Import the records in your institutional database according to your internal procedures.
-3. [Import](/import-my-data) the records back into DAGI with the values you intend to publish.
-4. [Encode](/encode-my-data) and [publish](/publish-my-data) the records.
+3. [Import](#import-my-data) the records back into DAGI with the values you intend to publish.
+4. [Encode](#encode-my-data) and [publish](#publish-my-data) the records.
 
 
 <br>
