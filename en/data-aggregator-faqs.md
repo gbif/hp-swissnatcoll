@@ -83,22 +83,22 @@ The DAGI's available attributes are based mainly on the Darwin Core terms but th
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>catalogNumber</em></td>
       <td style="border: 1px solid black; padding: 5px;">Your institution unique ID for a specimen (ideally starting with your institution or collection code)<br>⚠️Avoid inserting underscores ("_") in your catalogNumber.</td>
-      <td style="border: 1px solid black; padding: 5px;">G00547679</td>
+      <td style="border: 1px solid black; padding: 5px;">G12345678</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px;"><em>occurrenceID</em></td>
-      <td style="border: 1px solid black; padding: 5px;">Info Species data center unique ID for a specimen already published on GBIF before 2025</td>
-      <td style="border: 1px solid black; padding: 5px;">NISM-BRYO-537533</td>
+      <td style="border: 1px solid black; padding: 5px;"><em>organismID</em></td>
+      <td style="border: 1px solid black; padding: 5px;">Info Species data center unique ID for a specimen</td>
+      <td style="border: 1px solid black; padding: 5px;">NISM-BRYO-123456</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>materialSampleID</em></td>
-      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em></td>
-      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH000014</em></td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em><br>(can be published on GBIF.org)</td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH12345678</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>gbifCHID</em></td>
-      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em></td>
-      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH000014</em></td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH unique ID for a specimen</em><br>(not published on GBIF.org)</td>
+      <td style="border: 1px solid black; padding: 5px;"><em>GBIFCH12345678</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px;"><em>swissCoordinatesLv95_E</em></td>
