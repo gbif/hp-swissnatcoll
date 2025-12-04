@@ -625,7 +625,7 @@ The available filters are grouped into 4 categories. It is possible to select as
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Mids Level</strong></td>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;">❎selection boxes</td>
-      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><a href="en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids" target="_blank">MIDS attributes</a></td>
+      <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><a href="/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids" target="_blank">MIDS attributes</a></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; vertical-align: top;"><strong>Recorded by</strong></td>
