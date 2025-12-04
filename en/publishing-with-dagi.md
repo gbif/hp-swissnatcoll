@@ -464,7 +464,7 @@ After the validation process done on the data centers side, the records on DAGI 
 ### Publish validated values
 
 {: .box }
-The source of truth of the records on DAGI is and remains the institution database. Validated values can't be published directly on GBIF, but should first be reinjected in the institutional database and then re-imported in DAGI.
+**The source of truth of the records on DAGI is and remains the institution database**. Validated values can't be published directly on GBIF, but should first be reinjected in the institutional database and then re-imported in DAGI.
 
 1. [Export](/export-my-data) the records.
 2. Import the records in your institutional database according to your internal procedures.
