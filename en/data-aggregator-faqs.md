@@ -268,7 +268,7 @@ In DAGI, **MIDS 0** corresponds to the two mandatory attributes for import ([cat
       <tr>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><a href="https://dwc.tdwg.org/terms/#dwc:identificationVerificationStatus" target="_blank">identificationVerificationStatus</a></td>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">A categorical indicator of the extent to which the taxonomic identification has been verified to be correct.<br> E.g. 0 (= "unverified" in HISPID/ABCD).</td>
-        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"></td>
+        <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;">This is the attribute used by the Info Species data centers to inform that the record has been validated.</td>
       </tr>
       <tr>
         <td style="word-wrap:break-word; border: 1px solid black; padding: 8px; vertical-align: top;"><i>lastVerifiedBy</i></td>
