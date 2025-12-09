@@ -5,6 +5,8 @@ description: Agreements and disclaimers relating to access and use of the Data A
 background: "{{ site.data.images.terms.src }}"
 imageLicense: "{{ site.data.images.terms.caption }}"
 height: 50vh
+overlayColor: transparent
+hasBlackText: true
 composition:
 - type: heroImage
 - type: pageMarkdown
