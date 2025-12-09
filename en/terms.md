@@ -2,8 +2,8 @@
 layout: compose # this is a layout that allows you to stich together various predefined blocks that comes with the the,e
 title: Data Aggregator Terms
 description: Agreements and disclaimers relating to access and use of the Data Aggregator DAGI to mobilise biodiversity Data available in Switzerland 
-background: "{{ site.data.images.helpdesk.src }}"
-imageLicense: "{{ site.data.images.helpdesk.caption }}"
+background: "{{ site.data.images.terms.src }}"
+imageLicense: "{{ site.data.images.terms.caption }}"
 height: 50vh
 composition:
 - type: heroImage
