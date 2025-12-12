@@ -17,14 +17,14 @@ lessons:
     - title: "Lesson 3"
       description: |
         Focus on exporting a dataset and send data for validation
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
-      background: "/assets/images/categories/tuto_lesson_3.png"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQBEQ8P-fMviTaNamdxopiItAVcJJus6pKJH7iZ8_UL6oFQ?e=oDYphY"
+      background: "/assets/images/categories/tuto_lesson_3_v2.png"
 
-    - title: "Lesson 4"
+    - title: "Lesson 4 🔜"
       description: |
         Focus on publishing a dataset on GBIF.org
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/EcXOCpo2wUlBq5QP5Hwxcs4Ba_uqdQmMGME54W2P2z_oMw?e=OggD80"
-      background: "/assets/images/categories/tuto_lesson_4.png"
+      href: 
+      background: "/assets/images/placeholders/blocks2.png"
 
     - title: "Lesson 5 🔜"
       description: |
