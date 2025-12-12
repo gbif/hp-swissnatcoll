@@ -6,7 +6,7 @@ lessons:
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth import of the institutions data.
       href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQDI-yPsqGphQpz4i1NiV33lAU9JPa2T6ymZTSBFX5x02QA?e=aM7YzY"
-      background: "/assets/images/categories/tuto_lesson_1_v2.png"
+      background: "/assets/images/categories/tuto_lesson_1_v3.png"
 
     - title: "Lesson 2"
       description: |
