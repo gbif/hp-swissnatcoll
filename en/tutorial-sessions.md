@@ -6,7 +6,7 @@ toc: true
 composition:
   - type: pageMarkdown
   - type: features
-    data: tutosPowerpoint.lessons
+    data: tutosPowerpoint.tutorials
 
 # [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
 ---
