@@ -8,6 +8,7 @@ const publishingOrg = ["9661d20d-86b6-4485-8948-f3c86b022fa7", "605e7170-1123-11
 if (primaryColor) {
   var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
     primary: primaryColor,
+    font: "Helvetica",
     borderRadius: isSquared? 0 : 3
   }});
 }
