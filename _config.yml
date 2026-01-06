@@ -49,6 +49,9 @@ siteMeasurements:
   GA_ID: "G-XXXXXXXX" # Your Google analytics ID. Sometimes they start with UA-XXXXX-X other times with G-XXXXXXXX depending on how you set it up
   termsVersion: "2025-11-17" # A version number for your terms. If you change this, then the users will see the popup again asking them to confirm/reject anew.
 
+plausible:
+  enabled: false # in _config.yml it should be true, in other domains you probably do not want tracking
+  dataDomain: "your-domain.org"
 
 algae:
   rootLang: en
