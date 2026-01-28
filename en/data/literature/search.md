@@ -1,7 +1,7 @@
 ---
 lang-ref: literature/search
 title: Literature search
-description: We publish open data
+description: Swiss Natural History collections open data
 permalink: /literature/search
 layout: literature
 ---
