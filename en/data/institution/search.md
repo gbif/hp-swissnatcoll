@@ -1,6 +1,6 @@
 ---
 title: Institution search
-description: We publish open data
+description: Swiss Natural History collections open data
 permalink: /institution/search
 layout: institution-search
 ---
