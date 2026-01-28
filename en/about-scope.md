@@ -2,7 +2,6 @@
 lang-ref: about
 layout: compose
 title: Scope
-description: Switzerland’s natural history collections hold more than 60 million specimens, spanning a wide range of disciplines (zoology, botany, mycology, paleontology, geology, and anthropology).
 background:  "{{ site.data.images.aboutScope.src }}"
 imageLicense: "{{ site.data.images.aboutScope.caption }}"
 overlayColor: transparent
