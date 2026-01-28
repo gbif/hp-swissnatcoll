@@ -1,6 +1,6 @@
 ---
 title: Collection search
-description: We publish open data
+description: Swiss Natural History collections open data
 permalink: /collection/search
 layout: collection-search
 ---
