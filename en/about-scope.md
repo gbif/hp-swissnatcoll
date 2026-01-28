@@ -1,9 +1,8 @@
 ---
-# https://swissnatcoll.hp.gbif-staging.org/en/about-scope/
-# https://github.com/gbif/hp-swissnatcoll/blob/6984d6204e25f6245899fa62ba2cb9ed688785c6/en/about-scope.md
 lang-ref: about
 layout: compose
 title: Scope
+description: Switzerland’s natural history collections hold more than 60 million specimens, spanning a wide range of disciplines (zoology, botany, mycology, paleontology, geology, and anthropology).
 background:  "{{ site.data.images.aboutScope.src }}"
 imageLicense: "{{ site.data.images.aboutScope.caption }}"
 overlayColor: transparent
