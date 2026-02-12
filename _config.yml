@@ -50,7 +50,7 @@ siteMeasurements:
   termsVersion: "2025-11-17" # A version number for your terms. If you change this, then the users will see the popup again asking them to confirm/reject anew.
 
 plausible:
-  enabled: true # in _config.yml it should be true, in other domains you probably do not want tracking
+  enabled: false # in _config.yml it should be true, in other domains you probably do not want tracking
   dataDomain: "swissnatcoll.ch"
 
 algae:
