@@ -1045,7 +1045,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">EN</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="5">Date Conversion</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="7">Date Conversion</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">day<br>month<br>year</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">1<br>5<br>2025</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
@@ -1062,16 +1062,30 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025-05-01</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">day<br>month<br>year</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">1<br>5<br>2025</td>
-    </tr>    <tr>
+    </tr>
+    <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025-05</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">month<br>year</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">5<br>2025</td>
-    </tr>    <tr>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025-05/2025-06</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">month<br>year<br>endOfPeriodMonth<br>endOfPeriodYear</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">5<br>2025<br>6<br>2025</td>
+    </tr>
+    <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">year</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025/2026</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">year<br>endOfPeriodYear</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2025<br>2026</td>
     </tr>
   </table>
 </div>
@@ -1109,14 +1123,18 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 8px;">Either don't import these specimens with incomplete identification or choose a higher taxon rank (e.g. <i>kingdom</i>, <i>phylum</i>)</td>
     </tr>
     <tr>
-      <td rowspan="2" style="border: 1px solid black; padding: 8px; vertical-align: top;">eventDate</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 8px; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid black; padding: 8px;">"01.01.2025"</td>
       <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
-      <td rowspan="2" style="border: 1px solid black; padding: 8px;">Separate your <i>eventDate</i> into <i>day</i>, <i>month</i>, <i>year</i> and use the encoding of DAGI<br> or change the format to ISO 8601-1:2019</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 8px;">Separate your <i>eventDate</i> into <i>day</i>, <i>month</i>, <i>year</i> and use the encoding of DAGI<br> or change the format to ISO 8601-1:2019</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">"2025-1-1"</td>
       <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">"2025-01-00"</td>
+      <td style="border: 1px solid black; padding: 8px;">A tolerance of such dates has been inserted in DAGI, but it is better to have empty data rather than zeros (because "0" is not recognised in a date format)</td>
     </tr>
   </tbody>
 </table>
