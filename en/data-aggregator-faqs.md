@@ -1029,24 +1029,24 @@ Here are the Thesaurii available in DAGI:
     <tr>
       <td rowspan="3" style="border: 1px solid black; padding: 8px; vertical-align: top;">scientificName</td>
       <td style="border: 1px solid black; padding: 8px;">"Rubiaceae Coffea liberica"</td>
-      <td style="border: 1px solid black; padding: 8px;">Presence of words corresponding to another rank than the species name (Genus + specific epithet + author)</td>
+      <td style="border: 1px solid black; padding: 8px;">Presence of words corresponding to different ranks</td>
       <td style="border: 1px solid black; padding: 8px;">Either import "Rubiaceae" or "Coffea liberica"</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">"<i>example coming soon</i>"</td>
+      <td style="border: 1px solid black; padding: 8px;">"Picea abies"</td>
       <td style="border: 1px solid black; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
-      <td style="border: 1px solid black; padding: 8px;">Add the author</td>
+      <td style="border: 1px solid black; padding: 8px;">Add the corresponding author</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">"Indet. ohne Angaben"</td>
-      <td style="border: 1px solid black; padding: 8px;">API call resulting in two options because two combinations exist with different authors</td>
+      <td style="border: 1px solid black; padding: 8px;">No result possible</td>
       <td style="border: 1px solid black; padding: 8px;">Either don't import these specimens with incomplete identification or choose a higher taxon rank (e.g. <i>kingdom</i>, <i>phylum</i>)</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid black; padding: 8px; vertical-align: top;">eventDate</td>
       <td style="border: 1px solid black; padding: 8px;">"01.01.2025"</td>
       <td style="border: 1px solid black; padding: 8px;">Only the correct ISO 8601-1:2019 standard "YYYY-MM-DD" can be encoded by the Date Conversion</td>
-      <td rowspan="3" style="border: 1px solid black; padding: 8px;">Separate your <i>eventDate</i> into <i>day</i>, <i>month</i>, <i>year</i> and use the encoding of DAGI<br> or change the format to ISO 8601-1:2019</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 8px;">Best option is to separate your <i>eventDate</i> into <i>day</i>, <i>month</i>, <i>year</i></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 8px;">"2025-1-1"</td>
