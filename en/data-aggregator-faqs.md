@@ -920,7 +920,7 @@ Here are the Thesaurii available in DAGI:
   <table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
     <tr>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};"  rowspan="2">API Category</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};" colspan="2">Source Data</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};" colspan="2">Source Data = IMPORTED</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};" colspan="2">Output Data = ENCODED</th>
     </tr>
     <tr>
