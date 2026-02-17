@@ -938,7 +938,8 @@ Here are the Thesaurii available in DAGI:
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID<br>taxonIdCH<br>acceptedNameUsage<br>swissSpeciesCenter</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonIdCH<br>acceptedNameUsage<br>swissSpeciesCenter</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">5998041<br>22879<br><i>Abies alba</i> Mill.<br>infoflora</td>
     </tr>
     <tr>
