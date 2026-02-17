@@ -939,69 +939,30 @@ Here are the Thesaurii available in DAGI:
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2685484</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonIdCH<br>acceptedNameUsage<br>swissSpeciesCenter</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">5998041<br>22879<br><i>Abies alba</i> Mill.<br>infoflora</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">22879<br><i>Abies alba</i> Mill.<br>infoflora</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="9">Geo Reverse</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">decimalLatitude<br>decimalLongitude</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">47.65545071<br>8.667665926</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">decimalLatitude<br>decimalLongitude</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">47.65545071<br>8.667665926</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent<br>country<br>countryCode<br>stateProvince<br>municipality<br>swissCoordinatesLv95_E<br>swissCoordinatesLv95_N<br>swissCoordinatesLv03_E<br>swissCoordinatesLv03_N</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe<br>Switzerland<br>CH<br>Zurich<br>Benken (ZH)<br>2692331.25671<br>1279034.48212<br>692331.25671<br>279034.48212</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">country</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">countryCode</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">stateProvince</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Zurich</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">municipality</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Benken (ZH)</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_E</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2692331.25671</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv95_N</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">1279034.48212</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_E</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">692331.25671</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">swissCoordinatesLv03_N</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">279034.48212</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="3">Geo Forward</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">country<br>continent</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">Suisse<br>Europe</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">country</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Switzerland</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">countryCode</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Forward</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">country<br>continent</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">Suisse<br>Europe</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">continent<br>country<br>countryCode</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">Europe<br>Switzerland<br>CH</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF IUCN Redlist</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">3188295</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2685484</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">iucn_redlist_category</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">EN</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">LC</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="7">Date Conversion</td>
