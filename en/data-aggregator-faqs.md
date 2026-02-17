@@ -930,58 +930,16 @@ Here are the Thesaurii available in DAGI:
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.exampleValues.transparency }};">Value (example)</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="10">GBIF Taxonomy</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">scientificName</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10"><i>Enydra anagallis</i> Gardner</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">5402444</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">scientificName</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><i>Abies alba</i> Mill.</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID<br>kingdom<br>phylum<br>class<br>order<br>family<br>genus<br>scientificName<br>scientificNameAuthorship<br>specificEpithet<br>taxonRank</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">2685484<br>Plantae<br>Tracheophyta<br>Pinopsida<br>Pinales<br>Pinaceae<br>Abies<br><i>Abies alba</i> Mill.<br>Miller<br>alba<br>SPECIES</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">kingdom</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Plantae</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">phylum</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Tracheophyta</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">class</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Magnoliopsida</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">order</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Asterales</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">family</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Asteraceae</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">genus</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Enydra</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">scientificName</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Enydra anagallis</i> Gardner</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">scientificNameAuthorship</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">Gardner</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px;text-align: left;">specificEpithet</td>
-      <td style="border: 1px solid black; padding: 5px;text-align: left;">anagallis</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="2">Swiss Species</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">taxonID</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">5998041</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonIdCH</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">22879</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">acceptedNameUsage</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Cerambyx miles</i> Bonelli, 1823</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID<br>taxonIdCH<br>acceptedNameUsage<br>swissSpeciesCenter</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">5998041<br>22879<br><i>Abies alba</i> Mill.<br>infoflora</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="9">Geo Reverse</td>
