@@ -930,7 +930,7 @@ Here are the Thesaurii available in DAGI:
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.exampleValues.transparency }};">Value (example)</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="10">GBIF Taxonomy</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10">scientificName</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="10"><i>Enydra anagallis</i> Gardner</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID</td>
@@ -973,7 +973,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px;text-align: left;">anagallis</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">Swiss Species</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="2">Swiss Species</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">taxonID</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">5998041</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonIdCH</td>
@@ -984,7 +984,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><i>Cerambyx miles</i> Bonelli, 1823</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="9">Geo Reverse</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">decimalLatitude<br>decimalLongitude</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="9">47.65545071<br>8.667665926</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
@@ -1023,7 +1023,7 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">279034.48212</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">Geo Forward</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="3">Geo Forward</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">country<br>continent</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="3">Suisse<br>Europe</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">continent</td>
@@ -1038,14 +1038,14 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;">CH</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">GBIF IUCN Redlist</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF IUCN Redlist</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">3188295</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">iucn_redlist_category</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">EN</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="7">Date Conversion</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="7">Date Conversion</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">day<br>month<br>year</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">1<br>5<br>2025</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">eventDate</td>
