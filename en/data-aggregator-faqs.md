@@ -12,7 +12,7 @@ sideNavigation: sideNavigation.tutorials
 
 ## Do I have to upload my entire database into the Data Aggregator?
 
-**There is no need to upload your entire database into the Data Aggregator DAGI.** You can choose to upload **first the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is the **catalogNumber attribute**, which has to be unique for all of your records.
+**There is no need to upload your entire database into the Data Aggregator DAGI.** You can choose to upload **first the most important fields for a selected set of records**. Keep in mind that the **key element** of the data you import in DAGI is that first **it is in the correct dataset** (GRSciColl collection) and second, **you want to publish that data on GBIF**.
 
 To help you select your fields, we recommend you focus first on the ones that are [mandatory](#minimal-mandatory-fields-of-the-data-aggregator) and those used by the [Encoding](#what-does-the-encoding-do) step. You can then proceed further with the [MIDS attributes](#additional-fields-increasing-data-quality-in-the-data-aggregator-mids). **Please keep in mind that some attributes require a [special value in DAGI](#fields-in-the-data-aggregator-with-special-values-required)**.
 
@@ -25,8 +25,8 @@ To help you select your fields, we recommend you focus first on the ones that ar
 **You can update your data in DAGI by importing a new import file.** This file must have the two mandatory fields (_catalogNumber_ and _scientificName_). The other fields in the file can be either the same as previously imported or only the fields that have to be updated. It is up to you.
 
 During the new import, DAGI checks the **_catalogNumber_ value** to determine if a record is already present in the DAGI dataset, or if it is newly imported.
-- When the record is already present, all other attributes imported are updated (_scientificName_ too).
-- When the record is new (new catalogNumber), the record is added to the records table with all imported attributes.
+- When the record is already present, all other mapped attributes are updated (_scientificName_ too).
+- When the record is new (new catalogNumber), the record is added to the records table with all mapped attributes.
 
 <br>
 <div style="text-align: center;"><br>🔸<br></div>
@@ -706,7 +706,7 @@ Here is a table with these attributes and their definition:
 <div style="text-align: center;"><br>🔸<br></div>
 <br>
 
-## Are there useful attributes that I never use in my database?
+## Are there useful attributes that I could add in my database?
 
 Sharing data can require information that have never been taken into consideration in a museum database simply because it is too obvious to specify. For instance, why have a partOfOrganism field in a collection database specialised in animal skulls or in fish fossils ? Well, from a FAIR perspective, this kind of information is important because it facilitates the filtering of data on one side and the analyses of a dataset on another side.
 
@@ -802,13 +802,7 @@ DAGI has a structure in three different layers (imported data, encoded data and 
 
 ## My institution does not have a DAGI user yet, what can I do?
 
-Please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name and institution name, so that we can add you as a Data Aggregator's user.
-
-<br>
-<div style="text-align: center;"><br>🔸<br></div>
-<br>
-
-
+Please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your full name and institution name, so that we can add you as a DAGI user.
 
 <br>
 <div style="text-align: center;"><br>🔸<br></div>
@@ -839,7 +833,7 @@ The values of a given entity can be added and updated in three different layers:
 
 ### What does the Encoding do?
 
-The Encoding process **standardises important values** of your data, and **enriches your record with new standard information** it did not have.
+The Encoding process **standardises important values** of your data, and **enriches your record with new standardised information**.
 
 Here are the Thesaurii available in DAGI:
 
@@ -849,13 +843,13 @@ Here are the Thesaurii available in DAGI:
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.condition.background }};">Category</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.exampleValues.background }};">Resource</th>
       <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.attribute.background }};">Attribute(s) used for query</th>
-      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Information encoded</th>
+      <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 5px; background-color: {{ site.data.colors.value.background }};">Attribute(s) encoded</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF Taxonomy</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">CoL Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://api.checklistbank.org/#/default/match_1" target="blank">Catalogue of Life ChecklistBank Match API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>scientificName</em></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, kingdom, phylum, order, class, family, genus, scientificName</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonID, domain, kingdom, subkingdom, phylum, class, subclass, order, family, genus, specificEpithet, scientificName, scientificNameAuthorship, taxonRank</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
@@ -877,14 +871,14 @@ Here are the Thesaurii available in DAGI:
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF IUCN Redlist</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species" target="blank">GBIF Species API</a></td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>taxonID</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/species#/Searching%20names/matchNames" target="blank">GBIF Species API</a></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>scientificName</em></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>iucnredlistcategory</em></td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Add Institution Code</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/registry" target="blank">GBIF Registry API</a> (<a href="https://scientific-collections.gbif.org/" target="blank">GRSciColl</a>)</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">(Collection where encoding is done in DAGI)</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">(Records being encoded)</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>institutionCode, institutionID</em></td>
     </tr>
     <tr>
@@ -908,7 +902,7 @@ Here are the Thesaurii available in DAGI:
 
 *If decimalLatitude, decimalLongitude (=WGS84) is not informed, DAGI checks if swissCoordinatesLv95_E, swissCoordinatesLv95_N (=CH1903+/LV95) or swissCoordinatesLv03_E, swissCoordinatesLv03_N (=CH1903/LV03) are informed, and does the conversion to WGS84. The API is performed solely on decimalLatitude, decimalLongitude coordinates.
 
-** _eventDate_ value must be exactly ISO 8601-1:2019 standard YYYY-MM-DD
+** _eventDate_ value must be ISO 8601-1:2019 standard YYYY-MM-DD, with a tolerance for YYYY-MM and YYYY.
 
 <br>
 <div style="text-align: center;"><br>🔸<br></div>
@@ -930,18 +924,18 @@ Here are the Thesaurii available in DAGI:
       <th style="border: 1px solid black; padding: 5px; text-align: left; background-color: {{ site.data.colors.exampleValues.transparency }};">Value (example)</th>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF Taxonomy</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">CoL Taxonomy</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">scientificName</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><i>Abies alba</i> Mill.</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID<br>kingdom<br>phylum<br>class<br>order<br>family<br>genus<br>scientificName<br>scientificNameAuthorship<br>specificEpithet<br>taxonRank</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;">2685484<br>Plantae<br>Tracheophyta<br>Pinopsida<br>Pinales<br>Pinaceae<br>Abies<br><i>Abies alba</i> Mill.<br>Miller<br>alba<br>SPECIES</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">taxonID<br>domain<br>kingdom<br>subkingdom<br>phylum<br>class<br>subclass<br>order<br>family<br>genus<br>scientificName<br>scientificNameAuthorship<br>taxonRank</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;">8K9Y<br>Eukaryota<br>Plantae<br>Pteridobiotina<br>Tracheophyta<br>Pinopsida<br>Pinidae<br>Pinales<br>Pinaceae<br>Abies<br><i>Abies alba</i> Mill.<br>Mill.<br>species</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Swiss Species</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2685484</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">scientificName</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><i>Abies alba</i> Mill.</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonIdCH<br>acceptedNameUsage<br>swissSpeciesCenter</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">22879<br><i>Abies alba</i> Mill.<br>infoflora</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">100<br><i>Abies alba</i> Mill.<br>infoflora</td>
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Reverse</td>
@@ -959,8 +953,8 @@ Here are the Thesaurii available in DAGI:
     </tr>
     <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">GBIF IUCN Redlist</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">taxonID</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">2685484</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">scientificName</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>Abies alba</em> Mill.</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">iucn_redlist_category</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;">LC</td>
     </tr>
@@ -1102,32 +1096,5 @@ Here is the **safest method to open any csv file**:
 2. Click on **Table Design** in the Quick Access Toolbar ( ... Automate - Help - **Table Design** - Query).
 3. Click on **Conver to range** in the Ribbon (Second element, bottom line, on the left of the Table Design ribbon).
 - Your data is now a usual excel sheet.
-
-<h1 style="background-color: {{ site.data.colors.lightblue.transparency}}; padding: 10px; color: black;">Special cases</h1>
-
-## My institution already has data on GBIF.org, how is this dealt with?
-
-If some data in your database has already been sent to an Infospecies data center and/or GBIF Swiss Node and/or GBIF.org, please **get in contact with [GBIF Swiss Node](mailto:contact@gbif.ch)** before uploading this data in DAGI.
-
-<br>
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-✅ If you already know which specimens of your collection have been sent to or obtained from an Infospecies data center, please inform the data center identifier in the field <strong>occurrenceID</strong> of your dataset.
-</div>
-
-<br>
-<div style="text-align: center;"><br>🔸<br></div>
-<br>
-
-## My institution has geological specimens (rocks and such), what have you planned about it?
-
-Currently, DAGI and SwissNatColl hosted portal are mainly oriented for biological data (including fossils and paleontology). On the other side, GBIF.org does not support geological data.
-
-The inclusion of the geological data of Switzerland is still in discussion, and no planning can be determined at the point where we stand at the moment.
-
-
-<br>
-<div style="text-align: center;"><br>🔸<br></div>
-<br>
-
 
 {% include back-to-top.html %}
