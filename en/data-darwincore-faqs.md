@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /en/data-dwc
+permalink: /en/data-darwincore-faqs
 title: Darwin Core
 toc: true
 sideNavigation: sideNavigation.tutorials
