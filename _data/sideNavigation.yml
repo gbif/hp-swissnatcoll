@@ -23,7 +23,7 @@ tutorials:
 - grouptitle: Darwin Core
   content:
   - title: FAQs
-    path: /en/data-dwc
+    path: /en/data-darwincore-faqs
   - sectiontitle: Label examples
     section:
     #- title: Entomology
@@ -37,6 +37,10 @@ tutorials:
     - title: Ornithology
       path: /en/label-ornithology
 
+- grouptitle: GRSciColl
+  content:
+  - title: FAQs
+    path: /en/data-grscicoll
 - grouptitle: HELP
   content:
   - title: Error messages
