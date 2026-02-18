@@ -858,7 +858,15 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>taxonIdCH, acceptedNameUsage, swissSpeciesCenter, swissSpeciesRegistered, swissSpeciesRegisteredAt</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;" rowspan="3">Geo Reverse</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;" rowspan="2">DAGI internal code</td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>swissCoordinatesLv95_E, swissCoordinatesLv95_N</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>swissCoordinatesLv03_E, swissCoordinatesLv03_E, decimalLatitude, decimalLongitude*</em></td>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>swissCoordinatesLv03_E, swissCoordinatesLv03_N</em></td>
+      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>swissCoordinatesLv95_E, swissCoordinatesLv95_E, decimalLatitude, decimalLongitude*</em></td>
+    </tr>
+    <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://opencagedata.com/" target="blank">OpenCage Geocoding API</a></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>decimalLatitude, decimalLongitude*</em></td>
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>continent, country, countryCode, stateProvince, municipality, (if in CH: swissCoordinatesLv95E/N and swissCoordinatesLv03E/N)</em></td>
