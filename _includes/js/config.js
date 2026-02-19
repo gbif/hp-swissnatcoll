@@ -173,9 +173,10 @@ var siteConfig = {
       ]
     },
     "highlightedFilters": [
+      "q",
+      "taxonKey",
       "institutionKey",
       "datasetKey",
-      "taxonKey",
       "recordedBy",
       "gadmGid",
       "year",
