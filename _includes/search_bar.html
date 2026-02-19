@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recherche SwissNatColl</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    }
+    .wrap {
+      width: min(720px, 92vw);
+    }
+    .search {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(127,127,127,.35);
+      background: rgba(127,127,127,.08);
+      backdrop-filter: blur(6px);
+    }
+    .icon {
+      font-size: 18px;
+      opacity: .8;
+      user-select: none;
+      line-height: 1;
+    }
+    input[type="search"] {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+      font-size: 18px;
+      padding: 6px 2px;
+    }
+    button {
+      border: none;
+      border-radius: 999px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-weight: 600;
+      background: rgba(127,127,127,.18);
+    }
+    button:hover { background: rgba(127,127,127,.26); }
+    .hint {
+      margin-top: 10px;
+      opacity: .7;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <form class="search" id="searchForm" autocomplete="off">
+      <span class="icon" aria-hidden="true">🔍</span>
+      <input
+        id="q"
+        type="search"
+        placeholder="Rechercher (ex. Tremella indecorata)…"
+        aria-label="Recherche SwissNatColl"
+        required
+      />
+      <button type="submit">Rechercher</button>
+    </form>
+    <div class="hint">Entrée pour valider. Les espaces deviennent “+” automatiquement.</div>
+  </div>
+
+  <script>
+    (function () {
+      const BASE_URL = "https://swissnatcoll.ch/occurrence/search?q=";
+      const form = document.getElementById("searchForm");
+      const input = document.getElementById("q");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const raw = input.value.trim();
+        if (!raw) return;
+
+        // Encodage URL standard, puis conversion des espaces en "+" (comme dans ton exemple)
+        const encoded = encodeURIComponent(raw).replace(/%20/g, "+");
+
+        const url = BASE_URL + encoded;
+
+        // Ouvre dans un nouvel onglet
+        window.open(url, "_blank", "noopener,noreferrer");
+      });
+
+      // Focus direct au chargement
+      input.focus();
+    })();
+  </script>
+</body>
+</html>
