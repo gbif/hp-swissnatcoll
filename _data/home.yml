@@ -55,7 +55,11 @@ homeTopMessage:
         </p>
       </div>
     </div>
-    
+
+searchBar:
+  klass: text
+  markdownContent: |
+    {% include search_bar.html %}
 
 # ============================================================================================================================
 # THEMATIC COMMUNITIES
