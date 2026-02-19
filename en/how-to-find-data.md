@@ -122,7 +122,11 @@ You can search biological and paleontological specimen data across different dom
     </a>
 </div>
 
-<br>
+<br><br>
+
+You can search your favorite taxon directly in the search bar:
+
+{% include search_bar.html %}
 
 # Displaying Data
 
