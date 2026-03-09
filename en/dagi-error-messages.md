@@ -60,11 +60,11 @@ When selecting a set of records to publish, it can happen that the number of sel
 2. After two hours, when the published status of the records are set on "Published*, click on the Quick-filter box **Not Published**.
    - This displays the remaining unpublished records that were missing when you clicked on "Publish".
 3. By checking the records, you might find out why they were not published.
-   - Is the Encoding status **Incomplete**? Is the GBIF Taxonomy Encoding step **Incomplete**? Then, check the value of _scientificName_.
+   - Is the Encoding status **Incomplete**? Is the CoL Taxonomy Encoding step **Incomplete**? Then, check the value of _scientificName_.
   
 | Value example | Explanation |
 | -------------- | ----------- |
-| _scientificName_ = "Gen. sp." | This value means that the specimen can't be identified. Therefore, the GBIF API can't be completed, leaving the _kingdom_ attribute empty. In this state, this record can't be published |
+| _scientificName_ = "Gen. sp." | This value means that the specimen can't be identified. Therefore, the CoL API can't be completed, leaving the _kingdom_ attribute empty. In this state, this record can't be published |
 
 
 ## The publication failed
