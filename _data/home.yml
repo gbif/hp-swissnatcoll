@@ -59,8 +59,8 @@ homeTopMessage:
 searchBar:
   klass: text
   markdownContent: |
-    <div style="display: flex; flex-direction: column; padding: 10px 10px;  background-color : #EDF3F3">
-      <div style="font-size: 22px; line-height: 1.6; color: #333;">
+    <div style=background-color : #EDF3F3">
+      <div>
         <p>
           {% include search_bar.html %}
           <br>
