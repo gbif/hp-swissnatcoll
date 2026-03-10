@@ -59,7 +59,7 @@ homeTopMessage:
 searchBar:
   klass: text
   markdownContent: |
-    <div style=background-color : #EDF3F3">
+    <div style="background-color : #EDF3F3">
       <div>
         <p>
           {% include search_bar.html %}
