@@ -1,6 +1,6 @@
 <div style="display:flex;justify-content:center;align-items:center;padding:1.5rem 0;font-family:inherit;position:relative;">
   <div style="position:relative;max-width:480px;width:100%;">
-    <form onsubmit="(function(e){e.preventDefault();var q=document.getElementById('snc-input').value.trim();if(q)window.location.href='https://swissnatcoll.ch/occurrence/search?q='+q.replace(/\s+/g,'+');})(event);return false;" style="display:flex;align-items:center;border:1.5px solid #ccc;border-radius:999px;overflow:hidden;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.08);width:100%;">
+    <form onsubmit="(function(e){e.preventDefault();var q=document.getElementById('snc-input').value.trim();if(q)window.location.href='https://swissnatcoll.ch/occurrence/search?view=map&q='+q.replace(/\s+/g,'+');})(event);return false;" style="display:flex;align-items:center;border:1.5px solid #ccc;border-radius:999px;overflow:hidden;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.08);width:100%;">
       <input id="snc-input" name="q" type="text" placeholder="Search species (e.g. Microtus arvalis)" autocomplete="off"
         style="flex:1;border:none;outline:none;padding:0.6rem 1.1rem;font-size:1rem;background:transparent;font-family:inherit;"
         oninput="sncFetch(this.value)"
