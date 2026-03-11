@@ -70,10 +70,17 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
 <br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
-> catalogNumber     scientificName     eventDate     recordedBy     ...<br>
-> XXX-123456789     Poa annua L.     2024-10-09     Weber Morgan     ...<br>
-> ...      ...     ...      ...     ...<br>
-> XXX-234567890     Poa annua L.     2024-10-08     Weber Morgan     ...
+```
+catalogNumber    scientificName    eventDate     recordedBy
+XXX-123456789    Poa annua L.      2024-10-09    Weber Morgan
+...              ...               ...           ...
+XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
+```
+```tsv
+catalogNumber    scientificName    eventDate     recordedBy
+XXX-123456789    Poa annua L.      2024-10-09    Weber Morgan
+XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
+```
 
 ⚠️ Darwin Core headers are not mandatory in the import file, but it allows you to benefit from the auto-mapping, or else you will have to do the mapping manually for each field in your import file.
 
