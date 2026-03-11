@@ -29,20 +29,20 @@ toc: true
   <p align="right">Last update: 04.12.2025</p>
 </div>
 
-**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the SwissNatColl hosted portal**, you first need to prepare an import file containing all data you intend to publish (see [Prepare my data](#prepare-my-data) here below).
+**In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the [SwissNatColl](https://swissnatcoll.ch/){:target="_blank"} hosted portal**, you first need to prepare an import file containing all data you intend to publish (see [Prepare my data](#prepare-my-data) here below).
 
 Once your file is prepared, you can [log in](#log-in) and [import your data](#import-my-data) in the [Data Aggregator (DAGI) web app](https://dagi.gbif.ch/sign-in){:target="_blank"}. Then, when done with the [mapping](#map-my-data) and [encoding](#encode-my-data) of your data, the dataset is ready to be [published on GBIF.org](#publish-my-data). From there, it will be displayed on the SwissNatColl portal, in the [Occurrence data section](/occurrence/search){:target="_blank"}.
 
 In parallel, you may benefit from the Infospecies data centers experts by [sending them your swiss data for validation](#validate-my-data). Each record sent will be carefully reviewed by the staff of the center concerned and a feedback will be available on DAGI after this process.
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v4.png" data-lightbox="image-1" 
+  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v5.png" data-lightbox="image-1" 
      data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v4.png" 
+    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v5.png" 
          alt="DAGI Data Flow" 
          style="max-width: 100%; height: auto; cursor: zoom-in;" />
   </a>
-  <figcaption>DAGI Data flow</figcaption>
+  <figcaption>DAGI Data flow and users actions (2026)</figcaption>
 </figure>
 
 
