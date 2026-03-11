@@ -69,16 +69,11 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 > - scientificName ([definition](https://dwc.tdwg.org/terms/#dwc:scientificName){:target="_blank"})
 > - catalogNumber ([definition](https://dwc.tdwg.org/terms/#dwc:catalogNumber){:target="_blank"})
 
-<br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
+<br>✅ My import file is an **UTF-8 encoded csv or text file with comma or tab separation** and **[Darwin Core standardised columns and cell content](/en/data-darwincore-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}**.
 ```
 catalogNumber    scientificName    eventDate     recordedBy
 XXX-123456789    Poa annua L.      2024-10-09    Weber Morgan
 ...              ...               ...           ...
-XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
-```
-```tsv
-catalogNumber    scientificName    eventDate     recordedBy
-XXX-123456789    Poa annua L.      2024-10-09    Weber Morgan
 XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
 ```
 
@@ -101,7 +96,7 @@ XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
 
 1. Focus on **the most important fields** first ([Mandatory fields](/en/data-aggregator-faqs#minimal-mandatory-fields-of-the-data-aggregator){:target="_blank"}, [MIDS fields](/en/data-aggregator-faqs#additional-fields-increasing-data-quality-in-the-data-aggregator-mids){:target="_blank"}) and then proceed with the ones you think are **important/interesting to be made publicly available**.
    - You don't need to import your entire database into the Aggregator. Some of your fields are purely internal management. <br>
-2. Make sure the [fields that require specific predefined values in DAGI](/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
+2. Make sure the [fields that require specific predefined values in DAGI](/en/data-aggregator-faqs#fields-in-the-data-aggregator-with-special-values-required){:target="_blank"} are filled in correctly.
 3. Check that your file does not have
    - catalogNumber duplicates
    - empty scientificName or catalogNumber cells
@@ -111,11 +106,11 @@ XXX-234567890    Poa annua L.      2024-10-08    Weber Morgan
 ⚠️ There are fields that are not available for mapping because they are added by DAGI automatically : _institutionCode_, _institutionID_, _collectionCode_, _collectionID_ and _datasetID_. These attributes are based on GRSciColl and GBIF.
 
 
-Please refer to our [FAQs](/data-aggregator-faqs){:target="_blank"} for more details on preparing your data for import into DAGI.
+Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more details on preparing your data for import into DAGI.
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you are expected to have at the end of this step:</strong></p>
-  <p>✅ 1 .csv or tab-separated .txt file of a maximum size of 800 MB (= 800 Mo), containing your data arranged as <strong>each line is one catalogNumber of an occurrence/specimen, each column is one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
+  <p>✅ 1 CSV or tab-separated TXT file of a maximum size of 800 MB (= 800 Mo), containing your data arranged as <strong>each line is one catalogNumber of an occurrence/specimen, each column is one attribute</strong>, and <strong>there are no empty lines</strong>.</p>.
   <table style="background-color: {{ site.data.colors.lightgreen.transparency }}; width: 100%; border-collapse: collapse; border: 1px solid black;">
   <tr>
     <th style="text-align: left; vertical-align: middle; border: 1px solid black; padding: 10px; background-color: {{ site.data.colors.lightgreen.background }};">catalogNumber</th>
@@ -175,7 +170,7 @@ Please refer to our [FAQs](/data-aggregator-faqs){:target="_blank"} for more det
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
 2. Insert your login details in the corresponding fields.
-  - Immediately after signing in, you will be requested to accept [DAGI's terms of use](https://infofauna-support.atlassian.net/wiki/spaces/II/pages/18972887/Relancer+le+script+de+transfert+des+donn+es+InfoSpecies+sur+le+bucket){:target="_blank"}
+  - Immediately after signing in, you will be requested to accept [DAGI's terms of use](/en/terms/){:target="_blank"}
   - When signed in, you have access to your institution page of DAGI, which can be seen only by the users registered in your institution.
 
 There are two different views on your institution page:
@@ -195,13 +190,13 @@ The terms of use you just accepted are at all times available by clicking on the
 ## Add a new dataset
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #a94442; background-color: #f2dede; border-color: #ebccd1;">
-❌ Only the <i>Collection Administrator</i> role can add, edit and delete datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
+❌ Only the <i>Collection Administrator</i> role can add datasets. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on the **🪟Datasets** icon on the left side of the page.
   - On this page, you can see all the datasets of your institution that have already been added in DAGI. The names of the datasets are based on the [GRSciColl collection names](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}.
-  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_, see the [Datasets view paragraph](#datasets-view){:target="_blank"} for a precise description). By clicking twice or more, you can order them in an ascending or descending order.
-  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
+  - You can order the dataset list by clicking on the **columns titles** (_Name_, _Code_, _State_, _Institution Code_, _Institution_, _Records count / est._ and _Updated At_. By clicking twice or more, you can order them in an ascending or descending order.
+  - The State column informs you of the process step currently running (_Importing_, _Encoding_, _Publishing_, _Exporting_). Unless the State of a dataset is on "🕒Ready", no other action can be started until the current one is executed. Depending on the number of records, it can take up to a few hours.
 2. If your Datasets view is empty, click either on the **+ New dataset** button in the center of the window or on **🪟New dataset** on the top-right corner of the window (it does the same thing at this point).
 3. If your Datasets view already has datasets, click on the **🪟New dataset** button in the top right corner of the window.
 
@@ -232,14 +227,7 @@ The terms of use you just accepted are at all times available by clicking on the
 
 1. Go to the [Datasets view](#datasets-view) of your institution page by clicking on **Datasets** on the left side of the page.
 2. Click on the dataset name in which you want to import your data.
-  - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page paragraph](#dataset-page) for a precise description).
-  - The tab **Records** displays the imported **records** available in the dataset.
-  - The tab **Imports** displays all the **files** that have been imported.
-  - The tab **Exports** displays all the **files** that have been exported.
-  - The tab **Publications** displays all the **files** that have been published on GBIF.org.
-  - The tab **Validations** displays all the **files** that have been sent for validation to an Info Species data center.
-  - The tab **Image Upload** displays all the **files** with images that have been uploaded.
-  - The tab **Published Records** displays all the **records** that have been already published.
+  - For each dataset in DAGI, you have 7 tabs, in a grey bar on top of the dataset page (_Records_, _Imports_, _Exports_, _Publications_,  _Validations_, _Image Upload_, _Published Records_) (see the [Dataset page paragraph](#dataset-page){:target="_blank"} for a precise description).
 3. If your dataset is empty, click either on the **+ Import** button in the center of the window, or the **📤Import data** button in the top-right corner of the window (it does the same thing at this point).
 4. If your dataset already has records and you want to add new records or update the existing ones, click on the **📤Import data** button in the top-right corner of the window.
 
@@ -274,12 +262,12 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 2. If you already did a mapping of a previous file, click on **🔄️Load existing mapping** and simply check the mapping before clicking on **Update mapping**.
 3. If it is your first mapping and your file headers are different than the DAGI attributes, do first the _Required attributes_ by clicking on the drop-down menu **Select a column** on the right side of the attribute names. You can then select the corresponding header in your imported file.
   - By typing the beginning of your file header in the search bar, you can find it more easily.
-  - If unsure of the correspondence between the attributes and your file headers, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-dwc#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
+  - If unsure of the correspondence between the attributes and your file headers, consult the Darwin Core FAQs section [Where can I find the Darwin Core terms description?](/en/data-darwincore-faqs#where-can-i-find-the-darwin-core-terms-description){:target="_blank"}.
 4. For the Additional columns, either click on **➕ Add all** or add them one by one by clicking on the attribute names (with grey background) to map your headers with the DAGI attributes.
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped headers of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file headers.
 5. Repeat these steps until all of the headers you want to import are mapped.
-  - If you can't find a DAGI attribute corresponding to one or more of your headers, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI (e.g. Validation process)
+  - If you can't find a DAGI attribute corresponding to one or more of your headers, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI.
 <br>
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
