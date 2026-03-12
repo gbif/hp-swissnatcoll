@@ -267,7 +267,6 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   - The added attributes appear at the top of the Additional columns list when added one by one, and at the bottom of the list when added with ➕ Add all.
   - The unmapped headers of your file are listed on top of the Additional columns list with a grey background. It is not mandatory to map all of your file headers.
 5. Repeat these steps until all of the headers you want to import are mapped.
-  - If you can't find a DAGI attribute corresponding to one or more of your headers, you have the possibility to map it as a "Custom Attribute". ⚠️ Custom Attributes can't be encoded nor published on GBIF but may be available for other features in DAGI.
 <br>
 6. When satisfied with your mapping, click on **Update mapping**.
 <br>
