@@ -281,7 +281,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
         
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Importing step:</strong></p>
-  <p>✅ Your imported records shown in the <strong>Records</strong> tab of your dataset page.</p>
+  <p>✅ Your imported records in the <strong>Records</strong> tab of your dataset page.</p>
 </div>
 
 ## Encode my data
@@ -290,8 +290,8 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 2. Click on **🧩Encode**.
   - A pop-up window titled _Encoding Summary_ opens with a short summary of what the encoding does. Briefly said, it uses some attributes as query values that are sent to available dictionaries of data (like GBIF API) to encode the provided values and enrich specific attributes with new values. It is extremely useful for taxonomic standardisation, georeferencing, species protection, etc. (see [What does the Encoding do? in the FAQs](/en/data-aggregator-faqs#what-does-the-encoding-do){:target="_blank"} for a precise description)
   - If you change your mind, you can cancel and close the window at any time by clicking on **Cancel**.
-3. When satisfied with the set of records you want to encode, click on **Encode**.
-  - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your browser has no impact on the process, you can come back later to check the encoding state.
+3. Click on **Encode**.
+  - A progression bar appears during the encoding process and disappears when launched. ⚠️ Depending on the number of your records, this step can take up to a day to be completed ⚠️ Closing your browser has no impact on the process, you can come back later to check the encoding status.
   - During the encoding, no other action can be started.
 4. Check the percentage of encoded data on your Dataset page (see the second box called **Not encoded / Incomplete**) in the Quick-filters.
   - By clicking on any **record**, and then on the **Encodings tab** of the side-pane, you can check the encoding state of all catalogs used for encoding and enriching your data (e.g. geo_reverse, swiss_species, gbif_taxonomy, etc.).
@@ -299,7 +299,7 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Encoding step:</strong></p>
-  <p>✅ A <strong>percentage of <i>Not encoded / Incomplete</i> records that is lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
+  <p>✅ A <strong>percentage value of <i>Not encoded / Incomplete</i> records lower than 100%</strong> in the second Quick-filter box displayed in the <strong>Records</strong> tab of your dataset page.</p>
   <p> if the percentage is still 100%, then it simply means that all of your records have an <i>Incomplete</i> Encoding status.</p>
   <p style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
 ⚠️ If some of your records do not have the necessary information for the APIs queries, then the Encoding status will remain <i>Incomplete</i>. <strong>This does not prevent you from publishing or sending your records for validation</strong>.</p>
