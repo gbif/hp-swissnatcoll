@@ -385,10 +385,10 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 ❌ Only the <i>Collection Administrator</i> role can publish records on GBIF.org. The steps described in this section are unavailable for users with only the <i>Data Digitizer</i> role.
 </div>
 
-🔸 If you want to publish the Import layer version of your data, select **📤Import Layer** in the Layers setting.<br>
-🔸 If you want to publish the Encoded layer version of your data, select **📤Encoded Layer** in the Layers setting.<br>
-🔸 If you want to publish a selected set of your data, select the **Filters** you want to apply.<br>
-🔸 If you want to publish your entire dataset, clear all filters in the **🎚️Filters** and click on the **All records** box of the Quick-filters. The Encoded layer is set by default.<br>
+- If you want to publish the Import layer version of your data, select **📤Import Layer** in the Layers setting.
+- If you want to publish the Encoded layer version of your data, select **📤Encoded Layer** in the Layers setting.
+- If you want to publish a selected set of your data, select the **Filters** you want to apply.
+- If you want to publish your entire dataset, clear all filters in the **🎚️Filters** and click on the **All records** box of the Quick-filters. The Encoded layer is set by default.
 
 1. Click on **🌐Publish**.
 
@@ -403,7 +403,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 - The text informs you on the metadata information of your GBIF dataset.
    - The first part _Dataset_ is about the title of your dataset, the Publisher and the Authors.
    - The second part _Institution_ is about your institution name, code and address, as well as the official contacts registered on GRSciColl.
-   - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br><br>
+   - The third part _Intellectual property rights_ is about the license you want to apply to your data : [CC0](http://creativecommons.org/publicdomain/zero/1.0/legalcode){:target="_blank"}, [CC BY](http://creativecommons.org/licenses/by/4.0/legalcode){:target="_blank"} or [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/legalcode){:target="_blank"}.<br>
 
 {: .box }
 **CC0** : No copyright, the work is placed in the public domain.<br>
@@ -417,14 +417,13 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
    - The publication rules are applied to specimens collected in Switzerland whose taxa are registered in the InfoSpecies data centers. The coordinates associated to such records are rounded as to not publish the exact location. If the data is ambiguous, DAGI prevents the publication and requests the user to check the unpublished records.
    - The publication on GBIF is irreversible from DAGI.<br><br>
 6. **Tick the box** to confirm that you accept the [terms of use](/en/terms/){:target="_blank"} and full responsibility for the publication.
-   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through the Data Aggregator and to GBIF. Errors in your published datasets are your responsibility and yours only.<br><br>
+   - Note that your institution, as data owner and provider, is fully entitled for the quality of the data published through DAGI and to GBIF.<br><br>
 7. Click on **Publish**.
 - A progression bar appears during the publishing process and disappears when launched.
-- The Publication status of your records have changed to _🌐In Publication_. It will be set to _✅Published_ after two hours. If the status turns to _❌Failed_, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
+- The Publication status of your records have changed to 🌐In Publication. It will be set to ✅Published after two hours. If the status turns to ❌Failed, please check the [Error messages page](/en/dagi-error-messages#the-publication-failed){:target="_blank"} for a precise description on what to do.
 - You can access the DarwinCore-Archive generated for the publication in the **Publications** tab and download it by clicking on the blue icon (📥*xyz.x kbyte*)<br>
 
 - By clicking on **Show on GBIF ↗️** (purple text in the top-left corner of your dataset page and visible in all tabs), you can access your GBIF dataset. It might take some time for all the occurrences to appear, sometimes a few minutes or up to a day.
-   - ⚠️Do not delete a DAGI dataset after publishing on GBIF or it might create unwanted duplicates.⚠️
 
 <div style="text-align: center; margin-top: 50px; border: 5px solid #000; padding: 20px;">
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Publishing step:</strong></p>
@@ -434,14 +433,10 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Validate my data
 
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6;">
-✅ This is a brand new module available on DAGI, but not yet fully operational. Background and context on this topic will be provided in early 2026 in our support material. We thank you in advance for your patience and comprehension.
-</div>
-
 1. Click on **☑️Validate**.
   - A pop-up window titled _Validation summary_ opens with a short summary of what the validation entails.
   - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
-  - Each record has been assigned to its corresponding data center during the Encoding step. The records are grouped by data center and sent per e-mail in a single CSV file.
+  - Each record has been assigned to its corresponding data center during the Encoding step. The records are going to be grouped in a CSV file and sent by e-mail to each data center. The number of records per file is displayed next to the corresponding data center. Both imported and encoded data are sent.
 2. Click on **Validate**.
   - A progression bar appears during the initiation of the validation process and disappears when launched. It might take some time for the validation files to be compiled. You can check their state in the **Validations tab**.
   - When all validation files have been compiled and sent, the Validation status of your records changes to ⚙️Requested.
@@ -449,25 +444,33 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ### Get validation feedback
 
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ This part is still under development and might not be available before the first quarter of 2026. You will be informed officially when everything is ready.
-</div>
+After the validation process done on the data centers side, the validated data is sent back to DAGI in the _Validation layer_. The _Collection Administrator_ of a dataset with validated records is informed by e-mail when the feedback has been received.
 
-After the validation process done on the data centers side, the records on DAGI are enriched on the _Validation layer_ with the validated data coming from the Info Species data centers. The _Collection Administrator_ of a dataset with validated records is informed by e-mail. In the case of not-validated records, a similar e-mail is sent and the feedback is displayed in the side-panel of the records.
+In the case of not-validated records, a similar e-mail is sent and the feedback is displayed in the side-panel of the records (_validation_annotation_ attribute in the raw layer).
 1. Click on a record to open the side-panel on the right side of your browser window.
    - If the record is **Not Validated**, the feedback is displayed in the top part of the side-panel (**Info Species Feedback**).
    - If the record is **Validated**, the validated values are displayed with each attributes in the bottom part of the side-pane.
+2. Click on the Quick-filter "Not validated" to filter specifically those records.
   
 ### Publish validated values
 
 {: .box }
 **The source of truth of the records on DAGI is and remains the institution database**. Validated values can't be published directly on GBIF, but should first be reinjected in the institutional database and then re-imported in DAGI.
 
-1. [Export](#export-my-data) the records.
+1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Validated layer**.
 2. Import the records in your institutional database according to your internal procedures.
 3. [Import](#import-my-data) the records back into DAGI with the values you intend to publish.
 4. [Encode](#encode-my-data) and [publish](#publish-my-data) the records.
 
+### Check not validated values
+
+{: .box}
+**Not validated records does not prevent you from publishing on GBIF.org**. It is simply possible that the data centers staff could not integrate your data in their system. Some annotations might refer to missing data of old museum specimens and therefore can't be changed.
+
+1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Raw layer**.
+2. Check the values in the attribute "validation_annotation" of your records and proceed with it as decided in your internal procedures.
+4. [Import](#import-my-data) the records back into DAGI with the values you want to change.
+5. Send your data again for [Validation](#validate-my-data) in case you managed to apply the annotations.
 
 <br>
 <br>
