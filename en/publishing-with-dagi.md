@@ -309,14 +309,14 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
 
 1. Click on **📥Export**.
   - A pop-up window titled _Export Records_ opens.
-2. **Select your data headers** allows you to determine the column names of your export file. You can choose between:
+2. **Select your data headers** allows you to determine the column names of your export file. You can select only one at a time. If you want both types, you need to export the records twice. You can choose between:
     - your original headers, as last imported in the [Import my data](#import-my-data) part, or
     - the Darwin Core (DWC) Attributes, which include all available attributes in DAGI.
-You can select only one at a time. If you want both types, export the records twice.<br>
 3. **Select the data layer** allows you to determine which data values you want to export. You can choose between:
     - your imported data (Raw), as imported in the [Import my data](#import-my-data) part, or
     - the encoded data (Encoded), as encoded in the [Encode my data](#encode-my-data) part, or
     - the validated data (Validated), which corresponds to the data received from the InfoSpecies data centers after requesting a validation in the [Validate my data](#validate-my-data) part.
+
 ⚠️The validated data can only be obtained in combination with the DWC Attributes headers selection.
 4. Click on **Start export**.
   - The page view changes from the Records tab to the Exports tab where all of your exported files are listed.
