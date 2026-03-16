@@ -1088,7 +1088,8 @@ Here is the **safest method to open any csv file**:
 3. Click on **Get Data** in the Ribbon (First element on the left of the Data ribbon).
 4. Choose **From File** and then **From Text/CSV**.
 - A pop-up window opens, displaying the content of your CSV file, the corresponding encoding and the separation used. Make sure that the encoding format is "65001: Unicode (UTF-8)" for the File Origin.
-5. Click on **Load** at the bottom of the pop-up window
+- By clicking on the button **Transform the data**, it opens the Power Query Editor where you can check all headers type (icon next to the header name). If date headers are set as date, you should change them to text. This way the ISO 8601-1:2019 standard format is not changed by Excel.
+5. Click on **Load** at the bottom of the pop-up window (or **Close and Load** in the Power Query Editor)
 - Your data is now being loaded in your excel workbook and is now correctly displayed as a table.
 
 <div style="padding: 15px; border: 1px solid transparent; border-color: #d1b3eb; margin-bottom: 20px; border-radius: 4px; color: #6a1b9a; background-color: #e6d3f2;">
