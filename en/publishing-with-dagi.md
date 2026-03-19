@@ -25,8 +25,8 @@ toc: true
 # How to publish data using the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-  <p>ℹ️ A new version of DAGI has recently been released, providing bug fixes and feature improvements.</p>
-  <p align="right">Last update: 04.12.2025</p>
+  <p>ℹ️ A new version of DAGI should be released in a couple of weeks. There are already element here corresponding to this new version (mainly validation and export), therefore they are not yet available in the current version you are using. This text will be updated as soon as the new version is available.</p>
+  <p align="right">Last update: 19.03.2026</p>
 </div>
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the [SwissNatColl](https://swissnatcoll.ch/){:target="_blank"} hosted portal**, you first need to prepare an import file containing all data you intend to publish (see [Prepare my data](#prepare-my-data) here below).
@@ -435,7 +435,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 1. Click on **☑️Validate**.
   - A pop-up window titled _Validation summary_ opens with a short summary of what the validation entails.
-  - Note that only the Swiss specimens of species under the scope of InfoSpecies will be reviewed. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
+  - Only the Swiss specimens of species under the scope of InfoSpecies will be sent. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
   - Each record has been assigned to its corresponding data center during the Encoding step. The records are going to be grouped in a CSV file and sent by e-mail to each data center. The number of records per file is displayed next to the corresponding data center. Both imported and encoded data are sent.
 2. Click on **Validate**.
   - A progression bar appears during the initiation of the validation process and disappears when launched. It might take some time for the validation files to be compiled. You can check their state in the **Validations tab**.
@@ -465,7 +465,7 @@ In the case of not-validated records, a similar e-mail is sent and the feedback 
 ### Check not validated values
 
 {: .box}
-**Not validated records does not prevent you from publishing on GBIF.org**. It is simply possible that the data centers staff could not integrate your data in their system. Some annotations might refer to missing data of old museum specimens and therefore can't be changed.
+**Not validated records does not prevent you from publishing on GBIF.org**. It is simply possible that the data centers staff could not integrate your data in their system. Especially for old museums specimens lacking a lot of information.
 
 1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Raw layer**.
 2. Check the values in the attribute "validation_annotation" of your records and proceed with it as decided in your internal procedures.
