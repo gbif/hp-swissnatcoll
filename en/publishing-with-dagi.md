@@ -35,15 +35,7 @@ Once your file is prepared, you can [log in](#log-in) and [import your data](#im
 
 In parallel, you may benefit from the Infospecies data centers experts by [sending them your swiss data for validation](#validate-my-data). Each record sent will be carefully reviewed by the staff of the center concerned and a feedback will be available on DAGI after this process.
 
-<figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/DAGI_dataflow_v5.png" data-lightbox="image-1" 
-     data-title='Anne Morel / SwissNatColl Team'>
-    <img src="/assets/images/GraphsDiagrams/DAGI_dataflow_v5.png" 
-         alt="DAGI Data Flow" 
-         style="max-width: 100%; height: auto; cursor: zoom-in;" />
-  </a>
-  <figcaption>DAGI Data flow and users actions (2026)</figcaption>
-</figure>
+{% include images.html key="dagi-data-flow" %}
 
 
 ## Checklist - to do before logging in the Data Aggregator DAGI
