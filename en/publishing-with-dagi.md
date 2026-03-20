@@ -7,20 +7,7 @@ sideNavigation: sideNavigation.tutorials
 toc: true
 ---
 
-<head>
-  <!-- Lightbox2 CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
-  
-  <!-- Lightbox2 JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-
-  <!-- Zoom.js CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/css/zoom.min.css">
-
-  <!-- Zoom.js JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.2.0/js/zoom.min.js"></script>
-
-</head>
+{% include lightbox2_zoom.html %}
 
 # How to publish data using the Data Aggregator DAGI
 
