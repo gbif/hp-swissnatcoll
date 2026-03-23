@@ -75,7 +75,7 @@ Owing to its federal system, Swiss natural history collections are distributed a
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px;"><i>GE</i></td>
-        <td style="border: 1px solid black; padding: 8px;">Conservatoire et Jardin botaniques de Genève (<a href="/institution/d200fcbc-972e-4488-bcb6-eaa47209148d" target="_blank">CJBG</a>) ; Muséum d’histoire naturelle de Genève (<a href="/institution/8d572607-d32c-4477-8834-c9dbe76c57f9" target="_blank">MHNG</a>)</td>
+        <td style="border: 1px solid black; padding: 8px;">Jardin botanique de Genève (<a href="/institution/d200fcbc-972e-4488-bcb6-eaa47209148d" target="_blank">JBG</a>) ; Muséum d’histoire naturelle de Genève (<a href="/institution/8d572607-d32c-4477-8834-c9dbe76c57f9" target="_blank">MHNG</a>)</td>
       </tr>
       <tr>
         <td style="border: 1px solid black; padding: 8px;"><i>GL</i></td>
