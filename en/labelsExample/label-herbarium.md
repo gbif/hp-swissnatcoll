@@ -169,11 +169,11 @@ toc: true
     </tr>
     <tr>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #d3eef8;">G00304683</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">CJBG</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">JBG</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">G</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">dried plant tissue</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">herbarium sheet</td>
-      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/musinfo/bd/cjb/chg/adetail.php?id=234911&lang=fr</td>
+      <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://collections.geneve.ch/cjbg/chg/adetail.php?id=234911&lang=fr</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.gbif.org/occurrence/1144789039</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px;background-color: #ffffd6;">https://www.ville-ge.ch/imagezoom/?FIF=cjbiip/cjb19/img_101/G00304683.ptif&cvt=jpg</td>
       <td style="border: 1px solid black; vertical-align: top; padding: 5px; max-height: 30px; background-color: #f6ddf4;">Hb.G. 107575;<br> G00304683;<br> SOCIETE POUR L'ECHANGE DES PLANTES VASCULAIRES DE L'EUROPE OCCIDENTALE ET DU BASSIN MEDITERRANEEN,<br> Edit. P. Auquier (LG) - Fascicule 16 (1974-1975), no 8023<br> Taraxacum retortum v. Soest;<br> Urdos (France, Pyrenees-Atlantiques), le long de la route du Col du Somport, 200m avant la frontiere avec l'Espagne, alt. 1600 m, 13 juin 1975;<br> B. de Retz no 71454;<br> J .L. van Soest;<br> Isotype !;<br> TARAXACUM retortum S.;<br> vidi: J. Kirschner et J. Stepanek;<br> anno: 2006;<br> no. det.: 18854;<br> TYPUS;<br> Acquis et intercale dans l'herbier general 107575 Geneve 1977</td>
@@ -227,7 +227,7 @@ toc: true
 <br>
 
 <figure class="has-text-centered">
-  <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Anouk Mentha / <a href="https://www.cjbg.ch/en" target="_blank">Conservatoire et Jardin botaniques de Genève</a>' data-action="zoom">
+  <a href="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" data-lightbox="image-2" data-title='Anouk Mentha / <a href="https://www.jardinbotaniquegeneve.ch/" target="_blank">Jardin botanique de Genève</a>' data-action="zoom">
     <img src="/assets/images/GraphsDiagrams/LabelsExamples_G_SummaryRecordingProcess.png" alt="<i>Summary : Label information recording process and information format" />
   </a>
   <figcaption>Summary : Label information recording process and information format</figcaption>
