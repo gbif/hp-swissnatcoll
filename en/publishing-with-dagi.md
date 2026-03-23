@@ -145,6 +145,14 @@ Please refer to our [FAQs](/en/data-aggregator-faqs){:target="_blank"} for more 
   <p> ⚠️ Leave <strong>uninformed cells EMPTY</strong>. Remove all "n.a.", "NA", "N/A", "unknown", "indet.", etc. values from your file or you may receive an error message during import.</p>
 </div>
 
+<br>
+> Related FAQs topics :<br>
+> [Do I have to upload my entire database into the Data Aggregator?](/en/data-aggregator-faqs#do-i-have-to-upload-my-entire-database-into-the-data-aggregator){:target="_blank"}<br>
+> [But my database/dataset is not formatted in Darwin Core, do I have to change everything?](/en/data-aggregator-faqs#but-my-databasedataset-is-not-formatted-in-darwin-core-do-i-have-to-change-everything){:target="_blank"}<br>
+> [Which fields are required/mandatory?](/en/data-aggregator-faqs#which-fields-are-requiredmandatory){:target="_blank"}<br>
+> [Are there attributes in DAGI that are not part of Darwin Core?](/en/data-aggregator-faqs#are-there-attributes-in-dagi-that-are-not-part-of-darwin-core){:target="_blank"}<br>
+
+
 
 ## Log in
 1. Go to the [Data Aggregator DAGI website](https://dagi.gbif.ch/sign-in){:target="_blank"}.
@@ -262,6 +270,11 @@ The mappings window (Step 2️⃣ of 3️⃣) has three parts:
   <p style="font-size: 20px;"><strong>What you expect to have at the end of the Importing step:</strong></p>
   <p>✅ Your imported records in the <strong>Records</strong> tab of your dataset page.</p>
 </div>
+
+<br>
+> Related FAQs topics :<br>
+> [The import failed](/en/dagi-error-messages#the-import-failed){:target="_blank"}<br>
+
 
 ## Encode my data
 
@@ -414,6 +427,7 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 > Related FAQs topics :<br>
 > [Why is the publication on GBIF not working?](/en/data-aggregator-faqs#why-is-the-publication-on-gbif-not-working){:target="_blank"}<br>
 > [How does the update of my data on GBIF work?](/en/data-aggregator-faqs#how-does-the-update-of-my-data-on-gbif-work){:target="_blank"}<br>
+> [Unpublished records](/en/dagi-error-messages#unpublished-records){:target="_blank"}<br>
 
 ## Validate my data
 
