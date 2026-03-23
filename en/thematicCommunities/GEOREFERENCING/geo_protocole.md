@@ -586,4 +586,4 @@ In cases where georeferencing does not provide the plus-value desired, there are
 ## Source for this page
 - Tschudin P., Burckhardt D., Monnerat C., Sanchez A., Burri F., Jutzi M. & Gonseth Y. 2014. Recommandations pour la saisie  de données de spécimens en collections, Ver. 2.0. Neuchâtel : GBIF Swiss Node, 12 pp. (available upon request)
 
-Authors: Collaboration between the CJBG, Naturéum, Info fauna and GBIF.ch
+Authors: Collaboration between the JBG, Naturéum, Info fauna and GBIF.ch
