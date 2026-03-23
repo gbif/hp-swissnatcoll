@@ -431,6 +431,10 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
 
 ## Validate my data
 
+<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
+⚠️ This feature will be available in the next version of DAGI (coming out in April-May).
+</div>
+
 1. Click on **☑️Validate**.
   - A pop-up window titled _Validation summary_ opens with a short summary of what the validation entails.
   - Only the Swiss specimens of species under the scope of InfoSpecies will be sent. Records coming from other countries or of other species will be ignored, as well as fossil specimens.
