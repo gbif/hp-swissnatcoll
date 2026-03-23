@@ -410,9 +410,10 @@ Now, in the **Records tab** of your Dataset, the records with an image have a gr
   <p>✅ A <strong>gbifID</strong>, <strong>datasetID</strong> and <strong>gbifDOI</strong> added now to all of your published records in the Import layer, category <i>Others</i> of the side panel</p>
 </div>
 
-> Related FAQs topics :
-> [Why is the publication on GBIF not working?](/en/data-aggregator-faqs#why-is-the-publication-on-gbif-not-working){:target="_blank"}
-> [How does the update of my data on GBIF work?](/en/data-aggregator-faqs#how-does-the-update-of-my-data-on-gbif-work){:target="_blank"}
+<br>
+> Related FAQs topics :<br>
+> [Why is the publication on GBIF not working?](/en/data-aggregator-faqs#why-is-the-publication-on-gbif-not-working){:target="_blank"}<br>
+> [How does the update of my data on GBIF work?](/en/data-aggregator-faqs#how-does-the-update-of-my-data-on-gbif-work){:target="_blank"}<br>
 
 ## Validate my data
 
