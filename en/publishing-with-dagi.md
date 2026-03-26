@@ -671,15 +671,10 @@ The *Roles* column informs you on the role/s attributed to each user:
 | **Datasets** -view | ✅ | ✅ |
 | **Datasets** -add/edit | ✅ | ❌ |
 | **Records** -import/encode/export/upload images/send for validation | ❌ | ✅ |
-| **Records** -filter | ✅ | ✅ |
+| **Records** -filter/download files | ✅ | ✅ |
 | **Records** -publish | ✅ | ❌ |
-| **Records** -download files | ✅ | ✅ |
+| **Validation** -receives notification of (non-)validated records | ✅ | ❌ |
 
-<br>
-<div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #8a6d3b;; background-color: #fcf8e3; border-color: #faebcc;">
-⚠️ As the Publication of records on GBIF involves the public responsibility of the institution, we decided to change the users available tasks so that only the _Collection Administrator_ (curators, institution staff member responsible of a collection) can do this important step.
-</div>
-<br>
 
 For each user, it is possible to edit the profile (📝) and delete it (🗑️).
 
