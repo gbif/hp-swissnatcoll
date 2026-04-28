@@ -5,23 +5,29 @@ tutorials:
     - title: "Lesson 1" # required
       description: |      # required
         General overview of the Data Aggregator and its dataflows, log in and data preparation for a smooth import of data.
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQBbKCf64EOeQJpzTb0y9CQiAb-GtVrqWR-J3h5BqE56ulk?e=uEaZLw"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQDyZuIZeU_VTY1WbEzoUWGmAf0v3e4uiCO9VsTFm482hy4?e=65GrXT"
       background: "/assets/images/categories/tuto_lesson_1_v3.png"
 
     - title: "Lesson 2"
       description: |
         Focus on adding a dataset, importing data, doing the mapping and encoding data. Additional examples with possible error messages are also provided
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQDKNaQfjmm8SZAeONqBv0a0AYqH0eWQu7GviHKjWFdG-sY?e=qLkNZ9"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQDwvkGQeGFoQY933ik9vJ4YAWkRekBsnl-QASPFpwwZJYY?e=dtYttD"
       background: "/assets/images/categories/tuto_lesson_2_v3.png"
 
     - title: "Lesson 3"
       description: |
         Focus on filtering, exporting and sending data for validation
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQAU4oeYmxRIRJsnN1SKL_6yAZcgtpFS9iC3b5bQURsx3sM?e=89N4og"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQAfA1L5HBzsRK0U8XsxTWFeAUABYVzTWJ52HKjgs_KEXsw?e=IDYaL5"
       background: "/assets/images/categories/tuto_lesson_3_v2.png"
 
     - title: "Lesson 4"
       description: |
         Focus on publishing a dataset on GBIF.org
-      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQBZ1CiG5e3KSrlHw_p4N8WrAfYWyA4L2Mr77lNhz3RrNgI?e=O0JIGN"
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQArDZ-dIknERL48hC9HTT0yAVPLHgMIzZg0WVgWdC4_R14?e=CdFaUR"
       background: "/assets/images/categories/tuto_lesson_4_v2.png"
+
+      - title: "Lesson 5"
+      description: |
+        Focus on the validation process, sending records to the Info Species data center
+      href: "https://cscfetkarch.sharepoint.com/:p:/s/infofauna_extern/IQBVF_x7rt8mQawWRWDranP1Ae_ICS1rWbkcCN43zROecMg?e=LbuvId"
+      background: "/assets/images/categories/tuto_lesson_5_v1.png"
