@@ -454,23 +454,22 @@ In the case of not-validated records, a similar e-mail is sent and the feedback 
    - If the record is **Validated**, the validated values are displayed with each attributes in the bottom part of the side-pane.
 2. Click on the Quick-filter "Not validated" to filter specifically those records.
   
-### Publish validated values
+### Export and publish validated values
 
 {: .box }
 **The source of truth of the records on DAGI is and remains the institution database**. Validated values can't be published directly on GBIF, but should first be reinjected in the institutional database and then re-imported in DAGI.
 
-1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Validated layer**.
-2. Import the records in your institutional database according to your internal procedures.
-3. [Import](#import-my-data) the records back into DAGI with the values you intend to publish.
-4. [Encode](#encode-my-data) and [publish](#publish-my-data) the records.
+1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Validated layer** in the _Export Records_ pop-up window.
+
+After integrating the validated data into your institutional database according to your chosen procedure, you may import the records again in DAGI with the values you intend to publish.
 
 ### Check not validated values
 
 {: .box}
-**Not validated records does not prevent you from publishing on GBIF.org**. It is simply possible that the data centers staff could not integrate your data in their system. Especially for old museums specimens lacking a lot of information.
+**Not validated records can be published on GBIF.org**. It is simply possible that the data centers staff could not integrate your data in their system. Especially for some museums specimens lacking key information (such as date of collect or precise location).
 
-1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Raw layer**.
-2. Check the values in the attribute "validation_annotation" of your records and proceed with it as decided in your internal procedures.
+1. [Export](#export-my-data) the records by selecting the **DWC Attributes** and **Raw layer** in the _Export Records_ pop-up window..
+2. Check the values in the attribute "validation_annotation" of your records and proceed with it according to your chosen procedure.
 4. [Import](#import-my-data) the records back into DAGI with the values you want to change.
 5. Send your data again for [Validation](#validate-my-data) in case you managed to apply the annotations.
 
