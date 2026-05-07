@@ -21,11 +21,7 @@ Three levels of information are available:
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-specimens.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Specimens
       </button>
     </a>
@@ -33,11 +29,7 @@ Three levels of information are available:
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-collections.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Collections
       </button>
     </a>
@@ -45,11 +37,7 @@ Three levels of information are available:
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-institutions.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Institutions
       </button>
     </a>
@@ -64,11 +52,7 @@ You can search biological and paleontological specimen data across different dom
       <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-zoology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Zoology
       </button>
     </a>
@@ -76,11 +60,7 @@ You can search biological and paleontological specimen data across different dom
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-botany.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Botany
       </button>
     </a>
@@ -88,23 +68,15 @@ You can search biological and paleontological specimen data across different dom
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-mycology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Mycology
       </button>
     </a>
-    <a href="/collection/search?code=UZH:IEM-General_Coll&code=NMB-ANTHR&code=UZH:IEM-HistSlides&code=UZH:IEM-WetSpec&code=UZH:NMZ-IEA&code=UZH:IEM-Med_Hist_Coll&code=UZH:IEM-Galler_Coll&code=UZH:IEM-Swiss_Army_Coll&code=KMDMZ-Mensch&code=UNIBAS:IPNA-ARCHANTH_IAG&code=UZH:IEM-Refrig&code=UZH:IEM-DrySpecFor&code=UZH:IEM-Mummies&code=UZH:IEM-Dahlheim_Coll&code=NMB-ANTHR&code=UZH:IEM-Teaching_Coll" style="text-decoration: none;" target="_blank">
+    <a href="/collection/search?code=UZH:IEM-General_Coll&code=NMB-ANTHR&code=UZH:IEM-HistSlides&code=UZH:IEM-WetSpec&code=UZH:NMZ-IEA&code=UZH:IEM-Med_Hist_Coll&code=UZH:IEM-Galler_Coll&code=UZH:IEM-Swiss_Army_Coll&code=KMDMZ-Mensch&code=UNIBAS:IPNA-ARCHANTH_IAG&code=UZH:IEM-Refrig&code=UZH:IEM-DrySpecFor&code=UZH:IEM-Mummies&code=UZH:IEM-Dahlheim_Col&code=UZH:IEM-Teaching_Coll" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-anthropology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Anthropology
       </button>
     </a>
@@ -112,11 +84,7 @@ You can search biological and paleontological specimen data across different dom
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
-        
-        <!-- Round image -->
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-paleonthology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        
-        <!-- Text below -->
         Paleontology
       </button>
     </a>
