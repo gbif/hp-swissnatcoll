@@ -72,7 +72,7 @@ You can search biological and paleontological specimen data across different dom
         Mycology
       </button>
     </a>
-    <a href="/collection/search?code=UZH%3AIEM-General_Coll&code=NMB-ANTHR&code=UZH:IEM-HistSlides&code=UZH:IEM-WetSpec&code=UZH:NMZ-IEA&code=UZH:IEM-Med_Hist_Coll&code=UZH:IEM-Galler_Coll&code=UZH:IEM-Swiss_Army_Coll&code=KMDMZ-Mensch&code=UNIBAS:IPNA-ARCHANTH_IAG&code=UZH:IEM-Refrig&code=UZH:IEM-DrySpecFor&code=UZH:IEM-Mummies&code=UZH:IEM-Dahlheim_Col&code=UZH:IEM-Teaching_Coll" style="text-decoration: none;" target="_blank">
+    <a href="/collection/search?code=UZH%3AIEM-General_Coll&code=NMB-ANTHR&code=UZH:IEM-HistSlides&code=UZH:IEM-WetSpec&code=UZH:NMZ-IEA&code=UZH:IEM-Med_Hist_Coll&code=UZH:IEM-Galler_Coll&code=UZH:IEM-Swiss_Army_Coll&code=KMDMZ-Mensch&code=UNIBAS:IPNA-ARCHANTH_IAG&code=UZH:IEM-Refrig&code=UZH:IEM-DrySpecFor&code=UZH:IEM-Mummies&code=UZH:IEM-Dahlheim_Coll&code=UZH:IEM-Teaching_Coll" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
