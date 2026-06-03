@@ -15,7 +15,7 @@ composition:
 
 <br>
 
-## Support Day in your institution
+## 🕊️ Support Day in your institution
 
 {: .box }
 **To request for a DAGI individual support day in your institution**, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your date of preference, institution name, location and the number of people attending.
@@ -31,7 +31,7 @@ composition:
 <br>
 <br>
 
-## Next live tutorial sessions
+## 🎤 Next live tutorial sessions
 
 {: .box }
 - MONDAY - **15-06-2026** - **15H00-16H00** - Validation and new functionalities of DAGI v2
@@ -45,7 +45,7 @@ composition:
 
 <br><br>
 
-## Available material
+## 🧰 Available material
 
 ### Text material
 
