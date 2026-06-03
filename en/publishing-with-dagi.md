@@ -12,8 +12,8 @@ toc: true
 # How to publish data using the Data Aggregator DAGI
 
 <div style="padding: 15px; border: 1px solid transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-  <p>ℹ️ A new version of DAGI should be released in a couple of weeks. There are already element here corresponding to this new version (mainly validation and export), therefore they are not yet available in the current version you are using. This text will be updated as soon as the new version is available.</p>
-  <p align="right">Last update: 19.03.2026</p>
+  <p>ℹ️ A new version of DAGI has been released. The main changes concern the Validation Module (NEW), Encoding Module (Catalog Of Life taxonomy encoding) and Publishing Module (Coordinates blurring).</p>
+  <p align="right">Last update: 04.06.2026</p>
 </div>
 
 **In order to publish your data on [GBIF.org](https://www.gbif.org/){:target="_blank"} and have it displayed on the [SwissNatColl](https://swissnatcoll.ch/){:target="_blank"} hosted portal**, you first need to prepare an import file containing all data you intend to publish (see [Prepare my data](#prepare-my-data) here below).
