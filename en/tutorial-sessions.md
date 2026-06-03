@@ -15,10 +15,10 @@ composition:
 
 <br>
 
-## ✨NEW In-house training
+## Support Day in your institution
 
 {: .box }
-**To request for a DAGI individual support in your institution**, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your date of preference, institution name and location and the number of people attending.
+**To request for a DAGI individual support day in your institution**, please send an email to [dagi@gbif.ch](mailto:dagi@gbif.ch) with your date of preference, institution name, location and the number of people attending.
 
 <br>
 
