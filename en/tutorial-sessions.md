@@ -34,13 +34,14 @@ composition:
 ## Next live tutorial sessions
 
 {: .box }
-No tutorial session is planned at the moment. Please send us an email at [dagi@gbif.ch](mailto:dagi@gbif.ch)) to request live tutorial sessions.
-
-<!---
-~~- THURSDAY - **17-04-2025** - **10H30-11H30** - Publication on GBIF~~
-<br>- TUESDAY - **22-04-2025** - **10H30-11H30** - Publication on GBIF
-<br>Zoom link: [https://zoom.us/j/3388329693](https://zoom.us/j/3388329693)
---->
+- MONDAY - **15-06-2026** - **15H00-16H00** - Validation and new functionalities of DAGI v2
+<br>- THURSDAY - **18-06-2026** - **10H30-11H30** - DAGI Import, Encode, Validation Recap
+<br>- TUESDAY - **23-06-2026** - **10H30-11H30** - Publish and dataset metadata Recap
+<br>- WEDNESDAY - **01-07-2026** - **15H00-16H00** - Q&A -open questions
+<br>- THURSDAY - **02-07-2026** - **10H30-11H30** - Q&A -open questions
+<br><br>Zoom link: [https://us06web.zoom.us/j/82907463599?pwd=47XnWUbdJouOPJREQniIyBHysl4FFR.1](https://us06web.zoom.us/j/82907463599?pwd=47XnWUbdJouOPJREQniIyBHysl4FFR.1)
+<br>          _ID: 829 0746 3599_
+<br>          _Password: 170265_
 
 <br><br>
 
