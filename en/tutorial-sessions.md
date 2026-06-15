@@ -45,6 +45,14 @@ composition:
 
 <br><br>
 
+### Recordings of recent live tutorial sessions
+
+#### Monday 15-06-2026
+- video : [https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/IQA8yQ_iTGz0QJEJ9OURG0ooARn3GOrDQT7dQLmm5mYSPMw?e=a9jur4](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/IQA8yQ_iTGz0QJEJ9OURG0ooARn3GOrDQT7dQLmm5mYSPMw?e=a9jur4)
+- topics : Validation, CoL Encoding, Coordinates blurring ; questions about the already published data by the InfoSpecies data centers and how they are reattributed to the institution datasets
+
+<br><br>
+
 ## 🧰 Available material
 
 ### Text material
