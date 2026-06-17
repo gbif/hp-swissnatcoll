@@ -77,7 +77,7 @@ You can search biological and paleontological specimen data across different dom
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-anthropology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        Anthropology
+        Anthropology<br>&<br>Human Remains
       </button>
     </a>
     <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
