@@ -23,7 +23,7 @@ Today, the preservation and study of human remains are accompanied by important 
 
 Further information on specific anthropological collections can be found in the links below:
 
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin: auto;">
+<div style="display: flex; justify-content: center; align-items: flex-start; max-width: 1000px; gap: 20px; flex-wrap: wrap; margin: auto;">
 
   <div style="width: 160px; padding: 30px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; text-align: center; font-family: sans-serif;">
     <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
@@ -43,7 +43,7 @@ Further information on specific anthropological collections can be found in the 
     </div>
     <div style="font-size: 13px; color: #555;">Institute of Evolutionary Medicine, Univ. Zurich</div>
     <div style="font-size: 12px; color: #888; margin-top: 6px;">
-      <br>Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #888; text-decoration: underline;">medicalcollection@iem.uzh.ch</a>
+      <br>Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #888; text-decoration: underline; overflow-wrap: break-word;">medicalcollection@iem.uzh.ch</a>
     </div>
   </div>
 
