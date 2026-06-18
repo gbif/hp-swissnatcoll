@@ -34,7 +34,7 @@ Further information on specific anthropological collections can be found in the 
       <a href="https://archaeologie-schweiz.ch/iag/" style="color: #555; font-size: 11px;">DE</a>
     </div>
     <div style="font-size: 12px; color: #888; margin-top: 6px;">
-        <br>Contact: <a href="mailto:sandra.pichler@unibas.ch" style="color: #888; "text-decoration:underline;">Sandra Pichler</a></div>
+        <br>Contact: <a href="mailto:sandra.pichler@unibas.ch" style="color: #888; text-decoration: underline;">Sandra Pichler</a></div>
   </div>
 
   <div style="width: 160px; padding: 30px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; text-align: center; font-family: sans-serif;">
@@ -43,7 +43,7 @@ Further information on specific anthropological collections can be found in the 
     </div>
     <div style="font-size: 13px; color: #555;">Institute of Evolutionary Medicine, Univ. Zurich</div>
     <div style="font-size: 12px; color: #888; margin-top: 6px;">
-      <br>Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #888; "text-decoration:underline;">medicalcollection@iem.uzh.ch</a>
+      <br>Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #888; text-decoration: underline;">medicalcollection@iem.uzh.ch</a>
     </div>
   </div>
 
@@ -53,7 +53,7 @@ Further information on specific anthropological collections can be found in the 
     </div>
     <div style="font-size: 13px; color: #555;">Sammlungszentrum UZH, Univ. Zurich</div>
     <div style="font-size: 12px; color: #888; margin-top: 6px;">
-        <br>Contact: <a href="mailto:colin.shaw@uzh.ch" style="color: #888;  "text-decoration:underline;">Colin Shaw</a></div>
+        <br>Contact: <a href="mailto:colin.shaw@uzh.ch" style="color: #888; text-decoration: underline;">Colin Shaw</a></div>
   </div>
 
 </div>
