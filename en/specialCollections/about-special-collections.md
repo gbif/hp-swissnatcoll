@@ -34,11 +34,11 @@ Further information on specific anthropological collections can be found in the 
     </div>
     <div style="font-size: 12px; color: #333; margin-bottom: 14px;">
       Intercantonal Association for the Management of Archaeological Human Remains —
-      <a href="https://archeologie-suisse.ch/iag/" style="color: #111;">FR</a> /
-      <a href="https://archaeologie-schweiz.ch/iag/" style="color: #111;">DE</a>
+      <a href="https://archeologie-suisse.ch/iag/" style="color: #111; text-decoration: underline;">FR</a> /
+      <a href="https://archaeologie-schweiz.ch/iag/" style="color: #111; text-decoration: underline;">DE</a>
     </div>
     <div style="font-size: 12px; color: #333;">
-      Contact: <a href="mailto:sandra.pichler@unibas.ch" style="color: #111;">Sandra Pichler</a>
+      Contact: <a href="mailto:sandra.pichler@unibas.ch" style="color: #111; text-decoration: underline;">Sandra Pichler</a>
     </div>
   </div>
 
@@ -51,7 +51,7 @@ Further information on specific anthropological collections can be found in the 
       Institute of Evolutionary Medicine, Univ. Zurich
     </div>
     <div style="font-size: 12px; color: #333;">
-      Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #111; word-break: break-all;">medicalcollection@iem.uzh.ch</a>
+      Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #111; word-break: break-all; text-decoration: underline;">medicalcollection@iem.uzh.ch</a>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ Further information on specific anthropological collections can be found in the 
       Sammlungszentrum UZH, Univ. Zurich
     </div>
     <div style="font-size: 12px; color: #333;">
-      Contact: <a href="mailto:colin.shaw@uzh.ch" style="color: #111;">Colin Shaw</a>
+      Contact: <a href="mailto:colin.shaw@uzh.ch" style="color: #111; text-decoration: underline;">Colin Shaw</a>
     </div>
   </div>
 
