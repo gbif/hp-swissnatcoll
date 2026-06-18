@@ -1,5 +1,4 @@
 ---
-lang-ref: about
 layout: compose
 title: Scope
 background:  "{{ site.data.images.aboutScope.src }}"
