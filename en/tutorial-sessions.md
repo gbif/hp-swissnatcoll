@@ -34,8 +34,8 @@ composition:
 ## 🎤 Next live tutorial sessions
 
 {: .box }
-- MONDAY - **15-06-2026** - **15H00-16H00** - Validation and new functionalities of DAGI v2<br>
-- THURSDAY - **18-06-2026** - **10H30-11H30** - DAGI Import, Encode, Validation Recap<br>
+~~- MONDAY - **15-06-2026** - **15H00-16H00** - Validation and new functionalities of DAGI v2~~<br>
+~~- THURSDAY - **18-06-2026** - **10H30-11H30** - DAGI Import, Encode, Validation Recap~~<br>
 - TUESDAY - **23-06-2026** - **10H30-11H30** - Publish and dataset metadata Recap<br>
 - WEDNESDAY - **01-07-2026** - **15H00-16H00** - Q&A -open questions<br>
 - THURSDAY - **02-07-2026** - **10H30-11H30** - Q&A -open questions
@@ -45,11 +45,15 @@ composition:
 
 <br><br>
 
-### Recordings of recent live tutorial sessions
+### 🎥 Recordings of recent live tutorial sessions
 
 #### Monday 15-06-2026
-- video : [ZOOM Tutorial session](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/IQA8yQ_iTGz0QJEJ9OURG0ooARn3GOrDQT7dQLmm5mYSPMw?e=a9jur4)
+- video : [ZOOM Tutorial session](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/IQA8yQ_iTGz0QJEJ9OURG0ooARn3GOrDQT7dQLmm5mYSPMw?e=mRsEbo)
 - topics : Validation, CoL Encoding, Coordinates blurring ; questions about the already published data by the InfoSpecies data centers and how they are reattributed to the institution datasets
+
+#### Thursday 18-06-2026
+- video : [ZOOM Tutorial session](https://cscfetkarch.sharepoint.com/:v:/s/infofauna_extern/IQDNvZABcQRfS67ZfHJz49cfAdL567bLuW6VPOJTOwf1QgI?e=XX4VoX)
+- topics : Datasets, Import, Encode, Filter, Export
 
 <br><br>
 
