@@ -72,9 +72,6 @@ Further information on specific anthropological collections can be found in the 
       Contact: <a href="mailto:colin.shaw@uzh.ch" style="text-decoration: underline;">Colin Shaw</a>
     </div>
   </div>
-
-</div>
-
 </div>
 
 {% include back-to-top.html %}
