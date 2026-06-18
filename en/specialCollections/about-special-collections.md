@@ -2,6 +2,7 @@
 lang-ref: about
 layout: compose
 title: Special Collections
+permalink: /en/about-special-collections
 background:  "{{ site.data.images.aboutScope.src }}"
 imageLicense: "{{ site.data.images.aboutScope.caption }}"
 overlayColor: transparent
@@ -22,37 +23,38 @@ Today, the preservation and study of human remains are accompanied by important 
 
 Further information on specific anthropological collections can be found in the links below:
 
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; flex-wrap: wrap; max-width: 800px; margin: auto;">
 
-  <a href="https://www.unibas.ch/de/..." style="text-decoration: none;">
-    <div style="width: 160px; padding: 16px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; color: #333; cursor: pointer; text-align: center; font-family: sans-serif;"
-         onmouseover="this.style.borderColor='#4a90d9'; this.style.backgroundColor='#eef4fb';"
-         onmouseout="this.style.borderColor='#ccc'; this.style.backgroundColor='#f9f9f9';">
-      <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">Human Skeletal Collection</div>
-      <div style="font-size: 13px; color: #555;">Unibas / IAG</div>
-      <div style="font-size: 12px; color: #888; margin-top: 6px;">Sandra Pichler</div>
+  <div style="width: 160px; padding: 30px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; text-align: center; font-family: sans-serif;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+      <a href="https://www.unibas.ch/de/Universitaet/Administration-Services/Generalsekretariat/Archive-Sammlungen/Wissenschaftliche-Sammlungen/Alphabetisch-sortiert/Anthropologie-IAG.html">Human Skeletal Collection</a>
     </div>
-  </a>
+    <div style="font-size: 13px; color: #555;">
+      Intercantonal Association for the Management of Archaeological Human Remains<br><a href="https://archeologie-suisse.ch/iag/" style="color: #555; font-size: 11px;">FR</a> /
+      <a href="https://archaeologie-schweiz.ch/iag/" style="color: #555; font-size: 11px;">DE</a>
+    </div>
+    <div style="font-size: 12px; color: #888; margin-top: 6px;">
+        <br>Contact: <a href="mailto:sandra.pichler@unibas.ch" style="color: #888;">Sandra Pichler</a></div>
+  </div>
 
-  <a href="https://www.iem.uzh.ch/en/collections.html" style="text-decoration: none;">
-    <div style="width: 160px; padding: 16px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; color: #333; cursor: pointer; text-align: center; font-family: sans-serif;"
-         onmouseover="this.style.borderColor='#4a90d9'; this.style.backgroundColor='#eef4fb';"
-         onmouseout="this.style.borderColor='#ccc'; this.style.backgroundColor='#f9f9f9';">
-      <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">Human Remains Collection</div>
-      <div style="font-size: 13px; color: #555;">IEM, Univ. Zurich</div>
-      <div style="font-size: 12px; color: #888; margin-top: 6px;">medicalcollection@iem.uzh.ch</div>
+  <div style="width: 160px; padding: 30px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; text-align: center; font-family: sans-serif;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+      <a href="https://www.iem.uzh.ch/en/collections.html">Human Remains Collection</a>
     </div>
-  </a>
+    <div style="font-size: 13px; color: #555;">Institute of Evolutionary Medicine, Univ. Zurich</div>
+    <div style="font-size: 12px; color: #888; margin-top: 6px;">
+      <br>Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="color: #888;">medicalcollection@iem.uzh.ch</a>
+    </div>
+  </div>
 
-  <a href="https://www.uzh.ch/en/explore/museums/anthropological-collection.html" style="text-decoration: none;">
-    <div style="width: 160px; padding: 16px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; color: #333; cursor: pointer; text-align: center; font-family: sans-serif;"
-         onmouseover="this.style.borderColor='#4a90d9'; this.style.backgroundColor='#eef4fb';"
-         onmouseout="this.style.borderColor='#ccc'; this.style.backgroundColor='#f9f9f9';">
-      <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">Evolutionary Anthropology Collection</div>
-      <div style="font-size: 13px; color: #555;">Sammlungszentrum UZH</div>
-      <div style="font-size: 12px; color: #888; margin-top: 6px;">Colin Shaw</div>
+  <div style="width: 160px; padding: 30px; border: 2px solid #ccc; border-radius: 6px; background-color: #f9f9f9; text-align: center; font-family: sans-serif;">
+    <div style="font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+      <a href="https://www.uzh.ch/en/explore/museums/anthropological-collection.html">Evolutionary Anthropology Collection</a>
     </div>
-  </a>
+    <div style="font-size: 13px; color: #555;">Sammlungszentrum UZH, Univ. Zurich</div>
+    <div style="font-size: 12px; color: #888; margin-top: 6px;">
+        <br>Contact: <a href="mailto:colin.shaw@uzh.ch" style="color: #888;">Colin Shaw</a></div>
+  </div>
 
 </div>
 
