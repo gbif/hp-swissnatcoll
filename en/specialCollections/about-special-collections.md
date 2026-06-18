@@ -1,5 +1,4 @@
 ---
-lang-ref: about
 layout: compose
 title: Special Collections
 permalink: /en/about-special-collections
