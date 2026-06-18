@@ -60,7 +60,7 @@ Further information on specific anthropological collections can be found in the 
   </div>
 
   <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
-    <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-dna" style="color: #333;"></i></div>
+    <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-binary-tree" style="color: #333;"></i></div>
     <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
       <a href="https://www.uzh.ch/en/explore/museums/anthropological-collection.html">Evolutionary Anthropology Collection</a>
     </div>
