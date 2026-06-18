@@ -34,12 +34,12 @@ Further information on specific anthropological collections can be found in the 
   <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
     <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-bone" style="color: #333;"></i></div>
     <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
-      <a href="https://www.unibas.ch/de/Universitaet/Administration-Services/Generalsekretariat/Archive-Sammlungen/Wissenschaftliche-Sammlungen/Alphabetisch-sortiert/Anthropologie-IAG.html">Human Skeletal Collection</a>
+      <a href="https://www.unibas.ch/de/Universitaet/Administration-Services/Generalsekretariat/Archive-Sammlungen/Wissenschaftliche-Sammlungen/Alphabetisch-sortiert/Anthropologie-IAG.html" target="_blank">Human Skeletal Collection</a>
     </div>
     <div style="font-size: 12px; color: #333; margin-bottom: 14px;">
       Intercantonal Association for the Management of Archaeological Human Remains —
-      <a href="https://archeologie-suisse.ch/iag/" style="text-decoration: underline;">FR</a> /
-      <a href="https://archaeologie-schweiz.ch/iag/" style="text-decoration: underline;">DE</a>
+      <a href="https://archeologie-suisse.ch/iag/" style="text-decoration: underline;" target="_blank">FR</a> /
+      <a href="https://archaeologie-schweiz.ch/iag/" style="text-decoration: underline;" target="_blank">DE</a>
     </div>
     <div style="font-size: 12px; color: #333;">
       Contact: <a href="mailto:sandra.pichler@unibas.ch" style="text-decoration: underline;">Sandra Pichler</a>
@@ -49,7 +49,7 @@ Further information on specific anthropological collections can be found in the 
   <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
     <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-man" style="color: #333;"></i></div>
     <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
-      <a href="https://www.iem.uzh.ch/en/collections.html">Human Remains Collection</a>
+      <a href="https://www.iem.uzh.ch/en/collections.html" target="_blank">Human Remains Collection</a>
     </div>
     <div style="font-size: 12px; color: #333; margin-bottom: 14px;">
       Institute of Evolutionary Medicine, Univ. Zurich
@@ -62,7 +62,7 @@ Further information on specific anthropological collections can be found in the 
   <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
     <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-binary-tree" style="color: #333;"></i></div>
     <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
-      <a href="https://www.uzh.ch/en/explore/museums/anthropological-collection.html">Evolutionary Anthropology Collection</a>
+      <a href="https://www.uzh.ch/en/explore/museums/anthropological-collection.html" target="_blank">Evolutionary Anthropology Collection</a>
     </div>
     <div style="font-size: 12px; color: #333; margin-bottom: 14px;">
       Sammlungszentrum UZH, Univ. Zurich
