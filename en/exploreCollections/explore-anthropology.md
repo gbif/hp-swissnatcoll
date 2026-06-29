@@ -1,7 +1,7 @@
 ---
 layout: compose
 title: Anthropology & Human Remains Collections
-permalink: /en/about-special-collections
+permalink: /en/explore-anthropology
 background:  "{{ site.data.images.exploreAnthrHuRem.src }}"
 imageLicense: "{{ site.data.images.exploreAnthrHuRem.caption }}"
 overlayColor: transparent
