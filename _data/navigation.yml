@@ -33,11 +33,11 @@
 
 - text: Explore Collections
   menu:
-  - text: Biology & Paleontology Collections
+  - text: Biology & Paleontology
     href: /en/explore-biology-paleontology
-  - text: Anthropology & Human Remains Collections
+  - text: Anthropology & Human Remains
     href: /en/explore-anthropology
-  - text: Geosciences Collections
+  - text: Geosciences
     href: /en/explore-geosciences
 
 #- text: Ressources
