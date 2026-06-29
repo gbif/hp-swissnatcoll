@@ -31,6 +31,15 @@
   - text: Aggregating Data
     href: /en/aggregating-data/
 
+- text: Explore Collections
+  menu:
+  - text: Biology & Paleontology Collections
+    href: /en/explore-biology-paleontology
+  - text: Anthropology & Human Remains Collections
+    href: /en/explore-anthropology
+  - text: Geosciences Collections
+    href: /en/explore-geosciences
+
 #- text: Ressources
 #  menu:
 #  - text: Georeferencing protocole
