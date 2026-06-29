@@ -1,9 +1,9 @@
 ---
 layout: compose
-title: Special Collections
+title: Anthropology & Human Remains Collections
 permalink: /en/about-special-collections
-background:  "{{ site.data.images.aboutScope.src }}"
-imageLicense: "{{ site.data.images.aboutScope.caption }}"
+background:  "{{ site.data.images.exploreAnthrHuRem.src }}"
+imageLicense: "{{ site.data.images.exploreAnthrHuRem.caption }}"
 overlayColor: transparent
 hasBlackText: true
 height: 50vh
