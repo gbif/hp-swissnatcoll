@@ -55,6 +55,18 @@ specimens:
 # ==================================================================================================================
 # THEMATIC ILLUSTRATIONS
 # ==================================================================================================================
+exploreBiolPal:
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
+
+exploreAnthrHuRem:
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
+
+exploreGeoSc:
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
+
 georeferencing:
   src: /assets/images/categories/Georeferencing-homemade.png
   caption: "Anne Morel"
