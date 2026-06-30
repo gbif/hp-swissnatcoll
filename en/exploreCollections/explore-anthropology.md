@@ -1,6 +1,8 @@
 ---
 layout: compose
-title: Anthropology & Human Remains Collections
+title: |
+  Anthropology
+  & Human Remains Collections
 permalink: /en/explore-anthropology
 background:  "{{ site.data.images.exploreAnthrHuRem.src }}"
 imageLicense: "{{ site.data.images.exploreAnthrHuRem.caption }}"
