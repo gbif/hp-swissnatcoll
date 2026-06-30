@@ -56,7 +56,7 @@ specimens:
 # THEMATIC ILLUSTRATIONS
 # ==================================================================================================================
 exploreBiolPal:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-7-shadow-Petite.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-7-shadow-compressed.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 exploreAnthrHuRem:
