@@ -56,16 +56,16 @@ specimens:
 # THEMATIC ILLUSTRATIONS
 # ==================================================================================================================
 exploreBiolPal:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-7-shadow-Petite.png
   caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
 
 exploreAnthrHuRem:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-anthropologie-compressed.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2026"
 
 exploreGeoSc:
-  src: /assets/images/Illustrations_CochetA/SCN-bandeau-6-shadow-compressed.png
-  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2025"
+  src: /assets/images/Illustrations_CochetA/SCN-bandeau-geologie-v03-compressed.png
+  caption: "by [Amélie Cochet](https://ameliecochet.ch/){:target=\"_blank\"}, 2026"
 
 georeferencing:
   src: /assets/images/categories/Georeferencing-homemade.png
