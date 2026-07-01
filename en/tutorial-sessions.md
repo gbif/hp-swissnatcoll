@@ -37,7 +37,7 @@ composition:
 ~~- MONDAY - **15-06-2026** - **15H00-16H00** - Validation and new functionalities of DAGI v2~~
 ~~<br>- THURSDAY - **18-06-2026** - **10H30-11H30** - DAGI Import, Encode, Validation Recap~~
 ~~<br>- TUESDAY - **23-06-2026** - **10H30-11H30** - Publish and dataset metadata Recap~~
-<br>- WEDNESDAY - **01-07-2026** - **15H00-16H00** - Q&A -open questions
+~~<br>- WEDNESDAY - **01-07-2026** - **15H00-16H00** - Q&A -open questions~~
 <br>- THURSDAY - **02-07-2026** - **10H30-11H30** - Q&A -open questions
 <br><br> Zoom link: [https://us06web.zoom.us/j/82907463599?pwd=47XnWUbdJouOPJREQniIyBHysl4FFR.1](https://us06web.zoom.us/j/82907463599?pwd=47XnWUbdJouOPJREQniIyBHysl4FFR.1)
 <br>          _ID: 829 0746 3599_
