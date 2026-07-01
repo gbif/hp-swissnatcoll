@@ -1,0 +1,5 @@
+{% for item in site.data.navigation %}
+  {% unless item.key == "newFeature" and site.showNewNavItem == false %}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  {% endunless %}
+{% endfor %}
