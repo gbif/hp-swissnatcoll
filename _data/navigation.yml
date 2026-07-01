@@ -31,14 +31,14 @@
   - text: Aggregating Data
     href: /en/aggregating-data/
 
-#- text: Explore Collections
-  #menu:
-  #- text: Biology & Paleontology
-  #  href: /en/explore-biology-paleontology
-  #- text: Anthropology & Human Remains
-  #  href: /en/explore-anthropology
-  #- text: Geosciences
-  #  href: /en/explore-geosciences
+- text: Explore Collections
+  menu:
+  - text: Biology & Paleontology
+    href: /en/explore-biology-paleontology
+  - text: Anthropology & Human Remains
+    href: /en/explore-anthropology
+  - text: Geosciences
+    href: /en/explore-geosciences
 
 #- text: Ressources
 #  menu:
