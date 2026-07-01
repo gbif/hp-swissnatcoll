@@ -32,6 +32,7 @@
     href: /en/aggregating-data/
 
 - text: Explore Collections
+  key: exploreCollections
   menu:
   - text: Biology & Paleontology
     href: /en/explore-biology-paleontology
