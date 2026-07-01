@@ -1,5 +1,16 @@
 {% for item in site.data.navigation %}
-  {% unless item.key == "newFeature" and site.showNewNavItem == false %}
-    <a href="{{ item.url }}">{{ item.title }}</a>
+  {% unless item.key == "exploreCollections" and site.showNewNavItem == false %}
+    {% if item.menu %}
+      <div class="dropdown">
+        <span>{{ item.text }}</span>
+        <ul>
+          {% for sub in item.menu %}
+            <li><a href="{{ sub.href }}">{{ sub.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% else %}
+      <a href="{{ item.href }}">{{ item.text }}</a>
+    {% endif %}
   {% endunless %}
 {% endfor %}
