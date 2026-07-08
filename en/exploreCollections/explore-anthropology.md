@@ -19,8 +19,9 @@ Anthropological and human remains collections document the history and diversity
 # Ethics and Access
 
 Today, the preservation and study of human remains are accompanied by important ethical considerations. Museums strive to document the provenance of their collections, respect the dignity of the individuals represented, and engage in dialogue with concerned communities whenever appropriate. The display of human remains is therefore governed by strict guidelines that seek to balance the dissemination of scientific knowledge with respect for cultural sensitivities.
-> Learn more (insert link)
- 
+
+[Learn more](https://example.org){: .button .is-primary}
+
 # In Switzerland
 
 As explained above, collections containing human remains are subject to specific ethical and legal requirements. Therefore, their data are not made publicly accessible through SwissNatColl. Nevertheless, they remain available for internal collection management, scientific research purposes, and the long-term preservation of information.
