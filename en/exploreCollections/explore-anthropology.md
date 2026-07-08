@@ -11,16 +11,20 @@ composition:
   - type: heroImage
   - type: pageMarkdown
 ---
-# Anthropological collections
+# Overview
 
-Anthropological collections document the history and diversity of the human species. They usually comprise human and non-human primate skeletal remains, fossils, mummies, anatomical casts, hair and skin samples, and associated scientific documentation. These collections are part of a scientific tradition that developed during the nineteenth century, when biological anthropology emerged as a distinct field of research. This discipline studies human evolution, biological diversity, adaptation, and the variations observed among past and present human populations.
+Anthropological and human remains collections document the history and diversity of the human species. They usually comprise human and non-human primate skeletal remains, fossils, mummies, anatomical casts, hair and skin samples, and associated scientific documentation. These collections are part of a scientific tradition that developed during the nineteenth century, when biological anthropology emerged as a distinct field of research. This discipline studies human evolution, biological diversity, adaptation, and the variations observed among past and present human populations.
 
-In Switzerland, these collections are mainly housed in universities and natural history museums. They represent an invaluable resource for researchers investigating human evolution, ancient migrations, the health of past populations, and the relationships between human societies and their environments. These collections also support exhibitions and educational activities designed to engage the public with scientific knowledge.
+
+# Ethics and Access
 
 Today, the preservation and study of human remains are accompanied by important ethical considerations. Museums strive to document the provenance of their collections, respect the dignity of the individuals represented, and engage in dialogue with concerned communities whenever appropriate. The display of human remains is therefore governed by strict guidelines that seek to balance the dissemination of scientific knowledge with respect for cultural sensitivities.
+> Learn more (insert link)
+ 
+# In Switzerland
 
-
-Further information on specific anthropological collections can be found in the links below:
+As explained above, collections containing human remains are subject to specific ethical and legal requirements. Therefore, their data are not made publicly accessible through SwissNatColl. Nevertheless, they remain available for internal collection management, scientific research purposes, and the long-term preservation of information.
+Further information on specific anthropological a human remains collections can however be found upon request in the links below:
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 
