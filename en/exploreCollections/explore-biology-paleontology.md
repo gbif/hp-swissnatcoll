@@ -1,6 +1,6 @@
 ---
 layout: compose
-title: Biology & Paleontology Collections
+title: Biology and <br> Paleontology Collections
 permalink: /en/explore-biology-paleontology
 background:  "{{ site.data.images.exploreBiolPal.src }}"
 imageLicense: "{{ site.data.images.exploreBiolPal.caption }}"
