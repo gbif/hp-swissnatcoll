@@ -80,7 +80,7 @@ Further information on specific anthropological a human remains collections can 
 
 <div>
   <details>
-    <summary>Notice</summary>
+    <summary>Notice regarding datasets containing human remains</summary>
     <p>Collections containing human remains are subject to specific ethical and legal requirements. Out of respect for deceased individuals, their potential descendants, and affected communities, detailed datasets from anthropological, archaeological, and medical collections are not publicly disseminated via SwissNatColl.
 Nevertheless, the resulting data from the digitization and documentation of these holdings remain available for internal collection management, scientific research purposes, and the long-term preservation of information.<br>
 This approach is consistent with international recommendations and standards for the responsible management of human remains. In particular, it is guided by the CARE Principles for Indigenous Data Governance (Collective Benefit, Authority to Control, Responsibility, and Ethics), which emphasize collective benefit, the self-determination of affected communities, institutional responsibility, and ethical conduct. In this context, particular importance is attached to the protection of sensitive information and to the rights and interests of potential source communities.
