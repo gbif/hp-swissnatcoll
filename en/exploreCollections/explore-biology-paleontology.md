@@ -17,6 +17,7 @@ Biological collections comprise animal, plant, fungal and fossil specimens. Toge
 
 
 # In Switzerland
+
 In Switzerland, institutions hold nearly 60 million specimens in their biological collections. The SwissNatColl portal therefore provides free access to more than 2 million of them and counting.
 
 {% include back-to-top.html %}
