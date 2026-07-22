@@ -93,7 +93,7 @@ Further information on specific anthropological a human remains collections can 
       Institute of Evolutionary Medicine, Univ. Zurich
     </div>
     <div style="font-size: 12px; color: #333;">
-      Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="text-decoration: underline; word-break: break-all;">medicalcollection@iem.uzh.ch</a>
+      Contact: <a href="mailto:medicalcollection@iem.uzh.ch" style="text-decoration: underline; word-break: break-all;">Sabina Carraro</a>
     </div>
   </div>
 
