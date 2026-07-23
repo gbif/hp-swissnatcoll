@@ -34,6 +34,7 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
           <rect width="24" height="16" fill="#D52B1E"/>
           <path d="M24 16 L0 0" stroke="#FFCC00" stroke-width="8" fill="none"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         BE
       </td>
@@ -44,7 +45,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td rowspan="2">Natural History Museum Bern</td>
       <td>
@@ -53,7 +53,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td>
         <a href="https://wsc.nmbe.ch/" target="_blank" rel="noopener noreferrer">
@@ -61,13 +60,13 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td class="canton-cell">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
           <rect width="24" height="16" fill="#D52B1E"/>
           <rect x="10" y="3" width="4" height="10" fill="#fff"/>
           <rect x="7" y="6" width="10" height="4" fill="#fff"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         CH
       </td>
@@ -78,7 +77,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td class="canton-cell">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
@@ -88,6 +86,7 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
           <rect x="12" y="4" width="6" height="4" fill="#FFCC00"/>
           <rect x="0" width="6" height="8" fill="#000"/>
           <path d="M0 8 L24 8" stroke="#000" stroke-width="0.6" fill="none"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         GR
       </td>
@@ -98,7 +97,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td class="canton-cell" rowspan="2">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
@@ -108,6 +106,7 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
           <rect x="12" y="9" width="12" height="3" fill="#fff"/>
           <rect x="12" y="12" width="12" height="3" fill="#D52B1E"/>
           <path d="M5 7 C2 3 7 3 7 4 L7 14" stroke="#D52B1E" stroke-width="2" fill="none"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         JU
       </td>
@@ -118,7 +117,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td>
         <a href="https://www.jurassica.ch/fr/Museum/Collections-Museum/Collections-Museum.html#" target="_blank" rel="noopener noreferrer">
@@ -126,12 +124,12 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td class="canton-cell" rowspan="2">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
           <polygon points="0,0 24,0 0,16" fill="#0033A0"/>
           <polygon points="24,0 24,16 0,16" fill="#FFFFFF"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         ZH
       </td>
@@ -142,7 +140,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         </a>
       </td>
     </tr>
-
     <tr>
       <td>University of Zurich</td>
       <td>
