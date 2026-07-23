@@ -255,6 +255,11 @@ var siteConfig = {
     "excludedFilters": [
       "country"
     ]
+  }
+  messages: {
+    "catalogues.occurrences": "Specimens",
+    "search.tabs.gallery": "Images",
+    "filters.city.name": "City/town",
   },
   "datasetSearch": {},
   "publisherSearch": {},
