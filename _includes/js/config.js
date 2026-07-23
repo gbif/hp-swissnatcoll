@@ -160,7 +160,11 @@ var siteConfig = {
       "mapTileLocale": "en"
     }
   ],
-  "messages": {},
+  "messages": {
+    "catalogues.occurrences": "Specimens",
+    "search.tabs.gallery": "Images",
+    "filters.city.name": "City/town"
+  },
   "occurrenceSearch": {
     "scope": {
       "type": "and",
@@ -255,11 +259,6 @@ var siteConfig = {
     "excludedFilters": [
       "country"
     ]
-  }
-  messages: {
-    "catalogues.occurrences": "Specimens",
-    "search.tabs.gallery": "Images",
-    "filters.city.name": "City/town",
   },
   "datasetSearch": {},
   "publisherSearch": {},
