@@ -136,14 +136,6 @@ Yes, Swiss institutions continue to maintain their own online databases, each of
         </thead>
         <tbody>
           <tr>
-            <td>The Global Genome Biodiversity Network</td>
-            <td>
-              <a href="https://www.ggbn.org/ggbn_portal/" target="_blank" rel="noopener noreferrer">
-                GGBN Database
-              </a>
-            </td>
-          </tr>
-          <tr>
             <td>Herbarium of the Botanical Garden of the University of Bern</td>
             <td>
               <a href="https://herbarium-bernense.ch" target="_blank" rel="noopener noreferrer">
