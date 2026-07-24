@@ -41,8 +41,8 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
       </td>
       <td>The Global Genome Biodiversity Network</td>
       <td>
-        <a href="https://zh-genomics-db.ch" target="_blank" rel="noopener noreferrer">
-          ZH Genomics Database
+        <a href="https://www.ggbn.org/ggbn_portal/" target="_blank" rel="noopener noreferrer">
+          GGBN Database
         </a>
       </td>
     </tr>
@@ -78,22 +78,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
       </td>
     </tr>
     <tr>
-      <td class="canton-cell">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <rect x="12" width="6" height="4" fill="#0057A8"/>
-          <rect x="18" y="4" width="6" height="4" fill="#0057A8"/>
-          <rect x="18" width="6" height="4" fill="#FFCC00"/>
-          <rect x="12" y="4" width="6" height="4" fill="#FFCC00"/>
-          <rect x="0" width="6" height="8" fill="#000"/>
-          <path d="M0 8 L24 8" stroke="#000" stroke-width="0.6" fill="none"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        GR
-      </td>
-      <td>no data</td>
-      <td>no data</td>
-    </tr>
-    <tr>
       <td class="canton-cell" rowspan="2">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
           <rect x="12" width="12" height="3" fill="#D52B1E"/>
@@ -123,24 +107,24 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
     <tr>
       <td class="canton-cell" rowspan="2">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <polygon points="0,0 24,0 0,16" fill="#0033A0"/>
-          <polygon points="24,0 24,16 0,16" fill="#FFFFFF"/>
+          <polygon points="0,0 0,16 24,16" fill="#0033A0"/>
+          <polygon points="24,0 24,16 0,0" fill="#FFFFFF"/>
           <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
         </svg>
         ZH
       </td>
       <td>ETH Zurich</td>
       <td>
-        <a href="https://zh-genomics-db.ch" target="_blank" rel="noopener noreferrer">
-          ZH Genomics Database
+        <a href="https://nahima.ethz.ch/search" target="_blank" rel="noopener noreferrer">
+          Database of the natural history collections of the ETH Zurich
         </a>
       </td>
     </tr>
     <tr>
       <td>University of Zurich</td>
       <td>
-        <a href="https://uzh-proteome-archive.ch" target="_blank" rel="noopener noreferrer">
-          UZH Proteome Archive
+        <a href="https://www.herbarien.uzh.ch/en/belegsuche.html" target="_blank" rel="noopener noreferrer">
+          Herbaria Z+ZT and ZSS
         </a>
       </td>
     </tr>
