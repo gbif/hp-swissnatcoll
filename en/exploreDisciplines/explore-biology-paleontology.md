@@ -18,7 +18,49 @@ Biological collections comprise animal, plant, fungal and fossil specimens. Toge
 
 # In Switzerland
 
-In Switzerland, institutions hold nearly 60 million specimens in their biological collections. The SwissNatColl portal therefore provides free access to more than 2 million of them and counting. Swiss institutions also house online portals to either display data to a broader audience or to display and download available data. The following table provides the links to these institutions online catalogues:
+In Switzerland, institutions hold nearly 60 million specimens in their biological collections. The SwissNatColl portal therefore provides free access to more than 2 million of them and counting.
+
+You can search specimens across different domains:
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
+    <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-zoology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        Zoology
+      </button>
+    </a>
+    <a href="/occurrence/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-botany.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        Botany
+      </button>
+    </a>
+    <a href="/occurrence/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-mycology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        Mycology
+      </button>
+    </a>
+    <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
+      <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
+              onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
+              onmouseout="this.style.color='#333';">
+        <img src="/assets/images/Illustrations_CochetA/SCN-icones-paleonthology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        Paleontology
+      </button>
+    </a>
+</div>
+
+# Swiss Institutional Catalogues
+
+
+Swiss institutions maintain their own online catalogues. Explore them to learn more about individual collections, or use the SwissNatColl portal to search specimen data across all participating institutions.
 <br>
 <table class="institutions-catalogues">
   <thead>
