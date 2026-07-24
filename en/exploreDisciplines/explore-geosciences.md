@@ -1,6 +1,6 @@
 ---
 layout: compose
-title: Geosciences Collections
+title: Geosciences
 permalink: /en/explore-geosciences
 background:  "{{ site.data.images.exploreGeoSc.src }}"
 imageLicense: "{{ site.data.images.exploreGeoSc.caption }}"
