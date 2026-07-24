@@ -62,117 +62,6 @@ You can search specimens across different domains:
 
 Swiss institutions maintain their own online catalogues. Explore them to learn more about individual collections, or use the SwissNatColl portal to search specimen data across all participating institutions.
 <br>
-<table class="institutions-catalogues">
-  <thead>
-    <tr>
-      <th>Canton</th>
-      <th>Institution</th>
-      <th>Online catalogue</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="canton-cell">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <rect width="24" height="16" fill="#D52B1E"/>
-          <rect x="10" y="3" width="4" height="10" fill="#fff"/>
-          <rect x="7" y="6" width="10" height="4" fill="#fff"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        CH
-      </td>
-      <td>The Global Genome Biodiversity Network</td>
-      <td>
-        <a href="https://www.ggbn.org/ggbn_portal/" target="_blank" rel="noopener noreferrer">
-          GGBN Database
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="canton-cell" rowspan="3">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <rect width="24" height="16" fill="#D52B1E"/>
-          <path d="M24 16 L0 0" stroke="#FFCC00" stroke-width="8" fill="none"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        BE
-      </td>
-      <td>Herbarium of the Botanical Garden of the University of Bern</td>
-      <td>
-        <a href="https://herbarium-bernense.ch" target="_blank" rel="noopener noreferrer">
-          Herbarium Bernense
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="2">Natural History Museum Bern</td>
-      <td>
-        <a href="https://www.flickr.com/people/nmbeinvertebrata/" target="_blank" rel="noopener noreferrer">
-          Insects, Insekten, Insectes, Insetti!
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://wsc.nmbe.ch/" target="_blank" rel="noopener noreferrer">
-          World Spider Catalog
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="canton-cell" rowspan="2">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <rect x="12" width="12" height="3" fill="#D52B1E"/>
-          <rect x="12" y="3" width="12" height="3" fill="#fff"/>
-          <rect x="12" y="6" width="12" height="3" fill="#D52B1E"/>
-          <rect x="12" y="9" width="12" height="3" fill="#fff"/>
-          <rect x="12" y="12" width="12" height="3" fill="#D52B1E"/>
-          <path d="M5 7 C2 3 7 3 7 4 L7 14" stroke="#D52B1E" stroke-width="2" fill="none"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        JU
-      </td>
-      <td rowspan="2">Jurassica</td>
-      <td>
-        <a href="https://collections.jurassica.ch/" target="_blank" rel="noopener noreferrer">
-          Jurassica Collections
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://www.jurassica.ch/fr/Museum/Collections-Museum/Collections-Museum.html#" target="_blank" rel="noopener noreferrer">
-          Inventaire des collections
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="canton-cell" rowspan="2">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <polygon points="0,0 0,16 24,16" fill="#0033A0"/>
-          <polygon points="24,0 24,16 0,0" fill="#FFFFFF"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        ZH
-      </td>
-      <td>ETH Zurich</td>
-      <td>
-        <a href="https://nahima.ethz.ch/search" target="_blank" rel="noopener noreferrer">
-          Database of the natural history collections of the ETH Zurich
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>University of Zurich</td>
-      <td>
-        <a href="https://www.herbarien.uzh.ch/en/belegsuche.html" target="_blank" rel="noopener noreferrer">
-          Herbaria Z+ZT and ZSS
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<br><br>
 <style>
   /* Styles appliqués uniquement à ce tableau */
   table.institutions-catalogues {
@@ -215,7 +104,6 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
     text-decoration: underline;
   }
 </style>
-
 <div>
   <details style="
     background-color: #E8EBF8;
@@ -233,7 +121,7 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
       padding: 4px 0;
       outline: none;
     ">
-      Online catalogues of Swiss natural history institutions
+      Institutional catalogues
     </summary>
     <div style="
       margin-top: 10px;
@@ -243,22 +131,12 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
       <table class="institutions-catalogues">
         <thead>
           <tr>
-            <th>Canton</th>
             <th>Institution</th>
             <th>Online catalogue</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="canton-cell">
-              <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-                <rect width="24" height="16" fill="#D52B1E"/>
-                <rect x="10" y="3" width="4" height="10" fill="#fff"/>
-                <rect x="7" y="6" width="10" height="4" fill="#fff"/>
-                <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-              </svg>
-              CH
-            </td>
             <td>The Global Genome Biodiversity Network</td>
             <td>
               <a href="https://www.ggbn.org/ggbn_portal/" target="_blank" rel="noopener noreferrer">
@@ -267,14 +145,6 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
             </td>
           </tr>
           <tr>
-            <td class="canton-cell" rowspan="3">
-              <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-                <rect width="24" height="16" fill="#D52B1E"/>
-                <path d="M24 16 L0 0" stroke="#FFCC00" stroke-width="8" fill="none"/>
-                <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-              </svg>
-              BE
-            </td>
             <td>Herbarium of the Botanical Garden of the University of Bern</td>
             <td>
               <a href="https://herbarium-bernense.ch" target="_blank" rel="noopener noreferrer">
@@ -298,18 +168,6 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
             </td>
           </tr>
           <tr>
-            <td class="canton-cell" rowspan="2">
-              <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-                <rect x="12" width="12" height="3" fill="#D52B1E"/>
-                <rect x="12" y="3" width="12" height="3" fill="#fff"/>
-                <rect x="12" y="6" width="12" height="3" fill="#D52B1E"/>
-                <rect x="12" y="9" width="12" height="3" fill="#fff"/>
-                <rect x="12" y="12" width="12" height="3" fill="#D52B1E"/>
-                <path d="M5 7 C2 3 7 3 7 4 L7 14" stroke="#D52B1E" stroke-width="2" fill="none"/>
-                <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-              </svg>
-              JU
-            </td>
             <td rowspan="2">Jurassica</td>
             <td>
               <a href="https://collections.jurassica.ch/" target="_blank" rel="noopener noreferrer">
@@ -325,14 +183,6 @@ Swiss institutions maintain their own online catalogues. Explore them to learn m
             </td>
           </tr>
           <tr>
-            <td class="canton-cell" rowspan="2">
-              <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-                <polygon points="0,0 0,16 24,16" fill="#0033A0"/>
-                <polygon points="24,0 24,16 0,0" fill="#FFFFFF"/>
-                <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-              </svg>
-              ZH
-            </td>
             <td>ETH Zurich</td>
             <td>
               <a href="https://nahima.ethz.ch/search" target="_blank" rel="noopener noreferrer">
