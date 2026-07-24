@@ -1,6 +1,6 @@
 ---
 layout: compose
-title: Biology and <br> Paleontology Collections
+title: Biology and <br> Paleontology
 permalink: /en/explore-biology-paleontology
 background:  "{{ site.data.images.exploreBiolPal.src }}"
 imageLicense: "{{ site.data.images.exploreBiolPal.caption }}"
@@ -29,6 +29,23 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td class="canton-cell">
+        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="16" fill="#D52B1E"/>
+          <rect x="10" y="3" width="4" height="10" fill="#fff"/>
+          <rect x="7" y="6" width="10" height="4" fill="#fff"/>
+          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
+        </svg>
+        CH
+      </td>
+      <td>The Global Genome Biodiversity Network</td>
+      <td>
+        <a href="https://zh-genomics-db.ch" target="_blank" rel="noopener noreferrer">
+          ZH Genomics Database
+        </a>
+      </td>
+    </tr>
     <tr>
       <td class="canton-cell" rowspan="3">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
@@ -63,23 +80,6 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
     <tr>
       <td class="canton-cell">
         <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
-          <rect width="24" height="16" fill="#D52B1E"/>
-          <rect x="10" y="3" width="4" height="10" fill="#fff"/>
-          <rect x="7" y="6" width="10" height="4" fill="#fff"/>
-          <rect width="24" height="16" fill="none" border="#fff" stroke="#000" stroke-width="1"/>
-        </svg>
-        CH
-      </td>
-      <td>The Global Genome Biodiversity Network</td>
-      <td>
-        <a href="https://zh-genomics-db.ch" target="_blank" rel="noopener noreferrer">
-          ZH Genomics Database
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td class="canton-cell">
-        <svg width="24" height="16" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
           <rect x="12" width="6" height="4" fill="#0057A8"/>
           <rect x="18" y="4" width="6" height="4" fill="#0057A8"/>
           <rect x="18" width="6" height="4" fill="#FFCC00"/>
@@ -91,11 +91,7 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
         GR
       </td>
       <td>no data</td>
-      <td>
-        <a href="https://i.imgflip.com/3zwlv.jpg?a495504" target="_blank" rel="noopener noreferrer">
-          no data
-        </a>
-      </td>
+      <td>no data</td>
     </tr>
     <tr>
       <td class="canton-cell" rowspan="2">
