@@ -57,10 +57,9 @@ You can search specimens across different domains:
     </a>
 </div>
 
-# Swiss Institutional Catalogues
+# Do institutions still have their own catalogues?
 
-
-Swiss institutions maintain their own online catalogues. Explore them to learn more about individual collections, or use the SwissNatColl portal to search specimen data across all participating institutions.
+Yes, Swiss institutions continue to maintain their own online databases, each offering information about their specific collections. At the same time, the SwissNatColl portal provides a single point of access for searching across collections from participating institutions. The catalogues below are listed for reference.
 <br>
 <style>
   /* Styles appliqués uniquement à ce tableau */
