@@ -9,6 +9,16 @@
 #    href: /en/about-organisation
   - text: Partners
     href: /en/about-partners
+
+- text: Explore Collections
+  menu:
+  - text: Biology & Paleontology
+    href: /en/explore-biology-paleontology
+  - text: Anthropology & Human Remains
+    href: /en/explore-anthropology
+  - text: Geosciences
+    href: /en/explore-geosciences
+
 - text: Find Data
   menu:
   - text: How to Find Data ?
@@ -30,15 +40,6 @@
     href: /en/how-to-publish-your-data
   - text: Aggregating Data
     href: /en/aggregating-data/
-
-- text: Explore Disciplines
-  menu:
-  - text: Biology & Paleontology
-    href: /en/explore-biology-paleontology
-  - text: Anthropology & Human Remains
-    href: /en/explore-anthropology
-  - text: Geosciences
-    href: /en/explore-geosciences
 
 #- text: Ressources
 #  menu:
