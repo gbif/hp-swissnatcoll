@@ -162,9 +162,10 @@ var siteConfig = {
     }
   ],
   "messages": {
-    "catalogues.OCCURRENCE": "SPECIMEN",
-    "search.tabs.gallery": "Images",
-    "filters.city.name": "City/town"
+    "en": {
+      "catalogues.occurrences": "Specimens",
+      "search.tabs.gallery": "Images"
+    },
   },
   "occurrenceSearch": {
     "scope": {
