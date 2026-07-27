@@ -3,6 +3,7 @@
 # pages > occurrenceSearch > path). This page only redirects the old URL so
 # existing links and bookmarks keep working.
 permalink: /occurrence/search
+title: Specimen search
 sitemap: false
 layout: null
 ---
