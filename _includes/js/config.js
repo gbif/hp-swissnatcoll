@@ -164,7 +164,8 @@ var siteConfig = {
   "messages": {
     "en": {
       "catalogues.occurrences": "Specimens",
-      "search.tabs.gallery": "Images"
+      "search.tabs.gallery": "Images",
+      "occurrenceSearch.title": "Specimen search"
     },
   },
   "occurrenceSearch": {
