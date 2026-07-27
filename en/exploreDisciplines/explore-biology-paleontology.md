@@ -23,7 +23,7 @@ In Switzerland, institutions hold nearly 60 million specimens in their biologica
 You can search specimens across different domains:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -31,7 +31,7 @@ You can search specimens across different domains:
         Zoology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -39,7 +39,7 @@ You can search specimens across different domains:
         Botany
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -47,7 +47,7 @@ You can search specimens across different domains:
         Mycology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">

@@ -16,7 +16,8 @@ var siteConfig = {
   "version": 3,
   "pages": [
     {
-      "id": "occurrenceSearch"
+      "id": "occurrenceSearch",
+      "path": "specimen/search"
     },
     {
       "id": "institutionSearch"

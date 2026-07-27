@@ -17,7 +17,7 @@ permalink: /en/how-to-find-data
 Three levels of information are available:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -48,7 +48,7 @@ Three levels of information are available:
 You can search biological and paleontological specimen data across different domains:
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 800px; margin: auto;">
-    <a href="/occurrence/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=1" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 20px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -56,7 +56,7 @@ You can search biological and paleontological specimen data across different dom
         Zoology
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=6" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -64,7 +64,7 @@ You can search biological and paleontological specimen data across different dom
         Botany
       </button>
     </a>
-    <a href="/occurrence/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&taxonKey=5" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -80,7 +80,7 @@ You can search biological and paleontological specimen data across different dom
         Anthropology<br>& Human Remains
       </button>
     </a>
-    <a href="/occurrence/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
+    <a href="/specimen/search?view=table&basisOfRecord=FOSSIL_SPECIMEN" style="text-decoration: none;" target="_blank">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px;"
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
@@ -102,18 +102,18 @@ You can explore the data in different ways:
 
 | Display mode | Definition  |
 | ------------- | ------------- |
-| _[Table view](/occurrence/search){:target="_blank"}_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
-| _[Map view](/occurrence/search?view=map){:target="_blank"}_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
-| _[Gallery view](/occurrence/search?view=gallery){:target="_blank"}_  | Browse pictures of specimens. |
-| _[Datasets](/occurrence/search?view=datasets){:target="_blank"}_  | See a list of collection datasets, corresponding to the collections registered in [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}. |
-| _[Dashboard](/occurrence/search?view=dashboard){:target="_blank"}_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
+| _[Table view](/specimen/search){:target="_blank"}_  | See a list of specimens, with each column showing different details about them. If an image is available for a specimen, it is indicated by an icon in the “Features” column. |
+| _[Map view](/specimen/search?view=map){:target="_blank"}_ | Find specimens by location. Click a dot to see a quick preview, and open it to view all the details. |
+| _[Gallery view](/specimen/search?view=gallery){:target="_blank"}_  | Browse pictures of specimens. |
+| _[Datasets](/specimen/search?view=datasets){:target="_blank"}_  | See a list of collection datasets, corresponding to the collections registered in [GRSciColl](https://scientific-collections.gbif.org/){:target="_blank"}. |
+| _[Dashboard](/specimen/search?view=dashboard){:target="_blank"}_  | Summarise data into lists or charts based on the field of your choice. This mode is available only for specimen records. |
 
 <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 0px;">
   <div style="width: 100%; font-size: 22px; line-height: 1.6; color: #333;">
     <p>Explore the gallery view</p>
   </div>
 
-  <a href="/occurrence/search?view=gallery"
+  <a href="/specimen/search?view=gallery"
      target="_blank"
      style="margin-top: 20px; display: block; width: 100%; aspect-ratio: 16 / 4; overflow: hidden; border-radius: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); border: 3px solid #eee;">
     <img 
@@ -135,7 +135,7 @@ You can apply filters to narrow your search. A core set of filters is displayed 
 
 # Downloading Data
 
-Only users with a GBIF account can download data (easily created for free). On the [specimens page](/occurrence/search){:target="_blank"}, the tab on the right at the top is [Download](/occurrence/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
+Only users with a GBIF account can download data (easily created for free). On the [specimens page](/specimen/search){:target="_blank"}, the tab on the right at the top is [Download](/specimen/search?view=DOWNLOAD){:target="_blank"}. Clicking on it redirects you to the GBIF.org download page. Note that any filters you have applied on the SwissNatColl data page are automatically transferred, so you can easily download only the data you’re interested in.
 
 For more information, see the page on [GBIF data processing](https://www.gbif.org/data-processing){:target="_blank"}
 

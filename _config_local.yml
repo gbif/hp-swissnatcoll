@@ -1,0 +1,18 @@
+# Local-only overrides for `jekyll serve`. NOT used by the deployed build.
+# Run with:  --config _config.yml,_config_local.yml
+#
+# Why this exists:
+# The theme (themeHead.html) only emits a working GBIF components <script> when
+# `site.gbifApacheInclude.componentsScript` is defined — which normally happens
+# because GBIF's hosting layer injects it at deploy time. Locally that variable
+# is undefined, so the theme falls back to a hardcoded tag that loads
+# react-components.gbif-staging.org WITH a `crossorigin` attribute. That staging
+# host sends no Access-Control-Allow-Origin header, so the browser blocks the
+# script under CORS -> `gbifReactComponents is not defined` -> config.js throws
+# -> `siteConfig` is never defined -> React never mounts.
+#
+# Defining it here makes the theme emit our own tag WITHOUT `crossorigin`, which
+# loads cross-origin in no-cors mode and executes fine (this mirrors what the
+# live site does).
+gbifApacheInclude:
+  componentsScript: '<script type="text/javascript" src="https://react-components.gbif-staging.org/lib/gbif-react-components.js"></script>'
