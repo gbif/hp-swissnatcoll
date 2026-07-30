@@ -274,11 +274,10 @@ var siteConfig = {
     },
     "highlightedFilters": [
       "q",
-      "literatureType",
-      "relevance",
-      "countriesOfResearcher",
-      "countriesOfCoverage",
-      "year"
+      "source",
+      "year",
+      "gbifDatasetKey",
+      "gbifTaxonKey",
     ]
   }
 };
