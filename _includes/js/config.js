@@ -268,10 +268,19 @@ var siteConfig = {
   "publisherSearch": {},
   "literatureSearch": {
     "scope": {
-      "publishingOrganizationKey": "9661d20d-86b6-4485-8948-f3c86b022fa7"
+      "type": "in",
+      "key": "publishingOrganizationKey",
+      "values": [
+        "9661d20d-86b6-4485-8948-f3c86b022fa7"
+      ]
     },
-    "excludedFilters": [
-      "country"
+    "highlightedFilters": [
+      "q",
+      "literatureType",
+      "relevance",
+      "countriesOfResearcher",
+      "countriesOfCoverage",
+      "year"
     ]
   }
 };
