@@ -270,7 +270,7 @@ var siteConfig = {
     "scope": {
       "type": "equals",
       "key": "publishingOrganizationKey",
-      "values": "9661d20d-86b6-4485-8948-f3c86b022fa7"
+      "value": "9661d20d-86b6-4485-8948-f3c86b022fa7"
     },
     "highlightedFilters": [
       "q",
