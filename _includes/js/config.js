@@ -277,7 +277,7 @@ var siteConfig = {
       "source",
       "year",
       "gbifDatasetKey",
-      "gbifTaxonKey",
+      "gbifTaxonKey"
     ]
   }
 };
