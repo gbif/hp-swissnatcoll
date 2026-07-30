@@ -45,7 +45,8 @@ var siteConfig = {
   "availableCatalogues": [
     "OCCURRENCE",
     "COLLECTION",
-    "INSTITUTION"
+    "INSTITUTION",
+    "LITERATURE"
   ],
   "dataHeader": {
     "enableApiPopup": true,
