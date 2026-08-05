@@ -136,6 +136,14 @@ Yes, Swiss institutions continue to maintain their own online databases, each of
         </thead>
         <tbody>
           <tr>
+            <td>Muséum d'Histoire Naturelle de Neuchâtel</td>
+            <td>
+              <a href="https://collection.museum-neuchatel.ch/public" target="_blank" rel="noopener noreferrer">
+                Collection Museum Neuchâtel
+              </a>
+            </td>
+          </tr>
+          <tr>
             <td>Herbarium of the Botanical Garden of the University of Bern</td>
             <td>
               <a href="https://herbarium-bernense.ch" target="_blank" rel="noopener noreferrer">
