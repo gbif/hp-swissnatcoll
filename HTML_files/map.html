@@ -2,166 +2,43 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Carte GBIF — taille selon l'incertitude de géoréférencement</title>
+  <title>Carte GBIF</title>
   <link href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" rel="stylesheet" />
   <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
   <style>
     body, html { margin: 0; padding: 0; height: 100%; }
     #map { width: 100%; height: 100%; }
-    #status {
-      position: absolute; top: 10px; left: 10px; z-index: 10;
-      background: white; padding: 6px 10px; border-radius: 4px;
-      font: 13px/1.3 sans-serif; box-shadow: 0 1px 4px rgba(0,0,0,.3);
-    }
-    .maplibregl-popup-content {
-      font: 13px/1.4 sans-serif;
-    }
   </style>
 </head>
 <body>
 <div id="map"></div>
-<div id="status">Chargement des occurrences…</div>
-
 <script>
-  // ------------------------------------------------------------------
-  // 1) PARAMÈTRES DE RECHERCHE GBIF — à adapter à ta collection
-  //    Doc des paramètres : https://www.gbif.org/developer/occurrence
-  // ------------------------------------------------------------------
-  const SEARCH_PARAMS = {
-    country: 'CH',              // ex: remplace par institutionCode / datasetKey / collectionCode
-    hasCoordinate: true,
-    hasGeospatialIssue: false,
-    // datasetKey: 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
-    // institutionCode: 'XXXX',
-    // taxonKey: 0,
-  };
-
-  const PAGE_LIMIT = 300;       // max autorisé par l'API GBIF search
-  const MAX_RECORDS = 3000;     // plafond de sécurité (voir note en bas)
-
-  // ------------------------------------------------------------------
-  // 2) RÉCUPÉRATION DES OCCURRENCES (pagination automatique)
-  // ------------------------------------------------------------------
-  async function fetchOccurrences() {
-    const features = [];
-    let offset = 0;
-    let endOfRecords = false;
-
-    while (!endOfRecords && offset < MAX_RECORDS) {
-      const qs = new URLSearchParams({
-        ...SEARCH_PARAMS,
-        limit: PAGE_LIMIT,
-        offset
-      });
-      const res = await fetch(`https://api.gbif.org/v1/occurrence/search?${qs}`);
-      if (!res.ok) throw new Error(`GBIF API error: ${res.status}`);
-      const data = await res.json();
-
-      for (const occ of data.results) {
-        if (occ.decimalLatitude == null || occ.decimalLongitude == null) continue;
-        features.push({
-          type: 'Feature',
-          geometry: {
-            type: 'Point',
-            coordinates: [occ.decimalLongitude, occ.decimalLatitude]
-          },
-          properties: {
-            key: occ.key,
-            scientificName: occ.scientificName || '(sans nom)',
-            institutionCode: occ.institutionCode || '',
-            coordinateUncertaintyInMeters: occ.coordinateUncertaintyInMeters ?? null,
-            eventDate: occ.eventDate || ''
-          }
-        });
-      }
-
-      endOfRecords = data.endOfRecords;
-      offset += PAGE_LIMIT;
-      document.getElementById('status').textContent =
-        `Chargement… ${features.length} occurrence(s)`;
-    }
-
-    return { type: 'FeatureCollection', features };
-  }
-
-  // ------------------------------------------------------------------
-  // 3) CARTE
-  // ------------------------------------------------------------------
   const map = new maplibregl.Map({
     container: 'map',
     style: {
       version: 8,
       sources: {
-        osm: {
-          type: 'raster',
-          tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-          tileSize: 256,
-          attribution: '© OpenStreetMap contributors'
+        gbif: {
+          type: 'vector',
+          tiles: [
+            "https://api.gbif.org/v2/map/occurrence/adhoc/{z}/{x}/{y}.mvt?style=scaled.circles&mode=GEO_CENTROID&srs=EPSG:3857&predicateHash=298821040"
+          ]
         }
       },
-      layers: [{ id: 'osm', type: 'raster', source: 'osm' }]
+      layers: [{
+        id: 'gbif-points',
+        type: 'circle',
+        source: 'gbif',
+        'source-layer': 'occurrence', // nom de layer interne
+        paint: {
+          'circle-radius': 4,
+          'circle-color': 'red',
+          'circle-opacity': 0.7
+        }
+      }]
     },
-    center: [8.2, 46.8], // Suisse — à adapter
-    zoom: 7
-  });
-
-  map.on('load', async () => {
-    let geojson;
-    try {
-      geojson = await fetchOccurrences();
-    } catch (err) {
-      document.getElementById('status').textContent = 'Erreur de chargement : ' + err.message;
-      return;
-    }
-
-    map.addSource('gbif-points', { type: 'geojson', data: geojson });
-
-    map.addLayer({
-      id: 'gbif-points-layer',
-      type: 'circle',
-      source: 'gbif-points',
-      paint: {
-        // Taille du point selon l'incertitude (en mètres).
-        // 'coalesce' évite qu'un point sans valeur connue disparaisse ou plante l'expression.
-        'circle-radius': [
-          'interpolate', ['linear'],
-          ['coalesce', ['get', 'coordinateUncertaintyInMeters'], 0],
-          0, 3,
-          50, 5,
-          500, 9,
-          5000, 16,
-          50000, 26
-        ],
-        'circle-color': 'red',
-        'circle-opacity': 0.6,
-        'circle-stroke-width': 1,
-        'circle-stroke-color': '#800000'
-      }
-    });
-
-    // Popup au clic avec le détail de l'occurrence
-    map.on('click', 'gbif-points-layer', (e) => {
-      const p = e.features[0].properties;
-      const uncertainty = p.coordinateUncertaintyInMeters
-        ? `${Math.round(p.coordinateUncertaintyInMeters)} m`
-        : 'inconnue';
-      new maplibregl.Popup()
-        .setLngLat(e.lngLat)
-        .setHTML(`
-          <strong>${p.scientificName}</strong><br>
-          ${p.institutionCode ? p.institutionCode + '<br>' : ''}
-          ${p.eventDate ? p.eventDate + '<br>' : ''}
-          Incertitude de géoréférencement : ${uncertainty}
-        `)
-        .addTo(map);
-    });
-
-    map.on('mouseenter', 'gbif-points-layer', () => map.getCanvas().style.cursor = 'pointer');
-    map.on('mouseleave', 'gbif-points-layer', () => map.getCanvas().style.cursor = '');
-
-    document.getElementById('status').textContent =
-      `${geojson.features.length} occurrence(s) affichée(s)`;
-    setTimeout(() => document.getElementById('status').style.display = 'none', 3000);
+    center: [0,0],
+    zoom: 2
   });
 </script>
 </body>
