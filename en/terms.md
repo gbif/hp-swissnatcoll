@@ -16,11 +16,11 @@ composition:
 
 ## 1. Introduction
 
-DAGI is a data aggregation software developed as part of the [SwissCollNet initiative](https://swisscollnet.scnat.ch/en){:target="_blank"} in collaboration with the GBIF Swiss Node ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}) and [info fauna](https://www.infofauna.ch/){:target="_blank"}. It enables institutions with scientific collections to upload their biodiversity data into a cloud infrastructure, which is hosted and deployed by GBIF.ch/info fauna. Once the data is stored in the cloud infrastructure it is transmitted via an API interface to [GBIF.org](https://www.gbif.org/){:target="_blank"}, where it is published and made globally accessible. These Terms of Use define the conditions for accessing and using DAGI. Users must explicitly agree to these terms upon first use before being granted access.
+DAGI is a data aggregation software developed as part of the [SwissCollNet initiative](https://swisscollnet.scnat.ch/en){:target="_blank"} in collaboration with GBIF Switzerland ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"}) and [info fauna](https://www.infofauna.ch/){:target="_blank"}. It enables institutions with scientific collections to upload their biodiversity data into a cloud infrastructure, which is hosted and deployed by GBIF.ch/info fauna. Once the data is stored in the cloud infrastructure it is transmitted via an API interface to [GBIF.org](https://www.gbif.org/){:target="_blank"}, where it is published and made globally accessible. These Terms of Use define the conditions for accessing and using DAGI. Users must explicitly agree to these terms upon first use before being granted access.
 
 ## 2. Definitions
 
-- “GBIF.ch” or “GBIF Swiss Node” refers to the organization mandated by the Confederation to respond to Switzerland's commitment to participate in the GBIF network and coordinate the in-country activities related to GBIF.
+- “GBIF.ch” or “GBIF Switzerland” refers to the organization mandated by the Confederation to respond to Switzerland's commitment to participate in the GBIF network and coordinate the in-country activities related to GBIF.
 - “GBIF” or “Global Biodiversity Information Facility” refers to the international network and data infrastructure funded by the world's governments and aims at providing anyone, anywhere, open access to data about all types of life on Earth.
 - “GBIF secretariat” refers to the GBIF employees who coordinate, operationalise, maintain and develop the activities of GBIF.
 - “Administrator” refers to the info fauna employees who operationalise the DAGI
@@ -85,7 +85,7 @@ These Terms of Use shall be governed and construed in accordance with the intern
 
 ## 8. Modifications and Contact
 
-The DAGI host organization (info fauna and GBIF Swiss Node) reserves the right to amend these Terms of Use from time to time. Any changes will be posted on this page, and your continued use of the DAGI after such changes constitutes acceptance of the new Terms.
+The DAGI host organization (info fauna and GBIF Switzerland) reserves the right to amend these Terms of Use from time to time. Any changes will be posted on this page, and your continued use of the DAGI after such changes constitutes acceptance of the new Terms.
 
 For any questions or concerns about these Terms, please email [contact@gbif.ch](mailto:contact@gbif.ch).
 
