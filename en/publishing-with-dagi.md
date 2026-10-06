@@ -31,13 +31,13 @@ In parallel, you may benefit from the Infospecies data centers experts by [sendi
 
 > Example: [Conservatoire et Jardin botaniques de Genève](https://scientific-collections.gbif.org/institution/d200fcbc-972e-4488-bcb6-eaa47209148d){:target="_blank"}
 
-⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
+⚠️ If your institution is not registered on GRSciColl, please contact [GBIF Switzerland](mailto:contact@gbif.ch).
 
 <br>✅ My **collection** is **registered in my institution on [GRSciColl](https://scientific-collections.gbif.org/collection/search?country=CH){:target="_blank"}**.
 
 > Example: [Herbarium – De Candolle's Prodromus](https://scientific-collections.gbif.org/collection/8d09b714-dbb5-4dda-976f-f2f804421f02){:target="_blank"}
 
-⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please contact [GBIF Swiss Node](mailto:contact@gbif.ch).
+⚠️ If your collection is not registered on GRSciColl or it needs adjustments, please contact [GBIF Switzerland](mailto:contact@gbif.ch).
 
 
 <br>✅ **At least [one _Collection Administrator_ of my institution](/en/data-aggregator-faqs#what-are-the-different-roles-of-the-user-profile-on-the-data-aggregator){:target="_blank"}** is already **registered in DAGI**.
