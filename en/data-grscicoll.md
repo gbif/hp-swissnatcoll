@@ -23,7 +23,7 @@ The [Global Registry of Scientific Collections](https://scientific-collections.g
 
 On all of your institution and collection pages, the <button>Edit</button> button is available. Clicking on it sends you to the [GBIF Registry](https://registry.gbif.org/){:target="_blank"}, a data management tool for the GBIF network, including GRSciColl. There, the Suggest sliding button allows you to edit information about your institution/collection.
 
-After providing your email and name, as well as the reason of your suggestions, the GBIF Mediator of Switzerland (Staff member of the GBIF swiss node) will review your suggestion. In case of question, they will contact you directly.
+After providing your email and name, as well as the reason of your suggestions, the GBIF Mediator of Switzerland (Staff member of GBIF Switzerland) will review your suggestion. In case of question, they will contact you directly.
 
 ### What if I can't find the element I want to edit in the Suggestion system?
 
