@@ -15,8 +15,7 @@ Source: [National significance of natural history collections in Switzerland](ht
 
 ## Research and Knowledge sharing
 
-* GBIF Swiss Node hosted portal ([SwissBIF](https://swiss-bif.hp.gbif.org/){:target="_blank"})
-* GBIF Swiss Node official page ([GBIF.ch](https://www.gbif.org/country/CH/summary){:target="_blank"})
+* GBIF Switzerland hosted portal ([GBIF.ch](https://gbif.ch/){:target="_blank"})
 * Swiss Association of Natural History Museums ([musnatcoll.ch](https://musnatcoll.ch/en){:target="_blank"})
 * Swiss Systematics Society ([SSS](https://swiss-systematics.ch/en){:target="_blank"})
 * Swiss Centre for Species Information ([InfoSpecies](https://www.infospecies.ch/fr/){:target="_blank"})
