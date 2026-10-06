@@ -38,8 +38,8 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # For use by the 'standardPrivacy' layout
 privacy:
-  name: GBIF Swiss Node
-  domain: https://www.gbif.org/country/CH/participation
+  name: GBIF Switzerland
+  domain: https://www.gbif.ch
   contactEmail: contact@gbif.ch
   helpdeskEmail: contact@gbif.ch
 
