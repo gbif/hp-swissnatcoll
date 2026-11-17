@@ -43,26 +43,4 @@ While the SwissNatColl portal provides a direct access to fossil specimen data, 
     </a>
 </div>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
-
-<style>
-  .collection-card a { color: #111; }
-  .collection-card a:hover { color: #576bc0; }
-</style>
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; width: 100%;">
-  <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
-    <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-layers" style="color: #333;"></i></div>
-    <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
-      <a href="/collection/search?contentType=Minerals&contentType=Rocks&contentType=EarthPlanetary" target="_blank">Earth sciences collections</a>
-    </div>
-  </div>
-  <div class="collection-card" style="background: #f4e6cc; border-radius: 12px; padding: 1.2rem;">
-    <div style="font-size: 20px; margin-bottom: 8px;"><i class="ti ti-world" style="color: #333;"></i></div>
-    <div style="font-size: 16px; font-weight: bold; margin-bottom: 6px;">
-      <a href="" target="_blank" text-decoration: none; pointer-events: none;>Swissgeol</a>
-    </div>
-  </div>
-</div>
-
 {% include back-to-top.html %}
