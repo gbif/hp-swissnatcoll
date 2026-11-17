@@ -10,7 +10,7 @@ composition:
   - type: heroImage
   - type: pageMarkdown
 ---
-[Switzerland’s natural history collections](/collection/search){:target="_blank"} hold more than 60 million specimens, spanning a wide range of disciplines (zoology, botany, mycology, paleontology, geology, and anthropology). About one third of these specimens originate from Switzerland, while the remaining two-thirds come from around the world. This shared heritage, built over more than 300 years, preserves a unique record of biological and geological diversity and serves as an invaluable resource for science and society.
+[Switzerland’s natural history collections](/collection/search){:target="_blank"} hold more than 60 million specimens, spanning a wide range of disciplines (zoology, botany, mycology, palaeontology, geology, and anthropology). About one third of these specimens originate from Switzerland, while the remaining two-thirds come from around the world. This shared heritage, built over more than 300 years, preserves a unique record of biological and geological diversity and serves as an invaluable resource for science and society.
 
 
 The SwissNatColl portal provides open access to data on biological and paleontological specimens curated in Swiss institutions. It also offers a direct link to the registry of collections and institutions where these specimens are preserved.
