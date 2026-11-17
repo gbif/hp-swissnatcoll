@@ -139,21 +139,6 @@ Links to individual institutional catalogues are provided below
         </thead>
         <tbody>
           <tr>
-            <td  rowspan="2">Muséum of Natural History of Neuchâtel</td>
-            <td>
-              <a href="https://collection.museum-neuchatel.ch/public" target="_blank" rel="noopener noreferrer">
-                Collection Museum Neuchâtel
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <a href="https://commons.wikimedia.org/wiki/Category:Collection_of_fish_fossils_created_by_Louis_Agassiz" target="_blank" rel="noopener noreferrer">
-                Wikimedia Collection of fish fossils created by Louis Agassiz
-              </a>
-            </td>
-          </tr>
-          <tr>
             <td>Herbarium of the Botanical Garden of the University of Bern</td>
             <td>
               <a href="https://herbarium-bernense.ch" target="_blank" rel="noopener noreferrer">
@@ -177,6 +162,14 @@ Links to individual institutional catalogues are provided below
             </td>
           </tr>
           <tr>
+            <td>Botanical Garden of Geneva</td>
+            <td>
+              <a href="https://collections.geneve.ch/jardinbotaniquegeneve/herbier/?lang=en">
+                Geneva herbarium catalogue
+              </a>
+            </td>
+          </tr>
+          <tr>
             <td rowspan="2">Jurassica</td>
             <td>
               <a href="https://collections.jurassica.ch/" target="_blank" rel="noopener noreferrer">
@@ -188,6 +181,37 @@ Links to individual institutional catalogues are provided below
             <td>
               <a href="https://www.jurassica.ch/fr/Museum/Collections-Museum/Collections-Museum.html#" target="_blank" rel="noopener noreferrer">
                 Inventaire des collections
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td  rowspan="2">Muséum of Natural History of Neuchâtel</td>
+            <td>
+              <a href="https://collection.museum-neuchatel.ch/public" target="_blank" rel="noopener noreferrer">
+                Collection Museum Neuchâtel
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://commons.wikimedia.org/wiki/Category:Collection_of_fish_fossils_created_by_Louis_Agassiz" target="_blank" rel="noopener noreferrer">
+                Wikimedia Collection of fish fossils created by Louis Agassiz
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Kantonale Mittelschule Uri</td>
+            <td>
+              <a href="https://naturmuseum.kmsu.ch/">
+                Naturkundemuseum Online
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Museum of Nature of Valais</td>
+            <td>
+              <a href="https://www.vallesiana.ch/patrimoine/recherche-14.html?size=n_20_n&filters%5B0%5D%5Bfield%5D=domain&filters%5B0%5D%5Bvalues%5D%5B0%5D=Mus%C3%A9es%20cantonaux%20du%20Valais%20%2F%20Mus%C3%A9e%20de%20la%20Nature%20du%20Valais%2C%20Sion&filters%5B0%5D%5Btype%5D=any&filters%5B0%5D%5Bpersistent%5D=false">
+                Vallesiana
               </a>
             </td>
           </tr>
@@ -204,30 +228,6 @@ Links to individual institutional catalogues are provided below
             <td>
               <a href="https://www.herbarien.uzh.ch/en/belegsuche.html" target="_blank" rel="noopener noreferrer">
                 Herbaria Z+ZT and ZSS
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>Botanical Garden of Geneva</td>
-            <td>
-              <a href="https://collections.geneve.ch/jardinbotaniquegeneve/herbier/?lang=en">
-                Geneva herbarium catalogue
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>Museum of Nature of Valais</td>
-            <td>
-              <a href="https://www.vallesiana.ch/patrimoine/recherche-14.html?size=n_20_n&filters%5B0%5D%5Bfield%5D=domain&filters%5B0%5D%5Bvalues%5D%5B0%5D=Mus%C3%A9es%20cantonaux%20du%20Valais%20%2F%20Mus%C3%A9e%20de%20la%20Nature%20du%20Valais%2C%20Sion&filters%5B0%5D%5Btype%5D=any&filters%5B0%5D%5Bpersistent%5D=false">
-                Vallesiana
-              </a>
-            </td>
-          </tr>
-          <tr>
-            <td>Kantonale Mittelschule Uri</td>
-            <td>
-              <a href="https://naturmuseum.kmsu.ch/">
-                Naturkundemuseum Online
               </a>
             </td>
           </tr>
