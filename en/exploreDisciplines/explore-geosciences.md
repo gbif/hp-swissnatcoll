@@ -37,7 +37,7 @@ While the SwissNatColl portal provides a direct access to fossil specimen data, 
     <!-- À remettre : href="LIEN" target="_blank" et retirer pointer-events: none -->
     <a style="text-decoration: none; pointer-events: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: default; display: flex; flex-direction: column; align-items: center; gap: 6px;">
-        <img src="https://www.nopcommerce.com/fr/coming-soon-page?srsltid=AYCX9vLl8SOT13GLHPGt1tRxn0jbJh6kTk5YlO7J7wRoP1zoIwtd58SW" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
+        <img src="/assets/images/logos/logoSGC_cut_AM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
         Swissgeol
       </button>
     </a>
