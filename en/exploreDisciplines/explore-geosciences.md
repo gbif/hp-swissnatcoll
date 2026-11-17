@@ -38,7 +38,7 @@ While the SwissNatColl portal provides a direct access to fossil specimen data, 
     <a style="text-decoration: none; pointer-events: none;">
       <button style="padding: 10px 40px; font-size: 24px; border: 2px solid white; border-radius: 4px; background-color: transparent; color: #333; cursor: default; display: flex; flex-direction: column; align-items: center; gap: 6px;">
         <img src="/assets/images/logos/logoSGC_cut_AM.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        Swissgeol
+        Earth sciences portal
       </button>
     </a>
 </div>
