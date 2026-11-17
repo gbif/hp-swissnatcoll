@@ -13,7 +13,9 @@ composition:
 ---
 # Overview
 
-Biological collections comprise specimens of animals, plants and fungi, while palaeontological collections preserve fossils of organisms from Earth’s past. Together with archaeobiological collections, they provide essential reference material for identifying, describing and naming species, and for understanding their evolution and ecological interactions. These collections constitute a unique archive of life on Earth, documenting biodiversity and its changes over time. They also serve as biobanks, preserving biological and genetic material for future research. Beyond taxonomy and systematics, they are invaluable resources for research in fields such as climate change, biodiversity conservation, environmental monitoring, invasive species, human health and sustainable agriculture.
+Biological collections comprise specimens of animals, plants and fungi, while palaeontological collections preserve fossils of organisms from Earth’s past. Together with archaeobiological collections, they provide essential reference material for identifying, describing and naming species, and for understanding their evolution and ecological interactions.
+
+These collections constitute a unique archive of life on Earth, documenting biodiversity and its changes over time. They also serve as biobanks, preserving biological and genetic material for future research. Beyond taxonomy and systematics, they are invaluable resources for research in fields such as climate change, biodiversity conservation, environmental monitoring, invasive species, human health and sustainable agriculture.
 
 # In Switzerland
 Swiss institutions hold nearly 60 million biological and palaeontological specimens, representing an extraordinary wealth of biodiversity from Switzerland and around the world. The SwissNatColl portal provides free access to data on more than 3 million of these specimens, with new records continuously being added.
@@ -59,8 +61,8 @@ Explore specimens across four domains:
 # Do institutions still have their own catalogues?
 
 Yes, Swiss institutions continue to maintain their own online collection catalogues, providing detailed information about their holdings. SwissNatColl complements these institutional databases by offering a single point of access to specimen data from participating institutions, allowing users to search across multiple collections through one portal.
-Links to individual institutional catalogues are provided below
 
+Links to individual institutional catalogues are provided below
 <br>
 <style>
   /* Styles appliqués uniquement à ce tableau */
