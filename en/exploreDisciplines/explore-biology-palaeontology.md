@@ -1,7 +1,7 @@
 ---
 layout: compose
-title: Biology and <br> Paleontology
-permalink: /en/explore-biology-paleontology
+title: Biology and <br> Palaeontology
+permalink: /en/explore-biology-palaeontology
 background:  "{{ site.data.images.exploreBiolPal.src }}"
 imageLicense: "{{ site.data.images.exploreBiolPal.caption }}"
 overlayColor: transparent
@@ -53,7 +53,7 @@ Explore specimens across four domains:
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-paleonthology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        Paleontology
+        Palaeontology
       </button>
     </a>
 </div>
