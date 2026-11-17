@@ -16,7 +16,7 @@ toc: true
 | **endOfPeriodMonth** | GBIFch | Month marking the end of the date interval | 5 (if the verbatimEventDate were June 1855) |
 | **endOfPeriodYear** | GBIFch | Year marking the end of the date interval | 1855 (if the verbatimEventDate were June 1855) |
 
-# Paleontology
+# Palaeontology
 
 | Attribute | Source | Definition | Example |
 | --------- | ------ | ---------- | ------- |
