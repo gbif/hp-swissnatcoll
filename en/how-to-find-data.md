@@ -85,7 +85,7 @@ You can search biological and paleontological specimen data across different dom
               onmouseover="this.style.color='{{ site.data.colors.siteColor.background }}';"
               onmouseout="this.style.color='#333';">
         <img src="/assets/images/Illustrations_CochetA/SCN-icones-paleonthology.png" alt="icon" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;">
-        Paleontology
+        Palaeontology
       </button>
     </a>
 </div>
