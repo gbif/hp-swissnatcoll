@@ -885,12 +885,6 @@ Here are the Thesaurii available in DAGI:
       <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>iucnredlistcategory</em></td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Add Institution Code</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><a href="https://techdocs.gbif.org/en/openapi/v1/registry" target="blank">GBIF Registry API</a> (<a href="https://scientific-collections.gbif.org/" target="blank">GRSciColl</a>)</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">(Records being encoded)</td>
-      <td style="border: 1px solid black; padding: 5px; text-align: left;"><em>institutionCode, institutionID</em></td>
-    </tr>
-    <tr>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top; font-weight:bold;">Relate Images</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;">DAGI Media Store</td>
       <td style="border: 1px solid black; padding: 5px; text-align: left; vertical-align: top;"><em>catalogNumber</em></td>
