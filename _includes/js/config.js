@@ -64,10 +64,10 @@ var siteConfig = {
   "maps": {
     "locale": "en",
     "mapStyles": {
-      "defaultProjection": "EPSG_4326",
+      "defaultProjection": "PLATE_CARREE",
       "defaultMapStyle": "NATURAL",
       "options": {
-        "EPSG_4326": [
+        "PLATE_CARREE": [
           "NATURAL",
           "BRIGHT",
           "SWISSTOPO",
@@ -77,7 +77,7 @@ var siteConfig = {
       }
     },
     "styleLookup": {
-      "EPSG_4326": {
+      "PLATE_CARREE": {
         "SWISSTOPO": "SWISSTOPO",
         "COLORCHART": "COLORCHART",
         "BLUELIGHT": "BLUELIGHT"
