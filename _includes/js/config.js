@@ -64,10 +64,10 @@ var siteConfig = {
   "maps": {
     "locale": "en",
     "mapStyles": {
-      "defaultProjection": "MERCATOR",
+      "defaultProjection": "EPSG_4326",
       "defaultMapStyle": "NATURAL",
       "options": {
-        "MERCATOR": [
+        "EPSG_4326": [
           "NATURAL",
           "BRIGHT",
           "SWISSTOPO",
@@ -77,7 +77,7 @@ var siteConfig = {
       }
     },
     "styleLookup": {
-      "MERCATOR": {
+      "EPSG_4326": {
         "SWISSTOPO": "SWISSTOPO",
         "COLORCHART": "COLORCHART",
         "BLUELIGHT": "BLUELIGHT"
