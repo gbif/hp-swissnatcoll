@@ -64,10 +64,10 @@ var siteConfig = {
   "maps": {
     "locale": "en",
     "mapStyles": {
-      "defaultProjection": "PLATE_CARREE",
+      "defaultProjection": "MERCATOR",
       "defaultMapStyle": "NATURAL",
       "options": {
-        "PLATE_CARREE": [
+        "MERCATOR": [
           "NATURAL",
           "BRIGHT",
           "SWISSTOPO",
@@ -77,7 +77,7 @@ var siteConfig = {
       }
     },
     "styleLookup": {
-      "PLATE_CARREE": {
+      "MERCATOR": {
         "SWISSTOPO": "SWISSTOPO",
         "COLORCHART": "COLORCHART",
         "BLUELIGHT": "BLUELIGHT"
